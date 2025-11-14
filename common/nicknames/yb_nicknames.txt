@@ -1,0 +1,3 @@
+﻿# YBC+ Nick Names
+nick_inanch_alp_bilge = {}
+nick_bilge = { is_prefix = yes }

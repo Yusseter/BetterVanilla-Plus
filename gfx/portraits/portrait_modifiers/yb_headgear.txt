@@ -1,0 +1,897 @@
+﻿yb_headgears = {
+
+	usage = game
+	selection_behavior = weighted_random
+	priority = 1
+	sp4_mena_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = sp4_mena_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = -100
+				has_sp4_dlc_trigger = yes
+				portrait_royalty_trigger = {
+					CULTURE_INPUT = mena
+				}
+			}
+			modifier = {
+				add = -60
+				has_sp4_dlc_trigger = yes
+				portrait_royalty_trigger = {
+					CULTURE_INPUT = turkic
+				}
+			}
+			modifier = {
+				add = 60
+            	scope:faith.religion = religion:islam_religion
+				has_sp4_dlc_trigger = yes
+				portrait_royalty_trigger = {
+					CULTURE_INPUT = turkic
+				}
+				scope:culture = { has_clothing_gfx = yb_timurid_clothing_gfx }
+			}
+			modifier = {
+				add = 60
+            	scope:faith.religion = religion:islam_religion
+				has_sp4_dlc_trigger = yes
+				portrait_royalty_trigger = {
+					CULTURE_INPUT = turkic
+				}
+				scope:culture = { has_clothing_gfx = yb_timurid_clothing_gfx }
+				is_female = yes
+			}
+		}
+	}
+
+	yb_turkic_fur_hat_1 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = mpo_mongol_commoner
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 15
+				OR = {
+					portrait_low_nobles_clothing_trigger = {
+						CULTURE_INPUT = steppe
+					}
+					portrait_commoner_clothing_trigger = {
+						CULTURE_INPUT = steppe
+					}
+				}
+				NOT = {
+					portrait_low_nobles_clothing_trigger = {
+						CULTURE_INPUT = turkic
+					}
+				}
+				NOT = {
+					portrait_commoner_clothing_trigger = {
+						CULTURE_INPUT = turkic
+					}
+				}
+			}
+            modifier = {
+                add = -200
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_era3_trigger = yes
+                    portrait_era4_trigger = yes
+                }
+            }
+		}
+	}
+
+	yb_mongol_fur_hat_2 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = steppe_common
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 15
+				OR = {
+					portrait_low_nobles_clothing_trigger = {
+						CULTURE_INPUT = steppe
+					}
+					portrait_commoner_clothing_trigger = {
+						CULTURE_INPUT = steppe
+					}
+				}
+				NOT = {
+					portrait_low_nobles_clothing_trigger = {
+						CULTURE_INPUT = turkic
+					}
+				}
+				NOT = {
+					portrait_commoner_clothing_trigger = {
+						CULTURE_INPUT = turkic
+					}
+				}
+			}
+            modifier = {
+                add = -200
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_era3_trigger = yes
+                    portrait_era4_trigger = yes
+                }
+            }
+		}
+	}
+
+	yb_turkic_fur_hat_1 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = fp3_turkic_low_nobility
+				accessory = male_Turkic_Fur_Cap_01
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 25
+				OR = {
+					portrait_low_nobles_clothing_trigger = {
+						CULTURE_INPUT = turkic
+					}
+					portrait_commoner_clothing_trigger = {
+						CULTURE_INPUT = turkic
+					}
+				}
+			}
+            modifier = {
+                add = -200
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_era3_trigger = yes
+                    portrait_era4_trigger = yes
+                }
+            }
+		}
+	}
+
+	yb_turkic_fur_hat_2 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = fp3_turkic_low_nobility
+				accessory = male_Turkic_Fur_Cap_02
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 25
+				OR = {
+					portrait_low_nobles_clothing_trigger = {
+						CULTURE_INPUT = turkic
+					}
+					portrait_commoner_clothing_trigger = {
+						CULTURE_INPUT = turkic
+					}
+				}
+			}
+            modifier = {
+                add = -200
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_era3_trigger = yes
+                    portrait_era4_trigger = yes
+                }
+            }
+		}
+	}
+
+	yb_turkic_fur_hat_3 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = fp3_turkic_low_nobility
+				accessory = male_Turkic_Fur_Cap_03
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 25
+				OR = {
+					portrait_low_nobles_clothing_trigger = {
+						CULTURE_INPUT = turkic
+					}
+					portrait_commoner_clothing_trigger = {
+						CULTURE_INPUT = turkic
+					}
+				}
+			}
+            modifier = {
+                add = -200
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_era3_trigger = yes
+                    portrait_era4_trigger = yes
+                }
+            }
+		}
+	}
+
+	yb_turkic_fur_hat_4 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = fp3_turkic_low_nobility
+				accessory = male_Turkic_Fur_Cap_04
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 25
+				OR = {
+					portrait_low_nobles_clothing_trigger = {
+						CULTURE_INPUT = turkic
+					}
+					portrait_commoner_clothing_trigger = {
+						CULTURE_INPUT = turkic
+					}
+				}
+			}
+            modifier = {
+                add = -200
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_era3_trigger = yes
+                    portrait_era4_trigger = yes
+                }
+            }
+		}
+	}
+
+	yb_turkic_fur_hat_5 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = fp3_turkic_low_nobility
+				accessory = male_Turkic_Fur_Cap_05
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 25
+				OR = {
+					portrait_low_nobles_clothing_trigger = {
+						CULTURE_INPUT = turkic
+					}
+					portrait_commoner_clothing_trigger = {
+						CULTURE_INPUT = turkic
+					}
+				}
+			}
+            modifier = {
+                add = -200
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_era3_trigger = yes
+                    portrait_era4_trigger = yes
+                }
+            }
+		}
+	}
+
+	mpo_mongol_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = mpo_mongol_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = steppe }
+			modifier = {
+				add = 50
+				portrait_low_nobles_clothing_trigger = {
+					CULTURE_INPUT = turkic
+				}
+				scope:culture = { has_clothing_gfx = yb_eastern_steppe_clothing_gfx }
+				has_mpo_dlc_trigger = yes
+				is_female = yes
+			}
+            modifier = {
+                add = -200
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_era3_trigger = yes
+                    portrait_era4_trigger = yes
+                }
+            }
+		}
+	}
+
+	mpo_mongol_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = mpo_mongol_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+			    mode = add
+			    gene = headgear_2
+			    template = no_headgear
+			    range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				portrait_high_nobles_headgear_trigger = {
+					CULTURE_INPUT = turkic
+				}
+				scope:culture = { has_clothing_gfx = yb_eastern_steppe_clothing_gfx }
+				has_mpo_dlc_trigger = yes
+				is_female = yes
+			}
+            modifier = {
+                add = -200
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_era3_trigger = yes
+                    portrait_era4_trigger = yes
+                }
+            }
+		}
+	}
+	
+	mpo_mongol_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = mpo_mongol_imperial
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				factor = 0
+				portrait_royalty_trigger = {
+					CULTURE_INPUT = steppe
+				}
+			}
+			modifier = {
+				add = 50
+				portrait_imperial_trigger = {
+					CULTURE_INPUT = turkic
+				}
+				scope:culture = { has_clothing_gfx = yb_eastern_steppe_clothing_gfx }
+				has_mpo_dlc_trigger = yes
+			}
+            modifier = {
+                add = -200
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_era3_trigger = yes
+                    portrait_era4_trigger = yes
+                }
+            }
+		}
+	}
+
+	steppe_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = steppe_high_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10
+				portrait_high_nobles_headgear_trigger = {
+					CULTURE_INPUT = steppe
+				}
+				scope:culture = { has_clothing_gfx = yb_eastern_steppe_clothing_gfx }
+			}
+			modifier = {
+				add = -10
+				has_mpo_dlc_trigger = yes
+			}
+            modifier = {
+                add = -200
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_era3_trigger = yes
+                    portrait_era4_trigger = yes
+                }
+            }
+		}
+	}
+
+	steppe_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = steppe_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				factor = 0
+				OR = {
+					portrait_imperial_trigger = {
+						CULTURE_INPUT = steppe
+					}
+					steppe_royalty = {
+						CULTURE_INPUT = turkic
+					}
+					portrait_imperial_trigger = {
+						CULTURE_INPUT = turkic
+					}
+				}
+			}
+			modifier = {
+				add = -10
+				has_mpo_dlc_trigger = yes
+			}
+            modifier = {
+                add = -200
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_era3_trigger = yes
+                    portrait_era4_trigger = yes
+                }
+            }
+		}
+	}
+
+	fp3_iranian_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = fp3_iranian_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				factor = 0
+				portrait_royalty_trigger = {
+					CULTURE_INPUT = turkic
+				}
+			}
+		}
+	}
+
+	fp3_iranian_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = fp3_iranian_imperial
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				factor = 0
+				portrait_imperial_trigger = {
+					CULTURE_INPUT = turkic
+				}
+			}
+		}
+	}
+
+	ep1_steppe_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = ep1_steppe_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+			    mode = add
+			    gene = headgear_2
+			    template = no_headgear
+			    range = { 0 1 }
+			}
+		}
+
+		weight = {
+			base = 0
+			modifier = {
+				factor = 0
+				portrait_imperial_trigger = {
+					CULTURE_INPUT = turkic
+				}
+			}
+			modifier = {
+				add = 5
+                OR = {
+					AND = {
+						portrait_royalty_trigger = {
+							CULTURE_INPUT = turkic
+						}
+                		scope:culture = { has_clothing_gfx = yb_western_steppe_clothing_gfx }
+					}
+					AND = {
+						portrait_royalty_trigger = {
+							CULTURE_INPUT = turkic
+						}
+                		scope:faith.religion = religion:islam_religion
+					}
+					portrait_royalty_trigger = {
+						CULTURE_INPUT = epe_seljuk
+					}
+				}			
+			}
+		}
+	}
+
+	cfp_oghuz_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = cfp_oghuz_low_nobility
+				range = { 0 1 }
+			}
+			accessory = {
+			    mode = add
+			    gene = headgear
+			    template = no_headgear
+			    range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = cfp_oghuz } 
+			modifier = {
+				add = -60
+				portrait_high_nobles_headgear_trigger = {
+					CULTURE_INPUT = cfp_oghuz
+				}
+				add = 120
+				portrait_high_nobles_headgear_trigger = {
+					CULTURE_INPUT = yb_turkmen
+				}
+			}
+			modifier = {
+				add = -60
+				OR = {
+					portrait_low_nobles_clothing_trigger = {  
+						CULTURE_INPUT = epe_seljuk 
+					}
+					portrait_low_nobles_clothing_trigger = {  
+						CULTURE_INPUT = epe_uyghur 
+					}
+				}
+			}
+            modifier = {
+                add = -200
+                scope:faith.religion = religion:islam_religion
+                portrait_era4_trigger = yes
+            }
+		}
+	}
+
+	cfp_oghuz_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = cfp_oghuz_high_nobility
+				range = { 0 1 }
+			}
+			accessory = {
+			    mode = add
+			    gene = headgear
+			    template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = -101
+                portrait_high_nobles_headgear_trigger = {
+                    CULTURE_INPUT = cfp_oghuz
+                }
+				add = 202
+                portrait_high_nobles_headgear_trigger = {
+                    CULTURE_INPUT = yb_turkmen
+                }
+			}
+			modifier = {
+				add = -51
+				OR = {
+					portrait_high_nobles_headgear_trigger = {  
+						CULTURE_INPUT = epe_seljuk 
+					}
+					portrait_high_nobles_headgear_trigger = {  
+						CULTURE_INPUT = epe_uyghur 
+					}
+				}
+			}
+            modifier = {
+                add = -200
+                scope:faith.religion = religion:islam_religion
+                portrait_era4_trigger = yes
+            }
+		}
+	}
+
+	yb_muslim_turk_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = mena_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+            modifier = {
+                add = 60
+                OR = {
+                    portrait_royalty_trigger = { 
+                        CULTURE_INPUT = steppe
+                    }
+                    portrait_royalty_trigger = { 
+                        CULTURE_INPUT = turkic
+                    }
+                }
+                scope:faith.religion = religion:islam_religion
+                portrait_era4_trigger = yes
+            }
+		}
+	}
+
+	yb_muslim_turk_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = mena_imperial
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+            modifier = {
+                add = 60
+                OR = {
+                    portrait_imperial_trigger = { 
+                        CULTURE_INPUT = steppe
+                    }
+                    portrait_imperial_trigger = { 
+                        CULTURE_INPUT = turkic
+                    }
+                }
+                scope:faith.religion = religion:islam_religion
+                portrait_era4_trigger = yes
+            }
+		}
+	}
+
+	mpo_turkic_royalty_era1 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = mpo_mongol_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+			    mode = add
+			    gene = headgear_2
+			    template = no_headgear
+			    range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				factor = 0
+				OR = {
+					portrait_imperial_trigger = {
+						CULTURE_INPUT = epe_eastern_turk
+					}   
+					portrait_royalty_trigger = {
+						CULTURE_INPUT = epe_eastern_turk
+					}   
+				}
+			}
+		}
+	}
+
+	mpo_turkic_royalty_non_muslim = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = mpo_mongol_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+			    mode = add
+			    gene = headgear_2
+			    template = no_headgear
+			    range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				factor = 0
+				OR = {
+					portrait_imperial_trigger = {
+						CULTURE_INPUT = epe_eastern_turk
+					}   
+					portrait_royalty_trigger = {
+						CULTURE_INPUT = epe_eastern_turk
+					}   
+				}
+			}
+		}
+	}
+
+	mpo_seljuk_royalty_era1 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = mpo_mongol_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+			    mode = add
+			    gene = headgear_2
+			    template = no_headgear
+			    range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				factor = 0
+				OR = {
+					portrait_imperial_trigger = {
+						CULTURE_INPUT = epe_seljuk
+					}   
+					portrait_royalty_trigger = {
+						CULTURE_INPUT = epe_seljuk
+					}   
+				}										
+			}
+		}
+	}		
+}

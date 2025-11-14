@@ -1,0 +1,3 @@
+﻿ce_tamgha_alp_sol_topek.dds = { colors = 1 category = tribal_seal }
+ce_tamgha_yaglakar.dds = { colors = 1 category = tribal_seal }
+ce_writing_barsulu.dds = { colors = 1 category = writing }

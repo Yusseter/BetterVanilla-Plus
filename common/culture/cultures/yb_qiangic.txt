@@ -1,0 +1,123 @@
+﻿tangut = {
+	color = { 0.8 0.3 0.0 }
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_qiangic
+	language = language_qiangic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_caravaneers
+		tradition_religion_blending
+		tradition_religious_patronage
+		tradition_court_eunuchs
+		tradition_himalayan_settlers
+	}
+
+	dlc_tradition = {
+		trait = tradition_mpo_iron_cavalry
+		requires_dlc_flag = khans_of_the_steppe
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_tangut
+	
+	coa_gfx = { indian_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { epe_han_chinese_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx mongol_unit_gfx }
+	
+	ethnicities = {
+		2 = asian_tuyuhun_1
+		2 = asian_tuyuhun_2
+		2 = asian_tuyuhun_3
+		2 = asian_tuyuhun_4
+		2 = asian_tuyuhun_5
+		2 = asian_tuyuhun_6
+		2 = asian_tuyuhun_7
+		2 = asian_tuyuhun_8
+		2 = asian_tuyuhun_9
+		2 = asian_tuyuhun_10
+		2 = asian_tuyuhun_11
+		2 = asian_tuyuhun_12
+		2 = asian_tuyuhun_13
+		2 = asian_tuyuhun_14
+		2 = asian_tuyuhun_15
+		2 = asian_tuyuhun_16
+		2 = asian_tuyuhun_17
+		2 = asian_tuyuhun_18
+		2 = asian_tuyuhun_19
+		2 = asian_tuyuhun_20
+		2 = asian_tuyuhun_21
+		2 = asian_tuyuhun_22
+		2 = asian_tuyuhun_23
+		2 = asian_tuyuhun_24
+		2 = asian_tuyuhun_25
+		2 = asian_tuyuhun_26
+		2 = asian_tuyuhun_27
+		2 = asian_tuyuhun_28
+		2 = asian_tuyuhun_29
+		2 = asian_tuyuhun_30
+	}
+}
+
+qiang = { # Various Qiangic linguistic tribes (Pumi; Muya; Ersu; Rgyalrong; etc.)
+	color = qiang
+	
+	ethos = ethos_communal
+	heritage = heritage_qiangic
+	language = language_qiangic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_sacred_mountains
+		tradition_himalayan_settlers
+		tradition_equal_inheritance
+		tradition_medicinal_plants
+	}
+	
+	name_list = name_list_qiang
+	
+	coa_gfx = { indian_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { epe_han_chinese_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx mongol_unit_gfx }
+	
+	ethnicities = {
+		5 = asian_tibetan_1
+		5 = asian_tibetan_2
+		5 = asian_tibetan_3
+		5 = asian_tibetan_4
+		5 = asian_tibetan_5
+		2 = asian_tuyuhun_1
+		2 = asian_tuyuhun_2
+		2 = asian_tuyuhun_3
+		2 = asian_tuyuhun_4
+		2 = asian_tuyuhun_5
+		2 = asian_tuyuhun_6
+		2 = asian_tuyuhun_7
+		2 = asian_tuyuhun_8
+		2 = asian_tuyuhun_9
+		2 = asian_tuyuhun_10
+		2 = asian_tuyuhun_11
+		2 = asian_tuyuhun_12
+		2 = asian_tuyuhun_13
+		2 = asian_tuyuhun_14
+		2 = asian_tuyuhun_15
+		2 = asian_tuyuhun_16
+		2 = asian_tuyuhun_17
+		2 = asian_tuyuhun_18
+		2 = asian_tuyuhun_19
+		2 = asian_tuyuhun_20
+		2 = asian_tuyuhun_21
+		2 = asian_tuyuhun_22
+		2 = asian_tuyuhun_23
+		2 = asian_tuyuhun_24
+		2 = asian_tuyuhun_25
+		2 = asian_tuyuhun_26
+		2 = asian_tuyuhun_27
+		2 = asian_tuyuhun_28
+		2 = asian_tuyuhun_29
+		2 = asian_tuyuhun_30
+	}
+}

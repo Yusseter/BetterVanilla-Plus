@@ -1,0 +1,164 @@
+﻿nomadic_house_name = {
+	name = nomadic_house_name_name
+	collective_noun = nomadic_house_name_collective_noun
+	prefix = nomadic_house_name_prefix
+
+	trigger = {
+		government_has_flag = government_is_nomadic
+	}
+}
+
+shor = {
+	name = shor_name
+	collective_noun = shor_collective_noun
+	prefix = shor_prefix
+
+	trigger = {
+		OR = {
+			scope:culture = culture:kirghiz
+			scope:culture = culture:uriankhai
+		}
+		any_sub_realm_county = {
+			duchy = title:d_shoria
+			#title_province = {
+			#	OR = {
+			#		geographical_region = world_india_rajastan
+			#		geographical_region = custom_bactria
+			#	}
+			#}
+		}
+	}
+}
+
+dukha = {
+	name = dukha_name
+	collective_noun = dukha_collective_noun
+	prefix = dukha_prefix
+
+	trigger = {
+		OR = {
+			scope:culture = culture:kirghiz
+			scope:culture = culture:uriankhai
+		}
+		any_sub_realm_county = {
+			duchy = title:d_khovsgol
+		}
+	}
+}
+
+todzh = {
+	name = todzh_name
+	collective_noun = todzh_collective_noun
+	prefix = todzh_prefix
+
+	trigger = {
+		OR = {
+			scope:culture = culture:kirghiz
+			scope:culture = culture:uriankhai
+		}
+		any_sub_realm_county = {
+			duchy = title:d_eastern_sayan
+		}
+	}
+}
+
+cik = {
+	name = cik_name
+	collective_noun = cik_collective_noun
+	prefix = todzh_prefix
+
+	trigger = {
+		OR = {
+			scope:culture = culture:kirghiz
+			scope:culture = culture:uriankhai
+		}
+		any_sub_realm_county = {
+			duchy = title:d_tannu_ola
+		}
+	}
+}
+
+az = {
+	name = az_name
+	collective_noun = az_collective_noun
+	prefix = az_prefix
+
+	trigger = {
+		OR = {
+			scope:culture = culture:kirghiz
+			scope:culture = culture:uriankhai
+		}
+		any_sub_realm_county = {
+			duchy = title:d_katu_yaryk
+		}
+	}
+}
+
+#telengit = {
+#	name = telengit_name
+#	collective_noun = telengit_collective_noun
+#	prefix = telengit_prefix
+#
+#	trigger = {
+#		scope:culture = culture:laktan
+#	}
+#}
+
+tongra = {
+	name = tongra_name
+	collective_noun = tongra_collective_noun
+	prefix = tongra_prefix
+
+	trigger = {
+		scope:culture = { has_cultural_pillar = heritage_toquz_oghuz }
+		any_sub_realm_county = {
+			duchy = title:d_orkhon
+		}
+	}
+}
+
+qun = {
+	name = qun_name
+	collective_noun = qun_collective_noun
+	prefix = qun_prefix
+
+	trigger = {
+		scope:culture = { has_cultural_pillar = heritage_toquz_oghuz }
+		any_sub_realm_county = {
+			duchy = title:d_altay
+		}
+	}
+}
+
+bayirku = {
+	name = bayirku_name
+	collective_noun = bayirku_collective_noun
+	prefix = bayirku_prefix
+
+	trigger = {
+		scope:culture = { has_cultural_pillar = heritage_toquz_oghuz }
+	}
+}
+
+ograk = {
+	name = ograk_name
+	collective_noun = ograk_collective_noun
+	prefix = ograk_prefix
+
+	trigger = {
+		scope:culture = { has_cultural_pillar = heritage_toquz_oghuz }
+		any_sub_realm_county = {
+			duchy = title:d_tarbagatai
+		}
+	}
+}
+
+khamag = {
+	name = khamag_name
+	collective_noun = khamag_collective_noun
+	prefix = khamag_prefix
+
+	trigger = {
+		scope:culture = culture:mongol
+	}
+}

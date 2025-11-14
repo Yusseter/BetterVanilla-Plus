@@ -1,0 +1,1882 @@
+﻿ashide_01 = {
+    name = "Tonyukuk"
+	dynasty = yb_ashide
+    culture = tujue
+    religion = tengri_pagan
+
+	trait = wise
+	trait = diligent
+	trait = ambitious
+	trait = cynical
+	trait = education_learning_4
+    martial = 11
+    diplomacy = 11
+    stewardship = 7
+    intrigue = 7
+    learning = 15
+
+	646.1.1 = {
+		birth = yes
+	}
+	680.1.1 = {
+		give_nickname = nick_the_wise
+	}
+	726.1.1 = {
+		death = yes
+	}
+}
+
+ashide_02 = {
+    name = "Sa_ba_g_"
+	female = yes
+	dynasty = yb_ashide
+    culture = tujue
+    religion = tengri_pagan
+	father = ashide_01
+
+	700.1.1 = {
+		birth = yes
+	}
+	720.1.1 = {
+		add_spouse = ashina_41
+	}
+	758.1.1 = {
+		death = yes
+	}
+}
+
+ashina_001 = {
+	name = "Ni_shi_tu"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+
+	352.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+ashina_002 = {
+	name = "Neduilu"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_001
+
+	384.1.1 = {
+		birth = yes
+	}
+	434.1.1 = {
+		death = yes
+	}
+}
+ashina_01 = {
+	name = "Ashina"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_002
+
+	418.1.1 = {
+		birth = yes
+	}
+	508.1.1 = {
+		death = yes
+	}
+}
+ashina_02 = {
+	name = "Axian"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_01
+
+	449.1.1 = {
+		birth = yes
+	}
+	532.1.1 = {
+		death = yes
+	}
+}
+ashina_03 = {
+	name = "Tuwu"
+	#dna = dna_ashina_tuwu
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_02
+
+	470.1.1 = {
+		birth = yes
+	}
+	551.1.1 = {
+		death = yes
+	}
+}
+ashina_04 = {
+	name = "Bumin"
+	#dna = dna_ashina_bumin
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_03
+
+	490.1.1 = {
+		birth = yes
+	}
+	552.6.1 = {
+		add_spouse = ashina_04_wife
+	}
+	553.3.1 = {
+		death = yes
+	}
+}
+ashina_04_wife = {
+	name = "Changle"
+	female = yes
+
+	culture = "han"
+	religion = "zhengyi"
+
+	495.1.1 = {
+		birth = yes
+	}
+	552.6.1 = {
+		add_spouse = ashina_04_wife
+	}
+	560.1.1 = {
+		death = yes
+	}
+}
+ashina_041 = {
+	name = "Rudan"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_04
+
+	532.1.1 = {
+		birth = yes
+	}
+	556.1.1 = {
+		death = yes
+	}
+}
+ashina_0411 = {
+	name = "Bori_"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_041
+
+	555.1.1 = {
+		birth = yes
+	}
+	610.1.1 = {
+		death = yes
+	}
+}
+ashina_042 = {
+	name = "Qutoy"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_04
+
+	535.1.1 = {
+		birth = yes
+	}
+	585.1.1 = {
+		death = yes
+	}
+}
+ashina_043 = {
+	name = "Mahan"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_04
+
+	539.1.1 = {
+		birth = yes
+	}
+	592.1.1 = {
+		death = yes
+	}
+}
+ashina_15 = {
+	name = "Issik"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_04
+
+	525.1.1 = {
+		birth = yes
+	}
+	554.1.1 = {
+		death = yes
+	}
+}
+ashina_16 = {
+	name = "Bagha"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_15
+
+	552.1.1 = {
+		birth = yes
+	}
+	588.1.1 = {
+		death = yes
+	}
+}
+ashina_17 = {
+	name = "Tolis"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_16
+
+	570.1.1 = {
+		birth = yes
+	}
+	609.1.1 = {
+		death = yes
+	}
+}
+ashina_18 = {
+	name = "Illig"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_17
+
+	596.1.1 = {
+		birth = yes
+	}
+	630.1.1 = {
+		death = yes
+	}
+}
+ashina_19 = {
+	name = "Yukuk"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_18
+
+	615.1.1 = {
+		birth = yes
+	}
+	642.1.1 = {
+		death = yes
+	}
+}
+ashina_05 = {
+	name = "Istemi"
+	#dna = dna_ashina_istemi
+	dynasty = 12269
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_03
+
+	495.1.1 = {
+		birth = yes
+	}
+	552.6.1 = {
+		add_spouse = ashina_05_wife
+	}
+	575.1.1 = {
+		death = yes
+	}
+}
+ashina_05_wife = {
+	name = "Qin"
+	culture = "sogdian"
+	religion = "khurmazta"
+
+	494.1.1 = {
+		birth = yes
+	}
+	552.6.1 = {
+		add_spouse = ashina_05_wife
+	}
+	565.1.1 = {
+		death = yes
+	}
+}
+ashina_06 = {
+	name = "Tardu"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_05
+
+	540.1.1 = {
+		birth = yes
+	}
+	603.1.1 = {
+		death = yes
+	}
+}
+ashina_07 = {
+	name = "Tamgan"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_05
+
+	544.1.1 = {
+		birth = yes
+	}
+	585.1.1 = {
+		death = yes
+	}
+}
+ashina_20 = {
+	name = "Taspar"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_04
+
+	530.1.1 = {
+		birth = yes
+	}
+	579.1.1 = {
+		add_spouse = ashina_20_wife
+	}
+	581.1.1 = {
+		death = yes
+	}
+}
+ashina_20_wife = {
+	name = "Qianjin"
+	female = yes
+
+	culture = "han"
+	religion = "zhengyi"
+
+	560.1.1 = {
+		birth = yes
+	}
+	579.1.1 = {
+		add_spouse = ashina_20
+	}
+	581.1.1 = {
+		remove_spouse = ashina_20
+	}
+	581.6.1 = {
+		add_spouse = ashina_21
+	}
+	587.1.1 = {
+		remove_spouse = ashina_21
+	}
+	588.1.1 = {
+		add_spouse = ashina_211
+	}
+	593.1.1 = {
+		death = {
+			death_reason = death_murder_known
+			killer = ashina_211
+		}
+	}
+}
+ashina_200 = {
+	name = "Amrak"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_20
+
+	555.1.1 = {
+		birth = yes
+	}
+	581.6.1 = {
+		death = yes
+	}
+}
+ashina_201 = {
+	name = "Apa"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_24
+
+	551.1.1 = {
+		birth = yes
+	}
+	587.1.1 = {
+		death = yes
+	}
+}
+ashina_202 = {
+	name = "Niri"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_201
+
+	575.1.1 = {
+		birth = yes
+	}
+	599.1.1 = {
+		death = yes
+	}
+}
+ashina_21 = {
+	name = "Ishbara"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_15
+	trait = ill
+
+	540.1.1 = {
+		birth = yes
+	}
+	581.6.1 = {
+		add_spouse = ashina_20_wife
+	}
+	587.1.1 = {
+		death = {
+			death_reason = death_ill
+		}
+	}
+}
+ashina_211 = {
+	name = "Tulan"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_21
+
+	562.1.1 = {
+		birth = yes
+	}
+	588.1.1 = {
+		add_spouse = ashina_20_wife
+	}
+	599.1.1 = {
+		death = yes
+	}
+}
+ashina_22 = {
+	name = "Chur"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_21
+
+	565.1.1 = {
+		birth = yes
+	}
+	607.1.1 = {
+		death = yes
+	}
+}
+ashina_23 = {
+	name = "Yutan"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_21
+
+	568.1.1 = {
+		birth = yes
+	}
+	605.1.1 = {
+		death = yes
+	}
+}
+ashina_212 = {
+	name = "Jami_"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_211
+
+	565.1.1 = {
+		birth = yes
+	}
+	609.1.1 = {
+		death = yes
+	}
+}
+ashina_2121 = {
+	name = "Shipi"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_212
+
+	583.1.1 = {
+		birth = yes
+	}
+	619.4.1 = {
+		death = yes
+	}
+}
+ashina_2122 = {
+	name = "Ilteber"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_212
+
+	584.1.1 = {
+		birth = yes
+	}
+	620.12.1 = {
+		death = yes
+	}
+}
+ashina_2123 = {
+	name = "Illi_g"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_212
+
+	592.1.1 = {
+		birth = yes
+	}
+	634.2.13 = {
+		death = yes
+	}
+}
+ashina_24 = {
+	name = "Muqan"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_04
+
+	527.1.1 = {
+		birth = yes
+	}
+	572.1.1 = {
+		death = yes
+	}
+}
+ashina_25 = {
+	name = "Heshana"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_24
+
+	580.1.1 = {
+		birth = yes
+	}
+	611.1.1 = {
+		death = yes
+	}
+}
+ashina_26 = { #wasn't a ruler, just a father
+	name = "Tulu"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_24
+
+	564.1.1 = {
+		birth = yes
+	}
+	611.1.1 = {
+		death = yes
+	}
+}
+ashina_27 = {
+	name = "Sheguy"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_26
+
+	581.1.1 = {
+		birth = yes
+	}
+	618.1.1 = {
+		death = yes
+	}
+}
+ashina_28 = {
+	name = "Tong"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "mahayana" # Syncretized with Tengri, received Xuanzang
+	father = ashina_26
+	trait=education_martial_4 # Good at war
+	trait=intellect_good_1
+	trait=brave
+
+	578.1.1 = {
+		birth = yes
+	}
+	628.1.1 = {
+		death = yes
+	}
+}
+ashina_29 = {
+	name = "Kulug"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_05
+
+	570.1.1 = {
+		birth = yes
+	}
+	630.1.1 = {
+		death = yes
+	}
+}
+ashina_30 = {
+	name = "Sy"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "mahayana" # Syncretized with Tengri, may have received Xuanzang
+	father = ashina_28
+
+	594.1.1 = {
+		birth = yes
+	}
+	632.1.1 = {
+		death = yes
+	}
+}
+ashina_31 = {
+	name = "Doulu"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_30
+
+	615.1.1 = {
+		birth = yes
+	}
+	634.1.1 = {
+		death = yes
+	}
+}
+ashina_32 = {
+	name = "Ishbara"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_30
+
+	617.1.1 = {
+		birth = yes
+	}
+	639.1.1 = {
+		death = yes
+	}
+}
+ashina_33 = {      #NEEDS TO BE CHANGED WHEN EAST GOTURK IS ADDED REEEEEEEEEEEEEEEEEEEEEEEEEEEE (Son of last khagan of the east)
+	name = "Yukuk"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_30
+
+	620.1.1 = {
+		birth = yes
+	}
+	642.1.1 = {
+		death = yes
+	}
+}
+ashina_34 = {
+	name = "Irbis"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_32
+
+	630.1.1 = {
+		birth = yes
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+ashina_35 = {  #Father not khagan
+	name = "Bori"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_32
+
+	600.1.1 = {
+		birth = yes
+	}
+	648.1.1 = {
+		death = yes
+	}
+}
+ashina_36 = {
+	name = "Ashina"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_35
+
+	630.1.1 = {
+		birth = yes
+	}
+	658.1.1 = {
+		death = yes
+	}
+}
+
+
+ashina_37 = {  #eastern khagan, replace when we do that
+	name = "Etmish"
+	dynasty = 12269
+
+	father = ashina_28
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+
+	590.1.1 = {
+		birth = yes
+	}
+	634.1.1 = {
+		death = yes
+	}
+}
+ashina_371 = {
+	name = "Eletmish"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_37
+
+	630.1.1 = {
+		birth = yes
+	}
+	716.1.1 = {
+        death = yes
+	}
+}
+ashina_38 = {
+	name = "Ilterish"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_37
+
+	620.1.1 = {
+		birth = yes
+	}
+	692.1.1 = {
+		death = yes
+	}
+}
+ashina_3711 = {
+	name = "Uti"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_371
+
+	670.1.1 = {
+		birth = yes
+	}
+	730.1.1 = {
+        death = yes
+	}
+}
+ashina_3712 = {
+	name = "Ilterish"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_3711
+
+	705.1.1 = {
+		birth = yes
+	}
+	742.1.1 = {
+		culture = basmyl
+	}
+	744.1.1 = {
+        death = yes
+	}
+}
+ashina_39 = {
+	name = "Qapaghan"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_37
+
+	664.1.1 = {
+		birth = yes
+	}
+	716.7.22 = {
+        death = {
+			death_reason = death_assassination
+			killer = xiezhilue_01
+		}
+	}
+}
+
+ashina_40 = {
+	name = "Inel"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_39
+
+	685.1.1 = {
+		birth = yes
+	}
+	717.1.1 = {
+		death = yes
+	}
+}
+
+ashina_401 = {
+	name = "Kutlug"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_40
+
+	705.1.1 = {
+		birth = yes
+	}
+	742.1.1 = {
+		death = yes
+	}
+}
+ashina_41 = {
+	name = "Bilga"
+	dna = dna_bileg_khagan
+	dynasty = 12269
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_38
+	trait = education_learning_4
+	trait = just
+	trait = brave
+	trait = temperate
+
+	683.1.1 = {
+		birth = yes
+	}
+	720.1.1 = {
+		add_spouse = ashide_02
+	}
+	734.11.25 = {
+		death = yes
+	}
+}
+
+ashina_411 = { # Yusseter: Sister of Bilgä Khagan
+	name = "Ku_n"
+	female = yes
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_38
+
+	641.1.1 = {
+		birth = yes
+	}
+	661.1.1 = {
+		add_spouse = yenisei_kirghiz_001
+	}
+	735.1.1 = {
+		death = yes
+	}
+}
+
+ashina_42 = {
+	name = "Yollig"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_41
+
+	680.1.1 = {
+		birth = yes
+	}
+	739.1.1 = {
+		death = yes
+	}
+}
+ashina_43 = {
+	name = "Tengri"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_41
+
+	690.1.1 = {
+		birth = yes
+	}
+	741.1.1 = {
+		death = yes
+	}
+}
+ashina_44 = { #last emperor
+	name = "Ozmish"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	father = ashina_41
+
+	700.1.1 = {
+		birth = yes
+	}
+	744.1.1 = {
+		death = yes
+	}
+}
+ashina_45 = { #claimant
+	name = "Bugu"
+	dynasty = 12269
+	father = ashina_41
+
+	culture = "tujue" # Yusseter
+	religion = "tengri_pagan"
+
+	700.1.1 = {
+		birth = yes
+	}
+	734.11.25 = { # Yusseter
+		culture = "uigur"
+		religion = "manichean"
+	}
+	780.1.1 = {
+		death = yes
+	}
+}
+ashina_46 = {
+	name = "Ku_ltegin"
+	dynasty = 12269
+	father = ashina_38
+	martial = 18
+	diplomacy = 8
+	intrigue = 5
+	stewardship = 6
+	learning = 6
+	trait = brave
+	trait = zealous
+	trait = gallant
+	trait = stubborn
+	trait = education_martial_4
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+
+	684.1.1 = {
+		birth = "684.1.1"
+	}
+	731.2.27 = {
+		death = {
+			death_reason = death_illness
+		}
+	}
+}
+ashina_47 = { # Son of Tong Yaghbu installed in Kunduz, founding the Tokhara Yagbhu dynasty of Turk-Hephthalites in Afghanistan
+	name = "Tardu"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "mahayana"
+	father = ashina_28
+
+	595.1.1 = {
+		birth = yes
+	}
+	# Married two daughters of Qu Boya
+	#622.1.1 = {
+	#	add_spouse = qu_020
+	#}
+	#623.1.1 = {
+	#	add_spouse = qu_021
+	#}
+	630.1.1 = {
+		death = yes
+	}
+}
+ashina_48 = { # Son of Tardu, killed his dad to marry his hot stepmom because they fell in love in true CK fashion
+	name = "Ishbara"
+	dynasty = 12269
+
+	culture = "tujue"
+	religion = "mahayana"
+	father = ashina_28
+
+	612.1.1 = {
+		birth = yes
+	}
+	#628.1.1 = {
+	#	set_relation_lover = character:qu_021
+	#}
+	#630.1.1 = {
+	#	add_spouse = qu_021
+	#}
+	#630.1.1 = {
+	#	add_spouse = qu_020
+	#}
+	650.1.1 = {
+		death = yes
+	}
+}
+
+# Ashina Quli, Western Turkic general who fought against the Tang
+# Unknown how he is connected with the rest of the family
+ashina_49 = {
+	name = "Quli"
+	dynasty = 12269
+
+	father = 74002
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+	trait=education_martial_3
+
+	611.4.17 = { # Attested as commanding a Western Turkic force by 644 so he probably was an adult by then
+		birth = yes
+	}
+	668.12.19 = { # Unknown
+		death = yes
+	}
+}
+
+# Quli's unnamed brother who married the daughter of the King of Agni/Karashar
+ashina_50 = {
+	name = "Ishbara"
+	dynasty = 12269
+
+	father = 74002
+
+	culture = "tujue"
+	religion = "tengri_pagan"
+
+	609.2.27 = { # Attested as marrying the Agni princess by 644 so he probably was an adult by then
+		birth = yes
+	}
+	#640.1.1 = {
+	#	add_spouse = agni_015
+	#}
+	671.5.29 = { # Unknown
+		death = yes
+	}
+}
+
+yujiulu_01 = {
+	name = "Mugulu"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	trait = education_martial_4
+	trait = sadistic
+	trait = ambitious
+	trait = diligent
+	256.1.1 = {
+		birth = yes
+	}
+	300.1.1 = {
+		death = yes
+	}
+}
+yujiulu_02 = {
+	name = "Cheluhui"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_01 #Mugulu
+	trait = education_diplomacy_3
+	trait = content
+	trait = just
+	trait = compassionate
+	277.1.1 = {
+		birth = yes
+	}
+	310.1.1 = {
+		death = yes
+	}
+}
+yujiulu_03 = {
+	name = "Tunugui"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_02 #Cheluhui
+	277.1.1 = {
+		birth = yes
+	}
+	320.1.1 = {
+		death = yes
+	}
+}
+yujiulu_04 = {
+	name = "Bati"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_03 #Tunugui
+	290.1.1 = {
+		birth = yes
+	}
+	340.1.1 = {
+		death = yes
+	}
+}
+yujiulu_05 = {
+	name = "Disuyuan"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_04 #Bati
+	315.1.1 = {
+		birth = yes
+	}
+	351.1.1 = {
+		death = yes
+	}
+}
+yujiulu_06 = {
+	name = "Pihouba"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_05 #Disuyuan
+	326.1.1 = {
+		birth = yes
+	}
+	396.1.1 = {
+		death = yes
+	}
+}
+yujiulu_0714 = {
+	name = "Qiba"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_06 #Pihouba
+	342.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+yujiulu_0715 = {
+	name = "Wujie"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_06 #Pihouba
+	347.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+yujiulu_061 = {
+	name = "Wenheti"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_05 #Disuyuan
+	327.1.1 = {
+		birth = yes
+	}
+	375.1.1 = {
+		death = yes
+	}
+}
+yujiulu_07 = {
+	name = "Heduohan"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_061 #Wenheti
+	356.1.1 = {
+		birth = yes
+	}
+	402.1.1 = {
+		death = yes
+	}
+}
+yujiulu_071 = {
+	name = "Jiguizhi"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_061 #Wenheti
+	female = yes
+	350.1.1 = {
+		birth = yes
+	}
+	402.1.1 = {
+		death = yes
+	}
+}
+yujiulu_072 = {
+	name = "Shelun"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_061 #Wenheti
+	trait = education_diplomacy_4
+	trait = ambitious
+	trait = fickle
+	trait = callous
+	360.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+yujiulu_081 = {
+	name = "Duba"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_072 #Shelun
+	female = yes
+	380.1.1 = {
+		birth = yes
+	}
+	414.1.1 = {
+		death = yes
+	}
+}
+yujiulu_082 = {
+	name = "Sheba"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_072 #Shelun
+	female = yes
+	384.1.1 = {
+		birth = yes
+	}
+	414.1.1 = {
+		death = yes
+	}
+}
+yujiulu_073 = {
+	name = "Hulu"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_061 #Wenheti
+	trait = education_diplomacy_4
+	trait = calm
+	trait = honest
+	trait = content
+	361.1.1 = {
+		birth = yes
+	}
+	414.5.1 = {
+		death = yes
+	}
+}
+yujiulu_083 = {
+	name = "Zhaoyi"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_073 #Shelun
+	female = yes
+	384.1.1 = {
+		birth = yes
+	}
+	414.1.1 = {
+		death = yes
+	}
+}
+yujiulu_074 = {
+	name = "Tunugui"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_061 #Wenheti
+	363.1.1 = {
+		birth = yes
+	}
+	382.1.1 = {
+		death = yes
+	}
+}
+yujiulu_08 = {
+	name = "Buluzhen"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_074 #Tunugui fake
+	trait = education_intrigue_3
+	trait = ambitious
+	trait = deceitful
+	trait = callous
+	380.1.1 = {
+		birth = yes
+	}
+	414.5.1 = {
+		death = yes
+	}
+}
+yujiulu_062 = {
+	name = "Puhun"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_05 #Disuyuan
+	332.1.1 = {
+		birth = yes
+	}
+	388.1.1 = {
+		death = yes
+	}
+}
+yujiulu_077 = {
+	name = "Datan"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_062 #Pihun
+	trait = education_martial_4
+	trait = brave
+	trait = callous
+	trait = calm
+	350.1.1 = {
+		birth = yes
+	}
+	429.1.1 = {
+		death = yes
+	}
+}
+yujiulu_084 = {
+	name = "Wuti"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_077 #Datan
+	trait = craven
+	trait = ambitious
+	trait = callous
+	376.1.1 = {
+		birth = yes
+	}
+	444.1.1 = {
+		death = yes
+	}
+}
+yujiulu_09 = {
+	name = "Tuhezhen"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_084 #Wuti
+	395.1.1 = {
+		birth = yes
+	}
+	464.1.1 = {
+		death = yes
+	}
+}
+yujiulu_10 = {
+	name = "Yucheng"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_09 #Tuhezhen
+	trait = education_diplomacy_3
+	trait = generous
+	trait = diligent
+	trait = fickle
+	436.1.1 = {
+		birth = yes
+	}
+	485.1.1 = {
+		death = yes
+	}
+}
+yujiulu_11 = {
+	name = "Doulun"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_10 #Yucheng
+	trait = arrogant
+	trait = sadistic
+	trait = lazy
+	458.1.1 = {
+		birth = yes
+	}
+	492.1.1 = {
+		death = yes
+	}
+}
+yujiulu_101 = {
+	name = "Nagai"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_09 #Tuhezhen
+	trait = just
+	trait = brave
+	trait = content
+	456.1.1 = {
+		birth = yes
+	}
+	506.1.1 = {
+		death = yes
+	}
+}
+yujiulu_111 = {
+	name = "Futu"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_101 #Nagai
+	470.1.1 = {
+		birth = yes
+	}
+	508.1.1 = {
+		death = yes
+	}
+}
+yujiulu_mb1 = {
+	name = "Chounu"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_111 #
+	495.1.1 = {
+		birth = yes
+	}
+	520.1.1 = {
+		death = yes
+	}
+}
+yujiulu_mb2 = {
+	name = "Anagui"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_111
+	497.1.1 = {
+		birth = yes
+	}
+	552.1.1 = {
+		death = yes
+	}
+}
+yujiulu_112 = {
+	name = "Dengshuzi"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_101 #Nagai
+	487.1.1 = {
+		birth = yes
+	}
+	555.1.1 = {
+		death = yes
+	}
+}
+yujiulu_085 = {
+	name = "Tulugui"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_077 #Datan
+	380.1.1 = {
+		birth = yes
+	}
+	444.1.1 = {
+		death = yes
+	}
+}
+yujiulu_086 = {
+	name = "Qiliegui"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_077 #Datan
+	381.1.1 = {
+		birth = yes
+	}
+	444.1.1 = {
+		death = yes
+	}
+}
+yujiulu_087 = {
+	name = "Qilifu"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_077 #Datan
+	384.1.1 = {
+		birth = yes
+	}
+	444.1.1 = {
+		death = yes
+	}
+}
+yujiulu_088 = {
+	name = "Zuozhaoyi"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_077 #Datan
+	female = yes
+	386.1.1 = {
+		birth = yes
+	}
+	444.1.1 = {
+		death = yes
+	}
+}
+yujiulu_078 = {
+	name = "Wuluhu"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_062 #Pihun
+	351.1.1 = {
+		birth = yes
+	}
+	429.1.1 = {
+		death = yes
+	}
+}
+yujiulu_079 = {
+	name = "Pili"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_062 #Pihun
+	352.1.1 = {
+		birth = yes
+	}
+	429.1.1 = {
+		death = yes
+	}
+}
+yujiulu_0710 = {
+	name = "Feng"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_062 #Pihun
+	353.1.1 = {
+		birth = yes
+	}
+	429.1.1 = {
+		death = yes
+	}
+}
+yujiulu_0711 = {
+	name = "Dafei"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_062 #Pihun
+	354.1.1 = {
+		birth = yes
+	}
+	429.1.1 = {
+		death = yes
+	}
+}
+yujiulu_0712 = {
+	name = "Danibeiyi"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_062 #Pihun
+	355.1.1 = {
+		birth = yes
+	}
+	429.1.1 = {
+		death = yes
+	}
+}
+yujiulu_0713 = {
+	name = "Lin"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	father = yujiulu_062 #Pihun
+	356.1.1 = {
+		birth = yes
+	}
+	429.1.1 = {
+		death = yes
+	}
+}
+
+#tfe_avar_001 = {
+#	name = "Datan"
+#	dynasty = dynasty_uar
+#	religion = "tengri_pagan"
+#	culture = "rouran"
+#	342.7.8 = {
+#		birth = yes
+#	}
+#	408.1.1 = {
+#		death = yes
+#	}
+#}
+
+#tfe_avar_002 = {
+#	name = "Toktu"
+#	dynasty = dynasty_uar
+#	religion = "tengri_pagan"
+#	culture = "rouran"
+#	father = tfe_avar_001
+#	359.10.12 = {
+#		birth = yes
+#	}
+#	425.3.7 = {
+#		death = yes
+#	}
+#}
+
+#tfe_avar_003 = {
+#	name = "Sarkhan"
+#	dynasty = dynasty_uar
+#	religion = "tengri_pagan"
+#	culture = "rouran"
+#	father = tfe_avar_002
+#	396.2.4 = {
+#		birth = yes
+#	}
+#	468.8.30 = {
+#		death = yes
+#	}
+#}
+
+#tfe_avar_004 = {
+#	name = "Drong"
+#	dynasty = dynasty_uar
+#	religion = "tengri_pagan"
+#	culture = "rouran"
+#	father = tfe_avar_003
+#	431.1.27 = {
+#		birth = yes
+#	}
+#	468.8.30 = {
+#		culture = "avar"
+#	}
+#	489.9.7 = {
+#		death = yes
+#	}
+#}
+
+tfe_avar_005 = {
+	name = "Kuber"
+	dynasty = dynasty_uar
+	religion = "tengri_pagan"
+	culture = "rouran"
+	father = tfe_avar_004
+	455.9.24 = {
+		birth = yes
+	}
+	#468.8.30 = {
+	#	culture = "avar"
+	#}
+	496.3.13 = {
+		death = yes
+	}
+}
+
+tfe_avar_006 = {
+	name = "Shaush"
+	dynasty = dynasty_uar
+	religion = "tengri_pagan"
+	culture = "rouran"
+	father = tfe_avar_005
+	482.6.10 = {
+		birth = yes
+	}
+	500.1.1 = {
+		culture = avar
+	}
+	531.6.24 = {
+		death = yes
+	}
+}
+
+# Possible first Avar Khagan (?)
+tfe_avar_007 = {
+	name = "Kandik"
+	dynasty = dynasty_uar
+	religion = "tengri_pagan"
+	culture = "avar"
+	father = tfe_avar_006
+	505.5.5 = {
+		birth = yes
+	}
+	562.4.9 = {
+		death = yes
+	}
+}
+
+tfe_avar_008 = {
+	name = "Bayan"
+	dynasty = dynasty_uar
+	religion = "tengri_pagan"
+	culture = "avar"
+	father = tfe_avar_007
+	532.1.1 = {
+		birth = yes
+	}
+	602.1.1 = {
+		death = yes
+	}
+}
+
+tfe_avar_009 = {
+	name = "Kuber"
+	dynasty = dynasty_uar
+	religion = "tengri_pagan"
+	culture = "avar"
+	father = tfe_avar_008
+	560.1.1 = {
+		birth = yes
+	}
+	617.1.1 = {
+		death = yes
+	}
+}
+
+avar_place_holder_01 = {
+	name = "Attila"
+	dynasty = dynasty_avar_1
+	religion = "tengri_pagan"
+	culture = "avar"
+	572.1.1 = {
+		birth = yes
+	}
+	630.1.1 = {
+		death = yes
+	}
+}
+
+avar_place_holder_02 = {
+	name = "Ispor"
+	dynasty = dynasty_avar_1
+	religion = "tengri_pagan"
+	culture = "avar"
+	father = avar_place_holder_01
+	602.1.1 = {
+		birth = yes
+	}
+	648.1.1 = {
+		death = yes
+	}
+}
+
+avar_place_holder_03 = {
+	name = "Toktu"
+	dynasty = dynasty_avar_1
+	religion = "tengri_pagan"
+	culture = "avar"
+	father = avar_place_holder_02
+	627.1.1 = {
+		birth = yes
+	}
+	685.1.1 = {
+		death = yes
+	}
+}
+
+pecheneg_place_holder_01 = {
+	name = "Ipa"
+	dynasty = dynasty_pecheneg_1
+	religion = "tengri_pagan"
+	culture = "pecheneg"
+	850.1.1 = {
+		birth = yes
+	}
+	901.1.1 = {
+		death = yes
+	}
+}
+
+pecheneg_place_holder_02 = {
+	name = "Saru"
+	dynasty = dynasty_pecheneg_1
+	religion = "tengri_pagan"
+	culture = "pecheneg"
+	father = pecheneg_place_holder_01
+	872.1.1 = {
+		birth = yes
+	}
+	948.1.1 = {
+		death = yes
+	}
+}

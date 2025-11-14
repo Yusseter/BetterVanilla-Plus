@@ -1,0 +1,184 @@
+﻿assyrian = {
+	#color = assyrian
+	color = { 142 68 28 }
+	created = 300.1.1
+	parents = { persian } #+Aramean/Old Assyrian
+	
+	history_loc_override = assyrian_history_loc
+	
+	ethos = ethos_communal
+	heritage = heritage_syriac
+	language = language_aramaic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_zealous_people
+		tradition_loyal_soldiers
+		tradition_philosopher_culture
+		tradition_caravaneers
+		tradition_ce1_ritual_washing
+		#tradition_zealous_people
+		#tradition_loyal_soldiers
+		#tradition_philosopher_culture
+		#tradition_caravaneers
+	}
+	
+	name_list = name_list_assyrian
+
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { mena_building_gfx } 
+	clothing_gfx = { mena_group_clothing_gfx epe_armenian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx } 		
+
+	ethnicities = {
+		30 = european_med_assyrian_1
+		2 = iranian_kurdish_1
+		2 = iranian_kurdish_2
+		2 = iranian_kurdish_3
+		2 = iranian_kurdish_4
+		2 = iranian_kurdish_5
+		2 = iranian_kurdish_6
+		2 = iranian_kurdish_7
+		2 = iranian_kurdish_8
+		2 = iranian_kurdish_9
+		2 = iranian_kurdish_10
+		2 = iranian_kurdish_11
+		2 = iranian_kurdish_12
+		2 = iranian_kurdish_13
+		2 = iranian_kurdish_14
+		2 = iranian_kurdish_15
+		2 = iranian_kurdish_16
+		2 = iranian_kurdish_17
+		2 = iranian_kurdish_18
+		2 = iranian_kurdish_19
+		2 = iranian_kurdish_20
+		2 = iranian_kurdish_21
+		2 = iranian_kurdish_22
+		2 = iranian_kurdish_23
+		2 = iranian_kurdish_24
+		2 = iranian_kurdish_25
+		2 = iranian_kurdish_26
+		2 = iranian_kurdish_27
+		2 = iranian_kurdish_28
+		2 = iranian_kurdish_29
+		2 = iranian_kurdish_30
+		2 = iranian_kurdish_31
+		2 = iranian_kurdish_32
+		2 = iranian_kurdish_33
+		2 = iranian_kurdish_34
+		2 = iranian_kurdish_35
+		2 = iranian_kurdish_36
+		2 = iranian_kurdish_37
+		2 = iranian_kurdish_38
+		2 = iranian_kurdish_39
+		2 = iranian_kurdish_40
+		1 = mid_east_arabic_1
+		1 = mid_east_arabic_2
+		1 = mid_east_arabic_3
+		1 = mid_east_arabic_4
+		1 = mid_east_arabic_5
+		1 = mid_east_arabic_6
+		1 = mid_east_arabic_7
+		1 = mid_east_arabic_8
+		1 = mid_east_arabic_9
+		1 = mid_east_arabic_10
+		1 = mid_east_arabic_11
+		1 = mid_east_arabic_12
+		1 = mid_east_arabic_13
+		1 = mid_east_arabic_14
+		1 = mid_east_arabic_15
+		1 = mid_east_arabic_16
+		1 = mid_east_arabic_17
+		1 = mid_east_arabic_18
+		1 = mid_east_arabic_19
+		1 = mid_east_arabic_20
+		1 = mid_east_arabic_21
+		1 = mid_east_arabic_22
+		1 = mid_east_arabic_23
+		1 = mid_east_arabic_24
+		1 = mid_east_arabic_25
+		1 = mid_east_arabic_26
+		1 = mid_east_arabic_27
+		1 = mid_east_arabic_28
+		1 = mid_east_arabic_29
+		1 = mid_east_arabic_30
+		1 = mid_east_arabic_31
+		1 = mid_east_arabic_32
+		1 = mid_east_arabic_33
+		1 = mid_east_arabic_34
+		1 = mid_east_arabic_35
+		1 = mid_east_arabic_36
+		1 = mid_east_arabic_37
+		1 = mid_east_arabic_38
+		1 = mid_east_arabic_39
+		1 = mid_east_arabic_40
+		1 = mid_east_arabic_41
+		1 = mid_east_arabic_42
+		1 = mid_east_arabic_43
+		1 = mid_east_arabic_44
+		1 = mid_east_arabic_45
+		1 = mid_east_arabic_46
+		1 = mid_east_arabic_47
+		1 = mid_east_arabic_48
+		1 = mid_east_arabic_49
+		1 = mid_east_arabic_50
+		1 = mid_east_arabic_51
+		1 = mid_east_arabic_52
+		1 = mid_east_arabic_53
+		1 = mid_east_arabic_54
+		1 = mid_east_arabic_55
+		1 = mid_east_arabic_56
+		1 = mid_east_arabic_57
+		1 = mid_east_arabic_58
+		1 = mid_east_arabic_59
+		1 = mid_east_arabic_60
+		1 = mid_east_arabic_61
+		1 = mid_east_arabic_62
+		1 = mid_east_arabic_63
+		1 = mid_east_arabic_64
+		1 = mid_east_arabic_65
+		1 = mid_east_arabic_66
+		1 = mid_east_arabic_67
+		1 = mid_east_arabic_68
+		1 = mid_east_arabic_69
+		1 = mid_east_arabic_70
+		1 = mid_east_arabic_71
+		1 = mid_east_arabic_72
+		1 = mid_east_arabic_73
+		1 = mid_east_arabic_74
+		1 = mid_east_arabic_75
+		1 = mid_east_arabic_76
+		1 = mid_east_arabic_77
+		1 = mid_east_arabic_78
+		1 = mid_east_arabic_79
+		1 = mid_east_arabic_80
+		1 = mid_east_arabic_81
+		1 = mid_east_arabic_82
+		1 = mid_east_arabic_83
+		1 = mid_east_arabic_84
+		1 = mid_east_arabic_85
+		1 = mid_east_arabic_86
+		1 = mid_east_arabic_87
+		1 = mid_east_arabic_88
+		1 = mid_east_arabic_89
+		1 = mid_east_arabic_90
+		1 = mid_east_arabic_91
+		1 = mid_east_arabic_92
+		1 = mid_east_arabic_93
+		1 = mid_east_arabic_94
+		1 = mid_east_arabic_95
+		1 = mid_east_arabic_96
+		1 = mid_east_arabic_97
+		1 = mid_east_arabic_98
+		1 = mid_east_arabic_99
+		1 = mid_east_arabic_100
+		1 = mid_east_arabic_101
+		1 = mid_east_arabic_102
+		1 = mid_east_arabic_103
+		1 = mid_east_arabic_104
+		1 = mid_east_arabic_105
+		1 = mid_east_arabic_106
+		1 = mid_east_arabic_107
+		1 = mid_east_arabic_108
+	}
+}

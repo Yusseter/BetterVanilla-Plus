@@ -1,0 +1,1799 @@
+﻿blatno_slavic = {
+	color = { 0.3 0.6 0.4 }
+	
+	parents = { avar pannonian_romance }
+
+	created = 700.1.1
+	
+	history_loc_override = blatno_slavic_history_loc
+	
+	ethos = ethos_communal
+	heritage = heritage_vlach
+	language = language_slavonic	#The Danube marks the frontier between the West and South Slavs; Carantanians aren't West Slavs, not by historical standards; really, west and south slavs didnt exist until the Hungarian migration per se
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hussar
+		tradition_pastoralists
+		tradition_esteemed_hospitality
+		tradition_forest_fighters
+	}
+	
+	name_list = name_list_croatian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { epe_south_slav_clothing_gfx byzantine_clothing_gfx }
+	unit_gfx = { polish_unit_gfx eastern_unit_gfx }
+	
+	ethnicities = {
+		10 = asian_turkic_avar_4
+		2 = asian_turkic_1_western
+		2 = asian_turkic_2_western
+		2 = asian_turkic_3_western
+		2 = asian_turkic_4_western
+		2 = asian_turkic_5_western
+		2 = asian_turkic_6_western
+		2 = asian_turkic_7_western
+		2 = asian_turkic_8_western
+		2 = asian_turkic_9_western
+		2 = asian_turkic_15_western
+		2 = asian_turkic_16_western
+		2 = asian_turkic_17_western
+		2 = asian_turkic_19_western
+		2 = asian_turkic_20_western
+		2 = asian_turkic_23_western
+		1 = european_magyar_hungarian_01
+		1 = european_magyar_hungarian_02
+		1 = european_magyar_hungarian_03
+		1 = european_magyar_hungarian_04
+		1 = european_magyar_hungarian_05
+		1 = european_magyar_hungarian_06
+		1 = european_magyar_hungarian_07
+		1 = european_magyar_hungarian_08
+		1 = european_magyar_hungarian_09
+		1 = european_magyar_hungarian_10
+		1 = european_magyar_hungarian_11
+		1 = european_magyar_hungarian_12
+		1 = european_magyar_hungarian_13
+		1 = european_magyar_hungarian_14
+		1 = european_magyar_hungarian_15
+		1 = european_magyar_hungarian_16
+		1 = european_magyar_hungarian_17
+		1 = european_magyar_hungarian_18
+		1 = european_magyar_hungarian_19
+		1 = european_magyar_hungarian_20
+		1 = european_magyar_hungarian_21
+		1 = european_magyar_hungarian_22
+		1 = european_magyar_hungarian_23
+		1 = european_magyar_hungarian_24
+		1 = european_magyar_hungarian_25
+		1 = european_magyar_hungarian_26
+		1 = european_magyar_hungarian_27
+		1 = european_magyar_hungarian_28
+		1 = european_magyar_hungarian_29
+		1 = european_magyar_hungarian_30
+		1 = european_magyar_hungarian_31
+		1 = european_magyar_hungarian_32
+		1 = european_magyar_hungarian_33
+		1 = european_magyar_hungarian_34
+		1 = european_magyar_hungarian_35
+		1 = european_magyar_hungarian_36
+		1 = european_magyar_hungarian_37
+		1 = european_magyar_hungarian_38
+		1 = european_magyar_hungarian_39
+		1 = european_magyar_hungarian_40
+		1 = european_magyar_hungarian_41
+		1 = european_magyar_hungarian_42
+		1 = european_magyar_hungarian_43
+		2 = european_med_south_slavic_01
+		2 = european_med_south_slavic_02
+		2 = european_med_south_slavic_03
+		2 = european_med_south_slavic_04
+		2 = european_med_south_slavic_05
+		2 = european_med_south_slavic_06
+		2 = european_med_south_slavic_07
+		2 = european_med_south_slavic_08
+		2 = european_med_south_slavic_09
+		2 = european_med_south_slavic_10
+		2 = european_med_south_slavic_11
+		2 = european_med_south_slavic_12
+		2 = european_med_south_slavic_13
+		2 = european_med_south_slavic_14
+		2 = european_med_south_slavic_15
+		2 = european_med_south_slavic_16
+		2 = european_med_south_slavic_17
+		2 = european_med_south_slavic_18
+		2 = european_med_south_slavic_19
+		2 = european_med_south_slavic_20
+		2 = european_med_south_slavic_21
+		2 = european_med_south_slavic_22
+		2 = european_med_south_slavic_23
+		2 = european_med_south_slavic_24
+		2 = european_med_south_slavic_25
+		2 = european_med_south_slavic_26
+		2 = european_med_south_slavic_27
+		2 = european_med_south_slavic_28
+		2 = european_med_south_slavic_29
+		2 = european_med_south_slavic_30
+		2 = european_med_south_slavic_31
+		2 = european_med_south_slavic_32
+		2 = european_med_south_slavic_33
+		2 = european_med_south_slavic_34
+		2 = european_med_south_slavic_35
+		2 = european_med_south_slavic_36
+		2 = european_med_south_slavic_37
+		2 = european_med_south_slavic_38
+		2 = european_med_south_slavic_39
+		2 = european_med_south_slavic_40
+		2 = european_med_south_slavic_41
+		2 = european_med_south_slavic_42
+		2 = european_med_south_slavic_43
+		2 = european_med_south_slavic_44
+		2 = european_med_south_slavic_45
+		2 = european_med_south_slavic_46
+		2 = european_med_south_slavic_47
+		2 = european_med_south_slavic_48
+		2 = european_med_south_slavic_49
+		2 = european_med_south_slavic_50
+	}
+}
+
+dudlebian = {
+	color = { 0.20 0.46 0.52 }
+	
+	parents = { czech }
+
+	created = 600.1.1
+	
+	history_loc_override = dudlebian_history_loc
+	
+	ethos = ethos_communal
+	heritage = heritage_vlach
+	language = language_slavonic	
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hussar
+		tradition_pastoralists
+		tradition_hard_working
+		tradition_life_is_just_a_joke
+	}
+	
+	name_list = name_list_croatian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { epe_south_slav_clothing_gfx byzantine_clothing_gfx }
+	unit_gfx = { polish_unit_gfx eastern_unit_gfx }
+	
+	ethnicities = {
+		2 = european_south_slavic_blond_1
+		2 = european_south_slavic_blond_2
+		2 = european_south_slavic_blond_3
+		2 = european_south_slavic_brown_1
+		2 = european_south_slavic_brown_2
+		2 = european_south_slavic_brown_3
+		2 = european_south_slavic_brown_4
+		2 = european_south_slavic_dark_1
+		2 = european_south_slavic_dark_2
+		2 = european_south_slavic_dark_3
+		2 = european_slavic_blond_1
+		2 = european_slavic_blond_2
+		2 = european_slavic_blond_3
+		2 = european_slavic_blond_4
+		2 = european_slavic_ginger_1
+		2 = european_slavic_ginger_2
+		2 = european_slavic_brown_1
+		2 = european_slavic_brown_2
+		2 = european_slavic_brown_3
+		2 = european_slavic_brown_4
+		2 = european_slavic_dark_1
+		2 = european_slavic_dark_2
+		2 = european_slavic_dark_3
+		5 = european_slavic_dark_4
+		2 = european_med_south_slavic_01
+		2 = european_med_south_slavic_02
+		2 = european_med_south_slavic_03
+		2 = european_med_south_slavic_04
+		2 = european_med_south_slavic_05
+		2 = european_med_south_slavic_06
+		2 = european_med_south_slavic_07
+		2 = european_med_south_slavic_08
+		2 = european_med_south_slavic_09
+		2 = european_med_south_slavic_10
+		2 = european_med_south_slavic_11
+		2 = european_med_south_slavic_12
+		2 = european_med_south_slavic_13
+		2 = european_med_south_slavic_14
+		2 = european_med_south_slavic_15
+		2 = european_med_south_slavic_16
+		2 = european_med_south_slavic_17
+		2 = european_med_south_slavic_18
+		2 = european_med_south_slavic_19
+		2 = european_med_south_slavic_20
+		2 = european_med_south_slavic_21
+		2 = european_med_south_slavic_22
+		2 = european_med_south_slavic_23
+		2 = european_med_south_slavic_24
+		2 = european_med_south_slavic_25
+		2 = european_med_south_slavic_26
+		2 = european_med_south_slavic_27
+		2 = european_med_south_slavic_28
+		2 = european_med_south_slavic_29
+		2 = european_med_south_slavic_30
+		2 = european_med_south_slavic_31
+		2 = european_med_south_slavic_32
+		2 = european_med_south_slavic_33
+		2 = european_med_south_slavic_34
+		2 = european_med_south_slavic_35
+		2 = european_med_south_slavic_36
+		2 = european_med_south_slavic_37
+		2 = european_med_south_slavic_38
+		2 = european_med_south_slavic_39
+		2 = european_med_south_slavic_40
+		2 = european_med_south_slavic_41
+		2 = european_med_south_slavic_42
+		2 = european_med_south_slavic_43
+		2 = european_med_south_slavic_44
+		2 = european_med_south_slavic_45
+		2 = european_med_south_slavic_46
+		2 = european_med_south_slavic_47
+		2 = european_med_south_slavic_48
+		2 = european_med_south_slavic_49
+		2 = european_med_south_slavic_50
+	}
+}
+
+blatnohrader = {
+	color = { 119 119 119 }
+	
+	parents = { franconian blatno_slavic }
+
+	created = 840.1.1
+	
+	history_loc_override = blatnohrader_history_loc
+	
+	ethos = ethos_courtly
+	heritage = heritage_central_germanic
+	language = language_slavonic	
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_chanson_de_geste
+		tradition_poetry
+		tradition_culture_blending
+	}
+	
+	name_list = name_list_croatian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { epe_south_slav_clothing_gfx byzantine_clothing_gfx }
+	unit_gfx = { polish_unit_gfx eastern_unit_gfx }
+	
+	ethnicities = {
+		2 = european_south_slavic_blond_1
+		2 = european_south_slavic_blond_2
+		2 = european_south_slavic_blond_3
+		2 = european_south_slavic_brown_1
+		2 = european_south_slavic_brown_2
+		2 = european_south_slavic_brown_3
+		2 = european_south_slavic_brown_4
+		2 = european_south_slavic_dark_1
+		2 = european_south_slavic_dark_2
+		2 = european_south_slavic_dark_3
+		2 = european_slavic_blond_1
+		2 = european_slavic_blond_2
+		2 = european_slavic_blond_3
+		2 = european_slavic_blond_4
+		2 = european_slavic_ginger_1
+		2 = european_slavic_ginger_2
+		2 = european_slavic_brown_1
+		2 = european_slavic_brown_2
+		2 = european_slavic_brown_3
+		2 = european_slavic_brown_4
+		2 = european_slavic_dark_1
+		2 = european_slavic_dark_2
+		2 = european_slavic_dark_3
+		2 = european_slavic_dark_4
+		2 = european_med_south_slavic_01
+		2 = european_med_south_slavic_02
+		2 = european_med_south_slavic_03
+		2 = european_med_south_slavic_04
+		2 = european_med_south_slavic_05
+		2 = european_med_south_slavic_06
+		2 = european_med_south_slavic_07
+		2 = european_med_south_slavic_08
+		2 = european_med_south_slavic_09
+		2 = european_med_south_slavic_10
+		2 = european_med_south_slavic_11
+		2 = european_med_south_slavic_12
+		2 = european_med_south_slavic_13
+		2 = european_med_south_slavic_14
+		2 = european_med_south_slavic_15
+		2 = european_med_south_slavic_16
+		2 = european_med_south_slavic_17
+		2 = european_med_south_slavic_18
+		2 = european_med_south_slavic_19
+		2 = european_med_south_slavic_20
+		2 = european_med_south_slavic_21
+		2 = european_med_south_slavic_22
+		2 = european_med_south_slavic_23
+		2 = european_med_south_slavic_24
+		2 = european_med_south_slavic_25
+		2 = european_med_south_slavic_26
+		2 = european_med_south_slavic_27
+		2 = european_med_south_slavic_28
+		2 = european_med_south_slavic_29
+		2 = european_med_south_slavic_30
+		2 = european_med_south_slavic_31
+		2 = european_med_south_slavic_32
+		2 = european_med_south_slavic_33
+		2 = european_med_south_slavic_34
+		2 = european_med_south_slavic_35
+		2 = european_med_south_slavic_36
+		2 = european_med_south_slavic_37
+		2 = european_med_south_slavic_38
+		2 = european_med_south_slavic_39
+		2 = european_med_south_slavic_40
+		2 = european_med_south_slavic_41
+		2 = european_med_south_slavic_42
+		2 = european_med_south_slavic_43
+		2 = european_med_south_slavic_44
+		2 = european_med_south_slavic_45
+		2 = european_med_south_slavic_46
+		2 = european_med_south_slavic_47
+		2 = european_med_south_slavic_48
+		2 = european_med_south_slavic_49
+		2 = european_med_south_slavic_50
+	}
+}
+
+slavonian = {
+	color = { 0.28 0.52 0.5 }
+	
+	created = 800.1.1
+	parents = { croatian } #gameplay reaons
+	
+	history_loc_override = slavonian_history_loc
+	
+	ethos = ethos_stoic
+	heritage = heritage_vlach
+	language = language_slavonic	
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hussar
+		tradition_stalwart_defenders
+		tradition_martial_admiration
+	}
+	
+	name_list = name_list_croatian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { epe_south_slav_clothing_gfx byzantine_clothing_gfx }
+	unit_gfx = { polish_unit_gfx eastern_unit_gfx }
+	
+	ethnicities = {
+		2 = european_south_slavic_blond_1
+		2 = european_south_slavic_blond_2
+		2 = european_south_slavic_blond_3
+		2 = european_south_slavic_brown_1
+		2 = european_south_slavic_brown_2
+		2 = european_south_slavic_brown_3
+		2 = european_south_slavic_brown_4
+		2 = european_south_slavic_dark_1
+		2 = european_south_slavic_dark_2
+		2 = european_south_slavic_dark_3
+		2 = european_slavic_blond_1
+		2 = european_slavic_blond_2
+		2 = european_slavic_blond_3
+		2 = european_slavic_blond_4
+		2 = european_slavic_ginger_1
+		2 = european_slavic_ginger_2
+		2 = european_slavic_brown_1
+		2 = european_slavic_brown_2
+		5 = european_slavic_brown_3
+		5 = european_slavic_brown_4
+		5 = european_slavic_dark_1
+		2 = european_slavic_dark_2
+		2 = european_slavic_dark_3
+		2 = european_slavic_dark_4
+		2 = european_med_south_slavic_01
+		2 = european_med_south_slavic_02
+		2 = european_med_south_slavic_03
+		2 = european_med_south_slavic_04
+		2 = european_med_south_slavic_05
+		2 = european_med_south_slavic_06
+		2 = european_med_south_slavic_07
+		2 = european_med_south_slavic_08
+		2 = european_med_south_slavic_09
+		2 = european_med_south_slavic_10
+		2 = european_med_south_slavic_11
+		2 = european_med_south_slavic_12
+		2 = european_med_south_slavic_13
+		2 = european_med_south_slavic_14
+		2 = european_med_south_slavic_15
+		2 = european_med_south_slavic_16
+		2 = european_med_south_slavic_17
+		2 = european_med_south_slavic_18
+		2 = european_med_south_slavic_19
+		2 = european_med_south_slavic_20
+		2 = european_med_south_slavic_21
+		2 = european_med_south_slavic_22
+		2 = european_med_south_slavic_23
+		2 = european_med_south_slavic_24
+		2 = european_med_south_slavic_25
+		2 = european_med_south_slavic_26
+		2 = european_med_south_slavic_27
+		2 = european_med_south_slavic_28
+		2 = european_med_south_slavic_29
+		2 = european_med_south_slavic_30
+		2 = european_med_south_slavic_31
+		2 = european_med_south_slavic_32
+		2 = european_med_south_slavic_33
+		2 = european_med_south_slavic_34
+		2 = european_med_south_slavic_35
+		2 = european_med_south_slavic_36
+		2 = european_med_south_slavic_37
+		2 = european_med_south_slavic_38
+		2 = european_med_south_slavic_39
+		2 = european_med_south_slavic_40
+		2 = european_med_south_slavic_41
+		2 = european_med_south_slavic_42
+		2 = european_med_south_slavic_43
+		2 = european_med_south_slavic_44
+		2 = european_med_south_slavic_45
+		2 = european_med_south_slavic_46
+		2 = european_med_south_slavic_47
+		2 = european_med_south_slavic_48
+		2 = european_med_south_slavic_49
+		2 = european_med_south_slavic_50
+	}
+}
+
+neretljanian = {
+	color = { 0.39 0.26 0.26 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_south_slavic
+	language = language_slavonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hussar
+		tradition_fishermen
+		tradition_practiced_pirates
+	}
+	
+	name_list = name_list_croatian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { epe_south_slav_clothing_gfx byzantine_clothing_gfx }
+	unit_gfx = { south_slavic_unit_gfx eastern_unit_gfx }
+	
+	ethnicities = {
+		2 = european_south_slavic_blond_1
+		2 = european_south_slavic_blond_2
+		2 = european_south_slavic_blond_3
+		2 = european_south_slavic_brown_1
+		2 = european_south_slavic_brown_2
+		2 = european_south_slavic_brown_3
+		2 = european_south_slavic_brown_4
+		2 = european_south_slavic_dark_1
+		2 = european_south_slavic_dark_2
+		2 = european_south_slavic_dark_3
+		2 = european_med_south_slavic_01
+		2 = european_med_south_slavic_02
+		2 = european_med_south_slavic_03
+		2 = european_med_south_slavic_04
+		2 = european_med_south_slavic_05
+		2 = european_med_south_slavic_06
+		2 = european_med_south_slavic_07
+		2 = european_med_south_slavic_08
+		2 = european_med_south_slavic_09
+		2 = european_med_south_slavic_10
+		2 = european_med_south_slavic_11
+		2 = european_med_south_slavic_12
+		2 = european_med_south_slavic_13
+		2 = european_med_south_slavic_14
+		2 = european_med_south_slavic_15
+		2 = european_med_south_slavic_16
+		2 = european_med_south_slavic_17
+		2 = european_med_south_slavic_18
+		2 = european_med_south_slavic_19
+		2 = european_med_south_slavic_20
+		2 = european_med_south_slavic_21
+		2 = european_med_south_slavic_22
+		2 = european_med_south_slavic_23
+		2 = european_med_south_slavic_24
+		2 = european_med_south_slavic_25
+		2 = european_med_south_slavic_26
+		2 = european_med_south_slavic_27
+		2 = european_med_south_slavic_28
+		2 = european_med_south_slavic_29
+		2 = european_med_south_slavic_30
+		2 = european_med_south_slavic_31
+		2 = european_med_south_slavic_32
+		2 = european_med_south_slavic_33
+		2 = european_med_south_slavic_34
+		2 = european_med_south_slavic_35
+		2 = european_med_south_slavic_36
+		2 = european_med_south_slavic_37
+		2 = european_med_south_slavic_38
+		2 = european_med_south_slavic_39
+		2 = european_med_south_slavic_40
+		2 = european_med_south_slavic_41
+		2 = european_med_south_slavic_42
+		2 = european_med_south_slavic_43
+		2 = european_med_south_slavic_44
+		2 = european_med_south_slavic_45
+		2 = european_med_south_slavic_46
+		2 = european_med_south_slavic_47
+		2 = european_med_south_slavic_48
+		2 = european_med_south_slavic_49
+		2 = european_med_south_slavic_50
+	}
+}
+
+abotrite = {
+	color = { 0.22 0.44 0.5 }
+	
+	created = 700.1.1
+	parents = { obotrite }
+	history_loc_override = abotrite_history_loc
+	
+	ethos = ethos_stoic
+	heritage = heritage_south_slavic
+	language = language_slavonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hussar
+		tradition_stalwart_defenders
+	}
+	
+	dlc_tradition = {
+		trait = tradition_staunch_traditionalists
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_serbian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { epe_south_slav_clothing_gfx byzantine_clothing_gfx }
+	unit_gfx = { south_slavic_unit_gfx eastern_unit_gfx }
+	
+	ethnicities = {
+		2 = european_slavic_blond_1
+		2 = european_slavic_blond_2
+		2 = european_slavic_blond_3
+		2 = european_slavic_blond_4
+		2 = european_slavic_ginger_1
+		2 = european_slavic_ginger_2
+		2 = european_slavic_brown_1
+		2 = european_slavic_brown_2
+		2 = european_slavic_brown_3
+		2 = european_slavic_brown_4
+		2 = european_slavic_dark_1
+		2 = european_slavic_dark_2
+		2 = european_slavic_dark_3
+		2 = european_slavic_dark_4
+		2 = european_med_south_slavic_01
+		2 = european_med_south_slavic_02
+		2 = european_med_south_slavic_03
+		2 = european_med_south_slavic_04
+		2 = european_med_south_slavic_05
+		2 = european_med_south_slavic_06
+		2 = european_med_south_slavic_07
+		2 = european_med_south_slavic_08
+		2 = european_med_south_slavic_09
+		2 = european_med_south_slavic_10
+		2 = european_med_south_slavic_11
+		2 = european_med_south_slavic_12
+		2 = european_med_south_slavic_13
+		2 = european_med_south_slavic_14
+		2 = european_med_south_slavic_15
+		2 = european_med_south_slavic_16
+		2 = european_med_south_slavic_17
+		2 = european_med_south_slavic_18
+		2 = european_med_south_slavic_19
+		2 = european_med_south_slavic_20
+		2 = european_med_south_slavic_21
+		2 = european_med_south_slavic_22
+		2 = european_med_south_slavic_23
+		2 = european_med_south_slavic_24
+		2 = european_med_south_slavic_25
+		2 = european_med_south_slavic_26
+		2 = european_med_south_slavic_27
+		2 = european_med_south_slavic_28
+		2 = european_med_south_slavic_29
+		2 = european_med_south_slavic_30
+		2 = european_med_south_slavic_31
+		2 = european_med_south_slavic_32
+		2 = european_med_south_slavic_33
+		2 = european_med_south_slavic_34
+		2 = european_med_south_slavic_35
+		2 = european_med_south_slavic_36
+		2 = european_med_south_slavic_37
+		2 = european_med_south_slavic_38
+		2 = european_med_south_slavic_39
+		2 = european_med_south_slavic_40
+		2 = european_med_south_slavic_41
+		2 = european_med_south_slavic_42
+		2 = european_med_south_slavic_43
+		2 = european_med_south_slavic_44
+		2 = european_med_south_slavic_45
+		2 = european_med_south_slavic_46
+		2 = european_med_south_slavic_47
+		2 = european_med_south_slavic_48
+		2 = european_med_south_slavic_49
+		2 = european_med_south_slavic_50
+	}
+}
+
+branichian = {
+	color = { 0.34 0.044 0.04 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_south_slavic
+	language = language_slavonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hussar
+		tradition_isolationist
+		tradition_martial_admiration
+		tradition_stalwart_defenders
+	}
+	
+	name_list = name_list_serbian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { epe_south_slav_clothing_gfx byzantine_clothing_gfx }
+	unit_gfx = { south_slavic_unit_gfx eastern_unit_gfx }
+	
+	ethnicities = {
+		2 = european_slavic_blond_1
+		2 = european_slavic_blond_2
+		2 = european_slavic_blond_3
+		2 = european_slavic_blond_4
+		2 = european_slavic_ginger_1
+		2 = european_slavic_ginger_2
+		2 = european_slavic_brown_1
+		2 = european_slavic_brown_2
+		2 = european_slavic_brown_3
+		2 = european_slavic_brown_4
+		2 = european_slavic_dark_1
+		2 = european_slavic_dark_2
+		2 = european_slavic_dark_3
+		5 = european_slavic_dark_4
+		2 = european_med_south_slavic_01
+		2 = european_med_south_slavic_02
+		2 = european_med_south_slavic_03
+		2 = european_med_south_slavic_04
+		2 = european_med_south_slavic_05
+		2 = european_med_south_slavic_06
+		2 = european_med_south_slavic_07
+		2 = european_med_south_slavic_08
+		2 = european_med_south_slavic_09
+		2 = european_med_south_slavic_10
+		2 = european_med_south_slavic_11
+		2 = european_med_south_slavic_12
+		2 = european_med_south_slavic_13
+		2 = european_med_south_slavic_14
+		2 = european_med_south_slavic_15
+		2 = european_med_south_slavic_16
+		2 = european_med_south_slavic_17
+		2 = european_med_south_slavic_18
+		2 = european_med_south_slavic_19
+		2 = european_med_south_slavic_20
+		2 = european_med_south_slavic_21
+		2 = european_med_south_slavic_22
+		2 = european_med_south_slavic_23
+		2 = european_med_south_slavic_24
+		2 = european_med_south_slavic_25
+		2 = european_med_south_slavic_26
+		2 = european_med_south_slavic_27
+		2 = european_med_south_slavic_28
+		2 = european_med_south_slavic_29
+		2 = european_med_south_slavic_30
+		2 = european_med_south_slavic_31
+		2 = european_med_south_slavic_32
+		2 = european_med_south_slavic_33
+		2 = european_med_south_slavic_34
+		2 = european_med_south_slavic_35
+		2 = european_med_south_slavic_36
+		2 = european_med_south_slavic_37
+		2 = european_med_south_slavic_38
+		2 = european_med_south_slavic_39
+		2 = european_med_south_slavic_40
+		2 = european_med_south_slavic_41
+		2 = european_med_south_slavic_42
+		2 = european_med_south_slavic_43
+		2 = european_med_south_slavic_44
+		2 = european_med_south_slavic_45
+		2 = european_med_south_slavic_46
+		2 = european_med_south_slavic_47
+		2 = european_med_south_slavic_48
+		2 = european_med_south_slavic_49
+		2 = european_med_south_slavic_50
+	}
+}
+
+doclean = {
+	color = {  0.30 0.04 0.00 }
+	
+	ethos = ethos_communal
+	heritage = heritage_south_slavic
+	language = language_slavonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hussar
+		tradition_maritime_mercantilism
+		tradition_xenophilic
+	}
+	
+	name_list = name_list_serbian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { epe_south_slav_clothing_gfx byzantine_clothing_gfx }
+	unit_gfx = { south_slavic_unit_gfx eastern_unit_gfx }
+	
+	ethnicities = {
+		2 = european_south_slavic_blond_1
+		2 = european_south_slavic_blond_2
+		2 = european_south_slavic_blond_3
+		2 = european_south_slavic_brown_1
+		2 = european_south_slavic_brown_2
+		2 = european_south_slavic_brown_3
+		2 = european_south_slavic_brown_4
+		2 = european_south_slavic_dark_1
+		2 = european_south_slavic_dark_2
+		2 = european_south_slavic_dark_3
+		2 = european_med_south_slavic_01
+		2 = european_med_south_slavic_02
+		2 = european_med_south_slavic_03
+		2 = european_med_south_slavic_04
+		2 = european_med_south_slavic_05
+		2 = european_med_south_slavic_06
+		2 = european_med_south_slavic_07
+		2 = european_med_south_slavic_08
+		2 = european_med_south_slavic_09
+		2 = european_med_south_slavic_10
+		2 = european_med_south_slavic_11
+		2 = european_med_south_slavic_12
+		2 = european_med_south_slavic_13
+		2 = european_med_south_slavic_14
+		2 = european_med_south_slavic_15
+		2 = european_med_south_slavic_16
+		2 = european_med_south_slavic_17
+		2 = european_med_south_slavic_18
+		2 = european_med_south_slavic_19
+		2 = european_med_south_slavic_20
+		2 = european_med_south_slavic_21
+		2 = european_med_south_slavic_22
+		2 = european_med_south_slavic_23
+		2 = european_med_south_slavic_24
+		2 = european_med_south_slavic_25
+		2 = european_med_south_slavic_26
+		2 = european_med_south_slavic_27
+		2 = european_med_south_slavic_28
+		2 = european_med_south_slavic_29
+		2 = european_med_south_slavic_30
+		2 = european_med_south_slavic_31
+		2 = european_med_south_slavic_32
+		2 = european_med_south_slavic_33
+		2 = european_med_south_slavic_34
+		2 = european_med_south_slavic_35
+		2 = european_med_south_slavic_36
+		2 = european_med_south_slavic_37
+		2 = european_med_south_slavic_38
+		2 = european_med_south_slavic_39
+		2 = european_med_south_slavic_40
+		2 = european_med_south_slavic_41
+		2 = european_med_south_slavic_42
+		2 = european_med_south_slavic_43
+		2 = european_med_south_slavic_44
+		2 = european_med_south_slavic_45
+		2 = european_med_south_slavic_46
+		2 = european_med_south_slavic_47
+		2 = european_med_south_slavic_48
+		2 = european_med_south_slavic_49
+		2 = european_med_south_slavic_50
+	}
+}
+
+travunian = {
+	color = {  0.39 0.041 0.03 }
+	
+	ethos = ethos_communal
+	heritage = heritage_south_slavic
+	language = language_slavonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hussar
+		tradition_mountaineer_ruralism
+		tradition_esteemed_hospitality
+	}
+	
+	name_list = name_list_serbian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { epe_south_slav_clothing_gfx byzantine_clothing_gfx }
+	unit_gfx = { south_slavic_unit_gfx eastern_unit_gfx }
+	
+	ethnicities = {
+		2 = european_south_slavic_blond_1
+		2 = european_south_slavic_blond_2
+		2 = european_south_slavic_blond_3
+		2 = european_south_slavic_brown_1
+		2 = european_south_slavic_brown_2
+		2 = european_south_slavic_brown_3
+		2 = european_south_slavic_brown_4
+		2 = european_south_slavic_dark_1
+		2 = european_south_slavic_dark_2
+		2 = european_south_slavic_dark_3
+		2 = european_med_south_slavic_01
+		2 = european_med_south_slavic_02
+		2 = european_med_south_slavic_03
+		2 = european_med_south_slavic_04
+		2 = european_med_south_slavic_05
+		2 = european_med_south_slavic_06
+		2 = european_med_south_slavic_07
+		2 = european_med_south_slavic_08
+		2 = european_med_south_slavic_09
+		2 = european_med_south_slavic_10
+		2 = european_med_south_slavic_11
+		2 = european_med_south_slavic_12
+		2 = european_med_south_slavic_13
+		2 = european_med_south_slavic_14
+		2 = european_med_south_slavic_15
+		2 = european_med_south_slavic_16
+		2 = european_med_south_slavic_17
+		2 = european_med_south_slavic_18
+		2 = european_med_south_slavic_19
+		2 = european_med_south_slavic_20
+		2 = european_med_south_slavic_21
+		2 = european_med_south_slavic_22
+		2 = european_med_south_slavic_23
+		2 = european_med_south_slavic_24
+		2 = european_med_south_slavic_25
+		2 = european_med_south_slavic_26
+		2 = european_med_south_slavic_27
+		2 = european_med_south_slavic_28
+		2 = european_med_south_slavic_29
+		2 = european_med_south_slavic_30
+		2 = european_med_south_slavic_31
+		2 = european_med_south_slavic_32
+		2 = european_med_south_slavic_33
+		2 = european_med_south_slavic_34
+		2 = european_med_south_slavic_35
+		2 = european_med_south_slavic_36
+		2 = european_med_south_slavic_37
+		2 = european_med_south_slavic_38
+		2 = european_med_south_slavic_39
+		2 = european_med_south_slavic_40
+		2 = european_med_south_slavic_41
+		2 = european_med_south_slavic_42
+		2 = european_med_south_slavic_43
+		2 = european_med_south_slavic_44
+		2 = european_med_south_slavic_45
+		2 = european_med_south_slavic_46
+		2 = european_med_south_slavic_47
+		2 = european_med_south_slavic_48
+		2 = european_med_south_slavic_49
+		2 = european_med_south_slavic_50
+	}
+}
+
+zachlumian = {
+	color = {  0.5 0.3 0.3 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_south_slavic
+	language = language_slavonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hussar
+		tradition_mountaineer_ruralism
+		tradition_xenophilic
+	}
+	
+	name_list = name_list_serbian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { epe_south_slav_clothing_gfx byzantine_clothing_gfx }
+	unit_gfx = { south_slavic_unit_gfx eastern_unit_gfx }
+	
+	ethnicities = {
+		2 = european_south_slavic_blond_1
+		2 = european_south_slavic_blond_2
+		2 = european_south_slavic_blond_3
+		2 = european_south_slavic_brown_1
+		2 = european_south_slavic_brown_2
+		2 = european_south_slavic_brown_3
+		2 = european_south_slavic_brown_4
+		2 = european_south_slavic_dark_1
+		2 = european_south_slavic_dark_2
+		2 = european_south_slavic_dark_3
+		2 = european_med_south_slavic_01
+		2 = european_med_south_slavic_02
+		2 = european_med_south_slavic_03
+		2 = european_med_south_slavic_04
+		2 = european_med_south_slavic_05
+		2 = european_med_south_slavic_06
+		2 = european_med_south_slavic_07
+		2 = european_med_south_slavic_08
+		2 = european_med_south_slavic_09
+		2 = european_med_south_slavic_10
+		2 = european_med_south_slavic_11
+		2 = european_med_south_slavic_12
+		2 = european_med_south_slavic_13
+		2 = european_med_south_slavic_14
+		2 = european_med_south_slavic_15
+		2 = european_med_south_slavic_16
+		2 = european_med_south_slavic_17
+		2 = european_med_south_slavic_18
+		2 = european_med_south_slavic_19
+		2 = european_med_south_slavic_20
+		2 = european_med_south_slavic_21
+		2 = european_med_south_slavic_22
+		2 = european_med_south_slavic_23
+		2 = european_med_south_slavic_24
+		2 = european_med_south_slavic_25
+		2 = european_med_south_slavic_26
+		2 = european_med_south_slavic_27
+		2 = european_med_south_slavic_28
+		2 = european_med_south_slavic_29
+		2 = european_med_south_slavic_30
+		2 = european_med_south_slavic_31
+		2 = european_med_south_slavic_32
+		2 = european_med_south_slavic_33
+		2 = european_med_south_slavic_34
+		2 = european_med_south_slavic_35
+		2 = european_med_south_slavic_36
+		2 = european_med_south_slavic_37
+		2 = european_med_south_slavic_38
+		2 = european_med_south_slavic_39
+		2 = european_med_south_slavic_40
+		2 = european_med_south_slavic_41
+		2 = european_med_south_slavic_42
+		2 = european_med_south_slavic_43
+		2 = european_med_south_slavic_44
+		2 = european_med_south_slavic_45
+		2 = european_med_south_slavic_46
+		2 = european_med_south_slavic_47
+		2 = european_med_south_slavic_48
+		2 = european_med_south_slavic_49
+		2 = european_med_south_slavic_50
+	}
+}
+
+pannonian = {
+	color = { 0.32 0.55 0.64 }
+	
+	parents = { blatnohrader }
+	created = 865.1.1
+	
+	history_loc_override = pannonian_history_loc
+	
+	ethos = ethos_courtly
+	heritage = heritage_vlach
+	language = language_slavonic	
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hussar
+		tradition_pastoralists
+		tradition_esteemed_hospitality
+		tradition_poetry
+	}
+	
+	name_list = name_list_croatian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { epe_south_slav_clothing_gfx byzantine_clothing_gfx }
+	unit_gfx = { south_slavic_unit_gfx eastern_unit_gfx }
+	
+	ethnicities = {
+		2 = european_south_slavic_blond_1
+		2 = european_south_slavic_blond_2
+		2 = european_south_slavic_blond_3
+		2 = european_south_slavic_brown_1
+		2 = european_south_slavic_brown_2
+		2 = european_south_slavic_brown_3
+		2 = european_south_slavic_brown_4
+		2 = european_south_slavic_dark_1
+		2 = european_south_slavic_dark_2
+		2 = european_south_slavic_dark_3
+		2 = european_slavic_blond_1
+		2 = european_slavic_blond_2
+		2 = european_slavic_blond_3
+		2 = european_slavic_blond_4
+		2 = european_slavic_ginger_1
+		2 = european_slavic_ginger_2
+		2 = european_slavic_brown_1
+		2 = european_slavic_brown_2
+		2 = european_slavic_brown_3
+		2 = european_slavic_brown_4
+		2 = european_slavic_dark_1
+		2 = european_slavic_dark_2
+		2 = european_slavic_dark_3
+		2 = european_slavic_dark_4
+		2 = european_med_south_slavic_01
+		2 = european_med_south_slavic_02
+		2 = european_med_south_slavic_03
+		2 = european_med_south_slavic_04
+		2 = european_med_south_slavic_05
+		2 = european_med_south_slavic_06
+		2 = european_med_south_slavic_07
+		2 = european_med_south_slavic_08
+		2 = european_med_south_slavic_09
+		2 = european_med_south_slavic_10
+		2 = european_med_south_slavic_11
+		2 = european_med_south_slavic_12
+		2 = european_med_south_slavic_13
+		2 = european_med_south_slavic_14
+		2 = european_med_south_slavic_15
+		2 = european_med_south_slavic_16
+		2 = european_med_south_slavic_17
+		2 = european_med_south_slavic_18
+		2 = european_med_south_slavic_19
+		2 = european_med_south_slavic_20
+		2 = european_med_south_slavic_21
+		2 = european_med_south_slavic_22
+		2 = european_med_south_slavic_23
+		2 = european_med_south_slavic_24
+		2 = european_med_south_slavic_25
+		2 = european_med_south_slavic_26
+		2 = european_med_south_slavic_27
+		2 = european_med_south_slavic_28
+		2 = european_med_south_slavic_29
+		2 = european_med_south_slavic_30
+		2 = european_med_south_slavic_31
+		2 = european_med_south_slavic_32
+		2 = european_med_south_slavic_33
+		2 = european_med_south_slavic_34
+		2 = european_med_south_slavic_35
+		2 = european_med_south_slavic_36
+		2 = european_med_south_slavic_37
+		2 = european_med_south_slavic_38
+		2 = european_med_south_slavic_39
+		2 = european_med_south_slavic_40
+		2 = european_med_south_slavic_41
+		2 = european_med_south_slavic_42
+		2 = european_med_south_slavic_43
+		2 = european_med_south_slavic_44
+		2 = european_med_south_slavic_45
+		2 = european_med_south_slavic_46
+		2 = european_med_south_slavic_47
+		2 = european_med_south_slavic_48
+		2 = european_med_south_slavic_49
+		2 = european_med_south_slavic_50
+		2 = european_magyar_hungarian_01
+		2 = european_magyar_hungarian_02
+		2 = european_magyar_hungarian_03
+		2 = european_magyar_hungarian_04
+		2 = european_magyar_hungarian_05
+		2 = european_magyar_hungarian_06
+		2 = european_magyar_hungarian_07
+		2 = european_magyar_hungarian_08
+		2 = european_magyar_hungarian_09
+		2 = european_magyar_hungarian_10
+		2 = european_magyar_hungarian_11
+		2 = european_magyar_hungarian_12
+		2 = european_magyar_hungarian_13
+		2 = european_magyar_hungarian_14
+		2 = european_magyar_hungarian_15
+		2 = european_magyar_hungarian_16
+		2 = european_magyar_hungarian_17
+		2 = european_magyar_hungarian_18
+		2 = european_magyar_hungarian_19
+		2 = european_magyar_hungarian_20
+		2 = european_magyar_hungarian_21
+		2 = european_magyar_hungarian_22
+		2 = european_magyar_hungarian_23
+		2 = european_magyar_hungarian_24
+		2 = european_magyar_hungarian_25
+		2 = european_magyar_hungarian_26
+		2 = european_magyar_hungarian_27
+		2 = european_magyar_hungarian_28
+		2 = european_magyar_hungarian_29
+		2 = european_magyar_hungarian_30
+		2 = european_magyar_hungarian_31
+		2 = european_magyar_hungarian_32
+		2 = european_magyar_hungarian_33
+		2 = european_magyar_hungarian_34
+		2 = european_magyar_hungarian_35
+		2 = european_magyar_hungarian_36
+		2 = european_magyar_hungarian_37
+		2 = european_magyar_hungarian_38
+		2 = european_magyar_hungarian_39
+		2 = european_magyar_hungarian_40
+		2 = european_magyar_hungarian_41
+		2 = european_magyar_hungarian_42
+		2 = european_magyar_hungarian_43
+	}
+}
+
+illyrian_slavic = {
+	color = { 0.32 0.42 0.60 }
+	
+	parents = { croatian serbian }
+
+	created = 1102.1.1
+	
+	history_loc_override = illyrian_slavic_history_loc
+	
+	ethos = ethos_courtly
+	heritage = heritage_south_slavic
+	language = language_slavonic	
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hussar
+		tradition_mountaineer_ruralism
+		tradition_hard_working
+	}
+	
+	name_list = name_list_croatian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { epe_south_slav_clothing_gfx byzantine_clothing_gfx }
+	unit_gfx = { south_slavic_unit_gfx eastern_unit_gfx }
+	
+	ethnicities = {
+		2 = european_south_slavic_blond_1
+		2 = european_south_slavic_blond_2
+		2 = european_south_slavic_blond_3
+		2 = european_south_slavic_brown_1
+		2 = european_south_slavic_brown_2
+		2 = european_south_slavic_brown_3
+		2 = european_south_slavic_brown_4
+		2 = european_south_slavic_dark_1
+		2 = european_south_slavic_dark_2
+		2 = european_south_slavic_dark_3
+		2 = european_slavic_blond_1
+		2 = european_slavic_blond_2
+		2 = european_slavic_blond_3
+		2 = european_slavic_blond_4
+		2 = european_slavic_ginger_1
+		2 = european_slavic_ginger_2
+		2 = european_slavic_brown_1
+		2 = european_slavic_brown_2
+		2 = european_slavic_brown_3
+		2 = european_slavic_brown_4
+		2 = european_slavic_dark_1
+		2 = european_slavic_dark_2
+		2 = european_slavic_dark_3
+		2 = european_slavic_dark_4
+		2 = european_med_south_slavic_01
+		2 = european_med_south_slavic_02
+		2 = european_med_south_slavic_03
+		2 = european_med_south_slavic_04
+		2 = european_med_south_slavic_05
+		2 = european_med_south_slavic_06
+		2 = european_med_south_slavic_07
+		2 = european_med_south_slavic_08
+		2 = european_med_south_slavic_09
+		2 = european_med_south_slavic_10
+		2 = european_med_south_slavic_11
+		2 = european_med_south_slavic_12
+		2 = european_med_south_slavic_13
+		2 = european_med_south_slavic_14
+		2 = european_med_south_slavic_15
+		2 = european_med_south_slavic_16
+		2 = european_med_south_slavic_17
+		2 = european_med_south_slavic_18
+		2 = european_med_south_slavic_19
+		2 = european_med_south_slavic_20
+		2 = european_med_south_slavic_21
+		2 = european_med_south_slavic_22
+		2 = european_med_south_slavic_23
+		2 = european_med_south_slavic_24
+		2 = european_med_south_slavic_25
+		2 = european_med_south_slavic_26
+		2 = european_med_south_slavic_27
+		2 = european_med_south_slavic_28
+		2 = european_med_south_slavic_29
+		2 = european_med_south_slavic_30
+		2 = european_med_south_slavic_31
+		2 = european_med_south_slavic_32
+		2 = european_med_south_slavic_33
+		2 = european_med_south_slavic_34
+		2 = european_med_south_slavic_35
+		2 = european_med_south_slavic_36
+		2 = european_med_south_slavic_37
+		2 = european_med_south_slavic_38
+		2 = european_med_south_slavic_39
+		2 = european_med_south_slavic_40
+		2 = european_med_south_slavic_41
+		2 = european_med_south_slavic_42
+		2 = european_med_south_slavic_43
+		2 = european_med_south_slavic_44
+		2 = european_med_south_slavic_45
+		2 = european_med_south_slavic_46
+		2 = european_med_south_slavic_47
+		2 = european_med_south_slavic_48
+		2 = european_med_south_slavic_49
+		2 = european_med_south_slavic_50
+	}
+}
+
+bulgarian = {
+	color = { 0.7 0.5 0.5 }
+	created = 850.1.1
+	parents = { bolghar serbian }
+	
+	history_loc_override = bulgarian_history_loc
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_south_slavic
+	language = language_slavonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_ruling_caste
+		tradition_stand_and_fight
+		tradition_hussar
+		tradition_merciful_blindings
+	}
+	
+	name_list = name_list_bulgarian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { epe_bulgarian_clothing_gfx byzantine_clothing_gfx }
+	unit_gfx = { south_slavic_unit_gfx eastern_unit_gfx }
+	
+	ethnicities = {
+		1 = european_vlach_01
+		1 = european_vlach_02
+		1 = european_vlach_03
+		1 = european_vlach_04
+		1 = european_vlach_05
+		1 = european_vlach_06
+		1 = european_vlach_07
+		1 = european_vlach_08
+		1 = european_vlach_09
+		1 = european_vlach_10
+		1 = european_vlach_11
+		1 = european_vlach_12
+		1 = european_vlach_13
+		1 = european_vlach_14
+		1 = european_vlach_15
+		1 = european_vlach_16
+		1 = european_vlach_17
+		1 = european_vlach_18
+		1 = european_vlach_19
+		1 = european_vlach_20
+		1 = european_vlach_21
+		1 = european_vlach_22
+		1 = european_vlach_23
+		1 = european_vlach_24
+		1 = european_vlach_25
+		1 = european_vlach_26
+		1 = european_vlach_27
+		1 = european_vlach_28
+		1 = european_vlach_29
+		1 = european_vlach_30
+		1 = european_vlach_31
+		1 = european_vlach_32
+		1 = european_vlach_33
+		1 = european_vlach_34
+		1 = european_vlach_35
+		1 = european_vlach_36
+		1 = european_vlach_37
+		1 = european_vlach_38
+		1 = european_vlach_39
+		1 = european_vlach_40
+		1 = european_vlach_41
+		1 = european_magyar_hungarian_01
+		1 = european_magyar_hungarian_02
+		1 = european_magyar_hungarian_03
+		1 = european_magyar_hungarian_04
+		1 = european_magyar_hungarian_05
+		1 = european_magyar_hungarian_06
+		1 = european_magyar_hungarian_07
+		1 = european_magyar_hungarian_08
+		1 = european_magyar_hungarian_09
+		1 = european_magyar_hungarian_10
+		1 = european_magyar_hungarian_11
+		1 = european_magyar_hungarian_12
+		1 = european_magyar_hungarian_13
+		1 = european_magyar_hungarian_14
+		1 = european_magyar_hungarian_15
+		1 = european_magyar_hungarian_16
+		1 = european_magyar_hungarian_17
+		1 = european_magyar_hungarian_18
+		1 = european_magyar_hungarian_19
+		1 = european_magyar_hungarian_20
+		1 = european_magyar_hungarian_21
+		1 = european_magyar_hungarian_22
+		1 = european_magyar_hungarian_23
+		1 = european_magyar_hungarian_24
+		1 = european_magyar_hungarian_25
+		1 = european_magyar_hungarian_26
+		1 = european_magyar_hungarian_27
+		1 = european_magyar_hungarian_28
+		1 = european_magyar_hungarian_29
+		1 = european_magyar_hungarian_30
+		1 = european_magyar_hungarian_31
+		1 = european_magyar_hungarian_32
+		1 = european_magyar_hungarian_33
+		1 = european_magyar_hungarian_34
+		1 = european_magyar_hungarian_35
+		1 = european_magyar_hungarian_36
+		1 = european_magyar_hungarian_37
+		1 = european_magyar_hungarian_38
+		1 = european_magyar_hungarian_39
+		1 = european_magyar_hungarian_40
+		1 = european_magyar_hungarian_41
+		1 = european_magyar_hungarian_42
+		1 = european_magyar_hungarian_43
+	}
+}
+
+yugoslavian = {
+	color = { 0.35 0.45 0.70 }
+	
+	created = 1830.1.1
+	parents = { illyrian_slavic bulgarian }
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_south_slavic
+	language = language_slavonic	
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hussar
+		tradition_martial_admiration
+		tradition_hard_working
+		tradition_stand_and_fight
+		tradition_stalwart_defenders
+	}
+	
+	name_list = name_list_croatian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { epe_south_slav_clothing_gfx byzantine_clothing_gfx }
+	unit_gfx = { south_slavic_unit_gfx eastern_unit_gfx }
+	
+	ethnicities = {
+		2 = european_south_slavic_blond_1
+		2 = european_south_slavic_blond_2
+		2 = european_south_slavic_blond_3
+		2 = european_south_slavic_brown_1
+		2 = european_south_slavic_brown_2
+		2 = european_south_slavic_brown_3
+		2 = european_south_slavic_brown_4
+		2 = european_south_slavic_dark_1
+		2 = european_south_slavic_dark_2
+		2 = european_south_slavic_dark_3
+		2 = european_slavic_blond_1
+		2 = european_slavic_blond_2
+		2 = european_slavic_blond_3
+		2 = european_slavic_blond_4
+		2 = european_slavic_ginger_1
+		2 = european_slavic_ginger_2
+		2 = european_slavic_brown_1
+		2 = european_slavic_brown_2
+		2 = european_slavic_brown_3
+		2 = european_slavic_brown_4
+		2 = european_slavic_dark_1
+		2 = european_slavic_dark_2
+		2 = european_slavic_dark_3
+		2 = european_slavic_dark_4
+		2 = european_med_south_slavic_01
+		2 = european_med_south_slavic_02
+		2 = european_med_south_slavic_03
+		2 = european_med_south_slavic_04
+		2 = european_med_south_slavic_05
+		2 = european_med_south_slavic_06
+		2 = european_med_south_slavic_07
+		2 = european_med_south_slavic_08
+		2 = european_med_south_slavic_09
+		2 = european_med_south_slavic_10
+		2 = european_med_south_slavic_11
+		2 = european_med_south_slavic_12
+		2 = european_med_south_slavic_13
+		2 = european_med_south_slavic_14
+		2 = european_med_south_slavic_15
+		2 = european_med_south_slavic_16
+		2 = european_med_south_slavic_17
+		2 = european_med_south_slavic_18
+		2 = european_med_south_slavic_19
+		2 = european_med_south_slavic_20
+		2 = european_med_south_slavic_21
+		2 = european_med_south_slavic_22
+		2 = european_med_south_slavic_23
+		2 = european_med_south_slavic_24
+		2 = european_med_south_slavic_25
+		2 = european_med_south_slavic_26
+		2 = european_med_south_slavic_27
+		2 = european_med_south_slavic_28
+		2 = european_med_south_slavic_29
+		2 = european_med_south_slavic_30
+		2 = european_med_south_slavic_31
+		2 = european_med_south_slavic_32
+		2 = european_med_south_slavic_33
+		2 = european_med_south_slavic_34
+		2 = european_med_south_slavic_35
+		2 = european_med_south_slavic_36
+		2 = european_med_south_slavic_37
+		2 = european_med_south_slavic_38
+		2 = european_med_south_slavic_39
+		2 = european_med_south_slavic_40
+		2 = european_med_south_slavic_41
+		2 = european_med_south_slavic_42
+		2 = european_med_south_slavic_43
+		2 = european_med_south_slavic_44
+		2 = european_med_south_slavic_45
+		2 = european_med_south_slavic_46
+		2 = european_med_south_slavic_47
+		2 = european_med_south_slavic_48
+		2 = european_med_south_slavic_49
+		2 = european_med_south_slavic_50
+	}
+}
+
+berzite = {
+	color = { 0.6 0.4 0.4 }
+	
+	ethos = ethos_communal
+	heritage = heritage_south_slavic
+	language = language_slavonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hussar
+		tradition_martial_admiration
+		tradition_xenophilic
+	}
+	
+	name_list = name_list_bulgarian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { epe_bulgarian_clothing_gfx byzantine_clothing_gfx }
+	unit_gfx = { south_slavic_unit_gfx eastern_unit_gfx }
+	
+	ethnicities = {
+		2 = european_south_slavic_blond_1
+		2 = european_south_slavic_blond_2
+		2 = european_south_slavic_blond_3
+		2 = european_south_slavic_brown_1
+		2 = european_south_slavic_brown_2
+		2 = european_south_slavic_brown_3
+		2 = european_south_slavic_brown_4
+		2 = european_south_slavic_dark_1
+		2 = european_south_slavic_dark_2
+		2 = european_south_slavic_dark_3
+		2 = european_slavic_blond_1
+		2 = european_slavic_blond_2
+		2 = european_slavic_blond_3
+		2 = european_slavic_blond_4
+		2 = european_slavic_ginger_1
+		2 = european_slavic_ginger_2
+		2 = european_slavic_brown_1
+		2 = european_slavic_brown_2
+		2 = european_slavic_brown_3
+		2 = european_slavic_brown_4
+		2 = european_slavic_dark_1
+		2 = european_slavic_dark_2
+		2 = european_slavic_dark_3
+		2 = european_slavic_dark_4
+		2 = european_med_south_slavic_01
+		2 = european_med_south_slavic_02
+		2 = european_med_south_slavic_03
+		2 = european_med_south_slavic_04
+		2 = european_med_south_slavic_05
+		2 = european_med_south_slavic_06
+		2 = european_med_south_slavic_07
+		2 = european_med_south_slavic_08
+		2 = european_med_south_slavic_09
+		2 = european_med_south_slavic_10
+		2 = european_med_south_slavic_11
+		2 = european_med_south_slavic_12
+		2 = european_med_south_slavic_13
+		2 = european_med_south_slavic_14
+		2 = european_med_south_slavic_15
+		2 = european_med_south_slavic_16
+		2 = european_med_south_slavic_17
+		2 = european_med_south_slavic_18
+		2 = european_med_south_slavic_19
+		2 = european_med_south_slavic_20
+		2 = european_med_south_slavic_21
+		2 = european_med_south_slavic_22
+		2 = european_med_south_slavic_23
+		2 = european_med_south_slavic_24
+		2 = european_med_south_slavic_25
+		2 = european_med_south_slavic_26
+		2 = european_med_south_slavic_27
+		2 = european_med_south_slavic_28
+		2 = european_med_south_slavic_29
+		2 = european_med_south_slavic_30
+		2 = european_med_south_slavic_31
+		2 = european_med_south_slavic_32
+		2 = european_med_south_slavic_33
+		2 = european_med_south_slavic_34
+		2 = european_med_south_slavic_35
+		2 = european_med_south_slavic_36
+		2 = european_med_south_slavic_37
+		2 = european_med_south_slavic_38
+		2 = european_med_south_slavic_39
+		2 = european_med_south_slavic_40
+		2 = european_med_south_slavic_41
+		2 = european_med_south_slavic_42
+		2 = european_med_south_slavic_43
+		2 = european_med_south_slavic_44
+		2 = european_med_south_slavic_45
+		2 = european_med_south_slavic_46
+		2 = european_med_south_slavic_47
+		2 = european_med_south_slavic_48
+		2 = european_med_south_slavic_49
+		2 = european_med_south_slavic_50
+	}
+}
+
+
+croatian = {
+	color = { 0.4 0.2 0.2 }
+	
+	created = 800.1.1
+	parents = { belocroat slavonian } #technically also belocroat, but I don't want the Belocroats to end up as South Slavs// Slavonian for gameplay reaons 
+	
+	history_loc_override = croatian_history_loc
+	
+	ethos = ethos_communal
+	heritage = heritage_south_slavic
+	language = language_slavonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hussar
+		tradition_astute_diplomats
+		tradition_hereditary_hierarchy
+	}
+	
+	name_list = name_list_croatian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		2 = european_med_south_slavic_01
+		2 = european_med_south_slavic_02
+		2 = european_med_south_slavic_03
+		2 = european_med_south_slavic_04
+		2 = european_med_south_slavic_05
+		2 = european_med_south_slavic_06
+		2 = european_med_south_slavic_07
+		2 = european_med_south_slavic_08
+		2 = european_med_south_slavic_09
+		2 = european_med_south_slavic_10
+		2 = european_med_south_slavic_11
+		2 = european_med_south_slavic_12
+		2 = european_med_south_slavic_13
+		2 = european_med_south_slavic_14
+		2 = european_med_south_slavic_15
+		2 = european_med_south_slavic_16
+		2 = european_med_south_slavic_17
+		2 = european_med_south_slavic_18
+		2 = european_med_south_slavic_19
+		2 = european_med_south_slavic_20
+		2 = european_med_south_slavic_21
+		2 = european_med_south_slavic_22
+		2 = european_med_south_slavic_23
+		2 = european_med_south_slavic_24
+		2 = european_med_south_slavic_25
+		2 = european_med_south_slavic_26
+		2 = european_med_south_slavic_27
+		2 = european_med_south_slavic_28
+		2 = european_med_south_slavic_29
+		2 = european_med_south_slavic_30
+		2 = european_med_south_slavic_31
+		2 = european_med_south_slavic_32
+		2 = european_med_south_slavic_33
+		2 = european_med_south_slavic_34
+		2 = european_med_south_slavic_35
+		2 = european_med_south_slavic_36
+		2 = european_med_south_slavic_37
+		2 = european_med_south_slavic_38
+		2 = european_med_south_slavic_39
+		2 = european_med_south_slavic_40
+		2 = european_med_south_slavic_41
+		2 = european_med_south_slavic_42
+		2 = european_med_south_slavic_43
+		2 = european_med_south_slavic_44
+		2 = european_med_south_slavic_45
+		2 = european_med_south_slavic_46
+		2 = european_med_south_slavic_47
+		2 = european_med_south_slavic_48
+		2 = european_med_south_slavic_49
+		2 = european_med_south_slavic_50
+	}	
+}
+
+bosnian = {
+	color = bosnian
+
+	# *Definitely* a bit early; should likely be more between 900 & 1000.
+	created = 800.1.1
+	parents = { croatian serbian } #PDX thing
+	
+	#history_loc_override = bosnian_history_loc
+
+	ethos = ethos_communal
+	heritage = heritage_south_slavic
+	language = language_slavonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_mendicant_mystics
+		tradition_monastic_communities
+		tradition_isolationist
+	}
+	
+	name_list = name_list_bosnian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		2 = european_med_south_slavic_01
+		2 = european_med_south_slavic_02
+		2 = european_med_south_slavic_03
+		2 = european_med_south_slavic_04
+		2 = european_med_south_slavic_05
+		2 = european_med_south_slavic_06
+		2 = european_med_south_slavic_07
+		2 = european_med_south_slavic_08
+		2 = european_med_south_slavic_09
+		2 = european_med_south_slavic_10
+		2 = european_med_south_slavic_11
+		2 = european_med_south_slavic_12
+		2 = european_med_south_slavic_13
+		2 = european_med_south_slavic_14
+		2 = european_med_south_slavic_15
+		2 = european_med_south_slavic_16
+		2 = european_med_south_slavic_17
+		2 = european_med_south_slavic_18
+		2 = european_med_south_slavic_19
+		2 = european_med_south_slavic_20
+		2 = european_med_south_slavic_21
+		2 = european_med_south_slavic_22
+		2 = european_med_south_slavic_23
+		2 = european_med_south_slavic_24
+		2 = european_med_south_slavic_25
+		2 = european_med_south_slavic_26
+		2 = european_med_south_slavic_27
+		2 = european_med_south_slavic_28
+		2 = european_med_south_slavic_29
+		2 = european_med_south_slavic_30
+		2 = european_med_south_slavic_31
+		2 = european_med_south_slavic_32
+		2 = european_med_south_slavic_33
+		2 = european_med_south_slavic_34
+		2 = european_med_south_slavic_35
+		2 = european_med_south_slavic_36
+		2 = european_med_south_slavic_37
+		2 = european_med_south_slavic_38
+		2 = european_med_south_slavic_39
+		2 = european_med_south_slavic_40
+		2 = european_med_south_slavic_41
+		2 = european_med_south_slavic_42
+		2 = european_med_south_slavic_43
+		2 = european_med_south_slavic_44
+		2 = european_med_south_slavic_45
+		2 = european_med_south_slavic_46
+		2 = european_med_south_slavic_47
+		2 = european_med_south_slavic_48
+		2 = european_med_south_slavic_49
+		2 = european_med_south_slavic_50
+	}
+}
+
+serbian = {
+	color = {  0.36 0.1 0.04 }
+	
+	created = 800.1.1
+	parents = { sorbian slavonian } #Gameplay reaosns, makes it easier for Serbs to assimilate these two
+	
+	history_loc_override = serbian_history_loc
+	
+	ethos = ethos_communal
+	heritage = heritage_south_slavic
+	language = language_slavonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hussar
+		tradition_religious_patronage
+		tradition_stalwart_defenders
+	}
+	
+	dlc_tradition = {
+		trait = tradition_staunch_traditionalists
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_serbian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { epe_south_slav_clothing_gfx byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		2 = european_med_south_slavic_01
+		2 = european_med_south_slavic_02
+		2 = european_med_south_slavic_03
+		2 = european_med_south_slavic_04
+		2 = european_med_south_slavic_05
+		2 = european_med_south_slavic_06
+		2 = european_med_south_slavic_07
+		2 = european_med_south_slavic_08
+		2 = european_med_south_slavic_09
+		2 = european_med_south_slavic_10
+		2 = european_med_south_slavic_11
+		2 = european_med_south_slavic_12
+		2 = european_med_south_slavic_13
+		2 = european_med_south_slavic_14
+		2 = european_med_south_slavic_15
+		2 = european_med_south_slavic_16
+		2 = european_med_south_slavic_17
+		2 = european_med_south_slavic_18
+		2 = european_med_south_slavic_19
+		2 = european_med_south_slavic_20
+		2 = european_med_south_slavic_21
+		2 = european_med_south_slavic_22
+		2 = european_med_south_slavic_23
+		2 = european_med_south_slavic_24
+		2 = european_med_south_slavic_25
+		2 = european_med_south_slavic_26
+		2 = european_med_south_slavic_27
+		2 = european_med_south_slavic_28
+		2 = european_med_south_slavic_29
+		2 = european_med_south_slavic_30
+		2 = european_med_south_slavic_31
+		2 = european_med_south_slavic_32
+		2 = european_med_south_slavic_33
+		2 = european_med_south_slavic_34
+		2 = european_med_south_slavic_35
+		2 = european_med_south_slavic_36
+		2 = european_med_south_slavic_37
+		2 = european_med_south_slavic_38
+		2 = european_med_south_slavic_39
+		2 = european_med_south_slavic_40
+		2 = european_med_south_slavic_41
+		2 = european_med_south_slavic_42
+		2 = european_med_south_slavic_43
+		2 = european_med_south_slavic_44
+		2 = european_med_south_slavic_45
+		2 = european_med_south_slavic_46
+		2 = european_med_south_slavic_47
+		2 = european_med_south_slavic_48
+		2 = european_med_south_slavic_49
+		2 = european_med_south_slavic_50
+	}
+}

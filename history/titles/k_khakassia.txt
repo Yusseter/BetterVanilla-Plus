@@ -1,0 +1,955 @@
+k_khakassia = { # Yusseter
+	581.1.1 = {
+		holder = ashina_201
+	}
+	584.1.1 = {
+		holder = 0
+	}
+	820.1.1 = {
+		holder = yenisei_kirghiz_004
+		government = nomad_government
+	}
+	840.1.2 = {
+		effect = {
+			set_de_jure_liege_title = title:e_mongolia
+			#set_de_jure_liege_title = title:e_kirghiz_khanate # Yusseter
+		}
+	}
+	847.4.5 = {
+		holder = yenisei_kirghiz_005
+	}
+	866.8.19 = {
+		holder = 303238
+	}
+	899.5.2 = {
+		holder = 303240
+	}
+	900.1.22 = {
+		holder = 303243
+	}
+	925.4.28 = {
+		holder = yenisei_kirghiz_011
+	}
+	965.4.28 = {
+		holder = yenisei_kirghiz_012
+	}
+	1005.11.30 = {
+		holder = yenisei_kirghiz_013
+	}
+	1015.1.1 = {
+		holder = 0
+		effect = {
+			set_de_jure_liege_title = title:e_mongolia
+		}
+	}
+}
+
+d_khakass_hollow = { # Yusseter
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 5 }
+	1178.1.1 = { change_development_level = 7 }
+
+	693.1.1 = {
+		holder = yenisei_kirghiz_001
+		government = nomad_government
+	}
+	711.9.26 = {
+		holder = yenisei_kirghiz_002
+	}
+	758.5.26 = {
+		holder = yenisei_kirghiz_0041
+	}
+	795.10.7 = {
+		holder = yenisei_kirghiz_004
+	}
+	847.4.5 = {
+		holder = yenisei_kirghiz_005
+	}
+	866.8.19 = {
+		holder = 303238
+	}
+	899.5.2 = {
+		holder = 303240
+	}
+	900.1.22 = {
+		holder = 303243
+	}
+	925.4.28 = {
+		holder = yenisei_kirghiz_011
+	}
+	965.4.28 = {
+		holder = yenisei_kirghiz_012
+	}
+	1005.11.30 = {
+		holder = yenisei_kirghiz_013
+	}
+	1060.4.28 = {
+		holder = 303244
+	}
+	1103.10.24 = {
+		holder = 303245
+	}
+	1117.4.30 = {
+		holder = 303246
+	}
+	1155.3.10 = {
+		holder = 303247
+	}
+	1170.10.26 = {
+		holder = 303248
+	}
+}
+
+c_abakan = { # Yusseter
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 9 }
+
+	693.1.1 = {
+		holder = yenisei_kirghiz_001
+		government = nomad_government
+	}
+	711.9.26 = {
+		holder = yenisei_kirghiz_002
+	}
+	758.5.26 = {
+		holder = yenisei_kirghiz_0041
+	}
+	795.10.7 = {
+		holder = yenisei_kirghiz_004
+	}
+	847.4.5 = {
+		holder = yenisei_kirghiz_005
+	}
+	866.8.19 = {
+		holder = 303238
+	}
+	899.5.2 = {
+		holder = 303240
+	}
+	900.1.22 = {
+		holder = 303243
+	}
+	925.4.28 = {
+		holder = yenisei_kirghiz_011
+	}
+	965.4.28 = {
+		holder = yenisei_kirghiz_012
+	}
+	1005.11.30 = {
+		holder = yenisei_kirghiz_013
+	}
+	1060.4.28 = {
+		holder = 303244
+	}
+	1103.10.24 = {
+		holder = 303245
+	}
+	1117.4.30 = {
+		holder = 303246
+	}
+	1155.3.10 = {
+		holder = 303247
+	}
+	1170.10.26 = {
+		holder = 303248
+	}
+}
+
+c_julym = { # Yusseter
+	693.1.1 = {
+		holder = yenisei_kirghiz_001
+		government = nomad_government
+	}
+	711.9.26 = {
+		holder = yenisei_kirghiz_002
+	}
+	758.5.26 = {
+		holder = yenisei_kirghiz_0041
+	}
+	795.10.7 = {
+		holder = yenisei_kirghiz_004
+	}
+	840.1.1 = {
+		holder = kirghiz_holder_01
+		liege = e_mongolia # Yusseter
+		#liege = e_kirghiz_khanate
+	}
+	905.1.1 = {
+		holder = kirghiz_holder_02
+	}
+	925.4.28 = {
+		liege = k_khakassia
+	}
+	945.1.1 = {
+		holder = kirghiz_holder_03
+	}
+	960.1.1 = {
+		holder = kirghiz_holder_04
+	}
+	1005.1.1 = {
+		holder = kirghiz_holder_05
+	}
+	1015.1.1 = {
+		liege = d_khakass_hollow
+	}
+	1050.1.1 = {
+		holder = kirghiz_holder_06
+	}
+
+	1065.1.1 = {
+		holder = yenisei_kirghiz_014
+		liege = 0
+		government = herder_government
+	}
+	1070.1.1 = {
+		holder = fictional_kirghiz_5
+		liege = d_khakass_hollow
+	}
+	1130.1.1 = {
+		holder = kirghiz_herder_03
+	}
+	1149.1.1 = {
+		holder = enisey_kyrgyz_1
+		liege = d_khakass_hollow
+		government = nomad_government
+	}
+}
+
+
+c_jerjul = { # Yusseter
+	693.1.1 = {
+		holder = yenisei_kirghiz_001
+		government = nomad_government
+	}
+	711.9.26 = {
+		holder = yenisei_kirghiz_002
+	}
+	758.5.26 = {
+		holder = yenisei_kirghiz_0041
+	}
+	795.10.7 = {
+		holder = yenisei_kirghiz_004
+	}
+	840.1.1 = {
+		holder = kirghiz_holder_01
+		liege = e_mongolia # Yusseter
+		#liege = e_kirghiz_khanate
+	}
+	905.1.1 = {
+		holder = kirghiz_holder_02
+	}
+	925.4.28 = {
+		liege = k_khakassia
+	}
+	945.1.1 = {
+		holder = kirghiz_holder_03
+	}
+	960.1.1 = {
+		holder = kirghiz_holder_04
+	}
+	1005.1.1 = {
+		holder = kirghiz_holder_05
+	}
+	1015.1.1 = {
+		liege = d_khakass_hollow
+	}
+	1050.1.1 = {
+		holder = kirghiz_holder_06
+	}
+
+	#1066
+	1052.1.1 = {
+		holder = fictional_kirghiz_8
+		liege = d_blue_khakassia
+	}
+	1170.10.26 = {
+		holder = fictional_kirghiz_28
+		liege = d_khakass_hollow 
+		government = herder_government
+	}
+}
+
+d_blue_khakassia = { # Yusseter
+	795.10.7 = {
+		holder = yenisei_kirghiz_004
+		government = nomad_government
+	}
+	840.1.1 = {
+		holder = yenisei_kirghiz_0041
+		liege = e_mongolia # Yusseter
+		#liege = e_kirghiz_khanate
+	}
+	857.10.7 = {
+		holder = yenisei_kirghiz_0042
+	}
+	873.11.14 = {
+		holder = yenisei_kirghiz_0043
+	}
+	878.5.19 = {
+		holder = yenisei_kirghiz_0044
+	}
+	901.5.24 = {
+		holder = yenisei_kirghiz_0045
+	}
+	925.4.28 = {
+		liege = k_khakassia
+	}
+	928.4.13 = {
+		holder = yenisei_kirghiz_011
+	}
+	965.4.28 = {
+		holder = yenisei_kirghiz_012
+	}
+	1005.11.30 = {
+		holder = yenisei_kirghiz_013
+	}
+	1015.1.1 = {
+		liege = d_khakass_hollow
+	}
+	1060.4.28 = {
+		holder = yenisei_kirghiz_014
+	}
+	
+	1064.1.1 = {
+		holder = fictional_kirghiz_6
+		government = nomad_government
+		liege = 0
+	}
+	1068.1.1 = {
+		holder = 0
+	}
+}
+
+c_kizir = { # Yusseter
+	693.1.1 = {
+		holder = yenisei_kirghiz_001
+		government = nomad_government
+	}
+	711.9.26 = {
+		holder = yenisei_kirghiz_002
+	}
+	758.5.26 = {
+		holder = yenisei_kirghiz_0041
+	}
+	795.10.7 = {
+		holder = yenisei_kirghiz_004
+	}
+	840.1.1 = {
+		holder = yenisei_kirghiz_0041
+		liege = e_mongolia # Yusseter
+		#liege = e_kirghiz_khanate
+	}
+	857.10.7 = {
+		holder = yenisei_kirghiz_0042
+	}
+	873.11.14 = {
+		holder = yenisei_kirghiz_0043
+	}
+	878.5.19 = {
+		holder = yenisei_kirghiz_0044
+	}
+	901.5.24 = {
+		holder = yenisei_kirghiz_0044
+	}
+	925.4.28 = {
+		liege = k_khakassia
+	}
+	928.4.13 = {
+		holder = 0
+	}
+	1015.1.1 = {
+		liege = d_khakass_hollow
+	}
+	
+	1064.1.1 = {
+		holder = fictional_kirghiz_6
+		liege = d_blue_khakassia
+	}
+	1170.10.26 = {
+		holder = enisey_kyrgyz_2
+		liege = 0
+	}
+}
+
+c_anja = { # Yusseter
+	693.1.1 = {
+		holder = yenisei_kirghiz_001
+		government = nomad_government
+	}
+	711.9.26 = {
+		holder = yenisei_kirghiz_002
+	}
+	758.5.26 = {
+		holder = yenisei_kirghiz_0041
+	}
+	795.10.7 = {
+		holder = yenisei_kirghiz_004
+	}
+	840.1.1 = {
+		holder = yenisei_kirghiz_0041
+		liege = e_mongolia # Yusseter
+		#liege = e_kirghiz_khanate
+	}
+	857.10.7 = {
+		holder = yenisei_kirghiz_0042
+	}
+	873.11.14 = {
+		holder = yenisei_kirghiz_0043
+	}
+	878.5.19 = {
+		holder = yenisei_kirghiz_0044
+	}
+	901.5.24 = {
+		holder = yenisei_kirghiz_0045
+	}
+	925.4.28 = {
+		liege = k_khakassia
+	}
+	928.4.13 = {
+		holder = yenisei_kirghiz_011
+	}
+	965.4.28 = {
+		holder = yenisei_kirghiz_012
+	}
+	1005.11.30 = {
+		holder = yenisei_kirghiz_013
+	}
+	1015.1.1 = {
+		liege = d_khakass_hollow
+	}
+	
+	#1066
+	1040.1.1 = {
+		holder = fictional_kirghiz_7
+		liege = 0
+	}
+	
+	#1178
+	1170.10.26 = {
+		holder = enisey_kyrgyz_2
+		liege = 0
+	}
+}
+
+c_kyzylkul = { # Yusseter
+
+	693.1.1 = {
+		holder = yenisei_kirghiz_001
+		government = nomad_government
+	}
+	711.9.26 = {
+		holder = yenisei_kirghiz_002
+	}
+	758.5.26 = {
+		holder = yenisei_kirghiz_0041
+	}
+	795.10.7 = {
+		holder = yenisei_kirghiz_004
+	}
+	847.4.5 = {
+		holder = yenisei_kirghiz_005
+	}
+	866.8.19 = {
+		holder = 303238
+	}
+	899.5.2 = {
+		holder = 303240
+	}
+	900.1.22 = {
+		holder = 303243
+	}
+	925.4.28 = {
+		holder = yenisei_kirghiz_011
+	}
+	965.4.28 = {
+		holder = yenisei_kirghiz_012
+	}
+	1005.11.30 = {
+		holder = yenisei_kirghiz_013
+	}
+	1060.4.28 = {
+		holder = 303244
+	}
+	1103.10.24 = {
+		holder = 303245
+	}
+	1117.4.30 = {
+		holder = 303246
+	}
+	1155.3.10 = {
+		holder = 303247
+	}
+	1170.10.26 = {
+		holder = 303248
+	}
+}
+
+
+d_shoria = {
+	#Kirghiz khanate
+	840.1.2 = {
+		liege = e_mongolia # Yusseter
+		#liege = e_kirghiz_khanate
+	}
+	
+	#867
+	860.3.27 = {
+		holder = 303027		#fictional Sildis Shor
+		government = nomad_government
+	}
+	885.4.20 = {
+		holder = 303029		#fictional XUren Shor
+	}
+	
+	#End of Kirghiz Khanate
+	925.1.2 = {
+		liege = 0
+	}
+
+	#1066
+	1052.3.22 = {
+		holder = 303032		#fictional Chayan Shor
+	}
+	1065.8.11 = {
+		holder = 303033		#fictional Buyan Shor
+	}
+	1100.4.9 = {
+		holder = 303036		#fictional Kejik Shor
+	}
+	1109.12.29 = {
+		holder = 303037		#fictional Dash_mir Shor
+	}
+	1147.6.1 = {
+		holder = 303038		#fictional KhU_zhU_get Shor
+	}
+	1169.1.25 = {
+		holder = 303039		#fictional Tadar Shor
+	}
+}
+
+
+c_kuzbas = { # Yusseter
+	#867
+	823.1.1 = {
+		liege = e_mongolia # Yusseter
+		#liege = e_kirghiz_khanate
+		holder = yenisei_kirghiz_005 #fictional Uzur Enisey Kyrgyz
+		government = nomad_government
+	}
+	847.4.5 = {
+		holder = 303238
+	}
+	866.8.19 = {
+		holder = 303027
+	}
+	885.4.20 = {
+		holder = 303029		#fictional XUren Shor
+	}
+	925.4.28 = {
+		liege = k_khakassia
+	}
+	1015.1.1 = {
+		liege = d_khakass_hollow
+	}
+
+	#1066
+	1053.1.1 = {
+		holder = fictional_kirghiz_10	#fic to have more char and avoid domain overlimit
+		liege = 0
+		government = herder_government
+	}
+	1082.1.1 = {
+		holder = kirghiz_herder_01
+	}
+	1090.1.1 = {
+		holder = kirghiz_herder_02
+	}
+	1130.1.1 = {
+		holder = kirghiz_herder_04
+	}
+	1165.1.1 = {
+		holder = enisey_kyrgyz_1
+		liege = d_khakass_hollow
+		government = nomad_government
+	}
+}
+
+
+c_shor = {
+	#867
+	860.3.27 = {
+		liege = d_shoria
+		holder = 303027		#fictional Sildis Shor
+		government = nomad_government
+	}
+	885.4.20 = {
+		holder = 303029		#fictional XUren Shor
+	}
+	
+	#1066
+	1052.3.22 = {
+		holder = 303032		#fictional Chayan Shor
+	}
+	1065.8.11 = {
+		holder = 303033		#fictional Buyan Shor
+	}
+	1100.4.9 = {
+		holder = 303036		#fictional Kejik Shor
+	}
+	1109.12.29 = {
+		holder = 303037		#fictional Dash_mir Shor
+	}
+	1147.6.1 = {
+		holder = 303038		#fictional KhU_zhU_get Shor
+	}
+	1169.1.25 = {
+		holder = 303039		#fictional Tadar Shor
+	}
+}
+
+
+c_uul_chors = {
+	#867
+	860.3.27 = {
+		liege = d_shoria
+		holder = 303027		#fictional Sildis Shor
+		government = nomad_government
+	}
+	885.4.20 = {
+		holder = 303029		#fictional XUren Shor
+	}
+	
+	#1066
+	1052.3.22 = {
+		holder = 303032		#fictional Chayan Shor
+	}
+	1065.8.11 = {
+		holder = 303033		#fictional Buyan Shor
+	}
+	1100.4.9 = {
+		holder = 303036		#fictional Kejik Shor
+	}
+	1109.12.29 = {
+		holder = 303037		#fictional Dash_mir Shor
+	}
+	1147.6.1 = {
+		holder = 303038		#fictional KhU_zhU_get Shor
+	}
+	1169.1.25 = {
+		holder = 303039		#fictional Tadar Shor
+	}
+}
+
+
+d_kargassia = {
+	#Kirghiz khanate
+	840.1.2 = {
+		liege = e_mongolia # Yusseter
+		#liege = e_kirghiz_khanate
+	}
+	
+	#867
+	864.3.3 = {
+		holder = 303041		#fictional Sholban Karagas
+		government = nomad_government
+	}
+	879.7.13 = {
+		holder = 303044		#fictional Mongun Karagas
+	}
+	
+	#End of Kirghiz Khanate
+	925.1.2 = {
+		liege = 0
+	}
+	
+	#1066
+	1063.9.17 = {
+		holder = 303046		#fictional Sayana Karagas
+	}
+	1108.1.2 = {
+		holder = 303049		#fictional Sayan Karagas
+	}
+	1128.7.25 = {
+		holder = 303052		#fictional Bishtak Karagas
+	}
+	1146.9.12 = {
+		holder = 303053		#fictional Uyanmas Karagas
+	}
+	1169.1.5 = {
+		holder = 303054		#fictional Turgun Karagas
+	}
+}
+
+
+c_burugu_aallar = {
+	#867
+	864.3.3 = {
+		liege = d_kargassia
+		holder = fictional_uriankhais_13 #fictional herder
+		government = herder_government
+	}
+	879.7.13 = {
+		holder = 303044		#fictional Mongun Karagas
+		government = nomad_government
+	}
+	
+	#1066
+	1063.9.17 = {
+		holder = 303046		#fictional Sayana Karagas
+	}
+	1108.1.2 = {
+		holder = 303049		#fictional Sayan Karagas
+	}
+	1128.7.25 = {
+		holder = 303052		#fictional Bishtak Karagas
+	}
+	1146.9.12 = {
+		holder = 303053		#fictional Uyanmas Karagas
+	}
+	1169.1.5 = {
+		holder = 303054		#fictional Turgun Karagas
+	}
+}
+
+
+c_chagdy_aallar = {
+	#867
+	864.3.3 = {
+		liege = d_kargassia
+		holder = 303041		#fictional Sholban Karagas
+		government = nomad_government
+	}
+	879.7.13 = {
+		holder = 303044		#fictional Mongun Karagas
+	}
+	
+	#1066
+	1063.9.17 = {
+		holder = 303046		#fictional Sayana Karagas
+	}
+	1108.1.2 = {
+		holder = 303049		#fictional Sayan Karagas
+	}
+	1128.7.25 = {
+		holder = 303052		#fictional Bishtak Karagas
+	}
+	1146.9.12 = {
+		holder = 303053		#fictional Uyanmas Karagas
+	}
+	1169.1.5 = {
+		holder = 303054		#fictional Turgun Karagas
+	}
+}
+
+
+c_songuu_aallar = {
+	#867
+	864.3.3 = {
+		liege = d_kargassia
+		holder = 303041		#fictional Sholban Karagas
+		government = nomad_government
+	}
+	879.7.13 = {
+		holder = 303044		#fictional Mongun Karagas
+	}
+	
+	#1066
+	1063.9.17 = {
+		holder = fictional_uriankhais_14 #fictional herder
+		government = herder_government
+	}
+	1108.1.2 = {
+		holder = 303049		#fictional Sayan Karagas
+		government = nomad_government
+	}
+	1128.7.25 = {
+		holder = 303052		#fictional Bishtak Karagas
+	}
+	1146.9.12 = {
+		holder = 303053		#fictional Uyanmas Karagas
+	}
+	1169.1.5 = {
+		holder = 303054		#fictional Turgun Karagas
+	}
+}
+
+
+c_karauda = {
+	#Kirghiz khanate
+	840.1.2 = {
+		liege = e_mongolia # Yusseter
+		#liege = e_kirghiz_khanate
+	}
+	
+	#867
+	849.1.2 = {
+		holder = fictional_buryats_7 #fictional herder
+		government = herder_government
+	}
+	889.3.16 = {
+		holder = 303089		#fictional Tsyrendashi Khori-Tumed
+		government = nomad_government
+	}
+	
+	#End of Kirghiz Khanate
+	925.1.2 = {
+		liege = 0
+	}
+	
+	#1066
+	1047.6.27 = {
+		holder = fictional_buryats_16		#fictional herder
+		government = herder_government
+	}
+	1074.4.18 = {
+		holder = 303200		#fictional Gombozab Khongodor
+		government = nomad_government
+	}
+	1101.10.20 = {
+		holder = 303201		#fictional Sodnom Khongodor
+	}
+	1112.1.1 = {
+		holder = 303202		#fictional Osor Khongodor
+	}
+	1144.3.16 = {
+		holder = 303203		#fictional Khotsa Khongodor
+	}
+	1166.11.2 = {
+		holder = 303204		#fictional Osor Khongodor
+	}
+	1175.4.18 = {
+		holder = 303205		#fictional Geleg Khongodor
+	}
+}
+
+
+c_shityy = {
+	#Kirghiz khanate
+	840.1.2 = {
+		holder = fictional_tengri_1 #fictional Innokentii Khori-Tumed
+		government = nomad_government
+	}
+
+	850.4.1 = {
+		liege = d_togina
+	}
+	
+	#867
+	851.1.2 = {
+		holder = 303088		#fictional Innokentii Khori-Tumed
+	}
+
+	889.3.16 = {
+		holder = 303089		#fictional Tsyrendashi Khori-Tumed
+	}
+	
+	#End of Kirghiz Khanate
+	925.1.2 = {
+		liege = 0
+	}
+	
+	#1066
+	1063.2.8 = {
+		holder = 303090		#fictional Engke Khori-Tumed
+	}
+	1092.12.7 = {
+		holder = 303091		#fictional Bolot Khori-Tumed
+	}
+	1111.9.11 = {
+		holder = 303092		#fictional Arugtai Khori-Tumed
+	}
+	1145.8.21 = {
+		holder = 303093		#fictional Qayshan Khori-Tumed
+	}
+	
+	#Added to Oirat sphere of influence
+	1155.1.2 = {
+		liege = d_khovsgol	#Oirats
+		holder = 303025	#fictional Sengge Kolyokod
+	}
+	1195.4.18 = {
+		holder = 303026	#fictional Bemb� Kolyokod
+	}
+}
+
+
+c_kropot = {
+	#Kirghiz khanate
+	840.1.2 = {
+		liege = d_togina
+	}
+	
+	#867
+	864.2.13 = {
+		holder = 303096		#fictional Bair Khori-Tumed
+		government = nomad_government
+	}
+
+	902.8.16 = {
+		holder = 303097		#fictional Damba Khori-Tumed
+	}
+	
+	#End of Kirghiz Khanate
+	925.1.2 = {
+		liege = 0
+	}
+	
+	#1066
+	1063.2.8 = {
+		holder = 303090		#fictional Engke Khori-Tumed
+	}
+	1092.12.7 = {
+		holder = 303091		#fictional Bolot Khori-Tumed
+	}
+	1111.9.11 = {
+		holder = 303092		#fictional Arugtai Khori-Tumed
+	}
+	1145.8.21 = {
+		holder = 303093		#fictional Qayshan Khori-Tumed
+	}
+	1166.3.28 = {
+		holder = 303094		#fictional Jorightu Khori-Tumed
+	}
+}
+
+
+c_monkh_saridag = {
+	#Kirghiz khanate
+	840.1.2 = {
+		liege = e_mongolia # Yusseter
+		#liege = e_kirghiz_khanate
+	}
+	
+	#867
+	864.2.13 = {
+		holder = 303096		#fictional Bair Khori-Tumed
+		government = nomad_government
+	}
+	902.8.16 = {
+		holder = 303097		#fictional Damba Khori-Tumed
+	}
+	
+	#End of Kirghiz Khanate
+	925.1.2 = {
+		liege = 0
+	}
+	
+	#1066
+	1060.3.8 = {
+		holder = 303098		#fictional Amgalan Khori-Tumed
+	}
+	1083.2.26 = {
+		holder = 303099		#fictional Oyiradai Khori-Tumed
+	}
+	1109.4.22 = {
+		holder = 303100		#fictional Yeshinhorloa Khori-Tumed
+	}
+	1149.6.18 = {
+		holder = 303102		#fictional Bashiila Khori-Tumed
+	}
+	1177.10.22 = {
+		holder = 303103		#fictional Shono Khori-Tumed
+	}
+}
+

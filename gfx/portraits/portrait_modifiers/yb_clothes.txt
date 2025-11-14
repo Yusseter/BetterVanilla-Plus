@@ -1,0 +1,670 @@
+﻿yb_clothes = {
+    usage = game
+    selection_behavior = max
+    fallback = unclothed_body
+    priority = 1
+
+    mpo_mongol_commoners = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = mpo_mongol_commoner_clothes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }  
+        weight = {
+            base = 0
+            modifier = {
+                add = 20
+                NOT = { scope:faith.religion = religion:islam_religion }
+                portrait_commoner_clothing_trigger = {
+                    CULTURE_INPUT = turkic
+                }
+                has_mpo_dlc_trigger = yes
+				NOT = {
+					portrait_commoner_clothing_trigger = { 
+                    CULTURE_INPUT = epe_uyghur
+                    }
+				}
+            }
+            modifier = {
+                add = -15
+                scope:faith.religion = religion:islam_religion
+            }
+            modifier = {
+                add = -200
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_era3_trigger = yes
+                    portrait_era4_trigger = yes
+                }
+            }
+        }
+    }
+
+    steppe_low_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = steppe_low_nobility_clothes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            court_fashion_level_4_modifier = { INPUT_PARAMETER = turkic }
+            modifier = {
+                add = 30
+                portrait_low_nobles_clothing_trigger = {
+                    CULTURE_INPUT = turkic
+                }
+				NOT = {
+					portrait_low_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = epe_uyghur
+                    }
+				}
+            }
+        }
+    }
+
+    mpo_mongol_low_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = mpo_mongol_low_nobility_clothes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            court_fashion_level_4_modifier = { INPUT_PARAMETER = turkic }
+            modifier = {
+                add = 50
+                NOT = { scope:faith.religion = religion:islam_religion }
+                portrait_low_nobles_clothing_trigger = {
+                    CULTURE_INPUT = turkic
+                }
+				NOT = {
+					portrait_low_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = epe_uyghur
+                    }
+				}
+            }
+            modifier = {
+                add = -25
+                scope:faith.religion = religion:islam_religion
+            }
+            modifier = {
+                add = -200
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_era3_trigger = yes
+                    portrait_era4_trigger = yes
+                }
+            }
+        }
+    }
+
+    steppe_high_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = steppe_high_nobility_clothes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }       
+        weight = {
+            base = 0
+            court_fashion_level_5_modifier = { INPUT_PARAMETER = turkic }
+            modifier = {
+                add = 30
+                portrait_high_nobles_clothing_trigger = {
+                    CULTURE_INPUT = turkic
+                }
+				NOT = {
+					portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = epe_uyghur
+                    }
+				}
+            }
+        }
+    }
+
+    mpo_mongol_high_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = mpo_mongol_high_nobility_clothes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }       
+        weight = {
+            base = 0
+            court_fashion_level_5_modifier = { INPUT_PARAMETER = turkic }
+            modifier = {
+                add = 50
+                NOT = { scope:faith.religion = religion:islam_religion }
+                portrait_high_nobles_clothing_trigger = {
+                    CULTURE_INPUT = turkic
+                }
+				NOT = {
+					portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = epe_uyghur
+                    }
+				}
+            }
+            modifier = {
+                add = -25
+                scope:faith.religion = religion:islam_religion
+            }
+            modifier = {
+                add = -200
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_era3_trigger = yes
+                    portrait_era4_trigger = yes
+                }
+            }
+        }
+    }
+
+    mpo_mongol_royalty = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = mpo_mongol_royalty_clothes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 105
+                NOT = { scope:faith.religion = religion:islam_religion }
+                portrait_royalty_clothing_trigger = {
+                    CULTURE_INPUT = turkic
+                }
+				NOT = {
+					portrait_royalty_clothing_trigger = { 
+                    CULTURE_INPUT = epe_uyghur
+                    }
+				}
+            }
+            modifier = {
+                add = -50
+                scope:faith.religion = religion:islam_religion
+            }
+            modifier = {
+                add = -300
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_era3_trigger = yes
+                    portrait_era4_trigger = yes
+                }
+            }
+        }
+    }
+
+    mpo_mongol_imperial = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = mpo_mongol_imperial_clothes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 105
+                portrait_imperial_clothing_trigger = {
+                    CULTURE_INPUT = turkic
+                }
+				scope:culture = { has_clothing_gfx = yb_eastern_steppe_clothing_gfx }
+            }
+            modifier = {
+                add = 80
+                NOR = { 
+                    scope:faith.religion = religion:islam_religion 
+                    scope:culture = { has_clothing_gfx = yb_eastern_steppe_clothing_gfx }
+                }
+                portrait_imperial_clothing_trigger = {
+                    CULTURE_INPUT = turkic
+                }
+                scope:culture = { has_clothing_gfx = yb_western_steppe_clothing_gfx }
+            }
+            modifier = {
+                add = -35
+                scope:faith.religion = religion:islam_religion
+            }
+            modifier = {
+                add = -300
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_era3_trigger = yes
+                    portrait_era4_trigger = yes
+                }
+            }
+        }
+    }
+
+    islamic_iranian_commoners = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = fp3_iranian_commoner_nobility_clothes
+                range = { 0.20 0.36 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { fp3_iranian_commoner_nobility_clothes }
+        weight = {
+            base = 0
+            modifier = {
+                add = 40
+                OR = {
+                    AND = {
+                        scope:faith.religion = religion:islam_religion
+                        portrait_commoner_no_mayors_trigger = { 
+                            CULTURE_INPUT = turkic
+                        }
+                    }
+                    portrait_commoner_no_mayors_trigger = { 
+                        CULTURE_INPUT = epe_seljuk
+                    }
+                    AND = {
+                        portrait_commoner_no_mayors_trigger = { 
+                            CULTURE_INPUT = turkic
+                        }
+                        scope:culture = { has_clothing_gfx = yb_western_steppe_clothing_gfx }
+                    }
+                }
+                OR = {
+                    portrait_era2_trigger = yes  				
+                    portrait_era3_trigger = yes  
+                }				
+            }
+            modifier = {
+                add = 20
+                OR = {
+                    portrait_commoner_no_mayors_trigger = { 
+                        CULTURE_INPUT = steppe
+                    }
+                    portrait_commoner_no_mayors_trigger = { 
+                        CULTURE_INPUT = turkic
+                    }
+                }
+                scope:faith.religion = religion:islam_religion
+                portrait_era3_trigger = yes
+            }
+        }
+    }
+
+    islamic_iranian_mayors = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = fp3_iranian_low_nobility_clothes
+                range = { 0.20 0.36 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 40
+                OR = {
+                    AND = {
+                        scope:faith.religion = religion:islam_religion
+                        portrait_mayor_trigger = { 
+                            CULTURE_INPUT = turkic
+                        }
+                    }
+                    portrait_mayor_trigger = { 
+                        CULTURE_INPUT = epe_seljuk
+                    }
+                    AND = {
+                        portrait_mayor_trigger = { 
+                            CULTURE_INPUT = turkic
+                        }
+                        scope:culture = { has_clothing_gfx = yb_western_steppe_clothing_gfx }
+                    }
+                }
+                OR = {
+                    portrait_era2_trigger = yes  				
+                    portrait_era3_trigger = yes  
+                }				
+            }
+            modifier = {
+                add = 20
+                OR = {
+                    portrait_mayor_trigger = { 
+                        CULTURE_INPUT = steppe
+                    }
+                    portrait_mayor_trigger = { 
+                        CULTURE_INPUT = turkic
+                    }
+                }
+                scope:faith.religion = religion:islam_religion
+                portrait_era3_trigger = yes
+            }
+        }
+    }
+
+    islamic_iranian_low_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = fp3_iranian_low_nobility_clothes
+                range = { 0.20 0.36 } # For the randomness to work correctly
+            }
+        }   
+
+        weight = {
+            base = 0
+            court_fashion_level_4_modifier = { INPUT_PARAMETER = turkic } 
+            modifier = {
+                add = 40
+                OR = {
+                    AND = {
+                        scope:faith.religion = religion:islam_religion
+                        portrait_low_nobles_clothing_trigger = { 
+                            CULTURE_INPUT = turkic
+                        }
+                    }
+                    portrait_low_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = epe_seljuk
+                    }
+                    AND = {
+                        portrait_low_nobles_clothing_trigger = { 
+                            CULTURE_INPUT = turkic
+                        }
+                        scope:culture = { has_clothing_gfx = yb_western_steppe_clothing_gfx }
+                    }
+                }
+                OR = {
+                    portrait_era2_trigger = yes  				
+                    portrait_era3_trigger = yes  
+                }				
+            }
+            modifier = {
+                add = 20
+                OR = {
+                    portrait_low_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = steppe
+                    }
+                    portrait_low_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = turkic
+                    }
+                }
+                scope:faith.religion = religion:islam_religion
+                portrait_era3_trigger = yes
+            }
+        }
+    }
+
+    islamic_iranian_high_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = fp3_iranian_high_nobility_clothes
+                range = { 0.20 0.36 } # For the randomness to work correctly
+            }
+        }       
+        weight = {
+            base = 0
+            court_fashion_level_5_modifier = { INPUT_PARAMETER = turkic } 
+            modifier = {
+                add = 40
+                OR = {
+                    AND = {
+                        scope:faith.religion = religion:islam_religion
+                        portrait_high_nobles_clothing_trigger = { 
+                            CULTURE_INPUT = turkic
+                        }
+                    }
+                    portrait_high_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = epe_seljuk
+                    }
+                    AND = {
+                        portrait_high_nobles_clothing_trigger = { 
+                            CULTURE_INPUT = turkic
+                        }
+                        scope:culture = { has_clothing_gfx = yb_western_steppe_clothing_gfx }
+                    }
+                }
+                OR = {
+                    portrait_era2_trigger = yes  				
+                    portrait_era3_trigger = yes  
+                }				
+            }
+            modifier = {
+                add = 20
+                OR = {
+                    portrait_high_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = steppe
+                    }
+                    portrait_high_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = turkic
+                    }
+                }
+                scope:faith.religion = religion:islam_religion
+                portrait_era3_trigger = yes
+            }
+        }
+    }
+
+    late_islamic_iranian_commoners = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = fp3_iranian_commoner_nobility_clothes
+                range = { 0.39 0.54 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { fp3_iranian_commoner_nobility_clothes }
+        weight = {
+            base = 0
+            modifier = {
+                add = 40
+                OR = {
+                    AND = {
+                        scope:faith.religion = religion:islam_religion
+                        portrait_commoner_no_mayors_trigger = { 
+                            CULTURE_INPUT = turkic
+                        }
+                    }
+                    portrait_commoner_no_mayors_trigger = { 
+                        CULTURE_INPUT = epe_seljuk
+                    }
+                    AND = {
+                        portrait_commoner_no_mayors_trigger = { 
+                            CULTURE_INPUT = turkic
+                        }
+                        scope:culture = { has_clothing_gfx = yb_western_steppe_clothing_gfx }
+                    }
+                }
+                OR 
+                OR = {
+                    portrait_era4_trigger = yes  
+                }				
+            }
+            modifier = {
+                add = 20
+                OR = {
+                    portrait_commoner_no_mayors_trigger = { 
+                        CULTURE_INPUT = steppe
+                    }
+                    portrait_commoner_no_mayors_trigger = { 
+                        CULTURE_INPUT = turkic
+                    }
+                }
+                scope:faith.religion = religion:islam_religion
+                portrait_era4_trigger = yes
+            }
+        }
+    }
+
+    late_islamic_iranian_mayors = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = fp3_iranian_low_nobility_clothes
+                range = { 0.38 0.56 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 40
+                OR = {
+                    AND = {
+                        scope:faith.religion = religion:islam_religion
+                        portrait_mayor_trigger = { 
+                            CULTURE_INPUT = turkic
+                        }
+                    }
+                    portrait_mayor_trigger = { 
+                        CULTURE_INPUT = epe_seljuk
+                    }
+                    AND = {
+                        portrait_mayor_trigger = { 
+                            CULTURE_INPUT = turkic
+                        }
+                        scope:culture = { has_clothing_gfx = yb_western_steppe_clothing_gfx }
+                    }
+                }
+                OR = {
+                    portrait_era4_trigger = yes  
+                }				
+            }
+            modifier = {
+                add = 20
+                OR = {
+                    portrait_mayor_trigger = { 
+                        CULTURE_INPUT = steppe
+                    }
+                    portrait_mayor_trigger = { 
+                        CULTURE_INPUT = turkic
+                    }
+                }
+                scope:faith.religion = religion:islam_religion
+                portrait_era4_trigger = yes
+            }
+        }
+    }
+
+    late_islamic_iranian_low_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = fp3_iranian_low_nobility_clothes
+                range = { 0.38 0.56 } # For the randomness to work correctly
+            }
+        }   
+
+        weight = {
+            base = 0
+            court_fashion_level_4_modifier = { INPUT_PARAMETER = turkic } 
+            modifier = {
+                add = 40
+                OR = {
+                    AND = {
+                        scope:faith.religion = religion:islam_religion
+                        portrait_low_nobles_clothing_trigger = { 
+                            CULTURE_INPUT = turkic
+                        }
+                    }
+                    portrait_low_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = epe_seljuk
+                    }
+                    AND = {
+                        portrait_low_nobles_clothing_trigger = { 
+                            CULTURE_INPUT = turkic
+                        }
+                        scope:culture = { has_clothing_gfx = yb_western_steppe_clothing_gfx }
+                    }
+                }
+                OR = { 
+                    portrait_era4_trigger = yes  
+                }				
+            }
+            modifier = {
+                add = 20
+                OR = {
+                    portrait_low_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = steppe
+                    }
+                    portrait_low_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = turkic
+                    }
+                }
+                scope:faith.religion = religion:islam_religion
+                portrait_era4_trigger = yes
+            }
+        }
+    }
+
+    late_islamic_iranian_high_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = fp3_iranian_high_nobility_clothes
+                range = { 0.38 0.56 } # For the randomness to work correctly
+            }
+        }       
+        weight = {
+            base = 0
+            court_fashion_level_5_modifier = { INPUT_PARAMETER = turkic } 
+            modifier = {
+                add = 40
+                OR = {
+                    AND = {
+                        scope:faith.religion = religion:islam_religion
+                        portrait_high_nobles_clothing_trigger = { 
+                            CULTURE_INPUT = turkic
+                        }
+                    }
+                    portrait_high_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = epe_seljuk
+                    }
+                    AND = {
+                        portrait_high_nobles_clothing_trigger = { 
+                            CULTURE_INPUT = turkic
+                        }
+                        scope:culture = { has_clothing_gfx = yb_western_steppe_clothing_gfx }
+                    }
+                }
+                OR = {
+                    portrait_era4_trigger = yes  
+                }				
+            }
+            modifier = {
+                add = 20
+                OR = {
+                    portrait_high_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = steppe
+                    }
+                    portrait_high_nobles_clothing_trigger = { 
+                        CULTURE_INPUT = turkic
+                    }
+                }
+                scope:faith.religion = religion:islam_religion
+                portrait_era4_trigger = yes
+            }
+        }
+    }
+}

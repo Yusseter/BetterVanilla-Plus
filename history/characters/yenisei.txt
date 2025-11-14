@@ -1,0 +1,351 @@
+﻿e1 = { # A general
+	name = "tog_an"
+	religion = tengri_pagan
+	culture = kirghiz
+	694.1.1 = {
+		birth = yes
+	}
+	754.1.1 = { # Middle 8th century, death whene 60 years old.
+		death = yes
+	}
+}
+
+e2 = {
+	name = "qisa_bash"
+	religion = tengri_pagan
+	culture = kirghiz
+	696.1.1 = {
+		birth = yes
+	}
+	741.1.1 = { # Middle 8th century
+		death = yes
+	}
+}
+
+e3 = {
+	name = "Üčin" #or Külig
+	religion = tengri_pagan
+	culture = kirghiz
+	699.1.1 = {
+		birth = yes
+	}
+	729.1.1 = {
+		add_spouse = e3_wife
+	}
+	761.1.1 = { # Middle 8th century, In 73 years old
+		death = yes
+	}
+}
+
+e3_brother = {
+	name = "Ku_lig" # brother of Üčin
+	religion = tengri_pagan
+	culture = kirghiz
+	698.1.1 = {
+		birth = yes
+	}
+	774.1.1 = {
+		death = yes
+	}
+}
+
+e3_wife = {
+	name = "A_gu_k" #Ägük
+	female = yes
+	religion = tengri_pagan
+	culture = kirghiz
+	699.1.1 = {
+		birth = yes
+	}
+	729.1.1 = {
+		add_spouse = e3
+	}
+	772.1.1 = {
+		death = yes
+	}
+}
+
+e3_liege = { # Khan (liege) of Külig
+	name = "To_lbo_ri" #Tölböri
+	religion = tengri_pagan
+	culture = kirghiz
+	677.1.1 = {
+		birth = yes
+	}
+	762.1.1 = {
+		death = yes
+	}
+}
+
+# in E4 there is a only a dynasty name "Küç Kıygan"
+
+e5 = {
+	name = "yegen" # öz yėgen alp turan
+	religion = tengri_pagan
+	culture = kirghiz
+	714.1.1 = {
+		birth = yes
+	}
+	789.1.1 = { # Late 8th century
+		death = yes
+	}
+}
+
+e6 = {
+	name = "Tirig" # Köni Tirig
+	religion = tengri_pagan
+	culture = kirghiz
+	father = e6_father
+	718.1.1 = {
+		birth = yes
+	}
+	782.1.1 = { # Late 8th century
+		death = yes
+	}
+}
+
+e6_father = {
+	name = "Tong" # Unknown
+	religion = tengri_pagan
+	culture = kirghiz
+	682.1.1 = {
+		birth = yes
+	}
+	721.1.1 = { # Death when Köni Tirig is 3 years old.
+		death = yes
+	}
+}
+
+e6_brother = { # Külüg Totok
+	name = "Totok"
+	religion = tengri_pagan
+	culture = kirghiz
+	father = e6_father
+	707.1.1 = {
+		birth = yes
+	}
+	780.1.1 = {
+		death = yes
+	}
+}
+
+e7 = { # Külüg Çor
+	name = "Tirig"
+	religion = tengri_pagan
+	culture = kirghiz
+	father = e7_father
+	755.1.1 = {
+		birth = yes
+	}
+	789.1.1 = { # Late 8th century
+		death = yes
+	}
+}
+
+e7_father = { # Bayča Sağun
+	name = "Sag_un"
+	religion = tengri_pagan
+	culture = kirghiz
+	713.1.1 = {
+		birth = yes
+	}
+	747.1.1 = {
+		death = yes
+	}
+}
+
+# in E8 there is a poem.
+
+# E10 is a long poem.
+
+e10 = { # Körtlä Han
+	name = "ko_rtla_"
+	religion = tengri_pagan
+	culture = kirghiz
+	father = e10_father
+	771.1.1 = {
+		birth = yes
+	}
+	850.1.1 = { # Middle 9th century, in 79 years old.
+		death = yes
+	}
+}
+
+e10_father = { # Uruŋu Külig Toq Bögü Tärkän, father of Körtlä Han
+	name = "bo_gu_"
+	martial = 10 # A knight (Tärkän)
+	religion = tengri_pagan
+	culture = kirghiz
+	743.1.1 = {
+		birth = yes
+	}
+	777.1.1 = {
+		death = yes
+	}
+}
+
+e11 = {
+	name = "To_r" # Tör Apa
+	religion = tengri_pagan
+	culture = kirghiz
+    diplomacy = 14
+    trait = education_diplomacy_4 # Whene 15 years old, went to China for diplomacy.
+	801.1.1 = {
+		birth = yes
+	}
+	816.1.1 = { # Married whene 15 years old.
+		add_spouse = e11_wife
+	}
+	868.1.1 = { # Late 9th century, in 67 years old.
+		death = yes
+	}
+}
+
+e11_son_1 = {
+	name = "Manas"
+	religion = tengri_pagan
+	culture = kirghiz
+	father = e11
+	mother = e11_wife
+	821.1.1 = {
+		birth = yes
+	}
+	869.1.1 = {
+		death = yes
+	}
+}
+
+e11_son_2 = {
+	name = "Ko_ni"
+	religion = tengri_pagan
+	culture = kirghiz
+	father = e11
+	mother = e11_wife
+	825.1.1 = {
+		birth = yes
+	}
+	882.1.1 = {
+		death = yes
+	}
+}
+
+e11_son_3 = {
+	name = "To_pek"
+	religion = tengri_pagan
+	culture = kirghiz
+	father = e11
+	mother = e11_wife
+	826.1.1 = {
+		birth = yes
+	}
+	879.1.1 = {
+		death = yes
+	}
+}
+
+e11_wife = {
+	name = "Ku_lig_Toq"
+	female = yes
+	religion = tengri_pagan
+	culture = kirghiz
+	800.1.1 = {
+		birth = yes
+	}
+	816.1.1 = {
+		add_spouse = e11
+	}
+	707.1.1 = {
+		death = yes
+	}
+}
+
+e12 = {
+	name = "c_oc_i_" # čočï böri šaŋun
+	religion = tengri_pagan
+	culture = kirghiz
+    diplomacy = 14
+    trait = education_diplomacy_4 # Whene 15 years old, went to China for diplomacy.
+	801.1.1 = {
+		birth = yes
+	}
+	816.1.1 = { # Married whene 15 years old.
+		add_spouse = e11_wife
+	}
+	868.1.1 = { # Middle 9th century.
+		death = yes
+	}
+}
+
+e30 = {
+	name = "a_rda_m" # čabïš tun tarqan, went as an envoy to Kara Khagan (probably Turugesh Khagan El Etmish) 
+	religion = tengri_pagan
+	culture = kirghiz
+    diplomacy = 12
+    trait = education_diplomacy_4 # Whene 15 years old, went to China for diplomacy.
+	801.1.1 = {
+		birth = yes
+	}
+	816.1.1 = { # Married whene 15 years old.
+		add_spouse = e11_wife
+	}
+	868.1.1 = { # Middle 9th century.
+		death = yes
+	}
+}
+
+e31 = { # Uz Bilgä Čangšï, probably son of Ärdäm
+	name = "c_angs_i_"
+	religion = tengri_pagan
+	culture = kirghiz
+	father = e30
+	823.1.1 = {
+		birth = yes
+	}
+	880.1.1 = {
+		death = {
+			death_reason = death_siege
+		}
+	}
+}
+
+e31_son_1 = {
+	name = "Ku_lig"
+	religion = tengri_pagan
+	culture = kirghiz
+	father = e31
+	853.1.1 = {
+		birth = yes
+	}
+	880.1.1 = {
+		death = {
+			death_reason = death_siege
+		}
+	}
+}
+
+e31_son_2 = {
+	name = "Qutoy"
+	religion = tengri_pagan
+	culture = kirghiz
+	father = e31
+	860.1.1 = {
+		birth = yes
+	}
+	880.1.1 = {
+		death = {
+			death_reason = death_siege
+		}
+	}
+}
+
+e_32 = {
+	name = "totog_qa" # A commander
+	religion = tengri_pagan
+	culture = kirghiz
+	856.1.1 = {
+		birth = yes
+	}
+	912.1.1 = {
+		death = yes
+	}
+}

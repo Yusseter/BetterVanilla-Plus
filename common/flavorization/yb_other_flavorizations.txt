@@ -1,0 +1,34 @@
+﻿bulgaria_empire_flavorization = {
+	type = title
+	tier = empire
+	priority = 102
+	name_lists = { name_list_bulgarian }
+	religions = { christianity_religion }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+bulgaria_empress_flavorization = {
+	type = character
+	tier = empire
+	gender = female
+	special = holder
+	priority = 102
+	name_lists = { name_list_bulgarian }
+	religions = { christianity_religion }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+bulgaria_emperor_flavorization = {
+	type = character
+	tier = empire
+	gender = male
+	special = holder
+	priority = 102
+	name_lists = { name_list_bulgarian }
+	religions = { christianity_religion }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}

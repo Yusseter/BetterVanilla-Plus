@@ -1,0 +1,124 @@
+﻿bm_1066_nomads = {
+	start_date = 1066.9.15
+	is_playable = yes
+	group = bm_group_1066
+		requires_dlc_flag = khans_of_the_steppe
+
+	# Saru of the Cumans, Khan Sharu, Sarukhan
+	character = {
+		name = "bookmark_nomads_cumans"
+		dynasty = 698 # Terteroba
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1040.1.1
+		title = e_caspian-pontic_steppe # Yusseter
+		#title = e_cuman_kipchak
+		government = nomad_government
+		culture = cuman
+		religion = tengri_pagan
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 806
+		position = { 450 250 }
+		
+		animation = manic
+	}
+
+	# Inanch of the Keraits, (fictional) father of Margus Buyurid
+	character = {
+		name = "bookmark_nomads_keraits"
+		dynasty = 1041002	# Khereid
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1034.1.2
+		title = d_ovorkhangai
+		government = nomad_government
+		culture = kerait
+		religion = nestorian
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 303226
+		position = { 1150 580 }
+		
+		animation = wedding_priest
+
+		character = {
+			name = "bookmark_nomads_keraits_margus"
+			relation = "BOOKMARK_RELATION_SON"
+			dynasty = 1041002	# Khereid
+			type = male
+			birth = 1061.1.2
+			culture = kerait
+			religion = nestorian
+			history_id = 303208
+			animation = happiness
+		}
+
+		character = {
+			name = "bookmark_nomads_keraits_hongji"
+			relation = "BOOKMARK_RELATION_LIEGE"
+			dynasty = 1045082 # Liao
+			type = male
+			birth = 1032.9.14
+			title = e_mongolia # Yusseter
+			#title = e_great_liao
+			government = nomad_government
+			culture = khitan
+			religion = mahayana
+			history_id = 194333
+			animation = personality_bold
+		}
+	}
+
+	# Kokotoy, of the smol bean Kirghiz
+	character = {
+		name = "bookmark_nomads_late_kirghiz"
+		dynasty = 2001156 # Enisey Kyrgyz
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1044.2.5
+		title = d_khakass_hollow
+		government = nomad_government
+		culture = kirghiz
+		religion = tengri_pagan
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 303244
+		position = { 990 160 }
+		
+		animation = survey
+	}
+
+	# Muhmud of the Eastern Karakhanids
+	character = {
+		name = "bookmark_nomads_eastern_karakhanids"
+		dynasty_house = house_hasanid #Karakhanid
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1033.1.1
+		title = k_zhetysu
+		government = nomad_government
+		culture = karluk
+		religion = maturidi
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = 144107
+		position = { 780 770 }
+		
+		animation = personality_zealous
+	}
+
+	# Tatus of the Pechenegs
+	character = {
+		name = "bookmark_nomads_pechenegs"
+		dynasty = 100542
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1033.1.1
+		title = k_pechenegs
+		government = nomad_government
+		culture = pecheneg
+		religion = tengri_pagan
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 20641
+		position = { 290 710 }
+		
+		animation = storyteller
+	}
+}

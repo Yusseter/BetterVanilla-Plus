@@ -1,0 +1,312 @@
+﻿butr = { # Butr - nomadic Berber
+	color = { 161 90 40 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_berber
+	language = language_berber
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_african_tolerance
+		tradition_saharan_nomads
+		tradition_desert_ribat
+		tradition_equal_inheritance
+	}
+	
+	name_list = name_list_butr
+	
+	coa_gfx = { berber_group_coa_gfx }
+	building_gfx = { berber_building_gfx }
+	clothing_gfx = { afr_berber_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { berber_unit_gfx mena_unit_gfx }
+	
+	ethnicities = {
+		2 = north_african_berber_71
+		2 = north_african_berber_72
+		2 = north_african_berber_73
+		2 = north_african_berber_74
+		2 = north_african_berber_75
+		2 = north_african_berber_76
+		2 = north_african_berber_77
+		2 = north_african_berber_78
+		2 = north_african_berber_79
+		2 = north_african_berber_80
+		2 = north_african_berber_81
+		2 = north_african_berber_82
+		2 = north_african_berber_83
+		2 = north_african_berber_84
+		2 = north_african_berber_85
+		2 = north_african_amazigh_01
+		2 = north_african_amazigh_02
+		2 = north_african_amazigh_03
+		2 = north_african_amazigh_04
+		2 = north_african_amazigh_05
+		2 = north_african_amazigh_06
+		2 = north_african_amazigh_07
+		2 = north_african_amazigh_08
+		2 = north_african_amazigh_09
+		2 = north_african_amazigh_10
+		2 = north_african_amazigh_11
+		2 = north_african_amazigh_12
+		2 = north_african_amazigh_13
+		2 = north_african_amazigh_14
+		2 = north_african_amazigh_15
+		2 = north_african_amazigh_16
+		2 = north_african_amazigh_17
+	}
+}
+
+baranis = { # Baranis - settled Berber
+	color = baranis
+	
+	ethos = ethos_spiritual
+	heritage = heritage_berber
+	language = language_berber
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_african_tolerance
+		tradition_family_entrepreneurship
+		tradition_mountain_herding
+	}
+	
+	name_list = name_list_baranis
+	
+	coa_gfx = { berber_group_coa_gfx }
+	building_gfx = { berber_building_gfx }
+	clothing_gfx = { afr_berber_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { berber_unit_gfx mena_unit_gfx }
+	
+	ethnicities = {
+		2 = north_african_berber_71
+		2 = north_african_berber_72
+		2 = north_african_berber_73
+		2 = north_african_berber_74
+		2 = north_african_berber_75
+		2 = north_african_berber_76
+		2 = north_african_berber_77
+		2 = north_african_berber_78
+		2 = north_african_berber_79
+		2 = north_african_berber_80
+		2 = north_african_berber_81
+		2 = north_african_berber_82
+		2 = north_african_berber_83
+		2 = north_african_berber_84
+		2 = north_african_berber_85
+		2 = north_african_baranis_1
+		2 = north_african_baranis_2
+		2 = north_african_baranis_3
+		2 = north_african_baranis_4
+		2 = north_african_baranis_5
+		2 = north_african_baranis_6
+		2 = north_african_baranis_7
+		2 = north_african_baranis_8
+		2 = north_african_baranis_9
+		2 = north_african_baranis_10
+		2 = north_african_baranis_11
+		2 = north_african_baranis_12
+		2 = north_african_baranis_13
+		2 = north_african_baranis_14
+		2 = north_african_baranis_15
+		2 = north_african_baranis_16
+		2 = north_african_baranis_17
+		2 = north_african_baranis_18
+		2 = north_african_baranis_19
+		2 = north_african_baranis_20
+		2 = north_african_baranis_21
+		2 = north_african_baranis_22
+		2 = north_african_baranis_23
+		2 = north_african_baranis_24
+		2 = north_african_baranis_25
+		2 = north_african_baranis_26
+		2 = north_african_baranis_27
+		2 = north_african_baranis_28
+		2 = north_african_baranis_29
+		2 = north_african_baranis_30
+		2 = north_african_baranis_31
+		2 = north_african_baranis_32
+		2 = north_african_baranis_33
+	}
+}
+
+guanches = { # Guanches - Canary Islanders
+	color = { 181 87 67 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_berber
+	language = language_berber
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_stalwart_defenders
+		tradition_mystical_ancestors
+		tradition_isolationist
+	}
+	
+	name_list = name_list_guanches
+	
+	coa_gfx = { west_african_group_coa_gfx }
+	building_gfx = { berber_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { berber_unit_gfx mena_unit_gfx }
+	
+	ethnicities = {
+		2 = north_african_amazigh_01
+		2 = north_african_amazigh_02
+		2 = north_african_amazigh_03
+		2 = north_african_amazigh_04
+		2 = north_african_amazigh_05
+		2 = north_african_amazigh_06
+		2 = north_african_amazigh_07
+		2 = north_african_amazigh_08
+		2 = north_african_amazigh_09
+		2 = north_african_amazigh_10
+		2 = north_african_amazigh_11
+		2 = north_african_amazigh_12
+		2 = north_african_amazigh_13
+		2 = north_african_amazigh_14
+		2 = north_african_amazigh_15
+		2 = north_african_amazigh_16
+		2 = north_african_amazigh_17
+	}
+}
+
+zaghawa = {
+	color = zaghawa #{ 149 75 20 }
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_berber
+	language = language_tubu
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_african_tolerance
+		tradition_saharan_nomads
+		tradition_desert_ribat
+	}
+	
+	name_list = name_list_zaghawa
+	
+	coa_gfx = { berber_group_coa_gfx }
+	building_gfx = { berber_building_gfx }
+	clothing_gfx = { afr_berber_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { berber_unit_gfx mena_unit_gfx }
+	
+	ethnicities = {
+		5 = north_african_berber_6
+		5 = north_african_berber_7
+		5 = west_african_1
+		5 = west_african_2 
+	}
+}
+
+# epe_old_butr = { #Exists to hold the vanilla clothing GFX group.
+# 	color = { 161 90 40 }
+	
+# 	ethos = ethos_stoic
+# 	heritage = heritage_berber
+# 	language = language_berber
+# 	martial_custom = martial_custom_male_only
+# 	traditions = {
+# 		tradition_african_tolerance
+# 		tradition_saharan_nomads
+# 		tradition_desert_ribat
+# 		tradition_equal_inheritance
+# 	}
+	
+# 	name_list = name_list_butr
+	
+# 	coa_gfx = { berber_group_coa_gfx }
+#	building_gfx = { berber_building_gfx }
+# 	clothing_gfx = { afr_berber_clothing_gfx epe_maghreb_clothing_gfx }
+# 	unit_gfx = { berber_unit_gfx mena_unit_gfx }
+	
+# 	ethnicities = {
+# 		2 = north_african_amazigh_01
+# 		2 = north_african_amazigh_02
+# 		2 = north_african_amazigh_03
+# 		2 = north_african_amazigh_04
+# 		2 = north_african_amazigh_05
+# 		2 = north_african_amazigh_06
+# 		2 = north_african_amazigh_07
+# 		2 = north_african_amazigh_08
+# 		2 = north_african_amazigh_09
+# 		2 = north_african_amazigh_10
+# 		2 = north_african_amazigh_11
+# 		2 = north_african_amazigh_12
+# 		2 = north_african_amazigh_13
+# 		2 = north_african_amazigh_14
+# 		2 = north_african_amazigh_15
+# 		2 = north_african_amazigh_16
+# 		2 = north_african_amazigh_17
+
+# 	}
+# }
+
+haratin = {
+	color = { 0.8 0.4 0.0 }
+	
+	ethos = ethos_communal
+	heritage = heritage_berber #unclear to the degree at which Haratin pops were assimilated but they are native north africans
+	language = language_haratine #now days they speak berber language but unclear when they may have lost their own language
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_family_entrepreneurship  #provide specialist caste workers in west sahara
+		tradition_dryland_dwellers #desert agriculturalists
+		tradition_esteemed_hospitality 
+	}
+	
+	name_list = name_list_butr
+	
+	coa_gfx = { berber_group_coa_gfx }
+	building_gfx = { berber_group_building_gfx mena_building_gfx }
+	clothing_gfx = { afr_berber_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { berber_unit_gfx mena_unit_gfx }
+	
+	ethnicities = {
+		2 = north_african_berber_1
+	}
+}
+
+tuareg = {
+	color = { 0.66 0.32 0.06 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_berber
+	language = language_berber
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {	
+		tradition_desert_ribat #the description is a bit off but the MAA is literally a tuareg unit so...
+		tradition_poetry #poetry and the performance of it is valued form of entertainment 
+		tradition_saharan_nomads #the ogs of the sahara
+		tradition_monogamous #traditionally monogamous
+		tradition_equal_inheritance #traditionally matrilineal sisters son succession but also with women allowed to inherit property
+	}
+	
+	name_list = name_list_tuareg
+	
+	coa_gfx = { berber_group_coa_gfx }
+	building_gfx = { berber_group_building_gfx mena_building_gfx }
+	clothing_gfx = { afr_berber_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { berber_unit_gfx mena_unit_gfx }
+	
+	ethnicities = {
+		2 = north_african_berber_71
+		2 = north_african_berber_72
+		2 = north_african_berber_73
+		2 = north_african_berber_74
+		2 = north_african_berber_75
+		2 = north_african_berber_76
+		2 = north_african_berber_77
+		2 = north_african_berber_78
+		2 = north_african_berber_79
+		2 = north_african_berber_80
+		2 = north_african_berber_81
+		2 = north_african_berber_82
+		2 = north_african_berber_83
+		2 = north_african_berber_84
+		2 = north_african_berber_85
+	}
+}

@@ -1,0 +1,765 @@
+﻿yb_character_setup_effect = {
+    if = {
+        limit = { exists = character:74027 }
+        character:74027 = { set_father = character:3022751 }
+    }
+    if = {
+        limit = { exists = character:226000 }
+        character:226000 = { learn_language_of_culture = culture:levantine }
+    }
+    if = {
+        limit = { exists = character:163115 }
+        character:163115 = { learn_language_of_culture = culture:turkish }
+    }
+    if = {
+        limit = { exists = character:RICE_tarim_basin_misc_002 }
+    character:RICE_tarim_basin_misc_002 = { set_culture = culture:aralian }
+    }
+}
+
+yb_title_effects_867 = {
+    effect = {
+		if = {
+			limit = {
+				title:k_pontic_steppe = {
+					exists = holder
+				}
+			}
+			title:k_pontic_steppe = {
+				add_title_law = confederation_elective_succession_law
+			}
+		}
+    }
+}
+
+yb_title_effects_1066 = {
+    effect = {
+		if = {
+			limit = {
+				title:e_caspian-pontic_steppe = {
+					exists = holder
+				}
+			}
+			title:e_caspian-pontic_steppe = {
+				add_title_law = confederation_elective_succession_law
+			}
+		}
+    }
+}
+
+yb_title_effects_1178 = {
+    effect = {
+		if = {
+			limit = {
+				title:e_caspian-pontic_steppe = {
+					exists = holder
+				}
+			}
+			title:e_caspian-pontic_steppe = {
+				add_title_law = confederation_elective_succession_law
+			}
+		}
+    }
+}
+
+#yb_character_setup_effect_867 = {
+#    character:74027 = { set_father = character:3022751 }
+#    character:163115 = { learn_language_of_culture = culture:turkish }
+#}
+
+#yb_character_setup_effect_1066 = {
+#    character:74027 = { set_father = character:3022751 }
+#}
+
+#yb_character_setup_effect_1178 = {
+#    character:74027 = { set_father = character:3022751 }
+#    character:226000 = { learn_language_of_culture = culture:levantine }
+#    character:RICE_tarim_basin_misc_002 = { set_culture = culture:aralian }
+#}
+
+yb_tributary_and_confederation_setup_effect_867 = {
+
+	#character:1227114 = {
+	#	create_confederation = {
+	#		name = LUTICI_CONFED
+	#	}
+	#}
+	#character:1227114.confederation = {
+	#	add_confederation_member = character:194065
+	#	add_confederation_member = character:194068
+	#}
+
+    #title:k_oghuz_il.holder = {
+    #    save_scope_as = suzerain
+	#	title:c_mangyshlak.holder = {
+    #        break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+    #    }
+    #}
+}
+
+yb_tributary_and_confederation_setup_effect_1066 = {
+
+	#character:1227114 = {
+	#	create_confederation = {
+	#		name = LUTICI_CONFED
+	#	}
+	#}
+	#character:1227114.confederation = {
+	#	add_confederation_member = character:194065
+	#	add_confederation_member = character:194068
+	#}
+
+    #title:k_oghuz_il.holder = {
+    #    save_scope_as = suzerain
+	#	title:c_mangyshlak.holder = {
+    #        break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+    #    }
+    #}
+}
+
+yb_tributary_and_confederation_setup_effect_1178 = {
+
+	#character:1227114 = {
+	#	create_confederation = {
+	#		name = LUTICI_CONFED
+	#	}
+	#}
+	#character:1227114.confederation = {
+	#	add_confederation_member = character:194065
+	#	add_confederation_member = character:194068
+	#}
+
+    #title:k_oghuz_il.holder = {
+    #    save_scope_as = suzerain
+	#	title:c_mangyshlak.holder = {
+    #        break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+    #    }
+    #}
+}
+
+yb_cultural_piller_setup_effect_867 = {
+	culture:asturleonese = {
+		set_culture_name = {
+            noun = "asturleonese"
+            collective_noun = "asturleonese_collective_noun"
+            prefix = "asturleonese_prefix"
+		}
+	}
+	culture:asturleonese = {
+		set_culture_name = {
+            noun = "asturleonese"
+            collective_noun = "asturleonese_collective_noun"
+            prefix = "asturleonese_prefix"
+		}
+	}
+	culture:armenian = {
+		set_culture_pillar = heritage_caucasian
+	}
+	culture:bjarmian = {
+		add_culture_tradition = tradition_RICE_whalers
+	}
+	culture:samoyed = {
+		remove_culture_tradition = tradition_tribe_unity
+		remove_culture_tradition = tradition_RICE_whalers
+	}
+	culture:kirghiz = {
+        set_culture_pillar = language_siberian_turkic
+    }
+	culture:oirat = {
+		set_culture_pillar = ethos_egalitarian
+	}		
+}
+
+yb_cultural_piller_setup_effect_1066 = {
+	culture:asturleonese = {
+		set_culture_name = {
+            noun = "asturleonese"
+            collective_noun = "asturleonese_collective_noun"
+            prefix = "asturleonese_prefix"
+		}
+	}
+	culture:asturleonese = {
+		set_culture_name = {
+            noun = "asturleonese"
+            collective_noun = "asturleonese_collective_noun"
+            prefix = "asturleonese_prefix"
+		}
+	}
+	culture:armenian = {
+		set_culture_pillar = heritage_caucasian
+	}
+	culture:bjarmian = {
+		add_culture_tradition = tradition_RICE_whalers
+	}
+	culture:samoyed = {
+		remove_culture_tradition = tradition_tribe_unity
+		remove_culture_tradition = tradition_RICE_whalers
+	}
+	culture:kirghiz = {
+        set_culture_pillar = language_siberian_turkic
+    }
+}
+
+yb_cultural_piller_setup_effect_1178 = {
+	culture:asturleonese = {
+		set_culture_name = {
+            noun = "asturleonese"
+            collective_noun = "asturleonese_collective_noun"
+            prefix = "asturleonese_prefix"
+		}
+	}
+	culture:asturleonese = {
+		set_culture_name = {
+            noun = "asturleonese"
+            collective_noun = "asturleonese_collective_noun"
+            prefix = "asturleonese_prefix"
+		}
+	}
+	culture:armenian = {
+		set_culture_pillar = heritage_caucasian
+	}
+	culture:bjarmian = {
+		add_culture_tradition = tradition_RICE_whalers
+	}
+	culture:samoyed = {
+		remove_culture_tradition = tradition_tribe_unity
+		remove_culture_tradition = tradition_RICE_whalers
+	}
+	culture:kirghiz = {
+        set_culture_pillar = language_siberian_turkic
+    }
+}
+
+yb_de_jure_setup_effect_867 = {
+    title:d_shirvan = { 
+        set_de_jure_liege_title = title:k_daylam
+    }
+    title:k_khwarazm = { 
+        set_de_jure_liege_title = title:e_turan
+    }
+    title:d_khorezm = { 
+        set_de_jure_liege_title = title:k_khwarazm
+    }
+    title:d_uzboy = { 
+        set_de_jure_liege_title = title:k_khwarazm
+    }
+    title:d_garabogazkol = { 
+        set_de_jure_liege_title = title:k_oghuz_il
+    }
+    title:k_daylam = { 
+        set_de_jure_liege_title = title:e_persia
+    }
+
+    title:k_syr_darya = { 
+        set_de_jure_liege_title = title:e_turan
+    }
+    title:k_transoxiana = { 
+        set_de_jure_liege_title = title:e_turan
+    }
+
+    title:k_cuman = { 
+        set_de_jure_liege_title = title:e_tartaria
+    }
+    title:k_kipchak = { 
+        set_de_jure_liege_title = title:e_tartaria
+    }
+    title:k_saryarka = { 
+        set_de_jure_liege_title = title:e_tartaria
+    }
+    title:k_qara_dala = { 
+        set_de_jure_liege_title = title:e_caspian-pontic_steppe
+    }
+    title:k_caspian_steppe = { 
+        set_de_jure_liege_title = title:e_caspian-pontic_steppe
+    }
+    title:k_caucasus = { 
+        set_de_jure_liege_title = title:e_caspian-pontic_steppe
+    }
+    title:k_pontic_steppe = { 
+        set_de_jure_liege_title = title:e_caspian-pontic_steppe
+    }
+
+    title:k_zhetysu = { 
+        set_de_jure_liege_title = title:e_kara_khitai
+    }
+    title:k_khotan = { 
+        set_de_jure_liege_title = title:e_kara_khitai
+    }
+    title:k_dzungaria = { 
+        set_de_jure_liege_title = title:e_kara_khitai
+    }
+
+    title:k_naiman = { 
+        set_de_jure_liege_title = title:e_mongolia
+    }
+    title:k_otuken = { 
+        set_de_jure_liege_title = title:e_mongolia
+    }
+
+    title:d_akaltay = { 
+        set_de_jure_liege_title = title:k_dzungaria
+    }
+    title:d_altay = { 
+        set_de_jure_liege_title = title:k_naiman
+    }
+    title:d_naiman_gobi = { 
+        set_de_jure_liege_title = title:k_naiman
+    }
+    title:d_khovd = { 
+        set_de_jure_liege_title = title:k_naiman
+    }
+    title:d_altaishan = { 
+        set_de_jure_liege_title = title:k_naiman
+    }
+    title:d_zavkhan = { 
+        set_de_jure_liege_title = title:k_otuken
+    }
+
+    title:d_ubsunur_hollow = { 
+        set_de_jure_liege_title = title:k_tuva
+    }
+
+    title:k_bulgaria = { 
+        set_de_jure_liege_title = title:e_byzantium
+    }
+    title:k_dacia = { 
+        set_de_jure_liege_title = title:e_carpathia
+    }
+    title:k_moldavia = { 
+        set_de_jure_liege_title = title:e_carpathia
+    }
+}
+
+yb_de_jure_setup_effect_1066 = {
+    title:d_shirvan = { 
+        set_de_jure_liege_title = title:k_daylam
+    }
+    title:k_khwarazm = { 
+        set_de_jure_liege_title = title:e_turan
+    }
+    title:d_khorezm = { 
+        set_de_jure_liege_title = title:k_khwarazm
+    }
+    title:d_uzboy = { 
+        set_de_jure_liege_title = title:k_khwarazm
+    }
+    title:d_garabogazkol = { 
+        set_de_jure_liege_title = title:k_oghuz_il
+    }
+    title:k_daylam = { 
+        set_de_jure_liege_title = title:e_persia
+    }
+
+    title:k_syr_darya = { 
+        set_de_jure_liege_title = title:e_turan
+    }
+    title:k_transoxiana = { 
+        set_de_jure_liege_title = title:e_turan
+    }
+
+    title:k_cuman = { 
+        set_de_jure_liege_title = title:e_tartaria
+    }
+    title:k_kipchak = { 
+        set_de_jure_liege_title = title:e_tartaria
+    }
+    title:k_saryarka = { 
+        set_de_jure_liege_title = title:e_tartaria
+    }
+    title:k_qara_dala = { 
+        set_de_jure_liege_title = title:e_caspian-pontic_steppe
+    }
+    title:k_caspian_steppe = { 
+        set_de_jure_liege_title = title:e_caspian-pontic_steppe
+    }
+    title:k_caucasus = { 
+        set_de_jure_liege_title = title:e_caspian-pontic_steppe
+    }
+    title:k_pontic_steppe = { 
+        set_de_jure_liege_title = title:e_caspian-pontic_steppe
+    }
+
+    title:k_zhetysu = { 
+        set_de_jure_liege_title = title:e_kara_khitai
+    }
+    title:k_khotan = { 
+        set_de_jure_liege_title = title:e_kara_khitai
+    }
+    title:k_dzungaria = { 
+        set_de_jure_liege_title = title:e_kara_khitai
+    }
+
+    title:k_naiman = { 
+        set_de_jure_liege_title = title:e_mongolia
+    }
+    title:k_otuken = { 
+        set_de_jure_liege_title = title:e_mongolia
+    }
+
+    title:d_akaltay = { 
+        set_de_jure_liege_title = title:k_dzungaria
+    }
+    title:d_altay = { 
+        set_de_jure_liege_title = title:k_naiman
+    }
+    title:d_naiman_gobi = { 
+        set_de_jure_liege_title = title:k_naiman
+    }
+    title:d_khovd = { 
+        set_de_jure_liege_title = title:k_naiman
+    }
+    title:d_altaishan = { 
+        set_de_jure_liege_title = title:k_naiman
+    }
+    title:d_zavkhan = { 
+        set_de_jure_liege_title = title:k_otuken
+    }
+
+    title:d_ubsunur_hollow = { 
+        set_de_jure_liege_title = title:k_tuva
+    }
+
+    title:k_bulgaria = { 
+        set_de_jure_liege_title = title:e_byzantium
+    }
+    title:k_dacia = { 
+        set_de_jure_liege_title = title:e_carpathia
+    }
+    title:k_moldavia = { 
+        set_de_jure_liege_title = title:e_carpathia
+    }
+}
+
+yb_de_jure_setup_effect_1178 = {
+    title:d_shirvan = { 
+        set_de_jure_liege_title = title:k_daylam
+    }
+    title:k_khwarazm = { 
+        set_de_jure_liege_title = title:e_turan
+    }
+    title:d_khorezm = { 
+        set_de_jure_liege_title = title:k_khwarazm
+    }
+    title:d_uzboy = { 
+        set_de_jure_liege_title = title:k_khwarazm
+    }
+    title:d_garabogazkol = { 
+        set_de_jure_liege_title = title:k_khwarazm
+    }
+    title:k_daylam = { 
+        set_de_jure_liege_title = title:e_persia
+    }
+
+    title:k_syr_darya = { 
+        set_de_jure_liege_title = title:e_kara_khitai
+    }
+    title:k_transoxiana = { 
+        set_de_jure_liege_title = title:e_turan
+    }
+
+    title:k_cuman = { 
+        set_de_jure_liege_title = title:e_tartaria
+    }
+    title:k_kipchak = { 
+        set_de_jure_liege_title = title:e_tartaria
+    }
+    title:k_saryarka = { 
+        set_de_jure_liege_title = title:e_tartaria
+    }
+    title:k_qara_dala = { 
+        set_de_jure_liege_title = title:e_caspian-pontic_steppe
+    }
+    title:k_caspian_steppe = { 
+        set_de_jure_liege_title = title:e_caspian-pontic_steppe
+    }
+    title:k_caucasus = { 
+        set_de_jure_liege_title = title:e_caspian-pontic_steppe
+    }
+    title:k_pontic_steppe = { 
+        set_de_jure_liege_title = title:e_caspian-pontic_steppe
+    }
+
+    title:k_zhetysu = { 
+        set_de_jure_liege_title = title:e_kara_khitai
+    }
+    title:k_khotan = { 
+        set_de_jure_liege_title = title:e_kara_khitai
+    }
+    title:k_dzungaria = { 
+        set_de_jure_liege_title = title:e_kara_khitai
+    }
+
+    title:k_naiman = { 
+        set_de_jure_liege_title = title:e_mongolia
+    }
+    title:k_otuken = { 
+        set_de_jure_liege_title = title:e_mongolia
+    }
+
+    title:d_akaltay = { 
+        set_de_jure_liege_title = title:k_dzungaria
+    }
+    title:d_altay = { 
+        set_de_jure_liege_title = title:k_naiman
+    }
+    title:d_naiman_gobi = { 
+        set_de_jure_liege_title = title:k_naiman
+    }
+    title:d_khovd = { 
+        set_de_jure_liege_title = title:k_naiman
+    }
+    title:d_altaishan = { 
+        set_de_jure_liege_title = title:k_naiman
+    }
+    title:d_zavkhan = { 
+        set_de_jure_liege_title = title:k_otuken
+    }
+
+    title:d_ubsunur_hollow = { 
+        set_de_jure_liege_title = title:k_tuva
+    }
+
+    title:k_bulgaria = { 
+        set_de_jure_liege_title = title:e_byzantium
+    }
+    title:k_dacia = { 
+        set_de_jure_liege_title = title:e_carpathia
+    }
+    title:k_moldavia = { 
+        set_de_jure_liege_title = title:e_carpathia
+    }
+}
+
+yb_county_culture_setup_effect_867 = {
+    every_county = {
+        limit = {
+			culture = culture:uyghur
+        }
+		set_county_culture = culture:uigur
+    }
+    title:c_khanjargalant = {
+		set_county_culture = culture:uigur
+	}
+    title:c_tovkhon = {
+		set_county_culture = culture:uigur
+	}
+    title:c_karakorum = {
+		set_county_culture = culture:uigur
+	}
+	title:c_balgun = {
+		set_county_culture = culture:basmyl
+	}
+	title:c_qinggil = {
+		set_county_culture = culture:basmyl
+	}
+    title:c_jie_DZU = {
+		set_county_culture = culture:tocharian
+	}
+    title:c_luobupo = {
+		set_county_culture = culture:tocharian
+	}
+    title:c_kara_khoja = {
+		set_county_culture = culture:tocharian
+	}
+    title:c_kuozhou = {
+		set_county_culture = culture:wenmo
+	}
+
+    title:c_balashagun = {
+		set_county_culture = culture:sogdian
+	}
+    title:c_cherik = {
+		set_county_culture = culture:sogdian
+	}
+
+    title:c_atamansku = {
+		set_county_culture = culture:mogyer
+	}
+    title:c_sakmara = {
+		set_county_culture = culture:mogyer
+	}
+    title:c_kumertau = {
+		set_county_culture = culture:mogyer
+	}
+    title:c_prigoro_tabynsk = {
+		set_county_culture = culture:mogyer
+	}
+    
+    title:c_csanad = {
+		set_county_culture = culture:avar
+	}
+    title:c_bekes = {
+		set_county_culture = culture:avar
+	}
+    title:c_bihar = {
+		set_county_culture = culture:avar
+	}
+
+    title:c_dakhla = {
+		set_county_culture = culture:egyptian
+	}
+    title:c_bahnasa = {
+		set_county_culture = culture:egyptian
+	}
+}
+
+yb_county_culture_setup_effect_1066 = {
+	title:c_yb_andir = {
+		set_county_culture = culture:khotanese
+	}
+
+	title:c_uzgend_KARA = {
+		set_county_culture = culture:aralian
+	}
+	title:c_sighnaq = {
+		set_county_culture = culture:aralian
+	}
+	title:c_shavgar = {
+		set_county_culture = culture:aralian
+	}
+
+	title:c_csanad = {
+		set_county_culture = culture:mogyer
+	}
+    title:c_hewes = {
+		set_county_culture = culture:avar
+	}
+    title:c_bekes = {
+		set_county_culture = culture:hungarian
+	}
+    title:c_bihar = {
+		set_county_culture = culture:hungarian
+	}
+
+    title:c_kuozhou = {
+		set_county_culture = culture:turkish
+	}
+}
+
+yb_county_culture_setup_effect_1178 = {
+	title:c_yb_andir = {
+		set_county_culture = culture:uyghur
+	}
+    title:c_kuozhou = {
+		set_county_culture = culture:salar
+	}
+}
+
+yb_county_faith_setup_effect_867 = {
+    title:c_khanjargalant = {
+		set_county_faith = faith:manichean
+	}
+    title:c_abakan = {
+		set_county_faith = faith:manichean
+	}
+	title:c_kyzylkul = {
+		set_county_faith = faith:manichean
+	}
+	title:c_shor = {
+		set_county_faith = faith:manichean
+	}
+	title:c_terektai = {
+		set_county_faith = faith:manichean
+	}
+	title:c_korgon = {
+		set_county_faith = faith:manichean
+	}
+	title:c_kondoma = {
+		set_county_faith = faith:manichean
+	}
+	title:c_tekar = {
+		set_county_faith = faith:manichean
+	}
+	title:c_aley = {
+		set_county_faith = faith:manichean
+	}
+	title:c_kyin = {
+		set_county_faith = faith:manichean
+	}
+	title:c_sorok = {
+		set_county_faith = faith:manichean
+	}
+	title:c_tovkhon = {
+		set_county_faith = faith:manichean
+	}
+	title:c_songuu_aallar = {
+		set_county_faith = faith:manichean
+	}
+	title:c_central_tannu = {
+		set_county_faith = faith:manichean
+	}
+	title:c_altay = {
+		set_county_faith = faith:manichean
+	}
+	title:c_kabtag = {
+		set_county_faith = faith:manichean
+	}
+}
+
+yb_county_faith_setup_effect_1066 = {
+    title:c_abakan = {
+		set_county_faith = faith:manichean
+	}
+	title:c_kyzylkul = {
+		set_county_faith = faith:manichean
+	}
+	title:c_shor = {
+		set_county_faith = faith:manichean
+	}
+	title:c_terektai = {
+		set_county_faith = faith:manichean
+	}
+	title:c_korgon = {
+		set_county_faith = faith:manichean
+	}
+	title:c_kondoma = {
+		set_county_faith = faith:manichean
+	}
+	title:c_taskyl = {
+		set_county_faith = faith:manichean
+	}
+	title:c_tekar = {
+		set_county_faith = faith:manichean
+	}
+    title:c_kuozhou = {
+		set_county_faith = faith:tengri_pagan
+	}
+}
+
+yb_county_faith_setup_effect_1178 = {
+    title:c_tavan_bogd = {
+		set_county_faith = faith:manichean
+	}
+	title:c_terektai = {
+		set_county_faith = faith:manichean
+	}
+	title:c_aley = {
+		set_county_faith = faith:manichean
+	}
+	title:c_bugur = {
+		set_county_faith = faith:manichean
+	}
+	title:c_uchkul = {
+		set_county_faith = faith:manichean
+	}
+    title:c_kuozhou = {
+		set_county_faith = faith:maturidi
+	}
+}
+
+yb_cultural_title_coa_effect_867 = {
+    title:e_mongolia = { 
+        set_coa = e_kirghiz_khanate
+	    #set_color_from_title = title:e_kirghiz_khanate
+    }
+}
+
+yb_cultural_title_coa_effect_1066 = {
+    title:e_mongolia = { 
+        set_coa = e_great_liao
+	    #set_color_from_title = title:e_great_liao
+    }
+    title:e_caspian-pontic_steppe = {
+	    set_color_from_title = title:e_caspian-pontic_steppe
+    }
+}

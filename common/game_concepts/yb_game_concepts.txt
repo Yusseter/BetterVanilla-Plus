@@ -1,0 +1,588 @@
+﻿people = {
+	alias = { peoples human humans population populations }
+	texture = "gfx/interface/icons/icon_culture.dds"
+	parent = culture
+}
+
+ancestral_community = { # Yusseter: 'Atasal Topluluk'
+	alias = { ancestral_communities }
+	texture = "gfx/interface/icons/icon_culture.dds"
+	parent = culture
+}
+
+romano_briton_main = {
+	shown_in_encyclopedia = no
+	alias = { romano_briton romanobrit romanobrittonic }
+	parent = ancestral_community
+}
+
+old_briton_main = {
+	shown_in_encyclopedia = no
+	alias = { old_briton oldbrit briton britons britannian britannians }
+	parent = ancestral_community
+}
+
+anglosaxons_main = {
+	alias = { anglosaxons anglosaxon }
+	parent = ancestral_community
+}
+
+old_slavs_main = {
+	shown_in_encyclopedia = no
+	alias = { old_slavs oldslavic }
+	parent = ancestral_community
+}
+
+east_slavs_main = {
+	shown_in_encyclopedia = no
+	alias = { east_slavs eastslavic antean s }
+	parent = ancestral_community
+}
+
+west_slavs_main = {
+	shown_in_encyclopedia = no
+	alias = { west_slavs westslavic lechites lechitic wends wendish }
+	parent = ancestral_community
+}
+
+south_slavs_main = {
+	shown_in_encyclopedia = no
+	alias = { south_slavs southslavic sclavenian sclavenians }
+	parent = ancestral_community
+}
+
+pannonian_slavs_main = {
+	shown_in_encyclopedia = no
+	alias = { pannonian_slavs pannonianslavic }
+	parent = ancestral_community
+}
+
+egyptians_main = {
+	shown_in_encyclopedia = no
+	alias = { egyptians egyptian copts coptic }
+	parent = ancestral_community
+}
+
+sogdians_main = {
+	shown_in_encyclopedia = no
+	alias = { sogdians sogdian }
+	parent = ancestral_community
+}
+
+karluks_main = {
+	shown_in_encyclopedia = no
+	alias = { karluks karluk }
+	parent = ancestral_community
+}
+
+hellenes_main = {
+	shown_in_encyclopedia = no
+	alias = { greek greeks hellenes hellen hellenic hellenized hellenization }
+	parent = ancestral_community
+}
+
+alashiyans_main = {
+	shown_in_encyclopedia = no
+	alias = { alashiyans alashiyan }
+	parent = ancestral_community
+}
+
+hittites_main = {
+	shown_in_encyclopedia = no
+	alias = { hittites hittite }
+	parent = ancestral_community
+}
+
+neo_hittites_main = {
+	shown_in_encyclopedia = no
+	alias = { neo_hittites neo_hittite }
+	parent = ancestral_community
+}
+
+tarhuntassans_main = {
+	shown_in_encyclopedia = no
+	alias = { tarhuntassans tarhuntassan }
+	parent = ancestral_community
+}
+
+emaris_main = {
+	shown_in_encyclopedia = no
+	alias = { emaris emari }
+	parent = ancestral_community
+}
+
+native_anatolians_main = {
+	shown_in_encyclopedia = no
+	alias = { native_anatolians native_anatolian }
+	parent = ancestral_community
+}
+
+early_mongols_main = {
+	shown_in_encyclopedia = no
+	alias = { early_mongolians early_mongolian early_mongols early_mongol mongolians mongolian mongols mongol mongolic donghu }
+	parent = ancestral_community
+}
+
+tibetans_main = {
+	shown_in_encyclopedia = no
+	alias = { tibetans tibetan tibetanized }
+	parent = ancestral_community
+}
+
+ugrians_main = {
+	shown_in_encyclopedia = no
+	alias = { ugrians ugrian ugric }
+	parent = ancestral_community
+}
+
+oghurs_main = {
+	shown_in_encyclopedia = no
+	alias = { oghurs oghur oghuric }
+	parent = ancestral_community
+}
+
+yeniseians_main = {
+	shown_in_encyclopedia = no
+	alias = { yeniseians yeniseian }
+	parent = ancestral_community
+}
+
+early_turks_main = {
+	shown_in_encyclopedia = no
+	alias = { qonggai early_turkic early_turks }
+	parent = ancestral_community
+}
+
+xiongnu_main = {
+	shown_in_encyclopedia = no
+	alias = { xiongnu asia_huns }
+	parent = ancestral_community
+}
+
+tujues_main = {
+	shown_in_encyclopedia = no
+	alias = { tujues tujue }
+	parent = ancestral_community
+}
+
+on_oqs_main = {
+	shown_in_encyclopedia = no
+	alias = { on_oqs on_oq }
+	parent = ancestral_community
+}
+
+toquz_oghuz_main = {
+	shown_in_encyclopedia = no
+	alias = { toquz_oghuz }
+	parent = ancestral_community
+}
+
+kurds_main = {
+	shown_in_encyclopedia = no
+	alias = { kurds kurd kurdish }
+	parent = ancestral_community
+}
+
+zagrosians_main = {
+	shown_in_encyclopedia = no
+	alias = { zagrosians zagrosi zagrosian }
+	parent = ancestral_community
+}
+
+armenians_main = {
+	shown_in_encyclopedia = no
+	alias = { armenians armenian }
+	parent = ancestral_community
+}
+
+proto_armenians_main = {
+	shown_in_encyclopedia = no
+	alias = { proto_armenians proto_armenian }
+	parent = ancestral_community
+}
+
+orontids_main = {
+	shown_in_encyclopedia = no
+	alias = { orontids orontid }
+	parent = dynasty
+}
+
+hurrians_main = {
+	shown_in_encyclopedia = no
+	alias = { hurrians hurrian hurrianized }
+	parent = ancestral_community
+}
+
+urartuans_main = {
+	shown_in_encyclopedia = no
+	alias = { urartuans urartuan }
+	parent = ancestral_community
+}
+
+celts_main = {
+	shown_in_encyclopedia = no
+	alias = { celts celt celtic }
+	parent = ancestral_community
+}
+
+#gauls_main = {
+#	shown_in_encyclopedia = no
+#	alias = { gauls gaul gaulish }
+#	parent = ancestral_community
+#}
+
+gallics_main = {
+	shown_in_encyclopedia = no
+	alias = { gallics gallic gallian gallians }
+	parent = ancestral_community
+}
+
+goidelics_main = {
+	shown_in_encyclopedia = no
+	alias = { goidelics goidelic gaelic }
+	parent = ancestral_community
+}
+
+celtiberians_main = {
+	shown_in_encyclopedia = no
+	alias = { celtiberians celtiberian old_galician old_asturian old_cantabrian }
+	parent = ancestral_community
+}
+
+paleo_iberians_main = {
+	shown_in_encyclopedia = no
+	alias = { paleo_iberians paleo_iberian }
+	parent = ancestral_community
+}
+
+elbe_germanic_main = {
+	shown_in_encyclopedia = no
+	alias = { elbe_germanic }
+	parent = language
+}
+
+weser_rhine_germanic_main = {
+	shown_in_encyclopedia = no
+	alias = { weser_rhine_germanic }
+	parent = language
+}
+
+germans_main = {
+	shown_in_encyclopedia = no
+	alias = { germans germanic east_frankish }
+	parent = ancestral_community
+}
+
+central_germans_main = {
+	shown_in_encyclopedia = no
+	alias = { central_germans central_germanic }
+}
+
+alemannis_main = {
+	shown_in_encyclopedia = no
+	alias = { alemannis alemanni }
+	parent = ancestral_community
+}
+
+suebis_main = {
+	shown_in_encyclopedia = no
+	alias = { suebis suebi suebic }
+	parent = ancestral_community
+}
+
+lombards_main = {
+	shown_in_encyclopedia = no
+	alias = { lombards lombard langobard }
+	parent = ancestral_community
+}
+
+north_germans_main = {
+	shown_in_encyclopedia = no
+	alias = { north_germans north_german scandinavians scandinavian }
+	parent = ancestral_community
+}
+
+norses_main = {
+	shown_in_encyclopedia = no
+	alias = { norses norse norsemans norseman }
+	parent = ancestral_community
+}
+
+geats_main = {
+	shown_in_encyclopedia = no
+	alias = { geats geat }
+	parent = ancestral_community
+}
+
+danes_main = {
+	shown_in_encyclopedia = no
+	alias = { danes dane }
+	parent = ancestral_community
+}
+
+svears_main = {
+	shown_in_encyclopedia = no
+	alias = { svears svear }
+	parent = ancestral_community
+}
+
+west_germans_main = {
+	shown_in_encyclopedia = no
+	alias = { west_germans west_germanic }
+	parent = ancestral_community
+}
+
+saxons_main = {
+	shown_in_encyclopedia = no
+	alias = { saxons saxon }
+	parent = ancestral_community
+}
+
+franks_main = {
+	shown_in_encyclopedia = no
+	alias = { franks frank frankish }
+	parent = ancestral_community
+}
+
+angles_main = {
+	shown_in_encyclopedia = no
+	alias = { angles angle anglish }
+	parent = ancestral_community
+}
+
+jutes_main = {
+	shown_in_encyclopedia = no
+	alias = { jutes jute }
+	parent = ancestral_community
+}
+
+britannian_saxons_main = {
+	shown_in_encyclopedia = no
+	alias = { britannian_saxons britannian_saxon south_saxons south_saxon east_saxons east_saxon west_saxons west_saxon }
+	parent = ancestral_community
+}
+
+east_germans_main = {
+	shown_in_encyclopedia = no
+	alias = { east_germans east_germanic }
+	parent = ancestral_community
+}
+
+goths_main = {
+	shown_in_encyclopedia = no
+	alias = { goths gothic }
+	parent = ancestral_community
+}
+
+visigoths_main = {
+	shown_in_encyclopedia = no
+	alias = { visigoths visigothic }
+	parent = ancestral_community
+}
+
+ostrogoths_main = {
+	shown_in_encyclopedia = no
+	alias = { ostrogoths ostrogothic }
+	parent = ancestral_community
+}
+
+vandals_main = {
+	shown_in_encyclopedia = no
+	alias = { vandals vandal }
+	parent = ancestral_community
+}
+
+burgundians_main = {
+	shown_in_encyclopedia = no
+	alias = { burgundians burgundian }
+	parent = ancestral_community
+}
+
+caucasians_main = {
+	shown_in_encyclopedia = no
+	alias = { caucasians caucasian caucasianized }
+	parent = ancestral_community
+}
+
+afanasievo_main = {
+	shown_in_encyclopedia = no
+	alias = { afanasievo proto_tocharian proto_tocharians }
+	#parent = ancestral_community
+	parent = culture
+}
+
+yuezhi_origin = {
+	shown_in_encyclopedia = no
+	alias = { yuezhi_origin1 }
+	parent = ancestral_community
+}
+
+indo_aryans_main = {
+	shown_in_encyclopedia = no
+	alias = { indo indo_aryans indo_aryan arya }
+	parent = ancestral_community
+}
+
+iranians_main = {
+	shown_in_encyclopedia = no
+	alias = { iranians iranian iranianized daylamite }
+	parent = ancestral_community
+}
+
+pars_main = {
+	shown_in_encyclopedia = no
+	alias = { pars }
+	parent = ancestral_community
+}
+
+scytho_sarmatians_main = {
+	shown_in_encyclopedia = no
+	alias = { scytho_sarmatians scytho_sarmatian }
+	parent = ancestral_community
+}
+
+scythians_main = {
+	shown_in_encyclopedia = no
+	alias = { scythians scythian }
+	parent = ancestral_community
+}
+
+sarmatians_main = {
+	shown_in_encyclopedia = no
+	alias = { sarmatians sarmatian sarmato }
+	parent = ancestral_community
+}
+
+cimmerians_main = {
+	shown_in_encyclopedia = no
+	alias = { cimmerians cimmerian }
+	parent = ancestral_community
+}
+
+massagetaes_main = {
+	shown_in_encyclopedia = no
+	alias = { massagetaes massagetae }
+	parent = ancestral_community
+}
+
+sakas_main = {
+	shown_in_encyclopedia = no
+	alias = { sakas saka }
+	parent = ancestral_community
+}
+
+chorasmians_main = {
+	shown_in_encyclopedia = no
+	alias = { chorasmians chorasmian }
+	parent = ancestral_community
+}
+
+pactyrans_main = {
+	shown_in_encyclopedia = no
+	alias = { pactyrans pactyran }
+	parent = ancestral_community
+}
+
+parni_main = {
+	shown_in_encyclopedia = no
+	alias = { parni }
+	parent = ancestral_community
+}
+
+cadusi_main = {
+	shown_in_encyclopedia = no
+	alias = { cadusi cadusian }
+	parent = ancestral_community
+}
+
+subeshi_main = {
+	shown_in_encyclopedia = no
+	alias = { subeshi }
+	#parent = ancestral_community
+	parent = culture
+}
+
+chust_main = {
+	shown_in_encyclopedia = no
+	alias = { chust }
+	#parent = ancestral_community
+	parent = culture
+}
+
+arameans_main = {
+	shown_in_encyclopedia = no
+	alias = { arameans aramean }
+	parent = ancestral_community
+}
+
+neo_arameans_main = {
+	shown_in_encyclopedia = no
+	alias = { neo_arameans neo_aramean }
+	parent = ancestral_community
+}
+
+chaldeans_main = {
+	shown_in_encyclopedia = no
+	alias = { chaldeans chaldean }
+	parent = ancestral_community
+}
+
+athorayas_main = {
+	shown_in_encyclopedia = no
+	alias = { athorayas athoraya }
+	parent = ancestral_community
+}
+
+arabs_main = {
+	shown_in_encyclopedia = no
+	alias = { arabs arab arabic arabized bedouins bedouin }
+	parent = ancestral_community
+}
+
+isrealites_main = {
+	shown_in_encyclopedia = no
+	alias = { isrealites isrealite benjamin judah }
+	parent = ancestral_community
+}
+
+berbers_main = {
+	shown_in_encyclopedia = no
+	alias = { berbers berber berberic amazighs amazigh }
+	parent = ancestral_community
+}
+
+romans_main = {
+	shown_in_encyclopedia = no
+	alias = { romans roman romance romanized }
+	parent = ancestral_community
+}
+
+adnanites_main = {
+	shown_in_encyclopedia = no
+	alias = { adnanites adnanite }
+	parent = ancestral_community
+}
+
+sabaeans_main = {
+	shown_in_encyclopedia = no
+	alias = { sabaeans sabaean }
+	parent = ancestral_community
+}
+
+dilmuns_main = {
+	shown_in_encyclopedia = no
+	alias = { dilmuns dilmun }
+	parent = ancestral_community
+}
+
+neo_elamites_main = {
+	shown_in_encyclopedia = no
+	alias = { neo_elamites neo_elamite neo_elamite1 }
+	parent = ancestral_community
+}
+
+rusnorse = {
+	shown_in_encyclopedia = no
+	alias = { rn_norses rn_norse rn_east_slavs rn_eastslavic }
+	parent = ancestral_community
+}

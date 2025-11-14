@@ -1,0 +1,29 @@
+﻿nomadic_house_name_hybrid = {
+	name = nomadic_house_name_hybrid_name
+	collective_noun = nomadic_house_name_hybrid_collective_noun
+	prefix = nomadic_house_name_hybrid_prefix
+	trigger = {
+		government_has_flag = government_is_nomadic
+	}
+	hybrid = yes
+}
+
+yagma = {
+	name = yagma_name
+	collective_noun = yagma_collective_noun
+	prefix = yagma_prefix
+
+	trigger = {
+		OR = {
+			AND = {
+				scope:culture = culture:uigur
+				scope:other_culture = { has_cultural_pillar = heritage_on_oq }
+			}
+			AND = {
+				scope:culture = { has_cultural_pillar = heritage_on_oq }
+				scope:other_culture = culture:uigur
+			}
+		}
+	}
+	hybrid = yes
+}

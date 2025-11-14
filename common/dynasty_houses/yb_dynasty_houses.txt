@@ -1,0 +1,19 @@
+﻿house_areid = {
+	name = "house_areid"
+	dynasty = 2001156
+}
+
+house_kokotoyid = {
+	name = "house_kokotoyid"
+	dynasty = 2001156
+}
+
+house_argaa = {
+	name = "house_argaa"
+	dynasty = 2001156
+}
+
+house_bulanid = { 
+	name="dynn_Bulanid"
+	dynasty = 12269
+}

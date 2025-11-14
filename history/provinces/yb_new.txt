@@ -1,0 +1,68 @@
+﻿9670 = {
+	culture = khotanese
+	religion = mahayana
+	
+	holding = castle_holding
+
+	# History
+	1006.1.1 = {
+		culture = uyghur # Yusseter
+		religion = maturidi
+	}
+}
+
+9668 = {
+	culture = khotanese
+	religion = mahayana
+	
+	holding = castle_holding
+
+	# History
+	1006.1.1 = {
+		culture = uyghur # Yusseter
+		religion = maturidi
+	}
+}
+
+9669 = {
+	holding = none
+}
+
+9689 = {
+	holding = none
+}
+
+9688 = {
+	holding = none
+}
+
+9671 = {
+	holding = none
+}
+
+9672 = {
+	culture = turkish
+	religion = tengri_pagan
+	holding = tribal_holding
+	850.1.1 = {
+		holding = nomad_holding
+	}
+	1000.1.1 = {
+		culture = kipchak
+	}
+	1178.1.1 = {
+		holding = nomad_holding
+	}
+}
+
+9679 = {
+	holding = none
+}
+
+9682 = {
+	holding = none
+}
+
+9690 = {
+	holding = none
+}
