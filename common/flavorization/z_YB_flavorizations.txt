@@ -1,0 +1,43 @@
+﻿shad_OldTurkic = {
+	type = character
+	special = holder
+	tier = barony
+	priority = 30
+	heritages = { heritage_sayan_altaic heritage_toquz_oghuz heritage_hunnic }
+	flavourization_rules = {
+		only_vassals = yes
+		spouse_takes_title = no
+	}
+}
+
+shad_OldTurkic_title = {
+	type = title
+	tier = barony
+	heritages = { heritage_sayan_altaic heritage_toquz_oghuz heritage_hunnic }
+	flavourization_rules = {
+		only_vassals = yes
+		spouse_takes_title = no
+	}
+}
+
+shad2_OldTurkic = {
+	type = character
+	special = holder
+	tier = county
+	priority = 30
+	heritages = { heritage_sayan_altaic heritage_toquz_oghuz heritage_hunnic }
+	flavourization_rules = {
+		only_vassals = yes
+		spouse_takes_title = no
+	}
+}
+
+shad2_OldTurkic_title = {
+	type = title
+	tier = county
+	heritages = { heritage_sayan_altaic heritage_toquz_oghuz heritage_hunnic }
+	flavourization_rules = {
+		only_vassals = yes
+		spouse_takes_title = no
+	}
+}

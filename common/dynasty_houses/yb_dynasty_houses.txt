@@ -1,19 +1,29 @@
-﻿house_areid = {
-	name = "house_areid"
+﻿#house_areid = {
+#	name = house_areid
+#	dynasty = 2001156
+#}
+
+#house_kokotoyid = {
+#	name = house_kokotoyid
+#	dynasty = 2001156
+#}
+
+house_yinanchu = {
+	name = house_yinanchu
 	dynasty = 2001156
 }
 
-house_kokotoyid = {
-	name = "house_kokotoyid"
-	dynasty = 2001156
+house_bulanid = {
+	name = dynn_Bulanid
+	dynasty = 12269
 }
 
-house_argaa = {
-	name = "house_argaa"
-	dynasty = 2001156
+RICE_house_kashgari = {
+	name = dynn_al_Kashgari
+	dynasty = 12269
 }
 
-house_bulanid = { 
-	name="dynn_Bulanid"
+house_siniticized_ashina = {
+	name = dynn_Shi_53F2
 	dynasty = 12269
 }

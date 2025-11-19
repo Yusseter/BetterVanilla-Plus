@@ -1,0 +1,31 @@
+﻿male_headgear_secular_roman_diadem = {
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_secular_roman_diadem_entity 	 }
+}
+
+female_headgear_secular_roman_diadem = {
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_secular_roman_diadem_entity 	 }
+}
+
+#male_khazar_helmet_01v2 = {
+# 	set_tags = "no_hair"	
+# 	set_tags = "hood_beard"	
+# 	set_tags = "snug_headgear"
+# 	set_tags = "nose_guard"				
+# 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_khazar_helmet_01v2_entity 	 }		
+#}
+
+#male_khazar_helmet_01v3 = {
+# 	set_tags = "no_hair"
+#	set_tags = "no_beard"
+# 	set_tags = "snug_headgear"	
+# 	set_tags = "nose_guard"		
+# 	entity = { required_tags = ""			shared_pose_entity = head		entity = male_khazar_helmet_01v3_entity 	 }		
+#}
+
+#female_kipchak_war_helmet_01 = {
+#	set_tags = "no_hair,no_beard,snug_headgear,nose_prosthetic"	
+#	entity = { required_tags = "mask_hat"		shared_pose_entity = head       entity = female_kipchak_war_helmet_01_entity	 }
+#	entity = { required_tags = ""			shared_pose_entity = head		entity = female_kipchak_war_helmet_01_entity 	 }		
+#}

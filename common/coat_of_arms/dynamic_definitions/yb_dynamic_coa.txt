@@ -1,4 +1,4 @@
-﻿e_mongolia = { #
+﻿e_mongolia = {
 	item = {
 		trigger = {
 			yb_coa_rouran_trigger = yes
@@ -23,12 +23,4 @@
 		}
 		coat_of_arms = e_kirghiz_khanate
 	}
-	item = {
-		trigger = {
-			yb_coa_khitan_trigger = yes
-		}
-		coat_of_arms = e_great_liao
-	}
 }
-
-update_dynamic_coa = yes

@@ -1,6 +1,6 @@
 ﻿widget = {
 	name = "music_player_widget"
-	visible = "[And( Not( IsPauseMenuShown ), IsDefaultGUIMode )]"
+	visible = "[And( Not( GetVariableSystem.Exists( 'mapmodes_expand' ) ), And(IsDefaultGUIMode, Not(IsRightWindowOpen)))]"
 	size = { 100% 100% }
 	layer = bottom
 	datacontext = "[GetPlayer]"
@@ -13,7 +13,7 @@
 		parentanchor = bottom|right
 		ignoreinvisible = yes
 		alwaystransparent = no
-		position = { 0 -310 }
+		position = { 0 -267 }
 		using = Animation_ShowHide_Standard
 		
 		button_round = {
@@ -41,7 +41,7 @@
 			icon = {
 				parentanchor = center
 				alwaystransparent = yes
-				texture = "gfx/interface/icons/music_player_icon.dds"
+				texture = "gfx/interface/icons/yusseter/music_player_icon.dds"
 				size = { 25 25 }
 			}
 		}

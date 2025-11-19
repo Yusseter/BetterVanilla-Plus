@@ -1,49 +1,431 @@
-﻿yb_clothing_culture_trigger = {
-	culture = {
-		OR = {
-			this = culture:$CULTURE_FLAG$
-			any_parent_culture_or_above = { this = culture:$CULTURE_FLAG$ }
+﻿portrait_tibetan_clothing_trigger = {
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = tibetan
+	}
+}
+portrait_tibetan_clothing_spouse_trigger = {
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = culture
+		CULTURE_FLAG = tibetan
+	}
+}
+
+portrait_ugro_permian_clothing_trigger = {
+	has_cp4_dlc_trigger = yes
+	OR = {
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = scope:culture
+			CULTURE_FLAG = ugro_permian
+		}
+	}
+}
+portrait_ugro_permian_clothing_spouse_trigger = {
+	has_cp4_dlc_trigger = yes
+	OR = {
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = culture
+			CULTURE_FLAG = ugro_permian
 		}
 	}
 }
 
-portrait_yb_clothing_gfx_trigger = {
-	trigger_if = {
-		limit = { exists = this	}
-		scope:culture = { has_clothing_gfx = $CULTURE_FLAG$_clothing_gfx }
-	}
-	trigger_else = {
-		scope:culture = culture:$CULTURE_FLAG$
+portrait_yb_siberian_steppe_clothing_trigger = {
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = yb_siberian_steppe
 	}
 }
-
-portrait_yb_muslim_clothing_trigger = {
-	scope:faith.religion = religion:islam_religion
+portrait_yb_siberian_steppe_clothing_spouse_trigger = {
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = culture
+		CULTURE_FLAG = yb_siberian_steppe
+	}
 }
 
-portrait_cfp_oghuz_clothing_trigger = {
-	yb_clothing_culture_trigger = { CULTURE_FLAG = turkish }
+portrait_epe_roman_clothing_trigger = {
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = epe_roman
+	}
 }
-portrait_cfp_oghuz_clothing_spouse_trigger = {
-	yb_clothing_culture_trigger = { CULTURE_FLAG = turkish }
-}
-
-portrait_yb_turkmen_clothing_trigger = {
-	yb_clothing_culture_trigger = { CULTURE_FLAG = turkmeni }
-}
-
-portrait_yb_turkmen_clothing_spouse_trigger = {
-	yb_clothing_culture_trigger = { CULTURE_FLAG = turkmeni }
+portrait_epe_roman_clothing_spouse_trigger = {
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = culture
+		CULTURE_FLAG = epe_roman
+	}
 }
 
-portrait_yb_turkic_clothing_trigger = {
-	portrait_yb_clothing_gfx_trigger = { CULTURE_FLAG = turkic }
+portrait_epe_uyghur_clothing_trigger = {
+	portrait_epe_eastern_turk_clothing_trigger = yes
+	portrait_epe_western_turk_clothing_trigger = no
+	portrait_epe_seljuk_clothing_trigger = no
+	OR = {
+		religion = religion:buddhism_religion
+		religion = religion:dualism_religion
+		religion = religion:confucianism_religion
+		religion = religion:taoism_religion
+		trigger_if = {
+			limit = { exists = this	}
+			AND = {
+				religion = religion:christianity_religion
+				capital_province ?= {
+					OR = {
+						geographical_region = world_steppe_central
+						geographical_region = dlc_mpo_steppe_central_siberia_addon 
+						geographical_region = world_steppe_east
+						geographical_region = dlc_mpo_steppe_east_buryatia_addon
+						geographical_region = dlc_mpo_steppe_east_andong_addon
+						geographical_region = world_siberia
+					}
+				}
+			}
+		}
+	}
 }
 
-portrait_yb_western_steppe_clothing_trigger = {
-	portrait_shared_clothing_contents_trigger = { CULTURE_FLAG = yb_western_steppe }
+portrait_epe_uyghur_clothing_spouse_trigger = {
+	portrait_epe_eastern_turk_clothing_spouse_trigger = yes
+	portrait_epe_western_turk_clothing_spouse_trigger = no
+	portrait_epe_seljuk_clothing_spouse_trigger = no
+	OR = {
+		religion = religion:buddhism_religion
+		religion = religion:dualism_religion
+		religion = religion:confucianism_religion
+		religion = religion:taoism_religion
+		AND = {
+			religion = religion:christianity_religion
+			capital_province ?= {
+				OR = {
+					geographical_region = world_steppe_central
+					geographical_region = dlc_mpo_steppe_central_siberia_addon 
+					geographical_region = world_steppe_east
+					geographical_region = dlc_mpo_steppe_east_buryatia_addon
+					geographical_region = dlc_mpo_steppe_east_andong_addon
+					geographical_region = world_siberia
+				}
+			}
+		}
+	}
 }
 
-portrait_yb_eastern_steppe_clothing_trigger = {
-	portrait_shared_clothing_contents_trigger = { CULTURE_FLAG = yb_eastern_steppe }
+portrait_epe_uyghur_headgear_clothing_trigger = {
+	portrait_epe_uyghur_clothing_trigger = yes
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = epe_uyghur
+	}
 }
+portrait_epe_uyghur_headgear_clothing_spouse_trigger = {
+	portrait_epe_uyghur_clothing_spouse_trigger = yes
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = culture
+		CULTURE_FLAG = epe_uyghur
+	}
+}
+
+portrait_epe_eastern_turk_clothing_trigger = {
+	portrait_turkic_clothing_trigger = yes
+}
+portrait_epe_eastern_turk_clothing_spouse_trigger = {
+	portrait_turkic_clothing_spouse_trigger = yes
+}
+
+portrait_epe_georgian_clothing_trigger = {
+	portrait_religious_muslim_trigger = no
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = epe_georgian
+	}
+}
+portrait_epe_georgian_clothing_spouse_trigger = {
+	portrait_religious_muslim_trigger = no
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = culture
+		CULTURE_FLAG = epe_georgian
+	}
+}
+portrait_epe_armenian_clothing_trigger = {
+	portrait_religious_muslim_trigger = no
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = epe_armenian
+	}
+}
+portrait_epe_armenian_clothing_spouse_trigger = {
+	portrait_religious_muslim_trigger = no
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = culture
+		CULTURE_FLAG = epe_armenian
+	}
+}
+
+portrait_byzantine_clothing_trigger = {
+	portrait_religious_muslim_trigger = no	
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = byzantine
+	}
+}
+portrait_byzantine_clothing_spouse_trigger = {
+	portrait_religious_muslim_trigger = no
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = culture
+		CULTURE_FLAG = byzantine
+	}
+}
+portrait_steppe_clothing_trigger = {
+	portrait_religious_muslim_trigger = no
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = mongol
+	}
+}
+portrait_steppe_clothing_spouse_trigger = {
+	portrait_religious_muslim_trigger = no
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = culture
+		CULTURE_FLAG = mongol
+	}
+}
+
+portrait_iranian_clothing_trigger = {
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = iranian
+	}
+}
+portrait_iranian_clothing_spouse_trigger = {
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = culture
+		CULTURE_FLAG = iranian
+	}
+}
+
+portrait_persianized_muslim_clothing_trigger = {
+	portrait_religious_muslim_trigger = yes
+	OR = {
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = scope:culture
+			CULTURE_FLAG = epe_georgian
+		}
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = scope:culture
+			CULTURE_FLAG = epe_armenian
+		}
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = scope:culture
+			CULTURE_FLAG = epe_seljuk
+		}
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = scope:culture
+			CULTURE_FLAG = byzantine
+		}
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = scope:culture
+			CULTURE_FLAG = mongol
+		}
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = scope:culture
+			CULTURE_FLAG = turkic
+		}
+	}
+}
+portrait_persianized_muslim_clothing_spouse_trigger = {
+	portrait_religious_muslim_trigger = yes
+	OR = {
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = culture
+			CULTURE_FLAG = epe_georgian
+		}
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = culture
+			CULTURE_FLAG = epe_armenian
+		}
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = culture
+			CULTURE_FLAG = epe_seljuk
+		}
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = culture
+			CULTURE_FLAG = byzantine
+		}
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = culture
+			CULTURE_FLAG = mongol
+		}
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = culture
+			CULTURE_FLAG = turkic
+		}
+	}
+}
+
+portrait_epe_islamic_iranian_clothing_trigger = {
+	portrait_religious_muslim_trigger = yes
+	OR = {
+		portrait_iranian_clothing_trigger = yes
+		portrait_persianized_muslim_clothing_trigger = yes
+	}
+}
+portrait_epe_islamic_iranian_clothing_spouse_trigger = {
+	portrait_religious_muslim_trigger = yes
+	OR = {
+		portrait_iranian_clothing_spouse_trigger = yes
+		portrait_persianized_muslim_clothing_spouse_trigger = yes
+	}
+}
+
+portrait_religious_pagan_trigger = {
+	religion = { is_in_family = rf_pagan }
+}
+
+portrait_era_pagan_roman_trigger = {
+	scope:year_of_birth < 300
+	NAND = {
+		current_year >= 300
+		scope:year_of_birth >= 275
+		scope:year_of_birth < 325
+		scope:age >= 16
+	}
+}
+
+portrait_era_nicaean_roman_trigger = {
+	current_year >= 300
+	OR = {
+		AND = {
+			scope:year_of_birth >= 275
+			scope:year_of_birth < 325
+			scope:age >= 16
+		}
+		AND = {
+			scope:year_of_birth >= 310
+			scope:year_of_birth < 460
+			OR = {
+				current_year < 450
+				is_alive = no
+			}
+		}
+		AND = {
+			scope:year_of_birth >= 310
+			scope:year_of_birth < 466
+			scope:age < 16
+		}
+	}
+}
+
+portrait_era_chalcedonian_roman_trigger = {
+	current_year >= 530
+	OR = {
+		AND = {
+			scope:year_of_birth >= 505
+			scope:year_of_birth < 555
+			scope:age >= 16
+		}
+		AND = {
+			scope:year_of_birth >= 540
+			scope:year_of_birth < 690
+			OR = {
+				current_year < 680
+				is_alive = no
+			}
+		}
+		AND = {
+			scope:year_of_birth >= 540
+			scope:year_of_birth < 696
+			scope:age < 16
+		}
+	}
+}
+
+portrait_era1_trigger = { # Intended to primarily cover the years 850 to 1000
+	scope:year_of_birth < 1000
+	NAND = { # People from 16 to 25 will be the first to adopt new fashion
+		current_year >= 1000
+		scope:year_of_birth >= 975
+		scope:year_of_birth < 1125
+		scope:age >= 16
+	}
+}
+
+portrait_era2_trigger = { # Intended to primarily cover the years 1000 to 1150
+	current_year >= 1000
+	OR = {
+		AND = { # People from 16 to 25 will be the first to adopt new fashion
+			scope:year_of_birth >= 975
+			scope:year_of_birth < 1125
+			scope:age >= 16
+		}
+		AND = {
+			scope:year_of_birth >= 1010
+			scope:year_of_birth < 1150
+			OR = {
+				current_year < 1150
+				is_alive = no
+			}
+		}
+		AND = { # Children under 16 will not be early adopters
+			scope:year_of_birth >= 1010
+			scope:year_of_birth < 1166
+			scope:age < 16
+		}
+	}
+}
+
+portrait_era3_trigger = { # Intended to primarily cover the years 1150 to 1300
+	current_year >= 1150
+	OR = {
+		AND = { # People from 16 to 25 will be the first to adopt new fashion
+			scope:year_of_birth >= 1125
+			scope:year_of_birth < 1275
+			scope:age >= 16
+		}
+		AND = {
+			scope:year_of_birth >= 1160
+			scope:year_of_birth < 1300
+			OR = {
+				current_year < 1300
+				is_alive = no
+			}
+		}
+		AND = { # Children under 16 will not be early adopters
+			scope:year_of_birth >= 1160
+			scope:year_of_birth < 1316
+			scope:age < 16
+		}
+	}
+}
+
+portrait_era4_trigger = { # Intended to primarily cover the years 1300 to 1450
+	current_year >= 1300
+	OR = {
+		AND = { # People from 16 to 25 will be the first to adopt new fashion
+			scope:year_of_birth >= 1275
+			scope:year_of_birth < 1425
+			scope:age >= 16
+		}
+		AND = {
+			scope:year_of_birth >= 1310
+			#scope:year_of_birth < 1425
+		}
+	}
+}
+
+#tgp_portrait_liege_or_ceremonial_liege_emperor_trigger = {
+#	# Ceremonial Liege
+#	trigger_if = {
+#		limit = { tgp_realm_has_ceremonial_liege_trigger = yes }
+#		tgp_has_ceremonial_liege_title_trigger = yes
+#		primary_title.holder.top_liege.highest_held_title_tier >= tier_empire
+#	}
+#	# If Dead Character
+#	trigger_if = { 
+#		limit = { scope:is_alive = no }
+#		scope:highest_held_title_tier >= tier_empire
+#	}
+#	# Standard Liege
+#	trigger_else = { 
+#		scope:highest_held_title_tier >= tier_empire
+#		is_independent_ruler = yes
+#	}
+#}

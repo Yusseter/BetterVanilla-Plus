@@ -25,12 +25,7 @@ yb_coa_gokturk_trigger = {
 }
 
 yb_coa_toquz_oghuz_trigger = {
-	holder.culture = {
-		OR = {
-			has_name_list = name_list_uyghur
-			has_name_list = name_list_karluk
-		}
-	}
+	holder.culture = { has_cultural_pillar = heritage_toquz_oghuz }
 }
 
 yb_coa_kirghiz_trigger = {
@@ -42,5 +37,70 @@ yb_coa_khitan_trigger = {
 		has_name_list = name_list_khitan 
 		NOT = { this = culture:rouran }
 	}
-	#holder.culture = { has_name_list = name_list_khitan }
+}
+
+yb_coa_nomad_trigger = {
+	OR = {
+		AND = {
+			scope:culture = { has_coa_gfx = steppe_coa_gfx }
+			OR = {
+				scope:faith.religion = religion:tengrism_religion
+				scope:faith.religion = religion:zoroastrianism_religion
+				scope:faith.religion = religion:magyar_religion
+				scope:religion = religion:shamanism_religion
+				trigger_if = {
+					limit = { exists = this	}
+					AND = {
+						OR = {
+							scope:faith.religion = religion:islam_religion
+							scope:faith.religion = religion:christianity_religion
+							scope:faith.religion = religion:buddhism_religion
+							scope:faith.religion = religion:dualism_religion
+							scope:faith.religion = religion:confucianism_religion
+							scope:faith.religion = religion:taoism_religion
+						}
+						capital_province ?= {
+							OR = {
+								geographical_region = world_steppe_west
+								geographical_region = world_steppe_central
+								geographical_region = dlc_mpo_steppe_central_siberia_addon 
+								geographical_region = world_steppe_east
+								geographical_region = dlc_mpo_steppe_east_buryatia_addon
+								geographical_region = dlc_mpo_steppe_east_andong_addon
+								geographical_region = world_siberia
+							}
+						}
+					}
+				}
+			}
+			scope:culture = {
+				NOR = {
+					has_cultural_pillar = heritage_ugro_permian
+					has_cultural_pillar = heritage_balto_finnic
+					has_cultural_pillar = heritage_nivkh
+					has_cultural_pillar = heritage_volga_finnic
+					has_cultural_pillar = heritage_east_slavic
+					has_cultural_pillar = heritage_south_slavic
+					has_cultural_pillar = heritage_west_slavic
+					has_cultural_pillar = heritage_vlach
+					has_cultural_pillar = heritage_chinese
+					has_cultural_pillar = heritage_tungusic
+					has_cultural_pillar = heritage_iranian
+					has_cultural_pillar = heritage_indo_aryan
+					has_cultural_pillar = heritage_tai
+					has_cultural_pillar = heritage_hmongic
+					has_cultural_pillar = heritage_mon_khmer
+					has_cultural_pillar = heritage_burman
+					has_cultural_pillar = heritage_austronesian
+					has_cultural_pillar = heritage_baltic
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = heritage_caucasian
+					has_cultural_pillar = heritage_tocharian
+					has_cultural_pillar = heritage_tibetan
+				}
+			}
+		}
+		government_has_flag = government_is_nomadic
+		government_has_flag = government_is_herder
+	}
 }

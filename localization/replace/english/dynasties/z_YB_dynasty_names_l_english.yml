@@ -1,0 +1,42 @@
+﻿l_english: 
+
+ dynn_Ashide: "Ashide"
+ dynn_Uar: "Uar"
+ dynn_avar_1: "Kaidar"
+ dynn_pecheneg_1: "Tolmat"
+ dynn_Oghuz: "Sunghur"
+ dynn_Yujiulu: "Yujiulü"
+ dynn_Enisey_Kyrgyz: "Ökä" # Uga(𐰆𐰜𐰀/𐰃𐰜𐰀), Uchyinch, Barish, Are, Ajo
+ house_areid: "$Inel$"
+ dynasty_Topek: "$to_pek$" # Kirghiz
+ dynn_al_Kashgari: "Kashgarid"
+ dynn_Balasaguni: "Balasagunid"
+ house_yinanchu: "Arga"
+ dynn_OghuzQayi: "Qayï"
+ dynn_OghuzSeljuks: "Selçuklular"
+ dynn_Cik: "$cik$"
+ dynn_Shurud: "Shurud"
+ dynn_turkish: "Oghuz"
+ dynn_albasri: "Basri"
+ dynn_Ediz: "$a_diz$"
+ dynn_Yaghlakar: "Yağlaqar"
+ dynn_Uturqar: "Uturqar"
+ dynn_Kurebir: "Küräbir"
+ dynn_Baqsiqit: "Boqsïqït"
+ dynn_Avuchag: "Avučağ"
+ dynn_Qasar: "Qasar"
+ dynn_Yabutqar: "Yabutqar"
+ dynn_Ayabir: "Ayabïr"
+ dynn_Kirghiz: "Hosa"
+ dynn_Hosa: "Küräbir"
+ dynn_Kulug: "$Kulug$" # Uyghur
+ dynn_chor: "Čor" # Kirghiz
+ dynn_Qutlugh: "$Qutlugh$"
+ dynn_shiboqu: "Ibbiq" # Kirghiz
+ dynn_Zhuwu: "Yulu"
+ dynn_Urungu: "Uruŋ" # Kirghiz
+ dynn_Bulsar: "Bulsar" # Kirghiz
+ dynn_Kyumul: "$todzh$" # Kirghiz
+ dynn_kabash: "Qabaš" # Kirghiz
+ dynn_Kutch: "Küč" # Kirghiz
+ dynn_Ashina: "Ačïna"

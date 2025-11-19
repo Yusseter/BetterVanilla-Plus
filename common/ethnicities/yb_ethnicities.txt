@@ -1,0 +1,2431 @@
+﻿@neg1_min = 0.4
+@neg1_max = 0.5
+
+@neg2_min = 0.3
+@neg2_max = 0.4
+
+@neg3_min = 0.1
+@neg3_max = 0.3
+
+@pos1_min = 0.5
+@pos1_max = 0.6
+
+@pos2_min = 0.6
+@pos2_max = 0.7
+
+@pos3_min = 0.7
+@pos3_max = 0.9
+
+@beauty1min = 0.35
+@beauty1max = 0.65
+
+@beauty2min = 0.4
+@beauty2max = 0.6
+
+@beauty3min = 0.45
+@beauty3max = 0.55
+
+@blend1min = 0.0
+@blend1max = 0.2
+
+@blend2min = 0.2
+@blend2max = 0.5
+
+@blend3min = 0.5
+@blend3max = 0.8
+
+east_asian_ryukyu_01 = {
+	template = "asian_southern_han_1"
+    using = "ryukyuan"
+
+	skin_color = {
+		10 = { 0.5 0.3 1.0 0.5 }
+	}
+
+	eye_color = {
+		50 = { 0.05 0.95 0.35 1.0 } # Black
+	}
+
+	hair_color = {
+		98 = { 0.01 0.9 0.5 0.99 } # Black
+	}
+
+    gene_hair_type = {
+        10 = {
+			name = hair_straight
+			range = { 0.35 0.75 }
+		}
+    }
+}
+
+east_asian_ainu_01 = {
+	template = "siberian_siberian_01"
+    using = "ainu"
+
+	skin_color = {
+		10 = { 0.3 0.5 0.7 0.65 }
+	}
+
+	eye_color = {
+		50 = { 0.05 0.95 0.35 1.0 } # Black
+	}
+
+	hair_color = {
+		98 = { 0.01 0.9 0.5 0.99 } # Black
+	}
+
+	gene_body_hair = {
+        10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+    }
+}
+
+asian_turkic_enisey_kirghiz_01 = {
+	template = "steppe_volga_finn_mordvin_04"
+    using = "yenisei_kirghiz"
+
+	eye_color = {
+        ### Brown Hues ###
+        
+        # EPE Darkest Red Brown Static
+        9 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darker Red Brown Static
+        11 = { 0.1 0.7 0.1 0.8 }
+        # EPE Dark Red Brown Static
+        11 = { 0.1 0.6 0.1 0.7 }
+        # EPE Red Brown Static
+        9 = { 0.1 0.5 0.1 0.6 }
+        # EPE Lighter Red Brown Static
+        7 = { 0.1 0.4 0.1 0.5 }
+        # EPE Light Red Brown Static
+        5 = { 0.1 0.3 0.1 0.4 }
+        # EPE Lightest Red Brown Static
+        5 = { 0.1 0.15 0.1 0.2 }
+
+        # EPE Darkest Wood Brown Static
+        9 = { 0.15 0.8 0.15 0.9 }
+        # EPE Darker Wood Brown Static
+        11 = { 0.15 0.7 0.15 0.8 }
+        # EPE Dark Wood Brown Static
+        11 = { 0.15 0.6 0.15 0.7 }
+        # EPE Wood Brown Static
+        9 = { 0.15 0.5 0.15 0.6 }
+        # EPE Lighter Wood Brown Static
+        7 = { 0.15 0.4 0.15 0.5 }
+        # EPE Light Wood Brown Static
+        5 = { 0.15 0.2 0.15 0.3 }
+        # EPE Lightest Wood Brown Static
+        5 = { 0.15 0.15 0.15 0.2 }
+
+        ## Hazel Hues ##
+
+        # EPE Darkest Hazel Static 
+        3 = { 0.32 0.7 0.32 0.9 }
+        # EPE Darker Hazel Static 
+        2 = { 0.32 0.6 0.32 0.7 }
+        # EPE Hazel Static 
+        1 = { 0.32 0.4 0.32 0.6 }
+        # EPE Lighter Hazel Static 
+        1 = { 0.32 0.25 0.32 0.4 }
+
+        ## Green Hues
+        
+        # EPE Darker Natural Green Static
+        1 = { 0.46 0.75 0.46 0.85 }
+        # EPE Dark Natural Green Static
+        1 = { 0.46 0.5 0.46 0.75 }
+        # EPE Natural Green Static
+        1 = { 0.46 0.25 0.46 0.5 }
+        # EPE Natural Green Static Light
+        1 = { 0.48 0.2 0.48 0.2 }
+
+        ## Blue Hues ##
+
+        # EPE Darker Ocean Blue Static
+        1 = { 0.8 0.5 0.8 0.75 }
+        # EPE Dark Ocean Blue Static
+        1 = { 0.8 0.3 0.8 0.5 }
+        # EPE Ocean Blue Static
+        1 = { 0.8 0.2 0.8 0.3 }
+        # EPE Light Ocean Blue Static
+        1 = { 0.8 0.1 0.8 0.2 }
+
+        # EPE Darker Steel Blue Static
+        1 = { 0.85 0.5 0.9 0.75 }
+        # EPE Dark Steel Blue Static
+        1 = { 0.85 0.3 0.9 0.5 }
+        # EPE Steel Blue Static
+        1 = { 0.85 0.2 0.9 0.3 }
+        # EPE Light Steel Blue Static
+        1 = { 0.85 0.1 0.9 0.2 }
+	}
+
+	hair_color = {
+		# Red
+		20 = { 0.7 0.65 0.95 0.9 }
+		# Auburn
+		10 = { 0.8 0.65 0.95 0.9 }
+        # Brown
+		50 = { 0.65 0.75 0.65 0.9 }
+		# Black
+		26 = { 0.01 0.9 0.5 0.99 }
+		# Blonde 1
+		2 = { 0.25 0.2 0.6 0.55 }
+		# Blonde 2
+		2 = { 0.25 0.35 0.6 0.7 }
+	}
+
+    gene_hair_type = {
+        15 = {
+            name = hair_straight
+            range = { 0.35 0.75 }
+        }
+        25 = {
+            name = hair_wavy
+            range = { 0.35 0.75 }
+        }
+        10 = {
+            name = hair_curly
+            range = { 0.35 0.75 }
+        }
+        0 = {
+            name = hair_afro
+            range = { 0.35 0.75 }
+        }
+        50 = {
+            name = hair_straight_thin_beard
+            range = { 0.35 0.75 }
+        }
+    }	
+}
+
+asian_turkic_enisey_kirghiz_02 = {
+	template = "steppe_volga_finn_mordvin_08"
+    using = "yenisei_kirghiz"
+
+	eye_color = {
+		### Brown Hues ###
+        
+        # EPE Darkest Red Brown Static
+        7 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darker Red Brown Static
+        7 = { 0.1 0.7 0.1 0.8 }
+        # EPE Dark Red Brown Static
+        5 = { 0.1 0.6 0.1 0.7 }
+        # EPE Red Brown Static
+        5 = { 0.1 0.5 0.1 0.6 }
+        # EPE Lighter Red Brown Static
+        5 = { 0.1 0.4 0.1 0.5 }
+        # EPE Light Red Brown Static
+        5 = { 0.1 0.3 0.1 0.4 }
+        # EPE Lightest Red Brown Static
+        5 = { 0.1 0.15 0.1 0.2 }
+
+        # EPE Darkest Wood Brown Static
+        7 = { 0.15 0.8 0.15 0.9 }
+        # EPE Darker Wood Brown Static
+        7 = { 0.15 0.7 0.15 0.8 }
+        # EPE Dark Wood Brown Static
+        5 = { 0.15 0.6 0.15 0.7 }
+        # EPE Wood Brown Static
+        5 = { 0.15 0.5 0.15 0.6 }
+        # EPE Lighter Wood Brown Static
+        5 = { 0.15 0.4 0.15 0.5 }
+        # EPE Light Wood Brown Static
+        5 = { 0.15 0.3 0.15 0.3 }
+        # EPE Lightest Wood Brown Static
+        5 = { 0.15 0.15 0.15 0.2 }
+		
+        ## Hazel Hues ##
+
+        # EPE Darkest Hazel Static 
+        3 = { 0.32 0.7 0.32 0.9 }
+        # EPE Darker Hazel Static 
+        4 = { 0.32 0.6 0.32 0.7 }
+        # EPE Hazel Static 
+        3 = { 0.32 0.4 0.32 0.6 }
+        # EPE Lighter Hazel Static 
+        2 = { 0.32 0.25 0.32 0.4 }
+
+		## Green Hues
+        
+        # EPE Darker Natural Green Static
+        1 = { 0.46 0.75 0.46 0.85 }
+        # EPE Dark Natural Green Static
+        2 = { 0.46 0.5 0.46 0.75 }
+        # EPE Natural Green Static
+        3 = { 0.46 0.25 0.46 0.5 }
+        # EPE Natural Green Static Light
+        2 = { 0.48 0.2 0.48 0.2 }
+		
+        ## Blue Hues ##
+
+        # EPE Darker Ocean Blue Static
+        1 = { 0.8 0.5 0.8 0.75 }
+        # EPE Dark Ocean Blue Static
+        3 = { 0.8 0.3 0.8 0.5 }
+        # EPE Ocean Blue Static
+        2 = { 0.8 0.2 0.8 0.3 }
+        # EPE Light Ocean Blue Static
+        1 = { 0.8 0.1 0.8 0.2 }
+
+        # EPE Darker Steel Blue Static
+        1 = { 0.85 0.5 0.9 0.75 }
+        # EPE Dark Steel Blue Static
+        3 = { 0.85 0.3 0.9 0.5 }
+        # EPE Steel Blue Static
+        2 = { 0.85 0.2 0.9 0.3 }
+        # EPE Light Steel Blue Static
+        1 = { 0.85 0.1 0.9 0.2 }
+	}
+
+	hair_color = {
+		# Blonde 1
+		10 = { 0.25 0.2 0.6 0.55 }
+        # Blonde 2
+        10 = { 0.25 0.45 0.6 0.7 }
+		# # Red
+		# 10 = { 0.85 0.0 1.0 0.5 }
+		# # Black
+		# 30 = { 0.0 0.9 0.5 1.0 }
+	}
+
+    gene_hair_type = {
+        15 = {
+            name = hair_straight
+            range = { 0.35 0.75 }
+        }
+        25 = {
+            name = hair_wavy
+            range = { 0.35 0.75 }
+        }
+        10 = {
+            name = hair_curly
+            range = { 0.35 0.75 }
+        }
+        0 = {
+            name = hair_afro
+            range = { 0.35 0.75 }
+        }
+        50 = {
+            name = hair_straight_thin_beard
+            range = { 0.35 0.75 }
+        }
+    }	
+}
+
+asian_turkic_enisey_kirghiz_03 = {
+	template = "steppe_volga_finn_mordvin_12"
+    using = "yenisei_kirghiz"
+
+	eye_color = {
+        ### Brown Hues ###
+        
+        # EPE Darkest Red Brown Static
+        9 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darker Red Brown Static
+        11 = { 0.1 0.7 0.1 0.8 }
+        # EPE Dark Red Brown Static
+        11 = { 0.1 0.6 0.1 0.7 }
+        # EPE Red Brown Static
+        9 = { 0.1 0.5 0.1 0.6 }
+        # EPE Lighter Red Brown Static
+        7 = { 0.1 0.4 0.1 0.5 }
+        # EPE Light Red Brown Static
+        5 = { 0.1 0.3 0.1 0.4 }
+        # EPE Lightest Red Brown Static
+        5 = { 0.1 0.15 0.1 0.2 }
+
+        # EPE Darkest Wood Brown Static
+        9 = { 0.15 0.8 0.15 0.9 }
+        # EPE Darker Wood Brown Static
+        11 = { 0.15 0.7 0.15 0.8 }
+        # EPE Dark Wood Brown Static
+        11 = { 0.15 0.6 0.15 0.7 }
+        # EPE Wood Brown Static
+        9 = { 0.15 0.5 0.15 0.6 }
+        # EPE Lighter Wood Brown Static
+        7 = { 0.15 0.4 0.15 0.5 }
+        # EPE Light Wood Brown Static
+        5 = { 0.15 0.2 0.15 0.3 }
+        # EPE Lightest Wood Brown Static
+        5 = { 0.15 0.15 0.15 0.2 }
+
+        ## Hazel Hues ##
+
+        # EPE Darkest Hazel Static 
+        3 = { 0.32 0.7 0.32 0.9 }
+        # EPE Darker Hazel Static 
+        2 = { 0.32 0.6 0.32 0.7 }
+        # EPE Hazel Static 
+        1 = { 0.32 0.4 0.32 0.6 }
+        # EPE Lighter Hazel Static 
+        1 = { 0.32 0.25 0.32 0.4 }
+
+        ## Green Hues
+        
+        # EPE Darker Natural Green Static
+        1 = { 0.46 0.75 0.46 0.85 }
+        # EPE Dark Natural Green Static
+        1 = { 0.46 0.5 0.46 0.75 }
+        # EPE Natural Green Static
+        1 = { 0.46 0.25 0.46 0.5 }
+        # EPE Natural Green Static Light
+        1 = { 0.48 0.2 0.48 0.2 }
+
+        ## Blue Hues ##
+
+        # EPE Darker Ocean Blue Static
+        1 = { 0.8 0.5 0.8 0.75 }
+        # EPE Dark Ocean Blue Static
+        1 = { 0.8 0.3 0.8 0.5 }
+        # EPE Ocean Blue Static
+        1 = { 0.8 0.2 0.8 0.3 }
+        # EPE Light Ocean Blue Static
+        1 = { 0.8 0.1 0.8 0.2 }
+
+        # EPE Darker Steel Blue Static
+        1 = { 0.85 0.5 0.9 0.75 }
+        # EPE Dark Steel Blue Static
+        1 = { 0.85 0.3 0.9 0.5 }
+        # EPE Steel Blue Static
+        1 = { 0.85 0.2 0.9 0.3 }
+        # EPE Light Steel Blue Static
+        1 = { 0.85 0.1 0.9 0.2 }
+	}
+
+	hair_color = {
+		# Red
+		20 = { 0.7 0.65 0.95 0.9 }
+		# Auburn
+		10 = { 0.8 0.65 0.95 0.9 }
+        # Brown
+		50 = { 0.65 0.75 0.65 0.9 }
+		# Black
+		26 = { 0.01 0.9 0.5 0.99 }
+		# Blonde 1
+		2 = { 0.25 0.2 0.6 0.55 }
+		# Blonde 2
+		2 = { 0.25 0.35 0.6 0.7 }
+	}
+
+    gene_hair_type = {
+        15 = {
+            name = hair_straight
+            range = { 0.35 0.75 }
+        }
+        25 = {
+            name = hair_wavy
+            range = { 0.35 0.75 }
+        }
+        10 = {
+            name = hair_curly
+            range = { 0.35 0.75 }
+        }
+        0 = {
+            name = hair_afro
+            range = { 0.35 0.75 }
+        }
+        50 = {
+            name = hair_straight_thin_beard
+            range = { 0.35 0.75 }
+        }
+    }	
+}
+
+asian_turkic_enisey_kirghiz_04 = {
+	template = "steppe_volga_finn_mordvin_16"
+    using = "yenisei_kirghiz"
+
+	eye_color = {
+		### Brown Hues ###
+        
+        # EPE Darkest Red Brown Static
+        7 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darker Red Brown Static
+        7 = { 0.1 0.7 0.1 0.8 }
+        # EPE Dark Red Brown Static
+        5 = { 0.1 0.6 0.1 0.7 }
+        # EPE Red Brown Static
+        5 = { 0.1 0.5 0.1 0.6 }
+        # EPE Lighter Red Brown Static
+        5 = { 0.1 0.4 0.1 0.5 }
+        # EPE Light Red Brown Static
+        5 = { 0.1 0.3 0.1 0.4 }
+        # EPE Lightest Red Brown Static
+        5 = { 0.1 0.15 0.1 0.2 }
+
+        # EPE Darkest Wood Brown Static
+        7 = { 0.15 0.8 0.15 0.9 }
+        # EPE Darker Wood Brown Static
+        7 = { 0.15 0.7 0.15 0.8 }
+        # EPE Dark Wood Brown Static
+        5 = { 0.15 0.6 0.15 0.7 }
+        # EPE Wood Brown Static
+        5 = { 0.15 0.5 0.15 0.6 }
+        # EPE Lighter Wood Brown Static
+        5 = { 0.15 0.4 0.15 0.5 }
+        # EPE Light Wood Brown Static
+        5 = { 0.15 0.3 0.15 0.3 }
+        # EPE Lightest Wood Brown Static
+        5 = { 0.15 0.15 0.15 0.2 }
+		
+        ## Hazel Hues ##
+
+        # EPE Darkest Hazel Static 
+        3 = { 0.32 0.7 0.32 0.9 }
+        # EPE Darker Hazel Static 
+        4 = { 0.32 0.6 0.32 0.7 }
+        # EPE Hazel Static 
+        3 = { 0.32 0.4 0.32 0.6 }
+        # EPE Lighter Hazel Static 
+        2 = { 0.32 0.25 0.32 0.4 }
+
+		## Green Hues
+        
+        # EPE Darker Natural Green Static
+        1 = { 0.46 0.75 0.46 0.85 }
+        # EPE Dark Natural Green Static
+        2 = { 0.46 0.5 0.46 0.75 }
+        # EPE Natural Green Static
+        3 = { 0.46 0.25 0.46 0.5 }
+        # EPE Natural Green Static Light
+        2 = { 0.48 0.2 0.48 0.2 }
+		
+        ## Blue Hues ##
+
+        # EPE Darker Ocean Blue Static
+        1 = { 0.8 0.5 0.8 0.75 }
+        # EPE Dark Ocean Blue Static
+        3 = { 0.8 0.3 0.8 0.5 }
+        # EPE Ocean Blue Static
+        2 = { 0.8 0.2 0.8 0.3 }
+        # EPE Light Ocean Blue Static
+        1 = { 0.8 0.1 0.8 0.2 }
+
+        # EPE Darker Steel Blue Static
+        1 = { 0.85 0.5 0.9 0.75 }
+        # EPE Dark Steel Blue Static
+        3 = { 0.85 0.3 0.9 0.5 }
+        # EPE Steel Blue Static
+        2 = { 0.85 0.2 0.9 0.3 }
+        # EPE Light Steel Blue Static
+        1 = { 0.85 0.1 0.9 0.2 }
+	}
+
+	hair_color = {
+		# # Blonde
+		# 10 = { 0.25 0.2 0.75 0.25 }
+		# Brown
+		40 = { 0.65 0.7 0.9 0.8 }
+		# # Red
+		# 10 = { 0.85 0.0 1.0 0.5 }
+		# # Black
+		# 30 = { 0.0 0.9 0.5 1.0 }
+	}
+
+    gene_hair_type = {
+        15 = {
+            name = hair_straight
+            range = { 0.35 0.75 }
+        }
+        25 = {
+            name = hair_wavy
+            range = { 0.35 0.75 }
+        }
+        10 = {
+            name = hair_curly
+            range = { 0.35 0.75 }
+        }
+        0 = {
+            name = hair_afro
+            range = { 0.35 0.75 }
+        }
+        50 = {
+            name = hair_straight_thin_beard
+            range = { 0.35 0.75 }
+        }
+    }	
+}
+
+asian_turkic_enisey_kirghiz_05 = {
+	template = "steppe_volga_finn_mordvin_20"
+    using = "yenisei_kirghiz"
+
+	eye_color = {
+        ### Brown Hues ###
+        
+        # EPE Darkest Red Brown Static
+        9 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darker Red Brown Static
+        11 = { 0.1 0.7 0.1 0.8 }
+        # EPE Dark Red Brown Static
+        11 = { 0.1 0.6 0.1 0.7 }
+        # EPE Red Brown Static
+        9 = { 0.1 0.5 0.1 0.6 }
+        # EPE Lighter Red Brown Static
+        7 = { 0.1 0.4 0.1 0.5 }
+        # EPE Light Red Brown Static
+        5 = { 0.1 0.3 0.1 0.4 }
+        # EPE Lightest Red Brown Static
+        5 = { 0.1 0.15 0.1 0.2 }
+
+        # EPE Darkest Wood Brown Static
+        9 = { 0.15 0.8 0.15 0.9 }
+        # EPE Darker Wood Brown Static
+        11 = { 0.15 0.7 0.15 0.8 }
+        # EPE Dark Wood Brown Static
+        11 = { 0.15 0.6 0.15 0.7 }
+        # EPE Wood Brown Static
+        9 = { 0.15 0.5 0.15 0.6 }
+        # EPE Lighter Wood Brown Static
+        7 = { 0.15 0.4 0.15 0.5 }
+        # EPE Light Wood Brown Static
+        5 = { 0.15 0.2 0.15 0.3 }
+        # EPE Lightest Wood Brown Static
+        5 = { 0.15 0.15 0.15 0.2 }
+
+        ## Hazel Hues ##
+
+        # EPE Darkest Hazel Static 
+        3 = { 0.32 0.7 0.32 0.9 }
+        # EPE Darker Hazel Static 
+        2 = { 0.32 0.6 0.32 0.7 }
+        # EPE Hazel Static 
+        1 = { 0.32 0.4 0.32 0.6 }
+        # EPE Lighter Hazel Static 
+        1 = { 0.32 0.25 0.32 0.4 }
+
+        ## Green Hues
+        
+        # EPE Darker Natural Green Static
+        1 = { 0.46 0.75 0.46 0.85 }
+        # EPE Dark Natural Green Static
+        1 = { 0.46 0.5 0.46 0.75 }
+        # EPE Natural Green Static
+        1 = { 0.46 0.25 0.46 0.5 }
+        # EPE Natural Green Static Light
+        1 = { 0.48 0.2 0.48 0.2 }
+
+        ## Blue Hues ##
+
+        # EPE Darker Ocean Blue Static
+        1 = { 0.8 0.5 0.8 0.75 }
+        # EPE Dark Ocean Blue Static
+        1 = { 0.8 0.3 0.8 0.5 }
+        # EPE Ocean Blue Static
+        1 = { 0.8 0.2 0.8 0.3 }
+        # EPE Light Ocean Blue Static
+        1 = { 0.8 0.1 0.8 0.2 }
+
+        # EPE Darker Steel Blue Static
+        1 = { 0.85 0.5 0.9 0.75 }
+        # EPE Dark Steel Blue Static
+        1 = { 0.85 0.3 0.9 0.5 }
+        # EPE Steel Blue Static
+        1 = { 0.85 0.2 0.9 0.3 }
+        # EPE Light Steel Blue Static
+        1 = { 0.85 0.1 0.9 0.2 }
+	}
+
+	hair_color = {
+		# Red
+		20 = { 0.7 0.65 0.95 0.9 }
+		# Auburn
+		10 = { 0.8 0.65 0.95 0.9 }
+        # Brown
+		50 = { 0.65 0.75 0.65 0.9 }
+		# Black
+		26 = { 0.01 0.9 0.5 0.99 }
+		# Blonde 1
+		2 = { 0.25 0.2 0.6 0.55 }
+		# Blonde 2
+		2 = { 0.25 0.35 0.6 0.7 }
+	}
+
+    gene_hair_type = {
+        15 = {
+            name = hair_straight
+            range = { 0.35 0.75 }
+        }
+        25 = {
+            name = hair_wavy
+            range = { 0.35 0.75 }
+        }
+        10 = {
+            name = hair_curly
+            range = { 0.35 0.75 }
+        }
+        0 = {
+            name = hair_afro
+            range = { 0.35 0.75 }
+        }
+        50 = {
+            name = hair_straight_thin_beard
+            range = { 0.35 0.75 }
+        }
+    }	
+}
+
+asian_turkic_enisey_kirghiz_06 = {
+	template = "steppe_volga_finn_mordvin_24"
+    using = "yenisei_kirghiz"
+
+	eye_color = {
+		### Brown Hues ###
+        
+        # EPE Darkest Red Brown Static
+        7 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darker Red Brown Static
+        7 = { 0.1 0.7 0.1 0.8 }
+        # EPE Dark Red Brown Static
+        5 = { 0.1 0.6 0.1 0.7 }
+        # EPE Red Brown Static
+        5 = { 0.1 0.5 0.1 0.6 }
+        # EPE Lighter Red Brown Static
+        5 = { 0.1 0.4 0.1 0.5 }
+        # EPE Light Red Brown Static
+        5 = { 0.1 0.3 0.1 0.4 }
+        # EPE Lightest Red Brown Static
+        5 = { 0.1 0.15 0.1 0.2 }
+
+        # EPE Darkest Wood Brown Static
+        7 = { 0.15 0.8 0.15 0.9 }
+        # EPE Darker Wood Brown Static
+        7 = { 0.15 0.7 0.15 0.8 }
+        # EPE Dark Wood Brown Static
+        5 = { 0.15 0.6 0.15 0.7 }
+        # EPE Wood Brown Static
+        5 = { 0.15 0.5 0.15 0.6 }
+        # EPE Lighter Wood Brown Static
+        5 = { 0.15 0.4 0.15 0.5 }
+        # EPE Light Wood Brown Static
+        5 = { 0.15 0.3 0.15 0.3 }
+        # EPE Lightest Wood Brown Static
+        5 = { 0.15 0.15 0.15 0.2 }
+		
+        ## Hazel Hues ##
+
+        # EPE Darkest Hazel Static 
+        3 = { 0.32 0.7 0.32 0.9 }
+        # EPE Darker Hazel Static 
+        4 = { 0.32 0.6 0.32 0.7 }
+        # EPE Hazel Static 
+        3 = { 0.32 0.4 0.32 0.6 }
+        # EPE Lighter Hazel Static 
+        2 = { 0.32 0.25 0.32 0.4 }
+
+		## Green Hues
+        
+        # EPE Darker Natural Green Static
+        1 = { 0.46 0.75 0.46 0.85 }
+        # EPE Dark Natural Green Static
+        2 = { 0.46 0.5 0.46 0.75 }
+        # EPE Natural Green Static
+        3 = { 0.46 0.25 0.46 0.5 }
+        # EPE Natural Green Static Light
+        2 = { 0.48 0.2 0.48 0.2 }
+		
+        ## Blue Hues ##
+
+        # EPE Darker Ocean Blue Static
+        1 = { 0.8 0.5 0.8 0.75 }
+        # EPE Dark Ocean Blue Static
+        3 = { 0.8 0.3 0.8 0.5 }
+        # EPE Ocean Blue Static
+        2 = { 0.8 0.2 0.8 0.3 }
+        # EPE Light Ocean Blue Static
+        1 = { 0.8 0.1 0.8 0.2 }
+
+        # EPE Darker Steel Blue Static
+        1 = { 0.85 0.5 0.9 0.75 }
+        # EPE Dark Steel Blue Static
+        3 = { 0.85 0.3 0.9 0.5 }
+        # EPE Steel Blue Static
+        2 = { 0.85 0.2 0.9 0.3 }
+        # EPE Light Steel Blue Static
+        1 = { 0.85 0.1 0.9 0.2 }
+	}
+
+	hair_color = {
+		# # Blonde
+		# 10 = { 0.25 0.2 0.75 0.25 }
+		# Brown
+		40 = { 0.65 0.8 0.9 0.95 }
+		# # Red
+		# 10 = { 0.85 0.0 1.0 0.5 }
+		# # Black
+		# 30 = { 0.0 0.9 0.5 1.0 }
+	}
+
+    gene_hair_type = {
+        15 = {
+            name = hair_straight
+            range = { 0.35 0.75 }
+        }
+        25 = {
+            name = hair_wavy
+            range = { 0.35 0.75 }
+        }
+        10 = {
+            name = hair_curly
+            range = { 0.35 0.75 }
+        }
+        0 = {
+            name = hair_afro
+            range = { 0.35 0.75 }
+        }
+        50 = {
+            name = hair_straight_thin_beard
+            range = { 0.35 0.75 }
+        }
+    }	
+}
+
+asian_turkic_enisey_kirghiz_07 = {
+	template = "steppe_volga_finn_mordvin_28"
+    using = "yenisei_kirghiz"
+
+	eye_color = {
+        ### Brown Hues ###
+        
+        # EPE Darkest Red Brown Static
+        9 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darker Red Brown Static
+        11 = { 0.1 0.7 0.1 0.8 }
+        # EPE Dark Red Brown Static
+        11 = { 0.1 0.6 0.1 0.7 }
+        # EPE Red Brown Static
+        9 = { 0.1 0.5 0.1 0.6 }
+        # EPE Lighter Red Brown Static
+        7 = { 0.1 0.4 0.1 0.5 }
+        # EPE Light Red Brown Static
+        5 = { 0.1 0.3 0.1 0.4 }
+        # EPE Lightest Red Brown Static
+        5 = { 0.1 0.15 0.1 0.2 }
+
+        # EPE Darkest Wood Brown Static
+        9 = { 0.15 0.8 0.15 0.9 }
+        # EPE Darker Wood Brown Static
+        11 = { 0.15 0.7 0.15 0.8 }
+        # EPE Dark Wood Brown Static
+        11 = { 0.15 0.6 0.15 0.7 }
+        # EPE Wood Brown Static
+        9 = { 0.15 0.5 0.15 0.6 }
+        # EPE Lighter Wood Brown Static
+        7 = { 0.15 0.4 0.15 0.5 }
+        # EPE Light Wood Brown Static
+        5 = { 0.15 0.2 0.15 0.3 }
+        # EPE Lightest Wood Brown Static
+        5 = { 0.15 0.15 0.15 0.2 }
+
+        ## Hazel Hues ##
+
+        # EPE Darkest Hazel Static 
+        3 = { 0.32 0.7 0.32 0.9 }
+        # EPE Darker Hazel Static 
+        2 = { 0.32 0.6 0.32 0.7 }
+        # EPE Hazel Static 
+        1 = { 0.32 0.4 0.32 0.6 }
+        # EPE Lighter Hazel Static 
+        1 = { 0.32 0.25 0.32 0.4 }
+
+        ## Green Hues
+        
+        # EPE Darker Natural Green Static
+        1 = { 0.46 0.75 0.46 0.85 }
+        # EPE Dark Natural Green Static
+        1 = { 0.46 0.5 0.46 0.75 }
+        # EPE Natural Green Static
+        1 = { 0.46 0.25 0.46 0.5 }
+        # EPE Natural Green Static Light
+        1 = { 0.48 0.2 0.48 0.2 }
+
+        ## Blue Hues ##
+
+        # EPE Darker Ocean Blue Static
+        1 = { 0.8 0.5 0.8 0.75 }
+        # EPE Dark Ocean Blue Static
+        1 = { 0.8 0.3 0.8 0.5 }
+        # EPE Ocean Blue Static
+        1 = { 0.8 0.2 0.8 0.3 }
+        # EPE Light Ocean Blue Static
+        1 = { 0.8 0.1 0.8 0.2 }
+
+        # EPE Darker Steel Blue Static
+        1 = { 0.85 0.5 0.9 0.75 }
+        # EPE Dark Steel Blue Static
+        1 = { 0.85 0.3 0.9 0.5 }
+        # EPE Steel Blue Static
+        1 = { 0.85 0.2 0.9 0.3 }
+        # EPE Light Steel Blue Static
+        1 = { 0.85 0.1 0.9 0.2 }
+	}
+
+	hair_color = {
+		# Red
+		20 = { 0.7 0.65 0.95 0.9 }
+		# Auburn
+		10 = { 0.8 0.65 0.95 0.9 }
+        # Brown
+		50 = { 0.65 0.75 0.65 0.9 }
+		# Black
+		26 = { 0.01 0.9 0.5 0.99 }
+		# Blonde 1
+		2 = { 0.25 0.2 0.6 0.55 }
+		# Blonde 2
+		2 = { 0.25 0.35 0.6 0.7 }
+	}
+
+    gene_hair_type = {
+        15 = {
+            name = hair_straight
+            range = { 0.35 0.75 }
+        }
+        25 = {
+            name = hair_wavy
+            range = { 0.35 0.75 }
+        }
+        10 = {
+            name = hair_curly
+            range = { 0.35 0.75 }
+        }
+        0 = {
+            name = hair_afro
+            range = { 0.35 0.75 }
+        }
+        50 = {
+            name = hair_straight_thin_beard
+            range = { 0.35 0.75 }
+        }
+    }	
+}
+
+asian_turkic_enisey_kirghiz_08 = {
+	template = "steppe_volga_finn_mordvin_32"
+    using = "yenisei_kirghiz"
+
+	eye_color = {
+		### Brown Hues ###
+        
+        # EPE Darkest Red Brown Static
+        7 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darker Red Brown Static
+        7 = { 0.1 0.7 0.1 0.8 }
+        # EPE Dark Red Brown Static
+        5 = { 0.1 0.6 0.1 0.7 }
+        # EPE Red Brown Static
+        5 = { 0.1 0.5 0.1 0.6 }
+        # EPE Lighter Red Brown Static
+        5 = { 0.1 0.4 0.1 0.5 }
+        # EPE Light Red Brown Static
+        5 = { 0.1 0.3 0.1 0.4 }
+        # EPE Lightest Red Brown Static
+        5 = { 0.1 0.15 0.1 0.2 }
+
+        # EPE Darkest Wood Brown Static
+        7 = { 0.15 0.8 0.15 0.9 }
+        # EPE Darker Wood Brown Static
+        7 = { 0.15 0.7 0.15 0.8 }
+        # EPE Dark Wood Brown Static
+        5 = { 0.15 0.6 0.15 0.7 }
+        # EPE Wood Brown Static
+        5 = { 0.15 0.5 0.15 0.6 }
+        # EPE Lighter Wood Brown Static
+        5 = { 0.15 0.4 0.15 0.5 }
+        # EPE Light Wood Brown Static
+        5 = { 0.15 0.3 0.15 0.3 }
+        # EPE Lightest Wood Brown Static
+        5 = { 0.15 0.15 0.15 0.2 }
+		
+        ## Hazel Hues ##
+
+        # EPE Darkest Hazel Static 
+        3 = { 0.32 0.7 0.32 0.9 }
+        # EPE Darker Hazel Static 
+        4 = { 0.32 0.6 0.32 0.7 }
+        # EPE Hazel Static 
+        3 = { 0.32 0.4 0.32 0.6 }
+        # EPE Lighter Hazel Static 
+        2 = { 0.32 0.25 0.32 0.4 }
+
+		## Green Hues
+        
+        # EPE Darker Natural Green Static
+        1 = { 0.46 0.75 0.46 0.85 }
+        # EPE Dark Natural Green Static
+        2 = { 0.46 0.5 0.46 0.75 }
+        # EPE Natural Green Static
+        3 = { 0.46 0.25 0.46 0.5 }
+        # EPE Natural Green Static Light
+        2 = { 0.48 0.2 0.48 0.2 }
+		
+        ## Blue Hues ##
+
+        # EPE Darker Ocean Blue Static
+        1 = { 0.8 0.5 0.8 0.75 }
+        # EPE Dark Ocean Blue Static
+        3 = { 0.8 0.3 0.8 0.5 }
+        # EPE Ocean Blue Static
+        2 = { 0.8 0.2 0.8 0.3 }
+        # EPE Light Ocean Blue Static
+        1 = { 0.8 0.1 0.8 0.2 }
+
+        # EPE Darker Steel Blue Static
+        1 = { 0.85 0.5 0.9 0.75 }
+        # EPE Dark Steel Blue Static
+        3 = { 0.85 0.3 0.9 0.5 }
+        # EPE Steel Blue Static
+        2 = { 0.85 0.2 0.9 0.3 }
+        # EPE Light Steel Blue Static
+        1 = { 0.85 0.1 0.9 0.2 }
+	}
+
+	hair_color = {
+		# Blonde 1
+		1 = { 0.25 0.4 0.6 0.6 }
+        # Blonde 2
+        1 = { 0.25 0.45 0.6 0.7 }
+		# Brown
+		45 = { 0.5 0.7 0.65 1.0 }
+        # Brown 2
+		45 = { 0.65 0.7 0.9 1.0 }
+		# Auburn
+		1 = { 0.9 0.45 0.99 0.6 }
+		# Black
+		45 = { 0.01 0.9 0.5 0.99 }
+	}
+
+    gene_hair_type = {
+        15 = {
+            name = hair_straight
+            range = { 0.35 0.75 }
+        }
+        25 = {
+            name = hair_wavy
+            range = { 0.35 0.75 }
+        }
+        10 = {
+            name = hair_curly
+            range = { 0.35 0.75 }
+        }
+        0 = {
+            name = hair_afro
+            range = { 0.35 0.75 }
+        }
+        50 = {
+            name = hair_straight_thin_beard
+            range = { 0.35 0.75 }
+        }
+    }	
+}
+
+asian_turkic_enisey_kirghiz_09 = {
+	template = "steppe_volga_finn_mordvin_36"
+    using = "yenisei_kirghiz"
+
+	eye_color = {
+        ### Brown Hues ###
+        
+        # EPE Darkest Red Brown Static
+        9 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darker Red Brown Static
+        11 = { 0.1 0.7 0.1 0.8 }
+        # EPE Dark Red Brown Static
+        11 = { 0.1 0.6 0.1 0.7 }
+        # EPE Red Brown Static
+        9 = { 0.1 0.5 0.1 0.6 }
+        # EPE Lighter Red Brown Static
+        7 = { 0.1 0.4 0.1 0.5 }
+        # EPE Light Red Brown Static
+        5 = { 0.1 0.3 0.1 0.4 }
+        # EPE Lightest Red Brown Static
+        5 = { 0.1 0.15 0.1 0.2 }
+
+        # EPE Darkest Wood Brown Static
+        9 = { 0.15 0.8 0.15 0.9 }
+        # EPE Darker Wood Brown Static
+        11 = { 0.15 0.7 0.15 0.8 }
+        # EPE Dark Wood Brown Static
+        11 = { 0.15 0.6 0.15 0.7 }
+        # EPE Wood Brown Static
+        9 = { 0.15 0.5 0.15 0.6 }
+        # EPE Lighter Wood Brown Static
+        7 = { 0.15 0.4 0.15 0.5 }
+        # EPE Light Wood Brown Static
+        5 = { 0.15 0.2 0.15 0.3 }
+        # EPE Lightest Wood Brown Static
+        5 = { 0.15 0.15 0.15 0.2 }
+
+        ## Hazel Hues ##
+
+        # EPE Darkest Hazel Static 
+        3 = { 0.32 0.7 0.32 0.9 }
+        # EPE Darker Hazel Static 
+        2 = { 0.32 0.6 0.32 0.7 }
+        # EPE Hazel Static 
+        1 = { 0.32 0.4 0.32 0.6 }
+        # EPE Lighter Hazel Static 
+        1 = { 0.32 0.25 0.32 0.4 }
+
+        ## Green Hues
+        
+        # EPE Darker Natural Green Static
+        1 = { 0.46 0.75 0.46 0.85 }
+        # EPE Dark Natural Green Static
+        1 = { 0.46 0.5 0.46 0.75 }
+        # EPE Natural Green Static
+        1 = { 0.46 0.25 0.46 0.5 }
+        # EPE Natural Green Static Light
+        1 = { 0.48 0.2 0.48 0.2 }
+
+        ## Blue Hues ##
+
+        # EPE Darker Ocean Blue Static
+        1 = { 0.8 0.5 0.8 0.75 }
+        # EPE Dark Ocean Blue Static
+        1 = { 0.8 0.3 0.8 0.5 }
+        # EPE Ocean Blue Static
+        1 = { 0.8 0.2 0.8 0.3 }
+        # EPE Light Ocean Blue Static
+        1 = { 0.8 0.1 0.8 0.2 }
+
+        # EPE Darker Steel Blue Static
+        1 = { 0.85 0.5 0.9 0.75 }
+        # EPE Dark Steel Blue Static
+        1 = { 0.85 0.3 0.9 0.5 }
+        # EPE Steel Blue Static
+        1 = { 0.85 0.2 0.9 0.3 }
+        # EPE Light Steel Blue Static
+        1 = { 0.85 0.1 0.9 0.2 }
+	}
+
+	hair_color = {
+		# Red
+		20 = { 0.7 0.65 0.95 0.9 }
+		# Auburn
+		10 = { 0.8 0.65 0.95 0.9 }
+        # Brown
+		50 = { 0.65 0.75 0.65 0.9 }
+		# Black
+		26 = { 0.01 0.9 0.5 0.99 }
+		# Blonde 1
+		2 = { 0.25 0.2 0.6 0.55 }
+		# Blonde 2
+		2 = { 0.25 0.35 0.6 0.7 }
+	}
+
+    gene_hair_type = {
+        15 = {
+            name = hair_straight
+            range = { 0.35 0.75 }
+        }
+        25 = {
+            name = hair_wavy
+            range = { 0.35 0.75 }
+        }
+        10 = {
+            name = hair_curly
+            range = { 0.35 0.75 }
+        }
+        0 = {
+            name = hair_afro
+            range = { 0.35 0.75 }
+        }
+        50 = {
+            name = hair_straight_thin_beard
+            range = { 0.35 0.75 }
+        }
+    }	
+}
+
+asian_turkic_enisey_kirghiz_10 = {
+	template = "steppe_volga_finn_mordvin_39"
+    using = "yenisei_kirghiz"
+
+	eye_color = {
+		### Brown Hues ###
+        
+        # EPE Darkest Red Brown Static
+        7 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darker Red Brown Static
+        7 = { 0.1 0.7 0.1 0.8 }
+        # EPE Dark Red Brown Static
+        5 = { 0.1 0.6 0.1 0.7 }
+        # EPE Red Brown Static
+        5 = { 0.1 0.5 0.1 0.6 }
+        # EPE Lighter Red Brown Static
+        5 = { 0.1 0.4 0.1 0.5 }
+        # EPE Light Red Brown Static
+        5 = { 0.1 0.3 0.1 0.4 }
+        # EPE Lightest Red Brown Static
+        5 = { 0.1 0.15 0.1 0.2 }
+
+        # EPE Darkest Wood Brown Static
+        7 = { 0.15 0.8 0.15 0.9 }
+        # EPE Darker Wood Brown Static
+        7 = { 0.15 0.7 0.15 0.8 }
+        # EPE Dark Wood Brown Static
+        5 = { 0.15 0.6 0.15 0.7 }
+        # EPE Wood Brown Static
+        5 = { 0.15 0.5 0.15 0.6 }
+        # EPE Lighter Wood Brown Static
+        5 = { 0.15 0.4 0.15 0.5 }
+        # EPE Light Wood Brown Static
+        5 = { 0.15 0.3 0.15 0.3 }
+        # EPE Lightest Wood Brown Static
+        5 = { 0.15 0.15 0.15 0.2 }
+		
+        ## Hazel Hues ##
+
+        # EPE Darkest Hazel Static 
+        3 = { 0.32 0.7 0.32 0.9 }
+        # EPE Darker Hazel Static 
+        4 = { 0.32 0.6 0.32 0.7 }
+        # EPE Hazel Static 
+        3 = { 0.32 0.4 0.32 0.6 }
+        # EPE Lighter Hazel Static 
+        2 = { 0.32 0.25 0.32 0.4 }
+
+		## Green Hues
+        
+        # EPE Darker Natural Green Static
+        1 = { 0.46 0.75 0.46 0.85 }
+        # EPE Dark Natural Green Static
+        2 = { 0.46 0.5 0.46 0.75 }
+        # EPE Natural Green Static
+        3 = { 0.46 0.25 0.46 0.5 }
+        # EPE Natural Green Static Light
+        2 = { 0.48 0.2 0.48 0.2 }
+		
+        ## Blue Hues ##
+
+        # EPE Darker Ocean Blue Static
+        1 = { 0.8 0.5 0.8 0.75 }
+        # EPE Dark Ocean Blue Static
+        3 = { 0.8 0.3 0.8 0.5 }
+        # EPE Ocean Blue Static
+        2 = { 0.8 0.2 0.8 0.3 }
+        # EPE Light Ocean Blue Static
+        1 = { 0.8 0.1 0.8 0.2 }
+
+        # EPE Darker Steel Blue Static
+        1 = { 0.85 0.5 0.9 0.75 }
+        # EPE Dark Steel Blue Static
+        3 = { 0.85 0.3 0.9 0.5 }
+        # EPE Steel Blue Static
+        2 = { 0.85 0.2 0.9 0.3 }
+        # EPE Light Steel Blue Static
+        1 = { 0.85 0.1 0.9 0.2 }
+	}
+
+	hair_color = {
+		# Blonde 1
+		1 = { 0.25 0.4 0.6 0.6 }
+        # Blonde 2
+        1 = { 0.25 0.45 0.6 0.7 }
+		# Brown
+		45 = { 0.5 0.7 0.65 1.0 }
+        # Brown 2
+		45 = { 0.65 0.7 0.9 1.0 }
+		# Auburn
+		1 = { 0.9 0.45 0.99 0.6 }
+		# Black
+		45 = { 0.01 0.9 0.5 0.99 }
+	}
+
+    gene_hair_type = {
+        15 = {
+            name = hair_straight
+            range = { 0.35 0.75 }
+        }
+        25 = {
+            name = hair_wavy
+            range = { 0.35 0.75 }
+        }
+        10 = {
+            name = hair_curly
+            range = { 0.35 0.75 }
+        }
+        0 = {
+            name = hair_afro
+            range = { 0.35 0.75 }
+        }
+        50 = {
+            name = hair_straight_thin_beard
+            range = { 0.35 0.75 }
+        }
+    }	
+}
+
+asian_turkic_enisey_kirghiz_11 = {
+	template = "asian_turkic_1_western"
+    using = "yenisei_kirghiz"
+
+	eye_color = {
+		### Brown Hues ###
+        
+        # EPE Darkest Red Brown Static
+        7 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darker Red Brown Static
+        7 = { 0.1 0.7 0.1 0.8 }
+        # EPE Dark Red Brown Static
+        5 = { 0.1 0.6 0.1 0.7 }
+        # EPE Red Brown Static
+        5 = { 0.1 0.5 0.1 0.6 }
+        # EPE Lighter Red Brown Static
+        5 = { 0.1 0.4 0.1 0.5 }
+        # EPE Light Red Brown Static
+        5 = { 0.1 0.3 0.1 0.4 }
+        # EPE Lightest Red Brown Static
+        5 = { 0.1 0.15 0.1 0.2 }
+
+        # EPE Darkest Wood Brown Static
+        7 = { 0.15 0.8 0.15 0.9 }
+        # EPE Darker Wood Brown Static
+        7 = { 0.15 0.7 0.15 0.8 }
+        # EPE Dark Wood Brown Static
+        5 = { 0.15 0.6 0.15 0.7 }
+        # EPE Wood Brown Static
+        5 = { 0.15 0.5 0.15 0.6 }
+        # EPE Lighter Wood Brown Static
+        5 = { 0.15 0.4 0.15 0.5 }
+        # EPE Light Wood Brown Static
+        5 = { 0.15 0.3 0.15 0.3 }
+        # EPE Lightest Wood Brown Static
+        5 = { 0.15 0.15 0.15 0.2 }
+		
+        ## Hazel Hues ##
+
+        # EPE Darkest Hazel Static 
+        3 = { 0.32 0.7 0.32 0.9 }
+        # EPE Darker Hazel Static 
+        4 = { 0.32 0.6 0.32 0.7 }
+        # EPE Hazel Static 
+        3 = { 0.32 0.4 0.32 0.6 }
+        # EPE Lighter Hazel Static 
+        2 = { 0.32 0.25 0.32 0.4 }
+
+		## Green Hues
+        
+        # EPE Darker Natural Green Static
+        1 = { 0.46 0.75 0.46 0.85 }
+        # EPE Dark Natural Green Static
+        2 = { 0.46 0.5 0.46 0.75 }
+        # EPE Natural Green Static
+        3 = { 0.46 0.25 0.46 0.5 }
+        # EPE Natural Green Static Light
+        2 = { 0.48 0.2 0.48 0.2 }
+		
+        ## Blue Hues ##
+
+        # EPE Darker Ocean Blue Static
+        1 = { 0.8 0.5 0.8 0.75 }
+        # EPE Dark Ocean Blue Static
+        3 = { 0.8 0.3 0.8 0.5 }
+        # EPE Ocean Blue Static
+        2 = { 0.8 0.2 0.8 0.3 }
+        # EPE Light Ocean Blue Static
+        1 = { 0.8 0.1 0.8 0.2 }
+
+        # EPE Darker Steel Blue Static
+        1 = { 0.85 0.5 0.9 0.75 }
+        # EPE Dark Steel Blue Static
+        3 = { 0.85 0.3 0.9 0.5 }
+        # EPE Steel Blue Static
+        2 = { 0.85 0.2 0.9 0.3 }
+        # EPE Light Steel Blue Static
+        1 = { 0.85 0.1 0.9 0.2 }
+	}
+
+	hair_color = {
+		# Blonde 1
+		10 = { 0.25 0.2 0.6 0.55 }
+        # Blonde 2
+        10 = { 0.25 0.45 0.6 0.7 }
+		# # Red
+		# 10 = { 0.85 0.0 1.0 0.5 }
+		# # Black
+		# 30 = { 0.0 0.9 0.5 1.0 }
+	}
+
+    gene_hair_type = {
+        15 = {
+            name = hair_straight
+            range = { 0.35 0.75 }
+        }
+        25 = {
+            name = hair_wavy
+            range = { 0.35 0.75 }
+        }
+        10 = {
+            name = hair_curly
+            range = { 0.35 0.75 }
+        }
+        0 = {
+            name = hair_afro
+            range = { 0.35 0.75 }
+        }
+        50 = {
+            name = hair_straight_thin_beard
+            range = { 0.35 0.75 }
+        }
+    }	
+}
+
+asian_turkic_enisey_kirghiz_12 = {
+	template = "asian_turkic_2_western"
+    using = "yenisei_kirghiz"
+
+	eye_color = {
+        ### Brown Hues ###
+        
+        # EPE Darkest Red Brown Static
+        9 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darker Red Brown Static
+        11 = { 0.1 0.7 0.1 0.8 }
+        # EPE Dark Red Brown Static
+        11 = { 0.1 0.6 0.1 0.7 }
+        # EPE Red Brown Static
+        9 = { 0.1 0.5 0.1 0.6 }
+        # EPE Lighter Red Brown Static
+        7 = { 0.1 0.4 0.1 0.5 }
+        # EPE Light Red Brown Static
+        5 = { 0.1 0.3 0.1 0.4 }
+        # EPE Lightest Red Brown Static
+        5 = { 0.1 0.15 0.1 0.2 }
+
+        # EPE Darkest Wood Brown Static
+        9 = { 0.15 0.8 0.15 0.9 }
+        # EPE Darker Wood Brown Static
+        11 = { 0.15 0.7 0.15 0.8 }
+        # EPE Dark Wood Brown Static
+        11 = { 0.15 0.6 0.15 0.7 }
+        # EPE Wood Brown Static
+        9 = { 0.15 0.5 0.15 0.6 }
+        # EPE Lighter Wood Brown Static
+        7 = { 0.15 0.4 0.15 0.5 }
+        # EPE Light Wood Brown Static
+        5 = { 0.15 0.2 0.15 0.3 }
+        # EPE Lightest Wood Brown Static
+        5 = { 0.15 0.15 0.15 0.2 }
+
+        ## Hazel Hues ##
+
+        # EPE Darkest Hazel Static 
+        3 = { 0.32 0.7 0.32 0.9 }
+        # EPE Darker Hazel Static 
+        2 = { 0.32 0.6 0.32 0.7 }
+        # EPE Hazel Static 
+        1 = { 0.32 0.4 0.32 0.6 }
+        # EPE Lighter Hazel Static 
+        1 = { 0.32 0.25 0.32 0.4 }
+
+        ## Green Hues
+        
+        # EPE Darker Natural Green Static
+        1 = { 0.46 0.75 0.46 0.85 }
+        # EPE Dark Natural Green Static
+        1 = { 0.46 0.5 0.46 0.75 }
+        # EPE Natural Green Static
+        1 = { 0.46 0.25 0.46 0.5 }
+        # EPE Natural Green Static Light
+        1 = { 0.48 0.2 0.48 0.2 }
+
+        ## Blue Hues ##
+
+        # EPE Darker Ocean Blue Static
+        1 = { 0.8 0.5 0.8 0.75 }
+        # EPE Dark Ocean Blue Static
+        1 = { 0.8 0.3 0.8 0.5 }
+        # EPE Ocean Blue Static
+        1 = { 0.8 0.2 0.8 0.3 }
+        # EPE Light Ocean Blue Static
+        1 = { 0.8 0.1 0.8 0.2 }
+
+        # EPE Darker Steel Blue Static
+        1 = { 0.85 0.5 0.9 0.75 }
+        # EPE Dark Steel Blue Static
+        1 = { 0.85 0.3 0.9 0.5 }
+        # EPE Steel Blue Static
+        1 = { 0.85 0.2 0.9 0.3 }
+        # EPE Light Steel Blue Static
+        1 = { 0.85 0.1 0.9 0.2 }
+	}
+
+	hair_color = {
+		# Red
+		20 = { 0.7 0.65 0.95 0.9 }
+		# Auburn
+		10 = { 0.8 0.65 0.95 0.9 }
+        # Brown
+		50 = { 0.65 0.75 0.65 0.9 }
+		# Black
+		26 = { 0.01 0.9 0.5 0.99 }
+		# Blonde 1
+		2 = { 0.25 0.2 0.6 0.55 }
+		# Blonde 2
+		2 = { 0.25 0.35 0.6 0.7 }
+	}
+
+    gene_hair_type = {
+        15 = {
+            name = hair_straight
+            range = { 0.35 0.75 }
+        }
+        25 = {
+            name = hair_wavy
+            range = { 0.35 0.75 }
+        }
+        10 = {
+            name = hair_curly
+            range = { 0.35 0.75 }
+        }
+        0 = {
+            name = hair_afro
+            range = { 0.35 0.75 }
+        }
+        50 = {
+            name = hair_straight_thin_beard
+            range = { 0.35 0.75 }
+        }
+    }	
+}
+
+asian_turkic_enisey_kirghiz_13 = {
+	template = "asian_turkic_3_western"
+    using = "yenisei_kirghiz"
+
+	eye_color = {
+		### Brown Hues ###
+        
+        # EPE Darkest Red Brown Static
+        7 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darker Red Brown Static
+        7 = { 0.1 0.7 0.1 0.8 }
+        # EPE Dark Red Brown Static
+        5 = { 0.1 0.6 0.1 0.7 }
+        # EPE Red Brown Static
+        5 = { 0.1 0.5 0.1 0.6 }
+        # EPE Lighter Red Brown Static
+        5 = { 0.1 0.4 0.1 0.5 }
+        # EPE Light Red Brown Static
+        5 = { 0.1 0.3 0.1 0.4 }
+        # EPE Lightest Red Brown Static
+        5 = { 0.1 0.15 0.1 0.2 }
+
+        # EPE Darkest Wood Brown Static
+        7 = { 0.15 0.8 0.15 0.9 }
+        # EPE Darker Wood Brown Static
+        7 = { 0.15 0.7 0.15 0.8 }
+        # EPE Dark Wood Brown Static
+        5 = { 0.15 0.6 0.15 0.7 }
+        # EPE Wood Brown Static
+        5 = { 0.15 0.5 0.15 0.6 }
+        # EPE Lighter Wood Brown Static
+        5 = { 0.15 0.4 0.15 0.5 }
+        # EPE Light Wood Brown Static
+        5 = { 0.15 0.3 0.15 0.3 }
+        # EPE Lightest Wood Brown Static
+        5 = { 0.15 0.15 0.15 0.2 }
+		
+        ## Hazel Hues ##
+
+        # EPE Darkest Hazel Static 
+        3 = { 0.32 0.7 0.32 0.9 }
+        # EPE Darker Hazel Static 
+        4 = { 0.32 0.6 0.32 0.7 }
+        # EPE Hazel Static 
+        3 = { 0.32 0.4 0.32 0.6 }
+        # EPE Lighter Hazel Static 
+        2 = { 0.32 0.25 0.32 0.4 }
+
+		## Green Hues
+        
+        # EPE Darker Natural Green Static
+        1 = { 0.46 0.75 0.46 0.85 }
+        # EPE Dark Natural Green Static
+        2 = { 0.46 0.5 0.46 0.75 }
+        # EPE Natural Green Static
+        3 = { 0.46 0.25 0.46 0.5 }
+        # EPE Natural Green Static Light
+        2 = { 0.48 0.2 0.48 0.2 }
+		
+        ## Blue Hues ##
+
+        # EPE Darker Ocean Blue Static
+        1 = { 0.8 0.5 0.8 0.75 }
+        # EPE Dark Ocean Blue Static
+        3 = { 0.8 0.3 0.8 0.5 }
+        # EPE Ocean Blue Static
+        2 = { 0.8 0.2 0.8 0.3 }
+        # EPE Light Ocean Blue Static
+        1 = { 0.8 0.1 0.8 0.2 }
+
+        # EPE Darker Steel Blue Static
+        1 = { 0.85 0.5 0.9 0.75 }
+        # EPE Dark Steel Blue Static
+        3 = { 0.85 0.3 0.9 0.5 }
+        # EPE Steel Blue Static
+        2 = { 0.85 0.2 0.9 0.3 }
+        # EPE Light Steel Blue Static
+        1 = { 0.85 0.1 0.9 0.2 }
+	}
+
+	hair_color = {
+		# Blonde 1
+		10 = { 0.25 0.2 0.6 0.55 }
+        # Blonde 2
+        10 = { 0.25 0.45 0.6 0.7 }
+		# # Red
+		# 10 = { 0.85 0.0 1.0 0.5 }
+		# # Black
+		# 30 = { 0.0 0.9 0.5 1.0 }
+	}
+
+    gene_hair_type = {
+        15 = {
+            name = hair_straight
+            range = { 0.35 0.75 }
+        }
+        25 = {
+            name = hair_wavy
+            range = { 0.35 0.75 }
+        }
+        10 = {
+            name = hair_curly
+            range = { 0.35 0.75 }
+        }
+        0 = {
+            name = hair_afro
+            range = { 0.35 0.75 }
+        }
+        50 = {
+            name = hair_straight_thin_beard
+            range = { 0.35 0.75 }
+        }
+    }	
+}
+
+asian_turkic_enisey_kirghiz_14 = {
+	template = "asian_turkic_4_western"
+    using = "yenisei_kirghiz"
+
+	eye_color = {
+        ### Brown Hues ###
+        
+        # EPE Darkest Red Brown Static
+        9 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darker Red Brown Static
+        11 = { 0.1 0.7 0.1 0.8 }
+        # EPE Dark Red Brown Static
+        11 = { 0.1 0.6 0.1 0.7 }
+        # EPE Red Brown Static
+        9 = { 0.1 0.5 0.1 0.6 }
+        # EPE Lighter Red Brown Static
+        7 = { 0.1 0.4 0.1 0.5 }
+        # EPE Light Red Brown Static
+        5 = { 0.1 0.3 0.1 0.4 }
+        # EPE Lightest Red Brown Static
+        5 = { 0.1 0.15 0.1 0.2 }
+
+        # EPE Darkest Wood Brown Static
+        9 = { 0.15 0.8 0.15 0.9 }
+        # EPE Darker Wood Brown Static
+        11 = { 0.15 0.7 0.15 0.8 }
+        # EPE Dark Wood Brown Static
+        11 = { 0.15 0.6 0.15 0.7 }
+        # EPE Wood Brown Static
+        9 = { 0.15 0.5 0.15 0.6 }
+        # EPE Lighter Wood Brown Static
+        7 = { 0.15 0.4 0.15 0.5 }
+        # EPE Light Wood Brown Static
+        5 = { 0.15 0.2 0.15 0.3 }
+        # EPE Lightest Wood Brown Static
+        5 = { 0.15 0.15 0.15 0.2 }
+
+        ## Hazel Hues ##
+
+        # EPE Darkest Hazel Static 
+        3 = { 0.32 0.7 0.32 0.9 }
+        # EPE Darker Hazel Static 
+        2 = { 0.32 0.6 0.32 0.7 }
+        # EPE Hazel Static 
+        1 = { 0.32 0.4 0.32 0.6 }
+        # EPE Lighter Hazel Static 
+        1 = { 0.32 0.25 0.32 0.4 }
+
+        ## Green Hues
+        
+        # EPE Darker Natural Green Static
+        1 = { 0.46 0.75 0.46 0.85 }
+        # EPE Dark Natural Green Static
+        1 = { 0.46 0.5 0.46 0.75 }
+        # EPE Natural Green Static
+        1 = { 0.46 0.25 0.46 0.5 }
+        # EPE Natural Green Static Light
+        1 = { 0.48 0.2 0.48 0.2 }
+
+        ## Blue Hues ##
+
+        # EPE Darker Ocean Blue Static
+        1 = { 0.8 0.5 0.8 0.75 }
+        # EPE Dark Ocean Blue Static
+        1 = { 0.8 0.3 0.8 0.5 }
+        # EPE Ocean Blue Static
+        1 = { 0.8 0.2 0.8 0.3 }
+        # EPE Light Ocean Blue Static
+        1 = { 0.8 0.1 0.8 0.2 }
+
+        # EPE Darker Steel Blue Static
+        1 = { 0.85 0.5 0.9 0.75 }
+        # EPE Dark Steel Blue Static
+        1 = { 0.85 0.3 0.9 0.5 }
+        # EPE Steel Blue Static
+        1 = { 0.85 0.2 0.9 0.3 }
+        # EPE Light Steel Blue Static
+        1 = { 0.85 0.1 0.9 0.2 }
+	}
+
+	hair_color = {
+		# Red
+		20 = { 0.7 0.65 0.95 0.9 }
+		# Auburn
+		10 = { 0.8 0.65 0.95 0.9 }
+        # Brown
+		50 = { 0.65 0.75 0.65 0.9 }
+		# Black
+		26 = { 0.01 0.9 0.5 0.99 }
+		# Blonde 1
+		2 = { 0.25 0.2 0.6 0.55 }
+		# Blonde 2
+		2 = { 0.25 0.35 0.6 0.7 }
+	}
+
+    gene_hair_type = {
+        15 = {
+            name = hair_straight
+            range = { 0.35 0.75 }
+        }
+        25 = {
+            name = hair_wavy
+            range = { 0.35 0.75 }
+        }
+        10 = {
+            name = hair_curly
+            range = { 0.35 0.75 }
+        }
+        0 = {
+            name = hair_afro
+            range = { 0.35 0.75 }
+        }
+        50 = {
+            name = hair_straight_thin_beard
+            range = { 0.35 0.75 }
+        }
+    }	
+}
+
+asian_turkic_enisey_kirghiz_15 = {
+	template = "asian_turkic_5_western"
+    using = "yenisei_kirghiz"
+
+	eye_color = {
+		### Brown Hues ###
+        
+        # EPE Darkest Red Brown Static
+        7 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darker Red Brown Static
+        7 = { 0.1 0.7 0.1 0.8 }
+        # EPE Dark Red Brown Static
+        5 = { 0.1 0.6 0.1 0.7 }
+        # EPE Red Brown Static
+        5 = { 0.1 0.5 0.1 0.6 }
+        # EPE Lighter Red Brown Static
+        5 = { 0.1 0.4 0.1 0.5 }
+        # EPE Light Red Brown Static
+        5 = { 0.1 0.3 0.1 0.4 }
+        # EPE Lightest Red Brown Static
+        5 = { 0.1 0.15 0.1 0.2 }
+
+        # EPE Darkest Wood Brown Static
+        7 = { 0.15 0.8 0.15 0.9 }
+        # EPE Darker Wood Brown Static
+        7 = { 0.15 0.7 0.15 0.8 }
+        # EPE Dark Wood Brown Static
+        5 = { 0.15 0.6 0.15 0.7 }
+        # EPE Wood Brown Static
+        5 = { 0.15 0.5 0.15 0.6 }
+        # EPE Lighter Wood Brown Static
+        5 = { 0.15 0.4 0.15 0.5 }
+        # EPE Light Wood Brown Static
+        5 = { 0.15 0.3 0.15 0.3 }
+        # EPE Lightest Wood Brown Static
+        5 = { 0.15 0.15 0.15 0.2 }
+		
+        ## Hazel Hues ##
+
+        # EPE Darkest Hazel Static 
+        3 = { 0.32 0.7 0.32 0.9 }
+        # EPE Darker Hazel Static 
+        4 = { 0.32 0.6 0.32 0.7 }
+        # EPE Hazel Static 
+        3 = { 0.32 0.4 0.32 0.6 }
+        # EPE Lighter Hazel Static 
+        2 = { 0.32 0.25 0.32 0.4 }
+
+		## Green Hues
+        
+        # EPE Darker Natural Green Static
+        1 = { 0.46 0.75 0.46 0.85 }
+        # EPE Dark Natural Green Static
+        2 = { 0.46 0.5 0.46 0.75 }
+        # EPE Natural Green Static
+        3 = { 0.46 0.25 0.46 0.5 }
+        # EPE Natural Green Static Light
+        2 = { 0.48 0.2 0.48 0.2 }
+		
+        ## Blue Hues ##
+
+        # EPE Darker Ocean Blue Static
+        1 = { 0.8 0.5 0.8 0.75 }
+        # EPE Dark Ocean Blue Static
+        3 = { 0.8 0.3 0.8 0.5 }
+        # EPE Ocean Blue Static
+        2 = { 0.8 0.2 0.8 0.3 }
+        # EPE Light Ocean Blue Static
+        1 = { 0.8 0.1 0.8 0.2 }
+
+        # EPE Darker Steel Blue Static
+        1 = { 0.85 0.5 0.9 0.75 }
+        # EPE Dark Steel Blue Static
+        3 = { 0.85 0.3 0.9 0.5 }
+        # EPE Steel Blue Static
+        2 = { 0.85 0.2 0.9 0.3 }
+        # EPE Light Steel Blue Static
+        1 = { 0.85 0.1 0.9 0.2 }
+	}
+
+	hair_color = {
+		# # Blonde
+		# 10 = { 0.25 0.2 0.75 0.25 }
+		# Brown
+		40 = { 0.65 0.7 0.9 0.8 }
+		# # Red
+		# 10 = { 0.85 0.0 1.0 0.5 }
+		# # Black
+		# 30 = { 0.0 0.9 0.5 1.0 }
+	}
+
+    gene_hair_type = {
+        15 = {
+            name = hair_straight
+            range = { 0.35 0.75 }
+        }
+        25 = {
+            name = hair_wavy
+            range = { 0.35 0.75 }
+        }
+        10 = {
+            name = hair_curly
+            range = { 0.35 0.75 }
+        }
+        0 = {
+            name = hair_afro
+            range = { 0.35 0.75 }
+        }
+        50 = {
+            name = hair_straight_thin_beard
+            range = { 0.35 0.75 }
+        }
+    }	
+}
+
+asian_turkic_enisey_kirghiz_16 = {
+	template = "asian_turkic_6_western"
+    using = "yenisei_kirghiz"
+
+	eye_color = {
+        ### Brown Hues ###
+        
+        # EPE Darkest Red Brown Static
+        9 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darker Red Brown Static
+        11 = { 0.1 0.7 0.1 0.8 }
+        # EPE Dark Red Brown Static
+        11 = { 0.1 0.6 0.1 0.7 }
+        # EPE Red Brown Static
+        9 = { 0.1 0.5 0.1 0.6 }
+        # EPE Lighter Red Brown Static
+        7 = { 0.1 0.4 0.1 0.5 }
+        # EPE Light Red Brown Static
+        5 = { 0.1 0.3 0.1 0.4 }
+        # EPE Lightest Red Brown Static
+        5 = { 0.1 0.15 0.1 0.2 }
+
+        # EPE Darkest Wood Brown Static
+        9 = { 0.15 0.8 0.15 0.9 }
+        # EPE Darker Wood Brown Static
+        11 = { 0.15 0.7 0.15 0.8 }
+        # EPE Dark Wood Brown Static
+        11 = { 0.15 0.6 0.15 0.7 }
+        # EPE Wood Brown Static
+        9 = { 0.15 0.5 0.15 0.6 }
+        # EPE Lighter Wood Brown Static
+        7 = { 0.15 0.4 0.15 0.5 }
+        # EPE Light Wood Brown Static
+        5 = { 0.15 0.2 0.15 0.3 }
+        # EPE Lightest Wood Brown Static
+        5 = { 0.15 0.15 0.15 0.2 }
+
+        ## Hazel Hues ##
+
+        # EPE Darkest Hazel Static 
+        3 = { 0.32 0.7 0.32 0.9 }
+        # EPE Darker Hazel Static 
+        2 = { 0.32 0.6 0.32 0.7 }
+        # EPE Hazel Static 
+        1 = { 0.32 0.4 0.32 0.6 }
+        # EPE Lighter Hazel Static 
+        1 = { 0.32 0.25 0.32 0.4 }
+
+        ## Green Hues
+        
+        # EPE Darker Natural Green Static
+        1 = { 0.46 0.75 0.46 0.85 }
+        # EPE Dark Natural Green Static
+        1 = { 0.46 0.5 0.46 0.75 }
+        # EPE Natural Green Static
+        1 = { 0.46 0.25 0.46 0.5 }
+        # EPE Natural Green Static Light
+        1 = { 0.48 0.2 0.48 0.2 }
+
+        ## Blue Hues ##
+
+        # EPE Darker Ocean Blue Static
+        1 = { 0.8 0.5 0.8 0.75 }
+        # EPE Dark Ocean Blue Static
+        1 = { 0.8 0.3 0.8 0.5 }
+        # EPE Ocean Blue Static
+        1 = { 0.8 0.2 0.8 0.3 }
+        # EPE Light Ocean Blue Static
+        1 = { 0.8 0.1 0.8 0.2 }
+
+        # EPE Darker Steel Blue Static
+        1 = { 0.85 0.5 0.9 0.75 }
+        # EPE Dark Steel Blue Static
+        1 = { 0.85 0.3 0.9 0.5 }
+        # EPE Steel Blue Static
+        1 = { 0.85 0.2 0.9 0.3 }
+        # EPE Light Steel Blue Static
+        1 = { 0.85 0.1 0.9 0.2 }
+	}
+
+	hair_color = {
+		# Red
+		20 = { 0.7 0.65 0.95 0.9 }
+		# Auburn
+		10 = { 0.8 0.65 0.95 0.9 }
+        # Brown
+		50 = { 0.65 0.75 0.65 0.9 }
+		# Black
+		26 = { 0.01 0.9 0.5 0.99 }
+		# Blonde 1
+		2 = { 0.25 0.2 0.6 0.55 }
+		# Blonde 2
+		2 = { 0.25 0.35 0.6 0.7 }
+	}
+
+    gene_hair_type = {
+        15 = {
+            name = hair_straight
+            range = { 0.35 0.75 }
+        }
+        25 = {
+            name = hair_wavy
+            range = { 0.35 0.75 }
+        }
+        10 = {
+            name = hair_curly
+            range = { 0.35 0.75 }
+        }
+        0 = {
+            name = hair_afro
+            range = { 0.35 0.75 }
+        }
+        50 = {
+            name = hair_straight_thin_beard
+            range = { 0.35 0.75 }
+        }
+    }	
+}
+
+asian_turkic_enisey_kirghiz_17 = {
+	template = "asian_turkic_7_western"
+    using = "yenisei_kirghiz"
+
+	eye_color = {
+		### Brown Hues ###
+        
+        # EPE Darkest Red Brown Static
+        7 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darker Red Brown Static
+        7 = { 0.1 0.7 0.1 0.8 }
+        # EPE Dark Red Brown Static
+        5 = { 0.1 0.6 0.1 0.7 }
+        # EPE Red Brown Static
+        5 = { 0.1 0.5 0.1 0.6 }
+        # EPE Lighter Red Brown Static
+        5 = { 0.1 0.4 0.1 0.5 }
+        # EPE Light Red Brown Static
+        5 = { 0.1 0.3 0.1 0.4 }
+        # EPE Lightest Red Brown Static
+        5 = { 0.1 0.15 0.1 0.2 }
+
+        # EPE Darkest Wood Brown Static
+        7 = { 0.15 0.8 0.15 0.9 }
+        # EPE Darker Wood Brown Static
+        7 = { 0.15 0.7 0.15 0.8 }
+        # EPE Dark Wood Brown Static
+        5 = { 0.15 0.6 0.15 0.7 }
+        # EPE Wood Brown Static
+        5 = { 0.15 0.5 0.15 0.6 }
+        # EPE Lighter Wood Brown Static
+        5 = { 0.15 0.4 0.15 0.5 }
+        # EPE Light Wood Brown Static
+        5 = { 0.15 0.3 0.15 0.3 }
+        # EPE Lightest Wood Brown Static
+        5 = { 0.15 0.15 0.15 0.2 }
+		
+        ## Hazel Hues ##
+
+        # EPE Darkest Hazel Static 
+        3 = { 0.32 0.7 0.32 0.9 }
+        # EPE Darker Hazel Static 
+        4 = { 0.32 0.6 0.32 0.7 }
+        # EPE Hazel Static 
+        3 = { 0.32 0.4 0.32 0.6 }
+        # EPE Lighter Hazel Static 
+        2 = { 0.32 0.25 0.32 0.4 }
+
+		## Green Hues
+        
+        # EPE Darker Natural Green Static
+        1 = { 0.46 0.75 0.46 0.85 }
+        # EPE Dark Natural Green Static
+        2 = { 0.46 0.5 0.46 0.75 }
+        # EPE Natural Green Static
+        3 = { 0.46 0.25 0.46 0.5 }
+        # EPE Natural Green Static Light
+        2 = { 0.48 0.2 0.48 0.2 }
+		
+        ## Blue Hues ##
+
+        # EPE Darker Ocean Blue Static
+        1 = { 0.8 0.5 0.8 0.75 }
+        # EPE Dark Ocean Blue Static
+        3 = { 0.8 0.3 0.8 0.5 }
+        # EPE Ocean Blue Static
+        2 = { 0.8 0.2 0.8 0.3 }
+        # EPE Light Ocean Blue Static
+        1 = { 0.8 0.1 0.8 0.2 }
+
+        # EPE Darker Steel Blue Static
+        1 = { 0.85 0.5 0.9 0.75 }
+        # EPE Dark Steel Blue Static
+        3 = { 0.85 0.3 0.9 0.5 }
+        # EPE Steel Blue Static
+        2 = { 0.85 0.2 0.9 0.3 }
+        # EPE Light Steel Blue Static
+        1 = { 0.85 0.1 0.9 0.2 }
+	}
+
+	hair_color = {
+		# # Blonde
+		# 10 = { 0.25 0.2 0.75 0.25 }
+		# Brown
+		40 = { 0.65 0.8 0.9 0.95 }
+		# # Red
+		# 10 = { 0.85 0.0 1.0 0.5 }
+		# # Black
+		# 30 = { 0.0 0.9 0.5 1.0 }
+	}
+
+    gene_hair_type = {
+        15 = {
+            name = hair_straight
+            range = { 0.35 0.75 }
+        }
+        25 = {
+            name = hair_wavy
+            range = { 0.35 0.75 }
+        }
+        10 = {
+            name = hair_curly
+            range = { 0.35 0.75 }
+        }
+        0 = {
+            name = hair_afro
+            range = { 0.35 0.75 }
+        }
+        50 = {
+            name = hair_straight_thin_beard
+            range = { 0.35 0.75 }
+        }
+    }	
+}
+
+asian_turkic_enisey_kirghiz_18 = {
+	template = "asian_turkic_8_western"
+    using = "yenisei_kirghiz"
+
+	eye_color = {
+        ### Brown Hues ###
+        
+        # EPE Darkest Red Brown Static
+        9 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darker Red Brown Static
+        11 = { 0.1 0.7 0.1 0.8 }
+        # EPE Dark Red Brown Static
+        11 = { 0.1 0.6 0.1 0.7 }
+        # EPE Red Brown Static
+        9 = { 0.1 0.5 0.1 0.6 }
+        # EPE Lighter Red Brown Static
+        7 = { 0.1 0.4 0.1 0.5 }
+        # EPE Light Red Brown Static
+        5 = { 0.1 0.3 0.1 0.4 }
+        # EPE Lightest Red Brown Static
+        5 = { 0.1 0.15 0.1 0.2 }
+
+        # EPE Darkest Wood Brown Static
+        9 = { 0.15 0.8 0.15 0.9 }
+        # EPE Darker Wood Brown Static
+        11 = { 0.15 0.7 0.15 0.8 }
+        # EPE Dark Wood Brown Static
+        11 = { 0.15 0.6 0.15 0.7 }
+        # EPE Wood Brown Static
+        9 = { 0.15 0.5 0.15 0.6 }
+        # EPE Lighter Wood Brown Static
+        7 = { 0.15 0.4 0.15 0.5 }
+        # EPE Light Wood Brown Static
+        5 = { 0.15 0.2 0.15 0.3 }
+        # EPE Lightest Wood Brown Static
+        5 = { 0.15 0.15 0.15 0.2 }
+
+        ## Hazel Hues ##
+
+        # EPE Darkest Hazel Static 
+        3 = { 0.32 0.7 0.32 0.9 }
+        # EPE Darker Hazel Static 
+        2 = { 0.32 0.6 0.32 0.7 }
+        # EPE Hazel Static 
+        1 = { 0.32 0.4 0.32 0.6 }
+        # EPE Lighter Hazel Static 
+        1 = { 0.32 0.25 0.32 0.4 }
+
+        ## Green Hues
+        
+        # EPE Darker Natural Green Static
+        1 = { 0.46 0.75 0.46 0.85 }
+        # EPE Dark Natural Green Static
+        1 = { 0.46 0.5 0.46 0.75 }
+        # EPE Natural Green Static
+        1 = { 0.46 0.25 0.46 0.5 }
+        # EPE Natural Green Static Light
+        1 = { 0.48 0.2 0.48 0.2 }
+
+        ## Blue Hues ##
+
+        # EPE Darker Ocean Blue Static
+        1 = { 0.8 0.5 0.8 0.75 }
+        # EPE Dark Ocean Blue Static
+        1 = { 0.8 0.3 0.8 0.5 }
+        # EPE Ocean Blue Static
+        1 = { 0.8 0.2 0.8 0.3 }
+        # EPE Light Ocean Blue Static
+        1 = { 0.8 0.1 0.8 0.2 }
+
+        # EPE Darker Steel Blue Static
+        1 = { 0.85 0.5 0.9 0.75 }
+        # EPE Dark Steel Blue Static
+        1 = { 0.85 0.3 0.9 0.5 }
+        # EPE Steel Blue Static
+        1 = { 0.85 0.2 0.9 0.3 }
+        # EPE Light Steel Blue Static
+        1 = { 0.85 0.1 0.9 0.2 }
+	}
+
+	hair_color = {
+		# Red
+		20 = { 0.7 0.65 0.95 0.9 }
+		# Auburn
+		10 = { 0.8 0.65 0.95 0.9 }
+        # Brown
+		50 = { 0.65 0.75 0.65 0.9 }
+		# Black
+		26 = { 0.01 0.9 0.5 0.99 }
+		# Blonde 1
+		2 = { 0.25 0.2 0.6 0.55 }
+		# Blonde 2
+		2 = { 0.25 0.35 0.6 0.7 }
+	}
+
+    gene_hair_type = {
+        15 = {
+            name = hair_straight
+            range = { 0.35 0.75 }
+        }
+        25 = {
+            name = hair_wavy
+            range = { 0.35 0.75 }
+        }
+        10 = {
+            name = hair_curly
+            range = { 0.35 0.75 }
+        }
+        0 = {
+            name = hair_afro
+            range = { 0.35 0.75 }
+        }
+        50 = {
+            name = hair_straight_thin_beard
+            range = { 0.35 0.75 }
+        }
+    }	
+}
+
+asian_turkic_enisey_kirghiz_19 = {
+	template = "asian_turkic_9_western"
+    using = "yenisei_kirghiz"
+
+	eye_color = {
+		### Brown Hues ###
+        
+        # EPE Darkest Red Brown Static
+        7 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darker Red Brown Static
+        7 = { 0.1 0.7 0.1 0.8 }
+        # EPE Dark Red Brown Static
+        5 = { 0.1 0.6 0.1 0.7 }
+        # EPE Red Brown Static
+        5 = { 0.1 0.5 0.1 0.6 }
+        # EPE Lighter Red Brown Static
+        5 = { 0.1 0.4 0.1 0.5 }
+        # EPE Light Red Brown Static
+        5 = { 0.1 0.3 0.1 0.4 }
+        # EPE Lightest Red Brown Static
+        5 = { 0.1 0.15 0.1 0.2 }
+
+        # EPE Darkest Wood Brown Static
+        7 = { 0.15 0.8 0.15 0.9 }
+        # EPE Darker Wood Brown Static
+        7 = { 0.15 0.7 0.15 0.8 }
+        # EPE Dark Wood Brown Static
+        5 = { 0.15 0.6 0.15 0.7 }
+        # EPE Wood Brown Static
+        5 = { 0.15 0.5 0.15 0.6 }
+        # EPE Lighter Wood Brown Static
+        5 = { 0.15 0.4 0.15 0.5 }
+        # EPE Light Wood Brown Static
+        5 = { 0.15 0.3 0.15 0.3 }
+        # EPE Lightest Wood Brown Static
+        5 = { 0.15 0.15 0.15 0.2 }
+		
+        ## Hazel Hues ##
+
+        # EPE Darkest Hazel Static 
+        3 = { 0.32 0.7 0.32 0.9 }
+        # EPE Darker Hazel Static 
+        4 = { 0.32 0.6 0.32 0.7 }
+        # EPE Hazel Static 
+        3 = { 0.32 0.4 0.32 0.6 }
+        # EPE Lighter Hazel Static 
+        2 = { 0.32 0.25 0.32 0.4 }
+
+		## Green Hues
+        
+        # EPE Darker Natural Green Static
+        1 = { 0.46 0.75 0.46 0.85 }
+        # EPE Dark Natural Green Static
+        2 = { 0.46 0.5 0.46 0.75 }
+        # EPE Natural Green Static
+        3 = { 0.46 0.25 0.46 0.5 }
+        # EPE Natural Green Static Light
+        2 = { 0.48 0.2 0.48 0.2 }
+		
+        ## Blue Hues ##
+
+        # EPE Darker Ocean Blue Static
+        1 = { 0.8 0.5 0.8 0.75 }
+        # EPE Dark Ocean Blue Static
+        3 = { 0.8 0.3 0.8 0.5 }
+        # EPE Ocean Blue Static
+        2 = { 0.8 0.2 0.8 0.3 }
+        # EPE Light Ocean Blue Static
+        1 = { 0.8 0.1 0.8 0.2 }
+
+        # EPE Darker Steel Blue Static
+        1 = { 0.85 0.5 0.9 0.75 }
+        # EPE Dark Steel Blue Static
+        3 = { 0.85 0.3 0.9 0.5 }
+        # EPE Steel Blue Static
+        2 = { 0.85 0.2 0.9 0.3 }
+        # EPE Light Steel Blue Static
+        1 = { 0.85 0.1 0.9 0.2 }
+	}
+
+	hair_color = {
+		# # Blonde
+		# 10 = { 0.25 0.2 0.75 0.25 }
+		# # Brown
+		# 40 = { 0.65 0.45 0.9 1.0 }
+		# # Red
+		# 10 = { 0.85 0.0 1.0 0.5 }
+		# Black
+		30 = { 0.01 0.9 0.5 0.99 }
+	}
+
+    gene_hair_type = {
+        15 = {
+            name = hair_straight
+            range = { 0.35 0.75 }
+        }
+        25 = {
+            name = hair_wavy
+            range = { 0.35 0.75 }
+        }
+        10 = {
+            name = hair_curly
+            range = { 0.35 0.75 }
+        }
+        0 = {
+            name = hair_afro
+            range = { 0.35 0.75 }
+        }
+        50 = {
+            name = hair_straight_thin_beard
+            range = { 0.35 0.75 }
+        }
+    }	
+}
+
+asian_turkic_enisey_kirghiz_20 = {
+	template = "asian_turkic_20_western"
+    using = "yenisei_kirghiz"
+
+	eye_color = {
+        ### Brown Hues ###
+        
+        # EPE Darkest Red Brown Static
+        9 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darker Red Brown Static
+        11 = { 0.1 0.7 0.1 0.8 }
+        # EPE Dark Red Brown Static
+        11 = { 0.1 0.6 0.1 0.7 }
+        # EPE Red Brown Static
+        9 = { 0.1 0.5 0.1 0.6 }
+        # EPE Lighter Red Brown Static
+        7 = { 0.1 0.4 0.1 0.5 }
+        # EPE Light Red Brown Static
+        5 = { 0.1 0.3 0.1 0.4 }
+        # EPE Lightest Red Brown Static
+        5 = { 0.1 0.15 0.1 0.2 }
+
+        # EPE Darkest Wood Brown Static
+        9 = { 0.15 0.8 0.15 0.9 }
+        # EPE Darker Wood Brown Static
+        11 = { 0.15 0.7 0.15 0.8 }
+        # EPE Dark Wood Brown Static
+        11 = { 0.15 0.6 0.15 0.7 }
+        # EPE Wood Brown Static
+        9 = { 0.15 0.5 0.15 0.6 }
+        # EPE Lighter Wood Brown Static
+        7 = { 0.15 0.4 0.15 0.5 }
+        # EPE Light Wood Brown Static
+        5 = { 0.15 0.2 0.15 0.3 }
+        # EPE Lightest Wood Brown Static
+        5 = { 0.15 0.15 0.15 0.2 }
+
+        ## Hazel Hues ##
+
+        # EPE Darkest Hazel Static 
+        3 = { 0.32 0.7 0.32 0.9 }
+        # EPE Darker Hazel Static 
+        2 = { 0.32 0.6 0.32 0.7 }
+        # EPE Hazel Static 
+        1 = { 0.32 0.4 0.32 0.6 }
+        # EPE Lighter Hazel Static 
+        1 = { 0.32 0.25 0.32 0.4 }
+
+        ## Green Hues
+        
+        # EPE Darker Natural Green Static
+        1 = { 0.46 0.75 0.46 0.85 }
+        # EPE Dark Natural Green Static
+        1 = { 0.46 0.5 0.46 0.75 }
+        # EPE Natural Green Static
+        1 = { 0.46 0.25 0.46 0.5 }
+        # EPE Natural Green Static Light
+        1 = { 0.48 0.2 0.48 0.2 }
+
+        ## Blue Hues ##
+
+        # EPE Darker Ocean Blue Static
+        1 = { 0.8 0.5 0.8 0.75 }
+        # EPE Dark Ocean Blue Static
+        1 = { 0.8 0.3 0.8 0.5 }
+        # EPE Ocean Blue Static
+        1 = { 0.8 0.2 0.8 0.3 }
+        # EPE Light Ocean Blue Static
+        1 = { 0.8 0.1 0.8 0.2 }
+
+        # EPE Darker Steel Blue Static
+        1 = { 0.85 0.5 0.9 0.75 }
+        # EPE Dark Steel Blue Static
+        1 = { 0.85 0.3 0.9 0.5 }
+        # EPE Steel Blue Static
+        1 = { 0.85 0.2 0.9 0.3 }
+        # EPE Light Steel Blue Static
+        1 = { 0.85 0.1 0.9 0.2 }
+	}
+
+	hair_color = {
+		# Red
+		20 = { 0.7 0.65 0.95 0.9 }
+		# Auburn
+		10 = { 0.8 0.65 0.95 0.9 }
+        # Brown
+		50 = { 0.65 0.75 0.65 0.9 }
+		# Black
+		26 = { 0.01 0.9 0.5 0.99 }
+		# Blonde 1
+		2 = { 0.25 0.2 0.6 0.55 }
+		# Blonde 2
+		2 = { 0.25 0.35 0.6 0.7 }
+	}
+
+    gene_hair_type = {
+        15 = {
+            name = hair_straight
+            range = { 0.35 0.75 }
+        }
+        25 = {
+            name = hair_wavy
+            range = { 0.35 0.75 }
+        }
+        10 = {
+            name = hair_curly
+            range = { 0.35 0.75 }
+        }
+        0 = {
+            name = hair_afro
+            range = { 0.35 0.75 }
+        }
+        50 = {
+            name = hair_straight_thin_beard
+            range = { 0.35 0.75 }
+        }
+    }	
+}

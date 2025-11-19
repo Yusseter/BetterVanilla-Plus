@@ -1,0 +1,177 @@
+﻿l_english:
+
+ cn_ordu_baliq: "Ordu-$City_OldTurkic$"
+ cn_ordu_baliq_adj: "Ordu-$City_OldTurkic$li"
+
+ cn_kharbalghas: "Kharbalghas"
+ cn_kharbalghas_adj: "Kharbalghasan"
+
+ cn_gokturk_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ cn_gokturk: "$e_gokturk_khaganate$" 
+ cn_gokturk_adj: "$e_gokturk_khaganate_adj$"
+
+ cn_toquz_oghuz_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ cn_toquz_oghuz: "$e_uyghur_khanate$" 
+ cn_toquz_oghuz_adj: "$e_uyghur_khanate_adj$"
+
+ cn_kirghiz_khanate_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ cn_kirghiz_khanate: "$e_kirghiz_khanate$"
+ cn_kirghiz_khanate_adj: "$e_kirghiz_khanate_adj$"
+
+ cn_great_liao_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+
+ BULGARIAN_EMPIRE: "Bulgaria"
+ BULGARIAN_EMPIRE_adj: "Bulgarian"
+
+ cn_greater_bulgaria: "Greater Bulgaria"
+ cn_greater_bulgaria_adj: "Bulgarian"
+
+ cn_greater_hungary: "Greater Hungary"
+ cn_greater_hungary_adj: "Hungarian"
+
+ cn_rum: "Kharsaniye"
+ cn_rum_adj: "Kharsan"
+
+ cn_harsianon: "Kharsanuos"
+ cn_harsianon_adj: "Kharsan"
+
+ cn_zengibar_kalesi: "Zengibar"
+ cn_zengibar_kalesi_adj: "Zengibarian"
+
+ d_soghd: "Sogdiana"
+ d_sogh_adj: "Sogdian"
+ 
+ k_rum: "Rûm"
+ k_rum_adj: "Roman"
+
+ k_pontic_steppe: "Pontic Steppe"
+ k_pontic_steppe_adj: "Pontic"
+
+ k_naiman: "Uluğaltay"
+ k_naiman_adj: "Altaian"
+ k_altai: "$k_naiman$"
+ k_altai_adj: "$k_naiman_adj$"
+
+ k_otuken: "Ötüken"
+ k_otuken_adj: "Ötüken"
+ k_mongolia: "$k_otuken$"
+ k_mongolia_adj: "$k_otuken_adj$"
+
+ k_buryatia: "Baikal"
+ k_buryatia_adj: "Baikalian"
+
+ e_kara_khitai: "Khotan"
+ e_kara_khitai_adj: "Khotanese"
+
+ d_otuken: "Orxon"
+ d_otuken_adj: "Orxonlu"
+ e_mongolia_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ e_mongolia: "Teŋiri El"
+ e_mongolia_adj: "Teŋirian"
+
+ e_uyghur_khanate_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ e_uyghur_khanate: "Toquz-Oghuz"
+ e_uyghur_khanate_adj: "Toquz-Oghuz"
+
+ e_rouran_khaganate_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ e_rouran_khaganate: "Rouran Khaganate"
+ e_rouran_khaganate_adj: "Rouran"
+
+ e_gokturk_khaganate_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ e_gokturk_khaganate: "$gokturk$ Khaganate"
+ e_gokturk_khaganate_adj: "$gokturk$"
+
+ b_abakan: "Lujba"
+ b_abakan_adj: "Lujban"
+ c_abakan: "$b_abakan$"
+ c_abakan_adj: "$b_abakan_adj$"
+
+ b_bolsho_kyzylkul: "Qïyağan-$City_OldTurkic$" # Khagan-Kirghiz
+ b_bolsho_kyzylkul_adj: "Qïyağan-$Citian_OldTurkic_adj$"
+ c_kyzylkul: "$b_bolsho_kyzylkul$"
+ c_kyzylkul_adj: "$b_bolsho_kyzylkul_adj$"
+ 
+ b_stoyanka: "Tumïš-$City_OldTurkic$" # Darand-Kirghiz
+ b_stoyanka_adj: "Tumïš-$Citian_OldTurkic_adj$"
+ c_stoyanka: "$b_stoyanka$"
+ c_stoyanka_adj: "$b_stoyanka_adj$"
+
+ b_arzhan: "Kämčik-$City_OldTurkic$" # Kemijkent
+ b_arzhan_adj: "Kämčik-$Citian_OldTurkic_adj$"
+ c_arzhan: "$b_arzhan$"
+ c_arzhan_adj: "$b_arzhan_adj$"
+
+ b_yangjibalik: "Yanğï-$City_OldTurkic$"
+ b_yangjibalik_adj: "Yanğï-$Citian_OldTurkic_adj$"
+ c_yangjibaliq: "$b_yangjibalik$"
+ c_yangjibaliq_adj: "$c_yangjibaliq_adj$"
+
+ b_beshbalik: "Beš-$City_OldTurkic$"
+ b_beshbalik_adj: "Beš-$Citian_OldTurkic_adj$"
+ c_beshbalik: "$b_beshbalik$"
+ c_beshbalik_adj: "$b_beshbalik_adj$"
+ d_beshbalik: "$c_beshbalik$"
+ d_beshbalik_adj: "$c_beshbalik_adj$"
+
+ b_otuken_city: "Oŋ-$City_OldTurkic$"
+ b_otuken_city_adj: "Oŋ-$Citian_OldTurkic_adj$"
+
+ b_ulaanbaatar: "Avurag"
+ b_ulaanbaatar_adj: "Avurgan"
+ c_ulaanbaatar: "$b_ulaanbaatar$"
+ c_ulaanbaatar_adj: "$b_ulaanbaatar_adj$"
+
+ c_yb_andir: "Andir"
+ c_yb_andir_adj: "Andirian"
+
+ b_yb_tougui_TEMP: "Tougui"
+ b_yb_tougui_TEMP_adj: "Touguian"
+
+ c_yb_lafak: "Lafak"
+ c_yb_lafak_adj: "Lafakan"
+
+ b_yb_mazar_tagh: "Mazar Tagh"
+ b_yb_mazar_adj: "Mazar Taghan"
+
+ b_yb_karadong: "Karadong"
+ b_yb_karadong_adj: "Karadongian"
+
+ b_yb_bujayi: "Bujayi"
+ b_yb_bujayi_adj: "Bujayian"
+
+ b_yb_magalek: "Magalek"
+ b_yb_magalek_adj: "Magalekian"
+
+ b_yb_lancheng: "Lancheng"
+ b_yb_lancheng_adj: "Lanchengese"
+
+ c_yb_sarysu: "Sarysu"
+ c_yb_sarysu_adj: "Sarysuan"
+
+ b_yb_belen_ana: "Belen-Ana"
+ b_yb_belen_ana_adj: "Belen-Anan"
+
+ b_yb_airbulat: "Airbulat"
+ b_yb_airbulat_adj: "Airbulatian"
+
+ b_yb_talmas_ata: "Talmas-Ata"
+ b_yb_talmas_ata_adj: "Talmas-Atan"
+
+ b_yb_ayni: "Ayni"
+ b_yb_ayni_adj: "Aynian"
+
+ LUTICI_CONFED: "$veletian_mpe_noun$ Confederation"
+ SORB_CONFED: "$sorbian$ Confederation"
+ OBORITE_CONFED: "$obotrite$ Confederation"
+ SCLAVENI_CONFED: "$sclaveni$ Confederation"
+ SAXON_CONFED: "$old_saxon$ Confederation"
+ AVAR_CONFED: "$avar$ Confederation"
+ LITH_CONFED: "$lithuanian$ Confederation"
+ PECH_CONFED: "$pecheneg$ Confederation"
+ CU_KI_CONFED: "$cuman$-$kipchak$ Confederation"
+ e_cuman_kipchak: "$CU_KI_CONFED$"
+ CUMANIACONFED: "$CU_KI_CONFED$"
+ CUMAN_CONFED: "$cuman$ Confederation"
+ KIPCHAK_CONFED: "$kipchak$ Confederation"
+ KIMEK_CONFED: "$kimek$ Confederation"
+ SAYAN_CONFED: "$heritage_sayan_altaic_name$ Confederation"

@@ -1,0 +1,94 @@
+template = {
+	basic_tamgha_template = {
+		pattern = "pattern_solid.dds"
+		color1 = list "normal_colors"
+		color2 = list "metal_colors"
+
+		colored_emblem = {
+			texture = list "base_tamgha_charge_list"
+			color1 = color2
+			color2 = color1
+			instance= { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
+		}
+	}
+	basic_tamgha_template_inverted = {
+		pattern = "pattern_solid.dds"
+		color1 = list "metal_colors"
+		color2 = list "normal_colors"
+
+		colored_emblem = {
+			texture = list "base_tamgha_charge_list"
+			color1 = color2
+			color2 = color1
+			instance= { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
+		}
+	}
+
+	triangle_tamgha_template = {
+		pattern = "pattern_triangle_01.dds"
+		color1 = list "normal_colors"
+		color2 = list "metal_colors"
+
+		colored_emblem = {
+			texture = list "base_tamgha_charge_list"
+			color1 = color2
+			color2 = color1
+			instance= { position = { 0.5 0.36 } scale = { 0.7 0.7 } }
+		}
+	}
+	triangle_tamgha_template_inverted = {
+		pattern = "pattern_triangle_01.dds"
+		color1 = list "metal_colors"
+		color2 = list "normal_colors"
+
+		colored_emblem = {
+			texture = list "base_tamgha_charge_list"
+			color1 = color2
+			color2 = color1
+			instance= { position = { 0.5 0.36 } scale = { 0.7 0.7 } }
+		}
+	}
+
+	vertical_tamgha_template = {
+		pattern = "pattern_vertical_split_01.dds"
+		color1 = list "normal_colors"
+		color2 = list "normal_colors"
+
+		colored_emblem = {
+			texture = list "base_tamgha_charge_list"
+			color1 = list "metal_colors"
+			color2 = list "metal_colors"
+			instance= { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
+		}
+	}
+	vertical_tamgha_template_inverted = {
+		pattern = "pattern_vertical_split_01.dds"
+		color1 = list "metal_colors"
+		color2 = list "metal_colors"
+
+		colored_emblem = {
+			texture = list "base_tamgha_charge_list"
+			color1 = list "normal_colors"
+			color2 = list "normal_colors"
+			instance= { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
+		}
+	}
+
+	barruly_tamgha_template = {
+		pattern = "pattern_barruly_12.dds"
+		color1 = list "normal_colors"
+		color2 = list "normal_colors"
+
+		colored_emblem = {
+			texture = list "base_tamgha_charge_list"
+			color1 = list "metal_colors"
+			color2 = list "metal_colors"
+			instance= { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
+		}
+	}
+	barruly_tamgha_template_clean = {
+		pattern = "pattern_barruly_12.dds"
+		color1 = list "normal_colors"
+		color2 = list "normal_colors"
+	}
+}

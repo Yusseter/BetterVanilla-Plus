@@ -1,43 +1,319 @@
-11100 = {
-	pattern= "pattern_triangle_01.dds"
-	color1=blue
-	color2=white
-	color3=red
-	colored_emblem={
-		color1=white
-		texture="ce_mongol_flame.dds"
-		instance={
-			position={ 0.500000 0.180000 }
-			scale={ 0.300000 0.300000 }
-		}
-	}
+e_gokturk_khaganate = 12269 # Gokturk Khaganate
 
-	colored_emblem={
-		color1=white
-		color2=white
-		texture="ce_moon_sun.dds"
-		instance={
-			position={ 0.500000 0.430000 }
-			scale={ 0.380000 0.380000 }
-			depth=1.010000
-		}
+e_uyghur_khanate = 1042190 # Uyghur Khaganate
+
+e_rouran_khaganate = { # Rouran Khaganate
+	pattern = "pattern_solid.dds"
+	color1 = "grey_dark"
+	color2 = "white"
+	colored_emblem = {
+		color1 = "white"
+		color2 = "grey_dark"
+		texture = "ce_tamgha_mongol_21.dds"
+		instance = { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
 	}
 }
 
-dynasty_yujiulu = { # Rouran Rulers, the Yujiulu clan
-	pattern = "pattern_triangle_01.dds"
+e_great_liao = { # Great Liao
+	pattern = "pattern_solid.dds"
+	color1 = "black"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_crescent.dds"
+		color1 = "yellow"
+		color2 = "black"
+		instance = { position = { 0.5 0.4 } scale = { 0.8 0.8 } }
+	}
+}
+
+e_kirghiz_khanate = { # Kirghiz Khaganate
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_tamgha_kyrgyz.dds"
+		color1 = "yellow"
+		color2 = "red"
+		instance = { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
+	}
+}
+#e_kirghiz_khanate = { # Kirghiz Khaganate
+#	pattern = "pattern_solid.dds"
+#	color1 = "red"
+#	color2 = "green"
+#	colored_emblem = {
+#		color1 = "yellow"
+#		texture = "ce_tamgha_oghuz_alayuntlu.dds"
+#		instance = { position = { 0.5 0.13 } scale = { 0.1 0.12 } }
+#	}
+#	colored_emblem = {
+#		color1 = "yellow"
+#		texture = "ce_vair_single.dds"
+#		instance = { position = { 0.5 0.36 } scale = { 0.05 0.5 } }
+#	}
+#	colored_emblem = {
+#		color1 = "yellow"
+#		texture = "ce_crescent_mask.dds"
+#		instance = { position = { 0.5 0.45 } scale = { 0.3 0.25 } }
+#		instance = { position = { 0.5 0.25 } scale = { 0.3 0.25 } }
+#	}
+#}
+
+d_altay = e_gokturk_khaganate # Kokaltay
+
+c_altay = { # Altay
+	pattern = "pattern_solid.dds"
+	color1 = "black"
+	color2 = "white"
+	colored_emblem = {
+		color1 = "white"
+		color2 = "black"
+		texture = "ce_tamgha_ashina.dds"
+		instance = { position = { 0.5 0.35 } scale = { 0.6 0.6 } }
+	}
+}
+
+d_khakass_hollow = e_kirghiz_khanate # Khakass Hollow
+#d_khakass_hollow = {
+#	pattern = "pattern_solid.dds"
+#	color1 = "red"
+#	color2 = "white"
+#	colored_emblem = {
+#		color1 = "white"
+#		texture = "ce_tamgha_kyrgyz.dds"
+#		instance = { position = { 0.5 0.33 } scale = { 0.55 0.55 } }
+#	}
+#}
+
+c_kyzylkul = { # Kyzylkul
+	pattern = "pattern_solid.dds"
+	color1 = "grey_dark"
+	color2 = "white"
+	colored_emblem = {
+		color1 = "white"
+		color2 = "grey_dark"
+		texture = "ce_tamgha_kyrgyz.dds"
+		instance = { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
+	}
+}
+
+k_mongolia = k_otuken # Otuken
+k_otuken = {
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_block_02.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
+	}
+	colored_emblem = {
+		texture = "ce_border_banner.dds"
+		color1 = "blue"
+		color2 = "blue"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
+	}
+	colored_emblem = {
+		texture = "ce_crescent.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.50 0.72 } scale = { 0.6 0.6 } }
+	}
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.50 0.565 } scale = { 0.4 0.4 } }
+	}
+	colored_emblem = {
+		texture = "ce_mongol_flame.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.50 0.26 } scale = { 0.6 0.6 } }
+	}
+}
+
+e_cuman_kipchak = { # Cuman-Kipchak Confederation
+	pattern = "pattern_solid.dds"
 	color1 = "blue_light"
+	color2 = "yellow"
+	colored_emblem = {
+		color1 = "yellow"
+		color2 = "blue_light"
+		texture = "ce_tamgha_sarkel_04.dds"
+		instance = { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
+	}
+}
+
+e_mongol_empire = { # Mongol Empire
+	pattern = "pattern_triangle_01.dds"
+	color1 = "blue"
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_mongol_bird.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.5 0.35 } scale = { 0.65 0.65 } }
+	}
+}
+
+k_syr_darya = { # Syr Darya
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_endless_knot.dds"
+		color1 = "red"
+		color2 = "yellow"
+		instance = { position = { 0.5 0.375 } scale = { 0.7 0.7 } }
+	}
+}
+
+e_kara_khitai = { # Kara Khitai
+	pattern = "pattern_solid.dds"
+	color1 = "black"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_flaming_jewel.dds"
+		color1 = "white"
+		color2 = "yellow"
+		instance = { position = { 0.50 0.375 } scale = { 0.575 0.575 } }
+	}
+	colored_emblem = {
+		texture = "ce_gankyil_chakra.dds"
+		color1 = "blue"
+		color2 = "blue"
+		instance = { position = { 0.5 0.4 } scale = { 0.275 0.275 } }
+	}
+	colored_emblem = {
+		texture = "ce_gankyil_chakra.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { position = { 0.5 0.4 } rotation = 120 scale = { 0.275 0.275 } }
+	}
+	colored_emblem = {
+		texture = "ce_gankyil_chakra.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.5 0.4 } rotation = 240 scale = { 0.275 0.275 } }
+	}
+}
+
+k_zhetysu = { # Zhetysu
+	pattern = "pattern_barruly_12.dds"
+	color1 = "red"
 	color2 = "blue_light"
+}
+
+k_naiman = { # Ulugaltay
+	pattern = "pattern_solid.dds"
+	color1 = "black"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_tamgha_roundel_frame.dds"
+		color1 = "yellow"
+		color2 = "white"
+		instance = { position = { 0.5 0.325 } scale = { 0.65 0.65 } }
+	}
+	colored_emblem = {
+		texture = "ce_tamgha_turkic_06.dds"
+		color1 = "black"
+		color2 = "yellow"
+		instance = { position = { 0.5 0.325 } scale = { 0.65 0.65 } }
+	}
+}
+
+d_ovorkhangai = { # Ovorkhangai
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "black"
+	colored_emblem = {
+		texture = "ce_endless_knot_square.dds"
+		color1 = "black"
+		color2 = "black"
+		instance= { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
+	}
+}
+
+d_ogrash = { # Ogrash
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_tamgha_seyit.dds"
+		color1 = "white"
+		color2 = "red"
+		instance= { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
+	}
+}
+
+c_khentii = { # Khentii
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "black"
+	colored_emblem = {
+		texture = "ce_tamgha_mongol_15.dds"
+		color1 = "black"
+		color2 = "yellow"
+		instance= { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
+	}
+}
+
+c_emil = { # Emil
+	pattern = "pattern_solid.dds"
+	color1 = "black"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_boar_passant.dds"
+		color1 = "white"
+		color2 = "black"
+		instance= { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
+	}
+}
+
+11100 = { # Borjigin Dynasty
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "white"
+	colored_emblem = {
+		color1 = "white"
+		color2 = "blue"
+		texture = "ce_mongol_flame.dds"
+		instance = { position = { 0.5 0.185 } scale = { 0.475 0.475 } }
+	}
+	colored_emblem = {
+		color1 = "white"
+		color2 = "white"
+		texture = "ce_moon_sun.dds"
+		instance = { position = { 0.5 0.53 } scale = { 0.475 0.475 } }
+	}
+}
+
+dynasty_yujiulu = { # Yujiulu Dynasty
+	pattern = "pattern_solid.dds"
+	color1 = "blue_light"
+	color2 = "black"
 	colored_emblem = {
 		texture = "ce_tamgha_turkic_03.dds"
 		color1 = "black"
-		color2 = "black"
-		instance = { position = { 0.5 0.35 } scale = { 0.65 0.65 }  }
+		color2 = "blue_light"
+		instance = { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
 	}
 }
 
-#12269 = { # Ashina, dynn_Ashina
-#	pattern = "pattern_triangle_01.dds"
+12269 = { # Ashina Dynasty
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	color2 = "white"
+	colored_emblem = {
+		color1 = "black"
+		texture = "ce_tamgha_ashina.dds"
+		instance = { position = { 0.5 0.35 } scale = { 0.6 0.6 } }
+	}
+}
+#12269 = {
+#	pattern = "pattern_solid.dds"
 #	color1 = "blue"
 #	color2 = "white"
 #	colored_emblem = {
@@ -46,59 +322,455 @@ dynasty_yujiulu = { # Rouran Rulers, the Yujiulu clan
 #		instance = { position = { 0.5 0.28 } scale = { 0.44 0.44 } }
 #	}
 #}
+#12269 = {
+#	pattern = "pattern_solid.dds"
+#	color1 = "yellow"
+#	colored_emblem = {
+#		texture = "cat_wolf11_wappen.dds"
+#		color1 = "black"
+#		color2 = "red"
+#		color3 = "white"
+#		instance = { position = { 0.48 0.48 } scale = { 0.85 0.85 } }		
+#	}
+#	colored_emblem = {
+#		texture = "ce_bow_single.dds"
+#		color1 = "black"
+#		instance = { position = { 0.35 0.64 } rotation = 60 scale = { 0.55 -0.55 } }		
+#	}
+#	colored_emblem = {
+#		texture = "ce_crescent_mask_02.dds"
+#		color1 = "black"
+#		instance = { position = { 0.725 0.21 } scale = { 0.35 0.35 } }
+#		instance = { position = { 0.715 0.21 } scale = { 0.35 0.35 } }	
+#		instance = { position = { 0.72 0.215 } scale = { 0.35 0.35 } }	
+#		instance = { position = { 0.72 0.205 } scale = { 0.35 0.35 } }	
+#	}	
+#	colored_emblem = {
+#		texture = "ce_crescent_mask_02.dds"
+#		color1 = "white"
+#		instance = { position = { 0.72 0.21 } scale = { 0.35 0.35 } }		
+#	}	
+#}
 
-house_bulanid = { # Bulanid, dynn_Ashina
-	pattern = "pattern_triangle_01.dds"
+house_siniticized_ashina = { # Shi Dynasty
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	colored_emblem = {
+		color1 = "black"
+		texture = "ce_seal_name_shi_53f2.dds"
+		instance = { scale = { 0.55 0.55 } }
+	}
+	colored_emblem = {
+		color1 = "yellow"
+		texture = "ce_seal_pictorial_frame_gourd.dds"
+		instance = { scale = { -0.75 0.75 } }
+	}
+}
+#house_siniticized_ashina = {
+#	pattern = "pattern_solid.dds"
+#	color1 = "red"
+#	color2 = "red"
+#	color3 = "red"
+#	colored_emblem = {
+#		texture = "baijia_out_circle.dds"
+#	}
+#	colored_emblem = {
+#		texture = "baijia_circle.dds" 
+#		color1 = "yellow"
+#	}
+#	colored_emblem = {
+#		color1 = "black"
+#		texture = "baijia63.dds"
+#	}
+#}
+
+house_bulanid = { # Bulanid House
+	pattern = "pattern_solid.dds"
 	color1 = "yellow"
 	color2 = "red"
 	colored_emblem = {
-		texture = "ce_attire.dds"
+		texture = "ce_tamgha_sarkel_01.dds"
 		color1 = "red"
-		instance = { position = { 0.5 0.33 } scale = { 0.55 0.55 }  }		
-	}
-	colored_emblem = {
-		texture = "ce_star_hexagram.dds"
-		color1 = "red"
-		instance = { position = { 0.5 0.14 } scale = { 0.2 0.2 }  }		
+		instance = { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
 	}	
 }
+#house_bulanid = {
+#	pattern = "pattern_solid.dds"
+#	color1 = "yellow"
+#	color2 = "red"
+#	colored_emblem = {
+#		texture = "ce_attire.dds"
+#		color1 = "red"
+#		instance = { position = { 0.5 0.33 } scale = { 0.55 0.55 } }		
+#	}
+#	colored_emblem = {
+#		texture = "ce_star_hexagram.dds"
+#		color1 = "red"
+#		instance = { position = { 0.5 0.14 } scale = { 0.2 0.2 } }		
+#	}	
+#}
 
 1042190 = { # Yaghlakar Dynasty
 	pattern = "pattern_triangle_01.dds"
-	color1 = "blue"
+	color1 = "blue_light"
 	color2 = "yellow"
 	colored_emblem = {
 		color1 = "white"
 		color2 = "white"
 		texture = "ce_tamgha_yaglakar.dds"
-		instance = { position = { 0.5 0.28 } scale = { 0.5 0.5 } }
+		instance = { position = { 0.5 0.35 } scale = { 0.6 0.6 } }
 	}
 }
 
-uyghur_yaglakar = { # Ediz Dynasty
-	pattern = "pattern_triangle_01.dds"
+1045083 = uyghur_yaglakar # Ediz Dynasty
+uyghur_yaglakar = {
+	pattern = "pattern_solid.dds"
 	color1 = "red"
 	color2 = "yellow"
 	colored_emblem = {
 		color1 = "yellow"
-		texture = "ce_tamgha_turkic_16.dds"
-		instance = { position = { 0.5 0.3 } scale = { 0.55 0.55 } }
+		color2 = "red"
+		texture = "ce_tamgha_chagatayid.dds"
+		instance = { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
 	}
 }
 
-101864 = { # Karakhanid, dynn_Karakhanid
-	pattern = "pattern_triangle_01.dds"
+house_karakhanid = 101864 # Karakhanid House
+101864 = {
+	pattern = "pattern_solid.dds"
 	color1 = "yellow"
-	color2 = "yellow"
+	color2 = "white"
 	colored_emblem = {
 		color1 = "white"
+		color2 = "yellow"
 		texture = "ce_tamgha_yelu.dds"
+		instance = { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
+	}
+}
+
+2001156 = { # Are Dynasty
+	pattern = "pattern_vertical_split_01.dds"
+	color1 = "red"
+	color2 = "green"
+	colored_emblem = {
+		color1 = "yellow"
+		color2 = "yellow"
+		texture = "ce_tamgha_turkic_12.dds"
+		instance = { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
+	}
+}
+#2001156 = {
+#	pattern = "pattern_solid.dds"
+#	color1 = "white"
+#	color2 = "black"
+#	colored_emblem = {
+#		color1 = "black"
+#		color2 = "white"
+#		texture = "ce_tamgha_enisey.dds"
+#		instance = { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
+#	}
+#}
+
+house_yinanchu = { # Argaa House
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	color2 = "black"
+	colored_emblem = {
+		color1 = "black"
+		color2 = "white"
+		texture = "ce_tamgha_enisey.dds"
+		instance = { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
+	}
+}
+#house_yinanchu = {
+#	pattern = "pattern_solid.dds"
+#	color1 = "white"
+#	color2 = "blue"
+#	colored_emblem = {
+#		color1 = "blue"
+#		color2 = "blue"
+#		texture = "ce_moon_flame.dds"
+#		instance = { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
+#	}
+#}
+
+dynasty_topek = { # Tepec Dynasty
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "black"
+	colored_emblem = {
+		color1 = "black"
+		color2 = "yellow"
+		texture = "ce_tamgha_turkic_19.dds"
+		instance = { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
+	}
+}
+
+1040063 = { # Hosa Dynasty of Kurebir
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	color2 = "black"
+	colored_emblem = {
+		color1 = "black"
+		color2 = "white"
+		texture = "ce_tamgha_togskol.dds"
+		instance = { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
+	}
+}
+
+dynasty_uar = { # Uar Dynasty
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "yellow"
+	colored_emblem = {
+		color1 = "yellow"
+		color2 = "red"
+		texture = "ce_tamgha_mongol_20.dds"
+		instance = { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
+	}
+}
+#dynasty_uar = {
+#	pattern = "pattern_solid.dds"
+#	color1 = "white"
+#	color2 = "black"
+#	colored_emblem = {
+#		color1 = "red"
+#		color2 = "black"
+#		texture = "ce_tamgha_roundel_frame.dds"
+#		instance = { position = { 0.5 0.3 } scale = { 0.4 0.4 } }
+#	}
+#	colored_emblem = {
+#		color1 = "yellow"
+#		color2 = "white"
+#		texture = "ce_tamgha_mongol_20.dds"
+#		instance = { position = { 0.5 0.3 } scale = { 0.25 0.25 } }
+#	}
+#	colored_emblem = {
+#		color1 = "black"
+#		color2 = "yellow"
+#		texture = "ce_african_frame_04.dds"
+#		instance = { position = { 0.5 0.31 } scale = { 0.4 0.4 } }
+#	}
+#}
+
+1045082 = { # Liao Dynasty
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_buddhist_moon.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.5 0.3 } scale = { 0.35 0.35 } }
+	}
+	colored_emblem = {
+		texture = "ce_crescent.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 0.6 0.6 } }
+	}
+}
+
+1042048 = { # Toksoba Dynasty
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "red"
+	colored_emblem = {
+		color1 = "red"
+		color2 = "yellow"
+		texture = "ce_tamgha_mongol_02.dds"
+		instance = { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
+	}
+}
+
+1042049 = { # Urusoba Dynasty
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	color2 = "red"
+	colored_emblem = {
+		color1 = "red"
+		color2 = "white"
+		texture = "ce_tamgha_togan.dds"
+		instance = { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
+	}
+}
+
+1000102464 = { # Oren Dynasty
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "yellow"
+	colored_emblem = {
+		color1 = "yellow"
+		color2 = "red"
+		texture = "ce_tamgha_oghuz_cavuldur.dds"
+		instance = { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
+	}
+}
+
+698 = { # Terteroba Dynasty
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "red"
+	colored_emblem = {
+		color1 = "red"
+		color2 = "yellow"
+		texture = "ce_tamgha_catal.dds"
+		instance = { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
+	}
+}
+
+100542 = { # Gutkeled Dynasty
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "yellow"
+	colored_emblem = {
+		color1 = "yellow"
+		color2 = "red"
+		texture = "ce_tamgha_pecheneg.dds"
+		instance = { position = { 0.5 0.35 } scale = { 0.65 0.65 } rotation = 270 }
+	}
+}
+
+2001159 = { # Guchugud Dynasty
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "yellow"
+	colored_emblem = {
+		color1 = "yellow"
+		color2 = "red"
+		texture = "ce_tamgha_mongol_24.dds"
+		instance = { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
+	}
+}
+
+1041002 = { # Kereyid Dynasty
+	pattern = "pattern_triangle_01.dds"
+	color1 = "red"
+	color2 = "blue_light"
+	colored_emblem = {
+		color1 = "yellow"
+		color2 = "yellow"
+		texture = "ce_nestorian_cross.dds"
+		instance = { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
+	}
+}
+
+mpo_dynasty_1 = { # Jadaran Dynasty
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	color2 = "blue"
+	colored_emblem = {
+		color1 = "blue"
+		color2 = "white"
+		texture = "ce_mongol_bird.dds"
 		instance = { position = { 0.5 0.35 } scale = { 0.65 0.65 } }
 	}
 }
 
-house_alid = { # Alid, Karakhanid, (dynn_Karakhanid, 101864)
-	pattern = "pattern_triangle_01.dds"
+214010 = { # Xiao Dynasty
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "white"
+	colored_emblem = {
+		color1 = "white"
+		color2 = "red"
+		texture = "ce_xiao.dds"
+		instance = { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
+	}
+}
+
+1040062 = { # Qutlugh Dynasty of Kulug Bagha
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	color2 = "red"
+	colored_emblem = {
+		color1 = "red"
+		color2 = "white"
+		texture = "ce_tamgha_turkic_16.dds"
+		instance = { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
+	}
+}
+
+2001160 = { # Betegin Dynasty
+	pattern = "pattern_solid.dds"
+	color1 = "black"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_cross_patonce.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
+	}
+	colored_emblem = {
+		texture = "ce_block_02.dds"
+		color1 = "black"
+		color2 = "black"
+		instance = { position = { 0.75 0.35 } rotation = 45 scale = { 0.0825 0.0825 } }
+		instance = { position = { 0.25 0.35 } rotation = 45 scale = { 0.0825 0.0825 } }
+		instance = { position = { 0.5 0.6 } rotation = 45 scale = { 0.0825 0.0825 } }
+		instance = { position = { 0.5 0.11 } rotation = 45 scale = { 0.0825 0.0825 } }
+	}
+	colored_emblem = {
+		texture = "ce_circle_mask.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { position = { 0.75 0.35 } scale = { 0.066 0.066 } }
+		instance = { position = { 0.25 0.35 } scale = { 0.066 0.066 } }
+		instance = { position = { 0.5 0.6 } scale = { 0.066 0.066 } }
+		instance = { position = { 0.5 0.11 } scale = { 0.066 0.066 } }
+	}
+}
+
+9561 = { # Place Holder
+	pattern = "pattern_solid.dds"
+	color1 = "black"
+	color2 = "yellow"
+	color3 = "blue"
+	colored_emblem = {
+		color1 = "yellow"
+		color2 = "blue"
+		texture = "ce_ordinary_bend_dexter_5.dds"
+	}
+}
+
+house_alavid = { # Place Holder
+	pattern = "pattern_solid.dds"
+	color1 = "black"
+	color2 = "red"
+	color3 = "yellow"
+	colored_emblem = {
+		color1 = "yellow"
+		color2 = "white"
+		texture = "ce_polylobe_plain_frame.dds"
+		instance = { position = { 0.5 0.48 } scale = { 0.75 0.75 } }
+	}
+	colored_emblem = {
+		color1 = "black"
+		color2 = "black"
+		texture = "ce_rosetta_04.dds"
+		instance = { position = { 0.5 0.48 } scale = { 0.7 0.7 } }
+	}
+}
+
+1060027 = { # Place Holder
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	color2 = "blue"
+	color3 = "white"
+	colored_emblem = {
+		color1 = "white"
+		color2 = "white"
+		texture = "ce_block_02.dds"
+	}
+	colored_emblem = {
+		color1 = "white"
+		color2 = "blue"
+		texture = "ce_african_pattern_dancetty_04.dds"
+	}
+}
+
+turkic_Sebukid = { # Place Holder
+	pattern = "pattern_solid.dds"
 	color1 = "red"
 	color2 = "red"
 	colored_emblem = {
@@ -134,339 +806,5 @@ house_alid = { # Alid, Karakhanid, (dynn_Karakhanid, 101864)
 		color2 = "red"
 		texture = "ce_mena_sun.dds"
 		instance = { position = { 0.5 0.27 } scale = { 0.35 0.35 } }
-	}
-}
-
-2001156 = { # Are Dynasty
-	pattern = "pattern_triangle_01.dds"
-	color1 = "white"
-	color2 = "black"
-	colored_emblem = {
-		color1 = "black"
-		texture = "ce_tamgha_enisey.dds"
-		instance = { position = { 0.5 0.22 } scale = { 0.61 0.61 } }
-	}
-}
-
-dynasty_sol = { # Sol Dynasty
-	pattern = "pattern_triangle_01.dds"
-	color1 = "yellow"
-	color2 = "black"
-	colored_emblem = {
-		color1 = "black"
-		texture = "ce_tamgha_alp_sol_topek.dds"
-		instance = { position = { 0.5 0.28 } scale = { 0.6 0.6 } }
-	}
-}
-
-#2001156 = { # Are Dynasty
-#	pattern = "pattern_triangle_01.dds"
-#	color1 = "red"
-#	color2 = "red"
-#	colored_emblem = {
-#		color1 = "yellow"
-#		texture = "ce_circle_mask.dds"
-#		instance = { position = { 0.5 0.235 } scale = { 0.25 0.25 } }
-#	}
-#	colored_emblem = {
-#		color1 = "red"
-#		texture = "ce_circle_mask.dds"
-#		instance = { position = { 0.5 0.235 } scale = { 0.21 0.21 } }
-#	}
-#	colored_emblem = {
-#		color1 = "yellow"
-#		texture = "ce_circle_mask.dds"
-#		instance = { position = { 0.5 0.235 } scale = { 0.04 0.04 } }
-#	}
-#	colored_emblem = {
-#		color1 = "yellow"
-#		texture = "ce_tamgha_mongol_19.dds"
-#		instance = { position = { 0.5 0.35 } scale = { 0.55 0.55 } }
-#	}
-#}
-
-#2001156 = { # Are Dynasty
-#	pattern = "pattern_triangle_01.dds"
-#	color1 = "white"
-#	color2 = "white"
-#	colored_emblem = {
-#		color1 = "yellow"
-#		texture = "ce_writing_barsulu.dds"
-#		instance = { position = { 0.49 0.2 } scale = { 0.65 0.65 } }
-#	}
-#	#colored_emblem = {
-#	#	color1 = "yellow"
-#	#	texture = "ce_crescent_mask.dds"
-#	#	instance = { scale = { 0.36 0.3 } }
-#	#}
-#	#colored_emblem = {
-#	#	color1 = "yellow"
-#	#	texture = "ce_tamgha_oghuz_alayuntlu.dds"
-#	#	instance = { position = { 0.5 0.35 } scale = { 0.1 0.12 } }
-#	#}
-#	#colored_emblem = {
-#	#	color1 = "yellow"
-#	#	texture = "ce_vair_single.dds"
-#	#	instance = { position = { 0.5 0.53 } scale = { 0.05 0.4 } }
-#	#}
-#}
-
-house_areid = { # Are, 2001156 dynn_are
-	pattern = "pattern_triangle_01.dds"
-	color1 = "red"
-	color2 = "white"
-	colored_emblem = {
-		color1 = "yellow"
-		texture = "ce_circle_mask.dds"
-		instance = { position = { 0.5 0.215 } scale = { 0.04 0.04 } }
-	}
-	colored_emblem = {
-		color1 = "yellow"
-		texture = "ce_pagan_circle_frame.dds"
-		instance = { position = { 0.5 0.215 } scale = { 0.335 0.335 } }
-	}
-	colored_emblem = {
-		color1 = "yellow"
-		texture = "ce_tamgha_mongol_19.dds"
-		instance = { position = { 0.5 0.33 } scale = { 0.55 0.55 } }
-	}
-}
-
-house_argaa = { # Argid, 2001156 dynn_are
-	pattern = "pattern_triangle_01.dds"
-	color1 = "white"
-	color2 = "blue"
-	colored_emblem = {
-		color1 = "green"
-		color2 = "green"
-		texture = "ce_moon_flame.dds"
-		instance = { position = { 0.5 0.33 } scale = { 0.55 0.55 } }
-	}
-}
-
-1040063 = { # Hosa Dynasty, Dynasty of Jueluowu (Kurebir)
-	pattern = "pattern_triangle_01.dds"
-	color1 = "white"
-	color2 = "blue"
-	colored_emblem = {
-		color1 = "black"
-		texture = "ce_tamgha_togskol.dds"
-		instance = { position = { 0.5 0.33 } scale = { 0.55 0.55 } }
-	}
-}
-
-house_kokotoyid = { # Kokotoyid House of Barsulu Dynasty
-	pattern = "pattern_triangle_01.dds"
-	color1 = "white"
-	color2 = "black"
-	colored_emblem = {
-		color1 = "black"
-		texture = "ce_tamgha_enisey.dds"
-		instance = { position = { 0.5 0.22 } scale = { 0.61 0.61 } }
-	}
-}
-
-dynasty_uar = { # dynn_Uar
-	pattern = "pattern_triangle_01.dds"
-	color1 = "red"
-	color2 = "yellow"
-	colored_emblem = {
-		color1 = "yellow"
-		color2 = "white"
-		texture = "ce_tamgha_mongol_20.dds"
-		instance = { position = { 0.5 0.33 } scale = { 0.55 0.55 } }
-	}
-}
-
-#dynasty_uar = { # dynn_Uar
-#	pattern = "pattern_triangle_01.dds"
-#	color1 = "white"
-#	color2 = "black"
-#	colored_emblem = {
-#		color1 = "red"
-#		color2 = "black"
-#		texture = "ce_tamgha_roundel_frame.dds"
-#		instance = { position = { 0.5 0.3 } scale = { 0.4 0.4 } }
-#	}
-#	colored_emblem = {
-#		color1 = "yellow"
-#		color2 = "white"
-#		texture = "ce_tamgha_mongol_20.dds"
-#		instance = { position = { 0.5 0.3 } scale = { 0.25 0.25 } }
-#	}
-#	colored_emblem = {
-#		color1 = "black"
-#		color2 = "yellow"
-#		texture = "ce_african_frame_04.dds"
-#		instance = { position = { 0.5 0.31 } scale = { 0.4 0.4 } }
-#	}
-#}
-
-e_uyghur_khanate = {
-	pattern = "pattern_triangle_01.dds"
-	color1 = "blue_light"
-	color2 = "yellow"
-	colored_emblem = {
-		color1 = "white"
-		color2 = "white"
-		texture = "ce_tamgha_yaglakar.dds"
-		instance = { position = { 0.5 0.28 } scale = { 0.5 0.5 } }
-	}
-}
-
-e_gokturk_khaganate = { # Gokturk Khaganate
-	pattern = "pattern_triangle_01.dds"
-	color1 = "white"
-	color2 = "white"
-	colored_emblem = {
-		color1 = "black"
-		texture = "ce_tamgha_ashina.dds"
-		instance = { position = { 0.5 0.35 } scale = { 0.55 0.55 } }
-	}
-}
-
-d_altay = e_gokturk_khaganate
-
-c_altay = {
-	pattern = "pattern_triangle_01.dds"
-	color1 = "black"
-	color2 = "black"
-	colored_emblem = {
-		color1 = "white"
-		texture = "ce_tamgha_ashina.dds"
-		instance = { position = { 0.5 0.35 } scale = { 0.55 0.55 } }
-	}
-}
-
-e_rouran_khaganate = { # Rouran Khaganate
-	pattern = "pattern_triangle_01.dds"
-	color1 = rgb { 32 39 38 }
-	color2 = rgb { 85 87 86 }
-	colored_emblem = {
-		color1 = "white"
-		texture = "ce_tamgha_mongol_21.dds"
-		instance = { position = { 0.5 0.33 } scale = { 0.55 0.55 } }
-	}
-}
-
-e_great_liao = {
-	pattern = "pattern_triangle_01.dds"
-	color1 = "black"
-	color2 = "black"
-	colored_emblem = {
-		texture = "ce_crescent.dds"
-		color1 = "yellow"
-		instance = { position = { 0.5 0.33 } scale = { 0.7 0.7 }  }
-	}
-}
-
-e_kirghiz_khanate = { # Kirghiz Khaganate
-	pattern = "pattern_triangle_01.dds"
-	color1 = "red"
-	color2 = "blue"
-	colored_emblem = {
-		texture = "ce_tamgha_kyrgyz.dds"
-		color1 = "yellow"
-		instance = { position = { 0.5 0.32 } scale = { 0.6 0.6 } }
-	}
-}
-
-#e_kirghiz_khanate = { # Kirghiz Khaganate
-#	pattern = "pattern_triangle_01.dds"
-#	color1 = "green"
-#	color2 = "red"
-#	colored_emblem = {
-#		color1 = "yellow"
-#		texture = "ce_tamgha_oghuz_alayuntlu.dds"
-#		instance = { position = { 0.5 0.13 } scale = { 0.1 0.12 } }
-#	}
-#	colored_emblem = {
-#		color1 = "yellow"
-#		texture = "ce_vair_single.dds"
-#		instance = { position = { 0.5 0.36 } scale = { 0.05 0.5 } }
-#	}
-#	colored_emblem = {
-#		color1 = "yellow"
-#		texture = "ce_crescent_mask.dds"
-#		instance = { position = { 0.5 0.45 } scale = { 0.3 0.25 } }
-#		instance = { position = { 0.5 0.25 } scale = { 0.3 0.25 } }
-#	}
-#}
-
-k_otuken = {
-	pattern = "pattern_solid.dds"
-	color1 = "blue"
-	color2 = "yellow"
-	colored_emblem = {
-		texture = "ce_block_02.dds"
-		color1 = "red"
-		color2 = "red"
-		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
-	}
-	colored_emblem = {
-		texture = "ce_border_banner.dds"
-		color1 = "blue"
-		color2 = "blue"
-		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
-	}
-	colored_emblem = {
-		texture = "ce_crescent.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { position = { 0.50 0.72 } scale = { 0.6 0.6 }  }
-	}
-	colored_emblem = {
-		texture = "ce_circle.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { position = { 0.50 0.565 } scale = { 0.4 0.4 }  }
-	}
-	colored_emblem = {
-		texture = "ce_mongol_flame.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { position = { 0.50 0.26 } scale = { 0.6 0.6 }  }
-	}
-}
-
-d_khakass_hollow = e_kirghiz_khanate
-
-#d_khakass_hollow = { # Khakass Hollow
-#	pattern = "pattern_triangle_01.dds"
-#	color1 = "red"
-#	color2 = "white"
-#	colored_emblem = {
-#		color1 = "white"
-#		texture = "ce_tamgha_kyrgyz.dds"
-#		instance = { position = { 0.5 0.33 } scale = { 0.55 0.55 } }
-#	}
-#}
-
-c_abakan = { # Abakan
-	pattern = "pattern_triangle_01.dds"
-	color1 = "green"
-	color2 = "white"
-	colored_emblem = {
-		color1 = "white"
-		texture = "ce_tamgha_kyrgyz.dds"
-		instance = { position = { 0.5 0.33 } scale = { 0.55 0.55 } }
-	}
-}
-
-1045082 = { # Liao
-	pattern = "pattern_solid.dds"
-	color1 = "blue"
-	color2 = "white"
-	colored_emblem = {
-		texture = "ce_buddhist_moon.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { position = { 0.5 0.30 } scale = { 0.32 0.32 }  }
-	}
-	colored_emblem = {
-		texture = "ce_crescent.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { position = { 0.5 0.45 } scale = { 0.5 0.5 }  }
 	}
 }

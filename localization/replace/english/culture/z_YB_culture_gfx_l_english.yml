@@ -1,0 +1,52 @@
+﻿l_english:
+
+# Middle Eastern
+ mena_gfx: "Middle Eastern"
+ mena_unit_gfx: "$mena_gfx$"
+ mena_building_gfx: "$mena_gfx$"
+ mena_clothing_gfx: "$mena_gfx$"
+ mena_group_clothing_gfx: "$mena_gfx$"
+
+# Steppe
+ steppe_gfx: "Steppe"
+ mongol_gfx: "Mongolian"
+ mongol_unit_gfx: "$mongol_gfx$"
+ mongol_clothing_gfx: "$mongol_gfx$"
+ turkic_gfx: "$turk$ic"
+ turkic_clothing_gfx: "$turkic_gfx$"
+ epe_western_turk_clothing_gfx: "Western $turkic_gfx$"
+ epe_eastern_turk_clothing_gfx: "Eastern $turkic_gfx$"
+
+# Siberian
+ siberian_gfx: "Siberian"
+ ugro_permian_clothing_gfx: "$siberian_gfx$"
+ ugro_permian_group_coa_gfx: "$siberian_gfx$"
+ yb_siberian_steppe_clothing_gfx: "$siberian_gfx$-$steppe_gfx$"
+
+# Turkmen
+ seljuk_gfx: "$persian_turkish$"
+ epe_seljuk_clothing_gfx: "$seljuk_gfx$"
+ seljuk_unit_gfx: "$seljuk_gfx$"
+ turkish_building_gfx: "$seljuk_gfx$"
+
+# South East Asian
+ southeast_asian_gfx: "South East Asian"
+ burman_group_coa_gfx: "$southeast_asian_gfx$"
+
+# Sinitic
+ sinitic_gfx: "Sinitic"
+ chinese_group_coa_gfx: "$sinitic_gfx$"
+
+# Egyptian
+ egyptian_gfx: "Egyptian"
+ egyptian_group_coa_gfx: "$egyptian_gfx$"
+
+# Latin
+ latin_gfx: ""
+ latin_group_coa_gfx: ""
+
+# Others
+ yb_timurid_clothing_gfx: "$tajik$"
+ epe_sino_iranian_clothing_gfx: "$heritage_sakan_name$"
+ epe_roman_clothing_gfx: "$roman$"
+ yb_siberian_nomad_clothing_gfx: "$yakut$"

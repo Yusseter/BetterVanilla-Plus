@@ -18,36 +18,6 @@
 				template = mpo_mongol_hairstyles
 				accessory = m_hair_mpo_mongol_03
 			}
-			accessory = {
-				mode = add
-				gene = legwear
-				template = mena_nobility_legwear
-				accessory = male_legwear_secular_mena_nobility_01
-			}
-			accessory = {
-				mode = add
-				gene = clothes
-				template = mpo_mongol_high_nobility_clothes
-				accessory = m_clothes_sec_mpo_mongol_nob_01_hi
-			}
-			accessory = {
-				mode = add
-				gene = headgear
-				template = fp3_turkic_common
-				accessory = male_Turkic_Fur_Cap_02
-			}
-			#accessory = {
-			#	mode = add
-			#	gene = headgear
-			#	template = mpo_mongol_commoner
-			#	accessory = m_headgear_sec_mpo_mongol_com_01
-			#}
-			#accessory = {
-			#	mode = add
-			#	gene = headgear
-			#	template = cfp_turkic_high_nobility
-			#	accessory = male_headgears_secular_turkic_high_cuman_nobility_02
-			#}
         }
         weight = {
             base = 0
@@ -56,39 +26,68 @@
                 exists = this
                 exists = character:303244
                 this = character:303244
-				highest_held_title_tier <= tier_duchy
+                age >= 18
+            }
+        }
+    }
+    bookmark_nomads_kokotoy_303244_titular = {
+        dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = mena_nobility_legwear
+				accessory = male_legwear_secular_mena_nobility_01
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = fp3_turkic_royalty
+				accessory = Male_Turkic_Eagle_Crown_01
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+			}
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+                exists = this
+                exists = character:303244
+                this = character:303244
+                age >= 18
+				highest_held_title_tier >= tier_kingdom
             }
         }
     }
 
-    bilge_khagan_ashina_41_hair = {
+    bilge_khagan_ashina_41 = {
         dna_modifiers = {
+            accessory = {
+				mode = add
+				gene = beards
+				template = turkic_thin_beards_straight
+				accessory = m_beard_mpo_mongol_04
+			}
 			accessory = {
 				mode = add
 				gene = hairstyles
 				template = turkic_hairstyles_straight
 				accessory = male_hair_turkic_01
 			}
-        }
-        weight = {
-            base = 0
-            modifier = {
-                add = 1000
-                exists = this
-                exists = character:ashina_41
-                this = character:ashina_41
-            }
-        }
-    }
-
-    bilge_khagan_ashina_41_crown = {
-        dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = headgear
 				template = fp3_turkic_imperial
 				accessory = Male_Turkic_Eagle_Crown_01
 			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+			}
         }
         weight = {
             base = 0
@@ -97,93 +96,24 @@
                 exists = this
                 exists = character:ashina_41
                 this = character:ashina_41
-				highest_held_title_tier = tier_empire
-            }
-        }
-    }
-
-    bookmark_nomads_saru_302783 = {
-        dna_modifiers = {
-            accessory = {
-				mode = add
-				gene = beards
-				template = mpo_mongol_beards
-				accessory = m_beard_mpo_mongol_04
-			}
-			accessory = {
-				mode = add
-				gene = hairstyles
-				template = cfp_hungarian_hairstyles_warrior
-				accessory = cfp_male_hair_hungarian_01
-			}
-			accessory = {
-				mode = add
-				gene = legwear
-				template = mena_nobility_legwear
-				accessory = male_legwear_secular_mena_nobility_01
-			}
-			accessory = {
-				mode = add
-				gene = clothes
-				template = mpo_mongol_royalty_clothes
-				accessory = m_clothes_sec_mpo_mongol_roy_01
-			}
-			accessory = {
-				mode = add
-				gene = headgear
-				template = western_turkic_imperial
-				accessory = male_Turkic_Eagle_Crown_02_02
-			}
-			accessory = {
-				mode = add
-				gene = headgear_2
-				template = no_headgear
-				accessory = empty
-			}
-        }
-        weight = {
-            base = 0
-            modifier = {
-                add = 1000
-                exists = this
-                exists = character:806
-                this = character:806
+                age >= 18
 				highest_held_title_tier >= tier_kingdom
             }
         }
     }
 
-    bookmark_nomads_tatus_20641 = {
+    kul_tegin_ashina_46 = {
         dna_modifiers = {
-            accessory = {
-				mode = add
-				gene = beards
-				template = sp4_mena_beards
-				accessory = m_beard_sp4_mena_01
-			}
-			accessory = {
-				mode = add
-				gene = hairstyles
-				template = mpo_mongol_hairstyles
-				accessory = m_hair_mpo_mongol_03
-			}
-			accessory = {
-				mode = add
-				gene = legwear
-				template = mena_nobility_legwear
-				accessory = male_legwear_secular_mena_nobility_01
-			}
-			accessory = {
-				mode = add
-				gene = clothes
-				template = mpo_mongol_royalty_clothes
-				accessory = m_clothes_sec_mpo_mongol_roy_01
-			}
 			accessory = {
 				mode = add
 				gene = headgear
-				template = ep1_steppe_royalty
-				accessory = male_headgear_secular_ep1_mena_royalty_01
+				template = fp3_turkic_imperial
+				accessory = male_Turkic_Eagle_Crown_02
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
 			}
         }
         weight = {
@@ -191,54 +121,9 @@
             modifier = {
                 add = 1000
                 exists = this
-                exists = character:20641
-                this = character:20641
-				highest_held_title_tier = tier_kingdom
-            }
-        }
-    }
-
-    bookmark_nomads_muhmud_144107 = {
-        dna_modifiers = {
-            accessory = {
-				mode = add
-				gene = beards
-				template = mpo_mongol_beards
-				accessory = m_beard_mpo_mongol_02
-			}
-			accessory = {
-				mode = add
-				gene = hairstyles
-				template = mpo_mongol_hairstyles
-				accessory = m_hair_mpo_mongol_02
-			}
-			accessory = {
-				mode = add
-				gene = legwear
-				template = mena_nobility_legwear
-				accessory = male_legwear_secular_mena_nobility_01
-			}
-			accessory = {
-				mode = add
-				gene = clothes
-				template = mpo_mongol_royalty_clothes
-				accessory = m_clothes_sec_mpo_mongol_roy_01
-			}
-			accessory = {
-				mode = add
-				gene = headgear
-				template = sp4_mena_royalty
-				accessory = m_headgear_sp4_mena_roy_01
-			}
-        }
-        weight = {
-            base = 0
-            modifier = {
-                add = 1000
-                exists = this
-                exists = character:144107
-                this = character:144107
-				highest_held_title_tier = tier_kingdom
+                exists = character:ashina_46
+                this = character:ashina_46
+                age >= 18
             }
         }
     }
@@ -266,8 +151,8 @@
 			accessory = {
 				mode = add
 				gene = clothes
-				template = mpo_mongol_high_nobility_clothes
-				accessory = m_clothes_sec_mpo_mongol_nob_01_hi
+				template = fp3_iranian_high_nobility_clothes
+				accessory = male_clothes_secular_iranian_nobility_02_high
 			}
 			accessory = {
 				mode = add
@@ -275,18 +160,21 @@
 				template = fp3_turkic_imperial
 				accessory = male_headgear_secular_steppe_royalty_01b
 			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+			}
         }
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 1000
                 exists = this
-                age > 4
                 exists = character:3040
                 this = character:3040
-                portrait_imperial_trigger = { 
-                    CULTURE_INPUT = steppe
-                }
+                age >= 18
+				highest_held_title_tier >= tier_kingdom
             }
         }
     }
@@ -320,11 +208,12 @@
         weight = {
             base = 0
             modifier = {
-                add = 2000
+                add = 1000
                 exists = this
-                age > 4
                 exists = character:144051
                 this = character:144051
+                age >= 18
+				highest_held_title_tier <= tier_duchy
             }
         }
     }
@@ -349,6 +238,11 @@
                 template = mpo_mongol_commoner
                 accessory = m_headgear_sec_mpo_mongol_com_01
             }
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+			}
             accessory = {
                 mode = add
                 gene = clothes
@@ -359,13 +253,12 @@
         weight = {
             base = 0
             modifier = {
-                add = 2000
+                add = 1000
                 exists = this
                 exists = character:125501
                 this = character:125501
-                portrait_high_nobles_headgear_trigger = {
-                    CULTURE_INPUT = steppe
-                }
+                age >= 10
+				highest_held_title_tier <= tier_duchy
             }
         }
     }
@@ -392,7 +285,7 @@
                 exists = this
                 exists = character:166757
                 this = character:166757
-				highest_held_title_tier <= tier_duchy
+                age >= 18
             }
         }
     }
@@ -419,7 +312,7 @@
                 exists = this
                 exists = character:alp_sol_tepek
                 this = character:alp_sol_tepek
-				highest_held_title_tier <= tier_duchy
+                age >= 18
             }
         }
     }
@@ -438,6 +331,20 @@
 				template = steppe_hairstyles_straight
 				accessory = cfp_male_hair_steppe_04
 			}
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+                exists = this
+                exists = character:yenisei_kirghiz_001
+                this = character:yenisei_kirghiz_001
+                age >= 18
+            }
+        }
+    }
+    nomads_yenisei_kirghiz_001_titular = {
+        dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = legwear
@@ -456,6 +363,11 @@
 				template = fp3_turkic_common
 				accessory = male_Turkic_Fur_Cap_05
 			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+			}
         }
         weight = {
             base = 0
@@ -464,8 +376,196 @@
                 exists = this
                 exists = character:yenisei_kirghiz_001
                 this = character:yenisei_kirghiz_001
+                age >= 18
 				highest_held_title_tier = tier_duchy
             }
         }
     }
+
+    225000_kilij_arslan = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = seljuk_thin_beards_straight
+                accessory = male_beard_custom_03
+            }
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = yb_muslim_turkic_hairstyles
+                accessory = male_hair_turkic_02
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+                exists = this
+                exists = character:225000
+                this = character:225000
+                age >= 18
+            }
+        }
+    }
+    225000_kilij_arslan_titular = {
+        dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = mena_nobility_legwear
+				accessory = male_legwear_secular_mena_nobility_01
+			}
+			accessory = {
+				mode = add
+				gene = clothes
+				template = epe_turkic_high_nobility_clothes
+				accessory = male_clothes_secular_seljuk_nobility_01_high
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = fp3_turkic_royalty
+				accessory = male_headgear_secular_steppe_royalty_01a
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+			}
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+                exists = this
+                exists = character:225000
+                this = character:225000
+                age >= 18
+				highest_held_title_tier >= tier_kingdom
+            }
+        }
+    }
+
+    rukn_al_din_mesud_7299 = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = steppe_beards_straight
+                accessory = male_beard_turkic_01
+            }
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = turkic_hairstyles_straight
+                accessory = male_hair_turkic_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+                exists = this
+                exists = character:7299
+                this = character:7299
+                age >= 18
+            }
+        }
+    }
+    rukn_al_din_mesud_7299_titular = {
+        dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = legwear
+				template = mena_nobility_legwear
+				accessory = male_legwear_secular_mena_nobility_01
+			}
+			accessory = {
+				mode = add
+				gene = clothes
+				template = fp3_iranian_high_nobility_clothes
+				accessory = m_clothes_islamic_iranian_nobility_06_high
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = fp3_turkic_royalty
+				accessory = male_headgear_secular_steppe_royalty_01b
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+			}
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+                exists = this
+                exists = character:7299
+                this = character:7299
+                age >= 18
+				highest_held_title_tier >= tier_kingdom
+            }
+        }
+    }
+
+    mukhan_kagan_ashina_24 = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = turkic_thin_beards_straight
+                accessory = m_beard_mpo_mongol_05
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 1000
+                exists = this
+                exists = character:ashina_24
+                this = character:ashina_24
+                age >= 18
+            }
+        }
+	}
+
+	justinian_70512 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = all_hairstyles
+				accessory = male_hair_mena_03
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = no_beard
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = ep1_crown_of_justinian
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				exists = character:70512
+				this = character:70512
+                age >= 18
+			}
+		}
+	}
 }

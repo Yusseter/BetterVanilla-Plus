@@ -1,19 +1,26 @@
 widget = {
 	name = "advcm_button"
-	visible = "[And( Not( IsPauseMenuShown ), IsDefaultGUIMode )]"
+	visible = "[And( Not( GetVariableSystem.Exists( 'mapmodes_expand' ) ), And(IsDefaultGUIMode, Not(IsRightWindowOpen)))]"
 	size = { 100% 100% }
 	layer = bottom
 	datacontext = "[GetPlayer]"
 	using = Animation_ShowHide_Quick
 		
+	flowcontainer = {
+		name = "advcm_shortcut_button"
+		visible = "[And( Not( IsPauseMenuShown ), IsDefaultGUIMode )]"
+		visible_at_creation = no
+		parentanchor = bottom|right
+		ignoreinvisible = yes
+		alwaystransparent = no
+		position = { 0 -304 }
+		using = Animation_ShowHide_Standard
+
 		button_round = {
 			name = "advcm_shortcut_button"
 			size = { 35 35 }
-			position = { 0 -275 }
-			parentanchor = bottom|right
 			alpha = 0.7
 
-			#onclick = "[ExecuteConsoleCommand('gui.createwidget gui/advcm_main.gui advcm_main_window')]"
 			onclick = "[GetVariableSystem.Toggle('advcm_main_visible')]"
 			tooltip = advcm_button_tt
 
@@ -34,8 +41,9 @@ widget = {
 			icon = {
 				parentanchor = center
 				alwaystransparent = yes
-				texture = "gfx/interface/icons/advcm/yb_debug_icon.dds"
+				texture = "gfx/interface/icons/yusseter/yb_debug_icon.dds"
 				size = { 25 25 }
 			}
 		}
 	}
+}

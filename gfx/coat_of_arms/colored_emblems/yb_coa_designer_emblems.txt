@@ -1,3 +1,12 @@
-﻿ce_tamgha_alp_sol_topek.dds = { colors = 1 category = tribal_seal }
+﻿yb_nezak_crown.dds = { colors = 1 category = tribal_seal }
 ce_tamgha_yaglakar.dds = { colors = 1 category = tribal_seal }
-ce_writing_barsulu.dds = { colors = 1 category = writing }
+ce_tamgha_alchonid.dds = { colors = 1 category = tribal_seal }
+ce_tamgha_hephthalite.dds = { colors = 1 category = tribal_seal }
+ce_tamgha_kidarite.dds = { colors = 1 category = tribal_seal }
+ce_tamgha_kushan.dds = { colors = 1 category = tribal_seal }
+ce_tamgha_tokhara_shahi.dds = { colors = 1 category = tribal_seal }
+ce_tamgha_turkshahi.dds = { colors = 1 category = tribal_seal }
+ce_tamgha_zunbil.dds = { colors = 1 category = tribal_seal }
+ce_tamgha_turkic_19.dds = { colors = 1 category = tribal_seal }
+ce_tamgha_turkic_20.dds = { colors = 1 category = tribal_seal }
+ce_tamgha_mongol_24.dds = { colors = 1 category = tribal_seal }

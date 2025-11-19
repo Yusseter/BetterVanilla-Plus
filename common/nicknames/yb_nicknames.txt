@@ -1,3 +1,32 @@
-﻿# YBC+ Nick Names
-nick_inanch_alp_bilge = {}
-nick_bilge = { is_prefix = yes }
+﻿#nick_bumin_khagan = {}
+#nick_issik_khagan = {}
+nick_mukan_khagan = {}
+nick_taspar_khagan = {}
+nick_ishbara_khagan = { is_prefix = yes }
+nick_bagha_khagan = { is_prefix = yes }
+#nick_baghatur_khagan = {}
+nick_turan_khagan = {}
+nick_yabghu_khagan = { is_prefix = no }
+#nick_tardu_khagan = {}
+nick_apa_khagan = {}
+nick_buyruk_khagan = {}
+nick_yami_khagan = {}
+nick_shibi_khagan = { is_prefix = yes }
+nick_chuluo_khagan = {}
+nick_illig_khagan = { is_prefix = yes }
+nick_qilibi_khagan = { is_prefix = yes }
+nick_chebi_khagan = {}
+#nick_heshana_khagan = {}
+nick_duolu_khagan = {}
+nick_on_oq_khagan = { is_prefix = yes }
+nick_ilterish_khagan = { is_prefix = yes }
+#nick_qapaghan_khagan = {}
+nick_bilge_khagan = { is_prefix = yes }
+nick_inal_khagan = { is_prefix = yes }
+nick_isig_khagan = { is_prefix = yes }
+nick_baimei_khagan = {}
+#nick_iletmish_khagan = {}
+#nick_irbish_khagan = {}
+#nick_tolish_khagan = {}
+nick_bayan_khagan = { is_prefix = yes }
+nick_yinanchu = { is_prefix = yes }
