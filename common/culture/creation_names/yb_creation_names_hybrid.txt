@@ -17,10 +17,10 @@ yagma = {
 		OR = {
 			AND = {
 				scope:culture = culture:uigur
-				scope:other_culture = { has_cultural_pillar = heritage_on_oq }
+				scope:other_culture = { has_cultural_pillar = heritage_turkic } #heritage_on_oq
 			}
 			AND = {
-				scope:culture = { has_cultural_pillar = heritage_on_oq }
+				scope:culture = { has_cultural_pillar = heritage_turkic } #heritage_on_oq
 				scope:other_culture = culture:uigur
 			}
 		}

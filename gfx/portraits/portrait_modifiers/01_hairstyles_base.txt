@@ -4242,7 +4242,7 @@ hairstyles = {
 					}					
 				}
                 portrait_chinese_clothing_trigger = yes	
-				portrait_era1_trigger = yes				
+				portrait_era1_tang_trigger = yes				
             }
         }
     }
@@ -5401,7 +5401,7 @@ hairstyles = {
 						template = hair_curly_no_beard
 					}					
 				}
-				portrait_era1_trigger = yes	
+				portrait_era1_tang_trigger = yes	
 				portrait_epe_sino_iranian_chinese_clothing_trigger = yes
 				has_tgp_dlc_trigger = yes
 				NOT = {
@@ -5498,4 +5498,4 @@ hairstyles = {
 	
 }
 
-# Yusseter: From EPE 2025.11.13
+# Yusseter: From EPE 2025.11.19

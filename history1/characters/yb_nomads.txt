@@ -1,19 +1,19 @@
 ﻿ashide_01 = {
-    name = "Tonyukuk"
+	name = "Tonyukuk"
 	dynasty = yb_ashide
-    culture = tujue
-    religion = tengri_pagan
+	culture = tujue
+	religion = tengri_pagan
 
 	trait = wise
 	trait = diligent
 	trait = ambitious
 	trait = cynical
 	trait = education_learning_4
-    martial = 11
-    diplomacy = 11
-    stewardship = 7
-    intrigue = 7
-    learning = 15
+	martial = 11
+	diplomacy = 11
+	stewardship = 7
+	intrigue = 7
+	learning = 15
 
 	646.1.1 = {
 		birth = yes
@@ -27,11 +27,11 @@
 }
 
 ashide_02 = {
-    name = "Sa_ba_g_"
+	name = "Sa_ba_g_"
 	female = yes
 	dynasty = yb_ashide
-    culture = tujue
-    religion = tengri_pagan
+	culture = tujue
+	religion = tengri_pagan
 	father = ashide_01
 
 	700.1.1 = {
@@ -716,7 +716,7 @@ ashina_32 = {
 		death = yes
 	}
 }
-ashina_33 = {      #NEEDS TO BE CHANGED WHEN EAST GOTURK IS ADDED REEEEEEEEEEEEEEEEEEEEEEEEEEEE (Son of last khagan of the east)
+ashina_33 = {	  #NEEDS TO BE CHANGED WHEN EAST GOTURK IS ADDED REEEEEEEEEEEEEEEEEEEEEEEEEEEE (Son of last khagan of the east)
 	name = "Yukuk"
 	dynasty = 12269
 
@@ -806,7 +806,7 @@ ashina_371 = {
 		birth = yes
 	}
 	716.1.1 = {
-        death = yes
+		death = yes
 	}
 }
 ashina_38 = {
@@ -836,7 +836,7 @@ ashina_3711 = {
 		birth = yes
 	}
 	730.1.1 = {
-        death = yes
+		death = yes
 	}
 }
 ashina_3712 = {
@@ -854,7 +854,7 @@ ashina_3712 = {
 		culture = basmyl
 	}
 	744.1.1 = {
-        death = yes
+		death = yes
 	}
 }
 ashina_39 = {
@@ -869,7 +869,7 @@ ashina_39 = {
 		birth = yes
 	}
 	716.7.22 = {
-        death = {
+		death = {
 			death_reason = death_assassination
 			killer = xiezhilue_01
 		}

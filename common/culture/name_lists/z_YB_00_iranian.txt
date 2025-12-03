@@ -1,0 +1,192 @@
+﻿name_list_caspian = {
+	cadet_dynasty_names = {
+		"dynn_Abeghean"
+		"dynn_Amatuni"
+		"dynn_Andzevatsi"
+		"dynn_Artsruni"
+		"dynn_Bagean"
+		"dynn_Bagratid"
+		"dynn_Bznuni"
+		"dynn_Dimaksean"
+		"dynn_Ensayatsi"
+		"dynn_Gabeghean"
+		"dynn_Gntuni"
+		"dynn_Gnuni"
+		"dynn_Habuzhean"
+		"dynn_Hashteank"
+		"dynn_Hawnuni"
+		"dynn_Kajberuni"
+		"dynn_Kamsarakan"
+		"dynn_Koghean"
+		"dynn_Machutadze"
+		"dynn_Mikeladze"
+		"dynn_Mkhetsidze"
+		"dynn_Taoeli"
+	}
+
+	dynasty_names = {
+		"dynn_Abeghean"
+		"dynn_Amatuni"
+		"dynn_Andzevatsi"
+		"dynn_Artsruni"
+		"dynn_Bagean"
+		"dynn_Bagratid"
+		"dynn_Bznuni"
+		"dynn_Dimaksean"
+		"dynn_Ensayatsi"
+		"dynn_Gabeghean"
+		"dynn_Gntuni"
+		"dynn_Gnuni"
+		"dynn_Habuzhean"
+		"dynn_Hashteank"
+		"dynn_Hawnuni"
+		"dynn_Kajberuni"
+		"dynn_Kamsarakan"
+		"dynn_Koghean"
+		"dynn_Machutadze"
+		"dynn_Mikeladze"
+		"dynn_Mkhetsidze"
+		"dynn_Taoeli"
+	}
+
+	male_names = {
+		Smbat Khachik Ashot Arsham Zariadres Vardan Artawazd Mzez Eruand Orontes Mithranes Kherkhes Khozrid Kuji Sames Arshames Trdat Tigran Zareh Artashes Arshak Vagharsh Khosrow Varazdat Vasak Ashusha Varazvaghan Hmayeak Vahan Sahak Zarmihr Nikhor
+	}
+	
+	female_names = {
+		Tigranuhi Vanuhi Mihrana Asatera Ariazate Aka Ghadana Erato Zarmandukht Pharantzem Mahbanu Satenik 
+	}
+
+	mercenary_names = {
+		{ name = mercenary_company_veterans_of_chaldia }
+		{ name = mercenary_company_manglabites }
+		{ name = "mercenary_company_the_ten_thousand" }
+	}
+	
+	dynasty_of_location_prefix = "dynnp_ve"
+	
+	patronym_suffix_male = "dynnpat_suf_s_dze"
+	patronym_suffix_female = "dynnpat_suf_shvili"
+}
+
+# Cybrx: Needs revisions to add in more actual Bactrian names in Bactrian documents
+name_list_bactrian = {
+
+	cadet_dynasty_names = {
+		"dynn_Rob"
+		"dynn_Roba"
+		"dynn_Tukhara"
+		"dynn_Tokhara"
+		"dynn_Eshkhingil"
+		"dynn_Afrigan"
+		"dynn_Tarxano"
+		"dynn_Xoadeo"
+		"dynn_Marego"
+		"dynn_Zenobido"
+		"dynn_Chehanna"
+		"dynn_Hephthalite"
+		"dynn_Alchonid"
+	}
+
+	dynasty_names = {
+		"dynn_Rob"
+		"dynn_Roba"
+		"dynn_Tukhara"
+		"dynn_Tokhara"
+		"dynn_Eshkhingil"
+		"dynn_Afrigan"
+		"dynn_Tarxano"
+		"dynn_Xoadeo"
+		"dynn_Marego"
+		"dynn_Zenobido"
+		"dynn_Chehanna"
+		"dynn_Hephthalite"
+		"dynn_Alchonid"
+	}
+
+	# Names from an old namelist compiled by Cybrxkhan
+	# Includes various Kushan and Hephthalite names
+	# Needs further work to add in more Bactrian names found in Bactrian documents
+
+	male_names = {
+
+		Ahuti Amihraman Andez Apama Ardokhsho Artabazu Artana Artasura Artosauka Awishka Bag Bagmareg Barzand Bazeshk Bazodeo Borzomihr Borzomiur Boser Bozan
+		Chinakhratu Daro Dartafarnah Dathshmareg Devraz Etat Eyoman Fanz Freistarab Goboziko Goya Grumbat Gunavarman Hashtuma Huspasina Huvishka Jouishka
+		Kalan Kama Kanarang Kandik Kanishka Katana Kav Kaw Khalas Khanchil Kharana Khirgoman Khoade Khwasraw Kidara Koshan Kozgashka Kozgashki Kungas Kur
+		Loikhobosar Mareg Mihraman Mithravakhsha Nevak Ninda Nobekht Nokonzok Nukunzuk Oaksh Oesh Oeshki Ormuzd Oromozd Orshvadata
+		Parka Peroz Piroz Purlang_zin Pusk Ratbel Sang Shabur Shafar Shao Shizogarg Shodila Spitamanah Sukhrak Tarmad Tirikhshara Ukhshebovak Ukhshyabavaka
+		Vakhshufrita Vakhshuvarta Varhran Vitana Vohumanah Wagra Wagwir Warahan Washava Winamarg Yaskul Yezdgird Zhunlad Zmik
+
+		Bab Piduk Uglarg Sart Khwadewbandan Nokonzoko Goboziko Baka Khono Gatfar Waraz Khushnawaz Axshondar KunKhi Akhshunwar Yilituo
+		Shania Ghar-ilchi Sadavikha Yudhishthira Narendraditya
+		Bhagundi Jina Sudasa Yozino Aspurabah Asparobido
+
+	}
+	female_names = {
+
+		Ab Agalg Alow Alushal Anend Arduksh Begeys Dukhtanosh Farowesp Firg Firyid Fordams Frogerd Harug Khuhz Lahun Lahyid Logda Lrohominan Ma Man Mapresey Muul
+		Nana Nawshal Nestokhot Predyig Purogat Puun Rokhshana Umma Wadobargan Wusugd Zbayana Zhindag
+
+		Ralik
+
+	}
+
+	# Using Sogdian as temporary stand in
+	dynasty_of_location_prefix = "dynnp_m"
+	patronym_prefix_male = "dynnpat_pre_zk"
+	patronym_prefix_female = "dynnpat_pre_zk"
+	
+	founder_named_dynasties = yes	
+}
+
+name_list_udi = {
+
+	cadet_dynasty_names = {
+		"dynn_Partaw"
+		"dynn_Kapalak"
+		"dynn_Gardman"
+		"dynn_Arcax"
+		"dynn_Shaki"
+
+		}
+
+		dynasty_names = {
+		"dynn_Partaw"
+		"dynn_Kapalak"
+		"dynn_Gardman"
+		"dynn_Arcax"
+		"dynn_Shaki"
+		
+		}
+
+		male_names = {
+			Abas Abirad Aboughamr Aboulgharib Aleksandr Artashes Artashir Artavazd Arsen Arshak Ashot Athom Atrnerseh Avag Avedis Bagour Bagrat Bedros Boghos Davit Eshkhan Gagik Gevorg
+			Gosdantin Grigor Gurgen Hagop Hamazasp Hethum Hovhannes Hovsep Ishkhan Ivane Kapriel Khachik Khosrov Levon Malkhas Mamigon Manuel Margos Melek Mihrdat Mikayel Mleh Mushegh Mushel Mzhezh
+			Nerseh Oshin Roupen Sahag Sarkis Sevag Shahanshah Smbat Stepanos Tachat Taniel Tatoul Tigran Tornik Tovmas Thoros Trdat Vache Vachagan Vagharshak Vahag Vahan Vahram Vakhtank Varazdat Vartan Vassak Vesd Vrtanes Zakare Zarmihr
+			#Later Catholicoi names:
+			Aristaces Aristakes Husik Pharen Zaven Aspuraces Brkisho Melitus Kyud Babken Ghevond Dertad Joab Mashdotz Yeghishe Yeghise Ananias Khachig
+			Adarnase Aghsartan Aleksandre Andronik Anzori Archili Ashot Bagrat Bakur Davit Demetre Demna Djavakhi Erekle Gabrieli Gagiki Giorgi Grigoli Guaram Gubaz
+			Gurgen Iese Ioane Ishkhanik Iveri Jarji Kaikhosro Kakhi Koba Konstantine Kvarkvare Kvirike Levan Luarsab Malkhazi Mamia Merab Mikheil Mukhran Nerse Nikoloz Okhropir Orbeli
+			Padla Samoeli Shanshe Shota Simon Stepanoz Sumbat Teimuraz Tornike Ushisha Vache Vakhtang Zurab Zviad
+			
+		}
+		
+		female_names = {
+			Aghavni Alitz Almasd Anahid Anna Anoush Arda Arevig Arin Baydzar Berjanoush Berjouhi Datevig Dalita Eliz Gadar Gorandoukht Hasmig Houri Hranoush Katranide
+			Hripsimeh Keghanoush Keran Khorishah Kohar Latavri Leyli Lousin Mara Margarid Maria Mariyam Meghranoush Nane Nazani Ovsanna Pounig Razmouhi Rita Satenik Seta Siran Sirvart
+			Srpouhi Shoushanig Takouhi Tamar Vartanoush Vartouhi Vosgi Yeva Zabel Zmroukhd
+			Ana Baia Bedisa Borena Chiora Chito Dali Dedika Duda Dzabuli Elene Eliso Endzela Gogutsa Gulchara Guliko Gulisa Gulvardi Guranduht Gvantsa Ia Judjuna
+			Kekela Ketevan Lamara Lamzira Lela Mariami Mathiko Mthvarisa Mzekhar Natia Nino Rusudan Sanatha Shorena Shukhia Suliko
+			Tamari Taplo Tinatini Tsiala Vardo
+		}
+		
+		dynasty_of_location_prefix = "dynnp_koy"
+		
+		
+		#dynasty_of_location_suffix = "dynnp_undi"
+
+		patronym_suffix_male = "dynnp_gardi"
+		patronym_suffix_female = "dynnp_xinerdi"
+		
+		
+}

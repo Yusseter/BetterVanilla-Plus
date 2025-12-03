@@ -2009,58 +2009,79 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
                 range = { 0 1 } # For the randomness to work correctly
             }
         }   
-        weight = {
-            base = 0
-            modifier = {
-                add = 20
-                portrait_commoner_clothing_trigger = {
-                    CULTURE_INPUT = indian
-                }
-            }
-        }
+		weight = {
+			base = 0
+			modifier = {
+				add = 20
+				portrait_commoner_clothing_trigger = {
+					CULTURE_INPUT = indian
+				}
+			}
+			modifier = {
+				add = 20
+				portrait_commoner_clothing_trigger = {
+					CULTURE_INPUT = southeast_asian
+				}
+				has_tgp_dlc_trigger = no
+			}
+		}
     }
 
-    indian_low_nobles = {
-        dna_modifiers = {
-            accessory = {
-                mode = add
-                gene = clothes
-                template = indian_low_nobility_clothes
-                range = { 0 1 } # For the randomness to work correctly
-            }
-        }   
-        weight = {
-            base = 0
-            court_fashion_level_4_modifier = { INPUT_PARAMETER = indian }
-            modifier = {
-                add = 50
-                portrait_low_nobles_clothing_trigger = { 
-                    CULTURE_INPUT = indian
-                } 
-            }
-        }
-    }
+	indian_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = indian_low_nobility_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			court_fashion_level_4_modifier = { INPUT_PARAMETER = indian }
+			modifier = {
+				add = 50
+				portrait_low_nobles_clothing_trigger = {
+					CULTURE_INPUT = indian
+				}
+			}
+			modifier = {
+				add = 50
+				portrait_low_nobles_clothing_trigger = {
+					CULTURE_INPUT = southeast_asian
+				}
+				has_tgp_dlc_trigger = no
+			}
+		}
+	}
 
-    indian_high_nobles = {
-        dna_modifiers = {
-            accessory = {
-                mode = add
-                gene = clothes
-                template = indian_high_nobility_clothes
-                range = { 0 1 } # For the randomness to work correctly
-            }
-        }       
-        weight = {
-            base = 0
-            court_fashion_level_5_modifier = { INPUT_PARAMETER = indian } 
-            modifier = {
-                add = 50
-                portrait_high_nobles_clothing_trigger = { 
-                    CULTURE_INPUT = indian
-                } 
-            }
-        }
-    }
+	indian_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = indian_high_nobility_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			court_fashion_level_5_modifier = { INPUT_PARAMETER = indian }
+			modifier = {
+				add = 50
+				portrait_high_nobles_clothing_trigger = {
+					CULTURE_INPUT = indian
+				}
+			}
+			modifier = {
+				add = 50
+				portrait_high_nobles_clothing_trigger = {
+					CULTURE_INPUT = southeast_asian
+				}
+				has_tgp_dlc_trigger = no
+			}
+		}
+	}
 
     ## DDE ABBASID ##
 
@@ -2585,17 +2606,17 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
                     CULTURE_INPUT = steppe
                 }					
 				#NOT = { # Yusseter
-				#	portrait_low_nobles_clothing_trigger = { 
+				#	portrait_high_nobles_clothing_trigger = { 
                 #    CULTURE_INPUT = epe_eastern_turk
                 #    }
 				#}
 				NOT = {
-					portrait_low_nobles_clothing_trigger = { 
+					portrait_high_nobles_clothing_trigger = { 
                     CULTURE_INPUT = epe_eastern_turk_muslim
                     }
 				}	
 				#NOT = { # Yusseter
-				#	portrait_low_nobles_clothing_trigger = { 
+				#	portrait_high_nobles_clothing_trigger = { 
                 #    CULTURE_INPUT = epe_western_turk
                 #    }
 				#}				
@@ -2636,12 +2657,12 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
 				has_mpo_dlc_trigger = yes
 				
 				#NOT = { # Yusseter
-				#	portrait_low_nobles_clothing_trigger = { 
+				#	portrait_commoner_clothing_trigger = { 
                 #    CULTURE_INPUT = epe_eastern_turk
                 #    }
 				#}
 				NOT = {
-					portrait_low_nobles_clothing_trigger = { 
+					portrait_commoner_clothing_trigger = { 
                     CULTURE_INPUT = epe_eastern_turk_muslim
                     }
 				}	
@@ -2728,7 +2749,7 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
 				has_mpo_dlc_trigger = yes
 				
 				#NOT = { # Yusseter
-				#	portrait_low_nobles_clothing_trigger = { 
+				#	portrait_high_nobles_clothing_trigger = { 
                 #    CULTURE_INPUT = epe_eastern_turk
                 #    }
 				#}
@@ -2817,7 +2838,7 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
         weight = {
             base = 0
             modifier = {
-                add = 1050
+                add = 105
                 portrait_imperial_clothing_trigger = { 
                     CULTURE_INPUT = steppe
                 }
@@ -13256,7 +13277,7 @@ ccp4_ugro_permian_high_nobles = {
 				merit_level <= 2
 				#NOT = { exists = global_var:chinese_fashion_change }
                 ##Tang
-                portrait_era1_trigger = yes  
+                portrait_era1_tang_trigger = yes  
 			}
 		}
 	}
@@ -13290,7 +13311,7 @@ ccp4_ugro_permian_high_nobles = {
 				}
 				#NOT = { exists = global_var:chinese_fashion_change }
                 ##Tang
-                portrait_era1_trigger = yes  
+                portrait_era1_tang_trigger = yes  
 			}
 		}
 	}
@@ -13324,7 +13345,7 @@ ccp4_ugro_permian_high_nobles = {
 				}
 				#NOT = { exists = global_var:chinese_fashion_change }
                 ##Tang
-                portrait_era1_trigger = yes  
+                portrait_era1_tang_trigger = yes  
 			}
 		}
 	}
@@ -13355,7 +13376,7 @@ ccp4_ugro_permian_high_nobles = {
 				merit_level >= 7
 				#NOT = { exists = global_var:chinese_fashion_change }
                 ##Tang
-                portrait_era1_trigger = yes  
+                portrait_era1_tang_trigger = yes  
 			}
 		}
 	}
@@ -13386,7 +13407,7 @@ ccp4_ugro_permian_high_nobles = {
 				merit_level <= 2
 				#exists = global_var:chinese_fashion_change
                 OR = { ##Song			
-					portrait_era2_trigger = yes
+					portrait_era2_song_trigger = yes
 					portrait_era3_trigger = yes				
 					portrait_era4_trigger = yes					
                 }
@@ -13423,7 +13444,7 @@ ccp4_ugro_permian_high_nobles = {
 				}
 				#exists = global_var:chinese_fashion_change
                 OR = { ##Song			
-					portrait_era2_trigger = yes
+					portrait_era2_song_trigger = yes
 					portrait_era3_trigger = yes				
 					portrait_era4_trigger = yes					
                 }
@@ -13460,7 +13481,7 @@ ccp4_ugro_permian_high_nobles = {
 				}
 				#exists = global_var:chinese_fashion_change
                 OR = { ##Song			
-					portrait_era2_trigger = yes
+					portrait_era2_song_trigger = yes
 					portrait_era3_trigger = yes				
 					portrait_era4_trigger = yes					
                 }
@@ -13494,7 +13515,7 @@ ccp4_ugro_permian_high_nobles = {
 				merit_level >= 7
 				#exists = global_var:chinese_fashion_change
                 OR = { ##Song			
-					portrait_era2_trigger = yes
+					portrait_era2_song_trigger = yes
 					portrait_era3_trigger = yes				
 					portrait_era4_trigger = yes					
                 }
@@ -13691,7 +13712,7 @@ ccp4_ugro_permian_high_nobles = {
 				primary_title ?= title:h_china
 				#NOT = { exists = global_var:chinese_fashion_change }
                 ##Tang
-                portrait_era1_trigger = yes 
+                portrait_era1_tang_trigger = yes 
 			}
 			modifier = {
 				add = 120
@@ -13718,7 +13739,7 @@ ccp4_ugro_permian_high_nobles = {
 				has_tgp_dlc_trigger = yes
 				#exists = global_var:chinese_fashion_change
                 OR = { ##Song			
-					portrait_era2_trigger = yes
+					portrait_era2_song_trigger = yes
 					portrait_era3_trigger = yes				
 					portrait_era4_trigger = yes					
                 }
@@ -14328,4 +14349,4 @@ ccp4_ugro_permian_high_nobles = {
 	
 }
 
-# Yusseter: From EPE 2025.11.13
+# Yusseter: From EPE 2025.11.19

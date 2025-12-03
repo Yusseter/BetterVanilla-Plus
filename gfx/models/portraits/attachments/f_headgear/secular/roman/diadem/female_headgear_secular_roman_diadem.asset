@@ -16,6 +16,4 @@ pdxmesh = {
 entity = {
 	name = "female_headgear_secular_roman_diadem_entity"
 	pdxmesh = "female_headgear_secular_roman_diadem_mesh"
-	
-	
 }

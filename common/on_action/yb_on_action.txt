@@ -1,0 +1,11 @@
+﻿on_game_start = { on_actions = { yb_setup } }
+
+yb_setup = {
+	effect = {
+		yb_character_setup_effects = yes
+		yb_title_setup_effects = yes
+		yb_county_setup_effects = yes
+		yb_culture_setup_effects = yes
+		yb_game_rule_setup_effects = yes
+	}
+}

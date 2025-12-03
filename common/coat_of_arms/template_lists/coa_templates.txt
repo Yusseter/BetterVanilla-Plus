@@ -187,11 +187,11 @@
 								AND = {
 									OR = {
 										scope:religion = religion:islam_religion
-										scope:religion = religion:christianity_religion
 										scope:religion = religion:buddhism_religion
 										scope:religion = religion:dualism_religion
 										scope:religion = religion:confucianism_religion
 										scope:religion = religion:taoism_religion
+										scope:faith = faith:nestorian
 									}
 									capital_province ?= {
 										OR = {

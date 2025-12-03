@@ -1,0 +1,9 @@
+﻿#language_celtic
+#language_etruscan
+#language_phoenician
+#language_lezgic northeast caucasian
+#language_gothic language_vandalic
+#language_middle_english
+#language_saxon delete!
+#language_thracian language_dacian
+#language_coptic delete!

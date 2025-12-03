@@ -53,11 +53,11 @@ yb_coa_nomad_trigger = {
 					AND = {
 						OR = {
 							scope:faith.religion = religion:islam_religion
-							scope:faith.religion = religion:christianity_religion
 							scope:faith.religion = religion:buddhism_religion
 							scope:faith.religion = religion:dualism_religion
 							scope:faith.religion = religion:confucianism_religion
 							scope:faith.religion = religion:taoism_religion
+							scope:faith = faith:nestorian
 						}
 						capital_province ?= {
 							OR = {

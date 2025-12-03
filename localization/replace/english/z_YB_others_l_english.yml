@@ -6,27 +6,18 @@
  setting_ce_greek_culture_name_default_rule_desc: "The Greek [culture|E] will be called \"$greek$\" in game and use the vanilla Crusader Kings 3 terms."
  setting_ce_greek_culture_name_romaios_rule: "$ce_greek$"
  setting_ce_greek_culture_name_romaios_rule_desc: "The Greek [culture|E] will be called \"$ce_greek$\" in game and use the Culture Expanded terms."
- 
- #nomadic_confederation_elective_succession_law: "Nomadic Confederation Elective"
- #nomadic_confederation_elective_succession_law_subname: "[vassals] and [tributaries] Hold the Real Power"
- #nomadic_confederation_elective_candidates: "Close Family, Grandchildren, Vassals and powerfull Tributaries"
- #nomadic_confederation_elective_candidates_tooltip: "In order to be a valid Candidate under Tribal Elective, a character must fulfill one of the following conditions:\n$EFFECT_LIST_BULLET$Be a legitimate [close_family|E] member of the current ruler\n$EFFECT_LIST_BULLET$Be a [vassal|E]"
- #nomadic_confederation_elective_succession_law_effects: "The [ruler|E], all direct [vassals|E] powerfull [tributaries|E] and can nominate a [title_heir|E] from among themselves and the [close_family|E] of the ruler. [voting_strength|E] is primarily determined by [prestige_level|E], [piety_level|E], and number of [count|E]-[title_tier|E] [vassals|E]."
- #nomadic_confederation_elective_electors: "$feudal_elective_electors$"
- #nomadic_confederation_elective_electors_tooltip: "In order to be a valid [elector|E] under Nomadic Confederation Elective, a vassal must fulfill all the following conditions:\n$EFFECT_LIST_BULLET$Be [count|E]-[rank|E] or higher\n$EFFECT_LIST_BULLET$Be a direct [vassal|E] of the [title|E]\n$EFFECT_LIST_BULLET$Have Tribal or Nomadic [government|E]\n$EFFECT_LIST_BULLET$Not have the [GetTrait('incapable').GetName( GetNullCharacter )] [trait|E]\n$EFFECT_LIST_BULLET$Not be at [war|E] with the [title|E] holder"
 
- #tradition_balbals_name: "The Eternal Servants"
- #tradition_balbals_desc: "There people beleave for every life taken in battle, a Balbal is carved and placed at the conqueror's grave, often around ritual burial mounds known as \"kurgans\". These stone stelae, known as \"Kurgan Stelae\" or \"Balbal\", represent the spirits of the fallen, who are bound by loyalty to serve their master in the afterlife for eternity."
+ rule_crusades_after_1300_date: "Dates of Great Holy Wars"
+ setting_crusades_allowed_after_1300_date: "Default"
+ setting_crusades_allowed_after_1300_date_desc: "[great_holy_wars|E] will appear at any date."
+ setting_crusades_not_allowed_after_1300_date: "#high Historical#!"
+ setting_crusades_not_allowed_after_1300_date_desc: "[great_holy_wars|E] will not appear after the year 1300."
 
- #ckc_events.1.t: "The $e_cuman_kipchak$"
- #ckc_events.1.desc: "Through the toils of war, through blood and conquest, I have finally achieved my dream! With the aid of other turkic tribes I have forged a confederation that now rules over most of the western and central steppe. My name is known from the Pontic to Dzungaria as one carried by a warrior of great prowess and skill. With this empire, the world is now mine for the taking, let all fear my strength!"
- #ckc_events.1.a: "By My Will!"
- 
- #ckc_become_de_jure_liege_cuman_kipchak: "$e_cuman_kipchak$ becomes De Jure liege of the lands in $e_caspian-pontic_steppe$ and $e_tartaria$."
- #found_cuman_kipchak_confederation_decision: "Form The $e_cuman_kipchak$"
- #found_cuman_kipchak_confederation_decision_desc: "The western steppe is infamous for its capriciousness, many great tribes have claimed this territory home and have just as quickly been washed away into the mire of history. However, with the aid of other tribes I can form a strong and stable confederation, an empire that could rival that of the great $gokturk$s!"
- #found_cuman_kipchak_confederation_decision_confirm: "Raise the Tug!"
- #found_cuman_kipchak_confederation_decision_tooltip: "The $e_cuman_kipchak$ will be formed."
+ rule_demonym_culture_names_rule: "Culture Naming"
+ setting_demonym_culture_name_allowed: "#high Demonymic#!"
+ setting_demonym_culture_name_allowed_desc: "If a [culture|E] has a demonym name, it will use it."
+ setting_demonym_culture_name_not_allowed: "Default"
+ setting_demonym_culture_name_not_allowed_desc: "[cultures|E] will use English names."
 
 # Nicknames
  #nick_bumin_khagan: "$Bumin$"
@@ -119,6 +110,13 @@
  bm_group_1178: "1178"
  bookmark_nomads_duolubu_desc: "Once a devoted Bagahatur to Kara Khitai, Duolubu has since suffered a betrayal by his own flesh and blood. His wife lay dead, coddled in the arms of his own brother, and her nephew now sits upon the throne.\n\nWhile his father sleeps in his deathbed, the time to act is nigh. If the young $Zhilugu$ cannot be swayed, then it could be time to abandon him all together.\n\n#bold Your darkest days are behind you, and the sun rises anew. Can you reclaim your honor, or will you be forever known as the fool?#!"
 
+# Decisions
+ your_faith_is_organized: "Your [faith|E] is an [organized_faith|E]"
+ control_china_to_steppe_admin: "Contol at least 10 [counties|E] in [GetGeographicalRegion('world_asia_china').GetName]"
+ siniticized_vassals_convert_to_steppe_admin: "Any non-[steppe_admin|E] [vassals|E] with a [GetReligionByKey('taoism_religion').GetAdjective], [GetReligionByKey('confucianism_religion').GetAdjective], [GetReligionByKey('buddhism_religion').GetAdjective], [GetReligionByKey('dualism_religion').GetAdjective] or [GetFaithByKey('nestorian').GetAdjective] [faith|E] will convert to [steppe_admin|E] [government|E]"
+ settle_the_steppe_requirement: "$steppe_admin_kingdom_requirement$"
+ settle_the_steppe_muslim_req: "Any [tributary|E], [vassal|E], or neighboring [independent_ruler|E] is a [kingdom|E] [title_tier|E] or greater [ruler|E] with a [GetReligionByKey('islam_religion').GetAdjective] [faith|E]"
+
 # Others
  ADVCM_VIEW_TITLE: "#T Advanced Debug Menu#!"
  advcm_button_tt: "#T Open Advanced Debug Menu#!"
@@ -131,7 +129,7 @@
  gokturk: "Göktürk"
  serind: "Turan"
  iran_noun: "Iran"
- iranian_noun: "$yb_iran$ian"
+ iranian_noun: "$iran_noun$ian"
  byzantine_noun: "Eastern Roman"
  indo_aryan_noun: "Indo-Aryan"
  germanic_noun: "Germanic"
@@ -223,9 +221,9 @@
 
  culture_notification.1111.ethos.egalitatian: "Acknowledging that different cultures can live and prosper side by side, the [new_culture.GetCollectiveNounNoTooltip] are becoming more $ethos_egalitarian_name$ and open as a society."
 
- steppe_admin_government: "Taugastic" # Yusseter: Can releated with word of Chanyu, Tuoba (Taugas) or Horde
+ steppe_admin_government: "Taugastic" # Yusseter: Can releated with word of Chanyu, Tuoba or Horde. Taugas or Taugast is Tuoba (Tabgatch) in Greek sources
  game_concept_steppe_admin: "$steppe_admin_government$"
- adopt_steppe_administration: "Become a $steppe_admin_government$"
+ adopt_steppe_administration: "Become a $steppe_admin_government$ Realm"
 
  clothes_color_warning: ""
 
@@ -265,3 +263,24 @@
  CULTURE_CREATION_DATE: "Formed in the year $CULTURE_CREATION_YEAR$"
  CULTURE_CREATION_DATE_DIVERGED: "Diverged from [CULTURE.GetName] in the year $CULTURE_CREATION_YEAR$"
  CULTURE_CREATION_DATE_HYBRID: "Formed from [CULTURE.GetName] and [TARGET_CULTURE.GetName] in the year $CULTURE_CREATION_YEAR$"
+
+ #nomadic_confederation_elective_succession_law: "Nomadic Confederation Elective"
+ #nomadic_confederation_elective_succession_law_subname: "[vassals] and [tributaries] Hold the Real Power"
+ #nomadic_confederation_elective_candidates: "Close Family, Grandchildren, Vassals and powerfull Tributaries"
+ #nomadic_confederation_elective_candidates_tooltip: "In order to be a valid Candidate under Tribal Elective, a character must fulfill one of the following conditions:\n$EFFECT_LIST_BULLET$Be a legitimate [close_family|E] member of the current ruler\n$EFFECT_LIST_BULLET$Be a [vassal|E]"
+ #nomadic_confederation_elective_succession_law_effects: "The [ruler|E], all direct [vassals|E] powerfull [tributaries|E] and can nominate a [title_heir|E] from among themselves and the [close_family|E] of the ruler. [voting_strength|E] is primarily determined by [prestige_level|E], [piety_level|E], and number of [count|E]-[title_tier|E] [vassals|E]."
+ #nomadic_confederation_elective_electors: "$feudal_elective_electors$"
+ #nomadic_confederation_elective_electors_tooltip: "In order to be a valid [elector|E] under Nomadic Confederation Elective, a vassal must fulfill all the following conditions:\n$EFFECT_LIST_BULLET$Be [count|E]-[rank|E] or higher\n$EFFECT_LIST_BULLET$Be a direct [vassal|E] of the [title|E]\n$EFFECT_LIST_BULLET$Have Tribal or Nomadic [government|E]\n$EFFECT_LIST_BULLET$Not have the [GetTrait('incapable').GetName( GetNullCharacter )] [trait|E]\n$EFFECT_LIST_BULLET$Not be at [war|E] with the [title|E] holder"
+
+ #tradition_balbals_name: "The Eternal Servants"
+ #tradition_balbals_desc: "There people beleave for every life taken in battle, a Balbal is carved and placed at the conqueror's grave, often around ritual burial mounds known as \"kurgans\". These stone stelae, known as \"Kurgan Stelae\" or \"Balbal\", represent the spirits of the fallen, who are bound by loyalty to serve their master in the afterlife for eternity."
+
+ #ckc_events.1.t: "The $e_cuman_kipchak$"
+ #ckc_events.1.desc: "Through the toils of war, through blood and conquest, I have finally achieved my dream! With the aid of other turkic tribes I have forged a confederation that now rules over most of the western and central steppe. My name is known from the Pontic to Dzungaria as one carried by a warrior of great prowess and skill. With this empire, the world is now mine for the taking, let all fear my strength!"
+ #ckc_events.1.a: "By My Will!"
+
+ #ckc_become_de_jure_liege_cuman_kipchak: "$e_cuman_kipchak$ becomes De Jure liege of the lands in $e_caspian-pontic_steppe$ and $e_tartaria$."
+ #found_cuman_kipchak_confederation_decision: "Form The $e_cuman_kipchak$"
+ #found_cuman_kipchak_confederation_decision_desc: "The western steppe is infamous for its capriciousness, many great tribes have claimed this territory home and have just as quickly been washed away into the mire of history. However, with the aid of other tribes I can form a strong and stable confederation, an empire that could rival that of the great $gokturk$s!"
+ #found_cuman_kipchak_confederation_decision_confirm: "Raise the Tug!"
+ #found_cuman_kipchak_confederation_decision_tooltip: "The $e_cuman_kipchak$ will be formed."

@@ -46,7 +46,7 @@
  * adhari castles
  - rune stone islam symbol
  * oghuz, tujue, kirghiz, uyghur, karluk and other turkic chars.
- - add a decision about like; if u had county with culture qyrqyz and kimek u can sey your culture to kirghiz
+ - a decision about like; if u had county with culture qyrqyz and kimek u can sey your culture to kirghiz
  * swabian parents
  - turkic patronym_suffix_male = patronym_suffix_female
  * abdulmuttalib name
@@ -140,6 +140,17 @@
  * turkic buddhist faith
  * non tarim basin uyghurs `altai uyghurs`
  * cat coa s `k_kabulistan`
+ - if a tiele culture head nomad had a empire name it toquz-oghuz
+ * head gear uyghur
+ - title history types `type = conquest_populist`
+ * ashari date `ashari born in 874`
+ - dominance levels to start date khaganates
+ * gurkhan `khagan`
+ - chingis as dengis
+ * heritage_magyar
+ - check herder on_action `if herder title is > county set nomad, on game start set herder holdings`
+ - on title destroy reset color, coa, name `e_kara_khitai`
+ - add new cultures to ancient culture chronicles `tujue`
 
 # Later
  * titles
@@ -147,4 +158,4 @@
  - tfe, tba like clothings
 
 # CK3 File Formats
-txt, gui, map, asset, mod, info, shortcuts, settings; head_determination, house_coa_frame
+txt, gui, map, asset, mod, info, shortcuts, settings; head_determination, house_coa_frame, kingdoms `regions`, 

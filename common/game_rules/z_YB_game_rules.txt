@@ -1,0 +1,21 @@
+﻿crusades_after_1300_date = {
+	categories = {
+		tweaks historicity
+	}
+
+	crusades_allowed_after_1300_date = {}
+	crusades_not_allowed_after_1300_date = {}
+
+	default = crusades_not_allowed_after_1300_date
+}
+
+demonym_culture_names_rule = {
+	categories = {
+		flavor historicity culture
+	}
+
+	demonym_culture_name_allowed = {}
+	demonym_culture_name_not_allowed = {}
+
+	default = demonym_culture_name_not_allowed
+}

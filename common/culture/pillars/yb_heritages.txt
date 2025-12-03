@@ -1,0 +1,198 @@
+﻿# Turkic Heritages
+#heritage_turkic
+#heritage_oghur
+#heritage_kipchak
+#heritage_on_oq
+#heritage_toquz_oghuz
+#heritage_sayan_altaic
+#heritage_hunnic
+
+#heritage_ancient_egyptian
+#heritage_levantine
+
+heritage_south_arabian = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_south_arabian
+		}
+	}
+	parameters = { 
+		heritage_group_arabic = yes
+		heritage_family_west_asian = yes 
+	}
+	audio_parameter = mena
+}
+
+heritage_sakan = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_sakan
+		}
+	}
+	parameters = { 
+		kulturbund_scythian = yes
+		heritage_group_iranian = yes
+		heritage_group_steppe = yes
+		heritage_family_west_asian = yes 
+		heritage_family_eurasian = yes 
+	}
+	audio_parameter = mena
+}
+
+heritage_turkic = { # heritage_on_oq
+	type = heritage
+
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_turkic
+		}
+	}
+
+	parameters = {
+		kulturbund_altaic = yes
+		heritage_group_north_asian = yes
+		heritage_group_steppe = yes
+		heritage_family_eurasian = yes
+	}
+	audio_parameter = sea
+}
+
+heritage_magyar = { #heritage_oghur
+	type = heritage
+
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_magyar
+		}
+	}
+
+	parameters = {
+		kulturbund_altaic = yes
+		heritage_group_north_asian = yes
+		heritage_group_steppe = yes
+		heritage_family_eurasian = yes
+	}
+	audio_parameter = european
+}
+
+heritage_hunnic = {
+	type = heritage
+
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_hunnic
+		}
+	}
+
+	parameters = {
+		kulturbund_altaic = yes
+		heritage_group_north_asian = yes
+		heritage_group_steppe = yes
+		heritage_family_eurasian = yes
+	}
+	audio_parameter = sea
+}
+
+heritage_mongolic = {
+	type = heritage
+
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_mongolic
+		}
+	}
+
+	parameters = {
+		kulturbund_altaic = yes
+		heritage_group_mongolic = yes
+		heritage_group_north_asian = yes
+		heritage_group_steppe = yes
+		heritage_family_eurasian = yes
+	}
+	audio_parameter = sea
+}
+
+heritage_toquz_oghuz = {
+	type = heritage
+
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_toquz_oghuz
+		}
+	}
+
+	parameters = {
+		kulturbund_altaic = yes
+		heritage_group_north_asian = yes
+		heritage_group_steppe = yes
+		heritage_family_eurasian = yes
+	}
+	audio_parameter = sea
+}
+
+heritage_kipchak = {
+	type = heritage
+
+	parameters = {
+		kulturbund_altaic = yes
+		heritage_group_north_asian = yes
+		heritage_group_steppe = yes
+		heritage_family_eurasian = yes
+	}
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_kipchak
+		}
+	}
+	audio_parameter = sea
+}
+
+heritage_sayan_altaic = {
+	type = heritage
+
+	parameters = {
+		kulturbund_altaic = yes
+		heritage_group_north_asian = yes
+		heritage_group_steppe = yes
+		heritage_family_eurasian = yes
+	}
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_sayan_altaic
+		}
+	}
+	audio_parameter = sea
+}
+
+heritage_east_germanic = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_east_germanic
+		}
+	}
+	parameters = {
+		heritage_group_central_european = yes
+		heritage_group_germanic = yes
+		heritage_family_european = yes 
+	}
+	audio_parameter = european
+}
+
+heritage_celtic = {
+	type = heritage
+
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_celtic
+		}
+	}
+
+	parameters = {
+		heritage_group_celtic = yes
+		heritage_family_european = yes
+	}
+	audio_parameter = european
+}

@@ -2,32 +2,44 @@
 
 # Middle Eastern
  mena_gfx: "Middle Eastern"
- mena_unit_gfx: "$mena_gfx$"
+ mena_group_coa_gfx: "$mena_gfx$"
  mena_building_gfx: "$mena_gfx$"
  mena_clothing_gfx: "$mena_gfx$"
  mena_group_clothing_gfx: "$mena_gfx$"
+ mena_unit_gfx: "$mena_gfx$"
 
 # Steppe
- steppe_gfx: "Steppe"
- mongol_gfx: "Mongolian"
+ steppe_gfx: "Steppe Nomadic"
+ steppe_building_gfx: "$steppe_gfx$"
+
+ # Mongolic
+ mongol_gfx: "Mongolic"
  mongol_unit_gfx: "$mongol_gfx$"
  mongol_clothing_gfx: "$mongol_gfx$"
+
+ # Turkic
  turkic_gfx: "$turk$ic"
  turkic_clothing_gfx: "$turkic_gfx$"
  epe_western_turk_clothing_gfx: "Western $turkic_gfx$"
  epe_eastern_turk_clothing_gfx: "Eastern $turkic_gfx$"
 
 # Siberian
- siberian_gfx: "Siberian"
- ugro_permian_clothing_gfx: "$siberian_gfx$"
- ugro_permian_group_coa_gfx: "$siberian_gfx$"
+ siberian_gfx: "Tundra"
+ western_siberian_gfx: "Western $siberian_gfx$"
+ eastern_siberian_gfx: "Eastern $siberian_gfx$"
+ ugro_permian_group_coa_gfx: "$western_siberian_gfx$"
+ tundra_building_gfx: "$siberian_gfx$"
+ ugro_permian_clothing_gfx: "$western_siberian_gfx$"
+ ainu_clothing_gfx: "$eastern_siberian_gfx$"
  yb_siberian_steppe_clothing_gfx: "$siberian_gfx$-$steppe_gfx$"
+ magyar_unit_gfx: "Ugrian"
 
 # Turkmen
  seljuk_gfx: "$persian_turkish$"
+ oghuz_coa_gfx: "$seljuk_gfx$"
+ turkish_building_gfx: "$seljuk_gfx$"
  epe_seljuk_clothing_gfx: "$seljuk_gfx$"
  seljuk_unit_gfx: "$seljuk_gfx$"
- turkish_building_gfx: "$seljuk_gfx$"
 
 # South East Asian
  southeast_asian_gfx: "South East Asian"
@@ -37,16 +49,100 @@
  sinitic_gfx: "Sinitic"
  chinese_group_coa_gfx: "$sinitic_gfx$"
 
+# Tibetan
+ tibetan_gfx: "Tibetan"
+ tibetan_building_gfx: "$tibetan_gfx$"
+ tibetan_clothing_gfx: "$tibetan_gfx$"
+ tibet_unit_gfx: "$tibetan_gfx$"
+
+# Qiangic
+ qiangic_gfx: "Qiangic"
+ epe_chinese_unit_gfx: "$qiangic_gfx$"
+
 # Egyptian
  egyptian_gfx: "Egyptian"
  egyptian_group_coa_gfx: "$egyptian_gfx$"
 
 # Latin
- latin_gfx: ""
- latin_group_coa_gfx: ""
+ latin_gfx: "Latin"
+ latin_group_coa_gfx: "$latin_gfx$"
 
-# Others
- yb_timurid_clothing_gfx: "$tajik$"
+# Balkanic
+ balkanic_gfx: "Balkanic"
+ vlach_building_gfx: "$balkanic_gfx$"
+
+# European
+ east_european_gfx: "Eastern European"
+ magyar_building_gfx: "$east_european_gfx$"
+
+# Slavic
+ east_slavic_gfx: "East Slavic"
+ west_slavic_gfx: "West Slavic"
+ south_slavic_gfx: "South Slavic"
+ polish_unit_gfx: "$west_slavic_gfx$"
+ slavic_building_gfx: "$east_slavic_gfx$"
+ southslavic_building_gfx: "$south_slavic_gfx$"
+ south_slavic_building_gfx: "$southslavic_building_gfx$"
+ epe_east_slav_clothing_gfx: "$east_slavic_gfx$"
+ west_slavic_clothing_gfx: "$west_slavic_gfx$"
+ east_slavic_unit_gfx: "$east_slavic_gfx$"
+
+# Levantine
+ levantine_gfx: "Levantine"
+ levant_unit_gfx: "$levantine_gfx$"
+
+# Arabic
+ arabic_gfx: "Arabic"
+ arabic_group_building_gfx: "$arabic_gfx$"
+ arabic_group_clothing_gfx: "$arabic_gfx$"
+ dde_abbasid_clothing_gfx: "$arabic_gfx$"
+
+# Semitic
+ south_semitic_gfx: "South Semitic"
+ ethiopian_building_gfx: "$south_semitic_gfx$"
+
+# Sicilian
+ sicilian_gfx: "Sicilian"
+ sicilian_building_gfx: "$sicilian_gfx$"
+
+# Berber
+ berber_gfx: "Berber"
+ berber_group_building_gfx: "$berber_gfx$"
+ berber_building_gfx: "$berber_group_building_gfx$"
+ berber_unit_gfx: "$berber_gfx$"
+
+# British
+ british_gfx: "British"
+ british_building_gfx: "$british_gfx$"
+
+# Roman
+ roman_gfx: "$roman$"
+ eastern_roman_gfx: "Eastern $roman$"
+ epe_roman_clothing_gfx: "$roman_gfx$"
+ byzantine_clothing_gfx: "$eastern_roman_gfx$"
+ italian_unit_gfx: "$heritage_latin_name$"
+
+# Iranian
+ iranian_gfx: "$iranian_noun$"
+ west_iranian_gfx: "West $iranian_noun$"
+ east_iranian_gfx: "East $iranian_noun$"
  epe_sino_iranian_clothing_gfx: "$heritage_sakan_name$"
- epe_roman_clothing_gfx: "$roman$"
- yb_siberian_nomad_clothing_gfx: "$yakut$"
+ yb_timurid_clothing_gfx: "$tajik$"
+ west_iranian_unit_gfx: "$west_iranian_gfx$"
+ iranian_unit_gfx: "$east_iranian_gfx$"
+
+# Iberian
+ iberian_gfx: "Iberian"
+ iberian_christian_gfx: "Hispanian"
+ iberian_muslim_gfx: "Andalusian"
+ iberian_group_coa_gfx: "$iberian_gfx$"
+ iberian_building_gfx: "$iberian_gfx$"
+ iberian_christian_clothing_gfx: "$iberian_christian_gfx$"
+ iberian_muslim_clothing_gfx: "$iberian_muslim_gfx$"
+ iberian_christian_unit_gfx: "$iberian_gfx$"
+ iberian_muslim_unit_gfx: "$iberian_muslim_gfx$"
+ iberian_unit_gfx: "$iberian_christian_gfx$"
+
+# Celtic
+ celtic_gfx: "Celtic"
+ welsh_unit_gfx: "Gaul"

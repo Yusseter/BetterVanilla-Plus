@@ -215,6 +215,13 @@ special_genes = {
 					1 = f_hair_tgp_japanese_02
 					1 = f_hair_tgp_japanese_03
 					1 = f_hair_tgp_japanese_04
+					1 = f_hair_tgp_sea_01
+					1 = f_hair_tgp_sea_01_common
+					1 = f_hair_tgp_sea_02
+					1 = f_hair_tgp_sea_02_common
+					1 = f_hair_tgp_sea_03
+					1 = f_hair_tgp_sea_03_common
+					1 = f_hair_tgp_sea_04
 				}
 				boy = male
 				girl = female
@@ -2180,7 +2187,7 @@ special_genes = {
 					# Yusseter 0
 					1 = male_hair_turkic_01
 					1 = male_hair_turkic_02
-					5 = cfp_male_hair_hungarian_01
+					4 = cfp_male_hair_hungarian_01
 					#4 = m_hair_fp3_iranian_02 #Seljuk Braids
 					#4 = m_hair_fp3_iranian_01 #Long split strands
 					# Yusseter 1
@@ -2797,8 +2804,13 @@ special_genes = {
 					1 = male_hair_fp2_iberian_muslim_03
 				}
 				female = {
-					1 = female_hair_indian_01
-					1 = female_hair_indian_02
+					1 = f_hair_tgp_sea_01
+					1 = f_hair_tgp_sea_01_common
+					1 = f_hair_tgp_sea_02
+					1 = f_hair_tgp_sea_02_common
+					1 = f_hair_tgp_sea_03
+					1 = f_hair_tgp_sea_03_common
+					1 = f_hair_tgp_sea_04
 				}
 
 				boy = male
@@ -2986,4 +2998,4 @@ special_genes = {
 	}
 }
 
-# Yusseter: From EPE + CFP 2025.11.13
+# Yusseter: From EPE + CFP 2025.11.19

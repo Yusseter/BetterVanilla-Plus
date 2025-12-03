@@ -188,8 +188,8 @@ e11 = {
 	name = "To_r" # Tör Apa
 	religion = tengri_pagan
 	culture = kirghiz
-    diplomacy = 14
-    trait = education_diplomacy_4 # Whene 15 years old, went to China for diplomacy.
+	diplomacy = 14
+	trait = education_diplomacy_4 # Whene 15 years old, went to China for diplomacy.
 	801.1.1 = {
 		birth = yes
 	}
@@ -263,8 +263,8 @@ e12 = {
 	name = "c_oc_i_" # čočï böri šaŋun
 	religion = tengri_pagan
 	culture = kirghiz
-    diplomacy = 14
-    trait = education_diplomacy_4 # Whene 15 years old, went to China for diplomacy.
+	diplomacy = 14
+	trait = education_diplomacy_4 # Whene 15 years old, went to China for diplomacy.
 	801.1.1 = {
 		birth = yes
 	}
@@ -280,8 +280,8 @@ e30 = {
 	name = "a_rda_m" # čabïš tun tarqan, went as an envoy to Kara Khagan (probably Turugesh Khagan El Etmish) 
 	religion = tengri_pagan
 	culture = kirghiz
-    diplomacy = 12
-    trait = education_diplomacy_4 # Whene 15 years old, went to China for diplomacy.
+	diplomacy = 12
+	trait = education_diplomacy_4 # Whene 15 years old, went to China for diplomacy.
 	801.1.1 = {
 		birth = yes
 	}

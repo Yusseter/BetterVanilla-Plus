@@ -1,0 +1,879 @@
+﻿yb_character_setup_effects = {
+	if = {
+		limit = { exists = character:1233015 }
+		character:1233015 = { add_trait = viking }
+	}
+
+	if = {
+		limit = { exists = character:226000 }
+		character:226000 = { learn_language_of_culture = culture:levantine }
+	}
+
+	if = {
+		limit = { exists = character:163115 }
+		character:163115 = { learn_language_of_culture = culture:turkish }
+	}
+
+	if = {
+		limit = {
+			exists = culture:soqotri
+			title:c_socotra.holder.culture = { has_cultural_pillar = heritage_south_arabian }
+		}
+		title:c_socotra.holder = { set_culture = culture:soqotri }
+	}
+
+	every_living_character = {
+		every_courtier_or_guest = {
+			if = {
+				limit = {
+					exists = culture:mandaic
+					culture = culture:nabati
+				}
+				set_culture = culture:mandaic
+			}
+
+			if = {
+				limit = {
+					exists = culture:east_galindian
+					culture = culture:goliad
+				}
+				set_culture = culture:east_galindian
+			}
+
+			if = {
+				limit = {
+					exists = faith:slavic_east
+					faith = faith:slavic_pagan
+				}
+				set_character_faith = faith:slavic_east
+			}
+		}
+	}
+}
+
+yb_title_setup_effects = {
+	if = {
+		limit = {
+			game_start_date >= 700.1.1
+			game_start_date < 1400.1.1 
+		}
+
+		title:k_qara_dala = { set_de_jure_liege_title = title:e_tartaria }
+		title:k_cuman = { set_de_jure_liege_title = title:e_tartaria }
+		title:k_oghuz_il = { set_de_jure_liege_title = title:e_turan }
+		title:k_zhetysu = { set_de_jure_liege_title = title:e_turan }
+	}
+
+	if = {
+		limit = { game_start_date >= 1060.1.1 }
+
+		title:k_kimek = { set_de_jure_liege_title = title:e_caspian-pontic_steppe }
+	}
+
+	if = {
+		limit = {
+			game_start_date >= 800.1.1
+			game_start_date < 1050.1.1 
+		}
+
+		title:k_saryarka = { set_de_jure_liege_title = title:e_turan }
+	}
+
+	if = {
+		limit = {
+			game_start_date >= 800.1.1
+			game_start_date < 1150.1.1
+		}
+
+		title:k_kipchak = { set_de_jure_liege_title = title:e_turan }
+	}
+
+	title:d_zavkhan = { set_de_jure_liege_title = title:k_kerait }
+
+	#if = {
+	#	limit = {
+	#		game_start_date >= 840.1.1
+	#		game_start_date < 925.4.28
+	#	}
+	#	title:e_mongolia = {
+	#		set_coa = e_kirghiz_khanate
+	#		#set_color_from_title = title:e_kirghiz_khanate
+	#	}
+	#}
+}
+
+yb_county_setup_effects = {
+	every_county = {
+		if = {
+			limit = {
+				exists = culture:mandaic
+				culture = culture:nabati
+			}
+
+			set_county_culture = culture:mandaic
+		}
+
+		if = {
+			limit = {
+				exists = culture:east_galindian
+				culture = culture:goliad
+			}
+
+			set_county_culture = culture:east_galindian
+		}
+
+		if = {
+			limit = {
+				trigger_if = {
+					limit = { exists = culture:persian_turkish }
+					culture = culture:persian_turkish
+				}
+				trigger_else = {
+					culture = culture:turkmen
+				}
+				NOT = { faith.religion = religion:islam_religion }
+			}
+
+			set_county_faith = faith:maturidi
+		}
+
+		if = {
+			limit = {
+				OR = {
+					culture = culture:anatolian_turkish
+					AND = {
+						game_start_date < 1330.1.1
+						culture = culture:azerbaijan_turkish
+					}
+				}
+				NOT = { faith.religion = religion:islam_religion }
+			}
+
+			set_county_faith = faith:maturidi
+		}
+
+		if = {
+			limit = {
+				game_start_date >= 1330.1.1
+				culture = culture:azerbaijan_turkish
+				NOT = { faith.religion = religion:islam_religion }
+			}
+			set_county_faith = faith:imami
+		}
+
+		if = {
+			limit = {
+				culture = culture:syromesopotamian_turkish
+				NOT = { faith.religion = religion:islam_religion }
+			}
+			set_county_faith = faith:ashari
+		}
+	}
+
+	every_county = {
+		if = {
+			limit = {
+				exists = faith:slavic_south
+				culture = {
+					OR = {
+						has_cultural_pillar = heritage_south_slavic
+						has_cultural_pillar = heritage_vlach
+					}
+				}
+				faith = faith:slavic_pagan
+			}
+			set_county_faith = faith:slavic_south
+		}
+		if = {
+			limit = {
+				exists = faith:slavic_west
+				culture = { has_cultural_pillar = heritage_west_slavic }
+				faith = faith:slavic_pagan
+			}
+			set_county_faith = faith:slavic_west
+		}
+		else_if = {
+			limit = {
+				#culture = {
+				#	OR = {
+				#		has_cultural_pillar = heritage_east_slavic
+				#		has_cultural_pillar = heritage_north_germanic
+				#		has_cultural_pillar = heritage_magyar
+				#		has_cultural_pillar = heritage_baltic
+				#		has_cultural_pillar = heritage_iranian
+				#		has_cultural_pillar = heritage_sakan
+				#		has_cultural_pillar = heritage_volga_finnic
+				#	}
+				#}
+				faith = faith:slavic_pagan
+				exists = faith:slavic_east
+			}
+			set_county_faith = faith:slavic_east
+		}
+	}
+
+	if = {
+		limit = {
+			game_start_date >= 1140.1.1 
+			game_start_date < 1295.1.1 
+		}
+
+		every_county_in_region = {
+			region = world_middle_east_jerusalem
+			limit = {
+				culture = {
+					OR = {
+						this = culture:french
+						any_parent_culture_or_above = {
+							this = culture:french
+						}
+					}
+				}
+			}
+
+			set_county_culture = culture:levantine
+			set_county_faith = faith:ashari
+		}
+
+		title:c_jaffa = {
+			set_county_culture = culture:outremer
+			set_county_faith = faith:catholic
+		}
+	}
+
+	every_county_in_region = {
+		region = ghw_region_italy
+		limit = { culture = culture:greek }
+
+		set_county_culture = culture:griko
+	}
+
+	if = {
+		limit = {
+			exists = culture:kashgari
+			game_start_date >= 1000.1.1 
+			game_start_date < 1300.1.1
+		}
+
+		title:c_terek_pass = { set_county_culture = culture:kashgari }
+		title:c_kashgar = { set_county_culture = culture:kashgari }
+		title:c_aksu = { set_county_culture = culture:kashgari }
+	}
+
+	if = {
+		limit = {
+			exists = culture:kashgari
+			game_start_date >= 1050.1.1 
+			game_start_date < 1300.1.1 
+		}
+
+		title:c_maralbeshi = { set_county_culture = culture:kashgari }
+		title:c_yarkand = { set_county_culture = culture:kashgari }
+	}
+
+	if = {
+		limit = { exists = culture:soqotri }
+
+		title:c_socotra = { set_county_culture = culture:soqotri }
+	}
+}
+
+yb_culture_setup_effects = {
+	if = {
+		limit = {
+			OR = {
+				exists = culture:main_saka
+				NOT = { exists = culture:khotanese }
+			}
+		}
+		culture:saka = {
+			add_culture_tradition = tradition_RICE_silk_road
+			remove_variable = tradition_cooldown
+		}
+	}
+
+	if = {
+		limit = { culture:nubian = { NOT = { has_cultural_pillar = heritage_egyptian } } }
+		culture:nubian = { set_culture_pillar = heritage_egyptian }
+	}
+
+	if = {
+		limit = { culture:daju = { NOT = { has_cultural_pillar = heritage_central_african } } }
+		culture:daju = { set_culture_pillar = heritage_central_african }
+	}
+
+	if = {
+		limit = { culture:armenian = { NOT = { has_cultural_pillar = heritage_caucasian } } }
+		culture:armenian = { set_culture_pillar = heritage_caucasian }
+	}
+
+	if = {
+		limit = {
+			exists = culture_tradition:tradition_tribe_unity
+			culture:samoyed = { has_cultural_tradition = tradition_tribe_unity }
+		}
+		culture:samoyed = { set_culture_pillar = tradition_tribe_unity }
+	}
+
+	if = {
+		limit = {
+			exists = culture_tradition:tradition_RICE_whalers
+			culture:samoyed = { has_cultural_tradition = tradition_RICE_whalers }
+		}
+		culture:samoyed = { set_culture_pillar = tradition_RICE_whalers }
+	}
+
+	if = {
+		limit = {
+			exists = culture:yenisei_kirghiz
+			culture:kirghiz = { NOT = { has_cultural_pillar = language_kipchak } }
+		}
+		culture:kirghiz = { set_culture_pillar = language_kipchak }
+	}
+	else_if = {
+		limit = {
+			NOT = { exists = culture:yenisei_kirghiz }
+			exists = culture_pillar:language_siberian_turkic
+		}
+		culture:kirghiz = { set_culture_pillar = language_siberian_turkic }
+	}
+
+	if = {
+		limit = {
+			exists = culture:yenisei_kirghiz
+			culture:kirghiz = { NOT = { has_cultural_pillar = language_siberian_turkic } }
+		}
+		culture:yenisei_kirghiz = { set_culture_pillar = language_siberian_turkic }
+	}
+
+	if = {
+		limit = {
+			game_start_date > 1100.1.1
+			culture:bjarmian = { NOT = { { has_cultural_tradition = tradition_RICE_whalers } } }
+		}
+		culture:bjarmian = { add_culture_tradition = tradition_RICE_whalers }
+	}
+
+	if = {
+		limit = { game_start_date < 1150.1.1 }
+		culture:oirat = { set_culture_pillar = ethos_egalitarian }
+	}
+
+	if = {
+		limit = { has_mpo_dlc_trigger = yes }
+
+		every_culture_global = {
+			limit = { has_cultural_pillar = head_determination_herd }
+
+			add_to_global_variable_list = {
+				name = fully_landlocked_nomad_cultures
+				target = this
+			}
+		}
+		recalculate_cultural_heads_of_type = herd
+	}
+
+	culture:asturleonese = {
+		set_culture_name = {
+			noun = "asturleonese"
+			prefix = "asturleonese_prefix"
+			collective_noun = "asturleonese_collective_noun"
+		}
+	}
+}
+
+yb_game_rule_setup_effects = {
+	if = {
+		limit = {
+			game_start_date > 1095.11.27
+			NAND = {
+				game_start_date > 1300.1.1
+				has_game_rule = crusades_not_allowed_after_1300_date
+			}
+		}
+
+		religion:christianity_religion = {
+			every_faith = {
+				religion = {
+					set_variable = {
+						name = variable_ghw_unlocked
+						value = yes
+					}
+				}
+			}
+		}
+
+		religion:islam_religion = {
+			every_faith = {
+				religion = {
+					set_variable = {
+						name = variable_ghw_unlocked
+						value = yes
+					}
+				}
+			}
+		}
+
+		set_global_variable = {
+			name = had_first_catholic_crusade
+			value = yes
+		}
+	}
+
+	if = {
+		limit = {
+			OR = {
+				has_game_rule = ce_greek_culture_name_romaios_rule
+				has_game_rule = demonym_culture_name_allowed
+			}
+		}
+
+		culture:greek = {
+			set_culture_name = {
+				noun = "ce_greek"
+				prefix = "ce_greek_prefix"
+				collective_noun = "ce_greek_collective_noun"
+			}
+		}
+	}
+
+	if = {
+		limit = { has_game_rule = demonym_culture_name_allowed }
+
+		culture:eruand = {
+			set_culture_name = {
+				noun = "yb_eruand"
+				prefix = "yb_eruand_prefix"
+				collective_noun = "yb_eruand_collective_noun"
+			}
+		}
+
+		culture:transylvanian_saxon = {
+			set_culture_name = {
+				noun = "yb_transylvanian_saxon"
+				prefix = "yb_transylvanian_saxon_prefix"
+				collective_noun = "yb_transylvanian_saxon_collective_noun"
+			}
+		}
+
+		culture:saidi = {
+			set_culture_name = {
+				noun = "yb_saidi"
+				prefix = "yb_saidi_prefix"
+				collective_noun = "yb_saidi_collective_noun"
+			}
+		}
+
+		culture:madan = {
+			set_culture_name = {
+				noun = "yb_madan"
+				prefix = "yb_madan_prefix"
+				collective_noun = "yb_madan_collective_noun"
+			}
+		}
+
+		culture:shor = {
+			set_culture_name = {
+				noun = "yb_shor"
+				prefix = "yb_shor_prefix"
+				collective_noun = "yb_shor_collective_noun"
+			}
+		}
+
+		culture:siqar = {
+			set_culture_name = {
+				noun = "yb_siqar"
+				prefix = "yb_siqar_prefix"
+				collective_noun = "yb_siqar_collective_noun"
+			}
+		}
+
+		culture:bayirku = {
+			set_culture_name = {
+				noun = "yb_bayirku"
+				prefix = "yb_bayirku_prefix"
+				collective_noun = "yb_bayirku_collective_noun"
+			}
+		}
+
+		culture:median = {
+			set_culture_name = {
+				noun = "yb_median"
+			}
+		}
+
+		culture:old_anglian = {
+			set_culture_name = {
+				noun = "yb_old_anglian"
+			}
+		}
+
+		culture:qangli = {
+			set_culture_name = {
+				noun = "yb_qangli"
+				prefix = "yb_qangli_prefix"
+				collective_noun = "yb_qangli_collective_noun"
+			}
+		}
+
+		culture:xionite = {
+			set_culture_name = {
+				noun = "yb_xionite"
+				collective_noun = "yb_xionite_collective_noun"
+			}
+		}
+
+		culture:hephthalite = {
+			set_culture_name = {
+				noun = "yb_hephthalite"
+				collective_noun = "yb_hephthalite_collective_noun"
+			}
+		}
+
+		culture:xiongnu = {
+			set_culture_name = {
+				noun = "yb_xiongnu"
+				collective_noun = "yb_xiongnu_collective_noun"
+			}
+		}
+
+		culture:daylamite = {
+			set_culture_name = {
+				noun = "yb_daylamite"
+				prefix = "yb_daylamite_prefix"
+				collective_noun = "yb_daylamite_collective_noun"
+			}
+		}
+
+		culture:todzh = {
+			set_culture_name = {
+				noun = "yb_todzh"
+				prefix = "yb_todzh_prefix"
+				collective_noun = "yb_todzh_collective_noun"
+			}
+		}
+
+		culture:yakut = {
+			set_culture_name = {
+				noun = "yb_yakut"
+				prefix = "yb_yakut_prefix"
+				collective_noun = "yb_yakut_collective_noun"
+			}
+		}
+
+		culture:barsil = {
+			set_culture_name = {
+				noun = "yb_barsil"
+				prefix = "yb_barsil_prefix"
+				collective_noun = "yb_barsil_collective_noun"
+			}
+		}
+
+		culture:ezgil = {
+			set_culture_name = {
+				noun = "yb_ezgil"
+				prefix = "yb_ezgil_prefix"
+				collective_noun = "yb_ezgil_collective_noun"
+			}
+		}
+
+		culture:qibi = {
+			set_culture_name = {
+				noun = "yb_qibi"
+				prefix = "yb_qibi_prefix"
+				collective_noun = "yb_qibi_collective_noun"
+			}
+		}
+
+		culture:abusi = {
+			set_culture_name = {
+				noun = "yb_abusi"
+				prefix = "yb_abusi_prefix"
+				collective_noun = "yb_abusi_collective_noun"
+			}
+		}
+
+		culture:gulunwugu = {
+			set_culture_name = {
+				noun = "yb_gulunwugu"
+				prefix = "yb_gulunwugu_prefix"
+				collective_noun = "yb_gulunwugu_collective_noun"
+			}
+		}
+
+		culture:tujue = {
+			set_culture_name = {
+				noun = "yb_tujue"
+				prefix = "yb_tujue_prefix"
+				collective_noun = "yb_tujue_collective_noun"
+			}
+		}
+
+		culture:turgesh = {
+			set_culture_name = {
+				noun = "yb_turgesh"
+				prefix = "yb_turgesh_prefix"
+				collective_noun = "yb_turgesh_collective_noun"
+			}
+		}
+
+		culture:turkish = {
+			set_culture_name = {
+				noun = "yb_oghuz"
+				prefix = "yb_oghuz_prefix"
+				collective_noun = "yb_oghuz_collective_noun"
+			}
+		}
+
+		culture:rouran = {
+			set_culture_name = {
+				noun = "yb_rouran"
+				prefix = "yb_rouran_prefix"
+				collective_noun = "yb_rouran_collective_noun"
+			}
+		}
+
+		culture:persian = {
+			set_culture_name = {
+				noun = "yb_persian"
+				prefix = "yb_persian_prefix"
+				collective_noun = "yb_persian_collective_noun"
+			}
+		}
+
+		if = {
+			limit = { exists = culture:dingling }
+			culture:dingling = {
+				set_culture_name = {
+					noun = "yb_dingling"
+					prefix = "yb_dingling_prefix"
+					collective_noun = "yb_dingling_collective_noun"
+				}
+			}
+			culture:tiele = {
+				set_culture_name = {
+					noun = "yb_tiele"
+					prefix = "yb_tiele_prefix"
+					collective_noun = "yb_tiele_collective_noun"
+				}
+			}
+		}
+		else = {
+			culture:tiele = {
+				set_culture_name = {
+					noun = "yb_dingling"
+					prefix = "yb_dingling_prefix"
+					collective_noun = "yb_dingling_collective_noun"
+				}
+			}
+		}
+
+		if = {
+			limit = { exists = culture:cik }
+			culture:cik = {
+				set_culture_name = {
+					noun = "yb_cik"
+					prefix = "yb_cik_prefix"
+					collective_noun = "yb_cik_collective_noun"
+				}
+			}
+		}
+		else = {
+			culture:uriankhai = {
+				set_culture_name = {
+					noun = "yb_cik"
+					prefix = "yb_cik_prefix"
+					collective_noun = "yb_cik_collective_noun"
+				}
+			}
+		}
+
+		if = {
+			limit = { exists = culture:badawi }
+			culture:badawi = {
+				set_culture_name = {
+					noun = "yb_bedouin"
+					prefix = "yb_bedouin_prefix"
+					collective_noun = "yb_bedouin_collective_noun"
+				}
+			}
+			if = {
+				limit = { NOT = { exists = culture:najidi } }
+				culture:bedouin = {
+					set_culture_name = {
+						noun = "yb_najidi"
+						prefix = "yb_najidi_prefix"
+						collective_noun = "yb_najidi_collective_noun"
+					}
+				}
+			}
+		}
+		else = {
+			culture:bedouin = {
+				set_culture_name = {
+					noun = "yb_bedouin"
+					prefix = "yb_bedouin_prefix"
+					collective_noun = "yb_bedouin_collective_noun"
+				}
+			}
+		}
+
+		if = {
+			limit = { exists = culture:eranian }
+			culture:eranian = {
+				set_culture_name = {
+					noun = "yb_eranian"
+					prefix = "yb_eranian_prefix"
+					collective_noun = "yb_eranian_collective_noun"
+				}
+			}
+			culture:old_persian = {
+				set_culture_name = {
+					noun = "yb_old_persian"
+					prefix = "yb_old_persian_prefix"
+					collective_noun = "yb_old_persian_collective_noun"
+				}
+			}
+		}
+		else = {
+			culture:yb_old_persian = {
+				set_culture_name = {
+					noun = "yb_eranian"
+					prefix = "yb_eranian_prefix"
+					collective_noun = "yb_eranian_collective_noun"
+				}
+			}
+		}
+
+		if = {
+			limit = { exists = culture:yenisei_kirghiz }
+			culture:yenisei_kirghiz = {
+				set_culture_name = {
+					noun = "yb_yenisei_kirghiz"
+					prefix = "yb_yenisei_kirghiz_prefix"
+					collective_noun = "yb_yenisei_kirghiz_collective_noun"
+				}
+			}
+		}
+		else = {
+			culture:kirghiz = {
+				set_culture_name = {
+					noun = "yb_yenisei_kirghiz"
+					prefix = "yb_yenisei_kirghiz_prefix"
+					collective_noun = "yb_yenisei_kirghiz_collective_noun"
+				}
+			}
+		}
+	}
+
+	if = {
+		limit = { has_game_rule = demonym_culture_name_not_allowed }
+
+		if = {
+			limit = {
+				exists = culture:dagestani
+				NOT = { exists = culture:lezgi }
+			}
+			culture:dagestani = {
+				set_culture_name = {
+					noun = "lezgi"
+					prefix = "lezgi_prefix"
+					collective_noun = "lezgi_collective_noun"
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				exists = culture:egyptian_coptic
+				NOT = { exists = culture:ce_copt }
+			}
+			culture:egyptian_coptic = {
+				set_culture_name = {
+					noun = "ce_copt"
+					prefix = "ce_copt_prefix"
+					collective_noun = "ce_copt_collective_noun"
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				exists = culture:turkestani
+				NOT = { exists = culture:kashgari }
+			}
+			culture:turkestani = {
+				set_culture_name = {
+					noun = "kashgari"
+					prefix = "kashgari_prefix"
+					collective_noun = "kashgari_collective_noun"
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				exists = culture:onoghur
+				NOT = { exists = culture:sabir }
+			}
+			culture:onoghur = {
+				set_culture_name = {
+					noun = "sabir"
+					prefix = "sabir_prefix"
+					collective_noun = "sabir_collective_noun"
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				exists = culture:tatarstani
+				NOT = { exists = culture:tatars }
+			}
+			culture:tatarstani = {
+				set_culture_name = {
+					noun = "tatars"
+					prefix = "tatars_prefix"
+					collective_noun = "tatars_collective_noun"
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				exists = culture:kangar
+				NOT = { exists = culture:qangli }
+			}
+			culture:kangar = {
+				set_culture_name = {
+					noun = "qangli"
+					prefix = "qangli_prefix"
+					collective_noun = "qangli_collective_noun"
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				exists = culture:main_gothic
+				NOT = { exists = culture:crimean_gothic }
+			}
+			culture:gothic = {
+				set_culture_name = {
+					noun = "crimean_gothic"
+					prefix = "crimean_gothic_prefix"
+					collective_noun = "crimean_gothic_collective_noun"
+				}
+			}
+		}
+		else = {
+			culture:gothic = {
+				set_culture_name = {
+					noun = "main_gothic"
+					prefix = "main_gothic_prefix"
+					collective_noun = "main_gothic_collective_noun"
+				}
+			}
+		}
+	}
+}

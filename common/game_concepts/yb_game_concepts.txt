@@ -10,6 +10,10 @@
 #	parent = culture
 #}
 
+organized = {
+	alias = { organized_faith }
+}
+
 romano_briton_main = {
 	shown_in_encyclopedia = no
 	alias = { romano_briton romanobrit romanobrittonic }
@@ -21,6 +25,7 @@ old_briton_main = {
 }
 
 anglosaxons_main = {
+	shown_in_encyclopedia = no
 	alias = { anglosaxons anglosaxon }
 }
 

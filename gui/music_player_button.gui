@@ -15,7 +15,7 @@
 		alwaystransparent = no
 		position = { 0 -267 }
 		using = Animation_ShowHide_Standard
-		
+
 		button_round = {
 			name = "toggle_music_player_button"
 			size = { 35 35 }

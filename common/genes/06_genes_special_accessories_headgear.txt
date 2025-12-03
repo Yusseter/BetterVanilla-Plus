@@ -4037,8 +4037,7 @@ special_genes = {
 				male = {
 			       ##########################################################				
 					####Eastern Turkic/Default Turk
-					1 = male_headgear_secular_sogdian_cap_01_common # Yusseter
-					#1 = male_headgear_secular_steppe_common_01
+					1 = male_headgear_secular_steppe_common_01
 					1 = male_Turkic_Fur_Cap_01
 					1 = male_Turkic_Fur_Cap_02	
 					1 = male_Turkic_Fur_Cap_03
@@ -4136,19 +4135,13 @@ special_genes = {
 				male = {
 			       ##########################################################				
 					####Eastern Turkic/Default Turk
-					2 = male_headgear_secular_sogdian_cap_01_low # Yusseter
-					#1 = male_headgear_secular_steppe_common_01
+					1 = male_headgear_secular_steppe_common_01
 					1 = male_Turkic_Fur_Cap_01
 					1 = male_Turkic_Fur_Cap_02	
 					1 = male_Turkic_Fur_Cap_03
-					# Yusseter 0
-					4 = male_Turkic_Fur_Cap_04
-                    4 = male_Turkic_Fur_Cap_05
-					4 = m_headgear_sec_fp3_turkic_nob_01
-					#1 = male_Turkic_Fur_Cap_04
-                    #1 = male_Turkic_Fur_Cap_05
-					#1 = m_headgear_sec_fp3_turkic_nob_01 #FP3 Turkic V Hat
-					# Yusseter 1
+					1 = male_Turkic_Fur_Cap_04	
+                    1 = male_Turkic_Fur_Cap_05
+					1 = m_headgear_sec_fp3_turkic_nob_01 #FP3 Turkic V Hat		
 					
 			       ##########################################################						
 					####Seljuk Turk			
@@ -4158,17 +4151,14 @@ special_genes = {
 					1 = male_Seljuk_Leather_Hat_02		
 					1 = male_Seljuk_Leather_Hat_02_02					
 					1 = male_headgear_secular_mena_common_01
-					#1 = male_Turkic_Fur_Cap_01 # Yusseter
-					#1 = male_Turkic_Fur_Cap_02 # Yusseter
-					#1 = male_Turkic_Fur_Cap_03 # Yusseter
+					1 = male_Turkic_Fur_Cap_01	
+					1 = male_Turkic_Fur_Cap_02	
+					1 = male_Turkic_Fur_Cap_03
 					1 = male_headgear_all_era_iranian_qub_01_low				
 					1 = male_headgear_secular_mena_nobility_01
 					1 = male_headgear_epe_white_mena_nobility_02	
 					1 = male_headgear_epe_white_mena_nobility_03
 					1 = m_headgear_sec_fp3_turkic_nob_01 #FP3 Turkic V Hat		
-					1 = male_Turkic_Fur_Cap_01 # Yusseter
-					1 = male_Turkic_Fur_Cap_02 # Yusseter
-					1 = male_Turkic_Fur_Cap_03 # Yusseter
 
 			       ##########################################################				
 					####Early Western turk
@@ -4204,16 +4194,10 @@ special_genes = {
 					1 = empty
 					1 = empty
 					1 = female_headgear_secular_steppe_common_01	
-					# Yusseter 0
-					1 = empty
-				    1 = f_headgear_sec_mpo_mongol_com_01
-				    1 = f_headgear_sec_mpo_mongol_com_01
-					4 = f_headgear_sec_mpo_mongol_nob_01
-					#1 = female_headgear_secular_steppe_common_01
-					#1 = female_headgear_secular_steppe_common_01
-                    #1 = female_headgear_secular_steppe_common_01
-					#1 = female_headgear_secular_steppe_common_01
-					# Yusseter 1
+					1 = female_headgear_secular_steppe_common_01
+					1 = female_headgear_secular_steppe_common_01	
+                    1 = female_headgear_secular_steppe_common_01
+					1 = female_headgear_secular_steppe_common_01 		
 					
 			       ##########################################################						
 					####Seljuk Turk			
@@ -4237,16 +4221,10 @@ special_genes = {
 					1 = empty
 					1 = empty
 					1 = female_headgear_secular_steppe_common_01	
-					# Yusseter 0
-					1 = empty
-				    1 = f_headgear_sec_mpo_mongol_com_01
-				    1 = f_headgear_sec_mpo_mongol_com_01
-					4 = f_headgear_sec_mpo_mongol_nob_01
-					#1 = female_headgear_secular_steppe_common_01
-					#1 = female_headgear_secular_steppe_common_01
-                    #1 = female_headgear_secular_steppe_common_01
-					#1 = female_headgear_secular_steppe_common_01
-					# Yusseter 1	
+					1 = female_headgear_secular_steppe_common_01
+					1 = female_headgear_secular_steppe_common_01	
+                    1 = female_headgear_secular_steppe_common_01
+					1 = female_headgear_secular_steppe_common_01 		
 					
 			       ##########################################################						
 					####Late western Turk/Cuman			
@@ -4259,17 +4237,11 @@ special_genes = {
 					1 = female_headgear_secular_steppe_common_01	
 					1 = female_headgear_secular_steppe_common_01	
 					1 = female_headgear_secular_steppe_common_01
+					1 = female_headgear_secular_steppe_common_01				
 					1 = female_headgear_secular_steppe_common_01
-					# Yusseter 0
-					2 = empty
-				    2 = f_headgear_sec_mpo_mongol_com_01
-				    2 = f_headgear_sec_mpo_mongol_com_01
-					8 = f_headgear_sec_mpo_mongol_nob_01
-					#1 = female_headgear_secular_steppe_common_01
-					#1 = female_headgear_secular_steppe_common_01
-                    #1 = female_headgear_secular_steppe_common_01
-					#1 = female_headgear_secular_steppe_common_01
-					# Yusseter 1
+					1 = female_headgear_secular_steppe_common_01	
+					1 = female_headgear_secular_steppe_common_01
+					1 = female_headgear_secular_steppe_common_01 
 					
 				}
 				boy = male
@@ -4283,24 +4255,18 @@ special_genes = {
 					####Eastern Turkic/Default Turk
                     1 = male_Turkic_Fur_Cap_04	
                     1 = male_Turkic_Fur_Cap_05				
-                    1 = male_Turkic_Fur_Cap_03 # Yusseter
-                    #1 = male_headgear_secular_steppe_nobility_01
+                    1 = male_headgear_secular_steppe_nobility_01
 					
 			       ##########################################################						
 					####Seljuk Turk			
-					1 = male_Turkic_Fur_Cap_04 # Yusseter
-					1 = male_Turkic_Fur_Cap_05 # Yusseter
 					5 = m_headgear_sec_fp3_turkic_nob_02 # FP3 Seljuk Sharbush 
 					1 = male_Seljuk_Leather_Hat_01	
 					1 = male_Seljuk_Leather_Hat_01_02					
 					1 = male_Seljuk_Leather_Hat_02	
-					1 = male_Seljuk_Leather_Hat_02_02		
-					# Yusseter 0			
-                    1 = male_Turkic_Fur_Cap_04	
-					#1 = male_headgear_secular_mena_high_nobility_01
-					#1 = male_Turkic_Fur_Cap_04
-					#1 = male_Turkic_Fur_Cap_05
-					# Yusseter 1
+					1 = male_Seljuk_Leather_Hat_02_02					
+					1 = male_headgear_secular_mena_high_nobility_01
+					1 = male_Turkic_Fur_Cap_04	
+					1 = male_Turkic_Fur_Cap_05		
 
 			       ##########################################################				
 					####Early Western turk
@@ -4323,8 +4289,7 @@ special_genes = {
 				female = {
 			       ##########################################################				
 					####Eastern Turkic/Default Turk
-					4 = f_headgear_sec_mpo_mongol_nob_01 # Yusseter
-					#1 = female_cuman_noble_hat_01
+					1 = female_cuman_noble_hat_01
 					1 = female_cuman_noble_hat_01
 					1 = female_cuman_noble_hat_01	
 					
@@ -5585,6 +5550,8 @@ special_genes = {
 			       ##########################################################						
 					####Southeast				
 					1 = m_headgear_sec_tgp_southeast_nob_01	
+					1 = m_headgear_sec_tgp_southeast_nob_02
+					1 = m_headgear_sec_tgp_southeast_nob_03
 
 			       ##########################################################						
 					####Uyghur
@@ -5613,11 +5580,13 @@ special_genes = {
 
 			       ##########################################################						
 					####Japanese	
-					1 = m_headgear_sec_tgp_japanese_nob_01
+					1 = empty
 
 			       ##########################################################						
 					####Southeast				
 					1 = f_headgear_sec_tgp_southeast_nob_01	
+					1 = f_headgear_sec_tgp_southeast_nob_02
+					1 = f_headgear_sec_tgp_southeast_nob_02	
 
 			       ##########################################################						
 					####Uyghur
@@ -5647,6 +5616,8 @@ special_genes = {
 			       ##########################################################						
 					####Southeast				
 					1 = male_headgear_secular_ep1_indian_royalty_01	
+					1 = m_headgear_sec_tgp_southeast_roy_01_a
+					1 = m_headgear_sec_tgp_southeast_roy_01_b
 
 			       ##########################################################						
 					####Uyghur
@@ -5666,7 +5637,8 @@ special_genes = {
 					
 			       ##########################################################						
 					####Southeast				
-					1 = f_headgear_sec_tgp_southeast_nob_01						
+					1 = f_headgear_sec_tgp_southeast_roy_01						
+					1 = f_headgear_sec_tgp_southeast_roy_01					
 
 			       ##########################################################						
 					####Uyghur
@@ -7244,8 +7216,8 @@ special_genes = {
 				boy = male
 				girl = female			
 			}
-		
-			yb_muslim_turkic_royalty = { # Yusseter
+			# Yusseter 0
+			yb_muslim_turkic_royalty = {
 				index = 213
 
 				male = {
@@ -7270,7 +7242,7 @@ special_genes = {
 				girl = female
 			}
 
-			roman_diadem = { # Yusseter
+			roman_diadem = {
 				index = 214
 
 				male = {
@@ -7284,7 +7256,7 @@ special_genes = {
 				girl = female
 			}
 
-			yb_eastern_iranian_common = { # Yusseter
+			yb_eastern_iranian_common = {
 				index = 215
 
 				male = {
@@ -7313,7 +7285,7 @@ special_genes = {
 				girl = female
 			}
 
-			yb_eastern_iranian_nobility = { # Yusseter
+			yb_eastern_iranian_nobility = {
 				index = 216
 
 				male = {
@@ -7349,6 +7321,340 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+			
+			eastern_turk_common = {
+				index = 217
+				male = {
+					2 = male_headgear_secular_sogdian_cap_01_common
+					2 = male_Turkic_Fur_Cap_01
+					2 = male_Turkic_Fur_Cap_02
+					2 = male_Turkic_Fur_Cap_03
+				}
+				female = {
+					2 = empty
+					8 = female_headgear_secular_steppe_common_01
+				}
+				boy = male
+				girl = female
+			}
+
+			persianized_turk_common = {
+				index = 218
+				male = {
+					1 = male_headgear_all_era_iranian_qub_01_low
+					1 = male_secular_arabic_qayah_qub_cap_01
+					2 = male_headgear_secular_mena_common_01
+					1 = male_Turkic_Fur_Cap_01
+					1 = male_Turkic_Fur_Cap_02
+					1 = male_Turkic_Fur_Cap_03
+					1 = male_headgear_secular_dde_abbasid_common_01
+					1 = male_headgear_epe_white_mena_nobility_02
+					1 = male_headgear_epe_white_mena_nobility_03
+				}
+				female = {
+					2 = empty
+					2 = female_headgear_secular_steppe_common_01
+					2 = female_headgear_iranian_qub_03_common
+					2 = female_headgear_secular_mena_common_02
+					2 = female_headgear_iranian_qub_01_common
+				}
+				boy = male
+				girl = female
+			}
+
+			western_turk_early_common = {
+				index = 219
+				male = {
+					2 = male_Turkic_Fur_Cap_01
+					2 = male_Turkic_Fur_Cap_02
+					2 = male_Turkic_Fur_Cap_03
+				}
+				female = {
+					2 = empty
+					8 = female_headgear_secular_steppe_common_01
+				}
+				boy = male
+				girl = female
+			}
+
+			western_turk_late_common = {
+				index = 220
+				male = {
+					2 = empty
+					2 = male_Cuman_cap_commoner_01
+					2 = male_Cuman_Hat_01_commoner
+					2 = male_Cuman_Hat_02
+					2 = male_Cuman_Hat_03
+				}
+				female = {
+					2 = empty
+				    2 = f_headgear_sec_mpo_mongol_com_01
+					6 = female_headgear_secular_steppe_common_01
+				}
+				boy = male
+				girl = female
+			}
+
+			eastern_turk_low_nobility = {
+				index = 221
+				male = {
+					1 = male_headgear_secular_sogdian_cap_01_low
+					3 = male_Turkic_Fur_Cap_04
+					3 = male_Turkic_Fur_Cap_05
+					3 = m_headgear_sec_fp3_turkic_nob_01
+				}
+				female = {
+					2 = empty
+					2 = female_headgear_secular_steppe_common_01
+					2 = f_headgear_sec_mpo_mongol_com_01
+					4 = f_headgear_sec_mpo_mongol_nob_01
+				}
+				boy = male
+				girl = female
+			}
+
+			persianized_turk_low_nobility = {
+				index = 222
+				male = {
+					2 = male_Turkic_Fur_Cap_04
+					2 = male_Turkic_Fur_Cap_05
+					2 = m_headgear_sec_fp3_turkic_nob_01
+					2 = male_Seljuk_Leather_Hat_01
+					2 = male_Seljuk_Leather_Hat_01_02
+					2 = male_Seljuk_Leather_Hat_02
+					2 = male_Seljuk_Leather_Hat_02_02
+					2 = male_headgear_secular_mena_common_01
+					2 = male_headgear_all_era_iranian_qub_01_low
+					2 = male_headgear_secular_mena_nobility_01
+					2 = male_headgear_epe_white_mena_nobility_02
+					2 = male_headgear_epe_white_mena_nobility_03
+				}
+				female = {
+					1 = female_headgear_secular_steppe_common_01
+					3 = female_headgear_secular_mena_common_02
+					3 = female_headgear_iranian_qub_03_low
+					5 = female_headgear_iranian_qub_01_low
+				}
+				boy = male
+				girl = female
+			}
+
+			western_turk_early_low_nobility = {
+				index = 223
+				male = {
+					2 = male_Turkic_Fur_Cap_04
+					2 = male_Turkic_Fur_Cap_05
+					2 = m_headgear_sec_fp3_turkic_nob_01
+				}
+				female = {
+					2 = empty
+					2 = female_headgear_secular_steppe_common_01
+					2 = f_headgear_sec_mpo_mongol_com_01
+					4 = f_headgear_sec_mpo_mongol_nob_01
+				}
+				boy = male
+				girl = female
+			}
+
+			western_turk_late_low_nobility = {
+				index = 224
+				male = {
+					4 = male_Cuman_cap_low_noble_01
+					4 = male_Cuman_Hat_01_low_noble
+					3 = male_Cuman_Hat_02
+					3 = male_Cuman_Hat_03
+				}
+				female = {
+					2 = empty
+					2 = f_headgear_sec_mpo_mongol_com_01
+					4 = f_headgear_sec_mpo_mongol_nob_01
+					6 = female_cuman_noble_hat_01
+				}
+				boy = male
+				girl = female
+			}
+
+			eastern_turk_high_nobility = {
+				index = 225
+				male = {
+					2 = male_Turkic_Fur_Cap_04
+					2 = male_Turkic_Fur_Cap_05
+					2 = m_headgear_sec_fp3_turkic_nob_01
+				}
+				female = {
+					2 = empty
+					2 = female_headgear_secular_steppe_common_01
+					2 = f_headgear_sec_mpo_mongol_com_01
+					4 = f_headgear_sec_mpo_mongol_nob_01
+				}
+				boy = male
+				girl = female
+			}
+
+			persianized_turk_high_nobility = {
+				index = 226
+				male = {
+					4 = male_Turkic_Fur_Cap_04
+					4 = male_Turkic_Fur_Cap_05
+					4 = m_headgear_sec_fp3_turkic_nob_02
+					5 = male_Seljuk_Helmet_Hat_02
+					5 = male_Seljuk_Leather_Hat_01	
+					5 = male_Seljuk_Leather_Hat_01_02					
+					5 = male_Seljuk_Leather_Hat_02	
+					5 = male_Seljuk_Leather_Hat_02_02
+				}
+				female = {
+					3 = female_headgear_epe_seljuk_01_high				
+					3 = f_headgear_sec_fp3_seljuk_nob_01_hi
+					2 = f_headgear_sec_fp3_seljuk_nob_02_hi
+				}
+				boy = male
+				girl = female
+			}
+
+			western_turk_early_high_nobility = {
+				index = 227
+				male = {
+					2 = male_Seljuk_Helmet_Hat_02
+					2 = male_Turkic_Fur_Cap_04
+					2 = male_Turkic_Fur_Cap_05
+					2 = m_headgear_sec_fp3_turkic_nob_01
+				}
+				female = {
+					2 = empty
+					2 = female_headgear_secular_steppe_common_01
+					2 = f_headgear_sec_mpo_mongol_com_01
+					4 = f_headgear_sec_mpo_mongol_nob_01
+				}
+				boy = male
+				girl = female
+			}
+
+			western_turk_late_high_nobility = {
+				index = 228
+				male = {
+					4 = male_Cuman_cap_low_noble_01
+					4 = male_Cuman_Hat_01_low_noble
+					3 = male_Cuman_Hat_02
+					3 = male_Cuman_Hat_03
+				}
+				female = {
+					2 = empty
+					2 = f_headgear_sec_mpo_mongol_com_01
+					4 = f_headgear_sec_mpo_mongol_nob_01
+					6 = female_cuman_noble_hat_01
+				}
+				boy = male
+				girl = female
+			}
+
+			eastern_turk_royalty = {
+				index = 229
+				male = {
+					2 = Male_Turkic_Eagle_Crown_01
+					2 = male_Turkic_Eagle_Crown_02
+					2 = male_Turkic_Eagle_Crown_02_02
+				}
+				female = {
+					2 = female_headgear_secular_steppe_high_nobility_01
+					2 = Female_Khanum_Headress_01
+					2 = Female_Khanum_Headress_02
+				}
+				boy = male
+				girl = female
+			}
+
+			persianized_turk_royalty = {
+				index = 230
+				male = {
+					2 = male_headgear_secular_ep1_mena_royalty_01
+					2 = male_seljuk_royal_crown_01
+					1 = male_headgear_secular_steppe_royalty_01
+					2 = male_headgear_secular_steppe_royalty_01a
+					2 = male_headgear_secular_steppe_royalty_01b
+				}
+				female = {
+					2 = Female_Khanum_Headress_01_seljuk
+					2 = Female_Khanum_Headress_02_seljuk
+					2 = female_headgear_epe_seljuk_royal_nobility_01
+					2 = female_headgear_epe_seljuk_royal_nobility_02
+					1 = female_headgear_secular_ep1_mena_royalty_01
+				}
+				boy = male
+				girl = female
+			}
+
+			western_turk_royalty = {
+				index = 231
+				male = {
+					1 = male_headgear_secular_ep1_mena_royalty_01
+					1 = male_headgear_secular_steppe_royalty_01a
+					1 = Male_Turkic_Eagle_Crown_01
+					1 = male_Turkic_Eagle_Crown_02
+					1 = male_Turkic_Eagle_Crown_02_02
+				}
+				female = {
+					4 = f_Khanum_Headress_01_cuman
+					4 = f_Khanum_Headress_02_cuman
+					2 = female_headgear_secular_ep1_mena_royalty_01
+				}
+				boy = male
+				girl = female
+			}
+
+			eastern_turk_imperial = {
+				index = 232
+				male = {
+					2 = Male_Turkic_Eagle_Crown_01
+					2 = male_Turkic_Eagle_Crown_02
+					2 = male_Turkic_Eagle_Crown_02_02
+				}
+				female = {
+					2 = female_headgear_secular_steppe_high_nobility_01
+					2 = Female_Khanum_Headress_01
+					2 = Female_Khanum_Headress_02
+				}
+				boy = male
+				girl = female
+			}
+
+			persianized_turk_imperial = {
+				index = 233
+				male = {
+					2 = male_seljuk_royal_crown_01			
+					1 = male_headgear_secular_steppe_royalty_01					
+					2 = male_headgear_secular_steppe_royalty_01a
+					2 = male_headgear_secular_steppe_royalty_01b
+				}
+				female = {
+					2 = Female_Khanum_Headress_01_seljuk
+					2 = Female_Khanum_Headress_02_seljuk
+					2 = female_headgear_epe_seljuk_royal_nobility_01
+					2 = female_headgear_epe_seljuk_royal_nobility_02
+					1 = female_headgear_secular_ep1_mena_royalty_01
+				}
+				boy = male
+				girl = female
+			}
+
+			western_turk_imperial = {
+				index = 234
+				male = {
+					1 = male_headgear_secular_steppe_royalty_01a
+					1 = Male_Turkic_Eagle_Crown_01
+					1 = male_Turkic_Eagle_Crown_02
+					1 = male_Turkic_Eagle_Crown_02_02
+				}
+				female = {
+					2 = f_Khanum_Headress_01_cuman
+					2 = f_Khanum_Headress_01_cuman
+					2 = f_Khanum_Headress_01_cuman
+					4 = female_headgear_secular_ep1_mena_royalty_01
+				}
+				boy = male
+				girl = female
+			}
+			# Yusseter 1
 
 		}
 
@@ -7579,4 +7885,4 @@ special_genes = {
 	}
 }
 
-# Yusseter: From EPE + CFP 2025.11.13
+# Yusseter: From EPE + CFP 2025.11.19

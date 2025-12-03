@@ -15,7 +15,7 @@ yb_ashide = {
 
 2001156 = {
 	name = dynn_Enisey_Kyrgyz
-	culture = yenisei_kirghiz
+	culture = kirghiz #yenisei_kirghiz
 }
 
 dynasty_yujiulu = {
@@ -30,7 +30,7 @@ dynasty_uar = {
 
 dynasty_topek = {
 	name = dynasty_Topek
-	culture = yenisei_kirghiz
+	culture = kirghiz #yenisei_kirghiz
 }
 
 dynasty_avar_1 = {
@@ -45,7 +45,7 @@ dynasty_pecheneg_1 = {
 
 2001141 = {
 	name = dynn_Cik #dynn_Tuva
-	culture = cik
+	culture = uriankhai #cik
 }
 
 yb_albasri = {
@@ -55,12 +55,12 @@ yb_albasri = {
 
 1040063 = {
 	name = dynn_Kurebir
-	culture = qun
+	culture = tiele #qun
 }
 
 1040062 = {
 	name = dynn_Qutlugh
-	culture = uigur
+	culture = tiele #uigur
 }
 
 dynasty_xueyantuo_1 = {
@@ -75,5 +75,5 @@ dynasty_kutluk_1 = {
 
 2001141 = {
 	name = dynn_Kyumul
-	culture = cik
+	culture = uriankhai #cik
 }

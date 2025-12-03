@@ -1078,12 +1078,12 @@ special_genes = {
 
 				male = {
 					1 = empty
-					5 = male_beard_steppe_01 # Yusseter
+					#5 = male_beard_steppe_01 # Yusseter
 					5 = male_beard_steppe_02
 					5 = male_beard_custom_01
 					5 = male_beard_custom_02
 					5 = male_beard_custom_03				 
-					5 = male_beard_steppe_01 # Yusseter
+					#5 = male_beard_steppe_01 # Yusseter
 					5 = male_beard_steppe_02
 					5 = male_beard_turkic_01
 					5 = epe_male_beard_fp1_02 #	
