@@ -57,7 +57,7 @@ yb_coa_nomad_trigger = {
 							scope:faith.religion = religion:dualism_religion
 							scope:faith.religion = religion:confucianism_religion
 							scope:faith.religion = religion:taoism_religion
-							scope:faith = faith:nestorian
+							faith = { portrait_religious_faith_or_foundational_trigger = { FAITH = faith:nestorian } }
 						}
 						capital_province ?= {
 							OR = {

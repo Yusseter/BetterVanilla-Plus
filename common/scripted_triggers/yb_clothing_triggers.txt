@@ -56,6 +56,19 @@ portrait_epe_roman_clothing_spouse_trigger = {
 	}
 }
 
+portrait_chinese_clothing_trigger = {
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = chinese
+	}
+}
+portrait_chinese_clothing_spouse_trigger = {
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = culture
+		CULTURE_FLAG = chinese
+	}
+}
+
 portrait_epe_seljuk_clothing_trigger = { # Yusseter: From EPE 2025.11.20
 	OR = {
 		portrait_shared_clothing_contents_trigger = {
@@ -191,43 +204,65 @@ portrait_epe_eastern_turk_muslim_clothing_spouse_trigger = { # Yusseter: From EP
 }
 
 portrait_epe_uyghur_clothing_trigger = { # Yusseter: From EPE 2025.11.20
-	portrait_epe_eastern_turk_clothing_trigger = yes
 	portrait_epe_western_turk_clothing_trigger = no
 	portrait_epe_seljuk_clothing_trigger = no
+	portrait_tibetan_clothing_trigger = no
+	OR = {
+		portrait_epe_eastern_turk_clothing_trigger = yes
+		AND = {
+			portrait_steppe_clothing_trigger = yes
+			portrait_era1_trigger = yes
+		}
+	}
 	OR = {
 		religion = religion:buddhism_religion
 		religion = religion:dualism_religion
 		religion = religion:confucianism_religion
 		religion = religion:taoism_religion
-		faith = faith:nestorian
+		faith = { portrait_religious_faith_or_foundational_trigger = { FAITH = faith:nestorian } }
+		government_has_flag = government_has_merit
 	}
 }
 
 portrait_epe_uyghur_clothing_spouse_trigger = { # Yusseter: From EPE 2025.11.20
-	portrait_epe_eastern_turk_clothing_spouse_trigger = yes
 	portrait_epe_western_turk_clothing_spouse_trigger = no
 	portrait_epe_seljuk_clothing_spouse_trigger = no
+	portrait_tibetan_clothing_spouse_trigger = no
+	OR = {
+		portrait_epe_eastern_turk_clothing_spouse_trigger = yes
+		AND = {
+			portrait_steppe_clothing_spouse_trigger = yes
+			portrait_era1_trigger = yes
+		}
+	}
 	OR = {
 		religion = religion:buddhism_religion
 		religion = religion:dualism_religion
 		religion = religion:confucianism_religion
 		religion = religion:taoism_religion
-		faith = faith:nestorian
+		faith = { portrait_religious_faith_or_foundational_trigger = { FAITH = faith:nestorian } }
+		government_has_flag = government_has_merit
 	}
 }
 
 portrait_epe_uyghur_headgear_clothing_trigger = {
 	portrait_epe_uyghur_clothing_trigger = yes
-	portrait_shared_clothing_contents_trigger = {
-		CULTURE_SCOPE = scope:culture
-		CULTURE_FLAG = epe_uyghur
+	OR = {
+		government_has_flag = government_has_merit
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = scope:culture
+			CULTURE_FLAG = epe_uyghur
+		}
 	}
 }
 portrait_epe_uyghur_headgear_clothing_spouse_trigger = {
 	portrait_epe_uyghur_clothing_spouse_trigger = yes
-	portrait_shared_clothing_contents_trigger = {
-		CULTURE_SCOPE = culture
-		CULTURE_FLAG = epe_uyghur
+	OR = {
+		government_has_flag = government_has_merit
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = culture
+			CULTURE_FLAG = epe_uyghur
+		}
 	}
 }
 
@@ -236,6 +271,19 @@ portrait_epe_eastern_turk_clothing_trigger = { # Yusseter: From EPE 2025.11.20
 }
 portrait_epe_eastern_turk_clothing_spouse_trigger = { # Yusseter: From EPE 2025.11.20
 	portrait_turkic_clothing_spouse_trigger = yes
+}
+
+portrait_epe_western_turk_clothing_trigger = { # Yusseter: From EPE 2025.12.05
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = epe_western_turk
+	}
+}
+portrait_epe_western_turk_clothing_spouse_trigger = { # Yusseter: From EPE 2025.12.05
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = culture
+		CULTURE_FLAG = epe_western_turk
+	}
 }
 
 portrait_epe_georgian_clothing_trigger = { # Yusseter: From EPE 2025.11.20
@@ -311,7 +359,7 @@ portrait_iranian_clothing_spouse_trigger = {
 	}
 }
 
-portrait_persianized_muslim_clothing_trigger = {
+portrait_influenced_muslim_clothing_trigger = {
 	portrait_religious_muslim_trigger = yes
 	OR = {
 		portrait_shared_clothing_contents_trigger = {
@@ -356,7 +404,7 @@ portrait_persianized_muslim_clothing_trigger = {
 		NOT = { government_has_flag = government_has_herd }
 	}
 }
-portrait_persianized_muslim_clothing_spouse_trigger = {
+portrait_influenced_muslim_clothing_spouse_trigger = {
 	portrait_religious_muslim_trigger = yes
 	OR = {
 		portrait_shared_clothing_contents_trigger = {
@@ -403,19 +451,220 @@ portrait_epe_islamic_iranian_clothing_trigger = { # Yusseter: From EPE 2025.11.2
 	portrait_religious_muslim_trigger = yes
 	OR = {
 		portrait_iranian_clothing_trigger = yes
-		portrait_persianized_muslim_clothing_trigger = yes
+		AND = {
+			portrait_influenced_muslim_clothing_trigger = yes
+			OR = {
+				portrait_era2_trigger = yes
+				portrait_era3_trigger = yes
+				portrait_era4_trigger = yes
+			}
+		}
 	}
 }
 portrait_epe_islamic_iranian_clothing_spouse_trigger = { # Yusseter: From EPE 2025.11.20
 	portrait_religious_muslim_trigger = yes
 	OR = {
 		portrait_iranian_clothing_spouse_trigger = yes
-		portrait_persianized_muslim_clothing_spouse_trigger = yes
+		AND = {
+			portrait_influenced_muslim_clothing_spouse_trigger = yes
+			OR = {
+				portrait_era2_trigger = yes
+				portrait_era3_trigger = yes
+				portrait_era4_trigger = yes
+			}
+		}
 	}
+}
+
+portrait_dde_abbasid_clothing_trigger = { # Yusseter: From CK3 2025.12.11
+	OR = {
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = scope:culture
+			CULTURE_FLAG = dde_abbasid
+		}
+		AND = {
+			portrait_influenced_muslim_clothing_spouse_trigger = yes
+			portrait_era1_trigger = yes
+		}
+	}
+	has_dlc = "Fashion of the Abbasid Court"
+}
+portrait_dde_abbasid_clothing_spouse_trigger = { # Yusseter: From CK3 2025.12.11
+	OR = {
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = culture
+			CULTURE_FLAG = dde_abbasid
+		}
+		AND = {
+			portrait_influenced_muslim_clothing_spouse_trigger = yes
+			portrait_era1_trigger = yes
+		}
+	}
+	has_dlc = "Fashion of the Abbasid Court"
+}
+
+portrait_mena_clothing_trigger = { # Yusseter: From CK3 2025.12.11
+	OR = {
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = scope:culture
+			CULTURE_FLAG = mena
+		}
+		AND = {
+			portrait_influenced_muslim_clothing_spouse_trigger = yes
+			portrait_era1_trigger = yes
+		}
+	}
+}
+portrait_mena_clothing_spouse_trigger = { # Yusseter: From CK3 2025.12.11
+	OR = {
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = culture
+			CULTURE_FLAG = mena
+		}
+		AND = {
+			portrait_influenced_muslim_clothing_spouse_trigger = yes
+			portrait_era1_trigger = yes
+		}
+	}
+}
+
+portrait_cfp_hungarian_clothing_trigger = { # Yusseter: From CFP 2025.12.11
+	OR = {
+		portrait_epe_western_turk_clothing_trigger = yes
+		AND = {
+			portrait_western_clothing_trigger = yes
+			culture = {
+				any_parent_culture_or_above = {
+					this = culture:mogyer
+				}
+			}
+		}
+	}
+	portrait_religious_christian_trigger = yes
+}
+portrait_cfp_hungarian_clothing_spouse_trigger = { # Yusseter: From CFP 2025.12.11
+	OR = {
+		portrait_epe_western_turk_clothing_spouse_trigger = yes
+		AND = {
+			portrait_western_clothing_spouse_trigger = yes
+			culture = {
+				any_parent_culture_or_above = {
+					this = culture:mogyer
+				}
+			}
+		}
+	}
+	portrait_religious_christian_trigger = yes
+}
+
+portrait_religious_muslim_trigger = { # Yusseter: From CK3 2025.12.11
+	OR = {
+		religion = religion:islam_religion
+		religion = religion:alb_religion
+	}
+	NOT = { faith = { portrait_religious_faith_or_foundational_trigger = { FAITH = faith:quranist } } }
 }
 
 portrait_religious_pagan_trigger = {
 	religion = { is_in_family = rf_pagan }
+}
+
+portrait_ep2_western_travel_cloak_trigger = { # Yusseter: From CK3 2025.11.20
+	trigger_if = {
+		limit = {
+			NOR = {
+				has_realm_law = camp_purpose_explorers
+				liege ?= { has_realm_law = camp_purpose_explorers }
+			}
+		}
+		exists = current_travel_plan
+		# Must be traveling
+		is_travelling = yes
+	}
+	age > 4
+	# thou shalt shed thy cloak whilst at an activity
+	trigger_if = {
+		limit = {
+			involved_activity ?= {
+				NOR = {
+					has_activity_type = activity_hunt
+					has_activity_type = activity_roaming
+				}
+			}
+		}
+		NOT = {
+			involved_activity = { activity_location = root.location }
+		}
+	}
+	# Used for the following cultures
+	OR = {
+		portrait_byzantine_clothing_trigger = yes
+		portrait_western_clothing_trigger = yes
+		portrait_northern_clothing_trigger = yes
+	}
+	trigger_if = { # Yusseter
+		limit = { exists = this	}
+		NOR = {
+			government_has_flag = government_is_nomadic
+			government_has_flag = government_is_herder
+			government_has_flag = government_is_steppe_admin
+		}
+	}
+}
+
+portrait_ep2_mena_travel_cloak_trigger = { # Yusseter: From CK3 2025.11.20
+	trigger_if = {
+		limit = {
+			NOR = {
+				has_realm_law = camp_purpose_explorers
+				liege ?= { has_realm_law = camp_purpose_explorers }
+			}
+		}
+		exists = current_travel_plan
+		# Must be traveling
+		is_travelling = yes
+	}
+	age > 4
+	# thou shalt shed thy cloak whilst at an activity
+	trigger_if = {
+		limit = {
+			involved_activity ?= {
+				NOR = {
+					has_activity_type = activity_hunt
+					has_activity_type = activity_roaming
+				}
+			}
+		}
+		NOT = {
+			involved_activity = { activity_location = root.location }
+		}
+	}
+	# Used for the following cultures
+	OR = {
+		portrait_mena_clothing_trigger = yes
+		portrait_african_clothing_trigger = yes
+		portrait_indian_clothing_trigger = yes
+		portrait_steppe_clothing_trigger = yes
+	}
+	# Exclude pilgrimages
+	trigger_if = {
+		limit = { exists = current_travel_plan.travel_plan_activity }
+		NOT = {
+			current_travel_plan = {
+				travel_plan_activity = {
+					has_activity_type = activity_pilgrimage
+				}
+			}
+		}
+	}
+	trigger_if = { # Yusseter
+		limit = { exists = this	}
+		NOR = {
+			government_has_flag = government_is_nomadic
+			government_has_flag = government_is_herder
+			government_has_flag = government_is_steppe_admin
+		}
+	}
 }
 
 portrait_era_pagan_roman_trigger = {
@@ -549,104 +798,6 @@ portrait_era4_trigger = { # Intended to primarily cover the years 1300 to 1450
 		AND = {
 			scope:year_of_birth >= 1310
 			#scope:year_of_birth < 1425
-		}
-	}
-}
-
-portrait_ep2_western_travel_cloak_trigger = { # Yusseter: From CK3 2025.11.20
-	trigger_if = {
-		limit = {
-			NOR = {
-				has_realm_law = camp_purpose_explorers
-				liege ?= { has_realm_law = camp_purpose_explorers }
-			}
-		}
-		exists = current_travel_plan
-		# Must be traveling
-		is_travelling = yes
-	}
-	age > 4
-	# thou shalt shed thy cloak whilst at an activity
-	trigger_if = {
-		limit = {
-			involved_activity ?= {
-				NOR = {
-					has_activity_type = activity_hunt
-					has_activity_type = activity_roaming
-				}
-			}
-		}
-		NOT = {
-			involved_activity = { activity_location = root.location }
-		}
-	}
-	# Used for the following cultures
-	OR = {
-		portrait_byzantine_clothing_trigger = yes
-		portrait_western_clothing_trigger = yes
-		portrait_northern_clothing_trigger = yes
-	}
-	trigger_if = { # Yusseter
-		limit = { exists = this	}
-		NOR = {
-			government_has_flag = government_is_nomadic
-			government_has_flag = government_is_herder
-			government_has_flag = government_is_steppe_admin
-		}
-	}
-}
-
-portrait_ep2_mena_travel_cloak_trigger = { # Yusseter: From CK3 2025.11.20
-	trigger_if = {
-		limit = {
-			NOR = {
-				has_realm_law = camp_purpose_explorers
-				liege ?= { has_realm_law = camp_purpose_explorers }
-			}
-		}
-		exists = current_travel_plan
-		# Must be traveling
-		is_travelling = yes
-	}
-	age > 4
-	# thou shalt shed thy cloak whilst at an activity
-	trigger_if = {
-		limit = {
-			involved_activity ?= {
-				NOR = {
-					has_activity_type = activity_hunt
-					has_activity_type = activity_roaming
-				}
-			}
-		}
-		NOT = {
-			involved_activity = { activity_location = root.location }
-		}
-	}
-	# Used for the following cultures
-	OR = {
-		portrait_mena_clothing_trigger = yes
-		portrait_african_clothing_trigger = yes
-		portrait_indian_clothing_trigger = yes
-		portrait_steppe_clothing_trigger = yes
-	}
-	# Exclude pilgrimages
-	trigger_if = {
-		limit = { exists = current_travel_plan.travel_plan_activity }
-		NOT = {
-			current_travel_plan = {
-				travel_plan_activity = {
-					has_activity_type = activity_pilgrimage
-				}
-			}
-		}
-	}
-	trigger_if = { # Yusseter
-		limit = { exists = this	}
-		NOR = {
-			government_has_flag = government_is_nomadic
-			government_has_flag = government_is_herder
-			government_has_flag = government_is_steppe_admin
 		}
 	}
 }

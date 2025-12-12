@@ -131,7 +131,7 @@ yeniseians_main = {
 
 early_turks_main = {
 	shown_in_encyclopedia = no
-	alias = { huren huns early_turkic early_turks }
+	alias = { proto_turkic_demonym proto_turkic proto_turks early_turkic early_turks }
 }
 
 xiongnu_main = {

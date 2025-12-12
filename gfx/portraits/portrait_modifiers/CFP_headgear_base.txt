@@ -1046,6 +1046,11 @@ cfp_headgear_base = {
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
+				NOT = { # Yusseter
+					portrait_imperial_trigger = {
+					CULTURE_INPUT = epe_uyghur
+					}
+				}
 				is_female = no
 			
                 portrait_era1_trigger = yes 				

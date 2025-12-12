@@ -2,7 +2,7 @@
 
  britano_roman_history_loc: "Formed from [CULTURE.GetName] and [oldbrit|L] in the year $CULTURE_CREATION_YEAR$"
  karluk_history_loc: "Diverged from [CULTURE.GetName] in the year $CULTURE_CREATION_YEAR$"
- tujue_history_loc: "Diverged from [CULTURE.GetName] in the year $CULTURE_CREATION_YEAR$"
+ #tujue_history_loc: "Diverged from [CULTURE.GetName] in the year $CULTURE_CREATION_YEAR$"
  kurdish_history_loc: "Formed from [CULTURE.GetName] and [TARGET_CULTURE.GetName] in the year $CULTURE_CREATION_YEAR$"
  armenian_history_loc: "Formed from [TARGET_CULTURE.GetName] under [CULTURE.GetName] influence in the year $CULTURE_CREATION_YEAR$"
  anglo_saxon_history_loc: "Formed from [CULTURE.GetName], [TARGET_CULTURE.GetName] and [GetCultureByKey('jute').GetName] [cultures|E] in the year $CULTURE_CREATION_YEAR$"
@@ -22,7 +22,7 @@
  punic_history_loc: "Formed from [CULTURE.GetName] and an [GetCulturePillar('heritage_berber').GetName] [culture|E] in the year 800 BC"
  maghrebi_history_loc: "Formed from [CULTURE.GetName], [TARGET_CULTURE.GetName] and [GetCulturePillar('heritage_berber').GetName] [cultures|E] in the year $CULTURE_CREATION_YEAR$"
  cyrtian_history_loc: "Formed from [CULTURE.GetName] and [zagrosi|L] in the year 300 BC"
- dingling_history_loc: "Formed from and [GetCulturePillar('heritage_hunnic').GetName] [cultures|E] and [scythian|L] under [CULTURE.GetName] rule in the year 100 BC"
+ dingling_history_loc: "Formed from [GetCulturePillar('heritage_hunnic').GetName] [cultures|E] and [scythian|L] under [CULTURE.GetName] rule in the year 100 BC"
  khazar_history_loc: "Formed from [CULTURE.GetName] and an [GetCulturePillar('heritage_magyar').GetName] [culture|E] in the year $CULTURE_CREATION_YEAR$"
  avar_history_loc: "Formed from [TARGET_CULTURE.GetName] and an [GetCulturePillar('heritage_magyar').GetName] under [CULTURE.GetName] rule in the year $CULTURE_CREATION_YEAR$"
  caucasianized_history_loc: "Formed from [CULTURE.GetName] under [caucasian|L] influence in the year $CULTURE_CREATION_YEAR$"

@@ -21,7 +21,7 @@
  turkic_gfx: "$turk$ic"
  turkic_clothing_gfx: "$turkic_gfx$"
  epe_western_turk_clothing_gfx: "Western $turkic_gfx$"
- epe_eastern_turk_clothing_gfx: "Eastern $turkic_gfx$"
+ epe_eastern_turk_clothing_gfx: "$turkic_clothing_gfx$"
 
 # Siberian
  siberian_gfx: "Tundra"

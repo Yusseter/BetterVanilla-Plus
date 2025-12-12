@@ -805,7 +805,7 @@ hairstyles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 55
+				add = 0
 				OR = {
 					NOT = { exists = this }
 					has_gene = {
@@ -839,7 +839,7 @@ hairstyles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 55
+				add = 0
 				exists = this
 				OR = {
 					has_gene = {

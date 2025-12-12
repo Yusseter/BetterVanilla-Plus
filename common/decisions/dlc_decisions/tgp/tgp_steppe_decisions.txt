@@ -29,18 +29,13 @@
 	}
 
 	is_valid = {
-		# Yusseter 0
-		OR = {
-			religion = religion:taoism_religion
-			religion = religion:confucianism_religion
-			religion = religion:buddhism_religion
-			religion = religion:dualism_religion
-			faith = faith:nestorian
+		custom_tooltip = {
+			text = you_are_the_culture_head
+			culture = {
+				culture_head = root
+			}
 		}
-		#custom_tooltip = {
-		#	text = your_faith_is_organized
-		#	NOT = { faith = { has_doctrine = unreformed_faith_doctrine } }
-		#}
+		# Yusseter 0
 		custom_tooltip = {
 			text = dominate_title_trigger_dominance_4
 			OR = {
@@ -49,11 +44,37 @@
 			}
 		}
 		#custom_tooltip = {
-		#	text = you_are_the_culture_head
-		#	culture = {
-		#		culture_head = root
-		#	}
+		#	text = your_faith_is_organized
+		#	NOT = { faith = { has_doctrine = unreformed_faith_doctrine } }
 		#}
+		OR = {
+			religion = religion:taoism_religion
+			religion = religion:confucianism_religion
+			religion = religion:buddhism_religion
+			religion = religion:dualism_religion
+			custom_tooltip = {
+				text = is_your_faith_nestorian
+				faith = { portrait_religious_faith_or_foundational_trigger = { FAITH = faith:nestorian } }
+			}
+			custom_tooltip = {
+				text = steppe_admin_china_kingdom_requirement
+				any_realm_de_jure_kingdom = {
+					count >= 3
+					root = {
+						completely_controls = prev
+					}
+					title_capital_county.title_province ?= {
+						geographical_region = world_asia_china
+						OR = {
+							has_holding_type = castle_holding
+							has_holding_type = city_holding
+							has_holding_type = church_holding
+							has_holding_type = temple_citadel_holding
+						}
+					}
+				}
+			}
+		}
 		#OR = { # You need to already be on your way to imperial status, if not already there
 		#	has_realm_law = nomadic_authority_4
 		#	has_realm_law = nomadic_authority_5
@@ -166,6 +187,16 @@
 		nomad_domicile_refund_treasury_or_gold_effect = yes # we pay you back for your domicile investments
 		nomad_convert_herds_to_treasury_or_gold_special_troops_effect = yes # we pay you back for your herd investments
 		nomad_to_steppe_admin_new_capital_effect = yes # we arrange a new capital for you the same way we would any other settling nomad
+		give_noble_family_title = {
+			name = noble_family_name
+			tier = county
+			article = DEFAULT_TITLE_NAME_ARTICLE
+			government = steppe_admin_government
+			save_scope_as = new_title
+		}
+		scope:new_title = {
+			set_coa = holder.house
+		}
 		change_government = steppe_admin_government
 		hidden_effect = {
 			switch = {
@@ -201,36 +232,6 @@
 				}
 			}
 		}
-		custom_tooltip = { # Yusseter
-			text = siniticized_vassals_convert_to_steppe_admin
-			if = {
-				limit = {
-					any_vassal = {
-						OR = {
-							faith.religion = religion:taoism_religion
-							faith.religion = religion:confucianism_religion
-							faith.religion = religion:buddhism_religion
-							faith.religion = religion:dualism_religion
-							faith = faith:nestorian
-						}
-						NOT = { government_has_flag = government_is_steppe_admin }
-					}
-				}
-				every_vassal = {
-					limit = {
-						OR = {
-							faith.religion = religion:taoism_religion
-							faith.religion = religion:confucianism_religion
-							faith.religion = religion:buddhism_religion
-							faith.religion = religion:dualism_religion
-							faith = faith:nestorian
-						}
-						NOT = { government_has_flag = government_is_steppe_admin }
-					}
-					change_government = steppe_admin_government
-				}
-			}
-		}
 		custom_tooltip = {
 			text = merit_based_vassals_convert_to_steppe_admin
 			if = {
@@ -243,6 +244,33 @@
 				every_vassal = {
 					limit = {
 						government_has_flag = government_has_merit
+						NOT = { government_has_flag = government_is_steppe_admin }
+					}
+					change_government = steppe_admin_government
+				}
+			}
+			if = { # Yusseter
+				limit = {
+					any_vassal = {
+						OR = {
+							faith.religion = religion:taoism_religion
+							faith.religion = religion:confucianism_religion
+							faith.religion = religion:buddhism_religion
+							faith.religion = religion:dualism_religion
+							faith = { portrait_religious_faith_or_foundational_trigger = { FAITH = faith:nestorian } }
+						}
+						NOT = { government_has_flag = government_is_steppe_admin }
+					}
+				}
+				every_vassal = {
+					limit = {
+						OR = {
+							faith.religion = religion:taoism_religion
+							faith.religion = religion:confucianism_religion
+							faith.religion = religion:buddhism_religion
+							faith.religion = religion:dualism_religion
+							faith = { portrait_religious_faith_or_foundational_trigger = { FAITH = faith:nestorian } }
+						}
 						NOT = { government_has_flag = government_is_steppe_admin }
 					}
 					change_government = steppe_admin_government
@@ -262,7 +290,6 @@
 			}
 		}
 		hidden_effect = {
-			trigger_event = tgp_dynastic_cycle.9000 # Yusseter
 			generate_new_steppe_admin_families_effect = yes # we populate your noble families so you have some starting non-nomadic administrators
 		}
 	}
@@ -610,4 +637,4 @@ convert_to_meritocratic_decision = {
 	}
 }
 
-# Yusseter: From CK3 2025.11.27
+# Yusseter: From CK3 2025.12.12

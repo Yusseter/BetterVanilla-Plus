@@ -151,6 +151,8 @@
  - check herder on_action `if herder title is > county set nomad, on game start set herder holdings`
  - on title destroy reset color, coa, name `e_kara_khitai`
  - add new cultures to ancient culture chronicles `tujue`
+ - check goverment on_action `if clan_government title hast muslim make it feudal`
+ * silk road broken with kei
 
 # Later
  * titles

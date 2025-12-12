@@ -6542,6 +6542,7 @@ headgear_base = {
 			base = 0
 			modifier = {
 				add = 100
+				NOT = { government_has_flag = government_has_merit } # Yusseter
 				OR = {
 					portrait_imperial_trigger = {
 						CULTURE_INPUT = steppe
@@ -6581,7 +6582,7 @@ headgear_base = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 100
+				add = 0 # Yusseter: 100
 				OR = {
 					portrait_imperial_trigger = {
 						CULTURE_INPUT = steppe
@@ -15738,7 +15739,7 @@ ccp4_ugro_permian_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 100
+				add = 0
 				OR = {
 					portrait_commoner_headgear_fallback_trigger = {
 						CULTURE_INPUT = epe_sino_iranian
@@ -15771,7 +15772,7 @@ ccp4_ugro_permian_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 100
+				add = 0
 				portrait_low_nobles_clothing_trigger = {
 					CULTURE_INPUT = epe_sino_iranian
 				}
@@ -17873,7 +17874,8 @@ ccp4_ugro_permian_high_nobles = {
 				mode = add
 				gene = headgear
 				template = han_chinese_high_nobility
-				range = { 0.73 1 } # For the randomness to work correctly
+				range = { 0.8 1 } # Yusseter
+				#range = { 0.73 1 } # For the randomness to work correctly
 			}
 			accessory = {
 				mode = add
@@ -19017,6 +19019,35 @@ ccp4_ugro_permian_high_nobles = {
 					}
 					portrait_royalty_trigger = {
 						CULTURE_INPUT = viet
+					}
+					AND = { # Yusseter
+						OR = {
+							portrait_imperial_trigger = {
+								CULTURE_INPUT = steppe
+							}
+							portrait_royalty_trigger = {
+								CULTURE_INPUT = steppe
+							}
+						}
+						NOR = {
+							portrait_imperial_trigger = {
+								CULTURE_INPUT = epe_eastern_turk
+							}
+							portrait_royalty_trigger = {
+								CULTURE_INPUT = epe_eastern_turk
+							}
+							portrait_imperial_trigger = {
+								CULTURE_INPUT = epe_western_turk
+							}
+							portrait_royalty_trigger = {
+								CULTURE_INPUT = epe_western_turk
+							}
+						}
+						OR = {
+							portrait_era1_trigger = yes
+							portrait_era2_trigger = yes
+							portrait_era3_trigger = yes
+						}
 					}
 				}
 				has_tgp_dlc_trigger = yes

@@ -1012,6 +1012,49 @@
 		}
 	}
 
+	3046_suleyman = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = all_hairstyles
+				accessory = m_hair_fp3_iranian_03
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = all_beards
+				accessory = m_beard_ep3_byzantine_02
+			}
+			accessory = {
+				mode = add
+				gene = clothes
+				template = epe_turkic_high_nobility_clothes
+				accessory = m_clothes_fp3_seljuk_nobility_07_high
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = fp3_turkic_high_nobility
+				accessory = m_headgear_sec_fp3_turkic_nob_02
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				exists = this
+				exists = character:3046
+				this = character:3046
+			}
+		}
+	}
+
 	#no_cloak_nomads = {
 	#	dna_modifiers = {
 	#		accessory = {

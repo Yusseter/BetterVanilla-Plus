@@ -83,6 +83,122 @@ bjarmian = { # Actual Bjarmian
 	}
 }
 
+samoyed = { # Selkup, Bjarmian is different
+	color = { 0.3 0.87 0.21 }
+
+	ethos = ethos_stoic
+	heritage = heritage_ugro_permian # Yusseter: heritage_samoyedic
+	language = language_ugro_permian #language_selkup
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+
+	traditions = {
+		tradition_xenophilic
+		tradition_welcoming
+		tradition_forest_wardens
+		tradition_caravaneers
+	}
+	dlc_tradition = {
+		trait = tradition_mpo_northern_tribes
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	name_list = name_list_samoyed
+
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { tundra_building_gfx western_building_gfx }
+	clothing_gfx = { ugro_permian_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { circumpolar_unit_gfx northern_unit_gfx }
+
+	house_coa_frame = house_frame_05
+
+	ethnicities = {
+		20 = asian_magyar_1
+		1 = siberian_siberian_01
+		1 = siberian_siberian_02
+		1 = siberian_siberian_03
+		1 = siberian_siberian_04
+		1 = siberian_siberian_05
+		1 = siberian_siberian_06
+		1 = siberian_siberian_07
+		1 = siberian_siberian_08
+		1 = siberian_siberian_09
+		1 = siberian_siberian_10
+		1 = siberian_siberian_11
+		1 = siberian_siberian_12
+		1 = siberian_siberian_13
+		1 = siberian_siberian_14
+		1 = siberian_siberian_15
+		1 = siberian_siberian_16
+		1 = siberian_siberian_17
+		1 = siberian_siberian_18
+		1 = siberian_siberian_19
+		1 = siberian_siberian_20
+		1 = siberian_siberian_21
+		1 = siberian_siberian_22
+		1 = siberian_siberian_23
+		1 = siberian_siberian_24
+		1 = siberian_siberian_25
+	}
+}
+
+khanty = { # Ostyak
+	color = { 0.4 0.65 0.20 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_ugro_permian
+	language = language_ugro_permian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_zealous_people
+		tradition_isolationist
+	}
+	dlc_tradition = {
+		trait = tradition_mpo_northern_tribes
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	name_list = name_list_khanty
+
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { tundra_building_gfx western_building_gfx }
+	clothing_gfx = { ugro_permian_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { circumpolar_unit_gfx northern_unit_gfx }
+
+	house_coa_frame = house_frame_05
+	
+	ethnicities = {
+		20 = asian_magyar_1
+		1 = siberian_siberian_01
+		1 = siberian_siberian_02
+		1 = siberian_siberian_03
+		1 = siberian_siberian_04
+		1 = siberian_siberian_05
+		1 = siberian_siberian_06
+		1 = siberian_siberian_07
+		1 = siberian_siberian_08
+		1 = siberian_siberian_09
+		1 = siberian_siberian_10
+		1 = siberian_siberian_11
+		1 = siberian_siberian_12
+		1 = siberian_siberian_13
+		1 = siberian_siberian_14
+		1 = siberian_siberian_15
+		1 = siberian_siberian_16
+		1 = siberian_siberian_17
+		1 = siberian_siberian_18
+		1 = siberian_siberian_19
+		1 = siberian_siberian_20
+		1 = siberian_siberian_21
+		1 = siberian_siberian_22
+		1 = siberian_siberian_23
+		1 = siberian_siberian_24
+		1 = siberian_siberian_25
+	}
+}
+
 tavastian = {
 	color = { 0.32 0.65 0.75 }
 
@@ -8412,7 +8528,7 @@ alan = {
 	traditions = {
 		tradition_horse_lords
 		tradition_mountaineers
-		tradition_steppe_tolerance
+		#tradition_steppe_tolerance
 		tradition_wedding_ceremonies
 	}
 
@@ -8569,10 +8685,8 @@ circassian = {
 	head_determination = head_determination_domain
 
 	traditions = {
-		tradition_horse_lords
-		tradition_mountaineers
-		tradition_caucasian_wolves
-		tradition_wedding_ceremonies
+		tradition_swords_for_hire
+		tradition_mountain_homes
 	}
 
 	name_list = name_list_circassian
@@ -10324,6 +10438,7 @@ hunnic = {
 	language = language_hunnic
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		tradition_hunters
@@ -10440,7 +10555,7 @@ xionite = {
 	language = language_scythian
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		tradition_stalwart_defenders
@@ -10512,9 +10627,13 @@ main_saka = {
 
 	traditions = {
 		tradition_caravaneers
-		tradition_horse_lords
 		tradition_dryland_dwellers
 		tradition_artisans
+	}
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+		fallback = tradition_horse_lords
 	}
 	dlc_tradition = {
 		trait = tradition_fp3_frontier_warriors
@@ -10583,12 +10702,17 @@ yancai = {
 	head_determination = head_determination_herd
 
 	traditions = {
-		tradition_horse_lords
-		tradition_steppe_tolerance
+		#tradition_horse_lords
+		#tradition_steppe_tolerance
 		tradition_city_keepers
 		tradition_caravaneers
 	}
 	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+		fallback = tradition_horse_lords
+	}
+	dlc_tradition = { # Cybr: Cultural blend
 		trait = tradition_culture_blending
 		requires_dlc_flag = hybridize_culture
 	}
@@ -10706,9 +10830,15 @@ main_alan = {
 	head_determination = head_determination_herd
 
 	traditions = {
-		tradition_horse_breeder
-		tradition_steppe_tolerance
+		#tradition_horse_lords
+		tradition_pastoralists # Cybr: Cattle grazing between the towns they settled in
+		#tradition_steppe_tolerance
 		tradition_wedding_ceremonies
+	}
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+		fallback = tradition_horse_lords
 	}
 
 	name_list = name_list_alan
@@ -10917,11 +11047,14 @@ parthian = {
 	head_determination = head_determination_domain
 
 	traditions = {
-		tradition_poetry
-		tradition_culture_blending
-		tradition_dryland_dwellers
-		tradition_horse_lords
-		tradition_caravaneers
+		#tradition_dryland_dwellers
+		tradition_horse_lords # Cybr: Famous for their cavalry
+		tradition_caravaneers # Cybr: Increase in Silk Road trade
+		tradition_mystical_ancestors # Cybr: Something to represent the 7 Noble Parthian clans, maybe a custom tradition in the future
+	}
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
 	}
 
 	name_list = name_list_caspian
@@ -12477,16 +12610,21 @@ hephthalite = {
 	head_determination = head_determination_domain
 
 	traditions = {
-		tradition_horse_lords # Warriors from the steppes
+		#tradition_horse_lords # Warriors from the steppes
 		tradition_mountain_homes # May have originated from the Pamir region
 		tradition_sacred_mountains # Zun was a solar mountain god
 		tradition_city_keepers # Although they may (or may not) have started off as nomads, they often settled into cities, and according to recent scholarship the Kidarite/Hephthalite period was one of increased urban growth in the eastern Iranian worlds
 		#tradition_RICE_white_huns
 	}
-	dlc_tradition = { # Did a lot of culture blending later on
-		trait = tradition_malleable_invaders
-		requires_dlc_flag = hybridize_culture
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+		fallback = tradition_horse_lords
 	}
+	#dlc_tradition = { # Did a lot of culture blending later on
+	#	trait = tradition_malleable_invaders
+	#	requires_dlc_flag = hybridize_culture
+	#}
 
 	name_list = name_list_hephthalite
 
@@ -12621,20 +12759,25 @@ turco_hephthalite = {
 
 	ethos = ethos_stoic
 	heritage = heritage_iranian
-	language = language_scythian
+	language = language_turkic
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 
 	traditions = {
-		tradition_mountain_homes # May have originated from the Pamir region
+		#tradition_mountain_homes # May have originated from the Pamir region
 		tradition_sacred_mountains # Zun was a solar mountain god
 		#tradition_city_keepers # Although they may (or may not) have started off as nomads, they often settled into cities, and according to recent scholarship the Kidarite/Hephthalite period was one of increased urban growth in the eastern Iranian worlds
 		tradition_fervent_temple_builders # Lots of Zun/Buddhist/Hindu religious sites
 		#tradition_RICE_white_huns
+		#tradition_quarrelsome # Cybr: Quarreling I guess
 	}
+	#dlc_tradition = {
+	#	trait = tradition_culture_blending
+	#	requires_dlc_flag = hybridize_culture
+	#}
 	dlc_tradition = {
-		trait = tradition_culture_blending
-		requires_dlc_flag = hybridize_culture
+		trait = tradition_fp3_frontier_warriors
+		requires_dlc_flag = legacy_of_persia
 	}
 
 	name_list = name_list_hephthalite
@@ -12649,26 +12792,6 @@ turco_hephthalite = {
 	house_coa_mask_scale = { 0.95 0.95 }
 
 	ethnicities = {
-		2 = iranian_saka_01
-		2 = iranian_saka_02
-		2 = iranian_saka_03
-		2 = iranian_saka_04
-		2 = iranian_saka_05
-		2 = iranian_saka_06
-		2 = iranian_saka_07
-		2 = iranian_saka_08
-		2 = iranian_saka_09
-		2 = iranian_saka_10
-		2 = iranian_saka_11
-		2 = iranian_saka_12
-		2 = iranian_saka_13
-		2 = iranian_saka_14
-		2 = iranian_saka_15
-		2 = iranian_saka_16
-		2 = iranian_saka_17
-		2 = iranian_saka_18
-		2 = iranian_saka_19
-		2 = iranian_saka_20
 		2 = mid_east_turkmen_01
 		2 = mid_east_turkmen_02
 		2 = mid_east_turkmen_03
@@ -12709,56 +12832,6 @@ turco_hephthalite = {
 		2 = mid_east_turkmen_38
 		2 = mid_east_turkmen_39
 		2 = mid_east_turkmen_40
-		2 = iranian_afghan_1
-		2 = iranian_afghan_2
-		2 = iranian_afghan_3
-		2 = iranian_afghan_4
-		2 = iranian_afghan_5
-		2 = iranian_afghan_6
-		2 = iranian_afghan_7
-		2 = iranian_afghan_8
-		2 = iranian_afghan_9
-		2 = iranian_afghan_10
-		2 = iranian_afghan_11
-		2 = iranian_afghan_12
-		2 = iranian_afghan_13
-		2 = iranian_afghan_14
-		2 = iranian_afghan_15
-		2 = iranian_afghan_16
-		2 = iranian_afghan_17
-		2 = iranian_afghan_18
-		2 = iranian_afghan_19
-		2 = iranian_afghan_20
-		2 = iranian_afghan_21
-		2 = iranian_afghan_22
-		2 = iranian_afghan_23
-		2 = iranian_afghan_24
-		2 = iranian_afghan_25
-		2 = iranian_afghan_26
-		2 = iranian_afghan_27
-		2 = iranian_afghan_28
-		2 = iranian_afghan_29
-		2 = iranian_afghan_30
-		2 = iranian_afghan_31
-		2 = iranian_afghan_32
-		2 = iranian_afghan_33
-		2 = iranian_afghan_34
-		2 = iranian_afghan_35
-		2 = iranian_afghan_36
-		2 = iranian_afghan_37
-		2 = iranian_afghan_38
-		2 = iranian_afghan_39
-		2 = iranian_afghan_40
-		2 = iranian_afghan_41
-		2 = iranian_afghan_42
-		2 = iranian_afghan_43
-		2 = iranian_afghan_44
-		2 = iranian_afghan_45
-		2 = iranian_afghan_46
-		2 = iranian_afghan_47
-		2 = iranian_afghan_48
-		2 = iranian_afghan_49
-		2 = iranian_afghan_50
 	}
 }
 
@@ -13316,9 +13389,11 @@ saka = { # Yusseter: Khotanese
 
 	traditions = {
 		tradition_caravaneers
-		tradition_religious_patronage
+		#tradition_religious_patronage
 		tradition_dryland_dwellers
-		tradition_city_keepers
+		#tradition_city_keepers
+		tradition_language_scholars # Cybr: Translators
+		tradition_artisans
 	}
 
 	name_list = name_list_saka
@@ -13575,7 +13650,7 @@ sogdian = {
 
 	coa_gfx = { iranian_group_coa_gfx }
 	building_gfx = { iranian_building_gfx }
-	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	clothing_gfx = { epe_sino_iranian_clothing_gfx iranian_clothing_gfx }
 	unit_gfx = { iranian_unit_gfx }
 
 	house_coa_frame = house_frame_12
@@ -19360,19 +19435,25 @@ rouran = {
 	language = language_khitan
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		tradition_hunters
-		tradition_steppe_tolerance
+		#tradition_steppe_tolerance
+	}
+	dlc_tradition = {
+		trait = tradition_mpo_wolves_of_the_deep_steppe
+		requires_dlc_flag = khans_of_the_steppe
+		fallback = tradition_horse_lords
 	}
 	dlc_tradition = {
 		trait = tradition_devoted_horsemanship
 		requires_dlc_flag = khans_of_the_steppe
 	}
-	dlc_tradition = {
-		trait = tradition_malleable_invaders
-		requires_dlc_flag = hybridize_culture
-	}
+	#dlc_tradition = {
+	#	trait = tradition_malleable_invaders
+	#	requires_dlc_flag = hybridize_culture
+	#}
 
 	name_list = name_list_rouran
 
@@ -19429,6 +19510,7 @@ xianbei = {
 	language = language_khitan
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		tradition_religious_patronage # Cybr: Patrons of Buddhism
@@ -19498,7 +19580,7 @@ tuyuhun = {
 	language = language_khitan
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		tradition_horse_breeder # Cybr: Qinghaicong horses
@@ -19595,7 +19677,7 @@ khitan = {
 	language = language_khitan
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		tradition_pastoralists
@@ -19667,13 +19749,15 @@ shiwei = { # Shiwei
 	language = language_khitan
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
-		tradition_steppe_tolerance
-		tradition_culture_blending
+		tradition_isolationist
+		tradition_pastoralists # Hunters & pastoralists
+		tradition_mountaineers # Living around high altitude regions and mountain ranges
 	}
 	dlc_tradition = {
-		trait = tradition_mpo_wolves_of_the_deep_steppe
+		trait = tradition_mpo_iron_cavalry
 		requires_dlc_flag = khans_of_the_steppe
 	}
 
@@ -19729,6 +19813,7 @@ mongol = {
 	language = language_mongolic
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		tradition_hunters
@@ -19795,6 +19880,7 @@ oirat = {
 	language = language_mongolic
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		tradition_hunters
@@ -19873,6 +19959,7 @@ buryat = {
 	language = language_mongolic
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		tradition_sacred_hunts
@@ -19939,6 +20026,7 @@ kerait = { # Kereyid
 	language = language_turkic #language_mongolic
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		tradition_horse_breeder
@@ -20022,6 +20110,7 @@ naiman = {
 	language = language_turkic #language_karluk
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		#tradition_horse_lords
@@ -20876,7 +20965,7 @@ levantine = {
 }
 
 maghrebi = {
-	color = { 0.76 0.41 0.55 }
+	color = maghrebi
 	created = 670.1.1
 	parents = { bedouin african_roman }
 
@@ -22577,6 +22666,7 @@ yeniseian = {
 	language = language_yeniseian
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		tradition_storytellers
@@ -27008,7 +27098,7 @@ jurchen = {
 	language = language_tungusic
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		tradition_horse_breeder	# Skilled horse breeders/exporters and had a large cavalry
@@ -27464,7 +27554,7 @@ xiongnu = { # Yusseter: Xiongnu, Asian Huns
 	language = language_hunnic
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		tradition_artisans
@@ -27626,7 +27716,7 @@ xueyantuo = { # Yusseter: Sir Tardush
 	language = language_turkic #language_tiele
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		tradition_mystical_ancestors # Cybr: Legendary origins in Chinese sources, put it here because why not
@@ -27713,10 +27803,10 @@ tiele = { # Yusseter: Tolesh
 	language = language_turkic #language_tiele
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
-		tradition_mystical_ancestors # Cybr: Legendary origins in Chinese sources, put it here because why not
+		#tradition_mystical_ancestors # Cybr: Legendary origins in Chinese sources, put it here because why not
 		tradition_battlefield_looters # Cybr: Loved looting according to Chinese sources (though that's a pretty generic trope)
 		tradition_warrior_culture # Cybr: Lots of involvement in wars according to Chinese sources (though that's also a pretty generic trope)
 	}
@@ -27724,10 +27814,10 @@ tiele = { # Yusseter: Tolesh
 		trait = tradition_devoted_horsemanship
 		requires_dlc_flag = khans_of_the_steppe
 	}
-	dlc_tradition = {
-		trait = tradition_malleable_invaders
-		requires_dlc_flag = hybridize_culture
-	}
+	#dlc_tradition = {
+	#	trait = tradition_malleable_invaders
+	#	requires_dlc_flag = hybridize_culture
+	#}
 
 	name_list = name_list_tiele
 
@@ -27792,31 +27882,31 @@ tiele = { # Yusseter: Tolesh
 
 dingling = {
 	color = { 0.68 0.6 0.72 }
-	created = 50.1.1
+	created = 2.1.1
 	parents = { xiongnu main_saka }
 	history_loc_override = dingling_history_loc
 
-	ethos = ethos_bellicose
+	ethos = ethos_egalitarian
 	heritage = heritage_hunnic
 	language = language_turkic
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		#tradition_horse_lords
 		tradition_mystical_ancestors # Cybr: Legendary origins in Chinese sources, put it here because why not
-		tradition_battlefield_looters # Cybr: Loved looting according to Chinese sources (though that's a pretty generic trope)
-		tradition_warrior_culture # Cybr: Lots of involvement in wars according to Chinese sources (though that's also a pretty generic trope)
+		tradition_caravaneers # Cybr: Although far from certain, I'm going with the theory that they were involved in oasis trade along the Syr Darya before they moved westward
+		tradition_horse_breeder
 	}
 	dlc_tradition = {
 		trait = tradition_devoted_horsemanship
 		requires_dlc_flag = khans_of_the_steppe
 	}
-	dlc_tradition = {
-		trait = tradition_malleable_invaders
-		requires_dlc_flag = hybridize_culture
-	}
+	#dlc_tradition = {
+	#	trait = tradition_malleable_invaders
+	#	requires_dlc_flag = hybridize_culture
+	#}
 
 	name_list = name_list_tiele
 
@@ -27882,15 +27972,15 @@ dingling = {
 tujue = { # Yusseter: Gokturk
 	color = { 0.55 0.7 0.7 }
 	created = 450.1.1
-	parents = { dingling }
-	history_loc_override = tujue_history_loc
+	parents = { dingling sogdian }
+	#history_loc_override = tujue_history_loc
 
 	ethos = ethos_bellicose
 	heritage = heritage_hunnic
 	language = language_turkic #language_tiele
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		tradition_swords_for_hire
@@ -27978,8 +28068,8 @@ tujue = { # Yusseter: Gokturk
 	}
 }
 
-ueban = { # Yusseter: Yuehban, Yueban, Ueban
-	color = ueban
+yueban = { # Yusseter: Yuehban, Yueban, Ueban
+	color = yueban
 	created = 160.1.1
 	parents = { xiongnu }
 
@@ -27988,23 +28078,22 @@ ueban = { # Yusseter: Yuehban, Yueban, Ueban
 	language = language_turkic #language_karluk
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
-		#tradition_malleable_invaders
 		tradition_ruling_caste
+		#tradition_malleable_invaders
+		#tradition_sacred_mountains
+		tradition_ce1_ritual_washing
 		#tradition_horse_lords
 	}
 	dlc_tradition = {
 		trait = tradition_devoted_horsemanship
 		requires_dlc_flag = khans_of_the_steppe
-	}
-	dlc_tradition = {
-		trait = tradition_mpo_iron_cavalry
-		requires_dlc_flag = khans_of_the_steppe
+		fallback = tradition_horse_lords
 	}
 
-	name_list = name_list_tiele
+	name_list = name_list_xiongnu
 
 	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
@@ -28065,6 +28154,90 @@ ueban = { # Yusseter: Yuehban, Yueban, Ueban
 	}
 }
 
+chigil = {
+	color = chigil
+
+	created = 570.1.1
+	parents = { tujue yueban }
+
+	ethos = ethos_stoic
+	heritage = heritage_turkic # On Oq
+	language = language_turkic #language_chigil
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+
+	traditions = {
+		tradition_battlefield_looters
+		#tradition_steppe_tolerance
+		tradition_caravaneers
+	}
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+		fallback = tradition_horse_lords
+	}
+
+	name_list = name_list_karluk
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	house_coa_frame = house_frame_14
+
+	ethnicities = {
+		4 = asian_turkic_1
+		4 = asian_turkic_2
+		4 = asian_turkic_3
+		4 = asian_turkic_4
+		4 = asian_turkic_5
+		4 = asian_turkic_6
+		4 = asian_turkic_7
+		4 = asian_turkic_8
+		4 = asian_turkic_9
+		4 = asian_turkic_10
+		4 = asian_turkic_11
+		4 = asian_turkic_12
+		4 = asian_turkic_13
+		4 = asian_turkic_14
+		4 = asian_turkic_15
+		2 = asian_turkic_16
+		2 = asian_turkic_16_eastern
+		2 = asian_turkic_17
+		2 = asian_turkic_17_eastern
+		4 = asian_turkic_18
+		4 = asian_turkic_19
+		4 = asian_turkic_20
+		4 = asian_turkic_21
+		4 = asian_turkic_22
+		4 = asian_turkic_22
+		4 = asian_turkic_23
+		4 = asian_turkic_24
+		4 = asian_turkic_25
+		4 = asian_turkic_26
+		4 = asian_turkic_27
+		4 = asian_turkic_28
+		4 = asian_turkic_29
+		4 = asian_turkic_30
+		4 = asian_turkic_36
+		4 = asian_turkic_37
+		4 = asian_turkic_38
+		4 = asian_turkic_39
+		4 = asian_turkic_40
+		4 = asian_turkic_41
+		4 = asian_turkic_42
+		4 = asian_turkic_43
+		4 = asian_turkic_44
+		4 = asian_turkic_45
+		2 = asian_turkic_46
+		2 = asian_turkic_47
+		2 = asian_turkic_48
+		2 = asian_turkic_49
+		2 = asian_turkic_50
+	}
+}
+
 turkish = { # Yusseter: Oghuz
 	color = turkish
 	created = 600.1.1
@@ -28076,7 +28249,7 @@ turkish = { # Yusseter: Oghuz
 	language = language_turkic #language_oghuz
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		tradition_warrior_culture
@@ -28175,7 +28348,7 @@ torkil = { # Yusseter: Uze
 	language = language_turkic #language_oghuz
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		tradition_warrior_culture
@@ -28886,10 +29059,10 @@ turkmen = { # Yusseter: persian_turkish
 	head_determination = head_determination_domain
 
 	traditions = {
-		#tradition_ghazi
 		tradition_formation_fighting
 		tradition_ruling_caste
 		tradition_esteemed_hospitality
+		tradition_mendicant_mystics # Representing sufi mystics and their islamisation of anatolia
 	}
 	dlc_tradition = {
 		trait = tradition_mpo_iron_cavalry
@@ -29018,14 +29191,14 @@ qangli = { # Yusseter: Qangli or Kangar, Possible Pecheneg ancestors.
 	language = language_turkic
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		#tradition_swords_for_hire
-		tradition_quarrelsome
+		#tradition_quarrelsome
 		tradition_horse_breeder
 		#tradition_horse_lords
-		tradition_warrior_culture
+		#tradition_warrior_culture
 		tradition_caravaneers # Cybr: Although far from certain, I'm going with the theory that they were involved in oasis trade along the Syr Darya before they moved westward
 	}
 	dlc_tradition = {
@@ -29033,11 +29206,11 @@ qangli = { # Yusseter: Qangli or Kangar, Possible Pecheneg ancestors.
 		requires_dlc_flag = the_northern_lords
 		fallback = tradition_runestones
 	}
-	#dlc_tradition = {
-	#	trait = tradition_mpo_iron_cavalry
-	#	requires_dlc_flag = khans_of_the_steppe
-	#	requires_dlc_flag = hybridize_culture
-	#}
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+		fallback = tradition_horse_lords
+	}
 
 	name_list = name_list_pecheneg
 
@@ -29093,13 +29266,14 @@ pecheneg = {
 	language = language_turkic #language_pecheneg
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		#tradition_horse_lords
-		tradition_swords_for_hire
+		#tradition_swords_for_hire
+		tradition_pastoralists
 		tradition_quarrelsome
-		tradition_warrior_culture
+		#tradition_warrior_culture
 	}
 	dlc_tradition = {
 		trait = tradition_devoted_horsemanship
@@ -29193,7 +29367,7 @@ kipchak = {
 	language = language_turkic #language_kipchak
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		tradition_swords_for_hire
@@ -29253,7 +29427,7 @@ kipchak = {
 kimek = {
 	color = { 0.90 0.75 0.10 }
 	created = 750.1.1
-	parents = { ueban kipchak }
+	parents = { yueban kipchak }
 
 	ethos = ethos_stoic
 	heritage = heritage_kipchak
@@ -29261,7 +29435,7 @@ kimek = {
 	language = language_turkic #language_kipchak
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		#tradition_horse_lords
@@ -29326,19 +29500,28 @@ kimek = {
 shatuo = {
 	color = shatuo
 	created = 700.1.1
-	parents = { ueban han }
+	parents = { chigil han }
 
 	ethos = ethos_courtly
 	heritage = heritage_turkic
 	language = language_chinese
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		tradition_court_eunuchs
 		tradition_ruling_caste
-		tradition_malleable_invaders
+		#tradition_malleable_invaders
+	}
+	dlc_tradition = {
+		trait = tradition_mpo_iron_cavalry
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+		fallback = tradition_horse_lords
 	}
 
 	name_list = name_list_shatuo
@@ -29407,7 +29590,7 @@ kashgari = {
 	language = language_turkic #language_karluk
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		tradition_caravaneers
@@ -29513,7 +29696,7 @@ laktan = { # Yusseter: Teleut
 	language = language_turkic #language_kimek
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		tradition_hunters
@@ -29630,17 +29813,21 @@ laktan = { # Yusseter: Teleut
 kirghiz = { # Yusseter: yenisei_kirghiz
 	color = { 0.40 0.70 0.40 }
 
-	ethos = ethos_egalitarian
+	ethos = ethos_communal
 	heritage = heritage_sayan_altaic
 	language = language_turkic #language_tuvan
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
-		tradition_warrior_culture
+		#tradition_warrior_culture
 		tradition_horse_breeder
-		tradition_swords_for_hire
+		#tradition_swords_for_hire
+	}
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
 	}
 	dlc_tradition = {
 		trait = tradition_mpo_northern_tribes
@@ -29743,7 +29930,7 @@ cuman = {
 	language = language_turkic #language_kipchak
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		#tradition_warrior_culture
@@ -29848,12 +30035,13 @@ bashkir = {
 	language = language_turkic #language_kipchak
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		#tradition_sacred_mountains
 		#tradition_horse_lords
-		tradition_forest_folk
+		tradition_highland_warriors
+		#tradition_forest_folk
 		tradition_hill_dwellers
 		tradition_storytellers
 	}
@@ -29911,7 +30099,7 @@ karluk = {
 	language = language_turkic #language_karluk
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		#tradition_steppe_tolerance
@@ -29997,7 +30185,7 @@ uyghur = { # Yusseter: uigur
 	language = language_turkic #language_siberian_turkic
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		tradition_religious_patronage
@@ -30082,12 +30270,12 @@ basmyl = {
 	language = language_turkic #language_basmyl
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
-		tradition_sacred_mountains
+		tradition_hunters
+		#tradition_sacred_mountains
 		#tradition_horse_lords
-		tradition_forest_folk
 		tradition_steppe_tolerance
 	}
 	dlc_tradition = {
@@ -30167,10 +30355,15 @@ turgesh = {
 	language = language_turkic #language_siberian_turkic
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		tradition_horse_breeder
+	}	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+		fallback = tradition_horse_lords
 	}
 	dlc_tradition = {
 		trait = tradition_fp1_northern_stories
@@ -30247,6 +30440,7 @@ bayirku = {
 	language = language_turkic #language_basmyl
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		tradition_quarrelsome
@@ -30327,7 +30521,7 @@ yughur = {
 	language = language_turkic #language_siberian_turkic
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		tradition_pastoralists
@@ -30490,7 +30684,7 @@ yughur = {
 
 yakut = { # Yusseter: Kurykan
 	color = { 0.729 0.615 0.368 }
-	created = 450.1.1
+	created = 500.1.1
 	parents = { tiele }
 	#history_loc_override = yakut_history_loc
 
@@ -30499,12 +30693,13 @@ yakut = { # Yusseter: Kurykan
 	language = language_turkic #language_siberian_turkic
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
-		tradition_horse_breeder
-		tradition_pastoralists
+		tradition_hunters
+		tradition_winter_warriors
 		tradition_forest_folk
+		tradition_isolationist
 	}
 	dlc_tradition = {
 		trait = tradition_mpo_northern_tribes
@@ -30588,7 +30783,7 @@ az = {
 	language = language_turkic #language_tuvan
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		tradition_adaptive_skirmishing
@@ -30680,7 +30875,7 @@ sabir = {
 	language = language_oghur #language_khazar
 	martial_custom = martial_custom_equal # Cybr: Apparently had women fighting in their armies
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		#tradition_horse_lords
@@ -30789,7 +30984,7 @@ khazar = {
 	language = language_oghur #language_khazar
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		tradition_concubines
@@ -30894,7 +31089,7 @@ bolghar = {
 	language = language_oghur #language_bolghar
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		tradition_ruling_caste
@@ -30997,7 +31192,7 @@ chuvash = {
 	language = language_oghur #language_bolghar
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		tradition_sacred_groves
@@ -31089,7 +31284,7 @@ avar = {
 	language = language_oghur
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		tradition_ruling_caste
@@ -31193,7 +31388,7 @@ khalaj = { # Yusseter: Origin not really fully known. It's believed they were pa
 	created = 900.1.1
 
 	ethos = ethos_communal
-	heritage = heritage_turkic
+	heritage = heritage_iranian
 	language = language_turkic #language_khalaj
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
@@ -31343,7 +31538,7 @@ tatars = { # Yusseter: tatarstani
 	language = language_turkic #language_kipchak
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		tradition_warrior_culture
@@ -31410,11 +31605,11 @@ chagatai = {
 	language = language_turkic #language_karluk
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		tradition_steppe_tolerance
-		tradition_sacred_mountains
+		tradition_dryland_dwellers
 	}
 	dlc_tradition = {
 		trait = tradition_devoted_horsemanship
@@ -31519,19 +31714,19 @@ chagatai = {
 uriankhai = { # Yusseter: cik
 	color = cik
 
-	ethos = ethos_spiritual
+	ethos = ethos_communal
 	heritage = heritage_sayan_altaic
 	language = language_turkic #language_tuvan
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		tradition_hit_and_run
 		tradition_highland_warriors
 	}
 	dlc_tradition = {
-		trait = tradition_mpo_northern_tribes
+		trait = tradition_devoted_horsemanship
 		requires_dlc_flag = khans_of_the_steppe
 	}
 
@@ -31618,20 +31813,26 @@ ongud = {
 	language = language_turkic #language_siberian_turkic
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_herd
-	name_order_convention = dynasty_always_first
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
-		tradition_horse_lords
+		#tradition_horse_lords
 		tradition_stalwart_defenders
 		tradition_astute_diplomats
-		tradition_steppe_tolerance
+		#tradition_hunters
+		#tradition_steppe_tolerance
+	}
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+		fallback = tradition_horse_lords
 	}
 
 	name_list = name_list_ongud
 
 	coa_gfx = { chinese_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { chinese_building_gfx }
-	clothing_gfx = { chinese_clothing_gfx epe_uyghur_clothing_gfx mongol_clothing_gfx }
+	clothing_gfx = { chinese_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 
 	house_coa_frame = house_china
@@ -32036,6 +32237,7 @@ mogyer = {
 	language = language_magyar
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	name_order_convention = dynasty_first#dynasty_always_first
 
 	traditions = {
 		tradition_tribe_unity

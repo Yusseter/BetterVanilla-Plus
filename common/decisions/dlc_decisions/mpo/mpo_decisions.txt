@@ -2087,6 +2087,7 @@ mpo_decision_introduce_heir = {
 	}
 	
 	ai_potential = {
+		government_has_flag = government_is_nomadic
 		exists = player_heir
 		player_heir = {
 			age >= 12
@@ -7269,4 +7270,4 @@ become_nomadic_decision = {
 	}
 }
 
-# Yusseter: From CK3 2025.12.02
+# Yusseter: From CK3 2025.12.12

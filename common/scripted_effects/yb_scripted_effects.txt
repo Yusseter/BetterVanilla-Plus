@@ -67,7 +67,7 @@ yb_title_setup_effects = {
 	if = {
 		limit = { game_start_date >= 1060.1.1 }
 
-		title:k_kimek = { set_de_jure_liege_title = title:e_caspian-pontic_steppe }
+		title:k_caspian-steppe = { set_de_jure_liege_title = title:e_caspian-pontic_steppe } #k_kimek
 	}
 
 	if = {
@@ -88,7 +88,7 @@ yb_title_setup_effects = {
 		title:k_kipchak = { set_de_jure_liege_title = title:e_turan }
 	}
 
-	title:d_zavkhan = { set_de_jure_liege_title = title:k_kerait }
+	title:d_zavkhan = { set_de_jure_liege_title = title:k_naimania } #k_kerait
 
 	#if = {
 	#	limit = {
@@ -297,10 +297,10 @@ yb_culture_setup_effects = {
 		culture:nubian = { set_culture_pillar = heritage_egyptian }
 	}
 
-	if = {
-		limit = { culture:daju = { NOT = { has_cultural_pillar = heritage_central_african } } }
-		culture:daju = { set_culture_pillar = heritage_central_african }
-	}
+	#if = {
+	#	limit = { culture:daju = { NOT = { has_cultural_pillar = heritage_central_african } } }
+	#	culture:daju = { set_culture_pillar = heritage_central_african }
+	#}
 
 	if = {
 		limit = { culture:armenian = { NOT = { has_cultural_pillar = heritage_caucasian } } }
@@ -349,14 +349,14 @@ yb_culture_setup_effects = {
 	if = {
 		limit = {
 			game_start_date > 1100.1.1
-			culture:bjarmian = { NOT = { { has_cultural_tradition = tradition_RICE_whalers } } }
+			culture:bjarmian = { NOT = { has_cultural_tradition = tradition_RICE_whalers } }
 		}
 		culture:bjarmian = { add_culture_tradition = tradition_RICE_whalers }
 	}
 
 	if = {
 		limit = { game_start_date < 1150.1.1 }
-		culture:oirat = { set_culture_pillar = ethos_egalitarian }
+		culture:oirat = { set_culture_pillar = ethos_communal }
 	}
 
 	if = {
@@ -638,6 +638,14 @@ yb_game_rule_setup_effects = {
 				noun = "yb_persian"
 				prefix = "yb_persian_prefix"
 				collective_noun = "yb_persian_collective_noun"
+			}
+		}
+
+		culture:qiang = {
+			set_culture_name = {
+				noun = "yb_qiang"
+				prefix = "yb_qiang_prefix"
+				collective_noun = "yb_qiang_collective_noun"
 			}
 		}
 

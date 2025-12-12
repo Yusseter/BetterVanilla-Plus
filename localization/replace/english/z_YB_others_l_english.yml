@@ -112,12 +112,19 @@
 
 # Decisions
  your_faith_is_organized: "Your [faith|E] is an [organized_faith|E]"
- control_china_to_steppe_admin: "Contol at least 10 [counties|E] in [GetGeographicalRegion('world_asia_china').GetName]"
- siniticized_vassals_convert_to_steppe_admin: "Any non-[steppe_admin|E] [vassals|E] with a [GetReligionByKey('taoism_religion').GetAdjective], [GetReligionByKey('confucianism_religion').GetAdjective], [GetReligionByKey('buddhism_religion').GetAdjective], [GetReligionByKey('dualism_religion').GetAdjective] or [GetFaithByKey('nestorian').GetAdjective] [faith|E] will convert to [steppe_admin|E] [government|E]"
+ is_your_faith_nestorian: "You are [GetFaithByKey('nestorian').GetAdjective]"
+ adopt_steppe_administration: "Become a $steppe_admin_government$ Realm"
+ merit_based_vassals_convert_to_steppe_admin: "Any non-[steppe_admin|E] [vassals|E] with a [government|E] that uses [merit|E] or with a [GetReligionByKey('taoism_religion').GetAdjective], [GetReligionByKey('confucianism_religion').GetAdjective], [GetReligionByKey('buddhism_religion').GetAdjective], [GetReligionByKey('dualism_religion').GetAdjective] or [GetFaithByKey('nestorian').GetAdjective] [faith|E] will convert to [steppe_admin|E] [government|E]"
  settle_the_steppe_requirement: "$steppe_admin_kingdom_requirement$"
  settle_the_steppe_muslim_req: "Any [tributary|E], [vassal|E], or neighboring [independent_ruler|E] is a [kingdom|E] [title_tier|E] or greater [ruler|E] with a [GetReligionByKey('islam_religion').GetAdjective] [faith|E]"
+ steppe_admin_china_kingdom_requirement: "You [completely_control|E] at least 3 [kingdoms|E] in the [GetGeographicalRegion('world_asia_china').GetName] which have a [castle_holding|E], [city_holding|E], [church_holding|E], or [temple_citadel_holding|E] in their [capital|E] [barony|E]"
 
 # Others
+ SETTLED_NOMAD_STEPPE_ADMIN_EMPIRE_NAME: "[nomad_settling_down.GetCulture.GetNameNoTooltip] Khaganate"
+ SETTLED_NOMAD_STEPPE_ADMIN_EMPIRE_ADJ: "[nomad_settling_down.GetCulture.GetNameNoTooltip]"
+ culture_khaganate_name: "[ROOT.Char.GetCulture.GetNameNoTooltip] Khaganate"
+ culture_khaganate_name_adj: "[ROOT.Char.GetCulture.GetNameNoTooltip]"
+
  ADVCM_VIEW_TITLE: "#T Advanced Debug Menu#!"
  advcm_button_tt: "#T Open Advanced Debug Menu#!"
 
@@ -186,10 +193,48 @@
  HYBRID_COLLECTIVE_NOUN_FORMAT_3: "[TARGET_CULTURE.GetPrefixNoTooltip]-[TITLE.GetBaseNameNoTierNoTooltip]"
  HYBRID_PREFIX_FORMAT_3: "[TARGET_CULTURE.GetPrefixNoTooltip]-[TITLE.GetPrefixNoTooltip]"
 
- nomadic_house_name_collective_noun: "[ROOT.Char.GetHouse.GetBaseNameNoTooltip]s"
- nomadic_house_name_prefix: "[ROOT.Char.GetHouse.GetBaseNameNoTooltip]o"
+ nomadic_house_name_collective_noun: "[ROOT.Char.GetHouse.GetBaseNameNoTooltip]"
+ nomadic_house_name_prefix: "[ROOT.Char.GetHouse.GetBaseNameNoTooltip]"
  nomadic_house_name_hybrid_collective_noun: "$nomadic_house_name_collective_noun$"
  nomadic_house_name_hybrid_prefix: "$nomadic_house_name_hybrid_collective_noun$"
+
+ TITLE_NOMAD_NAME_CULTURE_HEAD: "$CULTURE_COLLECTIVE$"
+ TITLE_NOMAD_NAME_HOUSE_HEAD: "[SelectLocalization( EqualTo_string(Title.GetHolder.GetCulture.GetNameNoTooltip, Title.GetHolder.GetDynasty.GetNameNoTooltip), 'ulugh_name', 'yb_DYNASTY_NAME' )] $CULTURE_COLLECTIVE$"
+ TITLE_NOMAD_NAME_CULTURE_HEAD_DEFINITE_FORM: "the $CULTURE_COLLECTIVE$"
+ TITLE_NOMAD_NAME_HOUSE_HEAD_DEFINITE_FORM: "the [SelectLocalization( EqualTo_string(Title.GetHolder.GetCulture.GetNameNoTooltip, Title.GetHolder.GetDynasty.GetNameNoTooltip), 'ulugh_name', 'yb_DYNASTY_NAME' )] $CULTURE_COLLECTIVE$"
+ TITLE_NOMAD_NAME_CULTURE_HEAD_WITH_UNDERLYING_NAME: "$CULTURE_COLLECTIVE$ #F ($BASE_NAME$) #!"
+ TITLE_NOMAD_NAME_HOUSE_HEAD_WITH_UNDERLYING_NAME: "[SelectLocalization( EqualTo_string(Title.GetHolder.GetCulture.GetNameNoTooltip, Title.GetHolder.GetDynasty.GetNameNoTooltip), 'ulugh_name', 'yb_DYNASTY_NAME' )] $CULTURE_COLLECTIVE$ #F ($BASE_NAME$) #!"
+ TITLE_NOMAD_NAME_CULTURE_HEAD_WITH_UNDERLYING_NAME_DEFINITE_FORM: "the $CULTURE_COLLECTIVE$ #F ($BASE_NAME$) #!"
+ TITLE_NOMAD_NAME_HOUSE_HEAD_WITH_UNDERLYING_NAME_DEFINITE_FORM: "the [SelectLocalization( EqualTo_string(Title.GetHolder.GetCulture.GetNameNoTooltip, Title.GetHolder.GetDynasty.GetNameNoTooltip), 'ulugh_name', 'yb_DYNASTY_NAME' )] $CULTURE_COLLECTIVE$ #F ($BASE_NAME$) #!"
+ ulugh_name: "Ulugh" # EqualTo_string
+ yb_DYNASTY_NAME: "[Title.GetHolder.GetDynasty.GetNameNoTooltip]"
+
+ #TITLE_NOMAD_NAME_CULTURE_HEAD: "Bodun of $CULTURE_COLLECTIVE$"
+ #TITLE_NOMAD_NAME_HOUSE_HEAD: "$DYNASTY_NAME$ $CULTURE_COLLECTIVE$"
+ #TITLE_NOMAD_NAME_CULTURE_HEAD_DEFINITE_FORM: "Bodun of the $CULTURE_COLLECTIVE$"
+ #TITLE_NOMAD_NAME_HOUSE_HEAD_DEFINITE_FORM: "Bodun of the $DYNASTY_NAME$ $CULTURE_COLLECTIVE$"
+ #TITLE_NOMAD_NAME_CULTURE_HEAD_WITH_UNDERLYING_NAME: "Bodun of $CULTURE_COLLECTIVE$ #F ($BASE_NAME$) #!"
+ #TITLE_NOMAD_NAME_HOUSE_HEAD_WITH_UNDERLYING_NAME: "Bodun of $DYNASTY_NAME$ $CULTURE_COLLECTIVE$ #F ($BASE_NAME$) #!"
+ #TITLE_NOMAD_NAME_CULTURE_HEAD_WITH_UNDERLYING_NAME_DEFINITE_FORM: "Bodun of the $CULTURE_COLLECTIVE$ #F ($BASE_NAME$) #!"
+ #TITLE_NOMAD_NAME_HOUSE_HEAD_WITH_UNDERLYING_NAME_DEFINITE_FORM: "Bodun of the $DYNASTY_NAME$ $CULTURE_COLLECTIVE$ #F ($BASE_NAME$) #!"
+
+ #TITLE_NOMAD_NAME_CULTURE_HEAD: "[Title.GetHolder.GetCulture.GetNameNoTooltip] Khaganate"
+ #TITLE_NOMAD_NAME_HOUSE_HEAD: "$DYNASTY_NAME$ [Title.GetHolder.GetCulture.GetNameNoTooltip] Khaganate"
+ #TITLE_NOMAD_NAME_CULTURE_HEAD_DEFINITE_FORM: "the [Title.GetHolder.GetCulture.GetNameNoTooltip] Khaganate"
+ #TITLE_NOMAD_NAME_HOUSE_HEAD_DEFINITE_FORM: "the $DYNASTY_NAME$ [Title.GetHolder.GetCulture.GetNameNoTooltip] Khaganate"
+ #TITLE_NOMAD_NAME_CULTURE_HEAD_WITH_UNDERLYING_NAME: "[Title.GetHolder.GetCulture.GetNameNoTooltip] Khaganate #F ($BASE_NAME$) #!"
+ #TITLE_NOMAD_NAME_HOUSE_HEAD_WITH_UNDERLYING_NAME: "$DYNASTY_NAME$ [Title.GetHolder.GetCulture.GetNameNoTooltip] Khaganate #F ($BASE_NAME$) #!"
+ #TITLE_NOMAD_NAME_CULTURE_HEAD_WITH_UNDERLYING_NAME_DEFINITE_FORM: "the [Title.GetHolder.GetCulture.GetNameNoTooltip] Khaganate #F ($BASE_NAME$) #!"
+ #TITLE_NOMAD_NAME_HOUSE_HEAD_WITH_UNDERLYING_NAME_DEFINITE_FORM: "the $DYNASTY_NAME$ [Title.GetHolder.GetCulture.GetNameNoTooltip] Khaganate #F ($BASE_NAME$) #!"
+
+ #TITLE_NOMAD_NAME_CULTURE_HEAD: "ab[Title.GetHolder.GetFullNameNoTooltip] Khaganate"
+ #TITLE_NOMAD_NAME_HOUSE_HEAD: "$DYNASTY_NAME$ $TITLE_NOMAD_NAME_CULTURE_HEAD$"
+ #TITLE_NOMAD_NAME_CULTURE_HEAD_DEFINITE_FORM: "the $TITLE_NOMAD_NAME_CULTURE_HEAD$"
+ #TITLE_NOMAD_NAME_HOUSE_HEAD_DEFINITE_FORM: "the $TITLE_NOMAD_NAME_HOUSE_HEAD$"
+ #TITLE_NOMAD_NAME_CULTURE_HEAD_WITH_UNDERLYING_NAME: "$TITLE_NOMAD_NAME_CULTURE_HEAD$ #F ($BASE_NAME$) #!"
+ #TITLE_NOMAD_NAME_HOUSE_HEAD_WITH_UNDERLYING_NAME: "$TITLE_NOMAD_NAME_HOUSE_HEAD$ #F ($BASE_NAME$) #!"
+ #TITLE_NOMAD_NAME_CULTURE_HEAD_WITH_UNDERLYING_NAME_DEFINITE_FORM: "$TITLE_NOMAD_NAME_CULTURE_HEAD_DEFINITE_FORM$ #F ($BASE_NAME$) #!"
+ #TITLE_NOMAD_NAME_HOUSE_HEAD_WITH_UNDERLYING_NAME_DEFINITE_FORM: "$TITLE_NOMAD_NAME_HOUSE_HEAD_DEFINITE_FORM$ #F ($BASE_NAME$) #!"
 
  #TITLE_NOMAD_NAME_CULTURE_HEAD: "$CULTURE_COLLECTIVE$"
  #TITLE_NOMAD_NAME_HOUSE_HEAD: "$DYNASTY_NAME$ $CULTURE_COLLECTIVE$"
@@ -209,6 +254,15 @@
  #TITLE_NOMAD_NAME_CULTURE_HEAD_WITH_UNDERLYING_NAME_DEFINITE_FORM: "[SelectLocalization( IsNomad(TITLE.GetHolder),'YB_DEFINATE_BODUN', 'YB_DEFINATE_TRIBAL' )] #F ($BASE_NAME$) #!"
  #TITLE_NOMAD_NAME_HOUSE_HEAD_WITH_UNDERLYING_NAME_DEFINITE_FORM: "the $DYNASTY_NAME$ $CULTURE_COLLECTIVE$ #F ($BASE_NAME$) #!"
 
+ #TITLE_NOMAD_NAME_CULTURE_HEAD: "$CULTURE_COLLECTIVE$"
+ #TITLE_NOMAD_NAME_HOUSE_HEAD: "$DYNASTY_NAME$ $CULTURE_COLLECTIVE$"
+ #TITLE_NOMAD_NAME_CULTURE_HEAD_DEFINITE_FORM: "the $CULTURE_COLLECTIVE$"
+ #TITLE_NOMAD_NAME_HOUSE_HEAD_DEFINITE_FORM: "the $DYNASTY_NAME$ $CULTURE_COLLECTIVE$"
+ #TITLE_NOMAD_NAME_CULTURE_HEAD_WITH_UNDERLYING_NAME: "$CULTURE_COLLECTIVE$ #F ($BASE_NAME$) #!"
+ #TITLE_NOMAD_NAME_HOUSE_HEAD_WITH_UNDERLYING_NAME: "$DYNASTY_NAME$ $CULTURE_COLLECTIVE$ #F ($BASE_NAME$) #!"
+ #TITLE_NOMAD_NAME_CULTURE_HEAD_WITH_UNDERLYING_NAME_DEFINITE_FORM: "the $CULTURE_COLLECTIVE$ #F ($BASE_NAME$) #!"
+ #TITLE_NOMAD_NAME_HOUSE_HEAD_WITH_UNDERLYING_NAME_DEFINITE_FORM: "the $DYNASTY_NAME$ $CULTURE_COLLECTIVE$ #F ($BASE_NAME$) #!"
+
  #YB_BODUN: "Bodun of $CULTURE_COLLECTIVE$"
  #YB_DEFINATE_BODUN: "the Bodun of $CULTURE_COLLECTIVE$"
  #YB_TRIBAL: "$CULTURE_COLLECTIVE$"
@@ -223,7 +277,6 @@
 
  steppe_admin_government: "Taugastic" # Yusseter: Can releated with word of Chanyu, Tuoba or Horde. Taugas or Taugast is Tuoba (Tabgatch) in Greek sources
  game_concept_steppe_admin: "$steppe_admin_government$"
- adopt_steppe_administration: "Become a $steppe_admin_government$ Realm"
 
  clothes_color_warning: ""
 

@@ -1612,7 +1612,7 @@ beards = {
         weight = {
             base = 0
             modifier = {
-                add = 700
+                add = 0
                 OR = {
                     NOT = { exists = this }
                     has_gene = {
@@ -1650,7 +1650,7 @@ beards = {
         weight = {
             base = 0
             modifier = {
-                add = 700
+                add = 0
                 OR = {
                     NOT = { exists = this }
                      has_gene = {
@@ -2142,62 +2142,62 @@ beards = {
         }
     }
 
-    #han_curly = { # Yusseter
-    #    dna_modifiers = {
-    #        accessory = {
-    #            mode = add
-    #            gene = beards
-    #            template = han_beards_curly
-    #            range = { 0 1 } # For the randomness to work correctly
-    #        }
-    #    }   
-    #    # outfit_tags = { no_clothes }
-    #    weight = {
-    #        base = 0
-    #        modifier = {
-    #            add = 70
-    #            OR = {
-    #                NOT = { exists = this }
-    #                has_gene = {
-    #                    category = gene_hair_type
-    #                    template = hair_wavy
-    #                }       
-    #                has_gene = {
-    #                    category = gene_hair_type
-    #                    template = hair_curly
-    #                }            
-    #            }
-	#		OR = {
-    #            portrait_chinese_clothing_trigger = yes
-    #            portrait_epe_uyghur_clothing_trigger = yes
-    #            portrait_epe_balto_finnic_clothing_trigger = yes
-    #            portrait_sami_clothing_trigger = yes
-    #            portrait_ugro_permian_clothing_trigger = yes				
-    #            # portrait_epe_sino_iranian_clothing_trigger = yes					
-    #            }
-    #        }
-    #        modifier = { # Muslims should always have a beard
-    #            add = 200
-    #            scope:faith.religion = religion:islam_religion
-    #            OR = {
-    #                portrait_chinese_clothing_trigger = yes
-    #                portrait_epe_uyghur_clothing_trigger = yes
-    #                portrait_epe_balto_finnic_clothing_trigger = yes
-    #                portrait_sami_clothing_trigger = yes
-    #                portrait_ugro_permian_clothing_trigger = yes					
-    #                # portrait_epe_sino_iranian_clothing_trigger = yes					
-    #            }
-    #        }
-    #        modifier = {
-    #            add = -100
-    #            exists = this
-    #            OR = {
-    #                is_from_ruler_designer = yes
-    #                has_character_flag = has_scripted_appearance
-    #            }
-    #        }
-    #    }
-    #}		
+    han_curly = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = han_beards_curly
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        # outfit_tags = { no_clothes }
+        weight = {
+            base = 0
+            modifier = {
+                add = 70
+                OR = {
+                    NOT = { exists = this }
+                    has_gene = {
+                        category = gene_hair_type
+                        template = hair_wavy
+                    }       
+                    has_gene = {
+                        category = gene_hair_type
+                        template = hair_curly
+                    }            
+                }
+			OR = {
+                portrait_chinese_clothing_trigger = yes
+                #portrait_epe_uyghur_clothing_trigger = yes # Yusseter
+                portrait_epe_balto_finnic_clothing_trigger = yes
+                portrait_sami_clothing_trigger = yes
+                portrait_ugro_permian_clothing_trigger = yes				
+                # portrait_epe_sino_iranian_clothing_trigger = yes					
+                }
+            }
+            modifier = { # Muslims should always have a beard
+                add = 200
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_chinese_clothing_trigger = yes
+                    #portrait_epe_uyghur_clothing_trigger = yes # Yusseter
+                    portrait_epe_balto_finnic_clothing_trigger = yes
+                    portrait_sami_clothing_trigger = yes
+                    portrait_ugro_permian_clothing_trigger = yes					
+                    # portrait_epe_sino_iranian_clothing_trigger = yes					
+                }
+            }
+            modifier = {
+                add = -100
+                exists = this
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
+            }
+        }
+    }		
 	
 	## TGP - Chinese ##
 

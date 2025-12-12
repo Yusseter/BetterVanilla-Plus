@@ -191,7 +191,7 @@
 										scope:religion = religion:dualism_religion
 										scope:religion = religion:confucianism_religion
 										scope:religion = religion:taoism_religion
-										scope:faith = faith:nestorian
+										scope:faith = { portrait_religious_faith_or_foundational_trigger = { FAITH = faith:nestorian } }
 									}
 									capital_province ?= {
 										OR = {
