@@ -22,7 +22,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 10000
 				exists = this
 				exists = character:303244
 				this = character:303244
@@ -53,7 +53,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 10000
 				exists = this
 				exists = character:303244
 				this = character:303244
@@ -62,6 +62,7 @@
 			}
 		}
 	}
+
 	1066_muhmud = {
 		dna_modifiers = {
 			accessory = {
@@ -80,7 +81,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 10000
 				exists = this
 				exists = character:144107
 				this = character:144107
@@ -111,7 +112,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 10000
 				exists = this
 				exists = character:144107
 				this = character:144107
@@ -138,7 +139,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 10000
 				exists = this
 				OR = {
 					exists = character:806
@@ -180,7 +181,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 10000
 				exists = this
 				OR = {
 					exists = character:806
@@ -231,7 +232,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 10000
 				exists = this
 				exists = character:20641
 				this = character:20641
@@ -239,6 +240,7 @@
 			}
 		}
 	}
+
 	1178_inanch = {
 		dna_modifiers = {
 			accessory = {
@@ -275,7 +277,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 10000
 				exists = this
 				exists = character:naiman_guchugud_1
 				this = character:naiman_guchugud_1
@@ -283,6 +285,7 @@
 			}
 		}
 	}
+
 	1178_wolila = {
 		dna_modifiers = {
 			accessory = {
@@ -319,7 +322,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 10000
 				exists = this
 				exists = character:188909
 				this = character:188909
@@ -327,6 +330,7 @@
 			}
 		}
 	}
+
 	1178_togrul = {
 		dna_modifiers = {
 			accessory = {
@@ -363,7 +367,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 10000
 				exists = this
 				exists = character:303211
 				this = character:303211
@@ -371,95 +375,8 @@
 			}
 		}
 	}
-	1178_temujin = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = beards
-				template = mpo_mongol_beards
-				accessory = m_beard_mpo_mongol_02
-			}
-			accessory = {
-				mode = add
-				gene = hairstyles
-				template = mpo_mongol_hairstyles
-				accessory = m_hair_mpo_mongol_03
-			}
-			accessory = {
-				mode = add
-				gene = legwear
-				template = mena_war_legwear
-				accessory = male_legwear_secular_mena_war_nobility_01
-			}
-			accessory = {
-				mode = add
-				gene = clothes
-				template = mpo_mongol_imperial_clothes
-				accessory = m_clothes_sec_mpo_mongol_imp_01
-			}
-			accessory = {
-				mode = add
-				gene = headgear
-				template = mpo_mongol_commoner
-				accessory = m_headgear_sec_mpo_mongol_com_01
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 1000
-				exists = this
-				exists = character:125501
-				this = character:125501
-				highest_held_title_tier <= tier_duchy
-			}
-		}
-	}
-	1178_temujin_king = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = beards
-				template = mpo_mongol_beards
-				accessory = m_beard_mpo_mongol_02
-			}
-			accessory = {
-				mode = add
-				gene = hairstyles
-				template = mpo_mongol_hairstyles
-				accessory = m_hair_mpo_mongol_03
-			}
-			accessory = {
-				mode = add
-				gene = legwear
-				template = mena_war_legwear
-				accessory = male_legwear_secular_mena_war_nobility_01
-			}
-			accessory = {
-				mode = add
-				gene = clothes
-				template = mpo_mongol_imperial_clothes
-				accessory = m_clothes_sec_mpo_mongol_imp_01
-			}
-			accessory = {
-				mode = add
-				gene = headgear
-				template = mpo_mongol_imperial
-				accessory = m_headgear_sec_mpo_mongol_imp_01
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 1000
-				exists = this
-				exists = character:125501
-				this = character:125501
-				highest_held_title_tier >= tier_kingdom
-			}
-		}
-	}
-	1178_jamukha = {
+
+	1178_jamukha_start = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
@@ -473,6 +390,21 @@
 				template = mpo_mongol_hairstyles
 				accessory = m_hair_mpo_mongol_01
 			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				exists = this
+				exists = character:mpo_mongol_1
+				this = character:mpo_mongol_1
+				age >= 16
+				portrait_steppe_clothing_trigger = yes
+			}
+		}
+	}
+	1178_jamukha_nobility = {
+		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = legwear
@@ -495,11 +427,19 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 10000
 				exists = this
 				exists = character:mpo_mongol_1
 				this = character:mpo_mongol_1
-				highest_held_title_tier <= tier_duchy
+				age >= 16
+				OR = {
+					portrait_high_nobles_trigger = {
+						CULTURE_INPUT = mongol
+					}
+					portrait_low_nobles_trigger = {
+						CULTURE_INPUT = mongol
+					}
+				}
 			}
 		}
 	}
@@ -535,12 +475,19 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 10000
 				exists = this
 				exists = character:ashina_41
 				this = character:ashina_41
 				age >= 18
-				highest_held_title_tier >= tier_kingdom
+				OR = {
+					portrait_imperial_trigger = {
+						CULTURE_INPUT = epe_eastern_turk
+					}
+					portrait_royalty_trigger = {
+						CULTURE_INPUT = epe_eastern_turk
+					}
+				}
 			}
 		}
 	}
@@ -562,11 +509,13 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 10000
 				exists = this
 				exists = character:ashina_46
 				this = character:ashina_46
-				age >= 18
+				portrait_high_nobles_trigger = {
+					CULTURE_INPUT = epe_eastern_turk
+				}
 			}
 		}
 	}
@@ -585,6 +534,24 @@
 				template = mpo_mongol_hairstyles
 				accessory = m_hair_mpo_mongol_01
 			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				exists = this
+				exists = character:3040
+				this = character:3040
+				age >= 18
+				OR = {
+					portrait_epe_eastern_turk_muslim_clothing_trigger = yes
+					portrait_epe_seljuk_clothing_trigger = yes
+				}
+			}
+		}
+	}
+	3040_alp_arslan_imperial = {
+		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = legwear
@@ -612,12 +579,18 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 10000
 				exists = this
 				exists = character:3040
 				this = character:3040
-				age >= 18
-				highest_held_title_tier >= tier_kingdom
+				OR = {
+					portrait_imperial_trigger = {
+						CULTURE_INPUT = epe_eastern_turk_muslim
+					}
+					portrait_imperial_trigger = {
+						CULTURE_INPUT = epe_seljuk
+					}
+				}
 			}
 		}
 	}
@@ -636,6 +609,24 @@
 				template = turkic_hairstyles_straight
 				accessory = male_hair_turkic_03
 			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				exists = this
+				exists = character:144051
+				this = character:144051
+				age >= 18
+				OR = {
+					portrait_epe_eastern_turk_muslim_clothing_trigger = yes
+					portrait_epe_seljuk_clothing_trigger = yes
+				}
+			}
+		}
+	}
+	144051_ildeguz_high_nobility = {
+		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = headgear
@@ -651,19 +642,25 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 10000
 				exists = this
 				exists = character:144051
 				this = character:144051
-				age >= 18
-				highest_held_title_tier <= tier_duchy
+				OR = {
+					portrait_high_nobles_trigger = {
+						CULTURE_INPUT = epe_eastern_turk_muslim
+					}
+					portrait_high_nobles_trigger = {
+						CULTURE_INPUT = epe_seljuk
+					}
+				}
 			}
 		}
 	}
 
 	125501_temujin_ulaanbaatar_start = {
 		dna_modifiers = {
-			 accessory = {
+			accessory = {
 				mode = add
 				gene = hairstyles
 				template = turkic_hairstyles_straight
@@ -671,20 +668,50 @@
 			}
 			accessory = {
 				mode = add
+				gene = headgear_2
+				template = no_headgear
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				exists = this
+				exists = character:125501
+				this = character:125501
+				age >= 5
+				portrait_steppe_clothing_trigger = yes
+			}
+		}
+	}
+	125501_temujin_ulaanbaatar_beard = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
 				gene = beards
 				template = mpo_mongol_beards
 				accessory = m_beard_mpo_mongol_02
 			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				exists = this
+				exists = character:125501
+				this = character:125501
+				age >= 18
+				portrait_steppe_clothing_trigger = yes
+			}
+		}
+	}
+	125501_temujin_ulaanbaatar_high_nobility = {
+		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = headgear
 				template = mpo_mongol_commoner
 				accessory = m_headgear_sec_mpo_mongol_com_01
-			}
-			accessory = {
-				mode = add
-				gene = headgear_2
-				template = no_headgear
 			}
 			accessory = {
 				mode = add
@@ -696,17 +723,77 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 10000
 				exists = this
 				exists = character:125501
 				this = character:125501
 				age >= 10
-				highest_held_title_tier <= tier_duchy
+				portrait_high_nobles_trigger = {
+					CULTURE_INPUT = mongol
+				}
+			}
+		}
+	}
+	125501_temujin_ulaanbaatar_royal = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = eastern_turk_low_nobility
+				accessory = male_Turkic_Fur_Cap_05
+			}
+			accessory = {
+				mode = add
+				gene = clothes
+				template = mpo_mongol_royalty_clothes
+				accessory = m_clothes_sec_mpo_mongol_roy_01
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				exists = this
+				exists = character:125501
+				this = character:125501
+				age >= 10
+				portrait_royalty_trigger = {
+					CULTURE_INPUT = mongol
+				}
+			}
+		}
+	}
+	125501_temujin_ulaanbaatar_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = eastern_turk_imperial
+				accessory = male_Turkic_Eagle_Crown_02_02
+			}
+			accessory = {
+				mode = add
+				gene = clothes
+				template = mpo_mongol_imperial_clothes
+				accessory = m_clothes_sec_mpo_mongol_imp_01
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				exists = this
+				exists = character:125501
+				this = character:125501
+				age >= 10
+				portrait_imperial_trigger = {
+					CULTURE_INPUT = mongol
+				}
 			}
 		}
 	}
 
-	nomads_166757 = { # Kulug Bagha
+	nomads_166757_start = { # Kulug Bagha
 		dna_modifiers = {
 			accessory = {
 				mode = add
@@ -724,16 +811,17 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 10000
 				exists = this
 				exists = character:166757
 				this = character:166757
 				age >= 18
+				portrait_epe_eastern_turk_clothing_trigger = yes
 			}
 		}
 	}
 
-	nomads_alp_sol_tepek = {
+	nomads_alp_sol_tepek_start = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
@@ -751,16 +839,17 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 10000
 				exists = this
 				exists = character:alp_sol_tepek
 				this = character:alp_sol_tepek
 				age >= 18
+				portrait_epe_eastern_turk_clothing_trigger = yes
 			}
 		}
 	}
 
-	nomads_yenisei_kirghiz_001 = {
+	nomads_yenisei_kirghiz_001_start = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
@@ -778,15 +867,16 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 10000
 				exists = this
 				exists = character:yenisei_kirghiz_001
 				this = character:yenisei_kirghiz_001
 				age >= 18
+				portrait_epe_eastern_turk_clothing_trigger = yes
 			}
 		}
 	}
-	nomads_yenisei_kirghiz_001_titular = {
+	nomads_yenisei_kirghiz_001_high_nobility = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
@@ -815,17 +905,19 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 10000
 				exists = this
 				exists = character:yenisei_kirghiz_001
 				this = character:yenisei_kirghiz_001
 				age >= 18
-				highest_held_title_tier = tier_duchy
+				portrait_high_nobles_trigger = {
+					CULTURE_INPUT = epe_eastern_turk
+				}
 			}
 		}
 	}
 
-	225000_kilij_arslan = {
+	225000_kilij_arslan_start = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
@@ -843,15 +935,16 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 10000
 				exists = this
 				exists = character:225000
 				this = character:225000
 				age >= 18
+				portrait_epe_seljuk_clothing_trigger = yes
 			}
 		}
 	}
-	225000_kilij_arslan_titular = {
+	225000_kilij_arslan_royal = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
@@ -880,17 +973,19 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 10000
 				exists = this
 				exists = character:225000
 				this = character:225000
 				age >= 18
-				highest_held_title_tier >= tier_kingdom
+				portrait_royalty_clothing_trigger = {
+					CULTURE_INPUT = epe_seljuk
+				}
 			}
 		}
 	}
 
-	rukn_al_din_mesud_7299 = {
+	rukn_al_din_mesud_7299_start = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
@@ -908,15 +1003,16 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 10000
 				exists = this
 				exists = character:7299
 				this = character:7299
 				age >= 18
+				portrait_epe_seljuk_clothing_trigger = yes
 			}
 		}
 	}
-	rukn_al_din_mesud_7299_titular = {
+	rukn_al_din_mesud_7299_royal = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
@@ -945,12 +1041,14 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 10000
 				exists = this
 				exists = character:7299
 				this = character:7299
 				age >= 18
-				highest_held_title_tier >= tier_kingdom
+				portrait_royalty_clothing_trigger = {
+					CULTURE_INPUT = epe_seljuk
+				}
 			}
 		}
 	}
@@ -967,11 +1065,12 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 10000
 				exists = this
 				exists = character:ashina_24
 				this = character:ashina_24
 				age >= 18
+				portrait_epe_eastern_turk_clothing_trigger = yes
 			}
 		}
 	}
@@ -1003,16 +1102,44 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 10000
 				exists = this
 				exists = character:70512
 				this = character:70512
 				age >= 18
+				portrait_byzantine_clothing_trigger = yes
 			}
 		}
 	}
 
-	3046_suleyman = {
+	3046_suleyman_start = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = all_hairstyles
+				accessory = m_hair_fp3_iranian_03
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = all_beards
+				accessory = m_beard_ep3_byzantine_02
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				exists = this
+				exists = character:3046
+				this = character:3046
+				age >= 18
+				portrait_epe_seljuk_clothing_trigger = yes
+			}
+		}
+	}
+	3046_suleyman_royal = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
@@ -1051,29 +1178,150 @@
 				exists = this
 				exists = character:3046
 				this = character:3046
+				portrait_royalty_clothing_trigger = {
+					CULTURE_INPUT = epe_seljuk
+				}
 			}
 		}
 	}
 
-	#no_cloak_nomads = {
-	#	dna_modifiers = {
-	#		accessory = {
-	#			mode = add
-	#			gene = cloaks
-	#			template = no_cloak
-	#			value = 0.5
-	#		}
-	#	}
-	#	weight = {
-	#		base = 0
-	#		modifier = {
-	#			add = 10000
-	#			OR = {
-	#				scope:government_has_flag = government_is_nomadic
-	#				scope:government_has_flag = government_is_herder
-	#				scope:government_has_flag = government_is_steppe_admin
-	#			}
-	#		}
-	#	}
-	#}
+	302972_bokut_bilga_start = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = tgp_chinese_hairstyles
+				accessory = m_hair_tgp_chinese_03
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = tgp_chinese_beards
+				accessory = m_beard_tgp_chinese_04
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				exists = this
+				exists = character:302972
+				this = character:302972
+				age >= 18
+				portrait_epe_uyghur_clothing_trigger = yes
+			}
+		}
+	}
+	302972_bokut_bilga_qocho_royal_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = tgp_chinese_hairstyles
+				accessory = m_hair_tgp_chinese_03
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = tgp_chinese_beards
+				accessory = m_beard_tgp_chinese_04
+			}
+			accessory = {
+				mode = add
+				gene = clothes
+				template = tgp_uyghur_clothes
+				accessory = m_clothes_sec_tgp_uyghur_imp_nob_01
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = uyghur_royalty
+				accessory = male_Uyghur_Royal_Headwear_01
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				exists = this
+				exists = character:302972
+				this = character:302972
+				OR = {
+					portrait_royalty_clothing_trigger = {
+						CULTURE_INPUT = epe_uyghur
+					}
+					portrait_imperial_clothing_trigger = {
+						CULTURE_INPUT = epe_uyghur
+					}
+				}
+			}
+		}
+	}
+	
+	EPE_qocho_ruler_spouse_867_start = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = eastern_iranian_hairstyles_straight
+				value = 0.40
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				exists = this
+				exists = character:bodpa0246
+				this = character:bodpa0246
+				age >= 18
+				portrait_epe_uyghur_clothing_spouse_trigger = yes
+			}
+		}
+	}
+	EPE_qocho_ruler_spouse_867_royal_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = eastern_iranian_hairstyles_straight
+				value = 0.40
+			}
+			accessory = {
+				mode = add
+				gene = clothes
+				template = tgp_uyghur_clothes
+				value = 0.45
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = tgp_uyghur_headgear
+				value = 0.17
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				exists = this
+				exists = character:bodpa0246
+				this = character:bodpa0246
+				OR = {
+					portrait_royalty_clothing_trigger = {
+						CULTURE_INPUT = epe_uyghur
+					}
+					portrait_imperial_clothing_trigger = {
+						CULTURE_INPUT = epe_uyghur
+					}
+				}
+			}
+		}
+	}
 }

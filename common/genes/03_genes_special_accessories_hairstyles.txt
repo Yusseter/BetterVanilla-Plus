@@ -2203,6 +2203,7 @@ special_genes = {
 					1 = female_hair_custom_03		
 					1 = female_hair_custom_07
 					1 = female_hair_custom_08
+					2 = female_hair_fp2_iberian_muslim_03_common
 					# Yusseter 0
 					3 = f_hair_sp4_western_01
 					#2 = f_hair_fp3_iranian_02_common #Long split strands with earring
@@ -2240,6 +2241,7 @@ special_genes = {
 					1 = female_hair_custom_03		
 					1 = female_hair_custom_07
 					1 = female_hair_custom_08
+					2 = female_hair_fp2_iberian_muslim_03_common		
 					2 = f_hair_fp3_iranian_02_common #Long split strands with earring
 					2 = f_hair_fp3_iranian_02_common #Long split strands with earrings		
 				}
@@ -2511,16 +2513,19 @@ special_genes = {
 						1 = male_hair_mena_02
 						1 = male_hair_mena_03
 						1 = male_hair_mena_04
-						1 = male_hair_iranian_01
+					    1 = male_hair_fp2_iberian_muslim_01						
+						1 = male_hair_fp2_iberian_muslim_02
 					    1 = male_hair_fp2_iberian_muslim_03							
   					    1 = m_hair_ep3_byzantine_01						
+  					    1 = m_hair_ep3_byzantine_04	
 					}
 				
 					female = {
 						2 = f_hair_fp3_iranian_01_common #Medium wavy with earrings
 						2 = f_hair_fp3_iranian_03_common #Medium buns with earrings
 						1 = female_hair_fp2_iberian_christian_03
-						1 = female_hair_fp2_iberian_muslim_03_common
+						3 = female_hair_fp2_iberian_muslim_03_common
+						2 = female_hair_fp2_iberian_muslim_02_common
 						1 = female_hair_fp2_iberian_muslim_01_common						
 						1 = female_hair_mena_01
 						1 = female_hair_mena_02
@@ -2547,6 +2552,7 @@ special_genes = {
 					female = {
 						1 = f_hair_fp3_iranian_01_common #Medium wavy with earrings	
 						1 = female_hair_fp2_iberian_christian_03						
+						1 = female_hair_fp2_iberian_muslim_02_common							
 						1 = female_hair_mena_01
 						1 = female_hair_mena_02
 						1 = female_hair_custom_05						
@@ -2998,4 +3004,4 @@ special_genes = {
 	}
 }
 
-# Yusseter: From EPE + CFP 2025.11.19
+# Yusseter: From EPE + CFP 2025.12.15

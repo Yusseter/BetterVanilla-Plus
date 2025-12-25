@@ -1,6 +1,11 @@
 ﻿colors = {
 	yb_galindian = { 155 155 90 }
 	assyrian = { 142 68 28 }
+	mandaic = hsv{ 0.10 0.75 0.80 } #{ 0.8 0.2 0.4 }
+	hedjazi = { 124 199 50 } #{ 0.1 0.7 0.8 }
+	hijazi = hedjazi
+	coptic = { 0.8 0.64 0.3 } #hsv{ 0.08 0.10 0.5 }
+	ce_copt = coptic
 	armenian = hsv{ 0.01 0.95 0.7 }
 	georgian = hsv{ 0.01 0.8 0.88 }
 	ghumara = { 141 78 35 }
@@ -22,10 +27,10 @@
 	tataric = { 122 47 52 }
 	qay = { 0.75 0.8 0.50 }
 	uriankhai = { 247 94 37 } #{ 0.2 0.2 0.8 } { 0.75 0.8 0.50 } { 75 154 176 }
-	naiman = { 179 40 33 }
+	naiman = { 179 40 33 } #{ 0.45 0.55 0.9 }
 	tocharian = { 0.75 0.45 0.95 }
-	azerbaijan_turkish = { 170 159 74 }
-	syromesopotamian_turkish = { 164 192 90 }
+	azerbaijan_turkish = { 170 159 74 } #{ 194 160 93 }
+	syromesopotamian_turkish = { 164 192 90 } #{ 194 160 93 }
 	khmer = { 0.3 0.3 0.7 }
 	kinh = { 0.7 0.3 0.5 }
 	viet = kinh
@@ -33,7 +38,6 @@
 	cham = { 112 36 228 }
 	aceh = { 0.6 0.4 0.3 }
 	acehnese = aceh
-	color = { 0.8 0.4 0.0 }
 	javan = { 0.9 0.25 0.0 }
 	java = javan
 	javanese = javan
@@ -45,20 +49,20 @@
 	tagalog = { 0.4 0.3 0.7 }
 	bisayan = { 0.9 0.1 0.3 }
 	bisaya = bisayan
-	iloko = { 0.8 0.4 0.0 }
+	iloko = { 250 185 5 } #{ 0.8 0.4 0.0 }
 	ilokano = iloko
 	bugis = { 0 105 146 }
 	malay = { 0.8 0.4 0.0 }
-	asdac_illyrian = hsv { 0.4 0.4 0.4 }
+	asdac_illyrian = hsv{ 0.4 0.4 0.4 }
 	illyrian = asdac_illyrian
 	gujarati = { 0.4 0.2 0.2 }
 	nuristani = { 0.84 0.28 0.01 }
-	persian = { 0.15 0.7 0.7 }
 	tocharian = { 0.75 0.45 0.95 }
 	afghan = { 0.6 0.6 0.1 }
 	hebrew = { 0.17 0.75 0.9 }
 	ashkenazi = { 0.6 0.3 0.6 }
 	goryeo = { 0.1 0.3 0.7 }
+	balhae = { 0.3 0.0 0.3 }
 	silla = { 0.47 0.18 0.16 }
 	samhan = silla
 	vlach = { 0.3 0.2 0.2 }
@@ -80,6 +84,7 @@
 	lhomon = { 191 182 182 }
 	kashgari = { 83 70 107 }
 	maghrebi = { 124 180 82 }
+	evenk = { 196 191 177 }
 
 	grey_dark = { 59 63 62 }
 }

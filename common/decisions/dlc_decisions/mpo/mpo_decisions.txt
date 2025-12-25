@@ -4500,11 +4500,19 @@ settle_people_decision = {
 	}
 
 	is_valid = {
-		OR = {
-			has_realm_law = nomadic_authority_3
-			has_realm_law = nomadic_authority_4
-			has_realm_law = nomadic_authority_5
+		custom_tooltip = { # Yusseter
+			text = dominate_title_trigger_dominance_3
+			OR = {
+				has_realm_law = nomadic_authority_5
+				has_realm_law = nomadic_authority_4
+				has_realm_law = nomadic_authority_3
+			}
 		}
+		#OR = {
+		#	has_realm_law = nomadic_authority_3
+		#	has_realm_law = nomadic_authority_4
+		#	has_realm_law = nomadic_authority_5
+		#}
 		custom_tooltip = {
 			text = step_away_from_the_steppe_decision_holding_tt
 			any_sub_realm_county = {
@@ -6580,11 +6588,19 @@ settle_the_steppe_decision = {
 
 	is_valid = {
 		is_independent_ruler = yes
-		OR = {
-			has_realm_law = nomadic_authority_3
-			has_realm_law = nomadic_authority_4
-			has_realm_law = nomadic_authority_5
+		custom_tooltip = { # Yusseter
+			text = dominate_title_trigger_dominance_3
+			OR = {
+				has_realm_law = nomadic_authority_5
+				has_realm_law = nomadic_authority_4
+				has_realm_law = nomadic_authority_3
+			}
 		}
+		#OR = {
+		#	has_realm_law = nomadic_authority_3
+		#	has_realm_law = nomadic_authority_4
+		#	has_realm_law = nomadic_authority_5
+		#}
 		capital_county = {
 			title_province = {
 				OR = { 
@@ -6636,15 +6652,17 @@ settle_the_steppe_decision = {
 				trigger_if = {
 					limit = {
 						NOR = {
+							has_realm_law = nomadic_authority_3 # Yusseter
 							has_realm_law = nomadic_authority_4
 							has_realm_law = nomadic_authority_5
 						}
 					}
 					custom_tooltip = { # Yusseter
-						text = dominate_title_trigger_dominance_4
+						text = dominate_title_trigger_dominance_3
 						OR = {
 							has_realm_law = nomadic_authority_5
 							has_realm_law = nomadic_authority_4
+							has_realm_law = nomadic_authority_3
 						}
 					}
 					#has_realm_law = nomadic_authority_4
@@ -6683,15 +6701,17 @@ settle_the_steppe_decision = {
 				trigger_if = {
 					limit = {
 						NOR = {
+							has_realm_law = nomadic_authority_3 # Yusseter
 							has_realm_law = nomadic_authority_4
 							has_realm_law = nomadic_authority_5
 						}
 					}
 					custom_tooltip = { # Yusseter
-						text = dominate_title_trigger_dominance_4
+						text = dominate_title_trigger_dominance_3
 						OR = {
 							has_realm_law = nomadic_authority_5
 							has_realm_law = nomadic_authority_4
+							has_realm_law = nomadic_authority_3
 						}
 					}
 					#has_realm_law = nomadic_authority_4

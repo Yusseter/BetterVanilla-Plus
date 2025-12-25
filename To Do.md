@@ -153,6 +153,9 @@
  - add new cultures to ancient culture chronicles `tujue`
  - check goverment on_action `if clan_government title hast muslim make it feudal`
  * silk road broken with kei
+ - if culture head isnt dynasty head make it dynasty head
+ * ce culture effects
+ - decision about if oghuz + muslim = turkmen
 
 # Later
  * titles

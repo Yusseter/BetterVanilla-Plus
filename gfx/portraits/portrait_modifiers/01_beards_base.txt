@@ -2054,11 +2054,11 @@ beards = {
 				}
                 OR = {
                     portrait_chinese_clothing_trigger = yes		
-                    portrait_epe_uyghur_clothing_trigger = yes	
+                    #portrait_epe_uyghur_clothing_trigger = yes	# Yusseter
                     portrait_epe_balto_finnic_clothing_trigger = yes
                     portrait_sami_clothing_trigger = yes
                     portrait_ugro_permian_clothing_trigger = yes						
-                    portrait_epe_sino_iranian_clothing_trigger = yes							
+                    #portrait_epe_sino_iranian_clothing_trigger = yes # Yusseter
                 }
             }
             modifier = { # Muslims should always have a beard
@@ -2066,11 +2066,11 @@ beards = {
                 scope:faith.religion = religion:islam_religion
 			OR = {
                 portrait_chinese_clothing_trigger = yes
-                portrait_epe_uyghur_clothing_trigger = yes
+                #portrait_epe_uyghur_clothing_trigger = yes # Yusseter
                 portrait_epe_balto_finnic_clothing_trigger = yes
                 portrait_sami_clothing_trigger = yes
                 portrait_ugro_permian_clothing_trigger = yes				
-                portrait_epe_sino_iranian_clothing_trigger = yes					
+                #portrait_epe_sino_iranian_clothing_trigger = yes # Yusseter					
                 }				
             }
             modifier = {
@@ -2112,7 +2112,18 @@ beards = {
                 }
 			OR = {
                 portrait_chinese_clothing_trigger = yes
-                portrait_epe_uyghur_clothing_trigger = yes
+					AND = {
+						portrait_epe_uyghur_clothing_trigger = yes
+						has_tgp_dlc_trigger = no
+						}
+					AND = {
+						portrait_epe_uyghur_clothing_trigger = yes
+						has_tgp_dlc_trigger = yes
+                        #OR = { # Yusseter
+                        #    portrait_era1_trigger = yes  					
+                        #    portrait_era2_trigger = yes   							 
+                        #  }							
+						}
                 portrait_epe_balto_finnic_clothing_trigger = yes
                 portrait_sami_clothing_trigger = yes
                 portrait_ugro_permian_clothing_trigger = yes				
@@ -2124,7 +2135,18 @@ beards = {
                 scope:faith.religion = religion:islam_religion
 			OR = {
                 portrait_chinese_clothing_trigger = yes
-                portrait_epe_uyghur_clothing_trigger = yes
+					AND = {
+						portrait_epe_uyghur_clothing_trigger = yes
+						has_tgp_dlc_trigger = no
+						}
+					AND = {
+						portrait_epe_uyghur_clothing_trigger = yes
+						has_tgp_dlc_trigger = yes
+                        #OR = { # Yusseter
+                        #    portrait_era1_trigger = yes  					
+                        #    portrait_era2_trigger = yes   							 
+                        #  }							
+						}
                 portrait_epe_balto_finnic_clothing_trigger = yes
                 portrait_sami_clothing_trigger = yes
                 portrait_ugro_permian_clothing_trigger = yes					
@@ -2169,7 +2191,18 @@ beards = {
                 }
 			OR = {
                 portrait_chinese_clothing_trigger = yes
-                #portrait_epe_uyghur_clothing_trigger = yes # Yusseter
+					AND = {
+						portrait_epe_uyghur_clothing_trigger = yes
+						has_tgp_dlc_trigger = no
+						}
+					AND = {
+						portrait_epe_uyghur_clothing_trigger = yes
+						has_tgp_dlc_trigger = yes
+                        #OR = { # Yusseter
+                        #    portrait_era1_trigger = yes  					
+                        #    portrait_era2_trigger = yes   							 
+                        #  }							
+						}
                 portrait_epe_balto_finnic_clothing_trigger = yes
                 portrait_sami_clothing_trigger = yes
                 portrait_ugro_permian_clothing_trigger = yes				
@@ -2181,7 +2214,18 @@ beards = {
                 scope:faith.religion = religion:islam_religion
                 OR = {
                     portrait_chinese_clothing_trigger = yes
-                    #portrait_epe_uyghur_clothing_trigger = yes # Yusseter
+					AND = {
+						portrait_epe_uyghur_clothing_trigger = yes
+						has_tgp_dlc_trigger = no
+						}
+					AND = {
+						portrait_epe_uyghur_clothing_trigger = yes
+						has_tgp_dlc_trigger = yes
+                        #OR = { # Yusseter
+                        #    portrait_era1_trigger = yes  					
+                        #    portrait_era2_trigger = yes   							 
+                        #  }							
+						}
                     portrait_epe_balto_finnic_clothing_trigger = yes
                     portrait_sami_clothing_trigger = yes
                     portrait_ugro_permian_clothing_trigger = yes					
@@ -2237,8 +2281,20 @@ beards = {
                     portrait_epe_uyghur_clothing_trigger = yes
 					AND = {
 						portrait_epe_sino_iranian_chinese_clothing_trigger = yes
+                        #OR = { # Yusseter
+                        #    portrait_era1_trigger = yes  					
+                        #    portrait_era2_trigger = yes  				 
+                        #  }
 						has_tgp_dlc_trigger = yes
-					}					
+					}
+					AND = {
+						portrait_epe_sino_iranian_clothing_trigger = yes
+						has_tgp_dlc_trigger = yes
+                        OR = {					
+                            portrait_era3_trigger = yes  
+                            portrait_era4_trigger = yes   							 
+                          }							
+						}	
                 }
 			}
 			modifier = {
@@ -2257,15 +2313,16 @@ beards = {
 						template = hair_wavy
 					}
 				}
-				portrait_steppe_clothing_trigger = yes
-				OR = {
-					culture = culture:khitan
-					culture = {
-						any_parent_culture_or_above = {
-							this = culture:khitan
-						}
-					}
-				}
+                portrait_epe_khitan_clothing_trigger = yes # Yusseter
+				#portrait_steppe_clothing_trigger = yes
+				#OR = {
+				#	culture = culture:khitan
+				#	culture = {
+				#		any_parent_culture_or_above = {
+				#			this = culture:khitan
+				#		}
+				#	}
+				#}
 			}			
 		}
 	} 
@@ -2506,6 +2563,14 @@ beards = {
                 OR = {
                     portrait_epe_hindu_iranian_clothing_trigger = yes
 					portrait_epe_sino_iranian_clothing_trigger = yes	
+					AND = {
+						portrait_epe_uyghur_clothing_trigger = yes
+						has_tgp_dlc_trigger = yes
+                        OR = {					
+                            portrait_era3_trigger = yes  
+                            portrait_era4_trigger = yes   							 
+                          }							
+						}	
                 }
 			
             }
@@ -2514,7 +2579,15 @@ beards = {
                 scope:faith.religion = religion:islam_religion
                 OR = {
                     portrait_epe_hindu_iranian_clothing_trigger = yes	
-					portrait_epe_sino_iranian_clothing_trigger = yes						
+					portrait_epe_sino_iranian_clothing_trigger = yes
+					AND = {
+						portrait_epe_uyghur_clothing_trigger = yes
+						has_tgp_dlc_trigger = yes
+                        OR = {					
+                            portrait_era3_trigger = yes  
+                            portrait_era4_trigger = yes   							 
+                          }							
+						}					
                 }
 			
             }
@@ -2556,7 +2629,15 @@ beards = {
                 }
                 OR = {
                     portrait_epe_hindu_iranian_clothing_trigger = yes	
-					portrait_epe_sino_iranian_clothing_trigger = yes						
+					portrait_epe_sino_iranian_clothing_trigger = yes
+					AND = {
+						portrait_epe_uyghur_clothing_trigger = yes
+						has_tgp_dlc_trigger = yes
+                        OR = {					
+                            portrait_era3_trigger = yes  
+                            portrait_era4_trigger = yes   							 
+                          }							
+						}			
                 }
 			
             }
@@ -2565,7 +2646,15 @@ beards = {
                 scope:faith.religion = religion:islam_religion
                 OR = {
                     portrait_epe_hindu_iranian_clothing_trigger = yes
-					portrait_epe_sino_iranian_clothing_trigger = yes						
+					portrait_epe_sino_iranian_clothing_trigger = yes
+					AND = {
+						portrait_epe_uyghur_clothing_trigger = yes
+						has_tgp_dlc_trigger = yes
+                        OR = {					
+                            portrait_era3_trigger = yes  
+                            portrait_era4_trigger = yes   							 
+                          }							
+						}	
                 }
 				
             }
@@ -3325,4 +3414,4 @@ beards = {
 
 }
 
-# Yusseter: From EPE 2025.11.19
+# Yusseter: From EPE 2025.12.15

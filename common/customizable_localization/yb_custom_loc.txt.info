@@ -1,0 +1,33 @@
+﻿GetCiPoemQuality = {
+	type = character
+	random_valid = yes
+
+	text = {
+		trigger = {
+			root.culture.culture_head != root
+		}
+		localization_key = ci_poem_description_weak
+	}
+	text = {
+		trigger = {
+			trigger_if = {
+				limit = {
+					exists = scope:quality_of_artifact
+				}
+				scope:quality_of_artifact = flag:mid
+			}
+		}
+		localization_key = ci_poem_description_mid
+	}
+	text = {
+		trigger = {
+			trigger_if = {
+				limit = {
+					exists = scope:quality_of_artifact
+				}
+				scope:quality_of_artifact = flag:great
+			}
+		}
+		localization_key = ci_poem_description_great
+	}
+}

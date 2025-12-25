@@ -2853,14 +2853,11 @@ special_genes = {
 				male = {
 					1 = m_headgear_sec_fp2_iberian_muslim_war_nob_01_lo
 					1 = m_headgear_sec_fp2_iberian_muslim_war_nob_01_hi
-					1 = male_headgear_secular_andalusian_cfp_war_nasal_02
-
 				}
 
 				female = {
 					1 = f_headgear_sec_fp2_iberian_muslim_war_nob_01_lo
 					1 = f_headgear_sec_fp2_iberian_muslim_war_nob_01_hi
-					1 = female_headgear_secular_andalusian_cfp_war_nasal_02
 				}
 				boy = male
 				girl = female
@@ -3303,25 +3300,12 @@ special_genes = {
 				girl = female
 			}	
 
-			# THIS IS USED FOR EMPTY AN SPACE = {
-			# 	index = 127
 
-			# 	male = {
-			# 		1 =
-			# 	}
-
-			# 	female = {
-			#		1 =
-			# 	}
-
-			# 	boy = male
-			# 	girl = female
-			# }
 
 			## CE1 - Legends of the Dead ##
 
 			fp4_western_common = {
-				index = 128
+				index = 127
 				male = {
 					1 = empty
 					1 = m_headgear_sec_fp4_western_nob_01_com
@@ -3335,7 +3319,7 @@ special_genes = {
 			}
 
 			fp4_western_low_nobility = {
-				index = 129
+				index = 128
 				male = {
 					1 = m_headgear_sec_fp4_western_nob_01_lo
 					1 = m_headgear_sec_fp4_western_nob_02_lo
@@ -3348,7 +3332,7 @@ special_genes = {
 			}
 
 			fp4_western_royalty = {
-				index = 130
+				index = 129
 				male = {
 					1 = m_headgear_sec_fp4_western_roy_01
 				}
@@ -3360,7 +3344,7 @@ special_genes = {
 			}
 
 			fp4_western_cloak_hoods = {
-				index = 131
+				index = 130
 				male = {
 					1 = m_headgear_sec_fp4_western_era3_nob_03 # Hood specifically made to fit with the CE1 western era3 cloak, this one is pulled up on the head
 					# 1 = m_headgear_sec_fp4_western_era3_nob_04 # Same but pulled back, not covering the head
@@ -3378,7 +3362,7 @@ special_genes = {
 			}
 
 			fp4_western_era3_common = {
-				index = 132
+				index = 131
 				male = {
 					2 = empty
 					1 = m_headgear_sec_fp4_western_nob_01_com
@@ -3403,7 +3387,7 @@ special_genes = {
 			####################################################################################################
 			
 			fp3_iranian_common = {
-				index = 133
+				index = 132
 				male = {
 			       ##########################################################				
 					####Early medieval Islamic Iranians(Era 1)
@@ -3518,7 +3502,7 @@ special_genes = {
 			}
 			
 			fp3_iranian_low_nobility = {
-				index = 135
+				index = 133
 				male = {
 			       ##########################################################				
 					####Early medieval Islamic Iranians(Era 1)
@@ -3569,11 +3553,6 @@ special_genes = {
 					1 = m_epe_non_islamic_eastern_iranian_cap_01_lo	
 					1 = m_epe_non_islamic_eastern_iranian_cap_01_lo						
 					2 = male_headgear_secular_sogdian_headband_01_low
-					
-					# CFP
-					1 = male_headgear_secular_iranian_cfp_panel_low_01
-					1 = male_headgear_secular_iranian_cfp_qalansuwah_low_01
-					1 = male_headgear_secular_iranian_cfp_qalansuwah_low_02
 				}
 				female = {
 			       ##########################################################				
@@ -3625,16 +3604,13 @@ special_genes = {
 					1 = female_non_islamic_eastern_iranian_low_01	
 					1 = female_headgear_eastern_iranian_veil_03_low						
 					2 = female_headgear_secular_sogdian_headband_01_low
-					
-					# CFP
-					1 = female_headgear_secular_iranian_cfp_panel_low_01
 				}
 				boy = male
 				girl = female
 			}
 			
 			fp3_iranian_high_nobility = {
-				index = 136
+				index = 134
 				male = {
 			       ##########################################################				
 					####Early medieval Islamic Iranians(Era 1)
@@ -3684,9 +3660,6 @@ special_genes = {
 					1 = male_non_islamic_iranian_bulb_01_white				
 					1 = male_non_islamic_iranian_bulb_01_white	
 					1 = male_non_islamic_iranian_bulb_01_white	
-					
-					# CFP
-					1 = male_headgear_secular_iranian_cfp_qalansuwah_high_01
 				}
 				female = {
 			       ##########################################################				
@@ -3743,7 +3716,7 @@ special_genes = {
 			}
 			
 			fp3_iranian_royalty = {
-				index = 137
+				index = 135
 				male = {
 			       ##########################################################				
 					####Early medieval Islamic Iranians(Era 1)
@@ -3810,7 +3783,7 @@ special_genes = {
 
 
 			fp3_iranian_imperial = {
-				index = 138
+				index = 136
 				male = {
 			       ##########################################################				
 					####Early medieval Islamic Iranians(Era 1)
@@ -3883,7 +3856,7 @@ special_genes = {
 
 
 			fp3_iranian_war = {
-				index = 139
+				index = 137
 				male = {
 			       ##########################################################				
 					####Early medieval Islamic Iranians(Era 1)
@@ -4033,7 +4006,7 @@ special_genes = {
 			## FP3 - Turkic ##
 
 			fp3_turkic_common = {
-				index = 140
+				index = 138
 				male = {
 			       ##########################################################				
 					####Eastern Turkic/Default Turk
@@ -4056,7 +4029,7 @@ special_genes = {
 				    1 = male_headgear_secular_dde_abbasid_common_01
 				    1 = male_headgear_epe_white_mena_nobility_02	
 				    1 = male_headgear_epe_white_mena_nobility_03
-
+					
 			       ##########################################################				
 					####Early Western turk
 					1 = male_Cuman_cap_commoner_01
@@ -4102,7 +4075,7 @@ special_genes = {
 				    1 = female_headgear_secular_mena_common_02
 				    1 = female_headgear_iranian_qub_01_common	
 				    1 = female_headgear_iranian_qub_01_common
-
+					
 			       ##########################################################				
 					####Early Western turk
 					1 = empty
@@ -4131,7 +4104,7 @@ special_genes = {
 			}
 
 			fp3_turkic_low_nobility = {
-				index = 141
+				index = 139
 				male = {
 			       ##########################################################				
 					####Eastern Turkic/Default Turk
@@ -4158,7 +4131,7 @@ special_genes = {
 					1 = male_headgear_secular_mena_nobility_01
 					1 = male_headgear_epe_white_mena_nobility_02	
 					1 = male_headgear_epe_white_mena_nobility_03
-					1 = m_headgear_sec_fp3_turkic_nob_01 #FP3 Turkic V Hat		
+					1 = m_headgear_sec_fp3_turkic_nob_01 #FP3 Turkic V Hat	
 
 			       ##########################################################				
 					####Early Western turk
@@ -4249,7 +4222,7 @@ special_genes = {
 			}
 
 			fp3_turkic_high_nobility = {
-				index = 142
+				index = 140
 				male = {
 			       ##########################################################				
 					####Eastern Turkic/Default Turk
@@ -4259,14 +4232,14 @@ special_genes = {
 					
 			       ##########################################################						
 					####Seljuk Turk			
-					5 = m_headgear_sec_fp3_turkic_nob_02 # FP3 Seljuk Sharbush 
+					1 = m_headgear_sec_fp3_turkic_nob_02 # FP3 Seljuk Sharbush 
 					1 = male_Seljuk_Leather_Hat_01	
 					1 = male_Seljuk_Leather_Hat_01_02					
 					1 = male_Seljuk_Leather_Hat_02	
 					1 = male_Seljuk_Leather_Hat_02_02					
 					1 = male_headgear_secular_mena_high_nobility_01
 					1 = male_Turkic_Fur_Cap_04	
-					1 = male_Turkic_Fur_Cap_05		
+					1 = male_Turkic_Fur_Cap_05	
 
 			       ##########################################################				
 					####Early Western turk
@@ -4327,7 +4300,7 @@ special_genes = {
 			}
 			
 			fp3_turkic_royalty = {
-				index = 143
+				index = 141
 				male = {
 			       ##########################################################				
 					####Eastern Turkic/Default Turk
@@ -4343,7 +4316,7 @@ special_genes = {
 					1 = male_Seljuk_Helmet_Hat_02	
 					1 = male_headgear_secular_steppe_royalty_01					
 					1 = male_headgear_secular_steppe_royalty_01a
-					1 = male_headgear_secular_steppe_royalty_01b
+					1 = male_headgear_secular_steppe_royalty_01b 
 					
 			       ##########################################################				
 					####Early Western turk
@@ -4377,7 +4350,7 @@ special_genes = {
 					1 = female_headgear_epe_seljuk_royal_nobility_02					
 					1 = Female_Khanum_Headress_01_seljuk	
 					1 = Female_Khanum_Headress_02_seljuk	
-					1 = Female_Khanum_Headress_02_seljuk
+					1 = Female_Khanum_Headress_02_seljuk 
 					
 			       ##########################################################				
 					####Early Western turk
@@ -4402,7 +4375,7 @@ special_genes = {
 
 
 			fp3_turkic_imperial = {
-				index = 144
+				index = 142
 				male = {
 			       ##########################################################				
 					####Eastern Turkic/Default Turk
@@ -4465,7 +4438,7 @@ special_genes = {
 
 
 			fp3_turkic_war = {
-				index = 145
+				index = 143
 				male = {
 			       ##########################################################				
 					####Eastern Turkic/Default Turk
@@ -4550,7 +4523,7 @@ special_genes = {
 			## AFR ##
 
 			afr_common = {
-				index = 146
+				index = 144
 				male = {
 			       ##########################################################						
 					####Butr/zaghawa - nomadic Berber					
@@ -4634,7 +4607,7 @@ special_genes = {
 			}
 
 			afr_low_nobility = {
-				index = 147
+				index = 145
 				male = {
 			       ##########################################################						
 					####Butr/zaghawa - nomadic Berber				
@@ -4722,7 +4695,7 @@ special_genes = {
 			}
 
 			afr_high_nobility = {
-				index = 148
+				index = 146
 				male = {
 			       ##########################################################						
 					####Butr/zaghawa - nomadic Berber					
@@ -4813,7 +4786,7 @@ special_genes = {
 			}
 
 			afr_royalty = {
-				index = 149
+				index = 147
 				male = {
 			       ##########################################################						
 					####Butr/zaghawa - nomadic Berber				
@@ -4845,7 +4818,7 @@ special_genes = {
 			}
 
 			afr_imperial = {
-				index = 150
+				index = 148
 				male = {
 			       ##########################################################						
 					####Butr/zaghawa - nomadic Berber					
@@ -4876,15 +4849,13 @@ special_genes = {
 					1 = f_headgear_sec_afr_imperial_01	
 					1 = f_headgear_sec_afr_imperial_01
 					1 = f_headgear_sec_afr_royalty_01					
-					# CFP
-					1 = f_headgear_sec_afr_cfp_imperial_01
 				}
 				boy = male
 				girl = female
 			}
 
 			afr_war = {
-				index = 151
+				index = 149
 				male = {
 			       ##########################################################						
 					####Butr/zaghawa - nomadic Berber					
@@ -4917,9 +4888,6 @@ special_genes = {
 					1 = male_headgear_epe_berber_tagelmust_04_high_white
                     ## AFR	
 					6 = m_headgear_sec_afr_war_nob_01					
-					
-					# CFP
-					1 = m_headgear_sec_afr_cfp_war_helmet_01
 				}
 				female = {
 			       ##########################################################						
@@ -4953,9 +4921,6 @@ special_genes = {
 					1 = f_headgear_sec_afr_war_nob_01
                     ## AFR	
 					6 = f_headgear_sec_afr_war_nob_01							
-					
-					# CFP
-					1 = f_headgear_sec_afr_cfp_war_helmet_01
 				}
 				boy = male
 				girl = female
@@ -4965,7 +4930,7 @@ special_genes = {
 			## SP3 -  ##
 
 			sp3_western_high_nobility = {
-				index = 152
+				index = 150
 				male = {
 					10 = m_headgear_sec_sp3_western_hi_nob_01 # Vair fur brimmed hat
 					3 = m_epe_late_western_nob_headgear_hi_03
@@ -4980,7 +4945,7 @@ special_genes = {
 			}
 
 			sp3_western_nobility = {
-				index = 153
+				index = 151
 				male = {
 					1 = male_fra_phrygian_cap_01
 					1 = male_fra_phrygian_cap_02
@@ -4994,7 +4959,7 @@ special_genes = {
 			}
 
 			sp3_western_royalty = {
-				index = 154
+				index = 152
 				male = {
 					1 = m_headgear_sec_sp3_western_hi_nob_01 # Vair fur brimmed Hat also worn by French Kings from time to time.
 					1 = m_headgear_sec_sp3_western_roy_01
@@ -5019,7 +4984,7 @@ special_genes = {
 			####################################################################################################
 			
 			epe_balkan_common = {
-				index = 155
+				index = 153
 				male = {
 			       ##########################################################				
 					####Early medieval Bulgarian(Era 1-4)					
@@ -5083,7 +5048,7 @@ special_genes = {
 				girl = female
 			}
 			epe_balkan_low_nobility = {
-				index = 156
+				index = 154
 				male = {
 			       ##########################################################				
 					####Early medieval Bulgarian(Era 1)				
@@ -5176,7 +5141,7 @@ special_genes = {
 				girl = female
 			}			
 			epe_balkan_high_nobility = {
-				index = 157
+				index = 155
 				male = {
 			       ##########################################################				
 					####Early medieval Bulgarian(Era 1)				
@@ -5262,7 +5227,7 @@ special_genes = {
 			}
 
 			epe_balkan_royalty = {
-				index = 158
+				index = 156
 				male = {
 			       ##########################################################				
 					####Early medieval Bulgarian(Era 1)				
@@ -5324,7 +5289,7 @@ special_genes = {
 			}	
 
 			epe_balkan_imperial = {
-				index = 159
+				index = 157
 				male = {
 			       ##########################################################				
 					####Early medieval Bulgarian(Era 1)				
@@ -5391,404 +5356,13 @@ special_genes = {
 
 ####################################################################################################
 ##################
-###Han Chinese/Uyghur
-##################
-####################################################################################################
-
-
-			han_chinese_common = {
-				index = 160
-				male = {
-			       ##########################################################						
-					####Han Chinese				
-					2 = empty
-					2 = male_headgear_secular_chinese_nobility_01						
-					2 = m_headgear_sec_tgp_chinese_com_01
-					2 = m_headgear_sec_tgp_chinese_com_02					
-					
-			       ##########################################################						
-					####Japanese	
-					1 = m_headgear_sec_tgp_japanese_com_01						
-
-			       ##########################################################						
-					####Ainu	
-					1 = empty
-					1 = m_headgear_sec_tgp_chinese_com_01
-					1 = male_headgear_secular_fp1_common_02		
-									
-			       ##########################################################						
-					####Uyghur					
-					1 = male_headgear_secular_steppe_common_01
-					1 = male_Turkic_Fur_Cap_01
-					1 = male_Turkic_Fur_Cap_02	
-					1 = male_Turkic_Fur_Cap_03
-					1 = male_Turkic_Fur_Cap_04	
-					1 = male_Turkic_Fur_Cap_05	
-				}
-				female = {
-			       ##########################################################						
-					####Han Chinese					
-					2 = empty
-					2 = empty
-					2 = empty					
-					2 = empty	
-
-			       ##########################################################						
-					####Japanese	
-					1 = empty
-
-			       ##########################################################						
-					####Ainu	
-					1 = empty
-					1 = female_headgear_secular_fp1_common_01
-					1 = female_headgear_secular_northern_common_01				
-									
-			       ##########################################################						
-					####Uyghur
-					1 = empty
-					1 = empty
-					1 = empty	
-					1 = female_headgear_secular_steppe_common_01
-					1 = female_headgear_secular_steppe_common_01	
-					1 = female_headgear_secular_steppe_common_01	
-				}
-				boy = male
-				girl = female
-			}
-
-			han_chinese_low_nobility = {
-				index = 161
-				male = {
-			       ##########################################################						
-					####Han Chinese						
-					1 = male_headgear_secular_chinese_nobility_01
-					1 = male_headgear_secular_chinese_nobility_02	
-					1 = male_headgear_secular_chinese_nobility_03	
-					1 = male_headgear_secular_chinese_nobility_04	
-					1 = male_headgear_secular_chinese_nobility_05		
-					1 = male_headgear_secular_chinese_nobility_06	
-					2 = m_headgear_sec_tgp_chinese_hi_nob_01					
-					1 = m_headgear_sec_tgp_chinese_nob_01
-					1 = m_headgear_sec_tgp_chinese_nob_02	
-					
-			       ##########################################################						
-					####Japanese	
-					1 = m_headgear_sec_tgp_japanese_war_nob_01	
-
-			       ##########################################################						
-					####Korean				
-					1 = m_headgear_sec_tgp_korean_nob_01						
-					
-			       ##########################################################						
-					####Uyghur
-					1 = male_headgear_secular_chinese_nobility_05
-					1 = male_Turkic_Fur_Cap_01
-					1 = m_Turkic_Fur_Cap_02_uyghur_lo	
-					1 = male_Turkic_Fur_Cap_03
-					1 = male_headgear_secular_chinese_nobility_04	
-                    1 = male_headgear_secular_chinese_nobility_06							
-				}
-				female = {
-			       ##########################################################						
-					####Han Chinese					
-					1 = empty
-					1 = empty	
-					1 = empty	
-					1 = empty	
-					1 = empty		
-					1 = empty
-					2 = empty
-					1 = empty	
-					1 = empty
-										
-			       ##########################################################						
-					####Japanese	
-					1 = empty
-
-			       ##########################################################						
-					####Korean				
-					1 = empty						
-					
-			       ##########################################################						
-					####Uyghur
-					1 = empty
-					1 = empty
-					1 = empty	
-					1 = empty
-					1 = empty	
-                    1 = empty					
-				}
-				boy = male
-				girl = female
-			}
-
-
-			han_chinese_high_nobility = {
-				index = 162
-				male = {
-			       ##########################################################						
-					####Han Chinese	Era1				
-                    1 = male_headgear_secular_chinese_high_nobility_01
-                    1 = male_headgear_secular_chinese_high_nobility_01					
-                    1 = male_headgear_secular_chinese_high_nobility_02	
-					2 = m_headgear_sec_tgp_chinese_hi_nob_01					
-					1 = m_headgear_sec_tgp_chinese_hi_nob_01
-					1 = m_headgear_sec_tgp_chinese_hi_nob_01	
-			       ##########################################################						
-					####Han Chinese	Era2				
-                    1 = male_headgear_secular_chinese_high_nobility_01
-                    1 = male_headgear_secular_chinese_high_nobility_01					
-                    1 = male_headgear_secular_chinese_high_nobility_02	
-					2 = m_headgear_sec_tgp_chinese_hi_nob_01					
-					1 = m_headgear_sec_tgp_chinese_nob_01
-					1 = m_headgear_sec_tgp_chinese_nob_02	
-
-			       ##########################################################						
-					####Japanese	
-					1 = m_headgear_sec_tgp_japanese_nob_01
-
-			       ##########################################################						
-					####Southeast				
-					1 = m_headgear_sec_tgp_southeast_nob_01	
-					1 = m_headgear_sec_tgp_southeast_nob_02
-					1 = m_headgear_sec_tgp_southeast_nob_03
-
-			       ##########################################################						
-					####Uyghur
-					1 = male_Turkic_Fur_Cap_04	
-					1 = male_Turkic_Fur_Cap_05	
-					1 = male_headgear_secular_steppe_nobility_01
-					3 = male_Uyghur_Noble_Headwear_01					
-				}
-				female = {
-			       ##########################################################						
-					####Han Chinese	Era1				
-                    1 = female_headgear_secular_chinese_nobility_01
-                    1 = female_headgear_secular_chinese_nobility_01a			
-                    1 = female_headgear_secular_chinese_nobility_01b
-					2 = female_headgear_secular_chinese_nobility_01					
-					1 = empty
-					1 = empty	
-			       ##########################################################						
-					####Han Chinese	Era2				
-                    1 = f_headgear_sec_tgp_chinese_hi_nob_01_epe
-                    1 = f_headgear_sec_tgp_chinese_hi_nob_01_epe			
-                    1 = empty
-					2 = f_headgear_sec_tgp_chinese_hi_nob_02					
-					1 = f_headgear_sec_tgp_chinese_hi_nob_02
-					1 = empty						
-
-			       ##########################################################						
-					####Japanese	
-					1 = empty
-
-			       ##########################################################						
-					####Southeast				
-					1 = f_headgear_sec_tgp_southeast_nob_01	
-					1 = f_headgear_sec_tgp_southeast_nob_02
-					1 = f_headgear_sec_tgp_southeast_nob_02	
-
-			       ##########################################################						
-					####Uyghur
-                    1 = female_headgear_secular_chinese_nobility_01
-                    1 = female_headgear_secular_chinese_nobility_01a			
-                    1 = female_headgear_secular_chinese_nobility_01b
-                    3 = female_headgear_secular_chinese_nobility_01					
-				}
-				boy = male
-				girl = female
-			}
-			
-
-			han_chinese_royalty = {
-				index = 163
-				male = {
-			       ##########################################################						
-					####Han Chinese/Korean					
-					1 = male_headgear_secular_chinese_royalty_01	
-					1 = male_headgear_secular_chinese_royalty_01						
-					1 = m_headgear_sec_tgp_chinese_roy_01						
-
-			       ##########################################################						
-					####Japanese					
-					1 = m_headgear_sec_tgp_japanese_roy_01
-
-			       ##########################################################						
-					####Southeast				
-					1 = male_headgear_secular_ep1_indian_royalty_01	
-					1 = m_headgear_sec_tgp_southeast_roy_01_a
-					1 = m_headgear_sec_tgp_southeast_roy_01_b
-
-			       ##########################################################						
-					####Uyghur
-					1 = male_Uyghur_Royal_Headwear_01			
-					1 = male_Uyghur_Noble_Headwear_01						
-				}
-				female = {
-			       ##########################################################						
-					####Han Chinese/Korean						
-                    1 = f_headgear_sec_tgp_chinese_roy_01_epe
-                    1 = f_headgear_sec_tgp_chinese_roy_01_epe			
-                    1 = f_headgear_sec_tgp_chinese_roy_01_epe
-
-			       ##########################################################						
-					####Japanese					
-					1 = empty
-					
-			       ##########################################################						
-					####Southeast				
-					1 = f_headgear_sec_tgp_southeast_roy_01						
-					1 = f_headgear_sec_tgp_southeast_roy_01					
-
-			       ##########################################################						
-					####Uyghur
-					1 = Female_Khanum_Headress_01_uyghur
-					1 = Female_Khanum_Headress_02_uyghur				
-				}
-				boy = male
-				girl = female
-			}
-
-           #han_chinese_imperial
-			tgp_chinese_imperial = {
-				index = 164
-				male = {
-			       ##########################################################						
-					####Han Chinese					
-					1 = m_headgear_sec_tgp_chinese_imp_02 # Tang crown era 1	
-					1 = m_headgear_sec_tgp_chinese_imp_01 # Tongtianguan crown of Song era	
-					1 = male_headgear_secular_chinese_imperial_01	
-
-			       ##########################################################						
-					####Japanese Imperial					
-					1 = m_headgear_sec_tgp_japanese_imp_02
-					
-			       ##########################################################						
-					####Japanese shogun					
-					1 = m_headgear_sec_tgp_japanese_imp_01
-
-			       ##########################################################						
-					####Korean				
-					1 = m_headgear_sec_tgp_korean_imp_01	
-
-			       ##########################################################						
-					####Southeast				
-					1 = male_headgear_secular_ep1_diamond_crown	
-
-			       ##########################################################						
-					####Uyghur
-					1 = male_Uyghur_Royal_Headwear_01	
-					1 = male_Uyghur_Royal_Headwear_01	
-					
-				}
-				female = {
-			       ##########################################################						
-					####Han Chinese					
-                    1 = f_headgear_sec_tgp_chinese_imp_01
-                    1 = f_headgear_sec_tgp_chinese_imp_01			
-                    1 = f_headgear_sec_tgp_chinese_imp_01	
-
-			       ##########################################################						
-					####Japanese Imperial					
-					1 = empty					
-					
-			       ##########################################################						
-					####Japanese shogun					
-					1 = empty
-
-			       ##########################################################						
-					####Korean				
-					1 = empty						
-
-			       ##########################################################						
-					####Southeast				
-					1 = f_headgear_sec_tgp_southeast_nob_01						
-
-			       ##########################################################						
-					####Uyghur
-					1 = Female_Khanum_Headress_01_uyghur
-					1 = Female_Khanum_Headress_02_uyghur					
-				}
-				boy = male
-				girl = female
-			}
-           #han_chinese_war
-			tgp_asia_war_nobility = {
-				index = 165
-				male = {
-			       ##########################################################						
-					####Han Chinese					
-					1 = m_headgear_sec_chin_war_nob_01_lo
-					1 = m_headgear_sec_chin_war_nob_01_hi
-				    1 = m_headgear_sec_tgp_chinese_war_nob_01_lo
-				    1 = m_headgear_sec_tgp_chinese_war_nob_01_hi									
-				    2 = m_headgear_sec_tgp_chinese_war_nob_02
-				    1 = m_headgear_sec_tgp_chinese_war_nob_02_mask
-
-			       ##########################################################						
-					####Japanese
-					1 = m_headgear_sec_tgp_japanese_war_nob_01
-					1 = m_headgear_sec_tgp_japanese_war_nob_02_lo
-					1 = m_headgear_sec_tgp_japanese_war_nob_02_hi					
-
-			       ##########################################################						
-					####Uyghur
-				    1 = male_khorasan_helmet_02
-				    1 = male_khorasan_helmet_02v2	
-					1 = male_Iranian_Early_North_Nasal_Helmet_02_02						
-					1 = m_headgear_sec_uyghur_war_nob_01_lo
-					1 = m_headgear_sec_uyghur_war_nob_02_lo					
-					1 = m_headgear_sec_uyghur_war_nob_01_hi
-					1 = m_headgear_sec_uyghur_war_nob_02_hi						
-			    	1 = male_khorasan_helmet_01	
-			    	1 = male_khorasan_helmet_01v2
-					1 = male_Iranian_Early_North_Nasal_Helmet_02
-					
-				}
-				female = {
-			       ##########################################################						
-					####Han Chinese					
-					1 = f_headgear_sec_chin_war_nob_01_lo
-					1 = f_headgear_sec_chin_war_nob_01_hi
-					1 = f_headgear_sec_tgp_chinese_war_nob_01_lo
-				    1 = f_headgear_sec_tgp_chinese_war_nob_01_hi
-					2 = f_headgear_sec_tgp_chinese_war_nob_02
-					1 = f_headgear_sec_tgp_chinese_war_nob_02					
-
-			       ##########################################################						
-					####Japanese
-					1 = f_headgear_sec_tgp_japanese_war_nob_01
-					1 = f_headgear_sec_tgp_japanese_war_nob_02_lo
-					1 = f_headgear_sec_tgp_japanese_war_nob_02_hi					
-
-			       ##########################################################						
-					####Uyghur
-				    1 = female_secular_Iranian_Early_North_Nasal_Helmet_Crest_02
-				    1 = female_khorasan_helmet_02v2
-					1 = female_Iranian_Early_North_Helmet_02_02						
-					1 = f_headgear_sec_uyghur_war_nob_01_lo
-					1 = f_headgear_sec_uyghur_war_nob_02_lo					
-					1 = f_headgear_sec_uyghur_war_nob_01_hi
-					1 = f_headgear_sec_uyghur_war_nob_02_hi						
-			    	1 = female_secular_Iranian_Early_North_Nasal_Helmet_Crest_01	
-			    	1 = female_khorasan_helmet_01v2	
-					1 = female_Iranian_Early_North_Helmet_02					
-					
-				}
-				boy = male
-				girl = female
-			}
-
-
-####################################################################################################
-##################
 ###Eastern/Western Slavs
 ##################
 ####################################################################################################
 
 
 			east_slav_common = {
-				index = 166
+				index = 158
 				male = {
 			       ##########################################################				
 					####Eastern Slav
@@ -5847,7 +5421,7 @@ special_genes = {
 			}
 
 			east_slav_low_nobility = {
-				index = 167
+				index = 159
 				male = {
 			       ##########################################################				
 					####Eastern Slav
@@ -5906,7 +5480,7 @@ special_genes = {
 			}
 
 			east_slav_high_nobility = {
-				index = 168
+				index = 160
 				male = {
 			       ##########################################################				
 					####Eastern Slav
@@ -5951,7 +5525,7 @@ special_genes = {
 			}
 			
 			east_slav_royalty = {
-				index = 169
+				index = 161
 				male = {
 			       ##########################################################				
 					####Eastern Slav
@@ -6002,7 +5576,7 @@ special_genes = {
 
 
 			east_slav_imperial = {
-				index = 170
+				index = 162
 				male = {
 			       ##########################################################				
 					####Eastern Slav
@@ -6045,7 +5619,7 @@ special_genes = {
 
 
 			east_slav_war = {
-				index = 171
+				index = 163
 				male = {
 			       ##########################################################				
 					####Eastern Slav
@@ -6086,16 +5660,16 @@ special_genes = {
 
 
 			epe_spymaster_headgears = {
-				index = 172
+				index = 164
 				male = {
 					1 = male_epe_western_spy_master_hood    ##Western
-					1 = male_headgear_epe_mena_spy_master_01	##Mena				
+					1 = male_headgear_epe_mena_spy_master_01	##Mena	
 					1 = male_headgear_epe_northern_spymaster_headband_01	##Northern	
 					1 = male_headgear_epe_persian_spymaster_01	##Persian						
 				}
 				female = {
 					1 = female_epe_western_spy_master_hood    ##Western
-					1 = female_headgear_epe_mena_spy_master_01	##Mena					
+					1 = female_headgear_epe_mena_spy_master_01	##Mena
 					1 = female_headgear_epe_northern_spymaster_headband_01	##Northern	
 					1 = female_headgear_epe_persian_spymaster_01	##Persian						
 				}
@@ -6109,7 +5683,7 @@ special_genes = {
 	##########################################################################				
 			
 			epe_crown_titles = {
-				index = 173
+				index = 165
 				male = {
 			       ##########################################################						
 					####EPE Holy crown of hungary(era 1)						
@@ -6179,7 +5753,7 @@ special_genes = {
 			## POL ##
 
 			pol_common = {
-				index = 174
+				index = 166
 				male = {
 					1 = m_headgear_sec_pol_common_01
 					1 = m_headgear_sec_pol_common_02
@@ -6193,7 +5767,7 @@ special_genes = {
 			}
 
 			pol_low_nobility = {
-				index = 175
+				index = 167
 				male = {
 					1 = m_headgear_sec_pol_low_nob_01
 				}
@@ -6205,7 +5779,7 @@ special_genes = {
 			}
 
 			pol_high_nobility = {
-				index = 176
+				index = 168
 				male = {
 					1 = m_headgear_sec_pol_high_nob_01
 				}
@@ -6217,7 +5791,7 @@ special_genes = {
 			}
 
 			pol_royalty = {
-				index = 177
+				index = 169
 				male = {
 					1 = m_headgear_sec_pol_royalty_01
 				}
@@ -6229,7 +5803,7 @@ special_genes = {
 			}
 
 			pol_imperial = {
-				index = 178
+				index = 170
 				male = {
 					1 = m_headgear_sec_pol_imperial_01
 				}
@@ -6241,7 +5815,7 @@ special_genes = {
 			}
 
 			pol_war = {
-				index = 179
+				index = 171
 				male = {
 					1 = m_headgear_sec_pol_era1_war_nob_01
 					1 = m_headgear_sec_pol_era3_war_nob_01
@@ -6256,14 +5830,239 @@ special_genes = {
 				girl = female
 			}
 			
+			## CCP4 ##
 
+			ccp4_sami_common = {
+				index = 172
+				male = {
+					1 = empty
+					2 = m_headgear_sec_ccp4_sami_com_01
+					1 = m_headgear_sec_ccp4_sami_lo_nob_02
+				}
+				female = {
+					1 = f_headgear_sec_ccp4_sami_com_01
+					1 = f_headgear_sec_ccp4_khanty_com_01
+				}
+				boy = male
+				girl = female
+			}
+
+			ccp4_sami_low_nobility = {
+				index = 173
+				male = {
+					1 = empty
+					1 = m_headgear_sec_ccp4_sami_lo_nob_01
+					1 = m_headgear_sec_ccp4_sami_lo_nob_02
+					1 = m_headgear_sec_ccp4_sami_lo_nob_03
+				}
+				female = {
+					1 = f_headgear_sec_ccp4_sami_lo_nob_01
+					1 = f_headgear_sec_ccp4_khanty_com_01
+				}
+				boy = male
+				girl = female
+			}
+
+			ccp4_sami_high_nobility = {
+				index = 174
+				male = {
+					1 = empty
+					1 = m_headgear_sec_ccp4_sami_hi_nob_01
+					1 = m_headgear_sec_ccp4_sami_hi_nob_02
+					1 = m_headgear_sec_ccp4_sami_hi_nob_03
+				}
+				female = {
+					1 = f_headgear_sec_ccp4_sami_hi_nob_01
+				}
+				boy = male
+				girl = female
+			}
+
+			ccp4_khanty_common = {
+				index = 175
+				male = {
+					1 = empty
+					1 = m_headgear_sec_ccp4_khanty_com_01
+				}
+				female = {
+					1 = f_headgear_sec_ccp4_khanty_com_01
+					1 = f_headgear_sec_ccp4_khanty_com_02
+					1 = f_headgear_sec_ccp4_khanty_com_03
+				}
+				boy = male
+				girl = female
+			}
+
+			ccp4_khanty_low_nobility = {
+				index = 176
+				male = {
+					2 = empty
+					2 = m_headgear_sec_ccp4_khanty_com_01
+					1 = male_headgear_secular_northern_common_01
+				}
+				female = {
+					1 = f_headgear_sec_ccp4_khanty_lo_nob_01
+					1 = f_headgear_sec_ccp4_khanty_lo_nob_02
+					1 = f_headgear_sec_ccp4_khanty_lo_nob_03
+				}
+				boy = male
+				girl = female
+			}
+
+			ccp4_khanty_high_nobility = {
+				index = 177
+				male = {
+					1 = empty
+					1 = m_headgear_sec_ccp4_khanty_com_01
+				}
+				female = {
+					1 = f_headgear_sec_ccp4_khanty_hi_nob_01
+					1 = f_headgear_sec_ccp4_khanty_hi_nob_02
+					1 = f_headgear_sec_ccp4_khanty_hi_nob_03
+				}
+				boy = male
+				girl = female
+			}
+
+			ccp4_khanty_war = {
+				index = 178
+				male = {
+					1 = m_headgear_sec_ccp4_khanty_war_com_01
+					1 = m_headgear_sec_ccp4_khanty_war_lo_nob_01
+					1 = m_headgear_sec_ccp4_khanty_war_hi_nob_01
+				}
+				female = {
+					1 = f_headgear_sec_ccp4_khanty_war_com_01
+					1 = f_headgear_sec_ccp4_khanty_war_lo_nob_01
+					1 = f_headgear_sec_ccp4_khanty_war_hi_nob_01
+				}
+				boy = male
+				girl = female
+			}
+
+			ccp4_religious_siberian_commoner = {
+				index = 179
+				male = {
+					2 = m_headgear_rel_ccp4_siberian_com_01
+					1 = male_headgear_religious_steppe_high_01
+				}
+				female = {
+					2 = f_headgear_rel_ccp4_siberian_com_01
+					1 = female_headgear_religious_steppe_high_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			#Crowns of the World
+			sp4_western_royalty = {
+				index = 180
+				male = {
+					1 = m_headgear_sp4_western_roy_01
+				}
+				female = {
+					1 = f_headgear_sp4_western_roy_01
+				}
+				boy = male
+				girl = female
+			}
+
+
+			sp4_rus_royalty = {
+				index = 181
+				male = {
+					1 = m_headgear_sp4_rus_roy_01
+				}
+				female = {
+					1 = f_headgear_sp4_rus_roy_01
+				}
+				boy = male
+				girl = female
+			}
+
+			sp4_mena_royalty = {
+				index = 182
+				male = {
+					1 = m_headgear_sp4_mena_roy_01
+				}
+				female = {
+					1 = f_headgear_sp4_mena_roy_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			## MPO - Nomads ##
+
+			mpo_mongol_commoner = {
+				index = 183
+				male = {
+					1 = m_headgear_sec_mpo_mongol_com_01
+				}
+				female = {
+				    1 = f_headgear_sec_mpo_mongol_com_01
+				}
+				boy = male
+				girl = female
+			}
+
+			mpo_mongol_nobility = {
+				index = 184
+				male = {
+					1 = m_headgear_sec_mpo_mongol_nob_01
+				}
+				female = {
+					1 = f_headgear_sec_mpo_mongol_nob_01
+					1 = f_headgear_sec_mpo_mongol_nob_02
+				}
+				boy = male
+				girl = female
+			}
+
+			mpo_mongol_war_nobility = {
+				index = 185
+				male = {
+				    1 = m_headgear_sec_mpo_mongol_war_nob_01
+				}
+				female = {
+					1 = f_headgear_sec_mpo_mongol_war_nob_01
+				}
+				boy = male
+				girl = female
+			}
+
+			mpo_mongol_royalty = {
+				index = 186
+				male = {
+					1 = m_headgear_sec_mpo_mongol_roy_01
+				}
+				female = {
+					1 = f_headgear_steppe_roy_01
+				}
+				boy = male
+				girl = female
+			}
+
+			mpo_mongol_imperial = {
+				index = 187
+				male = {
+					1 = m_headgear_sec_mpo_mongol_imp_01
+				}
+				female = {
+					1 = f_headgear_steppe_roy_01
+
+				}
+				boy = male
+				girl = female
+			}	
+					
 
 ##########################################################################
 ####Norman-Sicilian era 2-4
 ##########################################################################
 
 			norman_sicilian_high_nobility = {
-				index = 180
+				index = 188
 				male = {
 			       ##########################################################				
 					####High medieval Norman-Sicilian(Era 2-4)						
@@ -6295,7 +6094,7 @@ special_genes = {
 			}
 
 			norman_sicilian_royalty = {
-				index = 181
+				index = 189
 				male = {
 			       ##########################################################				
 					####High medieval Norman-Sicilian(Era 2-4)							
@@ -6321,7 +6120,7 @@ special_genes = {
 			}
 
 			norman_sicilian_imperial = {
-				index = 182
+				index = 190
 				male = {
 			       ##########################################################				
 					####High medieval Norman-Sicilian(Era 2-4)							
@@ -6351,14 +6150,22 @@ special_genes = {
 			}
 
 			norman_sicilian_war = {
-				index = 183
+				index = 191
 				male = {
+					# CFP
+					1 = male_headgear_secular_latin_war_norman_01
+					1 = male_headgear_secular_latin_war_norman_02
+					# EPE
 					1 = male_norman_fpl_helmet_01
 					1 = male_norman_fpl_helmet_02
 					1 = male_norman_fpl_helmet_01b
-					1 = male_norman_fpl_helmet_02b					
+					1 = male_norman_fpl_helmet_02b
 				}
 				female = {
+					# CFP
+					1 = female_headgear_secular_latin_war_norman_01
+					1 = female_headgear_secular_latin_war_norman_02
+					# EPE
 					1 = female_western_Nasal_Helmet_01	
 					1 = female_western_Nasal_Helmet_02
 				}
@@ -6368,579 +6175,711 @@ special_genes = {
 			
 		###EPE #--------------------------------------------------------------------------------
 			epe_scripted_character_headgears = {
-				index = 184
+				index = 192
 				male = {
 					1 = m_headgear_ayyubid_war_royality_01  ###Saladin
 					1 = m_headgear_secular_baldwin_crown_01	###Baldwin IV				
 					1 = male_sir_eplerud_helmet_01  ###Sir Eplerud
+					1 = male_headgear_secular_steppe_royalty_01  ###The Smiling Khatun 				
 				}
 
 				female = {
 					1 = female_headgear_secular_western_high_nobility_01  ###Saladin
 					1 = female_headgear_secular_western_high_nobility_01  ###Baldwin IV					
-					1 = female_sir_eplerud_helmet_01  ###Sir Eplerud
+					1 = Female_Khanum_Headress_smiling_khatun             ###The Smiling Khatun 
 				}
 
 				boy = male
 				girl = female
 			}			
 			
+
+			### TGP - Asia ###
+
+			##########################################################################
+			####Chinese ### TGP - Asia ###
+			##########################################################################
+
+			tgp_chinese_headgear = {
+				index = 193
+				male = {
+			       ##########################################################						
+					####tgp_chinese_commoner			
+					2 = empty
+					2 = male_headgear_secular_chinese_nobility_01						
+					2 = m_headgear_sec_tgp_chinese_com_01
+					2 = m_headgear_sec_tgp_chinese_com_02	
+
+			       ##########################################################						
+					####tgp_chinese_era1_nobility	# Tang Dynasty & Ming Dynasty	
+					1 = male_headgear_secular_chinese_nobility_01
+					1 = male_headgear_secular_chinese_nobility_02	
+					1 = male_headgear_secular_chinese_nobility_03		
+					2 = m_headgear_sec_tgp_chinese_hi_nob_01
+					
+			       ##########################################################						
+					####Hairpin Crown Headwear	
+					1 = male_headgear_secular_chinese_nobility_04	
+					1 = male_headgear_secular_chinese_nobility_05		
+					1 = male_headgear_secular_chinese_nobility_06 ##Taoist 					
+					
+			       ##########################################################						
+					####tgp_chinese_era2_nobility	# Song Dynasty	
+					1 = m_headgear_sec_tgp_chinese_nob_01
+					1 = m_headgear_sec_tgp_chinese_nob_02
+					
+			       ##########################################################						
+					####tgp_chinese_high_nobility	# Song Dynasty	
+					1 = m_headgear_sec_tgp_chinese_nob_01
+					1 = m_headgear_sec_tgp_chinese_nob_02	
+
+			       ##########################################################						
+					####han_chinese_high_nobility era1 	# Tang Dynasty				
+                    1 = male_headgear_secular_chinese_high_nobility_01
+                    1 = male_headgear_secular_chinese_high_nobility_01					
+                    1 = male_headgear_secular_chinese_high_nobility_01
+                    1 = male_headgear_secular_chinese_high_nobility_01	
+
+			       ##########################################################						
+					####han_chinese_high_nobility era4 	# Ming Dynasty				
+                    1 = male_headgear_secular_chinese_high_nobility_01
+                    1 = male_headgear_secular_chinese_high_nobility_01					
+                    1 = male_headgear_secular_chinese_high_nobility_02
+                    1 = male_headgear_secular_chinese_high_nobility_02	
+					
+			       ##########################################################						
+					####han_chinese_royalty 				
+					2 = male_headgear_secular_chinese_royalty_01	
+					2 = m_headgear_sec_tgp_chinese_roy_01
+					
+			       ##########################################################						
+					####han_chinese_imperial 
+					1 = m_headgear_sec_tgp_chinese_imp_02 # Tang crown era 1	
+					1 = m_headgear_sec_tgp_chinese_imp_01 # Tongtianguan crown of Song era	
+					1 = male_headgear_secular_chinese_imperial_01 # Song crown era 2
+					1 = male_headgear_secular_chinese_nobility_01 # Ming headwear era 4					
+					1 = male_headgear_secular_chinese_high_nobility_02 # Ming headwear era 4	
+					
+			       ##########################################################						
+					####han_chinese_war			
+					1 = m_headgear_sec_chin_war_nob_01_lo
+					1 = m_headgear_sec_chin_war_nob_01_hi
+				    1 = m_headgear_sec_tgp_chinese_war_nob_01_lo
+				    1 = m_headgear_sec_tgp_chinese_war_nob_01_hi									
+				    2 = m_headgear_sec_tgp_chinese_war_nob_02
+				    1 = m_headgear_sec_tgp_chinese_war_nob_02_mask					
+					
+				}
+				female = {
+			       ##########################################################						
+					####tgp_chinese_commoner			
+					2 = empty
+					2 = empty						
+					2 = empty
+					2 = empty	
+
+			       ##########################################################						
+					####tgp_chinese_era1_nobility	# Tang Dynasty & Ming Dynasty	
+					1 = empty
+					1 = empty	
+					1 = empty		
+					2 = empty
+
+			       ##########################################################						
+					####Hairpin Crown Headwear	
+					1 = empty	
+					1 = empty		
+					1 = empty ##Taoist 
+					
+			       ##########################################################						
+					####tgp_chinese_era2_nobility	# Song Dynasty	
+					1 = empty
+					1 = empty					
+									
+			       ##########################################################						
+					####tgp_chinese_high_nobility	# Song Dynasty	
+					1 = f_headgear_sec_tgp_chinese_hi_nob_01
+					1 = f_headgear_sec_tgp_chinese_hi_nob_02	
+
+			       ##########################################################						
+					####han_chinese_high_nobility era1 	# Tang Dynasty				
+                    1 = empty
+                    1 = female_headgear_secular_chinese_nobility_01					
+                    1 = female_headgear_secular_chinese_nobility_01a
+                    1 = female_headgear_secular_chinese_nobility_01b	
+
+			       ##########################################################						
+					####han_chinese_high_nobility era4 	# Ming Dynasty				
+                    1 = empty
+                    1 = empty					
+                    1 = empty
+                    1 = empty	
+					
+			       ##########################################################						
+					####han_chinese_royalty 				
+					2 = f_headgear_sec_tgp_chinese_roy_01_epe	
+					2 = f_headgear_sec_tgp_chinese_roy_01_epe
+					
+			       ##########################################################						
+					####han_chinese_imperial 
+					1 = f_headgear_sec_tgp_chinese_imp_01 # Tang crown era 1	
+					1 = f_headgear_sec_tgp_chinese_imp_01 # Tongtianguan crown of Song era	
+					1 = f_headgear_sec_tgp_chinese_imp_01 # Song crown era 2
+					1 = f_headgear_sec_tgp_chinese_imp_01 # Ming headwear era 4					
+					1 = f_headgear_sec_tgp_chinese_imp_01 # Ming headwear era 4						
+
+			       ##########################################################						
+					####han_chinese_war			
+					1 = f_headgear_sec_chin_war_nob_01_lo
+					1 = f_headgear_sec_chin_war_nob_01_hi
+					1 = f_headgear_sec_tgp_chinese_war_nob_01_lo
+				    1 = f_headgear_sec_tgp_chinese_war_nob_01_hi
+					2 = f_headgear_sec_tgp_chinese_war_nob_02
+					1 = f_headgear_sec_tgp_chinese_war_nob_02		
+
+	
+				}
+				boy = male
+				girl = female
+			}
+
+			##########################################################################
+			####Japanese ### TGP - Asia ###
+			##########################################################################
 			
-####################################################################################################
-##################
-###Western Turkic
-##################
-####################################################################################################
-
-			## Western Turkic Placeholder##
-
-			western_turkic_common = {
-				index = 185
+			tgp_japanese_headgear = {
+				index = 194
 				male = {
 			       ##########################################################				
-					####Early Western turk
-					1 = male_Cuman_cap_commoner_01
+					####tgp_japanese_commoner
+					1 = m_headgear_sec_tgp_japanese_com_01					
+				
+			       ##########################################################				
+					####tgp_japanese_nobility
+					1 = m_headgear_sec_tgp_japanese_war_nob_01									
+				
+			       ##########################################################				
+					####tgp_japanese_high_nobility
+					1 = m_headgear_sec_tgp_japanese_nob_01					
+				
+			       ##########################################################				
+					####tgp_japanese_royalty
+					1 = m_headgear_sec_tgp_japanese_roy_01			
+					
+			       ##########################################################						
+					####tgp_japanese_imperial
+					1 = m_headgear_sec_tgp_japanese_imp_02	
+					
+			       ##########################################################						
+					####tgp_japanese_shogun
+					1 = m_headgear_sec_tgp_japanese_imp_01						
+
+			       ##########################################################						
+					####tgp_shinto_priest
+					1 = m_headgear_rel_tgp_shinto_priest	
+
+			       ##########################################################						
+					####tgp_japanese_war_nobility					
+					1 = m_headgear_sec_tgp_japanese_war_nob_01
+					1 = m_headgear_sec_tgp_japanese_war_nob_02_lo
+
+			       ##########################################################				
+					####tgp_japanese_war_high_nobility
+					1 = m_headgear_sec_tgp_japanese_war_nob_02_hi		
+					
+				}
+				female = {
+			       ##########################################################				
+					####tgp_japanese_commoner
+					1 = empty					
+				
+			       ##########################################################				
+					####tgp_japanese_nobility
+					1 = empty									
+				
+			       ##########################################################				
+					####tgp_japanese_high_nobility
+					1 = empty					
+				
+			       ##########################################################				
+					####tgp_japanese_royalty
+					1 = empty			
+					
+			       ##########################################################						
+					####tgp_japanese_imperial
+					1 = empty	
+					
+			       ##########################################################						
+					####tgp_japanese_shogun
+					1 = empty						
+
+			       ##########################################################						
+					####tgp_shinto_priest
+					1 = f_headgear_rel_tgp_shinto_priest	
+
+			       ##########################################################						
+					####tgp_japanese_war_nobility					
+					1 = f_headgear_sec_tgp_japanese_war_nob_01
+					1 = f_headgear_sec_tgp_japanese_war_nob_02_lo
+
+			       ##########################################################				
+					####tgp_japanese_war_high_nobility
+					1 = f_headgear_sec_tgp_japanese_war_nob_02_hi	
+
+	
+				}
+				boy = male
+				girl = female
+			}
+
+			##########################################################################
+			####Korean ### TGP - Asia ###
+			##########################################################################
+	
+			tgp_korean_headgear = {
+				index = 195
+				male = {
+			       ##########################################################				
+					####tgp_korean_commoner						
+					1 = empty		
+					1 = m_headgear_sec_tgp_korean_com_01						
+			       ##########################################################				
+					####tgp_korean_nobility				
+					1 = m_headgear_sec_tgp_korean_nob_01
+					1 = m_headgear_sec_tgp_korean_nob_02
+					
+			       ##########################################################				
+					####tgp_korean_imperial						
+					2 = m_headgear_sec_tgp_korean_imp_01	
+					
+				}
+				female = {
+			       ##########################################################				
+					####tgp_korean_commoner						
+					1 = empty	
+					1 = empty						
+			       ##########################################################				
+					####tgp_korean_nobility				
+					1 = empty
+					1 = empty					
+					
+			       ##########################################################				
+					####tgp_korean_imperial						
+					2 = empty	
+					
+				}
+
+				boy = male
+				girl = female
+			}
+
+			##########################################################################
+			####Southeast ### TGP - Asia ###SEA
+			##########################################################################
+	
+			tgp_southeast_headgear = {
+				index = 196
+				male = {
+			       ##########################################################				
+					####tgp_southeast_nobility				
+					1 = m_headgear_sec_tgp_southeast_nob_01
+					1 = m_headgear_sec_tgp_southeast_nob_02
+					1 = m_headgear_sec_tgp_southeast_nob_03
+					
+			       ##########################################################				
+					####tgp_southeast_royal						
+					1 = m_headgear_sec_tgp_southeast_roy_01_a
+					1 = m_headgear_sec_tgp_southeast_roy_01_b
+					
+			       ##########################################################				
+					####tgp_southeast_imperial						
+					2 = male_headgear_secular_ep1_diamond_crown					
+					
+				}
+				female = {
+			       ##########################################################				
+					####tgp_southeast_nobility				
+					1 = f_headgear_sec_tgp_southeast_nob_01
+					1 = f_headgear_sec_tgp_southeast_nob_02
+					1 = f_headgear_sec_tgp_southeast_nob_02
+					
+			       ##########################################################				
+					####tgp_southeast_royal						
+					1 = f_headgear_sec_tgp_southeast_roy_01
+					1 = f_headgear_sec_tgp_southeast_roy_01
+
+			       ##########################################################				
+					####tgp_southeast_imperial						
+					2 = f_headgear_sec_tgp_southeast_nob_01	
+					
+				}
+
+				boy = male
+				girl = female
+			}
+
+			##########################################################################
+			####Ainu ### TGP - Asia ###
+			##########################################################################
+
+			tgp_ainu_headgear = {
+				index = 197
+				male = {
+			       ##########################################################				
+					####tgp_ainu_commoner					
+					1 = empty
+					1 = m_headgear_sec_tgp_chinese_com_01
+					1 = male_headgear_secular_fp1_common_02
+				}
+				female = {
+			       ##########################################################				
+					####tgp_ainu_commoner					
+					1 = empty
+					1 = female_headgear_secular_fp1_common_01
+					1 = female_headgear_secular_northern_common_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			##########################################################################
+			####Uyghurs ### TGP - Asia ###
+			##########################################################################
+
+			tgp_uyghur_headgear = {
+				index = 198
+				male = {
+			       ##########################################################				
+					####uyghur_commoner era 1-2					
+					1 = male_headgear_secular_steppe_common_01
+					1 = male_Turkic_Fur_Cap_01
+					1 = male_Turkic_Fur_Cap_02	
+					1 = male_Turkic_Fur_Cap_03
+					1 = male_Turkic_Fur_Cap_04	
+					1 = male_Turkic_Fur_Cap_05
+
+			       ##########################################################				
+					####uyghur_low_nobility era 1-2	
+					1 = male_headgear_secular_chinese_nobility_05
+					1 = male_Turkic_Fur_Cap_01
+					1 = m_Turkic_Fur_Cap_02_uyghur_lo	
+					1 = male_Turkic_Fur_Cap_03
+					1 = male_headgear_secular_chinese_nobility_04	
+                    1 = male_headgear_secular_chinese_nobility_06	
+					
+			       ##########################################################				
+					####uyghur_high_nobility era 1-2	
+					1 = male_Turkic_Fur_Cap_04	
+					1 = male_Turkic_Fur_Cap_05	
+					1 = male_headgear_secular_steppe_nobility_01
+					3 = male_Uyghur_Noble_Headwear_01					
+
+			       ##########################################################				
+					####uyghur_royalty era 1-2						
+					1 = male_Uyghur_Royal_Headwear_01			
+					1 = male_Uyghur_Noble_Headwear_01
+					
+			       ##########################################################				
+					####uyghur_imperial era 1-2						
+					1 = male_Uyghur_Royal_Headwear_01	
+					1 = male_Uyghur_Royal_Headwear_01
+
+			       ##########################################################				
+					####uyghur_war era 1-2						
+				    1 = male_khorasan_helmet_02
+				    1 = male_khorasan_helmet_02v2	
+					1 = male_Iranian_Early_North_Nasal_Helmet_02_02						
+					1 = m_headgear_sec_uyghur_war_nob_01_lo
+					1 = m_headgear_sec_uyghur_war_nob_02_lo					
+					1 = m_headgear_sec_uyghur_war_nob_01_hi
+					1 = m_headgear_sec_uyghur_war_nob_02_hi
+			    	1 = male_khorasan_helmet_01	
+			    	1 = male_khorasan_helmet_01v2
+					1 = male_Iranian_Early_North_Nasal_Helmet_02
+
+			       ##########################################################				
+					####uyghur_turko_mongol_commoner era 3-4	
+					1 = m_headgear_sec_mpo_mongol_com_01					
+					1 = male_headgear_secular_steppe_common_01
+				    1 = male_headgear_secular_mena_common_01
+				    1 = male_headgear_epe_white_mena_common_01					
+				    1 = male_headgear_epe_white_mena_nobility_02	
+				    1 = male_headgear_epe_white_mena_nobility_03								
+					1 = male_headgear_secular_dde_abbasid_common_01
+					1 = male_headgear_epe_white_abbasid_common_01					
 					1 = male_Turkic_Fur_Cap_01
 					1 = male_Turkic_Fur_Cap_02	
 					1 = male_Turkic_Fur_Cap_03
 					1 = male_Turkic_Fur_Cap_04	
                     1 = male_Turkic_Fur_Cap_05	
+                    1 = male_headgear_uyghur_turko_mongol_qub_01_commoner
+					1 = male_headgear_uyghur_turko_mongol_qub_02_commoner					
+					1 = male_headgear_uyghur_turko_mongol_qub_03_commoner	
 					
-			       ##########################################################						
-					####Late western Turk/Cuman			
-			    	1 = empty
-				    1 = empty
-                    1 = male_Cuman_cap_commoner_01				
-			    	1 = male_Cuman_cap_commoner_01	
-				    1 = male_Cuman_Hat_01_commoner
-				    1 = male_Cuman_Hat_01_commoner					
-				    1 = male_Cuman_Hat_02
-				    1 = male_Cuman_Hat_02
-				    1 = male_Cuman_Hat_03	
-				    1 = male_Cuman_Hat_03
-
-				}
-				female = {
 			       ##########################################################				
-					####Early Western turk
-					1 = empty
-					1 = empty
-					1 = female_headgear_secular_steppe_common_01	
-					1 = female_headgear_secular_steppe_common_01
-					1 = female_headgear_secular_steppe_common_01	
-                    1 = female_headgear_secular_steppe_common_01		
-					
-			       ##########################################################						
-					####Late western Turk/Cuman			
-			    	1 = empty
-				    1 = empty
-                    1 = female_headgear_secular_steppe_common_01				
-			    	1 = female_headgear_secular_steppe_common_01	
-				    1 = female_headgear_secular_steppe_common_01
-				    1 = female_headgear_secular_steppe_common_01					
-				    1 = female_headgear_secular_steppe_common_01
-				    1 = female_headgear_secular_steppe_common_01
-				    1 = female_headgear_secular_steppe_common_01	
-				    1 = female_headgear_secular_steppe_common_01
-
-				}
-				boy = male
-				girl = female
-			}
-
-			western_turkic_low_nobility = {
-				index = 186
-				male = {
-			       ##########################################################				
-					####Early Western turk
-					1 = male_Cuman_cap_low_noble_01
+					####uyghur_turko_mongol_low_nobility era 3-4
+				    1 = male_headgear_epe_white_mena_common_01					
+				    1 = male_headgear_epe_white_mena_nobility_02	
+				    1 = male_headgear_epe_white_mena_nobility_03								
+					1 = male_headgear_secular_dde_abbasid_common_01
+					1 = male_headgear_epe_white_abbasid_common_01				
+					1 = male_headgear_secular_dde_abbasid_high_nobility_01				
+				    1 = male_headgear_epe_white_abbasid_high_01						
+					1 = m_headgear_secular_uyghur_turko_mongol_lo_noble_01					
+					1 = male_headgear_uyghur_turko_mongol_qalansuwwa_04_low
+					1 = male_headgear_uyghur_turko_mongol_qalansuwwa_05_low	
+					1 = male_headgear_uyghur_turko_mongol_qalansuwwa_06_low	
+					1 = male_headgear_secular_iranian_qalansuwwa_04_white
+					1 = male_headgear_secular_iranian_qalansuwwa_05_white
+					1 = male_headgear_secular_iranian_qalansuwwa_06_white					
 					1 = male_Turkic_Fur_Cap_01
 					1 = male_Turkic_Fur_Cap_02	
 					1 = male_Turkic_Fur_Cap_03
 					1 = male_Turkic_Fur_Cap_04	
                     1 = male_Turkic_Fur_Cap_05
-					1 = m_headgear_sec_fp3_turkic_nob_01 #FP3 Turkic V Hat		
-					
-			       ##########################################################						
-					####Late western Turk/Cuman			
-					1 = male_Cuman_cap_low_noble_01		
-					1 = male_Cuman_cap_low_noble_01	
-					1 = male_Cuman_cap_low_noble_01					
-					1 = male_Cuman_cap_low_noble_01		
-					1 = male_Cuman_Hat_01_low_noble					
-					1 = male_Cuman_Hat_01_low_noble
-					1 = male_Cuman_Hat_01_low_noble	
-					1 = male_Cuman_Hat_01_low_noble	
-					1 = male_Cuman_Hat_02
-					1 = male_Cuman_Hat_02				
-					1 = male_Cuman_Hat_02
-					1 = male_Cuman_Hat_03	
-					1 = male_Cuman_Hat_03
-					1 = male_Cuman_Hat_03 	
-				}
-				female = {
-			       ##########################################################				
-					####Early Western turk
-					1 = empty
-					1 = empty
-					1 = female_headgear_secular_steppe_common_01	
-					1 = female_headgear_secular_steppe_common_01
-					1 = female_headgear_secular_steppe_common_01	
-                    1 = female_headgear_secular_steppe_common_01
-					1 = female_headgear_secular_steppe_common_01 		
-					
-			       ##########################################################						
-					####Late western Turk/Cuman			
-					1 = empty		
-					1 = empty	
-					1 = female_headgear_secular_steppe_common_01					
-					1 = female_headgear_secular_steppe_common_01		
-					1 = female_headgear_secular_steppe_common_01					
-					1 = female_headgear_secular_steppe_common_01
-					1 = female_headgear_secular_steppe_common_01	
-					1 = female_headgear_secular_steppe_common_01	
-					1 = female_headgear_secular_steppe_common_01
-					1 = female_headgear_secular_steppe_common_01				
-					1 = female_headgear_secular_steppe_common_01
-					1 = female_headgear_secular_steppe_common_01	
-					1 = female_headgear_secular_steppe_common_01
-					1 = female_headgear_secular_steppe_common_01 	
-				}
-				boy = male
-				girl = female
-			}
+                    1 = male_headgear_uyghur_turko_mongol_qub_01_low	
+                    1 = male_headgear_uyghur_turko_mongol_qub_2_low	
+                    1 = male_headgear_uyghur_turko_mongol_qub_03_low						
+					1 = m_headgear_sec_fp3_turkic_nob_01 #FP3 Turkic V Hat	
 
-			western_turkic_high_nobility = {
-				index = 187
-				male = {
 			       ##########################################################				
-					####Early Western turk
+					####uyghur_turko_mongol_high_nobility era 3-4	
+                    1 = m_headgear_secular_uyghur_turko_mongol_hi_noble_01						
                     1 = male_Turkic_Fur_Cap_04	
-                    1 = male_Turkic_Fur_Cap_05				
-                    1 = male_Turkic_Fur_Cap_05 # Yusseter
-                    #1 = male_headgear_secular_steppe_nobility_01
+                    1 = male_Turkic_Fur_Cap_05
+                    1 = male_headgear_uyghur_turko_mongol_qub_01_high						
+                    1 = m_headgear_secular_epe_steppe_muslim_hi_noble_01_uyghur	
+                    1 = m_headgear_secular_epe_steppe_muslim_hi_noble_01_white					
+					1 = male_headgear_secular_iranian_qalansuwwa_04_white
+					1 = male_headgear_secular_iranian_qalansuwwa_05_white
+					1 = male_headgear_secular_iranian_qalansuwwa_06_white					
+                    1 = male_headgear_uyghur_turko_mongol_qalansuwwa_04_high
+                    1 = male_headgear_uyghur_turko_mongol_qalansuwwa_05_high					
+                    1 = male_headgear_uyghur_turko_mongol_qalansuwwa_06_high
+					1 = m_headgear_sec_fp3_turkic_nob_01 #FP3 Turkic V Hat	
 					
-			       ##########################################################						
-					####Late western Turk/Cuman			
-					1 = male_Cuman_Hat_02 
-					1 = male_Cuman_Hat_02	
-					1 = male_Cuman_Hat_02					
-					1 = male_Cuman_Hat_02	
-					1 = male_Cuman_Hat_03					
-					1 = male_Cuman_Hat_03
-					1 = male_Cuman_Hat_03	
-					1 = male_Cuman_Hat_03		
-				}
-				female = {
 			       ##########################################################				
-					####Early Western turk
-					1 = female_cuman_noble_hat_01
-					1 = female_cuman_noble_hat_01
-					1 = female_cuman_noble_hat_01	
-					
-			       ##########################################################						
-					####Late western Turk/Cuman			
-					1 = female_cuman_noble_hat_01 
-					1 = female_cuman_noble_hat_01	
-					1 = female_cuman_noble_hat_01					
-					1 = female_cuman_noble_hat_01	
-					1 = female_cuman_noble_hat_01					
-					1 = female_cuman_noble_hat_01
-					1 = female_cuman_noble_hat_01	
-					1 = female_cuman_noble_hat_01	
-				}
-				boy = male
-				girl = female
-			}
-			
-			western_turkic_royalty = {
-				index = 188
-				male = {
-			       ##########################################################				
-					####Early Western turk
-					1 = Male_Turkic_Eagle_Crown_01			
-					1 = male_Turkic_Eagle_Crown_02
-					1 = male_Turkic_Eagle_Crown_02_02				
-					# Yusseter 0
+					####uyghur_turko_mongol_royalty era 3					
+					1 = m_headgear_secular_epe_steppe_muslim_roy_01			
+					1 = m_headgear_secular_epe_steppe_muslim_roy_02
+					1 = male_headgear_secular_steppe_royalty_01					
 					1 = male_headgear_secular_steppe_royalty_01a
-                    1 = male_headgear_secular_steppe_royalty_01a
-					#1 = male_Turkic_Fur_Cap_04
-                    #1 = male_Turkic_Fur_Cap_05
-					# Yusseter 1
+					1 = male_headgear_secular_steppe_royalty_01b 
+					1 = male_Turkic_Fur_Cap_04	
+                    1 = male_Turkic_Fur_Cap_05					
+
+			       ##########################################################				
+					####uyghur_turko_mongol_royalty era 4					
+					2 = m_headgear_secular_epe_steppe_muslim_roy_01			
+					2 = m_headgear_secular_epe_steppe_muslim_roy_02	
+
+			       ##########################################################				
+					####uyghur_turko_mongol_imperial era 3					
+					1 = m_headgear_secular_epe_steppe_muslim_roy_01			
+					1 = m_headgear_secular_epe_steppe_muslim_roy_02
+					1 = male_headgear_secular_steppe_royalty_01					
+					1 = male_headgear_secular_steppe_royalty_01a
+					1 = male_headgear_secular_steppe_royalty_01b 					
+
+			       ##########################################################				
+					####uyghur_turko_mongol_imperial era 4					
+					2 = m_headgear_secular_epe_steppe_muslim_roy_01			
+					2 = m_headgear_secular_epe_steppe_muslim_roy_02							
 					
-			       ##########################################################						
-					####Late western Turk/Cuman			
-					1 = Male_Turkic_Eagle_Crown_01			
-					1 = male_Turkic_Eagle_Crown_02	
-					1 = male_Turkic_Eagle_Crown_02_02					
-					# Yusseter 0
-					2 = male_headgear_secular_steppe_royalty_01a
-                    2 = male_headgear_secular_steppe_royalty_01a
-					#1 = male_Turkic_Fur_Cap_04
-                    #1 = male_Turkic_Fur_Cap_05
-					# Yusseter 1
 				}
 				female = {
 			       ##########################################################				
-					####Early Western turk
-					1 = female_headgear_secular_steppe_high_nobility_01			
-					1 = Female_Khanum_Headress_01
-					1 = Female_Khanum_Headress_01				
-					1 = Female_Khanum_Headress_02	
-                    1 = Female_Khanum_Headress_02	
-					
-			       ##########################################################						
-					####Late western Turk/Cuman			
-					1 = f_Khanum_Headress_01_cuman
-					1 = f_Khanum_Headress_01_cuman					
-					1 = f_Khanum_Headress_01_cuman	
-					1 = f_Khanum_Headress_02_cuman	
-					1 = f_Khanum_Headress_02_cuman
-				}
-				boy = male
-				girl = female
-			}
+					####uyghur_commoner era 1-2					
+					1 = empty
+					1 = empty
+					1 = empty	
+					1 = female_headgear_secular_steppe_common_01
+					1 = female_headgear_secular_steppe_common_01	
+					1 = female_headgear_secular_steppe_common_01
 
-
-			western_turkic_imperial = {
-				index = 189
-				male = {
 			       ##########################################################				
-					####Early Western turk
-					1 = Male_Turkic_Eagle_Crown_01			
-					1 = male_Turkic_Eagle_Crown_02
-					1 = male_Turkic_Eagle_Crown_02_02		
+					####uyghur_low_nobility era 1-2	
+					1 = empty
+					1 = empty
+					1 = empty	
+					1 = empty
+					1 = empty	
+                    1 = empty	
 					
-			       ##########################################################						
-					####Late western Turk/Cuman			
-					4 = male_headgear_secular_steppe_royalty_01a # Yusseter
-					#1 = Male_Turkic_Eagle_Crown_01			
-					1 = Male_Turkic_Eagle_Crown_01					
-					1 = male_Turkic_Eagle_Crown_02
-					1 = male_Turkic_Eagle_Crown_02_02
-				}
-				female = {
 			       ##########################################################				
-					####Early Western turk
-					1 = female_headgear_secular_steppe_high_nobility_01
-					1 = Female_Khanum_Headress_01	
-					1 = Female_Khanum_Headress_02	
-					
-			       ##########################################################						
-					####Late western Turk/Cuman			
-					1 = f_Khanum_Headress_01_cuman
-					1 = f_Khanum_Headress_01_cuman					
-					1 = f_Khanum_Headress_02_cuman	
-					1 = f_Khanum_Headress_02_cuman	
-				}
-				boy = male
-				girl = female
-			}
+					####uyghur_high_nobility era 1-2	
+                    1 = female_headgear_secular_chinese_nobility_01
+                    1 = female_headgear_secular_chinese_nobility_01a			
+                    1 = female_headgear_secular_chinese_nobility_01b
+                    3 = female_headgear_secular_chinese_nobility_01						
 
-
-			western_turkic_war = {
-				index = 190
-				male = {
 			       ##########################################################				
-					####Early Western turk
-					# Yusseter 0
-					1 = male_khazar_helmet_01v2
-					1 = male_khazar_helmet_01v3
-					#1 = male_khazar_helmet_01
-					# Yusseter 1
-					1 = male_khazar_helmet_01	
+					####uyghur_royalty era 1-2						
+					1 = Female_Khanum_Headress_01_uyghur
+					1 = Female_Khanum_Headress_02_uyghur
 					
-			       ##########################################################						
-					####Late western Turk/Cuman			
-					# Yusseter 0
-					3 = male_kipchak_war_helmet_01
-					3 = male_kipchak_war_helmet_01
-					3 = male_kipchak_war_helmet_01
-					#1 = male_kipchak_war_helmet_01
-					#1 = male_kipchak_war_helmet_01
-					#1 = male_kipchak_war_helmet_01
-					# Yusseter 1
-	
-				}
-				female = {
 			       ##########################################################				
-					####Early Western turk
-					# Yusseter 0
-					1 = female_khazar_helmet_01
-					1 = female_khazar_helmet_01
-					1 = female_khazar_helmet_01
-					#1 = f_headgear_sec_steppe_war_nob_01_lo
-					#1 = f_headgear_sec_steppe_war_nob_01_hi
-					# Yusseter 1
+					####uyghur_imperial era 1-2						
+					1 = Female_Khanum_Headress_01_uyghur
+					1 = Female_Khanum_Headress_02_uyghur
+
+			       ##########################################################				
+					####uyghur_war era 1-2						
+				    1 = female_secular_Iranian_Early_North_Nasal_Helmet_Crest_02
+				    1 = female_khorasan_helmet_02v2
+					1 = female_Iranian_Early_North_Helmet_02_02						
+					1 = f_headgear_sec_uyghur_war_nob_01_lo
+					1 = f_headgear_sec_uyghur_war_nob_02_lo					
+					1 = f_headgear_sec_uyghur_war_nob_01_hi
+					1 = f_headgear_sec_uyghur_war_nob_02_hi	
+			    	1 = female_secular_Iranian_Early_North_Nasal_Helmet_Crest_01	
+			    	1 = female_khorasan_helmet_01v2	
+					1 = female_Iranian_Early_North_Helmet_02
+
+			       ##########################################################				
+					####uyghur_turko_mongol_commoner era 3-4
+				    1 = empty
+				    1 = f_headgear_sec_mpo_mongol_com_01					
+				    1 = f_headgear_sec_mpo_mongol_nob_01					
+				    1 = f_headgear_epe_uyghur_turko_mongol_veil_01_com	
+				    1 = f_headgear_epe_uyghur_turko_mongol_veil_01_com								
+					1 = f_headgear_epe_uyghur_turko_mongol_veil_02_com
+					1 = f_headgear_epe_uyghur_turko_mongol_veil_02_com					
+					1 = female_headgear_secular_mena_common_01
+					1 = female_headgear_uyghur_turko_mongol_qub_01_commoner
+					1 = female_headgear_uyghur_turko_mongol_qub_01_commoner	
+					1 = female_headgear_uyghur_turko_mongol_qub_01_commoner					
+					1 = female_headgear_uyghur_turko_mongol_qub_02_commoner	
+					1 = female_headgear_uyghur_turko_mongol_qub_02_commoner
+					1 = female_headgear_uyghur_turko_mongol_qub_02_commoner	
+                    1 = female_headgear_secular_steppe_common_01
+                    1 = female_headgear_secular_steppe_common_01					
 					
-			       ##########################################################						
-					####Late western Turk/Cuman			
-					# Yusseter 0
-					3 = female_kipchak_war_helmet_01
-					3 = female_kipchak_war_helmet_01
-					3 = female_kipchak_war_helmet_01
-					#1 = f_headgear_sec_steppe_war_nob_01_lo
-					#1 = f_headgear_sec_steppe_war_nob_01_hi
-					#1 = f_headgear_sec_steppe_war_nob_01_hi
-					# Yusseter 1
+			       ##########################################################				
+					####uyghur_turko_mongol_low_nobility era 3-4
+				    1 = empty					
+				    1 = f_headgear_sec_mpo_mongol_nob_01	
+				    1 = f_headgear_sec_mpo_mongol_nob_01								
+					1 = f_headgear_epe_uyghur_turko_mongol_veil_01_lo
+					1 = f_headgear_epe_uyghur_turko_mongol_veil_01_lo				
+					1 = f_headgear_epe_uyghur_turko_mongol_veil_01_lo				
+				    1 = f_headgear_epe_uyghur_turko_mongol_veil_02_lo						
+					1 = f_headgear_epe_uyghur_turko_mongol_veil_02_lo
+					1 = f_headgear_epe_uyghur_turko_mongol_veil_02_lo					
+					1 = female_headgear_uyghur_turko_mongol_qub_01_low					
+					1 = female_headgear_uyghur_turko_mongol_qub_01_low
+					1 = female_headgear_uyghur_turko_mongol_qub_01_low
+					1 = female_headgear_uyghur_turko_mongol_qub_02_low
+					1 = female_headgear_uyghur_turko_mongol_qub_02_low
+					1 = female_headgear_uyghur_turko_mongol_qub_02_low
+					1 = f_headgear_secular_uyghur_turko_mongol_lo_noble_01						
+					1 = f_headgear_secular_uyghur_turko_mongol_lo_noble_01					
+					1 = f_headgear_secular_uyghur_turko_mongol_lo_noble_01					
+					1 = f_headgear_secular_uyghur_turko_mongol_lo_noble_01	
+					1 = f_headgear_secular_uyghur_turko_mongol_lo_noble_02
+					1 = f_headgear_secular_uyghur_turko_mongol_lo_noble_02	
+                    1 = f_headgear_secular_uyghur_turko_mongol_lo_noble_02
+					1 = f_headgear_secular_uyghur_turko_mongol_lo_noble_02 
+
+			       ##########################################################				
+					####uyghur_turko_mongol_high_nobility era 3-4	
+                    1 = f_headgear_epe_uyghur_turko_mongol_veil_01_hi
+                    1 = f_headgear_epe_uyghur_turko_mongol_veil_01_hi					
+                    1 = f_headgear_epe_uyghur_turko_mongol_veil_02_hi						
+                    1 = f_headgear_epe_uyghur_turko_mongol_veil_02_hi					
+                    1 = female_headgear_uyghur_turko_mongol_qub_01_high	
+                    1 = female_headgear_uyghur_turko_mongol_qub_01_high				
+                    1 = female_headgear_uyghur_turko_mongol_qub_02_high	
+                    1 = female_headgear_uyghur_turko_mongol_qub_02_high						
+                    1 = f_headgear_secular_uyghur_turko_mongol_hi_noble_01	
+                    1 = f_headgear_secular_uyghur_turko_mongol_hi_noble_01				
+                    1 = f_headgear_secular_uyghur_turko_mongol_hi_noble_02
+                    1 = f_headgear_secular_uyghur_turko_mongol_hi_noble_02	
+                    1 = f_headgear_secular_uyghur_turko_mongol_hi_noble_02
+					
+			       ##########################################################				
+					####uyghur_turko_mongol_royalty era 3					
+					1 = Female_Khanum_Headress_01_uyghur_turko_mongol			
+					1 = Female_Khanum_Headress_01_uyghur_turko_mongol
+					1 = Female_Khanum_Headress_01_uyghur_turko_mongol					
+					1 = Female_Khanum_Headress_01_uyghur_turko_mongol
+					1 = Female_Khanum_Headress_02_uyghur_turko_mongol 
+					1 = Female_Khanum_Headress_02_uyghur_turko_mongol	
+                    1 = Female_Khanum_Headress_02_uyghur_turko_mongol					
+
+			       ##########################################################				
+					####uyghur_turko_mongol_royalty era 4					
+					2 = Female_Khanum_Headress_01_uyghur_turko_mongol			
+					2 = Female_Khanum_Headress_02_uyghur_turko_mongol	
+
+			       ##########################################################				
+					####uyghur_turko_mongol_imperial era 3					
+					1 = Female_Khanum_Headress_01_uyghur_turko_mongol			
+					1 = Female_Khanum_Headress_01_uyghur_turko_mongol
+					1 = Female_Khanum_Headress_01_uyghur_turko_mongol					
+					1 = Female_Khanum_Headress_02_uyghur_turko_mongol
+					1 = Female_Khanum_Headress_02_uyghur_turko_mongol 					
+
+			       ##########################################################				
+					####uyghur_turko_mongol_imperial era 4					
+					2 = Female_Khanum_Headress_01_uyghur_turko_mongol			
+					2 = Female_Khanum_Headress_02_uyghur_turko_mongol							
 
 				}
-				boy = male
-				girl = female
-			}			
-			
-			## CCP4 ##
 
-			ccp4_sami_common = {
-				index = 191
-				male = {
-					1 = empty
-					2 = m_headgear_sec_ccp4_sami_com_01
-					1 = m_headgear_sec_ccp4_sami_lo_nob_02
-				}
-				female = {
-					1 = f_headgear_sec_ccp4_sami_com_01
-					1 = f_headgear_sec_ccp4_khanty_com_01
-				}
 				boy = male
 				girl = female
-			}
+			}	
 
-			ccp4_sami_low_nobility = {
-				index = 192
-				male = {
-					1 = empty
-					1 = m_headgear_sec_ccp4_sami_lo_nob_01
-					1 = m_headgear_sec_ccp4_sami_lo_nob_02
-					1 = m_headgear_sec_ccp4_sami_lo_nob_03
-				}
-				female = {
-					1 = f_headgear_sec_ccp4_sami_lo_nob_01
-					1 = f_headgear_sec_ccp4_khanty_com_01
-				}
-				boy = male
-				girl = female
-			}
 
-			ccp4_sami_high_nobility = {
-				index = 193
-				male = {
-					1 = empty
-					1 = m_headgear_sec_ccp4_sami_hi_nob_01
-					1 = m_headgear_sec_ccp4_sami_hi_nob_02
-					1 = m_headgear_sec_ccp4_sami_hi_nob_03
-				}
-				female = {
-					1 = f_headgear_sec_ccp4_sami_hi_nob_01
-				}
-				boy = male
-				girl = female
-			}
+			##########################################################################
+			####Sino-Iranian ### TGP - Asia ###
+			##########################################################################
 
-			ccp4_khanty_common = {
-				index = 194
-				male = {
-					1 = empty
-					1 = m_headgear_sec_ccp4_khanty_com_01
-				}
-				female = {
-					1 = f_headgear_sec_ccp4_khanty_com_01
-					1 = f_headgear_sec_ccp4_khanty_com_02
-					1 = f_headgear_sec_ccp4_khanty_com_03
-				}
-				boy = male
-				girl = female
-			}
-
-			ccp4_khanty_low_nobility = {
-				index = 195
-				male = {
-					2 = empty
-					2 = m_headgear_sec_ccp4_khanty_com_01
-					1 = male_headgear_secular_northern_common_01
-				}
-				female = {
-					1 = f_headgear_sec_ccp4_khanty_lo_nob_01
-					1 = f_headgear_sec_ccp4_khanty_lo_nob_02
-					1 = f_headgear_sec_ccp4_khanty_lo_nob_03
-				}
-				boy = male
-				girl = female
-			}
-
-			ccp4_khanty_high_nobility = {
-				index = 196
-				male = {
-					1 = empty
-					1 = m_headgear_sec_ccp4_khanty_com_01
-				}
-				female = {
-					1 = f_headgear_sec_ccp4_khanty_hi_nob_01
-					1 = f_headgear_sec_ccp4_khanty_hi_nob_02
-					1 = f_headgear_sec_ccp4_khanty_hi_nob_03
-				}
-				boy = male
-				girl = female
-			}
-
-			ccp4_khanty_war = {
-				index = 197
-				male = {
-					1 = m_headgear_sec_ccp4_khanty_war_com_01
-					1 = m_headgear_sec_ccp4_khanty_war_lo_nob_01
-					1 = m_headgear_sec_ccp4_khanty_war_hi_nob_01
-				}
-				female = {
-					1 = f_headgear_sec_ccp4_khanty_war_com_01
-					1 = f_headgear_sec_ccp4_khanty_war_lo_nob_01
-					1 = f_headgear_sec_ccp4_khanty_war_hi_nob_01
-				}
-				boy = male
-				girl = female
-		}
-
-			ccp4_religious_siberian_commoner = {
-				index = 198
-				male = {
-					2 = m_headgear_rel_ccp4_siberian_com_01
-					1 = male_headgear_religious_steppe_high_01
-				}
-				female = {
-					2 = f_headgear_rel_ccp4_siberian_com_01
-					1 = female_headgear_religious_steppe_high_01
-				}
-				boy = male
-				girl = female
-			}
-						
-			#Crowns of the World
-			sp4_western_royalty = {
+			tgp_sino_iranian_headgear = {
 				index = 199
 				male = {
-					1 = m_headgear_sp4_western_roy_01
-				}
-				female = {
-					1 = f_headgear_sp4_western_roy_01
-				}
-				boy = male
-				girl = female
-			}
-
-
-			sp4_rus_royalty = {
-				index = 200
-				male = {
-					1 = m_headgear_sp4_rus_roy_01
-				}
-				female = {
-					1 = f_headgear_sp4_rus_roy_01
-				}
-				boy = male
-				girl = female
-			}
-
-			sp4_mena_royalty = {
-				index = 201
-				male = {
-					1 = m_headgear_sp4_mena_roy_01
-				}
-				female = {
-					1 = f_headgear_sp4_mena_roy_01
-				}
-				boy = male
-				girl = female
-			}
-
-			## MPO - Nomads ##
-
-			mpo_mongol_commoner = {
-				index = 202
-				male = {
-					1 = m_headgear_sec_mpo_mongol_com_01
-		}
-				female = {
-				    1 = f_headgear_sec_mpo_mongol_com_01
-				}
-				boy = male
-				girl = female
-			}
-
-			mpo_mongol_nobility = {
-				index = 203
-				male = {
-					1 = m_headgear_sec_mpo_mongol_nob_01
-				}
-				female = {
-					1 = f_headgear_sec_mpo_mongol_nob_01
-					1 = f_headgear_sec_mpo_mongol_nob_02
-				}
-				boy = male
-				girl = female
-			}
-
-			mpo_mongol_war_nobility = {
-				index = 204
-				male = {
-				    1 = m_headgear_sec_mpo_mongol_war_nob_01
-				}
-				female = {
-					1 = f_headgear_sec_mpo_mongol_war_nob_01
-				}
-				boy = male
-				girl = female
-			}
-
-			mpo_mongol_royalty = {
-				index = 205
-				male = {
-					1 = m_headgear_sec_mpo_mongol_roy_01
-				}
-				female = {
-					1 = f_headgear_steppe_roy_01
-				}
-				boy = male
-				girl = female
-			}
-
-			mpo_mongol_imperial = {
-				index = 206
-				male = {
-					1 = m_headgear_sec_mpo_mongol_imp_01
-				}
-				female = {
-					1 = f_headgear_steppe_roy_01
-
-				}
-				boy = male
-				girl = female
-			}			
-			
-			tgp_shinto_priest = {
-				index = 207
-				male = {
-					1 = m_headgear_rel_tgp_shinto_priest
-				}
-				female = {
-					1 = f_headgear_rel_tgp_shinto_priest
-				}
-
-				boy = male
-				girl = female
-			
-			}			
-			
-####################################################################################################
-##################
-###Sino-Iranian
-##################
-####################################################################################################
-
-
-			sino_iranian_common = {
-				index = 208
-				male = {
 			       ##########################################################				
-					####Sino-Iranian	
+					####epe_han_chinese_commoner  	era 1-2				
+					2 = empty
+					2 = male_headgear_secular_chinese_nobility_01						
+					2 = m_headgear_sec_tgp_chinese_com_01
+					2 = m_headgear_sec_tgp_chinese_com_02	
+
+			       ##########################################################				
+					####epe_han_chinese_low_nobility	era 1-2					
+					1 = male_headgear_secular_chinese_nobility_01
+					1 = male_headgear_secular_chinese_nobility_02	
+					1 = male_headgear_secular_chinese_nobility_03	
+					1 = male_headgear_secular_chinese_nobility_04	
+					1 = male_headgear_secular_chinese_nobility_05		
+					1 = male_headgear_secular_chinese_nobility_06 ##Taoist 	
+					2 = m_headgear_sec_tgp_chinese_hi_nob_01				
+					
+			       ##########################################################				
+					####epe_han_chinese_high_nobility	era 1-2	
+                    1 = male_headgear_secular_chinese_high_nobility_01
+                    1 = male_headgear_secular_chinese_high_nobility_01					
+                    1 = male_headgear_secular_chinese_high_nobility_02	
+					1 = male_headgear_secular_chinese_high_nobility_02					
+					1 = m_headgear_sec_tgp_chinese_hi_nob_01
+					1 = m_headgear_sec_tgp_chinese_hi_nob_01
+					
+			       ##########################################################				
+					####epe_han_chinese_royalty	era 1-2						
+					1 = male_headgear_secular_chinese_royalty_01	
+					1 = m_headgear_sec_tgp_chinese_roy_01
+					1 = m_headgear_sec_tgp_chinese_imp_02 # Tang crown era 1					
+					
+			       ##########################################################				
+					####epe_han_chinese_imperial	era 1-2						
+					1 = m_headgear_sec_tgp_chinese_imp_02 # Tang crown era 1	
+					1 = m_headgear_sec_tgp_chinese_imp_01 # Tongtianguan crown of Song era	
+					1 = male_headgear_secular_chinese_imperial_01 
+					
+			       ##########################################################				
+					####fp3_sino_iranian_commoner  	era 1-2								
 					1 = empty					
 					1 = m_epe_sino_iranian_cap_01_com
 					1 = m_epe_sino_iranian_cap_02_com
@@ -6949,32 +6888,10 @@ special_genes = {
 					1 = male_headgear_secular_sogdian_headband_01_common	
                     1 = male_headgear_secular_sogdian_headband_01_common_plane	
 					1 = male_headgear_sino_iranian_cap_01_common					
-					1 = male_headgear_sino_iranian_qub_01_commoner
-					
+					1 = male_headgear_sino_iranian_qub_01_commoner					
 
-				}
-				female = {
-			       ##########################################################				
-					####Sino-Iranian	
-					1 = empty
-					1 = female_headgear_secular_sogdian_headband_01_common_plane
-					1 = f_sogdian_noble_turban_01_white_com	
-					1 = female_headgear_secular_sogdian_headband_01_common
-					1 = female_headgear_sino_iranian_qub_01_com	
-                    1 = f_epe_sino_iranian_cap_01_com		
-                    1 = f_epe_sino_iranian_cap_01_com
-					
-
-				}
-				boy = male
-				girl = female
-			}
-
-			sino_iranian_low_nobility = {
-				index = 209
-				male = {
-			       ##########################################################				
-					#### FP3 - Sino-Iranian	
+			       ##########################################################						
+					####fp3_sino_iranian_low_nobility	era 1-2							
 					1 = m_epe_sino_iranian_cap_01_lo
 					1 = m_epe_sino_iranian_cap_02_lo
 					1 = m_epe_sino_iranian_cap_03_lo	
@@ -6982,15 +6899,70 @@ special_genes = {
 					1 = male_headgear_sino_iranian_cap_01_low	
                     1 = male_non_islamic_iranian_bulb_03_white
 					1 = male_headgear_secular_sogdian_headband_01_common_plane	
-					1 = male_headgear_sino_iranian_qub_01_low	
-					
+					1 = male_headgear_sino_iranian_qub_01_low
+
 			       ##########################################################						
-					#### TGP - Sino-Iranian			
-	
+					####fp3_sino_iranian_high_nobility	era 1-2		
+                    1 = male_headgear_sino_iranian_cap_01_high	
+                    1 = male_headgear_sino_iranian_qub_01_high						
+                    1 = male_non_islamic_iranian_bulb_01_white				
+                    1 = male_non_islamic_iranian_bulb_02_white
+                    1 = male_non_islamic_iranian_bulb_02_white	
+					
 				}
 				female = {
 			       ##########################################################				
-					#### FP3 - Sino-Iranian
+					####epe_han_chinese_commoner  	era 1-2				
+					2 = empty
+					2 = empty
+					2 = empty					
+					2 = empty	
+
+			       ##########################################################				
+					####epe_han_chinese_low_nobility	era 1-2					
+					1 = empty
+					1 = empty	
+					1 = empty	
+					1 = empty	
+					1 = empty		
+					1 = empty
+					2 = empty
+					
+			       ##########################################################				
+					####epe_han_chinese_high_nobility	era 1-2	
+                    1 = empty
+                    1 = f_headgear_sec_tgp_chinese_hi_nob_01_epe					
+                    1 = f_headgear_sec_tgp_chinese_hi_nob_02	
+                    1 = female_headgear_secular_chinese_nobility_01
+                    1 = female_headgear_secular_chinese_nobility_01a			
+                    1 = female_headgear_secular_chinese_nobility_01b
+					
+			       ##########################################################				
+					####epe_han_chinese_royalty	era 1-2						
+					1 = f_headgear_sec_tgp_chinese_roy_01_epe	
+					1 = f_headgear_sec_tgp_chinese_roy_01_epe
+					1 = f_headgear_sec_tgp_chinese_roy_01_epe # Tang crown era 1
+
+			       ##########################################################				
+					####epe_han_chinese_imperial	era 1-2						
+					1 = f_headgear_sec_tgp_chinese_imp_01 # Tang crown era 1	
+					1 = f_headgear_sec_tgp_chinese_imp_01 # Tongtianguan crown of Song era	
+					1 = f_headgear_sec_tgp_chinese_imp_01 
+					
+			       ##########################################################				
+					####fp3_sino_iranian_commoner  	era 1-2								
+					1 = empty					
+					1 = female_headgear_secular_sogdian_headband_01_common_plane
+					1 = female_headgear_secular_sogdian_headband_01_common_plane
+					1 = f_sogdian_noble_turban_01_white_com
+					1 = f_sogdian_noble_turban_01_white_com	
+					1 = female_headgear_secular_sogdian_headband_01_common
+					1 = female_headgear_sino_iranian_qub_01_com	
+                    1 = f_epe_sino_iranian_cap_01_com		
+                    1 = f_epe_sino_iranian_cap_01_com				
+
+			       ##########################################################						
+					####fp3_sino_iranian_low_nobility	era 1-2							
 					1 = empty
 					1 = empty
 					1 = f_epe_sino_iranian_cap_01_lo	
@@ -6999,91 +6971,26 @@ special_genes = {
                     1 = female_headgear_secular_sogdian_headband_01_common_plane
 					1 = female_headgear_sino_iranian_qub_01_lo 		
 					1 = female_fp3_sino_iranian_low_01 
-					
-			       ##########################################################						
-					#### TGP - Sino-Iranian				
 
-				}
-				boy = male
-				girl = female
-			}
-
-			sino_iranian_high_nobility = {
-				index = 210
-				male = {
-			       ##########################################################				
-					#### FP3 - Sino-Iranian
-                    1 = male_headgear_sino_iranian_cap_01_high	
-                    1 = male_headgear_sino_iranian_qub_01_high						
-                    1 = male_non_islamic_iranian_bulb_01_white				
-                    1 = male_non_islamic_iranian_bulb_02_white
-                    1 = male_non_islamic_iranian_bulb_02_white					
-					
 			       ##########################################################						
-					#### TGP - Sino-Iranian			
-		
-				}
-				female = {
-			       ##########################################################				
-					#### FP3 - Sino-Iranian
+					####fp3_sino_iranian_high_nobility	era 1-2		
 					1 = female_headgear_sino_iranian_qub_01_hi
 					1 = female_non_islamic_iranian_high_hairstyle_01
 					1 = f_sino_iranian_noble_turban_01_hi
 					1 = f_sogdian_noble_turban_01_white_lo					
-					1 = female_fp3_sino_iranian_high_01	
+					1 = female_fp3_sino_iranian_high_01						
 					
-			       ##########################################################						
-					#### TGP - Sino-Iranian			
-	
 				}
+
 				boy = male
 				girl = female
 			}
-			
-			sino_iranian_royalty_imperial = {
-				index = 211
-				male = {
-			       ##########################################################				
-					#### TGP - Sino-Iranian Royal
-					1 = Male_Turkic_Eagle_Crown_01			
-					1 = male_Turkic_Eagle_Crown_02
-					1 = male_Turkic_Eagle_Crown_02_02				
-					1 = male_Turkic_Fur_Cap_04	
-                    1 = male_Turkic_Fur_Cap_05		
-					
-			       ##########################################################						
-					#### TGP - Sino-Iranian Imperial		
-					1 = Male_Turkic_Eagle_Crown_01			
-					1 = male_Turkic_Eagle_Crown_02	
-					1 = male_Turkic_Eagle_Crown_02_02					
-					1 = male_Turkic_Fur_Cap_04
-					1 = male_Turkic_Fur_Cap_05
-				}
-				female = {
-			       ##########################################################				
-					#### TGP - Sino-Iranian Royal
-					1 = female_headgear_secular_steppe_high_nobility_01			
-					1 = Female_Khanum_Headress_01
-					1 = Female_Khanum_Headress_01				
-					1 = Female_Khanum_Headress_02	
-                    1 = Female_Khanum_Headress_02	
-					
-			       ##########################################################						
-					#### TGP - Sino-Iranian Imperial			
-					1 = f_Khanum_Headress_01_cuman
-					1 = f_Khanum_Headress_01_cuman					
-					1 = f_Khanum_Headress_01_cuman	
-					1 = f_Khanum_Headress_02_cuman	
-					1 = f_Khanum_Headress_02_cuman
-				}
-				boy = male
-				girl = female
-			}
+
 
 
 			
 			all_headgear_no_dlc = {
-				index = 212
+				index = 213
 				male = {
 					1 = m_headgear_sec_ep3_byzantine_era1_nob_01
 					1 = male_headgear_secular_western_common_01
@@ -7218,7 +7125,7 @@ special_genes = {
 			}
 			# Yusseter 0
 			yb_muslim_turkic_royalty = {
-				index = 213
+				index = 214
 
 				male = {
 					1 = male_headgear_secular_iranian_qalansuwwa_04_white
@@ -7237,13 +7144,12 @@ special_genes = {
 					1 = Female_Khanum_Headress_01_seljuk
 					1 = Female_Khanum_Headress_02_seljuk
 				}
-				
 				boy = male
 				girl = female
 			}
 
 			roman_diadem = {
-				index = 214
+				index = 215
 
 				male = {
 					1 = male_headgear_secular_roman_diadem
@@ -7251,13 +7157,12 @@ special_genes = {
 				female = {
 					1 = female_headgear_secular_roman_diadem
 				}
-
 				boy = male
 				girl = female
 			}
 
 			yb_eastern_iranian_common = {
-				index = 215
+				index = 216
 
 				male = {
 					1 = male_Turkic_Fur_Cap_01
@@ -7276,22 +7181,21 @@ special_genes = {
 					4 = empty
 					3 = female_headgear_secular_sogdian_headband_01_common
 					3 = female_headgear_secular_sogdian_headband_01_common
-					
+
 					1 = female_headgear_secular_northern_common_01
 					1 = female_headgear_secular_western_headband_common_01
 				}
-
 				boy = male
 				girl = female
 			}
 
 			yb_eastern_iranian_nobility = {
-				index = 216
+				index = 217
 
 				male = {
-                    1 = male_headgear_secular_fp1_cfp_nobility_01
+					1 = male_headgear_secular_fp1_cfp_nobility_01
 					1 = male_Turkic_Fur_Cap_04
-                    1 = male_Turkic_Fur_Cap_05
+					1 = male_Turkic_Fur_Cap_05
 					3 = male_headgear_secular_sogdian_cap_01_low
 					4 = male_headgear_secular_sogdian_headband_01_low
 					4 = male_headgear_secular_sogdian_headband_01_common_plane
@@ -7308,7 +7212,7 @@ special_genes = {
 					1 = female_headgear_secular_fp1_nobility_01
 					3 = female_headgear_secular_sogdian_headband_01_low
 					3 = female_headgear_secular_sogdian_headband_01_low
-					
+
 					1 = female_northern_norse_1_noble_circlet_01
 					1 = female_northern_norse_1_noble_circlet_02
 					1 = female_northern_norse_1_noble_circlet_01
@@ -7317,13 +7221,12 @@ special_genes = {
 					1 = female_northern_norse_3_noble_circlet_02
 					1 = female_headgear_secular_northern_cfp_high_nobility_01
 				}
-
 				boy = male
 				girl = female
 			}
-			
+
 			eastern_turk_common = {
-				index = 217
+				index = 218
 				male = {
 					2 = male_headgear_secular_sogdian_cap_01_common
 					2 = male_Turkic_Fur_Cap_01
@@ -7339,7 +7242,7 @@ special_genes = {
 			}
 
 			persianized_turk_common = {
-				index = 218
+				index = 219
 				male = {
 					1 = male_headgear_all_era_iranian_qub_01_low
 					1 = male_secular_arabic_qayah_qub_cap_01
@@ -7363,7 +7266,7 @@ special_genes = {
 			}
 
 			western_turk_early_common = {
-				index = 219
+				index = 220
 				male = {
 					2 = male_Turkic_Fur_Cap_01
 					2 = male_Turkic_Fur_Cap_02
@@ -7378,7 +7281,7 @@ special_genes = {
 			}
 
 			western_turk_late_common = {
-				index = 220
+				index = 221
 				male = {
 					2 = empty
 					2 = male_Cuman_cap_commoner_01
@@ -7388,7 +7291,7 @@ special_genes = {
 				}
 				female = {
 					2 = empty
-				    2 = f_headgear_sec_mpo_mongol_com_01
+					2 = f_headgear_sec_mpo_mongol_com_01
 					6 = female_headgear_secular_steppe_common_01
 				}
 				boy = male
@@ -7396,7 +7299,7 @@ special_genes = {
 			}
 
 			eastern_turk_low_nobility = {
-				index = 221
+				index = 222
 				male = {
 					1 = male_headgear_secular_sogdian_cap_01_low
 					3 = male_Turkic_Fur_Cap_04
@@ -7414,7 +7317,7 @@ special_genes = {
 			}
 
 			persianized_turk_low_nobility = {
-				index = 222
+				index = 223
 				male = {
 					2 = male_Turkic_Fur_Cap_04
 					2 = male_Turkic_Fur_Cap_05
@@ -7440,11 +7343,12 @@ special_genes = {
 			}
 
 			western_turk_early_low_nobility = {
-				index = 223
+				index = 224
 				male = {
 					2 = male_Turkic_Fur_Cap_04
 					2 = male_Turkic_Fur_Cap_05
 					2 = m_headgear_sec_fp3_turkic_nob_01
+					1 = m_headgear_sec_fp3_turkic_nob_02
 				}
 				female = {
 					2 = empty
@@ -7457,7 +7361,7 @@ special_genes = {
 			}
 
 			western_turk_late_low_nobility = {
-				index = 224
+				index = 225
 				male = {
 					4 = male_Cuman_cap_low_noble_01
 					4 = male_Cuman_Hat_01_low_noble
@@ -7475,11 +7379,12 @@ special_genes = {
 			}
 
 			eastern_turk_high_nobility = {
-				index = 225
+				index = 226
 				male = {
 					2 = male_Turkic_Fur_Cap_04
 					2 = male_Turkic_Fur_Cap_05
 					2 = m_headgear_sec_fp3_turkic_nob_01
+					1 = m_headgear_sec_fp3_turkic_nob_02
 				}
 				female = {
 					2 = empty
@@ -7492,19 +7397,19 @@ special_genes = {
 			}
 
 			persianized_turk_high_nobility = {
-				index = 226
+				index = 227
 				male = {
 					4 = male_Turkic_Fur_Cap_04
 					4 = male_Turkic_Fur_Cap_05
 					4 = m_headgear_sec_fp3_turkic_nob_02
 					5 = male_Seljuk_Helmet_Hat_02
-					5 = male_Seljuk_Leather_Hat_01	
-					5 = male_Seljuk_Leather_Hat_01_02					
-					5 = male_Seljuk_Leather_Hat_02	
+					5 = male_Seljuk_Leather_Hat_01
+					5 = male_Seljuk_Leather_Hat_01_02
+					5 = male_Seljuk_Leather_Hat_02
 					5 = male_Seljuk_Leather_Hat_02_02
 				}
 				female = {
-					3 = female_headgear_epe_seljuk_01_high				
+					3 = female_headgear_epe_seljuk_01_high
 					3 = f_headgear_sec_fp3_seljuk_nob_01_hi
 					2 = f_headgear_sec_fp3_seljuk_nob_02_hi
 				}
@@ -7513,7 +7418,7 @@ special_genes = {
 			}
 
 			western_turk_early_high_nobility = {
-				index = 227
+				index = 228
 				male = {
 					2 = male_Seljuk_Helmet_Hat_02
 					2 = male_Turkic_Fur_Cap_04
@@ -7531,7 +7436,7 @@ special_genes = {
 			}
 
 			western_turk_late_high_nobility = {
-				index = 228
+				index = 229
 				male = {
 					4 = male_Cuman_cap_low_noble_01
 					4 = male_Cuman_Hat_01_low_noble
@@ -7549,7 +7454,7 @@ special_genes = {
 			}
 
 			eastern_turk_royalty = {
-				index = 229
+				index = 230
 				male = {
 					2 = Male_Turkic_Eagle_Crown_01
 					2 = male_Turkic_Eagle_Crown_02
@@ -7565,7 +7470,7 @@ special_genes = {
 			}
 
 			persianized_turk_royalty = {
-				index = 230
+				index = 231
 				male = {
 					2 = male_headgear_secular_ep1_mena_royalty_01
 					2 = male_seljuk_royal_crown_01
@@ -7585,7 +7490,7 @@ special_genes = {
 			}
 
 			western_turk_royalty = {
-				index = 231
+				index = 232
 				male = {
 					1 = male_headgear_secular_ep1_mena_royalty_01
 					1 = male_headgear_secular_steppe_royalty_01a
@@ -7603,7 +7508,7 @@ special_genes = {
 			}
 
 			eastern_turk_imperial = {
-				index = 232
+				index = 233
 				male = {
 					2 = Male_Turkic_Eagle_Crown_01
 					2 = male_Turkic_Eagle_Crown_02
@@ -7619,10 +7524,10 @@ special_genes = {
 			}
 
 			persianized_turk_imperial = {
-				index = 233
+				index = 234
 				male = {
-					2 = male_seljuk_royal_crown_01			
-					1 = male_headgear_secular_steppe_royalty_01					
+					2 = male_seljuk_royal_crown_01
+					1 = male_headgear_secular_steppe_royalty_01
 					2 = male_headgear_secular_steppe_royalty_01a
 					2 = male_headgear_secular_steppe_royalty_01b
 				}
@@ -7638,7 +7543,7 @@ special_genes = {
 			}
 
 			western_turk_imperial = {
-				index = 234
+				index = 235
 				male = {
 					1 = male_headgear_secular_steppe_royalty_01a
 					1 = Male_Turkic_Eagle_Crown_01
@@ -7654,11 +7559,392 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+
+			uyghur_commoner = {
+				index = 236
+				male = {
+					2 = male_Turkic_Fur_Cap_01
+					2 = male_Turkic_Fur_Cap_02
+					2 = male_Turkic_Fur_Cap_03
+					2 = male_headgear_sino_iranian_cap_01_common
+					2 = male_headgear_secular_sogdian_cap_01_common
+				}
+				female = {
+					8 = empty
+					2 = f_epe_sino_iranian_cap_01_com
+				}
+				boy = male
+				girl = female
+			}
+
+			uyghur_low_nobility = {
+				index = 237
+				male = {
+					2 = male_Turkic_Fur_Cap_04
+					2 = male_Turkic_Fur_Cap_05
+					2 = m_Turkic_Fur_Cap_02_uyghur_lo
+					2 = male_headgear_sino_iranian_cap_01_low
+					1 = male_headgear_secular_chinese_nobility_04
+					1 = male_headgear_secular_chinese_nobility_05
+					1 = male_headgear_secular_chinese_nobility_06
+				}
+				female = {
+					8 = empty
+					2 = f_epe_sino_iranian_cap_01_lo
+				}
+				boy = male
+				girl = female
+			}
+
+			uyghur_high_nobility = {
+				index = 238
+				male = {
+					1 = male_Turkic_Fur_Cap_04
+					1 = male_Turkic_Fur_Cap_05
+					1 = m_Turkic_Fur_Cap_02_uyghur_lo
+					1 = male_headgear_sino_iranian_cap_01_high
+					6 = male_Uyghur_Noble_Headwear_01
+				}
+				female = {
+					1 = f_epe_sino_iranian_cap_01_lo
+					2 = female_headgear_secular_chinese_nobility_01
+					1 = female_headgear_secular_chinese_nobility_01a
+					1 = female_headgear_secular_chinese_nobility_01b
+				}
+				boy = male
+				girl = female
+			}
+
+			uyghur_royalty = {
+				index = 239
+				male = {
+					14 = male_Uyghur_Royal_Headwear_01
+					2 = male_headgear_secular_steppe_royalty_01b
+					2 = Male_Turkic_Eagle_Crown_01
+					1 = iranian_royal_crown_zoroastrian_male_02
+					1 = male_persian_crown_01
+				}
+				female = {
+					3 = f_headgear_steppe_roy_01
+					3 = Female_Khanum_Headress_01_uyghur
+					3 = Female_Khanum_Headress_02_uyghur
+					1 = male_persian_crown_01
+				}
+				boy = male
+				girl = female
+			}
+
+			uyghur_imperial = {
+				index = 240
+				male = {
+					10 = male_Uyghur_Royal_Headwear_01
+				}
+				female = {
+					2 = f_headgear_steppe_roy_01
+					2 = Female_Khanum_Headress_01_uyghur
+					2 = Female_Khanum_Headress_02_uyghur
+				}
+				boy = male
+				girl = female
+			}
+
+			uyghur_war = {
+				index = 241
+				male = {
+					1 = male_khorasan_helmet_02
+					1 = male_khorasan_helmet_02v2
+					1 = male_Iranian_Early_North_Nasal_Helmet_02_02
+					1 = m_headgear_sec_uyghur_war_nob_01_lo
+					1 = m_headgear_sec_uyghur_war_nob_02_lo
+					1 = m_headgear_sec_uyghur_war_nob_01_hi
+					1 = m_headgear_sec_uyghur_war_nob_02_hi
+					1 = male_khorasan_helmet_01
+					1 = male_khorasan_helmet_01v2
+					1 = male_Iranian_Early_North_Nasal_Helmet_02
+				}
+				female = {
+					1 = female_secular_Iranian_Early_North_Nasal_Helmet_Crest_02
+					1 = female_khorasan_helmet_02v2
+					1 = female_Iranian_Early_North_Helmet_02_02
+					1 = f_headgear_sec_uyghur_war_nob_01_lo
+					1 = f_headgear_sec_uyghur_war_nob_02_lo
+					1 = f_headgear_sec_uyghur_war_nob_01_hi
+					1 = f_headgear_sec_uyghur_war_nob_02_hi
+					1 = female_secular_Iranian_Early_North_Nasal_Helmet_Crest_01
+					1 = female_khorasan_helmet_01v2
+					1 = female_Iranian_Early_North_Helmet_02
+				}
+				boy = male
+				girl = female
+			}
+
+			uyghur_turko_mongol_commoner = {
+				index = 242
+				male = {
+					1 = m_headgear_sec_mpo_mongol_com_01
+					1 = male_headgear_secular_steppe_common_01
+					1 = male_headgear_secular_mena_common_01
+					1 = male_headgear_epe_white_mena_common_01
+					1 = male_headgear_epe_white_mena_nobility_02
+					1 = male_headgear_epe_white_mena_nobility_03
+					1 = male_headgear_secular_dde_abbasid_common_01
+					1 = male_headgear_epe_white_abbasid_common_01
+					1 = male_Turkic_Fur_Cap_01
+					1 = male_Turkic_Fur_Cap_02
+					1 = male_Turkic_Fur_Cap_03
+					1 = male_Turkic_Fur_Cap_04
+					1 = male_Turkic_Fur_Cap_05
+					1 = male_headgear_uyghur_turko_mongol_qub_01_commoner
+					1 = male_headgear_uyghur_turko_mongol_qub_02_commoner
+					1 = male_headgear_uyghur_turko_mongol_qub_03_commoner
+				}
+				female = {
+					1 = empty
+					1 = f_headgear_sec_mpo_mongol_com_01
+					1 = f_headgear_sec_mpo_mongol_nob_01
+					1 = f_headgear_epe_uyghur_turko_mongol_veil_01_com
+					1 = f_headgear_epe_uyghur_turko_mongol_veil_01_com
+					1 = f_headgear_epe_uyghur_turko_mongol_veil_02_com
+					1 = f_headgear_epe_uyghur_turko_mongol_veil_02_com
+					1 = female_headgear_secular_mena_common_01
+					1 = female_headgear_uyghur_turko_mongol_qub_01_commoner
+					1 = female_headgear_uyghur_turko_mongol_qub_01_commoner
+					1 = female_headgear_uyghur_turko_mongol_qub_01_commoner
+					1 = female_headgear_uyghur_turko_mongol_qub_02_commoner
+					1 = female_headgear_uyghur_turko_mongol_qub_02_commoner
+					1 = female_headgear_uyghur_turko_mongol_qub_02_commoner
+					1 = female_headgear_secular_steppe_common_01
+					1 = female_headgear_secular_steppe_common_01
+				}
+				boy = male
+				girl = female
+			}
+
+			uyghur_turko_mongol_low_nobility = {
+				index = 243
+				male = {
+					1 = male_headgear_epe_white_mena_common_01
+					1 = male_headgear_epe_white_mena_nobility_02
+					1 = male_headgear_epe_white_mena_nobility_03
+					1 = male_headgear_secular_dde_abbasid_common_01
+					1 = male_headgear_epe_white_abbasid_common_01
+					1 = male_headgear_secular_dde_abbasid_high_nobility_01
+					1 = male_headgear_epe_white_abbasid_high_01
+					1 = m_headgear_secular_uyghur_turko_mongol_lo_noble_01
+					1 = male_headgear_uyghur_turko_mongol_qalansuwwa_04_low
+					1 = male_headgear_uyghur_turko_mongol_qalansuwwa_05_low
+					1 = male_headgear_uyghur_turko_mongol_qalansuwwa_06_low
+					1 = male_headgear_secular_iranian_qalansuwwa_04_white
+					1 = male_headgear_secular_iranian_qalansuwwa_05_white
+					1 = male_headgear_secular_iranian_qalansuwwa_06_white
+					1 = male_Turkic_Fur_Cap_01
+					1 = male_Turkic_Fur_Cap_02
+					1 = male_Turkic_Fur_Cap_03
+					1 = male_Turkic_Fur_Cap_04
+					1 = male_Turkic_Fur_Cap_05
+					1 = male_headgear_uyghur_turko_mongol_qub_01_low
+					1 = male_headgear_uyghur_turko_mongol_qub_2_low
+					1 = male_headgear_uyghur_turko_mongol_qub_03_low
+					1 = m_headgear_sec_fp3_turkic_nob_01
+				}
+				female = {
+					1 = empty
+					1 = f_headgear_sec_mpo_mongol_nob_01
+					1 = f_headgear_sec_mpo_mongol_nob_01
+					1 = f_headgear_epe_uyghur_turko_mongol_veil_01_lo
+					1 = f_headgear_epe_uyghur_turko_mongol_veil_01_lo
+					1 = f_headgear_epe_uyghur_turko_mongol_veil_01_lo
+					1 = f_headgear_epe_uyghur_turko_mongol_veil_02_lo
+					1 = f_headgear_epe_uyghur_turko_mongol_veil_02_lo
+					1 = f_headgear_epe_uyghur_turko_mongol_veil_02_lo
+					1 = female_headgear_uyghur_turko_mongol_qub_01_low
+					1 = female_headgear_uyghur_turko_mongol_qub_01_low
+					1 = female_headgear_uyghur_turko_mongol_qub_01_low
+					1 = female_headgear_uyghur_turko_mongol_qub_02_low
+					1 = female_headgear_uyghur_turko_mongol_qub_02_low
+					1 = female_headgear_uyghur_turko_mongol_qub_02_low
+					1 = f_headgear_secular_uyghur_turko_mongol_lo_noble_01
+					1 = f_headgear_secular_uyghur_turko_mongol_lo_noble_01
+					1 = f_headgear_secular_uyghur_turko_mongol_lo_noble_01
+					1 = f_headgear_secular_uyghur_turko_mongol_lo_noble_01
+					1 = f_headgear_secular_uyghur_turko_mongol_lo_noble_02
+					1 = f_headgear_secular_uyghur_turko_mongol_lo_noble_02
+					1 = f_headgear_secular_uyghur_turko_mongol_lo_noble_02
+					1 = f_headgear_secular_uyghur_turko_mongol_lo_noble_02
+				}
+				boy = male
+				girl = female
+			}
+
+			uyghur_turko_mongol_high_nobility = {
+				index = 244
+				male = {
+					1 = m_headgear_secular_uyghur_turko_mongol_hi_noble_01
+					1 = male_Turkic_Fur_Cap_04
+					1 = male_Turkic_Fur_Cap_05
+					1 = male_headgear_uyghur_turko_mongol_qub_01_high
+					1 = m_headgear_secular_epe_steppe_muslim_hi_noble_01_uyghur
+					1 = m_headgear_secular_epe_steppe_muslim_hi_noble_01_white
+					1 = male_headgear_secular_iranian_qalansuwwa_04_white
+					1 = male_headgear_secular_iranian_qalansuwwa_05_white
+					1 = male_headgear_secular_iranian_qalansuwwa_06_white
+					1 = male_headgear_uyghur_turko_mongol_qalansuwwa_04_high
+					1 = male_headgear_uyghur_turko_mongol_qalansuwwa_05_high
+					1 = male_headgear_uyghur_turko_mongol_qalansuwwa_06_high
+					1 = m_headgear_sec_fp3_turkic_nob_01
+				}
+				female = {
+					1 = f_headgear_epe_uyghur_turko_mongol_veil_01_hi
+					1 = f_headgear_epe_uyghur_turko_mongol_veil_01_hi
+					1 = f_headgear_epe_uyghur_turko_mongol_veil_02_hi
+					1 = f_headgear_epe_uyghur_turko_mongol_veil_02_hi
+					1 = female_headgear_uyghur_turko_mongol_qub_01_high
+					1 = female_headgear_uyghur_turko_mongol_qub_01_high
+					1 = female_headgear_uyghur_turko_mongol_qub_02_high
+					1 = female_headgear_uyghur_turko_mongol_qub_02_high
+					1 = f_headgear_secular_uyghur_turko_mongol_hi_noble_01
+					1 = f_headgear_secular_uyghur_turko_mongol_hi_noble_01
+					1 = f_headgear_secular_uyghur_turko_mongol_hi_noble_02
+					1 = f_headgear_secular_uyghur_turko_mongol_hi_noble_02
+					1 = f_headgear_secular_uyghur_turko_mongol_hi_noble_02
+				}
+				boy = male
+				girl = female
+			}
+
+			uyghur_turko_mongol_royalty_era3 = {
+				index = 245
+				male = {
+					1 = m_headgear_secular_epe_steppe_muslim_roy_01
+					1 = m_headgear_secular_epe_steppe_muslim_roy_02
+					1 = male_headgear_secular_steppe_royalty_01
+					1 = male_headgear_secular_steppe_royalty_01a
+					1 = male_headgear_secular_steppe_royalty_01b
+				}
+				female = {
+					1 = Female_Khanum_Headress_01_uyghur_turko_mongol
+					1 = Female_Khanum_Headress_01_uyghur_turko_mongol
+					1 = Female_Khanum_Headress_01_uyghur_turko_mongol
+					1 = Female_Khanum_Headress_01_uyghur_turko_mongol
+					1 = Female_Khanum_Headress_02_uyghur_turko_mongol
+					1 = Female_Khanum_Headress_02_uyghur_turko_mongol
+					1 = Female_Khanum_Headress_02_uyghur_turko_mongol
+				}
+				boy = male
+				girl = female
+			}
+
+			uyghur_turko_mongol_royalty_era4 = {
+				index = 246
+				male = {
+					2 = m_headgear_secular_epe_steppe_muslim_roy_01
+					2 = m_headgear_secular_epe_steppe_muslim_roy_02
+				}
+				female = {
+					2 = Female_Khanum_Headress_01_uyghur_turko_mongol
+					2 = Female_Khanum_Headress_02_uyghur_turko_mongol
+				}
+				boy = male
+				girl = female
+			}
+
+			uyghur_turko_mongol_imperial_era3 = {
+				index = 247
+				male = {
+					1 = m_headgear_secular_epe_steppe_muslim_roy_01
+					1 = m_headgear_secular_epe_steppe_muslim_roy_02
+					1 = male_headgear_secular_steppe_royalty_01
+					1 = male_headgear_secular_steppe_royalty_01a
+					1 = male_headgear_secular_steppe_royalty_01b
+				}
+				female = {
+					1 = Female_Khanum_Headress_01_uyghur_turko_mongol
+					1 = Female_Khanum_Headress_01_uyghur_turko_mongol
+					1 = Female_Khanum_Headress_01_uyghur_turko_mongol
+					1 = Female_Khanum_Headress_02_uyghur_turko_mongol
+					1 = Female_Khanum_Headress_02_uyghur_turko_mongol
+				}
+
+				boy = male
+				girl = female
+			}
+
+			uyghur_turko_mongol_imperial_era4 = {
+				index = 248
+				male = {
+					2 = m_headgear_secular_epe_steppe_muslim_roy_01
+					2 = m_headgear_secular_epe_steppe_muslim_roy_02
+				}
+				female = {
+					2 = Female_Khanum_Headress_01_uyghur_turko_mongol
+					2 = Female_Khanum_Headress_02_uyghur_turko_mongol
+				}
+
+				boy = male
+				girl = female
+			}
+
+			uyghurized_low_nobility = {
+				index = 249
+				male = {
+					2 = male_Turkic_Fur_Cap_04
+					2 = male_Turkic_Fur_Cap_05
+					2 = m_Turkic_Fur_Cap_02_uyghur_lo
+					1 = male_headgear_sino_iranian_cap_01_low
+					1 = male_headgear_secular_sogdian_cap_01_low
+				}
+				female = {
+					8 = empty
+					2 = f_epe_sino_iranian_cap_01_lo
+					2 = f_headgear_sec_mpo_mongol_com_01
+					4 = f_headgear_sec_mpo_mongol_nob_01
+				}
+				boy = male
+				girl = female
+			}
+
+			uyghurized_high_nobility = {
+				index = 250
+				male = {
+					1 = male_Turkic_Fur_Cap_04
+					1 = male_Turkic_Fur_Cap_05
+					1 = m_Turkic_Fur_Cap_02_uyghur_lo
+					1 = male_headgear_sino_iranian_cap_01_high
+					6 = male_Uyghur_Noble_Headwear_01
+				}
+				female = {
+					2 = f_epe_sino_iranian_cap_01_lo
+					2 = f_headgear_sec_mpo_mongol_com_01
+					4 = f_headgear_sec_mpo_mongol_nob_01
+				}
+				boy = male
+				girl = female
+			}
+
+			uyghurized_royalty = {
+				index = 251
+				male = {
+					2 = Male_Turkic_Eagle_Crown_01
+					2 = male_headgear_secular_steppe_royalty_01b
+				}
+				female = {
+					3 = f_headgear_steppe_roy_01
+					1 = Female_Khanum_Headress_01
+					1 = Female_Khanum_Headress_02
+					2 = Female_Khanum_Headress_01_uyghur
+					2 = Female_Khanum_Headress_02_uyghur
+				}
+				boy = male
+				girl = female
+			}
 			# Yusseter 1
+			
+			
+			
 
 		}
 
-
+		
 		#--------------------------------------------------------------------------------------------------------
 		secondary_headgears = {
 
@@ -7835,7 +8121,7 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-
+			
 			coa_crest = {
 				index = 9
 				male = {
@@ -7847,7 +8133,7 @@ special_genes = {
 				boy = male
 				girl = female
 
-			}
+			}			
 
 		}
 
@@ -7885,4 +8171,4 @@ special_genes = {
 	}
 }
 
-# Yusseter: From EPE + CFP 2025.11.19
+# Yusseter: From EPE + CFP 2025.12.15

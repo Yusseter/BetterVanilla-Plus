@@ -1,19 +1,35 @@
-﻿portrait_tibetan_clothing_trigger = {
+﻿portrait_epe_roman_clothing_trigger = {
 	portrait_shared_clothing_contents_trigger = {
 		CULTURE_SCOPE = scope:culture
-		CULTURE_FLAG = tibetan
+		CULTURE_FLAG = epe_roman
 	}
 }
-portrait_tibetan_clothing_spouse_trigger = {
+portrait_epe_roman_clothing_spouse_trigger = {
 	portrait_shared_clothing_contents_trigger = {
 		CULTURE_SCOPE = culture
-		CULTURE_FLAG = tibetan
+		CULTURE_FLAG = epe_roman
 	}
 }
 
 portrait_ugro_permian_clothing_trigger = { # Yusseter: From CK3 2025.11.20
 	has_cp4_dlc_trigger = yes
+	portrait_siniticized_clothing_trigger = no
 	OR = {
+		AND = {
+			trigger_if = {
+				limit = { exists = this }
+				OR = {
+					government_has_flag = government_is_tribal
+					government_has_flag = government_is_herder
+				}
+			}
+			OR = {
+				portrait_steppe_clothing_trigger = yes
+				portrait_turkic_clothing_trigger = yes
+				portrait_yb_siberian_steppe_clothing_trigger = yes
+			}
+			regional_portrait_trigger = { REGION = world_siberia }
+		}
 		portrait_shared_clothing_contents_trigger = {
 			CULTURE_SCOPE = scope:culture
 			CULTURE_FLAG = ugro_permian
@@ -22,12 +38,50 @@ portrait_ugro_permian_clothing_trigger = { # Yusseter: From CK3 2025.11.20
 }
 portrait_ugro_permian_clothing_spouse_trigger = { # Yusseter: From CK3 2025.11.20
 	has_cp4_dlc_trigger = yes
+	portrait_siniticized_clothing_trigger = no
 	OR = {
+		AND = {
+			trigger_if = {
+				limit = { exists = this }
+				OR = {
+					government_has_flag = government_is_tribal
+					government_has_flag = government_is_herder
+				}
+			}
+			OR = {
+				portrait_steppe_clothing_spouse_trigger = yes
+				portrait_turkic_clothing_spouse_trigger = yes
+				portrait_yb_siberian_steppe_clothing_spouse_trigger = yes
+			}
+			regional_portrait_trigger = { REGION = world_siberia }
+		}
 		portrait_shared_clothing_contents_trigger = {
 			CULTURE_SCOPE = culture
 			CULTURE_FLAG = ugro_permian
 		}
 	}
+}
+
+portrait_mongol_clothing_trigger = {
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = mongol
+	}
+}
+portrait_mongol_clothing_spouse_trigger = {
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = culture
+		CULTURE_FLAG = mongol
+	}
+}
+
+portrait_steppe_clothing_trigger = { # Yusseter: From CK3 2025.11.20
+	portrait_religious_muslim_trigger = no
+	portrait_mongol_clothing_trigger = yes
+}
+portrait_steppe_clothing_spouse_trigger = { # Yusseter: From CK3 2025.11.20
+	portrait_religious_muslim_trigger = no
+	portrait_mongol_clothing_trigger = yes
 }
 
 portrait_yb_siberian_steppe_clothing_trigger = {
@@ -43,211 +97,190 @@ portrait_yb_siberian_steppe_clothing_spouse_trigger = {
 	}
 }
 
-portrait_epe_roman_clothing_trigger = {
-	portrait_shared_clothing_contents_trigger = {
-		CULTURE_SCOPE = scope:culture
-		CULTURE_FLAG = epe_roman
-	}
+portrait_epe_eastern_turk_clothing_trigger = { # Yusseter: From EPE 2025.11.20
+	portrait_turkic_clothing_trigger = yes
+	portrait_epe_seljuk_clothing_trigger = no
 }
-portrait_epe_roman_clothing_spouse_trigger = {
-	portrait_shared_clothing_contents_trigger = {
-		CULTURE_SCOPE = culture
-		CULTURE_FLAG = epe_roman
-	}
+portrait_epe_eastern_turk_clothing_spouse_trigger = { # Yusseter: From EPE 2025.11.20
+	portrait_turkic_clothing_spouse_trigger = yes
+	portrait_epe_seljuk_clothing_spouse_trigger = no
 }
 
-portrait_chinese_clothing_trigger = {
+portrait_epe_western_turk_clothing_trigger = { # Yusseter: From EPE 2025.12.05
+	NOR = {
+		regional_portrait_trigger = { REGION = world_steppe_central }
+		regional_portrait_trigger = { REGION = dlc_mpo_steppe_central_siberia_addon }
+		regional_portrait_trigger = { REGION = world_steppe_east }
+		regional_portrait_trigger = { REGION = dlc_mpo_steppe_east_buryatia_addon }
+		regional_portrait_trigger = { REGION = dlc_mpo_steppe_east_andong_addon }
+	}
 	portrait_shared_clothing_contents_trigger = {
 		CULTURE_SCOPE = scope:culture
-		CULTURE_FLAG = chinese
+		CULTURE_FLAG = epe_western_turk
 	}
 }
-portrait_chinese_clothing_spouse_trigger = {
+portrait_epe_western_turk_clothing_spouse_trigger = { # Yusseter: From EPE 2025.12.05
 	portrait_shared_clothing_contents_trigger = {
 		CULTURE_SCOPE = culture
-		CULTURE_FLAG = chinese
+		CULTURE_FLAG = epe_western_turk
 	}
 }
 
 portrait_epe_seljuk_clothing_trigger = { # Yusseter: From EPE 2025.11.20
-	OR = {
-		portrait_shared_clothing_contents_trigger = {
-			CULTURE_SCOPE = scope:culture
-			CULTURE_FLAG = epe_seljuk
-		}
-		AND = { ###
-			OR = {
-				culture = culture:turkish
-				culture = {
-					any_parent_culture_or_above = {
-						this = culture:turkish
-					}
-				}
-			}
-			portrait_religious_muslim_trigger = yes
-		}
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = epe_seljuk
 	}
 	trigger_if = {
 		limit = { exists = this	}
-		NOT = { government_has_flag = government_has_herd }
+		NOR = {
+			government_has_flag = government_has_herd
+			government_has_flag = government_has_merit
+		}
 	}
 }
 portrait_epe_seljuk_clothing_spouse_trigger = { # Yusseter: From EPE 2025.11.20
-	OR = {
-		portrait_shared_clothing_contents_trigger = {
-			CULTURE_SCOPE = culture
-			CULTURE_FLAG = epe_seljuk
-		}
-		AND = { ###
-			OR = {
-				culture = culture:turkish
-				culture = {
-					any_parent_culture_or_above = {
-						this = culture:turkish
-					}
-				}
-			}
-			portrait_religious_muslim_trigger = yes
-		}
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = culture
+		CULTURE_FLAG = epe_seljuk
 	}
-	NOT = { government_has_flag = government_has_herd }
-}
-
-portrait_epe_eastern_turk_muslim_clothing_trigger = { # Yusseter: From EPE 2025.11.20
-	OR = {
-		portrait_epe_eastern_turk_clothing_trigger = yes
-
-	}
-	OR = {
-		trigger_if = {
-			limit = { exists = this	}
-			AND = {
-				is_landed = yes
-				religion = religion:islam_religion
-				capital_province = {
-					geographical_region = world_middle_east
-				}
-			}
-		}
-		trigger_if = {
-			limit = { exists = this	}
-			AND = {
-				is_landed = yes
-				religion = religion:islam_religion
-				capital_province = {
-					geographical_region = world_asia_minor
-				}
-			}
-		}
-		trigger_if = {
-			limit = { exists = this	}
-			AND = {
-				is_landed = yes
-				religion = religion:islam_religion
-				capital_province = {
-					geographical_region = ghw_region_transoxiana
-				}
-			}
-		}
-		trigger_if = {
-			limit = { exists = this	}
-			AND = {
-				is_landed = yes
-				religion = religion:islam_religion
-				capital_province = {
-					geographical_region = world_europe_south
-				}
-			}
-		}		
-	}
-	trigger_if = { # Yusseter
-		limit = { exists = this	}
-		NOT = { government_has_flag = government_has_herd }
-	}
-}
-portrait_epe_eastern_turk_muslim_clothing_spouse_trigger = { # Yusseter: From EPE 2025.11.20
-	OR = {
-		portrait_epe_eastern_turk_clothing_spouse_trigger = yes
-
-	}
-	OR = {
-		AND = {
-			is_landed = yes
-			religion = religion:islam_religion
-			capital_province = {
-				geographical_region = world_middle_east
-			}
-		}
-		AND = {
-			is_landed = yes
-			religion = religion:islam_religion
-			capital_province = {
-				geographical_region = world_asia_minor
-			}
-		}
-		AND = {
-			is_landed = yes
-			religion = religion:islam_religion
-			capital_province = {
-				geographical_region = ghw_region_transoxiana
-			}
-		}
-		AND = {
-			is_landed = yes
-			religion = religion:islam_religion
-			capital_province = {
-				geographical_region = world_europe_south
-			}
-		}		
-	}
-	NOT = { government_has_flag = government_has_herd } # Yusseter
-}
-
-portrait_epe_uyghur_clothing_trigger = { # Yusseter: From EPE 2025.11.20
-	portrait_epe_western_turk_clothing_trigger = no
-	portrait_epe_seljuk_clothing_trigger = no
-	portrait_tibetan_clothing_trigger = no
-	OR = {
-		portrait_epe_eastern_turk_clothing_trigger = yes
-		AND = {
-			portrait_steppe_clothing_trigger = yes
-			portrait_era1_trigger = yes
-		}
-	}
-	OR = {
-		religion = religion:buddhism_religion
-		religion = religion:dualism_religion
-		religion = religion:confucianism_religion
-		religion = religion:taoism_religion
-		faith = { portrait_religious_faith_or_foundational_trigger = { FAITH = faith:nestorian } }
+	NOR = {
+		government_has_flag = government_has_herd
 		government_has_flag = government_has_merit
 	}
 }
 
-portrait_epe_uyghur_clothing_spouse_trigger = { # Yusseter: From EPE 2025.11.20
+portrait_epe_eastern_turk_muslim_clothing_trigger = { # Yusseter: From EPE 2025.11.20
+	portrait_religious_muslim_trigger = yes
+	portrait_epe_seljuk_clothing_trigger = no
+	portrait_siniticized_clothing_trigger = no
+	OR = {
+		portrait_mongol_clothing_trigger = yes
+		portrait_epe_eastern_turk_clothing_trigger = yes
+		portrait_epe_western_turk_clothing_trigger = yes
+	}
+	trigger_if = {
+		limit = { exists = this	}
+		NOR = {
+			government_has_flag = government_has_herd
+			government_has_flag = government_has_merit
+		}
+	}
+}
+portrait_epe_eastern_turk_muslim_clothing_spouse_trigger = { # Yusseter: From EPE 2025.11.20
+	portrait_religious_muslim_spouse_trigger = yes
+	portrait_epe_seljuk_clothing_spouse_trigger = no
+	portrait_siniticized_clothing_trigger = no
+	OR = {
+		portrait_mongol_clothing_spouse_trigger = yes
+		portrait_epe_eastern_turk_clothing_spouse_trigger = yes
+		portrait_epe_western_turk_clothing_spouse_trigger = yes
+	}
+	NOR = {
+		government_has_flag = government_has_herd
+		government_has_flag = government_has_merit
+	}
+}
+
+portrait_epe_gokalpbags_clothing_trigger = { # Yusseter: From EPE 2025.12.15
+	culture = { portrait_epe_gokalpbags_clothing_contents_trigger = yes }
+	dynasty = dynasty:epe_gokalpbags	
+}
+portrait_epe_gokalpbags_clothing_spouse_trigger = { # Yusseter: From EPE 2025.12.15
+	culture = { portrait_epe_gokalpbags_clothing_contents_trigger = yes }
+	dynasty = dynasty:epe_gokalpbags		
+}
+portrait_epe_gokalpbags_clothing_contents_trigger = { # Yusseter: From EPE 2025.12.15
+	has_clothing_gfx = epe_uyghur_clothing_gfx
+}
+
+portrait_chinese_clothing_trigger = { # Yusseter: From EPE 2025.12.15
+	OR = {
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = scope:culture
+			CULTURE_FLAG = chinese
+		}
+		AND = {
+			portrait_epe_khitan_clothing_trigger = yes
+			OR = {
+				portrait_era2_trigger = yes
+				portrait_era3_trigger = yes
+				portrait_era4_trigger = yes
+			}
+		}
+	}
+	NOR = {
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = scope:culture
+			CULTURE_FLAG = epe_uyghur
+		}
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = scope:culture
+			CULTURE_FLAG = epe_sino_iranian
+		}
+	}
+}
+portrait_chinese_clothing_spouse_trigger = { # Yusseter: From EPE 2025.12.15
+	OR = {
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = culture
+			CULTURE_FLAG = chinese
+		}
+		AND = {
+			portrait_epe_khitan_clothing_trigger = yes
+			OR = {
+				portrait_era2_trigger = yes
+				portrait_era3_trigger = yes
+				portrait_era4_trigger = yes
+			}
+		}
+	}
+	NOR = {
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = culture
+			CULTURE_FLAG = epe_uyghur
+		}
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = culture
+			CULTURE_FLAG = epe_sino_iranian
+		}
+	}
+}
+
+portrait_epe_uyghur_clothing_trigger = { # Yusseter: From EPE 2025.11.20
+	portrait_siniticized_clothing_trigger = yes
 	portrait_epe_western_turk_clothing_spouse_trigger = no
 	portrait_epe_seljuk_clothing_spouse_trigger = no
 	portrait_tibetan_clothing_spouse_trigger = no
 	OR = {
-		portrait_epe_eastern_turk_clothing_spouse_trigger = yes
+		portrait_turkic_clothing_spouse_trigger = yes
 		AND = {
-			portrait_steppe_clothing_spouse_trigger = yes
+			portrait_siniticized_clothing_trigger = yes
+			portrait_mongol_clothing_trigger = yes
 			portrait_era1_trigger = yes
 		}
 	}
+}
+portrait_epe_uyghur_clothing_spouse_trigger = { # Yusseter: From EPE 2025.11.20
+	portrait_siniticized_clothing_trigger = yes
+	portrait_epe_western_turk_clothing_spouse_trigger = no
+	portrait_epe_seljuk_clothing_spouse_trigger = no
+	portrait_tibetan_clothing_spouse_trigger = no
 	OR = {
-		religion = religion:buddhism_religion
-		religion = religion:dualism_religion
-		religion = religion:confucianism_religion
-		religion = religion:taoism_religion
-		faith = { portrait_religious_faith_or_foundational_trigger = { FAITH = faith:nestorian } }
-		government_has_flag = government_has_merit
+		portrait_turkic_clothing_spouse_trigger = yes
+		AND = {
+			portrait_siniticized_clothing_spouse_trigger = yes
+			portrait_mongol_clothing_spouse_trigger = yes
+			portrait_era1_trigger = yes
+		}
 	}
 }
 
 portrait_epe_uyghur_headgear_clothing_trigger = {
 	portrait_epe_uyghur_clothing_trigger = yes
 	OR = {
+		religion = religion:confucianism_religion
+		religion = religion:taoism_religion
 		government_has_flag = government_has_merit
 		portrait_shared_clothing_contents_trigger = {
 			CULTURE_SCOPE = scope:culture
@@ -258,6 +291,8 @@ portrait_epe_uyghur_headgear_clothing_trigger = {
 portrait_epe_uyghur_headgear_clothing_spouse_trigger = {
 	portrait_epe_uyghur_clothing_spouse_trigger = yes
 	OR = {
+		religion = religion:confucianism_religion
+		religion = religion:taoism_religion
 		government_has_flag = government_has_merit
 		portrait_shared_clothing_contents_trigger = {
 			CULTURE_SCOPE = culture
@@ -266,23 +301,52 @@ portrait_epe_uyghur_headgear_clothing_spouse_trigger = {
 	}
 }
 
-portrait_epe_eastern_turk_clothing_trigger = { # Yusseter: From EPE 2025.11.20
-	portrait_turkic_clothing_trigger = yes
-}
-portrait_epe_eastern_turk_clothing_spouse_trigger = { # Yusseter: From EPE 2025.11.20
-	portrait_turkic_clothing_spouse_trigger = yes
-}
-
-portrait_epe_western_turk_clothing_trigger = { # Yusseter: From EPE 2025.12.05
-	portrait_shared_clothing_contents_trigger = {
-		CULTURE_SCOPE = scope:culture
-		CULTURE_FLAG = epe_western_turk
+portrait_epe_khitan_clothing_trigger = {
+	portrait_siniticized_clothing_trigger = yes
+	portrait_mongol_clothing_trigger = yes
+	portrait_epe_eastern_turk_clothing_trigger = no
+	portrait_epe_western_turk_clothing_trigger = no
+	portrait_epe_seljuk_clothing_trigger = no
+	portrait_tibetan_clothing_trigger = no
+	OR = {
+		portrait_era2_trigger = yes
+		portrait_era3_trigger = yes
+		portrait_era4_trigger = yes
 	}
 }
-portrait_epe_western_turk_clothing_spouse_trigger = { # Yusseter: From EPE 2025.12.05
+portrait_epe_khitan_clothing_spouse_trigger = {
+	portrait_siniticized_clothing_trigger = yes
+	portrait_mongol_clothing_spouse_trigger = yes
+	portrait_epe_eastern_turk_clothing_spouse_trigger = no
+	portrait_epe_western_turk_clothing_spouse_trigger = no
+	portrait_epe_seljuk_clothing_spouse_trigger = no
+	portrait_tibetan_clothing_spouse_trigger = no
+	OR = {
+		portrait_era2_trigger = yes
+		portrait_era3_trigger = yes
+		portrait_era4_trigger = yes
+	}
+}
+
+portrait_epe_sino_iranian_chinese_clothing_trigger = { # Yusseter: From EPE 2025.12.15
+	portrait_siniticized_clothing_trigger = yes
+	portrait_epe_sino_iranian_clothing_trigger = yes
+}
+portrait_epe_sino_iranian_chinese_clothing_spouse_trigger = { # Yusseter: From EPE 2025.12.15
+	portrait_siniticized_clothing_trigger = yes
+	portrait_epe_sino_iranian_clothing_spouse_trigger = yes
+}
+
+portrait_tibetan_clothing_trigger = {
+	portrait_shared_clothing_contents_trigger = {
+		CULTURE_SCOPE = scope:culture
+		CULTURE_FLAG = tibetan
+	}
+}
+portrait_tibetan_clothing_spouse_trigger = {
 	portrait_shared_clothing_contents_trigger = {
 		CULTURE_SCOPE = culture
-		CULTURE_FLAG = epe_western_turk
+		CULTURE_FLAG = tibetan
 	}
 }
 
@@ -331,19 +395,33 @@ portrait_byzantine_clothing_spouse_trigger = { # Yusseter: From CK3 2025.11.20
 	}
 }
 
-portrait_steppe_clothing_trigger = { # Yusseter: From CK3 2025.11.20
-	portrait_religious_muslim_trigger = no
-	portrait_shared_clothing_contents_trigger = {
-		CULTURE_SCOPE = scope:culture
-		CULTURE_FLAG = mongol
+portrait_cfp_hungarian_clothing_trigger = { # Yusseter: From CFP 2025.12.11
+	OR = {
+		portrait_epe_western_turk_clothing_trigger = yes
+		AND = {
+			portrait_western_clothing_trigger = yes
+			culture = {
+				any_parent_culture_or_above = {
+					this = culture:mogyer
+				}
+			}
+		}
 	}
+	portrait_religious_christian_trigger = yes
 }
-portrait_steppe_clothing_spouse_trigger = { # Yusseter: From CK3 2025.11.20
-	portrait_religious_muslim_trigger = no
-	portrait_shared_clothing_contents_trigger = {
-		CULTURE_SCOPE = culture
-		CULTURE_FLAG = mongol
+portrait_cfp_hungarian_clothing_spouse_trigger = { # Yusseter: From CFP 2025.12.11
+	OR = {
+		portrait_epe_western_turk_clothing_spouse_trigger = yes
+		AND = {
+			portrait_western_clothing_spouse_trigger = yes
+			culture = {
+				any_parent_culture_or_above = {
+					this = culture:mogyer
+				}
+			}
+		}
 	}
+	portrait_religious_christian_trigger = yes
 }
 
 portrait_iranian_clothing_trigger = {
@@ -359,96 +437,9 @@ portrait_iranian_clothing_spouse_trigger = {
 	}
 }
 
-portrait_influenced_muslim_clothing_trigger = {
-	portrait_religious_muslim_trigger = yes
-	OR = {
-		portrait_shared_clothing_contents_trigger = {
-			CULTURE_SCOPE = scope:culture
-			CULTURE_FLAG = epe_georgian
-		}
-		portrait_shared_clothing_contents_trigger = {
-			CULTURE_SCOPE = scope:culture
-			CULTURE_FLAG = epe_armenian
-		}
-		portrait_shared_clothing_contents_trigger = {
-			CULTURE_SCOPE = scope:culture
-			CULTURE_FLAG = epe_seljuk
-		}
-		portrait_shared_clothing_contents_trigger = {
-			CULTURE_SCOPE = scope:culture
-			CULTURE_FLAG = byzantine
-		}
-		AND = {
-			portrait_shared_clothing_contents_trigger = {
-				CULTURE_SCOPE = scope:culture
-				CULTURE_FLAG = mongol
-			}
-			OR = {
-				portrait_era3_trigger = yes
-				portrait_era4_trigger = yes
-			}
-		}
-		AND = {
-			portrait_shared_clothing_contents_trigger = {
-				CULTURE_SCOPE = scope:culture
-				CULTURE_FLAG = turkic
-			}
-			OR = {
-				portrait_era3_trigger = yes
-				portrait_era4_trigger = yes
-			}
-		}
-	}
-	trigger_if = {
-		limit = { exists = this	}
-		NOT = { government_has_flag = government_has_herd }
-	}
-}
-portrait_influenced_muslim_clothing_spouse_trigger = {
-	portrait_religious_muslim_trigger = yes
-	OR = {
-		portrait_shared_clothing_contents_trigger = {
-			CULTURE_SCOPE = culture
-			CULTURE_FLAG = epe_georgian
-		}
-		portrait_shared_clothing_contents_trigger = {
-			CULTURE_SCOPE = culture
-			CULTURE_FLAG = epe_armenian
-		}
-		portrait_shared_clothing_contents_trigger = {
-			CULTURE_SCOPE = culture
-			CULTURE_FLAG = epe_seljuk
-		}
-		portrait_shared_clothing_contents_trigger = {
-			CULTURE_SCOPE = culture
-			CULTURE_FLAG = byzantine
-		}
-		AND = {
-			portrait_shared_clothing_contents_trigger = {
-				CULTURE_SCOPE = culture
-				CULTURE_FLAG = mongol
-			}
-			OR = {
-				portrait_era3_trigger = yes
-				portrait_era4_trigger = yes
-			}
-		}
-		AND = {
-			portrait_shared_clothing_contents_trigger = {
-				CULTURE_SCOPE = culture
-				CULTURE_FLAG = turkic
-			}
-			OR = {
-				portrait_era3_trigger = yes
-				portrait_era4_trigger = yes
-			}
-		}
-	}
-	NOT = { government_has_flag = government_has_herd }
-}
-
 portrait_epe_islamic_iranian_clothing_trigger = { # Yusseter: From EPE 2025.11.20
 	portrait_religious_muslim_trigger = yes
+	portrait_epe_eastern_turk_muslim_clothing_trigger = no
 	OR = {
 		portrait_iranian_clothing_trigger = yes
 		AND = {
@@ -463,6 +454,7 @@ portrait_epe_islamic_iranian_clothing_trigger = { # Yusseter: From EPE 2025.11.2
 }
 portrait_epe_islamic_iranian_clothing_spouse_trigger = { # Yusseter: From EPE 2025.11.20
 	portrait_religious_muslim_trigger = yes
+	portrait_epe_eastern_turk_muslim_clothing_trigger = no
 	OR = {
 		portrait_iranian_clothing_spouse_trigger = yes
 		AND = {
@@ -472,6 +464,31 @@ portrait_epe_islamic_iranian_clothing_spouse_trigger = { # Yusseter: From EPE 20
 				portrait_era3_trigger = yes
 				portrait_era4_trigger = yes
 			}
+		}
+	}
+}
+
+portrait_mena_clothing_trigger = { # Yusseter: From CK3 2025.12.11
+	OR = {
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = scope:culture
+			CULTURE_FLAG = mena
+		}
+		AND = {
+			portrait_influenced_muslim_clothing_spouse_trigger = yes
+			portrait_era1_trigger = yes
+		}
+	}
+}
+portrait_mena_clothing_spouse_trigger = { # Yusseter: From CK3 2025.12.11
+	OR = {
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = culture
+			CULTURE_FLAG = mena
+		}
+		AND = {
+			portrait_influenced_muslim_clothing_spouse_trigger = yes
+			portrait_era1_trigger = yes
 		}
 	}
 }
@@ -503,58 +520,8 @@ portrait_dde_abbasid_clothing_spouse_trigger = { # Yusseter: From CK3 2025.12.11
 	has_dlc = "Fashion of the Abbasid Court"
 }
 
-portrait_mena_clothing_trigger = { # Yusseter: From CK3 2025.12.11
-	OR = {
-		portrait_shared_clothing_contents_trigger = {
-			CULTURE_SCOPE = scope:culture
-			CULTURE_FLAG = mena
-		}
-		AND = {
-			portrait_influenced_muslim_clothing_spouse_trigger = yes
-			portrait_era1_trigger = yes
-		}
-	}
-}
-portrait_mena_clothing_spouse_trigger = { # Yusseter: From CK3 2025.12.11
-	OR = {
-		portrait_shared_clothing_contents_trigger = {
-			CULTURE_SCOPE = culture
-			CULTURE_FLAG = mena
-		}
-		AND = {
-			portrait_influenced_muslim_clothing_spouse_trigger = yes
-			portrait_era1_trigger = yes
-		}
-	}
-}
-
-portrait_cfp_hungarian_clothing_trigger = { # Yusseter: From CFP 2025.12.11
-	OR = {
-		portrait_epe_western_turk_clothing_trigger = yes
-		AND = {
-			portrait_western_clothing_trigger = yes
-			culture = {
-				any_parent_culture_or_above = {
-					this = culture:mogyer
-				}
-			}
-		}
-	}
-	portrait_religious_christian_trigger = yes
-}
-portrait_cfp_hungarian_clothing_spouse_trigger = { # Yusseter: From CFP 2025.12.11
-	OR = {
-		portrait_epe_western_turk_clothing_spouse_trigger = yes
-		AND = {
-			portrait_western_clothing_spouse_trigger = yes
-			culture = {
-				any_parent_culture_or_above = {
-					this = culture:mogyer
-				}
-			}
-		}
-	}
-	portrait_religious_christian_trigger = yes
+portrait_religious_pagan_trigger = {
+	religion = { is_in_family = rf_pagan }
 }
 
 portrait_religious_muslim_trigger = { # Yusseter: From CK3 2025.12.11
@@ -565,8 +532,209 @@ portrait_religious_muslim_trigger = { # Yusseter: From CK3 2025.12.11
 	NOT = { faith = { portrait_religious_faith_or_foundational_trigger = { FAITH = faith:quranist } } }
 }
 
-portrait_religious_pagan_trigger = {
-	religion = { is_in_family = rf_pagan }
+portrait_influenced_muslim_clothing_trigger = {
+	portrait_religious_muslim_trigger = yes
+	OR = {
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = scope:culture
+			CULTURE_FLAG = epe_georgian
+		}
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = scope:culture
+			CULTURE_FLAG = epe_armenian
+		}
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = scope:culture
+			CULTURE_FLAG = epe_seljuk
+		}
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = scope:culture
+			CULTURE_FLAG = byzantine
+		}
+		AND = {
+			portrait_mongol_clothing_trigger = yes
+			OR = {
+				portrait_era3_trigger = yes
+				portrait_era4_trigger = yes
+			}
+		}
+		AND = {
+			portrait_shared_clothing_contents_trigger = {
+				CULTURE_SCOPE = scope:culture
+				CULTURE_FLAG = turkic
+			}
+			OR = {
+				portrait_era3_trigger = yes
+				portrait_era4_trigger = yes
+			}
+		}
+	}
+	trigger_if = {
+		limit = { exists = this	}
+		NOR = {
+			government_has_flag = government_has_herd
+			government_has_flag = government_has_merit
+		}
+	}
+}
+portrait_influenced_muslim_clothing_spouse_trigger = {
+	portrait_religious_muslim_trigger = yes
+	OR = {
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = culture
+			CULTURE_FLAG = epe_georgian
+		}
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = culture
+			CULTURE_FLAG = epe_armenian
+		}
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = culture
+			CULTURE_FLAG = epe_seljuk
+		}
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = culture
+			CULTURE_FLAG = byzantine
+		}
+		AND = {
+			portrait_mongol_clothing_trigger = yes
+			OR = {
+				portrait_era3_trigger = yes
+				portrait_era4_trigger = yes
+			}
+		}
+		AND = {
+			portrait_shared_clothing_contents_trigger = {
+				CULTURE_SCOPE = culture
+				CULTURE_FLAG = turkic
+			}
+			OR = {
+				portrait_era3_trigger = yes
+				portrait_era4_trigger = yes
+			}
+		}
+	}
+	NOR = {
+		government_has_flag = government_has_herd
+		government_has_flag = government_has_merit
+	}
+}
+
+portrait_siniticized_clothing_trigger = {
+	portrait_religious_muslim_trigger = no
+	trigger_if = {
+		limit = { exists = this }
+		NOR = {
+			government_has_flag = government_is_landless_adventurer
+			government_has_flag = government_is_herder
+		}
+	}
+	OR = {
+		government_has_flag = government_has_merit
+		religion = religion:confucianism_religion
+		religion = religion:taoism_religion
+		AND = {
+			OR = {
+				has_trait = confucian_education
+				culture = {
+					OR = {
+						has_cultural_tradition = tradition_RICE_silk_road
+						has_cultural_tradition = tradition_cultural_primacy
+						has_cultural_tradition = tradition_tgp_art_of_war
+						has_cultural_tradition = tradition_tgp_court_machinations
+						has_cultural_tradition = tradition_scholar_officials
+						has_cultural_tradition = tradition_cultivation
+						has_cultural_tradition = tradition_intensive_farming
+						has_cultural_pillar = heritage_chinese
+						has_cultural_pillar = language_chinese
+						has_cultural_parameter = language_branch_sinitic
+					}
+					NOT = { has_cultural_tradition = tradition_RICE_white_huns }
+				}
+				regional_portrait_trigger = { REGION = world_burma }
+				regional_portrait_trigger = { REGION = world_asia }
+				regional_portrait_trigger = { REGION = world_steppe_tarim }
+				regional_portrait_trigger = { REGION = world_central_asia }
+				regional_portrait_trigger = { REGION = world_steppe_east }
+				regional_portrait_trigger = { REGION = dlc_mpo_steppe_east_buryatia_addon }
+				regional_portrait_trigger = { REGION = dlc_mpo_steppe_east_andong_addon }
+			}
+			OR = {
+				religion = religion:buddhism_religion
+				religion = religion:dualism_religion
+				faith = { portrait_religious_faith_or_foundational_trigger = { FAITH = faith:nestorian } }
+			}
+		}
+	}
+}
+
+regional_portrait_trigger = {
+	OR = {
+		trigger_if = {
+			limit = { exists = capital_province }
+			capital_province = {
+				geographical_region = $REGION$
+			}
+		}
+		trigger_else_if = {
+			limit = { exists = primary_title.title_capital_county.title_province }
+			primary_title.title_capital_county.title_province = {
+				geographical_region = $REGION$
+			}
+		}
+
+		trigger_if = {
+			limit = { exists = host.capital_province }
+			host.capital_province = {
+				geographical_region = $REGION$
+			}
+		}
+		trigger_else_if = {
+			limit = { exists = host.primary_title.title_capital_county.title_province }
+			host.primary_title.title_capital_county.title_province = {
+				geographical_region = $REGION$
+			}
+		}
+
+		trigger_if = {
+			limit = { exists = liege.capital_province }
+			liege.capital_province = {
+				geographical_region = $REGION$
+			}
+		}
+		trigger_else_if = {
+			limit = { exists = liege.primary_title.title_capital_county.title_province }
+			liege.primary_title.title_capital_county.title_province = {
+				geographical_region = $REGION$
+			}
+		}
+
+		trigger_if = {
+			limit = { exists = top_liege.capital_province }
+			top_liege.capital_province = {
+				geographical_region = $REGION$
+			}
+		}
+		trigger_else_if = {
+			limit = { exists = top_liege.primary_title.title_capital_county.title_province }
+			top_liege.primary_title.title_capital_county.title_province = {
+				geographical_region = $REGION$
+			}
+		}
+
+		trigger_if = {
+			limit = { exists = location.province_owner.capital_province }
+			location.province_owner.capital_province = {
+				geographical_region = $REGION$
+			}
+		}
+		trigger_else_if = {
+			limit = { exists = location.province_owner.primary_title.title_capital_county.title_province }
+			location.province_owner.primary_title.title_capital_county.title_province = {
+				geographical_region = $REGION$
+			}
+		}
+	}
 }
 
 portrait_ep2_western_travel_cloak_trigger = { # Yusseter: From CK3 2025.11.20
@@ -602,7 +770,7 @@ portrait_ep2_western_travel_cloak_trigger = { # Yusseter: From CK3 2025.11.20
 		portrait_western_clothing_trigger = yes
 		portrait_northern_clothing_trigger = yes
 	}
-	trigger_if = { # Yusseter
+	trigger_if = {
 		limit = { exists = this	}
 		NOR = {
 			government_has_flag = government_is_nomadic

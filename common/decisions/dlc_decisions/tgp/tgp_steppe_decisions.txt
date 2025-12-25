@@ -56,6 +56,7 @@
 				text = is_your_faith_nestorian
 				faith = { portrait_religious_faith_or_foundational_trigger = { FAITH = faith:nestorian } }
 			}
+			has_trait = confucian_education
 			custom_tooltip = {
 				text = steppe_admin_china_kingdom_requirement
 				any_realm_de_jure_kingdom = {

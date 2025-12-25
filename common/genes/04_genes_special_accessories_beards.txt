@@ -884,7 +884,7 @@ special_genes = {
 				index = 37
 
 				male = {
-					1 = empty
+					2 = empty
 					5 = male_beard_steppe_01
 					5 = male_beard_steppe_02
 					5 = male_beard_custom_01
@@ -1360,6 +1360,7 @@ special_genes = {
 				index = 57
 
 				male = {
+					2 = empty				
 					5 = m_beard_tgp_chinese_01
 					5 = m_beard_tgp_chinese_02
 					5 = m_beard_tgp_chinese_03
@@ -1460,4 +1461,4 @@ special_genes = {
 	}
 }
 
-# Yusseter: From EPE + CFP 2025.11.13
+# Yusseter: From EPE + CFP 2025.12.15

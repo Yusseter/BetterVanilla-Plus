@@ -563,7 +563,7 @@ cfp_headgear_base = {
                 }
 			}
 			modifier = {
-				add = -10
+				factor = 0
 				OR = {
 					portrait_royalty_trigger = {  
 						CULTURE_INPUT = epe_west_slav 
@@ -576,6 +576,9 @@ cfp_headgear_base = {
 					}  
 					portrait_royalty_trigger = {
 						CULTURE_INPUT = epe_balto_finnic
+					}
+					portrait_royalty_trigger = {
+						CULTURE_INPUT = epe_bulgarian
 					}
 				}
 			}
@@ -608,7 +611,7 @@ cfp_headgear_base = {
                 }
 			}
 			modifier = {
-				add = -10
+				factor = 0
 				OR = {
 					portrait_royalty_trigger = {  
 						CULTURE_INPUT = epe_west_slav 
@@ -621,6 +624,9 @@ cfp_headgear_base = {
 					}  
 					portrait_royalty_trigger = {
 						CULTURE_INPUT = epe_balto_finnic
+					}
+					portrait_royalty_trigger = {
+						CULTURE_INPUT = epe_bulgarian
 					}
 				}
 			}
@@ -657,7 +663,7 @@ cfp_headgear_base = {
                 }
 			}
 			modifier = {
-				add = -10
+				factor = 0
 				OR = {
 					portrait_royalty_trigger = {  
 						CULTURE_INPUT = epe_west_slav 
@@ -670,6 +676,9 @@ cfp_headgear_base = {
 					}  
 					portrait_royalty_trigger = {
 						CULTURE_INPUT = epe_balto_finnic
+					}
+					portrait_royalty_trigger = {
+						CULTURE_INPUT = epe_bulgarian
 					}
 				}
 			}
@@ -1014,7 +1023,7 @@ cfp_headgear_base = {
 	}
 
 	# Yusseter 0
-	epe_turkic_royalty = { # Yusseter
+	cfp_turkic_royalty = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
@@ -1032,9 +1041,74 @@ cfp_headgear_base = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 100 # Should be picked over other ranked headgear
-				portrait_imperial_trigger = {
-                    CULTURE_INPUT = epe_eastern_turk 
+				add = 51 #Slightly Higher
+                portrait_royalty_trigger = {
+                    CULTURE_INPUT = epe_eastern_turk
+                }
+				NOT = {
+					portrait_royalty_trigger = { 
+                    CULTURE_INPUT = epe_western_turk
+                    }
+				}
+				NOT = {
+					portrait_royalty_trigger = { 
+                    CULTURE_INPUT = epe_seljuk
+                    }
+				}				
+				NOT = { # Yusseter
+					portrait_royalty_trigger = { 
+					CULTURE_INPUT = epe_uyghur_headgear
+					}
+				}			
+			}
+			modifier = {
+				add = 51 #Slightly Higher
+                portrait_royalty_trigger = {
+                    CULTURE_INPUT = epe_eastern_turk
+                }
+				NOT = {
+					portrait_royalty_trigger = { 
+                    CULTURE_INPUT = epe_western_turk
+                    }
+				}				
+				NOT = {
+					portrait_royalty_trigger = { 
+                    CULTURE_INPUT = epe_seljuk
+                    }
+				}
+				NOT = { # Yusseter
+					portrait_royalty_trigger = { 
+					CULTURE_INPUT = epe_uyghur_headgear
+					}
+				}
+				
+				is_female = yes				
+			}
+			modifier = {
+				add = 100 #Slightly Higher
+                portrait_imperial_trigger = {
+                    CULTURE_INPUT = epe_eastern_turk
+                }
+				NOT = {
+					portrait_imperial_trigger = { 
+                    CULTURE_INPUT = epe_western_turk
+                    }
+				}
+				NOT = {
+					portrait_imperial_trigger = { 
+                    CULTURE_INPUT = epe_seljuk
+                    }
+				}				
+				NOT = { # Yusseter
+					portrait_imperial_trigger = { 
+					CULTURE_INPUT = epe_uyghur_headgear
+					}
+				}			
+			}
+			modifier = {
+				add = 100 #Slightly Higher
+                portrait_imperial_trigger = {
+                    CULTURE_INPUT = epe_eastern_turk
                 }
 				NOT = {
 					portrait_imperial_trigger = { 
@@ -1047,24 +1121,123 @@ cfp_headgear_base = {
                     }
 				}
 				NOT = { # Yusseter
-					portrait_imperial_trigger = {
-					CULTURE_INPUT = epe_uyghur
+					portrait_imperial_trigger = { 
+					CULTURE_INPUT = epe_uyghur_headgear
 					}
 				}
-				is_female = no
-			
-                portrait_era1_trigger = yes 				
+				
+				is_female = yes				
 			}
 		}
 	}
 
-	eastern_turk_imperial_era1 = {
+	yb_uyghurized_royalty = { # Yusseter
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = headgear
+				template = uyghurized_royalty
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 51
+				portrait_epe_uyghur_headgear_clothing_trigger = no
+				portrait_royalty_trigger = {
+					CULTURE_INPUT = epe_uyghur
+				}
+			}
+			modifier = {
+				add = 100
+				portrait_epe_uyghur_headgear_clothing_trigger = no
+				portrait_imperial_trigger = {
+					CULTURE_INPUT = epe_uyghur
+				}
+			}
+		}
+	}
+
+	eastern_turk_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				# Yusseter 0
+				template = eastern_turk_royalty
+				range = { 0 1 }
+				#template = fp3_turkic_royalty
+				#range = { 0 0.21 } # For the randomness to work correctly
+				# Yusseter 1
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 51 #Slightly Higher
+                portrait_royalty_trigger = {
+                    CULTURE_INPUT = epe_eastern_turk
+                }
+				NOT = {
+					portrait_royalty_trigger = { 
+                    CULTURE_INPUT = epe_western_turk
+                    }
+				}
+				NOT = {
+					portrait_royalty_trigger = { 
+                    CULTURE_INPUT = epe_seljuk
+                    }
+				}				
+				NOT = { # Yusseter
+					portrait_royalty_trigger = { 
+					CULTURE_INPUT = epe_uyghur
+					}
+				}			
+			}
+			modifier = {
+				add = 51 #Slightly Higher
+                portrait_royalty_trigger = {
+                    CULTURE_INPUT = epe_eastern_turk
+                }
+				NOT = {
+					portrait_royalty_trigger = { 
+                    CULTURE_INPUT = epe_western_turk
+                    }
+				}				
+				NOT = {
+					portrait_royalty_trigger = { 
+                    CULTURE_INPUT = epe_seljuk
+                    }
+				}
+				NOT = { # Yusseter
+					portrait_royalty_trigger = { 
+					CULTURE_INPUT = epe_uyghur
+					}
+				}
+				
+				is_female = yes				
+			}
+		}
+	}
+
+	eastern_turk_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				# Yusseter 0
 				template = eastern_turk_imperial
 				range = { 0 1 }
+				#template = fp3_turkic_imperial
+				#range = { 0 0.20 } # For the randomness to work correctly
+				# Yusseter 1
 			}
 			accessory = {
 				mode = add
@@ -1090,8 +1263,11 @@ cfp_headgear_base = {
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-			
-                portrait_era1_trigger = yes 				
+				NOT = { # Yusseter
+					portrait_imperial_trigger = { 
+					CULTURE_INPUT = epe_uyghur
+					}
+				}			
 			}
 			modifier = {
 				add = 100 # Should be picked over other ranked headgear
@@ -1108,9 +1284,13 @@ cfp_headgear_base = {
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
+				NOT = { # Yusseter
+					portrait_imperial_trigger = { 
+					CULTURE_INPUT = epe_uyghur
+					}
+				}
 			
 				is_female = yes
-                portrait_era1_trigger = yes 				
 			}
 		}
 	}
@@ -1834,5 +2014,5 @@ cfp_headgear_base = {
 	}
 
 }
-
-# Yusseter: From EPE + CFP 2025.11.13
+	
+# Yusseter: From EPE + CFP 2025.12.15

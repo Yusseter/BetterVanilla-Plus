@@ -7238,43 +7238,24 @@ template situation_tooltip {
 					datacontext = "[Situation.GetTopSubRegion.GetCurrentPhase]"
 					layoutpolicy_horizontal = expanding
 
-					textbox = {
-						name = "main_description"
-						layoutpolicy_horizontal = expanding
-						max_width = 400
-						margin = { 0 5 }
-						using = DefaultTooltipText
-						multiline = yes
+					cooltip_paragraph = {
+						visible = "[Situation.GetParticipantGroupByCharacter( GetPlayer.Self ).IsValid]"
 						text = "SITUATION_TOOLTIP_INVOLVEMENT"
-						fonttintcolor = "[TooltipInfo.GetTintColor]"
-						alwaystransparent = no
 					}
 
-					textbox = {
-						layoutpolicy_horizontal = expanding
-						max_width = 400
-						margin = { 0 5 }
-
-						using = DefaultTooltipText
-						multiline = yes
-						fonttintcolor = "[TooltipInfo.GetTintColor]"
-						alwaystransparent = no
-
+					cooltip_paragraph = {
 						text = "SITUATION_TOOLTIP_CURRENT_PHASE"
 					}
 
-					textbox = {
-						layoutpolicy_horizontal = expanding
-						max_width = 400
-						margin = { 0 5 }
+					cooltip_paragraph = {
+						text = "SITUATION_START_DATE"
+					}
 
-						using = DefaultTooltipText
-						multiline = yes
-						fonttintcolor = "[TooltipInfo.GetTintColor]"
-						alwaystransparent = no
-
+					cooltip_paragraph = {
+						margin_top = 10
 						text = "CLICK_TO_VIEW"
 					}
+
 				}
 			}
 
@@ -9948,4 +9929,4 @@ container = {
 	using = great_project_tooltip
 }
 
-# Yusseter: From CK3 2025.11.12
+# Yusseter: From CK3 2025.12.12

@@ -4417,7 +4417,7 @@
 
 		special_selection = {
 			trigger = {
-				house ?= { has_base_name = "dynn_Ximen_897F" }
+				house ?= { has_base_name = "dynn_Xi_897F" }
 			}
 			100 = "ce_seal_name_xi_897f.dds"
 		}
@@ -4696,4 +4696,4 @@
 	}
 }
 
-# Yusseter: From CK3 2025.11.14
+# Yusseter: From CK3 2025.12.12

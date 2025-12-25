@@ -23,30 +23,52 @@
 	}
 
 	every_living_character = {
-		every_courtier_or_guest = {
-			if = {
-				limit = {
-					exists = culture:mandaic
-					culture = culture:nabati
-				}
-				set_culture = culture:mandaic
+		if = {
+			limit = {
+				exists = culture:mandaic
+				culture = culture:nabati
 			}
+			set_culture = culture:mandaic
+		}
 
-			if = {
-				limit = {
-					exists = culture:east_galindian
-					culture = culture:goliad
-				}
-				set_culture = culture:east_galindian
+		if = {
+			limit = {
+				exists = culture:east_galindian
+				culture = culture:goliad
 			}
+			set_culture = culture:east_galindian
+		}
 
-			if = {
-				limit = {
-					exists = faith:slavic_east
-					faith = faith:slavic_pagan
-				}
-				set_character_faith = faith:slavic_east
+		if = {
+			limit = {
+				exists = culture:adhari
+				culture = culture:tat
 			}
+			set_culture = culture:adhari
+		}
+
+		if = {
+			limit = {
+				exists = culture:main_saka
+				culture = culture:khotanese
+			}
+			set_culture = culture:saka
+		}
+
+		if = {
+			limit = {
+				exists = culture:turco_hephthalite
+				culture = culture:tokhari
+			}
+			set_culture = culture:turco_hephthalite
+		}
+
+		if = {
+			limit = {
+				exists = faith:slavic_east
+				faith = faith:slavic_pagan
+			}
+			set_character_faith = faith:slavic_east
 		}
 	}
 }
@@ -67,7 +89,7 @@ yb_title_setup_effects = {
 	if = {
 		limit = { game_start_date >= 1060.1.1 }
 
-		title:k_caspian-steppe = { set_de_jure_liege_title = title:e_caspian-pontic_steppe } #k_kimek
+		title:k_caspian_steppe = { set_de_jure_liege_title = title:e_caspian-pontic_steppe } #k_kimek
 	}
 
 	if = {
@@ -109,7 +131,6 @@ yb_county_setup_effects = {
 				exists = culture:mandaic
 				culture = culture:nabati
 			}
-
 			set_county_culture = culture:mandaic
 		}
 
@@ -118,8 +139,31 @@ yb_county_setup_effects = {
 				exists = culture:east_galindian
 				culture = culture:goliad
 			}
-
 			set_county_culture = culture:east_galindian
+		}
+
+		if = {
+			limit = {
+				exists = culture:adhari
+				culture = culture:tat
+			}
+			set_county_culture = culture:adhari
+		}
+
+		if = {
+			limit = {
+				exists = culture:main_saka
+				culture = culture:khotanese
+			}
+			set_county_culture = culture:saka
+		}
+
+		if = {
+			limit = {
+				exists = culture:turco_hephthalite
+				culture = culture:tokhari
+			}
+			set_county_culture = culture:turco_hephthalite
 		}
 
 		if = {
@@ -214,7 +258,7 @@ yb_county_setup_effects = {
 
 	if = {
 		limit = {
-			game_start_date >= 1140.1.1 
+			game_start_date >= 1121.1.1 
 			game_start_date < 1295.1.1 
 		}
 
@@ -285,9 +329,43 @@ yb_culture_setup_effects = {
 				exists = culture:main_saka
 				NOT = { exists = culture:khotanese }
 			}
+			exists = culture_tradition:tradition_RICE_silk_road
 		}
 		culture:saka = {
 			add_culture_tradition = tradition_RICE_silk_road
+			remove_variable = tradition_cooldown
+		}
+	}
+
+	if = {
+		limit = {
+			exists = culture:bactrian
+			exists = culture_tradition:tradition_RICE_silk_road
+		}
+		culture:bactrian = {
+			add_culture_tradition = tradition_RICE_silk_road
+			remove_variable = tradition_cooldown
+		}
+	}
+
+	if = {
+		limit = {
+			exists = culture:hephthalite
+			exists = culture_tradition:tradition_RICE_white_huns
+		}
+		culture:bactrian = {
+			add_culture_tradition = tradition_RICE_white_huns
+			remove_variable = tradition_cooldown
+		}
+	}
+
+	if = {
+		limit = {
+			exists = culture:turco_hephthalite
+			exists = culture_tradition:tradition_RICE_white_huns
+		}
+		culture:bactrian = {
+			add_culture_tradition = tradition_RICE_white_huns
 			remove_variable = tradition_cooldown
 		}
 	}
@@ -359,6 +437,16 @@ yb_culture_setup_effects = {
 		culture:oirat = { set_culture_pillar = ethos_communal }
 	}
 
+	culture:asturleonese = {
+		set_culture_name = {
+			noun = "asturleonese"
+			prefix = "asturleonese_prefix"
+			collective_noun = "asturleonese_collective_noun"
+		}
+	}
+}
+
+yb_cultural_head_setup_effects = {
 	if = {
 		limit = { has_mpo_dlc_trigger = yes }
 
@@ -372,17 +460,10 @@ yb_culture_setup_effects = {
 		}
 		recalculate_cultural_heads_of_type = herd
 	}
-
-	culture:asturleonese = {
-		set_culture_name = {
-			noun = "asturleonese"
-			prefix = "asturleonese_prefix"
-			collective_noun = "asturleonese_collective_noun"
-		}
-	}
+	recalculate_cultural_heads_of_type = domain
 }
 
-yb_game_rule_setup_effects = {
+yb_game_rule_effects = {
 	if = {
 		limit = {
 			game_start_date > 1095.11.27

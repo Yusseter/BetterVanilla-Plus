@@ -48,7 +48,7 @@ south_slavs_main = {
 	shown_in_encyclopedia = no
 	alias = { south_slavs southslavic sclavenian sclavenians }
 }
-
+	
 pannonian_slavs_main = {
 	shown_in_encyclopedia = no
 	alias = { pannonian_slavs pannonianslavic }

@@ -736,12 +736,43 @@ hairstyles = {
 				#NOT = {
 				# 	portrait_epe_seljuk_clothing_trigger = yes
 				#}
-				#NOT = {
-				# 	portrait_epe_uyghur_clothing_trigger = yes
-				#}
 				# Yusseter 1
 				has_mpo_dlc_trigger = yes 
 			}
+			modifier = {
+				add = 55
+				OR = {
+					NOT = { exists = this }
+					has_gene = {
+						category = gene_hair_type
+						template = hair_straight
+					}
+					has_gene = {
+						category = gene_hair_type
+						template = hair_straight_thin_beard
+					}
+					
+					has_gene = {
+						category = gene_hair_type
+						template = hair_straight_no_beard
+					}						
+					has_gene = {
+						category = gene_hair_type
+						template = hair_straight_thin_beard
+					}					
+				}
+                OR = {
+                    #portrait_epe_uyghur_clothing_trigger = yes # Yusseter
+                    portrait_epe_sino_iranian_clothing_trigger = yes   				 
+                }					
+                OR = {
+                    portrait_era3_trigger = yes  
+                    portrait_era4_trigger = yes   				 
+                }					
+				is_female = yes
+				has_mpo_dlc_trigger = yes 
+				has_tgp_dlc_trigger = yes
+			}			
 		}
 	}
 
@@ -2896,6 +2927,7 @@ hairstyles = {
 					}
 				}
 				portrait_yb_siberian_steppe_clothing_trigger = yes
+				portrait_siniticized_clothing_trigger = no
                 has_fp1_dlc_trigger = yes
 			}
 			modifier = { # Yusseter
@@ -2915,6 +2947,7 @@ hairstyles = {
 					}
 				}
 				portrait_yb_siberian_steppe_clothing_trigger = yes
+				portrait_siniticized_clothing_trigger = no
                 has_fp1_dlc_trigger = yes
 			}
         }
@@ -4311,6 +4344,42 @@ hairstyles = {
 					}
 				}
 				portrait_epe_uyghur_clothing_trigger = yes
+				has_tgp_dlc_trigger = no			
+				
+			}			
+			modifier = {
+				add = 120 # Yusseter: 70
+				OR = {
+					has_gene = {
+						category = gene_hair_type
+						template = hair_straight
+					}
+					has_gene = {
+						category = gene_hair_type
+						template = hair_straight_no_beard
+					}
+					has_gene = {
+						category = gene_hair_type
+						template = hair_straight_thin_beard
+					}
+					has_gene = {
+						category = gene_hair_type
+						template = hair_wavy
+					}
+					has_gene = {
+						category = gene_hair_type
+						template = hair_wavy_no_beard
+					}
+				}
+				portrait_epe_uyghur_clothing_trigger = yes
+				NOT = {
+					portrait_epe_gokalpbags_clothing_trigger = yes	
+				}				
+				has_tgp_dlc_trigger = yes				
+                #OR = { # Yusseter
+                #    portrait_era1_trigger = yes  					
+                #    portrait_era2_trigger = yes  				 
+                #}				
 			}
 			modifier = {
 				add = 85
@@ -4337,15 +4406,16 @@ hairstyles = {
 					}
 				}
 				is_female = yes
-				portrait_steppe_clothing_trigger = yes
-				OR = {
-					culture = culture:khitan
-					culture = {
-						any_parent_culture_or_above = {
-							this = culture:khitan
-						}
-					}
-				}				
+                portrait_epe_khitan_clothing_trigger = yes # Yusseter
+				#portrait_steppe_clothing_trigger = yes
+				#OR = {
+				#	culture = culture:khitan
+				#	culture = {
+				#		any_parent_culture_or_above = {
+				#			this = culture:khitan
+				#		}
+				#	}
+				#}				
 			}			
 		}
 	}
@@ -5189,7 +5259,27 @@ hairstyles = {
 						NOT = {
 							portrait_epe_sino_iranian_chinese_clothing_trigger = yes	
 						    }
+                        OR = {
+                            portrait_era1_trigger = yes  					
+                            portrait_era2_trigger = yes  				 
+                          }							
 						}
+					AND = {
+						portrait_epe_sino_iranian_clothing_trigger = yes
+						has_tgp_dlc_trigger = yes
+                        OR = {					
+                            portrait_era3_trigger = yes  
+                            portrait_era4_trigger = yes   							 
+                          }							
+						}
+					AND = {
+						portrait_epe_uyghur_clothing_trigger = yes
+						has_tgp_dlc_trigger = yes
+                        OR = {					
+                            portrait_era3_trigger = yes  
+                            portrait_era4_trigger = yes   							 
+                          }							
+						}						
 					AND = {
 						portrait_epe_sino_iranian_clothing_trigger = yes
 						has_tgp_dlc_trigger = no
@@ -5232,7 +5322,27 @@ hairstyles = {
 						NOT = {
 							portrait_epe_sino_iranian_chinese_clothing_trigger = yes	
 						    }
+                        OR = {
+                            portrait_era1_trigger = yes  					
+                            portrait_era2_trigger = yes  				 
+                          }							
 						}
+					AND = {
+						portrait_epe_sino_iranian_clothing_trigger = yes
+						has_tgp_dlc_trigger = yes
+                        OR = {					
+                            portrait_era3_trigger = yes  
+                            portrait_era4_trigger = yes   							 
+                          }							
+						}
+					AND = {
+						portrait_epe_uyghur_clothing_trigger = yes
+						has_tgp_dlc_trigger = yes
+                        OR = {					
+                            portrait_era3_trigger = yes  
+                            portrait_era4_trigger = yes   							 
+                          }							
+						}						
 					AND = {
 						portrait_epe_sino_iranian_clothing_trigger = yes
 						has_tgp_dlc_trigger = no
@@ -5311,7 +5421,26 @@ hairstyles = {
 					portrait_commoner_trigger = { CULTURE_INPUT = epe_sino_iranian }
                     is_lowborn = yes 
 				}				
-				portrait_epe_sino_iranian_clothing_trigger = yes					
+				OR = {
+					AND = {
+						portrait_epe_sino_iranian_clothing_trigger = yes
+						has_tgp_dlc_trigger = yes
+						
+						}
+					AND = {
+						portrait_epe_uyghur_clothing_trigger = yes
+						has_tgp_dlc_trigger = yes
+                        OR = {					
+                            portrait_era3_trigger = yes  
+                            portrait_era4_trigger = yes   							 
+                          }							
+						}						
+					AND = {
+						portrait_epe_sino_iranian_clothing_trigger = yes
+						has_tgp_dlc_trigger = no
+						}
+						
+				}								
 				
             }
         }
@@ -5436,7 +5565,10 @@ hairstyles = {
 						template = hair_wavy_no_beard
 					}					
 				}
-				#portrait_era1_trigger = yes	
+                OR = {
+                    portrait_era1_trigger = yes  					
+                    portrait_era2_trigger = yes  				 
+                }
 				portrait_epe_sino_iranian_chinese_clothing_trigger = yes
 				has_tgp_dlc_trigger = yes
 				NOT = {
@@ -5481,9 +5613,14 @@ hairstyles = {
 						category = gene_hair_type
 						template = hair_wavy_no_beard
 					}
+					
 				}
 				portrait_epe_sino_iranian_chinese_clothing_trigger = yes
 				has_tgp_dlc_trigger = yes
+                OR = {
+                    portrait_era1_trigger = yes  					
+                    portrait_era2_trigger = yes  				 
+                }	
 				NOT = {
 					portrait_commoner_trigger = { CULTURE_INPUT = epe_sino_iranian }
 				}				
@@ -5498,4 +5635,4 @@ hairstyles = {
 	
 }
 
-# Yusseter: From EPE 2025.11.19
+# Yusseter: From EPE 2025.12.15

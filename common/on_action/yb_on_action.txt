@@ -1,4 +1,5 @@
 ﻿on_game_start = { on_actions = { yb_setup } }
+on_game_start_after_lobby = { on_actions = { yb_after_lobby } }
 
 yb_setup = {
 	effect = {
@@ -6,6 +7,12 @@ yb_setup = {
 		yb_title_setup_effects = yes
 		yb_county_setup_effects = yes
 		yb_culture_setup_effects = yes
-		yb_game_rule_setup_effects = yes
+	}
+}
+
+yb_after_lobby = {
+	effect = {
+		yb_cultural_head_setup_effects = yes
+		yb_game_rule_effects = yes
 	}
 }
