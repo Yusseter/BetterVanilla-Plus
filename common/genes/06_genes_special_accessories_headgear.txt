@@ -7590,7 +7590,7 @@ special_genes = {
 				}
 				female = {
 					8 = empty
-					2 = f_epe_sino_iranian_cap_01_lo
+					2 = Female_Khanum_Headress_01_uyghur
 				}
 				boy = male
 				girl = female
@@ -7599,14 +7599,13 @@ special_genes = {
 			uyghur_high_nobility = {
 				index = 238
 				male = {
-					1 = male_Turkic_Fur_Cap_04
-					1 = male_Turkic_Fur_Cap_05
-					1 = m_Turkic_Fur_Cap_02_uyghur_lo
-					1 = male_headgear_sino_iranian_cap_01_high
-					6 = male_Uyghur_Noble_Headwear_01
+					2 = male_Turkic_Fur_Cap_04
+					2 = male_Turkic_Fur_Cap_05
+					2 = m_Turkic_Fur_Cap_02_uyghur_lo
+					2 = male_headgear_sino_iranian_cap_01_high
 				}
 				female = {
-					1 = f_epe_sino_iranian_cap_01_lo
+					1 = f_headgear_sec_tgp_chinese_hi_nob_01
 					2 = female_headgear_secular_chinese_nobility_01
 					1 = female_headgear_secular_chinese_nobility_01a
 					1 = female_headgear_secular_chinese_nobility_01b
@@ -7895,9 +7894,7 @@ special_genes = {
 				}
 				female = {
 					8 = empty
-					2 = f_epe_sino_iranian_cap_01_lo
 					2 = f_headgear_sec_mpo_mongol_com_01
-					4 = f_headgear_sec_mpo_mongol_nob_01
 				}
 				boy = male
 				girl = female
@@ -7906,16 +7903,14 @@ special_genes = {
 			uyghurized_high_nobility = {
 				index = 250
 				male = {
-					1 = male_Turkic_Fur_Cap_04
-					1 = male_Turkic_Fur_Cap_05
-					1 = m_Turkic_Fur_Cap_02_uyghur_lo
-					1 = male_headgear_sino_iranian_cap_01_high
-					6 = male_Uyghur_Noble_Headwear_01
+					2 = male_Turkic_Fur_Cap_04
+					2 = male_Turkic_Fur_Cap_05
+					2 = m_Turkic_Fur_Cap_02_uyghur_lo
+					2 = male_headgear_sino_iranian_cap_01_high
 				}
 				female = {
-					2 = f_epe_sino_iranian_cap_01_lo
-					2 = f_headgear_sec_mpo_mongol_com_01
-					4 = f_headgear_sec_mpo_mongol_nob_01
+					3 = Female_Khanum_Headress_smiling_khatun
+					7 = f_headgear_sec_mpo_mongol_nob_01
 				}
 				boy = male
 				girl = female
@@ -7933,6 +7928,18 @@ special_genes = {
 					1 = Female_Khanum_Headress_02
 					2 = Female_Khanum_Headress_01_uyghur
 					2 = Female_Khanum_Headress_02_uyghur
+				}
+				boy = male
+				girl = female
+			}
+
+			uyghur_official_high_nobility = {
+				index = 252
+				male = {
+					2 = male_Uyghur_Noble_Headwear_01
+				}
+				female = {
+					2 = empty
 				}
 				boy = male
 				girl = female

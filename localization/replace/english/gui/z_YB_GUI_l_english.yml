@@ -516,8 +516,8 @@
  game_concept_athorayas_main: ""
  game_concept_athorayas_main_desc: "#F The Asorians were an ancient people of Mesopotamia, better known as the inhabitants of the Assyrian Empire. Rising to prominence in the IInd millennium$GAME_DATE_STRING_ERA_BCE$, they established one of the first great imperial powers of the Near East, dominating the region through their advanced military tactics and administrative systems.\n\nEven after the fall of the Neo-Assyrian Empire, the Asorians maintained their distinct identity, persisting as a cultural and linguistic community throughout Mesopotamian history.#!"
 
- game_concept_bedouin: "$main_bedouin$"
- game_concept_bedouins: "$main_bedouin_collective_noun$"
+ game_concept_bedouin: "$bedouin$"
+ game_concept_bedouins: "$bedouin$"
  game_concept_arabized: "Arabized"
  game_concept_arabic: "Arabic"
  game_concept_arab: "Arab"

@@ -19,3 +19,14 @@ demonym_culture_names_rule = {
 
 	default = demonym_culture_name_not_allowed
 }
+
+nomadic_numbers = {
+	categories = {
+		flavor historicity culture
+	}
+
+	nomadic_numbers_are_allowed = {}
+	nomadic_numbers_are_not_allowed = {}
+
+	default = nomadic_numbers_are_not_allowed
+}

@@ -46,17 +46,10 @@ call_for_confederation_decision = {
 			limit = {
 				government_has_flag = government_is_nomadic
 			}
-			custom_tooltip = { # Yusseter
-				text = dominate_title_trigger_dominance_4
-				OR = {
-					has_realm_law = nomadic_authority_5
-					has_realm_law = nomadic_authority_4
-				}
+			OR = {
+				has_realm_law = nomadic_authority_1
+				has_realm_law = nomadic_authority_2
 			}
-			#OR = {
-			#	has_realm_law = nomadic_authority_1
-			#	has_realm_law = nomadic_authority_2
-			#}
 		}
 		trigger_else = {
 			OR = {
@@ -65,10 +58,10 @@ call_for_confederation_decision = {
 				has_realm_law = tribal_authority_2
 			}
 		}
-		NOR = {
-			has_trait = conqueror
-			has_trait = greatest_of_khans
-		}
+		#NOR = { # Yusseter
+		#	has_trait = conqueror
+		#	has_trait = greatest_of_khans
+		#}
 		trigger_if = {
 			limit = {
 				NOT = {
@@ -114,6 +107,10 @@ call_for_confederation_decision = {
 			is_migrating = no
 			NOT = { has_trait = infirm }
 		}
+		NOR = { # Yusseter
+			has_trait = conqueror
+			has_trait = greatest_of_khans
+		}
 	}
 
 	cost = {
@@ -153,6 +150,19 @@ call_for_confederation_decision = {
 		piety = {
 			value = {
 				add = 250
+				if = { # Yusseter
+					limit = { is_nomad = yes }
+					multiply = 0.4
+				}
+			}
+		}
+		herd = { # Yusseter
+			value = {
+				add = 0
+				if = {
+					limit = { is_nomad = yes }
+					add = domicile.minor_herd_value
+				}
 			}
 		}
 	}
@@ -188,6 +198,7 @@ call_for_confederation_decision = {
 			custom_tooltip = confederation_leaving_warning_tt
 		}
 		trigger_event = mpo_decisions_events.0001
+		hidden_effect = { trigger_event = confederation_naming.0001 } # Yusseter 
 	}
 
 	ai_potential = {
@@ -390,6 +401,11 @@ call_for_confederation_decision = {
 			any_confederation = {
 				has_variable = confederation_culture
 				var:confederation_culture = root.culture
+				trigger_if = { # Yusseter
+					limit = { has_variable = random_prefix_number }
+					has_variable = random_prefix_number
+					var:random_prefix_number = root.var:random_prefix_number
+				}
 			}
 			factor = 0.05
 		}
@@ -1487,6 +1503,13 @@ leave_confederation_decision = {
 				var:confederation_culture = {
 					this = root.culture
 				}
+				trigger_if = { # Yusseter
+					limit = { has_variable = random_prefix_number }
+					has_variable = random_prefix_number
+					var:random_prefix_number = {
+						this = confederation.var:random_prefix_number
+					}
+				}
 			}
 			add = -20
 		}
@@ -1495,6 +1518,13 @@ leave_confederation_decision = {
 				has_variable = confederation_culture
 				var:confederation_culture = {
 					NOT = { this = root.culture }
+				}
+				trigger_if = { # Yusseter
+					limit = { has_variable = random_prefix_number }
+					has_variable = random_prefix_number
+					var:random_prefix_number = {
+						NOT = { this = confederation.var:random_prefix_number }
+					}
 				}
 			}
 			add = 20
@@ -6354,40 +6384,6 @@ confederation_kingdom_decision = {
 	is_valid = {
 		prestige_level >= 3
 		is_independent_ruler = yes
-		custom_description = {
-			text = confederation_kingdom_decision_vassal_req
-			confederation = {
-				any_confederation_member = {
-					highest_held_title_tier >= tier_county
-					count >= 5
-				}
-			}
-		}
-		custom_tooltip = {
-			text = confederation_kingdom_decision_vassal_opinion_req
-			NOT = {
-				confederation = {
-					any_confederation_member = {
-						this != root
-						opinion = {
-							target = root
-							value < 25
-						}
-					}
-				}
-			}
-		}
-		custom_tooltip = {
-			text = confederation_kingdom_decision_vassal_prestige_level_req
-			NOT = {
-				confederation = {
-					any_confederation_member = {
-						this != root
-						prestige_level >= root.prestige_level
-					}
-				}
-			}
-		}
 	}
 
 	is_valid_showing_failures_only = {
@@ -6449,6 +6445,7 @@ confederation_kingdom_decision = {
 						add_to_list = confederation_vassals
 					}
 				}
+				save_scope_as = old_confederation # Yusseter
 			}
 			primary_title = {
 				save_scope_as = old_title
@@ -6456,7 +6453,7 @@ confederation_kingdom_decision = {
 			save_scope_as = confederation_offerer
 			create_dynamic_title = {
 				tier = kingdom
-				name = CONFEDERATION_CULTURE_NAME
+				name = CONFEDERATION_CULTURE_NOUN # Yusseter: CONFEDERATION_CULTURE_NAME
 				adj = CONFEDERATION_CULTURE_NAME_ADJ
 				article = article_CONFEDERATION_CULTURE_NAME
 			}
@@ -6464,6 +6461,13 @@ confederation_kingdom_decision = {
 				set_variable = {
 					name = confederation_culture
 					value = scope:confederation_offerer.culture
+				}
+				if = { # Yusseter
+					limit = { scope:confederation_offerer = { government_has_flag = government_is_nomadic } }
+					set_variable = {
+						name = random_prefix_number
+						value = scope:confederation_offerer.confederation.var:random_prefix_number
+					}
 				}
 			}
 			scope:new_title = {

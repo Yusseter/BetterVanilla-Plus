@@ -2824,11 +2824,8 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-				NOT = { # Yusseter
-					portrait_royalty_clothing_trigger = {
-					CULTURE_INPUT = epe_uyghur
-					}
-				}
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
+				portrait_epe_khitan_clothing_trigger = no # Yusseter
 				
 				
             }
@@ -2879,11 +2876,7 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-				NOT = { # Yusseter
-					portrait_imperial_clothing_trigger = {
-					CULTURE_INPUT = epe_uyghur
-					}
-				}
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
                 OR = { # Yusseter
                     portrait_era3_trigger = yes
                     portrait_era4_trigger = yes

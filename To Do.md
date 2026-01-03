@@ -156,6 +156,10 @@
  - if culture head isnt dynasty head make it dynasty head
  * ce culture effects
  - decision about if oghuz + muslim = turkmen
+ - add localization :number support
+ * aceh muslims
+ * cat branch coa s
+ - more confederation names `khamag, oq, oghuz`
 
 # Later
  * titles

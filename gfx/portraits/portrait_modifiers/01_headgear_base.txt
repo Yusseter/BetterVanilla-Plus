@@ -6386,6 +6386,7 @@ headgear_base = {
 			modifier = {
 				add = 80
 				# Yusseter 0
+				is_independent_ruler = no
                 portrait_commoner_headgear_fallback_trigger = {
                     CULTURE_INPUT = epe_khitan
                 }
@@ -6454,6 +6455,7 @@ headgear_base = {
 			modifier = {
 				add = 80
 				# Yusseter 0
+				is_independent_ruler = no
                 portrait_commoner_headgear_fallback_trigger = {
                     CULTURE_INPUT = epe_khitan
                 }
@@ -6480,17 +6482,22 @@ headgear_base = {
 			}
 			modifier = {
 				add = 55
+				# Yusseter 0
                 portrait_commoner_clothing_trigger = {
-                    CULTURE_INPUT = steppe
+                    CULTURE_INPUT = epe_khitan
                 }
-				OR = {
-					culture = culture:khitan
-					culture = {
-						any_parent_culture_or_above = {
-							this = culture:khitan
-						}
-					}
-				}				
+                #portrait_commoner_clothing_trigger = {
+                #    CULTURE_INPUT = steppe
+                #}
+				#OR = {
+				#	culture = culture:khitan
+				#	culture = {
+				#		any_parent_culture_or_above = {
+				#			this = culture:khitan
+				#		}
+				#	}
+				#}				
+				# Yusseter 1
 				is_female = no
 				has_tgp_dlc_trigger = no				
 			}
@@ -6559,6 +6566,7 @@ headgear_base = {
 			modifier = {
 				add = 100
 				# Yusseter 0
+				is_independent_ruler = no
                 portrait_low_nobles_clothing_trigger = {
                     CULTURE_INPUT = epe_khitan
                 }
@@ -6598,6 +6606,7 @@ headgear_base = {
 			base = 0
 			modifier = {
 				add = 100
+				is_independent_ruler = no # Yusseter
 				portrait_high_nobles_headgear_trigger = { # Yusseter
 					CULTURE_INPUT = epe_khitan
 				}
@@ -6647,6 +6656,7 @@ headgear_base = {
 			base = 0
 			modifier = {
 				add = 100
+				is_independent_ruler = no # Yusseter
 				portrait_high_nobles_headgear_trigger = { # Yusseter
 					CULTURE_INPUT = epe_khitan
 				}
@@ -6706,6 +6716,7 @@ headgear_base = {
 				}
 				has_mpo_dlc_trigger = yes		
 				# Yusseter 0
+				portrait_epe_eastern_turk_clothing_trigger = no
 				portrait_siniticized_clothing_trigger = no
                 OR = {
 					portrait_era2_trigger = yes
@@ -15975,25 +15986,12 @@ ccp4_ugro_permian_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 100
+				add = 51
 				portrait_religious_muslim_trigger = yes
-				OR = {
-					AND = {
-						portrait_royalty_clothing_trigger = {
-							CULTURE_INPUT = epe_eastern_turk_muslim
-						}
-						portrait_era4_trigger = yes
-					}
-					AND = {
-						portrait_royalty_clothing_trigger = {
-							CULTURE_INPUT = epe_seljuk
-						}
-						OR = {
-							portrait_era3_trigger = yes
-							portrait_era4_trigger = yes
-						}
-					}
+				portrait_royalty_clothing_trigger = {
+					CULTURE_INPUT = epe_seljuk
 				}
+				portrait_era4_trigger = yes
 			}
 		}
 	}
@@ -16010,17 +16008,27 @@ ccp4_ugro_permian_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 100
 				portrait_epe_uyghur_headgear_clothing_trigger = no
-				portrait_low_nobles_clothing_trigger = {
-					CULTURE_INPUT = epe_uyghur
+				OR = {
+					portrait_low_nobles_clothing_trigger = {
+						CULTURE_INPUT = epe_uyghur
+					}
+					portrait_low_nobles_clothing_trigger = {
+						CULTURE_INPUT = epe_khitan
+					}
 				}
 			}
 			modifier = {
-				add = 60
+				add = 120
 				portrait_epe_uyghur_headgear_clothing_trigger = no
-				portrait_mayor_headgear_trigger = {
-					CULTURE_INPUT = epe_uyghur
+				OR = {
+					portrait_mayor_headgear_trigger = {
+						CULTURE_INPUT = epe_uyghur
+					}
+					portrait_mayor_headgear_trigger = {
+						CULTURE_INPUT = epe_khitan
+					}
 				}
 			}
 		}
@@ -16038,11 +16046,41 @@ ccp4_ugro_permian_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 90
 				portrait_epe_uyghur_headgear_clothing_trigger = no
+				OR = {
+					portrait_high_nobles_headgear_trigger = {
+						CULTURE_INPUT = epe_uyghur
+					}
+					portrait_high_nobles_headgear_trigger = {
+						CULTURE_INPUT = epe_khitan
+					}
+				}
+			}
+		}
+	}
+
+	uyghur_official_high_nobility = { # Yusseter
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = uyghur_official_high_nobility
+				accessory = male_Uyghur_Noble_Headwear_01
+			}
+		}
+		weight = {
+			base = 0
+
+			modifier = {
+				add = 100
+				is_female = no
+				is_ruler = no
+				NOT = { exists = primary_title }
 				portrait_high_nobles_headgear_trigger = {
 					CULTURE_INPUT = epe_uyghur
 				}
+				has_tgp_dlc_trigger = yes
 			}
 		}
 	}
@@ -16324,11 +16362,8 @@ ccp4_ugro_permian_high_nobles = {
                     CULTURE_INPUT = epe_seljuk
                     }
 				}				
-				NOT = { # Yusseter
-					portrait_royalty_trigger = { 
-					CULTURE_INPUT = epe_uyghur
-					}
-				}
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
+				portrait_epe_eastern_turk_muslim_clothing_trigger = no # Yusseter
 				
                 portrait_era1_trigger = yes 				
 			}
@@ -16347,11 +16382,8 @@ ccp4_ugro_permian_high_nobles = {
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-				NOT = { # Yusseter
-					portrait_royalty_trigger = { 
-					CULTURE_INPUT = epe_uyghur
-					}
-				}
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
+				portrait_epe_eastern_turk_muslim_clothing_trigger = no # Yusseter
 				
 				is_female = yes
                 portrait_era1_trigger = yes 				
@@ -16740,11 +16772,7 @@ ccp4_ugro_permian_high_nobles = {
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-				NOT = { # Yusseter
-					portrait_royalty_trigger = { 
-					CULTURE_INPUT = epe_uyghur_headgear
-					}
-				}
+				portrait_epe_uyghur_headgear_clothing_trigger = no # Yusseter
 					
                 OR = {
                     portrait_era2_trigger = yes  				
@@ -16772,11 +16800,7 @@ ccp4_ugro_permian_high_nobles = {
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-				NOT = { # Yusseter
-					portrait_royalty_trigger = { 
-					CULTURE_INPUT = epe_uyghur_headgear
-					}
-				}
+				portrait_epe_uyghur_headgear_clothing_trigger = no # Yusseter
 				
                 OR = {
                     portrait_era2_trigger = yes  				
@@ -17173,11 +17197,7 @@ ccp4_ugro_permian_high_nobles = {
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-				NOT = { # Yusseter
-					portrait_royalty_trigger = { 
-					CULTURE_INPUT = epe_uyghur_headgear
-					}
-				}
+				portrait_epe_uyghur_headgear_clothing_trigger = no # Yusseter
 			
                 OR = {
                     portrait_era2_trigger = yes  				
@@ -17203,11 +17223,7 @@ ccp4_ugro_permian_high_nobles = {
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-				NOT = { # Yusseter
-					portrait_royalty_trigger = { 
-					CULTURE_INPUT = epe_uyghur_headgear
-					}
-				}
+				portrait_epe_uyghur_headgear_clothing_trigger = no # Yusseter
 				
                 OR = {
                     portrait_era2_trigger = yes  				
@@ -18576,8 +18592,8 @@ ccp4_ugro_permian_high_nobles = {
 				mode = add
 				gene = headgear
 				# Yusseter 0
-				template = uyghur_high_nobility
-				accessory = m_headgear_sec_tgp_chinese_imp_02
+				template = tgp_sino_iranian_headgear
+				range = { 0.49 0.54 }
 				#template = tgp_uyghur_headgear
 				#range = { 0.16 0.17 } # For the randomness to work correctly
 				# Yusseter 1

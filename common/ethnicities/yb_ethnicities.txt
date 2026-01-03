@@ -178,7 +178,7 @@ asian_turkic_enisey_kirghiz_01 = {
 	}
 
 	gene_hair_type = {
-		15 = {
+		20 = {
 			name = hair_straight
 			range = { 0.35 0.75 }
 		}
@@ -186,7 +186,7 @@ asian_turkic_enisey_kirghiz_01 = {
 			name = hair_wavy
 			range = { 0.35 0.75 }
 		}
-		10 = {
+		5 = {
 			name = hair_curly
 			range = { 0.35 0.75 }
 		}
@@ -198,7 +198,7 @@ asian_turkic_enisey_kirghiz_01 = {
 			name = hair_straight_thin_beard
 			range = { 0.35 0.75 }
 		}
-	}	
+	}
 }
 
 asian_turkic_enisey_kirghiz_02 = {
@@ -293,7 +293,7 @@ asian_turkic_enisey_kirghiz_02 = {
 	}
 
 	gene_hair_type = {
-		15 = {
+		20 = {
 			name = hair_straight
 			range = { 0.35 0.75 }
 		}
@@ -301,7 +301,7 @@ asian_turkic_enisey_kirghiz_02 = {
 			name = hair_wavy
 			range = { 0.35 0.75 }
 		}
-		10 = {
+		5 = {
 			name = hair_curly
 			range = { 0.35 0.75 }
 		}
@@ -313,7 +313,7 @@ asian_turkic_enisey_kirghiz_02 = {
 			name = hair_straight_thin_beard
 			range = { 0.35 0.75 }
 		}
-	}	
+	}
 }
 
 asian_turkic_enisey_kirghiz_03 = {
@@ -412,7 +412,7 @@ asian_turkic_enisey_kirghiz_03 = {
 	}
 
 	gene_hair_type = {
-		15 = {
+		20 = {
 			name = hair_straight
 			range = { 0.35 0.75 }
 		}
@@ -420,7 +420,7 @@ asian_turkic_enisey_kirghiz_03 = {
 			name = hair_wavy
 			range = { 0.35 0.75 }
 		}
-		10 = {
+		5 = {
 			name = hair_curly
 			range = { 0.35 0.75 }
 		}
@@ -432,7 +432,7 @@ asian_turkic_enisey_kirghiz_03 = {
 			name = hair_straight_thin_beard
 			range = { 0.35 0.75 }
 		}
-	}	
+	}
 }
 
 asian_turkic_enisey_kirghiz_04 = {
@@ -527,7 +527,7 @@ asian_turkic_enisey_kirghiz_04 = {
 	}
 
 	gene_hair_type = {
-		15 = {
+		20 = {
 			name = hair_straight
 			range = { 0.35 0.75 }
 		}
@@ -535,7 +535,7 @@ asian_turkic_enisey_kirghiz_04 = {
 			name = hair_wavy
 			range = { 0.35 0.75 }
 		}
-		10 = {
+		5 = {
 			name = hair_curly
 			range = { 0.35 0.75 }
 		}
@@ -547,7 +547,7 @@ asian_turkic_enisey_kirghiz_04 = {
 			name = hair_straight_thin_beard
 			range = { 0.35 0.75 }
 		}
-	}	
+	}
 }
 
 asian_turkic_enisey_kirghiz_05 = {
@@ -646,7 +646,7 @@ asian_turkic_enisey_kirghiz_05 = {
 	}
 
 	gene_hair_type = {
-		15 = {
+		20 = {
 			name = hair_straight
 			range = { 0.35 0.75 }
 		}
@@ -654,7 +654,7 @@ asian_turkic_enisey_kirghiz_05 = {
 			name = hair_wavy
 			range = { 0.35 0.75 }
 		}
-		10 = {
+		5 = {
 			name = hair_curly
 			range = { 0.35 0.75 }
 		}
@@ -666,7 +666,7 @@ asian_turkic_enisey_kirghiz_05 = {
 			name = hair_straight_thin_beard
 			range = { 0.35 0.75 }
 		}
-	}	
+	}
 }
 
 asian_turkic_enisey_kirghiz_06 = {
@@ -761,7 +761,7 @@ asian_turkic_enisey_kirghiz_06 = {
 	}
 
 	gene_hair_type = {
-		15 = {
+		20 = {
 			name = hair_straight
 			range = { 0.35 0.75 }
 		}
@@ -769,7 +769,7 @@ asian_turkic_enisey_kirghiz_06 = {
 			name = hair_wavy
 			range = { 0.35 0.75 }
 		}
-		10 = {
+		5 = {
 			name = hair_curly
 			range = { 0.35 0.75 }
 		}
@@ -781,7 +781,7 @@ asian_turkic_enisey_kirghiz_06 = {
 			name = hair_straight_thin_beard
 			range = { 0.35 0.75 }
 		}
-	}	
+	}
 }
 
 asian_turkic_enisey_kirghiz_07 = {
@@ -880,7 +880,7 @@ asian_turkic_enisey_kirghiz_07 = {
 	}
 
 	gene_hair_type = {
-		15 = {
+		20 = {
 			name = hair_straight
 			range = { 0.35 0.75 }
 		}
@@ -888,7 +888,7 @@ asian_turkic_enisey_kirghiz_07 = {
 			name = hair_wavy
 			range = { 0.35 0.75 }
 		}
-		10 = {
+		5 = {
 			name = hair_curly
 			range = { 0.35 0.75 }
 		}
@@ -900,7 +900,7 @@ asian_turkic_enisey_kirghiz_07 = {
 			name = hair_straight_thin_beard
 			range = { 0.35 0.75 }
 		}
-	}	
+	}
 }
 
 asian_turkic_enisey_kirghiz_08 = {
@@ -999,7 +999,7 @@ asian_turkic_enisey_kirghiz_08 = {
 	}
 
 	gene_hair_type = {
-		15 = {
+		20 = {
 			name = hair_straight
 			range = { 0.35 0.75 }
 		}
@@ -1007,7 +1007,7 @@ asian_turkic_enisey_kirghiz_08 = {
 			name = hair_wavy
 			range = { 0.35 0.75 }
 		}
-		10 = {
+		5 = {
 			name = hair_curly
 			range = { 0.35 0.75 }
 		}
@@ -1019,7 +1019,7 @@ asian_turkic_enisey_kirghiz_08 = {
 			name = hair_straight_thin_beard
 			range = { 0.35 0.75 }
 		}
-	}	
+	}
 }
 
 asian_turkic_enisey_kirghiz_09 = {
@@ -1118,7 +1118,7 @@ asian_turkic_enisey_kirghiz_09 = {
 	}
 
 	gene_hair_type = {
-		15 = {
+		20 = {
 			name = hair_straight
 			range = { 0.35 0.75 }
 		}
@@ -1126,7 +1126,7 @@ asian_turkic_enisey_kirghiz_09 = {
 			name = hair_wavy
 			range = { 0.35 0.75 }
 		}
-		10 = {
+		5 = {
 			name = hair_curly
 			range = { 0.35 0.75 }
 		}
@@ -1138,7 +1138,7 @@ asian_turkic_enisey_kirghiz_09 = {
 			name = hair_straight_thin_beard
 			range = { 0.35 0.75 }
 		}
-	}	
+	}
 }
 
 asian_turkic_enisey_kirghiz_10 = {
@@ -1237,7 +1237,7 @@ asian_turkic_enisey_kirghiz_10 = {
 	}
 
 	gene_hair_type = {
-		15 = {
+		20 = {
 			name = hair_straight
 			range = { 0.35 0.75 }
 		}
@@ -1245,7 +1245,7 @@ asian_turkic_enisey_kirghiz_10 = {
 			name = hair_wavy
 			range = { 0.35 0.75 }
 		}
-		10 = {
+		5 = {
 			name = hair_curly
 			range = { 0.35 0.75 }
 		}
@@ -1257,7 +1257,7 @@ asian_turkic_enisey_kirghiz_10 = {
 			name = hair_straight_thin_beard
 			range = { 0.35 0.75 }
 		}
-	}	
+	}
 }
 
 asian_turkic_enisey_kirghiz_11 = {
@@ -1352,7 +1352,7 @@ asian_turkic_enisey_kirghiz_11 = {
 	}
 
 	gene_hair_type = {
-		15 = {
+		20 = {
 			name = hair_straight
 			range = { 0.35 0.75 }
 		}
@@ -1360,7 +1360,7 @@ asian_turkic_enisey_kirghiz_11 = {
 			name = hair_wavy
 			range = { 0.35 0.75 }
 		}
-		10 = {
+		5 = {
 			name = hair_curly
 			range = { 0.35 0.75 }
 		}
@@ -1372,7 +1372,7 @@ asian_turkic_enisey_kirghiz_11 = {
 			name = hair_straight_thin_beard
 			range = { 0.35 0.75 }
 		}
-	}	
+	}
 }
 
 asian_turkic_enisey_kirghiz_12 = {
@@ -1471,7 +1471,7 @@ asian_turkic_enisey_kirghiz_12 = {
 	}
 
 	gene_hair_type = {
-		15 = {
+		20 = {
 			name = hair_straight
 			range = { 0.35 0.75 }
 		}
@@ -1479,7 +1479,7 @@ asian_turkic_enisey_kirghiz_12 = {
 			name = hair_wavy
 			range = { 0.35 0.75 }
 		}
-		10 = {
+		5 = {
 			name = hair_curly
 			range = { 0.35 0.75 }
 		}
@@ -1491,7 +1491,7 @@ asian_turkic_enisey_kirghiz_12 = {
 			name = hair_straight_thin_beard
 			range = { 0.35 0.75 }
 		}
-	}	
+	}
 }
 
 asian_turkic_enisey_kirghiz_13 = {
@@ -1586,7 +1586,7 @@ asian_turkic_enisey_kirghiz_13 = {
 	}
 
 	gene_hair_type = {
-		15 = {
+		20 = {
 			name = hair_straight
 			range = { 0.35 0.75 }
 		}
@@ -1594,7 +1594,7 @@ asian_turkic_enisey_kirghiz_13 = {
 			name = hair_wavy
 			range = { 0.35 0.75 }
 		}
-		10 = {
+		5 = {
 			name = hair_curly
 			range = { 0.35 0.75 }
 		}
@@ -1606,7 +1606,7 @@ asian_turkic_enisey_kirghiz_13 = {
 			name = hair_straight_thin_beard
 			range = { 0.35 0.75 }
 		}
-	}	
+	}
 }
 
 asian_turkic_enisey_kirghiz_14 = {
@@ -1705,7 +1705,7 @@ asian_turkic_enisey_kirghiz_14 = {
 	}
 
 	gene_hair_type = {
-		15 = {
+		20 = {
 			name = hair_straight
 			range = { 0.35 0.75 }
 		}
@@ -1713,7 +1713,7 @@ asian_turkic_enisey_kirghiz_14 = {
 			name = hair_wavy
 			range = { 0.35 0.75 }
 		}
-		10 = {
+		5 = {
 			name = hair_curly
 			range = { 0.35 0.75 }
 		}
@@ -1725,7 +1725,7 @@ asian_turkic_enisey_kirghiz_14 = {
 			name = hair_straight_thin_beard
 			range = { 0.35 0.75 }
 		}
-	}	
+	}
 }
 
 asian_turkic_enisey_kirghiz_15 = {
@@ -1820,7 +1820,7 @@ asian_turkic_enisey_kirghiz_15 = {
 	}
 
 	gene_hair_type = {
-		15 = {
+		20 = {
 			name = hair_straight
 			range = { 0.35 0.75 }
 		}
@@ -1828,7 +1828,7 @@ asian_turkic_enisey_kirghiz_15 = {
 			name = hair_wavy
 			range = { 0.35 0.75 }
 		}
-		10 = {
+		5 = {
 			name = hair_curly
 			range = { 0.35 0.75 }
 		}
@@ -1840,7 +1840,7 @@ asian_turkic_enisey_kirghiz_15 = {
 			name = hair_straight_thin_beard
 			range = { 0.35 0.75 }
 		}
-	}	
+	}
 }
 
 asian_turkic_enisey_kirghiz_16 = {
@@ -1939,7 +1939,7 @@ asian_turkic_enisey_kirghiz_16 = {
 	}
 
 	gene_hair_type = {
-		15 = {
+		20 = {
 			name = hair_straight
 			range = { 0.35 0.75 }
 		}
@@ -1947,7 +1947,7 @@ asian_turkic_enisey_kirghiz_16 = {
 			name = hair_wavy
 			range = { 0.35 0.75 }
 		}
-		10 = {
+		5 = {
 			name = hair_curly
 			range = { 0.35 0.75 }
 		}
@@ -1959,7 +1959,7 @@ asian_turkic_enisey_kirghiz_16 = {
 			name = hair_straight_thin_beard
 			range = { 0.35 0.75 }
 		}
-	}	
+	}
 }
 
 asian_turkic_enisey_kirghiz_17 = {
@@ -2054,7 +2054,7 @@ asian_turkic_enisey_kirghiz_17 = {
 	}
 
 	gene_hair_type = {
-		15 = {
+		20 = {
 			name = hair_straight
 			range = { 0.35 0.75 }
 		}
@@ -2062,7 +2062,7 @@ asian_turkic_enisey_kirghiz_17 = {
 			name = hair_wavy
 			range = { 0.35 0.75 }
 		}
-		10 = {
+		5 = {
 			name = hair_curly
 			range = { 0.35 0.75 }
 		}
@@ -2074,7 +2074,7 @@ asian_turkic_enisey_kirghiz_17 = {
 			name = hair_straight_thin_beard
 			range = { 0.35 0.75 }
 		}
-	}	
+	}
 }
 
 asian_turkic_enisey_kirghiz_18 = {
@@ -2173,7 +2173,7 @@ asian_turkic_enisey_kirghiz_18 = {
 	}
 
 	gene_hair_type = {
-		15 = {
+		20 = {
 			name = hair_straight
 			range = { 0.35 0.75 }
 		}
@@ -2181,7 +2181,7 @@ asian_turkic_enisey_kirghiz_18 = {
 			name = hair_wavy
 			range = { 0.35 0.75 }
 		}
-		10 = {
+		5 = {
 			name = hair_curly
 			range = { 0.35 0.75 }
 		}
@@ -2193,7 +2193,7 @@ asian_turkic_enisey_kirghiz_18 = {
 			name = hair_straight_thin_beard
 			range = { 0.35 0.75 }
 		}
-	}	
+	}
 }
 
 asian_turkic_enisey_kirghiz_19 = {
@@ -2288,7 +2288,7 @@ asian_turkic_enisey_kirghiz_19 = {
 	}
 
 	gene_hair_type = {
-		15 = {
+		20 = {
 			name = hair_straight
 			range = { 0.35 0.75 }
 		}
@@ -2296,7 +2296,7 @@ asian_turkic_enisey_kirghiz_19 = {
 			name = hair_wavy
 			range = { 0.35 0.75 }
 		}
-		10 = {
+		5 = {
 			name = hair_curly
 			range = { 0.35 0.75 }
 		}
@@ -2308,7 +2308,7 @@ asian_turkic_enisey_kirghiz_19 = {
 			name = hair_straight_thin_beard
 			range = { 0.35 0.75 }
 		}
-	}	
+	}
 }
 
 asian_turkic_enisey_kirghiz_20 = {
@@ -2407,7 +2407,7 @@ asian_turkic_enisey_kirghiz_20 = {
 	}
 
 	gene_hair_type = {
-		15 = {
+		20 = {
 			name = hair_straight
 			range = { 0.35 0.75 }
 		}
@@ -2415,7 +2415,7 @@ asian_turkic_enisey_kirghiz_20 = {
 			name = hair_wavy
 			range = { 0.35 0.75 }
 		}
-		10 = {
+		5 = {
 			name = hair_curly
 			range = { 0.35 0.75 }
 		}
@@ -2427,5 +2427,5 @@ asian_turkic_enisey_kirghiz_20 = {
 			name = hair_straight_thin_beard
 			range = { 0.35 0.75 }
 		}
-	}	
+	}
 }

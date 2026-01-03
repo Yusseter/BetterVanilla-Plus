@@ -57,7 +57,6 @@
 	illyrian = asdac_illyrian
 	gujarati = { 0.4 0.2 0.2 }
 	nuristani = { 0.84 0.28 0.01 }
-	tocharian = { 0.75 0.45 0.95 }
 	afghan = { 0.6 0.6 0.1 }
 	hebrew = { 0.17 0.75 0.9 }
 	ashkenazi = { 0.6 0.3 0.6 }

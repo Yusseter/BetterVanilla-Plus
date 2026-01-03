@@ -390,7 +390,7 @@ yb_culture_setup_effects = {
 			exists = culture_tradition:tradition_tribe_unity
 			culture:samoyed = { has_cultural_tradition = tradition_tribe_unity }
 		}
-		culture:samoyed = { set_culture_pillar = tradition_tribe_unity }
+		culture:samoyed = { add_culture_tradition = tradition_tribe_unity }
 	}
 
 	if = {
@@ -398,7 +398,7 @@ yb_culture_setup_effects = {
 			exists = culture_tradition:tradition_RICE_whalers
 			culture:samoyed = { has_cultural_tradition = tradition_RICE_whalers }
 		}
-		culture:samoyed = { set_culture_pillar = tradition_RICE_whalers }
+		culture:samoyed = { add_culture_tradition = tradition_RICE_whalers }
 	}
 
 	if = {
@@ -825,7 +825,7 @@ yb_game_rule_effects = {
 			}
 		}
 		else = {
-			culture:yb_old_persian = {
+			culture:old_persian = {
 				set_culture_name = {
 					noun = "yb_eranian"
 					prefix = "yb_eranian_prefix"
@@ -964,5 +964,463 @@ yb_game_rule_effects = {
 				}
 			}
 		}
+	}
+}
+
+found_cadet_house_decision_effect = { # Yusseter: From CK3 2026.01.01
+	$CHARACTER$ = {
+		save_scope_as = new_head
+		save_scope_as = new_house_head # don't ask
+		hidden_effect = {
+			house.house_head = {
+				save_scope_as = former_house_head
+			}
+			house = {
+				save_scope_as = former_house
+			}
+			add_achievement_flag_effect = { FLAG = achievement_a_house_of_my_own_flag }
+
+			#Cultural variation for Cadet Branch Naming:
+
+			if = { # Prefixed Primary Title - (PREFIX) (TITLE)
+				limit = {
+					is_landed = yes
+					highest_held_title_tier <= tier_duchy
+					OR = {
+						culture = { has_cultural_pillar = heritage_frankish }
+						top_liege = {
+							has_title = title:k_france
+							culture = { has_cultural_pillar = heritage_frankish }
+						}
+					}
+				}
+				create_cadet_branch = {
+					prefix = dynnp_de
+					name = cadet_name_style_primary_title
+					save_scope_as = new_house
+				}
+			}
+			else_if = { # Barony Dynasty - (BARONY) (DYNASTY)
+				limit = {
+					is_landed = yes
+					culture = {
+						OR = {
+							# India
+							has_cultural_pillar = heritage_indo_aryan
+							has_cultural_pillar = heritage_dravidian
+							# Vietnam
+							has_cultural_pillar = heritage_viet
+							has_name_list = name_list_vietnamese
+							# Khmer
+							has_name_list = name_list_khmer
+							# Mon
+							has_name_list = name_list_mon
+							# Cham
+							has_name_list = name_list_cham
+							# Tai
+							has_name_list = name_list_tai
+							# China
+							has_cultural_pillar = heritage_chinese
+							has_name_list = name_list_han
+							# Korea
+							has_cultural_pillar = heritage_korean
+							has_name_list = name_list_korean
+							# Buyeo
+							has_cultural_pillar = heritage_buyeo
+							has_name_list = name_list_balhae
+						}
+					}
+					NOT = { faith.religion = religion:islam_religion }
+				}
+				create_cadet_branch = {
+					name = cadet_name_style_barony_dynasty
+					save_scope_as = new_house
+				}
+				scope:new_house = { generate_coa = yes } # Avoid western style cadet CoA
+			}
+			else_if = { # County Dynasty - (COUNTY) (DYNASTY)
+				limit = {
+					is_landed = yes
+					culture = {
+						OR = {
+							# Malaysia
+							has_name_list = name_list_malay
+						}
+					}
+				}
+				create_cadet_branch = {
+					name = cadet_name_style_county_dynasty
+					save_scope_as = new_house
+				}
+				scope:new_house = { generate_coa = yes } # Avoid western style cadet CoA
+			}
+			else_if = { # Japanese - (PLACE)
+				limit = {
+					exists = var:new_japanese_house_name
+					culture = {
+						# Japan
+						OR = {
+							has_cultural_pillar = heritage_japonic
+							has_name_list = name_list_yamato
+						}
+					}
+				}
+				create_cadet_branch = {
+					name = {
+						first_valid = {
+							triggered_desc = {
+								trigger = { scope:new_head.var:new_japanese_house_name ?= flag:japanese_house_random_barony }
+								desc = japanese_house_random_barony
+							}
+							triggered_desc = {
+								trigger = { scope:new_head.var:new_japanese_house_name ?= flag:japanese_house_primary_county }
+								desc = japanese_house_primary_county
+							}
+							triggered_desc = {
+								trigger = { scope:new_head.var:new_japanese_house_name ?= flag:japanese_house_domicile_barony }
+								desc = japanese_house_domicile_barony
+							}
+							triggered_desc = {
+								trigger = { scope:new_head.var:new_japanese_house_name ?= flag:japanese_house_domicile_county }
+								desc = japanese_house_domicile_county
+							}
+							triggered_desc = {
+								trigger = { scope:new_head.var:new_japanese_house_name ?= flag:japanese_house_first_name }
+								desc = japanese_house_first_name
+							}
+							triggered_desc = {
+								trigger = { scope:new_head.var:new_japanese_house_name ?= flag:custom }
+								desc = japanese_house_name_custom
+							}
+							triggered_desc = {
+								trigger = { exists = scope:new_head.var:new_japanese_house_name }
+								desc = japanese_house_name_flag
+							}
+							desc = japanese_house_name_fallback
+						}
+					}
+					save_scope_as = new_house
+				}
+				scope:new_house = { generate_coa = yes } # Avoid western style cadet CoA
+			}
+			else = { #Standard Name Generation
+				create_cadet_branch = { save_scope_as = new_house }
+			}
+			if = { # Yusseter: Avoid western style cadet CoA
+				limit = {
+					NOR = {
+						culture = {
+							OR = {
+								has_coa_gfx = western_coa_gfx
+								has_coa_gfx = german_group_coa_gfx
+								has_coa_gfx = anglo_saxon_coa_gfx
+							}
+						}
+						AND = {
+							geographical_region = world_europe
+							culture = { has_coa_gfx = latin_group_coa_gfx }
+						}
+					}
+					trigger_if = {
+						limit = { culture = { has_coa_gfx = balto_finnic_group_coa_gfx } }
+						culture = { has_coa_gfx = balto_finnic_group_coa_gfx }
+					}
+					trigger_if = {
+						limit = { culture = { has_coa_gfx = ugro_permian_group_coa_gfx } }
+						culture = { has_coa_gfx = ugro_permian_group_coa_gfx }
+					}
+					trigger_if = {
+						limit = { culture = { has_coa_gfx = steppe_coa_gfx } }
+						culture = { has_coa_gfx = steppe_coa_gfx }
+					}
+				}
+				scope:new_house = { generate_coa = yes } ### Yusseter: Add namelist house names support!
+			}
+		}
+
+		add_prestige = $PRESTIGE$
+		
+		hidden_effect_new_object = {
+			save_scope_as = new_head
+			every_player = {
+				limit = {
+					exists = house
+					scope:new_house ?= house
+					NOT = { this = $CHARACTER$ }
+				}
+				send_interface_toast = {
+					type = msg_created_new_house
+					title = created_cadet_branch_toast_new_house_desc
+					left_icon = scope:new_head
+					desc = created_cadet_branch_toast_new_house_other_tt
+				}
+			}
+			send_interface_toast = {
+				type = msg_created_new_house
+				title = created_cadet_branch_toast_new_house_desc
+				left_icon = scope:new_head
+				right_icon = scope:former_house_head
+				desc = created_cadet_branch_toast_new_house_other_tt
+			}
+		}
+
+		random_artifact = {
+			limit = {
+				var:banner_dynasty ?= $CHARACTER$.dynasty
+				artifact_owner = {
+					NOT = { this = $CHARACTER$ }
+					in_diplomatic_range = $CHARACTER$
+				}
+				NOT = {
+					any_artifact_house_claimant = {
+						scope:new_house ?= this
+					}
+				}
+			}
+			save_scope_as = new_branch_dynasty_banner
+			scope:new_house ?= {
+				add_house_artifact_claim = scope:new_branch_dynasty_banner
+			}
+		}
+			
+		# Struggle Catalysts
+		if = {
+			limit = {
+				$CHARACTER$ =  {
+					exists = house.house_head
+					any_character_struggle	 = {
+						involvement = involved
+						phase_has_catalyst = catalyst_cadet_branch_created
+					}
+				}
+			}
+			every_character_struggle = {
+				involvement = involved
+				activate_struggle_catalyst = {
+					catalyst = catalyst_cadet_branch_created
+					character = $CHARACTER$
+				}
+				log_debug_variable_for_persian_struggle_effect = { VAR = unrest_catalyst_cadet_branch_created }
+			}
+		}
+
+		every_child = {
+			limit = {
+				has_trait = bastard
+				is_lowborn = no
+				dynasty = scope:new_head.dynasty
+				NOT =  { house = scope:new_house }
+			}
+			set_house = scope:new_house
+		}
+		
+		# If eligible, create a cadet branch for admin type governments
+		if = {
+			limit = {
+				government_allows = noble_families
+				OR = {
+					highest_held_title_tier >= main_administrative_tier
+					AND = {
+						government_has_flag = government_has_county_tier_noble_families
+						highest_held_title_tier >= tier_county
+					}
+				}
+			}
+			create_noble_family_effect = { GOVERNMENT_GIVER = this }
+			change_influence = major_influence_gain
+		}
+	}
+}
+
+nomad_to_steppe_admin_new_capital_effect = { # Yusseter: From CK3 2025.12.12
+	every_sub_realm_county = {
+		limit = {
+			title_province = {
+				NOR = {
+					has_holding_type = nomad_holding
+					has_holding_type = herder_holding
+					has_holding_type = tribal_holding
+				}
+			}
+		}
+		add_to_list = potential_new_capitals
+	}
+	every_held_title = {
+		limit = {
+			tier = tier_county
+			title_province = {
+				NOR = {
+					has_holding_type = nomad_holding
+					has_holding_type = herder_holding
+					has_holding_type = tribal_holding
+				}
+			}
+		}
+		add_to_list = potential_new_capitals
+	}
+	ordered_in_list = {
+		order_by = development_level
+		list = potential_new_capitals
+		save_scope_as = new_capital
+	}
+	if = {
+		limit = {
+			capital_county = {
+				title_province = {
+					NOR = {
+						has_holding_type = nomad_holding
+						has_holding_type = herder_holding
+						has_holding_type = tribal_holding
+					}
+				}
+			}
+		}
+		capital_county = {
+			save_scope_as = new_capital
+		}
+	}
+	if = {
+		limit = {
+			exists = scope:new_capital
+			capital_county != scope:new_capital
+		}
+		if = {
+			limit = {
+				scope:new_capital.holder != root
+			}
+			create_title_and_vassal_change = {
+				type = usurped
+				save_scope_as = change
+				add_claim_on_loss = yes
+			}
+			scope:new_capital = {
+				change_title_holder = {
+					holder = root
+					change = scope:change
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+		}
+		set_realm_capital = scope:new_capital
+	}
+	scope:new_capital.duchy = { save_scope_as = nomad_duchy_for_name }
+	#Should gain target title, if possible
+	if = {
+		limit = {
+			scope:new_capital.kingdom = {
+				NOT = {
+					exists = holder
+				}
+			}
+		}
+		create_title_and_vassal_change = {
+			type = created
+			save_scope_as = change
+			add_claim_on_loss = yes
+		}
+		scope:new_capital.kingdom = {
+			save_scope_as = new_primary
+			change_title_holder = {
+				holder = root
+				change = scope:change
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+	}
+	if = {
+		limit = {
+			scope:new_capital.duchy = {
+				NOT = {
+					exists = holder
+				}
+			}
+		}
+		hidden_effect = {
+			create_title_and_vassal_change = {
+				type = created
+				save_scope_as = change_1
+				add_claim_on_loss = yes
+			}
+			scope:new_capital.duchy = {
+				change_title_holder = {
+					holder = root
+					change = scope:change_1
+				}
+			}
+			resolve_title_and_vassal_change = scope:change_1
+		}
+	}
+	#For GoK, they keep using their Gok Title
+	if = {
+		limit = {
+			AND = {
+				exists = global_var:greatest_of_khans_title
+				primary_title = global_var:greatest_of_khans_title
+			}
+		}
+		primary_title = {
+			set_can_be_named_after_dynasty = yes
+			set_definitive_form = yes
+			save_scope_as = new_primary
+			save_scope_as = new_title
+			set_capital_county = scope:new_capital
+		}
+	}
+	#Otherwise, gain titular empire
+	else = {
+		hidden_effect = {
+			# Yusseter 0
+			if = {
+				limit = { highest_held_title_tier < tier_hegemony }
+				create_dynamic_title = {
+					tier = empire
+					name = SETTLED_NOMAD_STEPPE_ADMIN_EMPIRE_NAME
+					adj = SETTLED_NOMAD_STEPPE_ADMIN_EMPIRE_ADJ
+				}
+			}
+			#create_dynamic_title = {
+			#	tier = empire
+			#	name = SETTLED_NOMAD_STEPPE_ADMIN_EMPIRE_NAME
+			#	adj = SETTLED_NOMAD_STEPPE_ADMIN_EMPIRE_ADJ
+			#}
+			# Yusseter 1
+			scope:new_title = {
+				save_scope_as = new_primary
+				set_definitive_form = yes
+			}
+			create_title_and_vassal_change = {
+				type = created
+				save_scope_as = change_2
+				add_claim_on_loss = no
+			}
+			scope:new_title = {
+				set_can_be_named_after_dynasty = yes
+				change_title_holder = {
+					holder = root
+					change = scope:change_2
+				}
+			}
+			resolve_title_and_vassal_change = scope:change_2
+			scope:new_title = { generate_coa = yes }
+		}
+		#Make this their primary title, if highest tier
+		hidden_effect = {
+			if = {
+				limit = {
+					exists = scope:new_primary
+					NOT = {
+						highest_held_title_tier > scope:new_primary.tier
+					}
+				}
+				set_primary_title_to = scope:new_primary
+				scope:new_primary = {
+					set_capital_county = scope:new_capital
+				}
+			}
+		}
+	}
+	if = { # Yusseter
+		limit = { tgp_capital_not_in_chinese_naming_region = no }
+		trigger_event = tgp_dynastic_cycle.9000
 	}
 }

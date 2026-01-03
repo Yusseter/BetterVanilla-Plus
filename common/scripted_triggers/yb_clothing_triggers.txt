@@ -168,7 +168,7 @@ portrait_epe_eastern_turk_muslim_clothing_trigger = { # Yusseter: From EPE 2025.
 	}
 }
 portrait_epe_eastern_turk_muslim_clothing_spouse_trigger = { # Yusseter: From EPE 2025.11.20
-	portrait_religious_muslim_spouse_trigger = yes
+	portrait_religious_muslim_trigger = yes
 	portrait_epe_seljuk_clothing_spouse_trigger = no
 	portrait_siniticized_clothing_trigger = no
 	OR = {
@@ -269,7 +269,7 @@ portrait_epe_uyghur_clothing_spouse_trigger = { # Yusseter: From EPE 2025.11.20
 	OR = {
 		portrait_turkic_clothing_spouse_trigger = yes
 		AND = {
-			portrait_siniticized_clothing_spouse_trigger = yes
+			portrait_siniticized_clothing_trigger = yes
 			portrait_mongol_clothing_spouse_trigger = yes
 			portrait_era1_trigger = yes
 		}
@@ -635,7 +635,6 @@ portrait_siniticized_clothing_trigger = {
 		religion = religion:taoism_religion
 		AND = {
 			OR = {
-				has_trait = confucian_education
 				culture = {
 					OR = {
 						has_cultural_tradition = tradition_RICE_silk_road
@@ -651,18 +650,22 @@ portrait_siniticized_clothing_trigger = {
 					}
 					NOT = { has_cultural_tradition = tradition_RICE_white_huns }
 				}
+				regional_portrait_trigger = { REGION = world_tibet }
 				regional_portrait_trigger = { REGION = world_burma }
 				regional_portrait_trigger = { REGION = world_asia }
 				regional_portrait_trigger = { REGION = world_steppe_tarim }
 				regional_portrait_trigger = { REGION = world_central_asia }
+				regional_portrait_trigger = { REGION = world_steppe_central }
+				regional_portrait_trigger = { REGION = dlc_mpo_steppe_central_siberia_addon }
 				regional_portrait_trigger = { REGION = world_steppe_east }
 				regional_portrait_trigger = { REGION = dlc_mpo_steppe_east_buryatia_addon }
 				regional_portrait_trigger = { REGION = dlc_mpo_steppe_east_andong_addon }
 			}
 			OR = {
-				religion = religion:buddhism_religion
-				religion = religion:dualism_religion
-				faith = { portrait_religious_faith_or_foundational_trigger = { FAITH = faith:nestorian } }
+				has_trait = confucian_education
+				rooted_religion_portrait_trigger = { ROOTED_RELIGION = buddhism_religion }
+				rooted_religion_portrait_trigger = { ROOTED_RELIGION = dualism_religion }
+				rooted_faith_portrait_trigger = { ROOTED_FAITH = nestorian }
 			}
 		}
 	}
@@ -672,68 +675,168 @@ regional_portrait_trigger = {
 	OR = {
 		trigger_if = {
 			limit = { exists = capital_province }
-			capital_province = {
-				geographical_region = $REGION$
-			}
+			capital_province = { geographical_region = $REGION$ }
 		}
 		trigger_else_if = {
 			limit = { exists = primary_title.title_capital_county.title_province }
-			primary_title.title_capital_county.title_province = {
-				geographical_region = $REGION$
-			}
+			primary_title.title_capital_county.title_province = { geographical_region = $REGION$ }
 		}
 
 		trigger_if = {
 			limit = { exists = host.capital_province }
-			host.capital_province = {
-				geographical_region = $REGION$
-			}
+			host.capital_province = { geographical_region = $REGION$ }
 		}
 		trigger_else_if = {
 			limit = { exists = host.primary_title.title_capital_county.title_province }
-			host.primary_title.title_capital_county.title_province = {
-				geographical_region = $REGION$
-			}
+			host.primary_title.title_capital_county.title_province = { geographical_region = $REGION$ }
 		}
 
 		trigger_if = {
 			limit = { exists = liege.capital_province }
-			liege.capital_province = {
-				geographical_region = $REGION$
-			}
+			liege.capital_province = { geographical_region = $REGION$ }
 		}
 		trigger_else_if = {
 			limit = { exists = liege.primary_title.title_capital_county.title_province }
-			liege.primary_title.title_capital_county.title_province = {
-				geographical_region = $REGION$
-			}
+			liege.primary_title.title_capital_county.title_province = { geographical_region = $REGION$ }
 		}
 
 		trigger_if = {
 			limit = { exists = top_liege.capital_province }
-			top_liege.capital_province = {
-				geographical_region = $REGION$
-			}
+			top_liege.capital_province = { geographical_region = $REGION$ }
 		}
 		trigger_else_if = {
 			limit = { exists = top_liege.primary_title.title_capital_county.title_province }
-			top_liege.primary_title.title_capital_county.title_province = {
-				geographical_region = $REGION$
-			}
+			top_liege.primary_title.title_capital_county.title_province = { geographical_region = $REGION$ }
 		}
 
 		trigger_if = {
 			limit = { exists = location.province_owner.capital_province }
-			location.province_owner.capital_province = {
-				geographical_region = $REGION$
-			}
+			location.province_owner.capital_province = { geographical_region = $REGION$ }
 		}
 		trigger_else_if = {
 			limit = { exists = location.province_owner.primary_title.title_capital_county.title_province }
-			location.province_owner.primary_title.title_capital_county.title_province = {
-				geographical_region = $REGION$
+			location.province_owner.primary_title.title_capital_county.title_province = { geographical_region = $REGION$ }
+		}
+	}
+}
+
+rooted_religion_portrait_trigger = {
+	trigger_if = { ### Yusseter: CHEK PAN DELE
+		limit = { exists = primary_title.previous_holder }
+		AND = {
+			religion = religion:$ROOTED_RELIGION$
+			root.primary_title.previous_holder.religion = religion:$ROOTED_RELIGION$
+		}
+	}
+	trigger_else_if = {
+		limit = {
+			exists = root.father
+			root.father = { is_alive = no }
+		}
+		AND = {
+			religion = religion:$ROOTED_RELIGION$
+			root.father.religion = religion:$ROOTED_RELIGION$
+		}
+	}
+	trigger_else_if = {
+		limit = { exists = root.top_liege }
+		AND = {
+			religion = religion:$ROOTED_RELIGION$
+			root.top_liege.religion = religion:$ROOTED_RELIGION$
+		}
+	}
+	trigger_else_if = {
+		limit = { exists = root.liege }
+		AND = {
+			religion = religion:$ROOTED_RELIGION$
+			root.liege.religion = religion:$ROOTED_RELIGION$
+		}
+	}
+	trigger_else_if = {
+		limit = { exists = root.host }
+		AND = {
+			religion = religion:$ROOTED_RELIGION$
+			root.host.religion = religion:$ROOTED_RELIGION$
+		}
+	}
+	trigger_else_if = {
+		limit = {
+			exists = root.mother
+			root.mother = { is_alive = yes }
+			OR = {
+				root.mother = { is_spouse_of = root.father }
+				root.mother.top_liege = root
+				root.mother.liege = root
+				root.mother.host = root
 			}
 		}
+		AND = {
+			religion = religion:$ROOTED_RELIGION$
+			root.mother.religion = religion:$ROOTED_RELIGION$
+		}
+	}
+	trigger_else = {
+		religion = religion:$ROOTED_RELIGION$
+	}
+}
+
+rooted_faith_portrait_trigger = {
+	trigger_if = {
+		limit = { exists = primary_title.previous_holder }
+		AND = {
+			faith = { portrait_religious_faith_or_foundational_trigger = { FAITH = faith:$ROOTED_FAITH$ } }
+			root.primary_title.previous_holder.faith = { portrait_religious_faith_or_foundational_trigger = { FAITH = faith:$ROOTED_FAITH$ } }
+		}
+	}
+	trigger_else_if = {
+		limit = {
+			exists = root.father
+			root.father = { is_alive = no }
+		}
+		AND = {
+			faith = { portrait_religious_faith_or_foundational_trigger = { FAITH = faith:$ROOTED_FAITH$ } }
+			root.father.faith = { portrait_religious_faith_or_foundational_trigger = { FAITH = faith:$ROOTED_FAITH$ } }
+		}
+	}
+	trigger_else_if = {
+		limit = { exists = root.top_liege }
+		AND = {
+			faith = { portrait_religious_faith_or_foundational_trigger = { FAITH = faith:$ROOTED_FAITH$ } }
+			root.top_liege.faith = { portrait_religious_faith_or_foundational_trigger = { FAITH = faith:$ROOTED_FAITH$ } }
+		}
+	}
+	trigger_else_if = {
+		limit = { exists = root.liege }
+		AND = {
+			faith = { portrait_religious_faith_or_foundational_trigger = { FAITH = faith:$ROOTED_FAITH$ } }
+			root.liege.faith = { portrait_religious_faith_or_foundational_trigger = { FAITH = faith:$ROOTED_FAITH$ } }
+		}
+	}
+	trigger_else_if = {
+		limit = { exists = root.host }
+		AND = {
+			faith = { portrait_religious_faith_or_foundational_trigger = { FAITH = faith:$ROOTED_FAITH$ } }
+			root.host.faith = { portrait_religious_faith_or_foundational_trigger = { FAITH = faith:$ROOTED_FAITH$ } }
+		}
+	}
+	trigger_else_if = {
+		limit = {
+			exists = root.mother
+			root.mother = { is_alive = yes }
+			OR = {
+				root.mother = { is_spouse_of = root.father }
+				root.mother.top_liege = root
+				root.mother.liege = root
+				root.mother.host = root
+			}
+		}
+		AND = {
+			faith = { portrait_religious_faith_or_foundational_trigger = { FAITH = faith:$ROOTED_FAITH$ } }
+			root.mother.faith = { portrait_religious_faith_or_foundational_trigger = { FAITH = faith:$ROOTED_FAITH$ } }
+		}
+	}
+	trigger_else = {
+		faith = { portrait_religious_faith_or_foundational_trigger = { FAITH = faith:$ROOTED_FAITH$ } }
 	}
 }
 

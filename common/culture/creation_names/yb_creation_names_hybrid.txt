@@ -16,12 +16,24 @@ yagma = {
 	trigger = {
 		OR = {
 			AND = {
-				scope:culture = culture:uigur
+				trigger_if = {
+					limit = { exists = culture:uigur }
+					scope:culture = culture:uigur
+				}
+				trigger_else = {
+					scope:culture = culture:uyghur
+				}
 				scope:other_culture = { has_cultural_pillar = heritage_turkic } #heritage_on_oq
 			}
 			AND = {
 				scope:culture = { has_cultural_pillar = heritage_turkic } #heritage_on_oq
-				scope:other_culture = culture:uigur
+				trigger_if = {
+					limit = { exists = culture:uigur }
+					scope:culture = culture:uigur
+				}
+				trigger_else = {
+					scope:culture = culture:uyghur
+				}
 			}
 		}
 	}

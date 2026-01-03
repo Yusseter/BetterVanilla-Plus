@@ -1,0 +1,987 @@
+﻿RandomNumberPrefixes = {
+	type = character
+
+	# Turkic
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 2
+			has_game_rule = nomadic_numbers_are_allowed
+			culture = { has_cultural_parameter = language_family_turkic }
+		}
+		localization_key = turkic_two_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 3
+			has_game_rule = nomadic_numbers_are_allowed
+			culture = { has_cultural_parameter = language_family_turkic }
+		}
+		localization_key = turkic_three_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 4
+			has_game_rule = nomadic_numbers_are_allowed
+			culture = { has_cultural_parameter = language_family_turkic }
+		}
+		localization_key = turkic_four_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 5
+			has_game_rule = nomadic_numbers_are_allowed
+			culture = { has_cultural_parameter = language_family_turkic }
+		}
+		localization_key = turkic_five_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 6
+			has_game_rule = nomadic_numbers_are_allowed
+			culture = { has_cultural_parameter = language_family_turkic }
+		}
+		localization_key = turkic_six_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 7
+			has_game_rule = nomadic_numbers_are_allowed
+			culture = { has_cultural_parameter = language_family_turkic }
+		}
+		localization_key = turkic_seven_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 8
+			has_game_rule = nomadic_numbers_are_allowed
+			culture = { has_cultural_parameter = language_family_turkic }
+		}
+		localization_key = turkic_eight_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 9
+			has_game_rule = nomadic_numbers_are_allowed
+			culture = { has_cultural_parameter = language_family_turkic }
+		}
+		localization_key = turkic_nine_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 10
+			has_game_rule = nomadic_numbers_are_allowed
+			culture = { has_cultural_parameter = language_family_turkic }
+		}
+		localization_key = turkic_ten_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 30
+			has_game_rule = nomadic_numbers_are_allowed
+			culture = { has_cultural_parameter = language_family_turkic }
+		}
+		localization_key = turkic_thirty_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 40
+			has_game_rule = nomadic_numbers_are_allowed
+			culture = { has_cultural_parameter = language_family_turkic }
+		}
+		localization_key = turkic_fourty_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 50
+			has_game_rule = nomadic_numbers_are_allowed
+			culture = { has_cultural_parameter = language_family_turkic }
+		}
+		localization_key = turkic_fifty_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 100
+			has_game_rule = nomadic_numbers_are_allowed
+			culture = { has_cultural_parameter = language_family_turkic }
+		}
+		localization_key = turkic_hundered_prefix
+	}
+
+	# Mongolic
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 2
+			has_game_rule = nomadic_numbers_are_allowed
+			culture = { has_cultural_parameter = language_family_mongolic }
+		}
+		localization_key = mongolic_two_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 3
+			has_game_rule = nomadic_numbers_are_allowed
+			culture = { has_cultural_parameter = language_family_mongolic }
+		}
+		localization_key = mongolic_three_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 4
+			has_game_rule = nomadic_numbers_are_allowed
+			culture = { has_cultural_parameter = language_family_mongolic }
+		}
+		localization_key = mongolic_four_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 5
+			has_game_rule = nomadic_numbers_are_allowed
+			culture = { has_cultural_parameter = language_family_mongolic }
+		}
+		localization_key = mongolic_five_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 6
+			has_game_rule = nomadic_numbers_are_allowed
+			culture = { has_cultural_parameter = language_family_mongolic }
+		}
+		localization_key = mongolic_six_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 7
+			has_game_rule = nomadic_numbers_are_allowed
+			culture = { has_cultural_parameter = language_family_mongolic }
+		}
+		localization_key = mongolic_seven_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 8
+			NOT = { culture = culture:naiman }
+			has_game_rule = nomadic_numbers_are_allowed
+			culture = { has_cultural_parameter = language_family_mongolic }
+		}
+		localization_key = mongolic_eight_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 9
+			has_game_rule = nomadic_numbers_are_allowed
+			culture = { has_cultural_parameter = language_family_mongolic }
+		}
+		localization_key = mongolic_nine_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 10
+			has_game_rule = nomadic_numbers_are_allowed
+			culture = { has_cultural_parameter = language_family_mongolic }
+		}
+		localization_key = mongolic_ten_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 30
+			has_game_rule = nomadic_numbers_are_allowed
+			culture = { has_cultural_parameter = language_family_mongolic }
+		}
+		localization_key = mongolic_thirty_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 40
+			has_game_rule = nomadic_numbers_are_allowed
+			culture = { has_cultural_parameter = language_family_mongolic }
+		}
+		localization_key = mongolic_fourty_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 50
+			has_game_rule = nomadic_numbers_are_allowed
+			culture = { has_cultural_parameter = language_family_mongolic }
+		}
+		localization_key = mongolic_fifty_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 100
+			has_game_rule = nomadic_numbers_are_allowed
+			culture = { has_cultural_parameter = language_family_mongolic }
+		}
+		localization_key = mongolic_hundered_prefix
+	}
+
+	# Others
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 2
+			trigger_if = {
+				limit = { has_game_rule = nomadic_numbers_are_allowed }
+				culture = {
+					NOR = {
+						has_cultural_parameter = language_family_mongolic
+						has_cultural_parameter = language_family_turkic
+					}
+				}
+			}
+		}
+		localization_key = two_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 3
+			trigger_if = {
+				limit = { has_game_rule = nomadic_numbers_are_allowed }
+				culture = {
+					NOR = {
+						has_cultural_parameter = language_family_mongolic
+						has_cultural_parameter = language_family_turkic
+					}
+				}
+			}
+		}
+		localization_key = three_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 4
+			trigger_if = {
+				limit = { has_game_rule = nomadic_numbers_are_allowed }
+				culture = {
+					NOR = {
+						has_cultural_parameter = language_family_mongolic
+						has_cultural_parameter = language_family_turkic
+					}
+				}
+			}
+		}
+		localization_key = four_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 5
+			trigger_if = {
+				limit = { has_game_rule = nomadic_numbers_are_allowed }
+				culture = {
+					NOR = {
+						has_cultural_parameter = language_family_mongolic
+						has_cultural_parameter = language_family_turkic
+					}
+				}
+			}
+		}
+		localization_key = five_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 6
+			trigger_if = {
+				limit = { has_game_rule = nomadic_numbers_are_allowed }
+				culture = {
+					NOR = {
+						has_cultural_parameter = language_family_mongolic
+						has_cultural_parameter = language_family_turkic
+					}
+				}
+			}
+		}
+		localization_key = six_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 7
+			trigger_if = {
+				limit = { has_game_rule = nomadic_numbers_are_allowed }
+				culture = {
+					NOR = {
+						has_cultural_parameter = language_family_mongolic
+						has_cultural_parameter = language_family_turkic
+					}
+				}
+			}
+		}
+		localization_key = seven_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 8
+			NOT = { culture = culture:naiman }
+			trigger_if = {
+				limit = { has_game_rule = nomadic_numbers_are_allowed }
+				culture = {
+					NOR = {
+						has_cultural_parameter = language_family_mongolic
+						has_cultural_parameter = language_family_turkic
+					}
+				}
+			}
+		}
+		localization_key = eight_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 9
+			trigger_if = {
+				limit = { has_game_rule = nomadic_numbers_are_allowed }
+				culture = {
+					NOR = {
+						has_cultural_parameter = language_family_mongolic
+						has_cultural_parameter = language_family_turkic
+					}
+				}
+			}
+		}
+		localization_key = nine_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 10
+			trigger_if = {
+				limit = { has_game_rule = nomadic_numbers_are_allowed }
+				culture = {
+					NOR = {
+						has_cultural_parameter = language_family_mongolic
+						has_cultural_parameter = language_family_turkic
+					}
+				}
+			}
+		}
+		localization_key = ten_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 30
+			trigger_if = {
+				limit = { has_game_rule = nomadic_numbers_are_allowed }
+				culture = {
+					NOR = {
+						has_cultural_parameter = language_family_mongolic
+						has_cultural_parameter = language_family_turkic
+					}
+				}
+			}
+		}
+		localization_key = thirty_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 40
+			trigger_if = {
+				limit = { has_game_rule = nomadic_numbers_are_allowed }
+				culture = {
+					NOR = {
+						has_cultural_parameter = language_family_mongolic
+						has_cultural_parameter = language_family_turkic
+					}
+				}
+			}
+		}
+		localization_key = fourty_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 50
+			trigger_if = {
+				limit = { has_game_rule = nomadic_numbers_are_allowed }
+				culture = {
+					NOR = {
+						has_cultural_parameter = language_family_mongolic
+						has_cultural_parameter = language_family_turkic
+					}
+				}
+			}
+		}
+		localization_key = fifty_prefix
+	}
+	text = {
+		trigger = {
+			has_variable = random_prefix_number
+			var:random_prefix_number = 100
+			trigger_if = {
+				limit = { has_game_rule = nomadic_numbers_are_allowed }
+				culture = {
+					NOR = {
+						has_cultural_parameter = language_family_mongolic
+						has_cultural_parameter = language_family_turkic
+					}
+				}
+			}
+		}
+		localization_key = hundered_prefix
+	}
+}
+
+#ConfederationRandomNumberPrefixes = {
+#	type = character
+#
+#	# Turkic
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 2
+#			}
+#			has_game_rule = nomadic_numbers_are_allowed
+#			culture = { has_cultural_parameter = language_family_turkic }
+#		}
+#		localization_key = turkic_two_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 3
+#			}
+#			has_game_rule = nomadic_numbers_are_allowed
+#			culture = { has_cultural_parameter = language_family_turkic }
+#		}
+#		localization_key = turkic_three_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 4
+#			}
+#			has_game_rule = nomadic_numbers_are_allowed
+#			culture = { has_cultural_parameter = language_family_turkic }
+#		}
+#		localization_key = turkic_four_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 5
+#			}
+#			has_game_rule = nomadic_numbers_are_allowed
+#			culture = { has_cultural_parameter = language_family_turkic }
+#		}
+#		localization_key = turkic_five_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 6
+#			}
+#			has_game_rule = nomadic_numbers_are_allowed
+#			culture = { has_cultural_parameter = language_family_turkic }
+#		}
+#		localization_key = turkic_six_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 7
+#			}
+#			has_game_rule = nomadic_numbers_are_allowed
+#			culture = { has_cultural_parameter = language_family_turkic }
+#		}
+#		localization_key = turkic_seven_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 8
+#			}
+#			has_game_rule = nomadic_numbers_are_allowed
+#			culture = { has_cultural_parameter = language_family_turkic }
+#		}
+#		localization_key = turkic_eight_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 9
+#			}
+#			has_game_rule = nomadic_numbers_are_allowed
+#			culture = { has_cultural_parameter = language_family_turkic }
+#		}
+#		localization_key = turkic_nine_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 10
+#			}
+#			has_game_rule = nomadic_numbers_are_allowed
+#			culture = { has_cultural_parameter = language_family_turkic }
+#		}
+#		localization_key = turkic_ten_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 30
+#			}
+#			has_game_rule = nomadic_numbers_are_allowed
+#			culture = { has_cultural_parameter = language_family_turkic }
+#		}
+#		localization_key = turkic_thirty_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 40
+#			}
+#			has_game_rule = nomadic_numbers_are_allowed
+#			culture = { has_cultural_parameter = language_family_turkic }
+#		}
+#		localization_key = turkic_fourty_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 50
+#			}
+#			has_game_rule = nomadic_numbers_are_allowed
+#			culture = { has_cultural_parameter = language_family_turkic }
+#		}
+#		localization_key = turkic_fifty_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 100
+#			}
+#			has_game_rule = nomadic_numbers_are_allowed
+#			culture = { has_cultural_parameter = language_family_turkic }
+#		}
+#		localization_key = turkic_hundered_prefix
+#	}
+#
+#	# Mongolic
+#	text = {
+#		trigger = {
+#			has_variable = random_prefix_number
+#			var:random_prefix_number = 2
+#			has_game_rule = nomadic_numbers_are_allowed
+#			culture = { has_cultural_parameter = language_family_mongolic }
+#		}
+#		localization_key = mongolic_two_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 3
+#			}
+#			has_game_rule = nomadic_numbers_are_allowed
+#			culture = { has_cultural_parameter = language_family_mongolic }
+#		}
+#		localization_key = mongolic_three_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 4
+#			}
+#			has_game_rule = nomadic_numbers_are_allowed
+#			culture = { has_cultural_parameter = language_family_mongolic }
+#		}
+#		localization_key = mongolic_four_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 5
+#			}
+#			has_game_rule = nomadic_numbers_are_allowed
+#			culture = { has_cultural_parameter = language_family_mongolic }
+#		}
+#		localization_key = mongolic_five_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 6
+#			}
+#			has_game_rule = nomadic_numbers_are_allowed
+#			culture = { has_cultural_parameter = language_family_mongolic }
+#		}
+#		localization_key = mongolic_six_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 7
+#			}
+#			has_game_rule = nomadic_numbers_are_allowed
+#			culture = { has_cultural_parameter = language_family_mongolic }
+#		}
+#		localization_key = mongolic_seven_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 8
+#			}
+#			NOT = { culture = culture:naiman }
+#			has_game_rule = nomadic_numbers_are_allowed
+#			culture = { has_cultural_parameter = language_family_mongolic }
+#		}
+#		localization_key = mongolic_eight_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 9
+#			}
+#			has_game_rule = nomadic_numbers_are_allowed
+#			culture = { has_cultural_parameter = language_family_mongolic }
+#		}
+#		localization_key = mongolic_nine_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 10
+#			}
+#			has_game_rule = nomadic_numbers_are_allowed
+#			culture = { has_cultural_parameter = language_family_mongolic }
+#		}
+#		localization_key = mongolic_ten_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 30
+#			}
+#			has_game_rule = nomadic_numbers_are_allowed
+#			culture = { has_cultural_parameter = language_family_mongolic }
+#		}
+#		localization_key = mongolic_thirty_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 40
+#			}
+#			has_game_rule = nomadic_numbers_are_allowed
+#			culture = { has_cultural_parameter = language_family_mongolic }
+#		}
+#		localization_key = mongolic_fourty_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 50
+#			}
+#			has_game_rule = nomadic_numbers_are_allowed
+#			culture = { has_cultural_parameter = language_family_mongolic }
+#		}
+#		localization_key = mongolic_fifty_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 100
+#			}
+#			has_game_rule = nomadic_numbers_are_allowed
+#			culture = { has_cultural_parameter = language_family_mongolic }
+#		}
+#		localization_key = mongolic_hundered_prefix
+#	}
+#
+#	# Others
+#	text = {
+#		trigger = {
+#			has_variable = random_prefix_number
+#			var:random_prefix_number = 2
+#			trigger_if = {
+#				limit = { has_game_rule = nomadic_numbers_are_allowed }
+#				culture = {
+#					NOR = {
+#						has_cultural_parameter = language_family_mongolic
+#						has_cultural_parameter = language_family_turkic
+#					}
+#				}
+#			}
+#		}
+#		localization_key = two_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 3
+#			}
+#			trigger_if = {
+#				limit = { has_game_rule = nomadic_numbers_are_allowed }
+#				culture = {
+#					NOR = {
+#						has_cultural_parameter = language_family_mongolic
+#						has_cultural_parameter = language_family_turkic
+#					}
+#				}
+#			}
+#		}
+#		localization_key = three_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 4
+#			}
+#			trigger_if = {
+#				limit = { has_game_rule = nomadic_numbers_are_allowed }
+#				culture = {
+#					NOR = {
+#						has_cultural_parameter = language_family_mongolic
+#						has_cultural_parameter = language_family_turkic
+#					}
+#				}
+#			}
+#		}
+#		localization_key = four_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 5
+#			}
+#			trigger_if = {
+#				limit = { has_game_rule = nomadic_numbers_are_allowed }
+#				culture = {
+#					NOR = {
+#						has_cultural_parameter = language_family_mongolic
+#						has_cultural_parameter = language_family_turkic
+#					}
+#				}
+#			}
+#		}
+#		localization_key = five_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 6
+#			}
+#			trigger_if = {
+#				limit = { has_game_rule = nomadic_numbers_are_allowed }
+#				culture = {
+#					NOR = {
+#						has_cultural_parameter = language_family_mongolic
+#						has_cultural_parameter = language_family_turkic
+#					}
+#				}
+#			}
+#		}
+#		localization_key = six_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 7
+#			}
+#			trigger_if = {
+#				limit = { has_game_rule = nomadic_numbers_are_allowed }
+#				culture = {
+#					NOR = {
+#						has_cultural_parameter = language_family_mongolic
+#						has_cultural_parameter = language_family_turkic
+#					}
+#				}
+#			}
+#		}
+#		localization_key = seven_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 8
+#			}
+#			NOT = { culture = culture:naiman }
+#			trigger_if = {
+#				limit = { has_game_rule = nomadic_numbers_are_allowed }
+#				culture = {
+#					NOR = {
+#						has_cultural_parameter = language_family_mongolic
+#						has_cultural_parameter = language_family_turkic
+#					}
+#				}
+#			}
+#		}
+#		localization_key = eight_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 9
+#			}
+#			trigger_if = {
+#				limit = { has_game_rule = nomadic_numbers_are_allowed }
+#				culture = {
+#					NOR = {
+#						has_cultural_parameter = language_family_mongolic
+#						has_cultural_parameter = language_family_turkic
+#					}
+#				}
+#			}
+#		}
+#		localization_key = nine_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 10
+#			}
+#			trigger_if = {
+#				limit = { has_game_rule = nomadic_numbers_are_allowed }
+#				culture = {
+#					NOR = {
+#						has_cultural_parameter = language_family_mongolic
+#						has_cultural_parameter = language_family_turkic
+#					}
+#				}
+#			}
+#		}
+#		localization_key = ten_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 30
+#			}
+#			trigger_if = {
+#				limit = { has_game_rule = nomadic_numbers_are_allowed }
+#				culture = {
+#					NOR = {
+#						has_cultural_parameter = language_family_mongolic
+#						has_cultural_parameter = language_family_turkic
+#					}
+#				}
+#			}
+#		}
+#		localization_key = thirty_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 40
+#			}
+#			trigger_if = {
+#				limit = { has_game_rule = nomadic_numbers_are_allowed }
+#				culture = {
+#					NOR = {
+#						has_cultural_parameter = language_family_mongolic
+#						has_cultural_parameter = language_family_turkic
+#					}
+#				}
+#			}
+#		}
+#		localization_key = fourty_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 50
+#			}
+#			trigger_if = {
+#				limit = { has_game_rule = nomadic_numbers_are_allowed }
+#				culture = {
+#					NOR = {
+#						has_cultural_parameter = language_family_mongolic
+#						has_cultural_parameter = language_family_turkic
+#					}
+#				}
+#			}
+#		}
+#		localization_key = fifty_prefix
+#	}
+#	text = {
+#		trigger = {
+#			confederation = {
+#				has_variable = random_prefix_number
+#				var:random_prefix_number = 100
+#			}
+#			trigger_if = {
+#				limit = { has_game_rule = nomadic_numbers_are_allowed }
+#				culture = {
+#					NOR = {
+#						has_cultural_parameter = language_family_mongolic
+#						has_cultural_parameter = language_family_turkic
+#					}
+#				}
+#			}
+#		}
+#		localization_key = hundered_prefix
+#	}
+#}
+#
+#CultureHeadRandomNumberPrefixes = {
+#	text = {
+#		trigger = { exists = confederation }
+#	}
+#}

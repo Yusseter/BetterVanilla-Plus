@@ -44,7 +44,8 @@ dynasty_pecheneg_1 = {
 }
 
 2001141 = {
-	name = dynn_Cik #dynn_Tuva
+	name = dynn_Kyumul
+	#name = dynn_Cik #dynn_Tuva
 	culture = uriankhai #cik
 }
 
@@ -71,9 +72,4 @@ dynasty_xueyantuo_1 = {
 dynasty_kutluk_1 = {
 	name = dynn_Qutlugh
 	culture = tujue
-}
-
-2001141 = {
-	name = dynn_Kyumul
-	culture = uriankhai #cik
 }
