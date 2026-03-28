@@ -1,0 +1,17 @@
+﻿#*.asset
+#*.json
+#*.editordata
+#*.particle2
+#*.settings
+#*.dds
+#*.jpg
+#*.png
+*.dll
+*.dylib
+*.exe
+*.anim
+*.mesh
+*.tga
+*.bin
+*.bank
+ybv+.mod
