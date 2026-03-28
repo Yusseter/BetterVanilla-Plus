@@ -125,6 +125,17 @@
  settle_the_steppe_muslim_req: "Any [tributary|E], [vassal|E], or neighboring [independent_ruler|E] is a [kingdom|E] [title_tier|E] or greater [ruler|E] with a [GetReligionByKey('islam_religion').GetAdjective] [faith|E]"
  steppe_admin_china_kingdom_requirement: "You [completely_control|E] at least 3 [kingdoms|E] in the [GetGeographicalRegion('world_asia_china').GetName] which have a [castle_holding|E], [city_holding|E], [church_holding|E], or [temple_citadel_holding|E] in their [capital|E] [barony|E]"
 
+# The Great Steppe
+
+ the_great_steppe_sub_region_steppe_south: "Southern Steppe"
+ the_great_steppe_sub_region_steppe_south_desc: "$SITUATION_SUB_REGION_TOOLTIP_DESC$\n\n#weak The southern steppes are the steppes to the south of the Eurasian Steppe which cover Transoxiana, Tibet, the Tarim Basin, and Xia and have historically been a gateway to several great empires. These steppes have been inhabited by nomadic peoples for millennia and have had various relations with their more settled neighbors to the south in Iran and China where they have been both subjects and conquerers.#!"
+ the_great_steppe_sub_region_steppe_central: "Northern Steppe"
+ the_great_steppe_sub_region_steppe_central_desc: "$SITUATION_SUB_REGION_TOOLTIP_DESC$\n\n#weak The northern steppes range from the Volga in the west, Lake Baikal in the east, and the central steppe in the south. The northern steppe is the transition zone between the steppe and the Siberian taiga.#!"
+ the_great_steppe_sub_region_steppe_east: "Eastern Steppe"
+ the_great_steppe_sub_region_steppe_east_desc: "$SITUATION_SUB_REGION_TOOLTIP_DESC$\n\n#weak The eastern steppes range from Transoxiana in the west, north of the Gobi desert to the lands of the Jurchens in the east. These vast steppes breed strong warriors who will eventually travel westwards or seek the riches of their south-eastern neighbors.#!"
+ game_concept_the_great_steppe: "The Great Steppe"
+ game_concept_the_great_steppe_desc: "$game_concept_the_great_steppe$ represents the endless sea of grass of the Eurasian Steppe and it's surrounding steppe, and the climate conditions that shape it, and is divided into four regions: Western (White), Northern (Black), Eastern (Blue), and Southern (Red) or, in Turkish, Aq, Qara, Gök, and Kizil or, in Mongolian, Tsagaan, Khar, Khökh, and Ulaan.\n\nThe different [steppe_seasons|E] depict these both positive and adverse events, offering opportunities for special actions only available during that time, and modifying the [county_fertility|E] of each region.\n\nOnly [GetGovernment( 'nomad_government' ).GetName] and [herder|E] [rulers|E] take part in this [situation|E] and the [gurkhan|E] represents the most powerful ruler in the entire region."
+
 # Others
  SETTLED_NOMAD_STEPPE_ADMIN_EMPIRE_NAME: "[nomad_settling_down.GetCulture.GetNameNoTooltip] Khaganate"
  SETTLED_NOMAD_STEPPE_ADMIN_EMPIRE_ADJ: "[nomad_settling_down.GetCulture.GetNameNoTooltip]"
@@ -139,6 +150,7 @@
  City_OldTurkic: "Balïq"
  Citian_OldTurkic_adj: "$City_OldTurkic$lï"
  turk: "Turk"
+ turkic: "Turkic"
  gokturk: "Göktürk"
  serind: "Turan"
  iran_noun: "Iran"
@@ -153,12 +165,15 @@
  old_brythonic: "Pritanian"
  old_brythonic_prefix: "Pritano"
  old_brythonic_collective_noun: "Pritanians"
- old_anglian: "Angle"
+ old_anglian: "Old Anglian"
  old_anglian_prefix: "Anglo"
  old_anglian_collective_noun: "Angles"
- britano_roman: "Romano-Briton"
- britano_roman_prefix: "Romano"
- britano_roman_collective_noun: "Roman-Brits"
+ britano_roman: "Britano-$roman$"
+ britano_roman_prefix: "$roman_prefix$"
+ britano_roman_collective_noun: "Britano-$roman_collective_noun$"
+ #britano_roman: "Romano-Briton"
+ #britano_roman_prefix: "Romano"
+ #britano_roman_collective_noun: "Roman-Brits"
  brythonic: "Brythonic"
  picts: "Picts"
  pictish: "Pictish"
@@ -312,7 +327,7 @@
 
  ANOTHER_CULTURE_CONFEDERATION_REASON_NOMAD: "A [confederation|E] of [recipient.GetShortUINamePossessiveNoTooltip] [culture|E] and prefix number ([recipient.MakeScope.Var('random_prefix_number').GetValue]) exists: $VALUE|=+0$"
 
- turkic_two_prefix: "Ekki-"
+ turkic_two_prefix: "Eki-"
  turkic_three_prefix: "Uch-"
  turkic_four_prefix: "Tört-"
  turkic_five_prefix: "Besh-"
