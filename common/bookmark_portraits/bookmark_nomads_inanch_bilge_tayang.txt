@@ -2,7 +2,7 @@
 # History database id:naiman_guchugud_3
 bookmark_nomads_inanch_bilge_tayang={
 	type=boy
-	id=33523
+	id=58525
 	random_seed=2275245749
 	age=0.150000
 	genes={ 		hair_color={ 81 243 81 244 }
@@ -92,14 +92,14 @@ bookmark_nomads_inanch_bilge_tayang={
  		face_detail_nose_tip_def={ "nose_tip_def" 24 "nose_tip_def" 203 }
  		face_detail_temple_def={ "temple_def" 154 "temple_def" 0 }
  		expression_brow_wrinkles={ "brow_wrinkles_03" 0 "brow_wrinkles_04" 147 }
- 		expression_eye_wrinkles={ "eye_wrinkles_01" 149 "eye_wrinkles_02" 148 }
+ 		expression_eye_wrinkles={ "eye_wrinkles_01" 255 "eye_wrinkles_02" 148 }
  		expression_forehead_wrinkles={ "forehead_wrinkles_01" 22 "forehead_wrinkles_01" 107 }
  		expression_other={ "cheek_wrinkles_both_01" 142 "cheek_wrinkles_both_01" 86 }
  		complexion={ "complexion_11" 20 "complexion_32a" 87 }
  		gene_height={ "normal_height" 135 "normal_height" 122 }
- 		gene_bs_body_type={ "body_fat_head_fat_low" 136 "body_fat_head_fat_low" 132 }
- 		gene_bs_body_shape={ "body_shape_triangle_half" 30 "body_shape_rectangle_full" 0 }
- 		gene_bs_bust={ "bust_clothes" 31 "bust_shape_3_full" 33 }
+ 		gene_bs_body_type={ "body_fat_head_fat_low" 127 "body_fat_head_fat_low" 132 }
+ 		gene_bs_body_shape={ "body_shape_triangle_half" 60 "body_shape_rectangle_full" 0 }
+ 		gene_bs_bust={ "bust_clothes" 24 "bust_shape_3_full" 33 }
  		gene_age={ "old_2" 51 "old_beauty_1" 58 }
  		gene_eyebrows_shape={ "far_spacing_low_thickness" 170 "far_spacing_low_thickness" 244 }
  		gene_eyebrows_fullness={ "layer_2_avg_thickness" 192 "layer_2_avg_thickness" 195 }
@@ -137,26 +137,30 @@ bookmark_nomads_inanch_bilge_tayang={
  		gene_bs_eye_shape={ "eye_shape_01" 0 "eye_shape_01" 2 }
  		beards={ "no_beard" 204 "no_beard" 0 }
  		cloaks={ "no_cloak" 204 "no_cloak" 0 }
- 		hairstyles={ "steppe_hairstyles_straight" 36 "all_hairstyles" 0 }
- 		legwear={ "mena_war_legwear" 21 "all_legwear" 0 }
+ 		hairstyles={ "tgp_chinese_hairstyles" 166 "all_hairstyles" 0 }
+ 		legwear={ "mena_common_legwear" 133 "all_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
+ 		gene_ear_stretch={ "ear_stretch" 255 "ear_stretch" 0 }
  		gene_bs_additive_headgears={ "additive_headgears" 255 "" 0 }
  		gene_bs_cloak_offset={ "cloak_offset" 255 "" 0 }
  		gene_bs_long_beard={ "long_beard" 255 "" 0 }
- 		special_accessories_earrings={ "no_earrings" 204 "no_earrings" 0 }
- 		special_accessories_hands={ "" 226 "no_hand_accessories" 0 }
+ 		gene_enclosed_helmet={ "enclosed_helmet" 255 "enclosed_helmet" 0 }
+ 		special_accessories_earrings={ "steppe_high_nobility" 1 "no_earrings" 0 }
+ 		special_accessories_hands={ "cfp_no_hands" 72 "no_hand_accessories" 0 }
  		special_accessories_necklace={ "cfp_no_necklace" 204 "cfp_no_necklace" 0 }
  		cosmetics_eyeliner={ "eyeliner_none" 255 "eyeliner_none" 0 }
  		cosmetics_eyeshadow={ "eyeshadow_none" 255 "eyeshadow_none" 0 }
  		cosmetics_foundation={ "foundation_none" 255 "foundation_none" 0 }
  		cosmetics_blush={ "blush_none" 255 "blush_none" 0 }
  		cosmetics_lipcolor={ "lipcolor_none" 255 "lipcolor_none" 0 }
- 		clothes={ "steppe_high_nobility_clothes" 243 "most_clothes" 0 }
+ 		clothes={ "tgp_uyghur_clothes" 96 "most_clothes" 0 }
  		headgear_2={ "no_headgear" 0 "no_headgear" 0 }
  		headgear={ "no_headgear" 0 "no_headgear" 0 }
+ 		additive_headgear={ "no_additive" 204 "no_additive" 0 }
  		gene_balding_hair_effect={ "shaved_baldness" 255 "no_baldness" 0 }
+ 		gene_cloak={ "cloak_additive" 255 "cloak_additive" 0 }
  }
-	entity={ 807438772 807438772 }
+	entity={ 979141817 979141817 }
 	tags={ {
 			hash=2125534279
 			invert=no
@@ -171,10 +175,6 @@ bookmark_nomads_inanch_bilge_tayang={
 		}
  {
 			hash=1563190100
-			invert=no
-		}
- {
-			hash=1945936758
 			invert=no
 		}
  }

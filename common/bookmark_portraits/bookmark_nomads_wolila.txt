@@ -2,7 +2,7 @@
 # History database id:188909
 bookmark_nomads_wolila={
 	type=male
-	id=28519
+	id=49417
 	random_seed=2705529137
 	age=0.620000
 	genes={ 		hair_color={ 106 251 106 251 }
@@ -97,9 +97,9 @@ bookmark_nomads_wolila={
  		expression_other={ "cheek_wrinkles_both_01" 97 "cheek_wrinkles_both_01" 97 }
  		complexion={ "complexion_31" 1 "complexion_31" 1 }
  		gene_height={ "normal_height" 121 "normal_height" 121 }
- 		gene_bs_body_type={ "body_fat_head_fat_full" 111 "body_fat_head_fat_full" 136 }
- 		gene_bs_body_shape={ "body_shape_rectangle_full" 86 "body_shape_rectangle_full" 0 }
- 		gene_bs_bust={ "bust_clothes" 44 "bust_shape_3_full" 55 }
+ 		gene_bs_body_type={ "body_fat_head_fat_full" 153 "body_fat_head_fat_full" 136 }
+ 		gene_bs_body_shape={ "body_shape_rectangle_full" 147 "body_shape_rectangle_full" 0 }
+ 		gene_bs_bust={ "bust_clothes" 35 "bust_shape_3_full" 55 }
  		gene_age={ "old_3" 201 "old_3" 201 }
  		gene_eyebrows_shape={ "far_spacing_avg_thickness" 198 "far_spacing_avg_thickness" 198 }
  		gene_eyebrows_fullness={ "layer_2_avg_thickness" 229 "layer_2_avg_thickness" 229 }
@@ -135,24 +135,26 @@ bookmark_nomads_wolila={
  		gene_eyebrow_inner_width={ "eyebrow_inner_width_max" 99 "eyebrow_inner_width_max" 99 }
  		gene_bs_eye_lower_lid_size={ "eye_lower_lid_size" 0 "eye_lower_lid_size" 0 }
  		gene_bs_eye_shape={ "eye_shape_01" 198 "eye_shape_01" 198 }
- 		beards={ "mpo_mongol_beards" 237 "no_beard" 0 }
- 		hairstyles={ "mpo_mongol_hairstyles" 203 "all_hairstyles" 0 }
- 		legwear={ "mena_war_legwear" 203 "all_legwear" 0 }
+ 		beards={ "mpo_mongol_beards" 211 "no_beard" 0 }
+ 		hairstyles={ "mpo_mongol_hairstyles" 255 "all_hairstyles" 0 }
+ 		legwear={ "mena_war_legwear" 255 "all_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
+ 		gene_ear_stretch={ "ear_stretch" 255 "ear_stretch" 0 }
  		gene_bs_additive_headgears={ "additive_headgears" 255 "" 0 }
  		gene_bs_cloak_offset={ "cloak_offset" 255 "" 0 }
  		gene_bs_long_beard={ "long_beard" 255 "" 0 }
- 		special_accessories_earrings={ "steppe_high_nobility" 120 "no_earrings" 0 }
- 		special_accessories_hands={ "" 134 "no_hand_accessories" 0 }
+ 		gene_enclosed_helmet={ "enclosed_helmet" 255 "enclosed_helmet" 0 }
+ 		special_accessories_earrings={ "mpo_mongol_high_nobility" 120 "no_earrings" 0 }
+ 		special_accessories_hands={ "cfp_no_hands" 221 "no_hand_accessories" 0 }
  		special_accessories_necklace={ "cfp_no_necklace" 243 "cfp_no_necklace" 0 }
- 		cosmetics_eyeliner={ "eyeliner_none" 255 "eyeliner_none" 0 }
- 		cosmetics_eyeshadow={ "eyeshadow_none" 255 "eyeshadow_none" 0 }
- 		cosmetics_foundation={ "foundation_none" 255 "foundation_none" 0 }
- 		cosmetics_blush={ "blush_none" 255 "blush_none" 0 }
- 		cosmetics_lipcolor={ "lipcolor_none" 255 "lipcolor_none" 0 }
- 		clothes={ "mpo_mongol_high_nobility_clothes" 83 "most_clothes" 0 }
- 		headgear={ "steppe_high_nobility" 188 "no_headgear" 0 }
- 		headgear_2={ "no_headgear" 141 "no_headgear" 0 }
+ 		cosmetics_eyeliner={ "byzantine_1" 64 "eyeliner_none" 0 }
+ 		cosmetics_eyeshadow={ "byzantine_1" 158 "eyeshadow_none" 0 }
+ 		cosmetics_foundation={ "european_1" 212 "foundation_none" 0 }
+ 		cosmetics_blush={ "byzantine_1" 243 "blush_none" 0 }
+ 		cosmetics_lipcolor={ "byzantine_1" 141 "lipcolor_none" 0 }
+ 		clothes={ "mpo_mongol_clothes" 83 "most_clothes" 0 }
+ 		headgear={ "mpo_mongol_headgear" 94 "no_headgear" 0 }
+ 		headgear_2={ "no_headgear" 0 "no_headgear" 0 }
  		gene_balding_hair_effect={ "shaved_baldness" 255 "no_baldness" 0 }
  }
 	entity={ 3942081117 3942081117 }
@@ -165,7 +167,11 @@ bookmark_nomads_wolila={
 			invert=no
 		}
  {
-			hash=3672171019
+			hash=876021575
+			invert=no
+		}
+ {
+			hash=1921638387
 			invert=no
 		}
  {
@@ -173,11 +179,11 @@ bookmark_nomads_wolila={
 			invert=no
 		}
  {
-			hash=1563190100
+			hash=3548283999
 			invert=no
 		}
  {
-			hash=1485265044
+			hash=1563190100
 			invert=no
 		}
  {

@@ -2,11 +2,11 @@
 # History database id:144041
 bookmark_swords_of_faith_gokbori_ghazi={
 	type=male
-	id=32182
+	id=56014
 	random_seed=631425395
 	age=0.280000
 	genes={ 		hair_color={ 85 239 83 236 }
- 		skin_color={ 187 43 187 69 }
+ 		skin_color={ 187 17 187 69 }
  		eye_color={ 38 187 25 113 }
  		gene_chin_forward={ "chin_forward_pos" 108 "chin_forward_pos" 108 }
  		gene_chin_height={ "chin_height_neg" 124 "chin_height_neg" 124 }
@@ -97,9 +97,9 @@ bookmark_swords_of_faith_gokbori_ghazi={
  		expression_other={ "cheek_wrinkles_both_01" 80 "cheek_wrinkles_both_01" 104 }
  		complexion={ "complexion_42" 150 "complexion_10" 176 }
  		gene_height={ "normal_height" 121 "normal_height" 131 }
- 		gene_bs_body_type={ "body_fat_head_fat_full" 154 "body_fat_head_fat_low" 132 }
- 		gene_bs_body_shape={ "body_shape_pear_half" 35 "body_shape_rectangle_half" 0 }
- 		gene_bs_bust={ "bust_clothes" 116 "bust_shape_1_full" 157 }
+ 		gene_bs_body_type={ "body_fat_head_fat_full" 160 "body_fat_head_fat_low" 140 }
+ 		gene_bs_body_shape={ "body_shape_pear_half" 40 "body_shape_rectangle_half" 0 }
+ 		gene_bs_bust={ "bust_clothes" 92 "bust_shape_1_full" 157 }
  		gene_age={ "old_1" 48 "old_1" 224 }
  		gene_eyebrows_shape={ "avg_spacing_low_thickness" 129 "far_spacing_avg_thickness" 245 }
  		gene_eyebrows_fullness={ "layer_2_low_thickness" 242 "layer_2_avg_thickness" 209 }
@@ -109,7 +109,7 @@ bookmark_swords_of_faith_gokbori_ghazi={
  		gene_face_dacals={ "face_dacal_07" 10 "face_dacal_07" 56 }
  		eye_accessory={ "bloodshot_eyes" 255 "normal_eyes" 230 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
- 		eyelashes_accessory={ "dark_eyelashes" 37 "normal_eyelashes" 20 }
+ 		eyelashes_accessory={ "dark_eyelashes" 14 "normal_eyelashes" 20 }
  		skin_color_saturation={ "vanilla_skin_saturation" 0 "vanilla_skin_saturation" 0 }
  		eye_color_saturation={ "eye_color_saturation" 126 "eye_color_saturation" 127 }
  		gene_bs_eye_height_inside={ "eye_height_inside_neg" 25 "eye_height_inside_neg" 0 }
@@ -138,25 +138,27 @@ bookmark_swords_of_faith_gokbori_ghazi={
  		gene_beauty_details={ "beauty_details" 25 "beauty_details" 0 }
  		gene_tuberculosis={ "tuberculosis" 255 "tuberculosis" 0 }
  		gene_hair_disease={ "hair_disease" 255 "hair_disease" 0 }
- 		beards={ "mpo_mongol_beards" 103 "no_beard" 0 }
- 		hairstyles={ "sp4_mena_hairstyles" 3 "all_hairstyles" 0 }
+ 		beards={ "turkic_thin_beards_straight" 207 "no_beard" 0 }
+ 		hairstyles={ "turkic_hairstyles_straight" 141 "all_hairstyles" 0 }
  		legwear={ "mena_nobility_legwear" 221 "all_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
+ 		gene_ear_stretch={ "ear_stretch" 255 "ear_stretch" 0 }
  		gene_bs_additive_headgears={ "additive_headgears" 255 "" 0 }
  		gene_bs_cloak_offset={ "cloak_offset" 255 "" 0 }
  		gene_bs_long_beard={ "long_beard" 255 "" 0 }
- 		special_accessories_earrings={ "fp3_iranian_nobility" 207 "no_earrings" 0 }
- 		special_accessories_hands={ "" 35 "no_hand_accessories" 0 }
+ 		gene_enclosed_helmet={ "enclosed_helmet" 255 "enclosed_helmet" 0 }
+ 		special_accessories_earrings={ "mpo_mongol_high_nobility" 180 "no_earrings" 0 }
+ 		special_accessories_hands={ "cfp_no_hands" 218 "no_hand_accessories" 0 }
  		special_accessories_necklace={ "cfp_no_necklace" 120 "cfp_no_necklace" 0 }
  		cosmetics_eyeliner={ "eyeliner_none" 255 "eyeliner_none" 0 }
  		cosmetics_eyeshadow={ "eyeshadow_none" 255 "eyeshadow_none" 0 }
  		cosmetics_foundation={ "foundation_none" 255 "foundation_none" 0 }
  		cosmetics_blush={ "blush_none" 255 "blush_none" 0 }
  		cosmetics_lipcolor={ "lipcolor_none" 255 "lipcolor_none" 0 }
- 		clothes={ "fp3_iranian_high_nobility_clothes" 60 "most_clothes" 0 }
- 		headgear={ "no_headgear" 34 "no_headgear" 0 }
- 		headgear_2={ "cfp_oghuz_high_nobility" 153 "no_headgear" 0 }
- 		gene_balding_hair_effect={ "shaved_baldness" 255 "no_baldness" 0 }
+ 		clothes={ "seljuk_turkic_clothes" 173 "most_clothes" 0 }
+ 		headgear={ "seljuk_turkic_headgear" 74 "no_headgear" 0 }
+ 		headgear_2={ "no_headgear" 3 "no_headgear" 0 }
+ 		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
  }
 	entity={ 2584865562 2584865562 }
 	tags={ {
@@ -172,11 +174,15 @@ bookmark_swords_of_faith_gokbori_ghazi={
 			invert=no
 		}
  {
-			hash=2670398845
+			hash=681013727
 			invert=no
 		}
  {
-			hash=681013727
+			hash=2793867254
+			invert=no
+		}
+ {
+			hash=2670398845
 			invert=no
 		}
  {

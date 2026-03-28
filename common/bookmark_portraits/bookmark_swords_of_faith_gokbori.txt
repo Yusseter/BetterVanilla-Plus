@@ -2,7 +2,7 @@
 # History database id:begteginid_1
 bookmark_swords_of_faith_gokbori={
 	type=male
-	id=32547
+	id=56744
 	random_seed=2945521954
 	age=0.240000
 	genes={ 		hair_color={ 99 229 190 202 }
@@ -92,14 +92,14 @@ bookmark_swords_of_faith_gokbori={
  		face_detail_nose_tip_def={ "nose_tip_def" 165 "nose_tip_def" 138 }
  		face_detail_temple_def={ "temple_def" 126 "temple_def" 191 }
  		expression_brow_wrinkles={ "brow_wrinkles_03" 224 "brow_wrinkles_04" 9 }
- 		expression_eye_wrinkles={ "eye_wrinkles_03" 107 "eye_wrinkles_03" 201 }
+ 		expression_eye_wrinkles={ "eye_wrinkles_03" 255 "eye_wrinkles_03" 201 }
  		expression_forehead_wrinkles={ "forehead_wrinkles_01" 176 "forehead_wrinkles_01" 110 }
  		expression_other={ "cheek_wrinkles_both_01" 101 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_15" 42 "complexion_14" 114 }
  		gene_height={ "normal_height" 107 "normal_height" 106 }
- 		gene_bs_body_type={ "body_fat_head_fat_medium" 127 "body_fat_head_fat_full" 138 }
- 		gene_bs_body_shape={ "body_shape_triangle_half" 117 "body_shape_average" 0 }
- 		gene_bs_bust={ "bust_clothes" 101 "bust_shape_3_full" 123 }
+ 		gene_bs_body_type={ "body_fat_head_fat_medium" 135 "body_fat_head_fat_full" 138 }
+ 		gene_bs_body_shape={ "body_shape_triangle_half" 224 "body_shape_average" 0 }
+ 		gene_bs_bust={ "bust_clothes" 80 "bust_shape_3_full" 123 }
  		gene_age={ "old_2" 156 "old_2" 215 }
  		gene_eyebrows_shape={ "far_spacing_avg_thickness" 241 "avg_spacing_low_thickness" 218 }
  		gene_eyebrows_fullness={ "layer_2_lower_thickness" 166 "layer_2_low_thickness" 204 }
@@ -135,29 +135,33 @@ bookmark_swords_of_faith_gokbori={
  		gene_eyebrow_inner_width={ "vanilla_eyebrow_inner_width" 0 "eyebrow_inner_width_max" 11 }
  		gene_bs_eye_lower_lid_size={ "eye_lower_lid_size" 0 "eye_lower_lid_size" 0 }
  		gene_bs_eye_shape={ "eye_shape_01" 132 "eye_shape_01" 0 }
- 		beards={ "steppe_beards_straight" 108 "no_beard" 0 }
+ 		beards={ "fp2_beards_curly" 255 "no_beard" 0 }
  		cloaks={ "no_cloak" 147 "no_cloak" 0 }
- 		hairstyles={ "mpo_mongol_hairstyles" 65 "all_hairstyles" 0 }
+ 		hairstyles={ "turkic_hairstyles_curly" 0 "all_hairstyles" 0 }
  		legwear={ "mena_war_legwear" 43 "all_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
+ 		gene_ear_stretch={ "ear_stretch" 255 "ear_stretch" 0 }
  		gene_bs_additive_headgears={ "additive_headgears" 255 "" 0 }
  		gene_bs_cloak_offset={ "cloak_offset" 255 "" 0 }
  		gene_bs_long_beard={ "long_beard" 255 "" 0 }
- 		special_accessories_earrings={ "steppe_high_nobility" 214 "no_earrings" 0 }
- 		special_accessories_hands={ "" 64 "no_hand_accessories" 0 }
+ 		gene_enclosed_helmet={ "enclosed_helmet" 255 "enclosed_helmet" 0 }
+ 		special_accessories_earrings={ "no_earrings" 147 "no_earrings" 0 }
+ 		special_accessories_hands={ "cfp_no_hands" 165 "no_hand_accessories" 0 }
  		special_accessories_necklace={ "cfp_no_necklace" 147 "cfp_no_necklace" 0 }
  		cosmetics_eyeliner={ "eyeliner_none" 255 "eyeliner_none" 0 }
  		cosmetics_eyeshadow={ "eyeshadow_none" 255 "eyeshadow_none" 0 }
  		cosmetics_foundation={ "foundation_none" 255 "foundation_none" 0 }
  		cosmetics_blush={ "blush_none" 255 "blush_none" 0 }
  		cosmetics_lipcolor={ "lipcolor_none" 255 "lipcolor_none" 0 }
- 		clothes={ "epe_turkic_war_nobility_clothes" 211 "most_clothes" 0 }
- 		headgear={ "fp3_turkic_war" 182 "no_headgear" 0 }
+ 		clothes={ "seljuk_turkic_clothes" 255 "most_clothes" 0 }
+ 		headgear={ "seljuk_turkic_headgear" 0 "no_headgear" 0 }
  		headgear_2={ "no_headgear" 0 "no_headgear" 0 }
  		additive_headgear={ "no_additive" 147 "no_additive" 0 }
- 		gene_balding_hair_effect={ "shaved_baldness" 255 "no_baldness" 0 }
+ 		special_headgear_face_mask={ "no_mask" 251 "no_face_mask" 0 }
+ 		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
+ 		gene_cloak={ "cloak_additive" 255 "cloak_additive" 0 }
  }
-	entity={ 2616704408 2616704408 }
+	entity={ 979141817 979141817 }
 	tags={ {
 			hash=2125534279
 			invert=no
@@ -167,7 +171,11 @@ bookmark_swords_of_faith_gokbori={
 			invert=no
 		}
  {
-			hash=2495432340
+			hash=2793867254
+			invert=no
+		}
+ {
+			hash=75156179
 			invert=no
 		}
  {
@@ -175,15 +183,7 @@ bookmark_swords_of_faith_gokbori={
 			invert=no
 		}
  {
-			hash=1219709797
-			invert=no
-		}
- {
 			hash=1563190100
-			invert=no
-		}
- {
-			hash=2462304001
 			invert=no
 		}
  {

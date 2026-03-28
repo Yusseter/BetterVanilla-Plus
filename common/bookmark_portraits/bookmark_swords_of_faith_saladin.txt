@@ -2,7 +2,7 @@
 # History database id:226000
 bookmark_swords_of_faith_saladin={
 	type=male
-	id=30591
+	id=53320
 	random_seed=4263545322
 	age=0.400000
 	genes={ 		hair_color={ 97 247 97 247 }
@@ -97,8 +97,8 @@ bookmark_swords_of_faith_saladin={
  		expression_other={ "cheek_wrinkles_both_01" 212 "cheek_wrinkles_both_01" 212 }
  		complexion={ "complexion_20" 0 "complexion_20" 0 }
  		gene_height={ "normal_height" 118 "normal_height" 118 }
- 		gene_bs_body_type={ "body_fat_head_fat_full" 139 "body_fat_head_fat_full" 132 }
- 		gene_bs_body_shape={ "body_shape_average" 40 "body_shape_average" 0 }
+ 		gene_bs_body_type={ "body_fat_head_fat_full" 140 "body_fat_head_fat_full" 132 }
+ 		gene_bs_body_shape={ "body_shape_average" 56 "body_shape_average" 0 }
  		gene_bs_bust={ "bust_clothes" 120 "bust_shape_3_full" 151 }
  		gene_age={ "old_3" 24 "old_3" 24 }
  		gene_eyebrows_shape={ "far_spacing_low_thickness" 254 "far_spacing_low_thickness" 254 }
@@ -135,27 +135,29 @@ bookmark_swords_of_faith_saladin={
  		gene_eyebrow_inner_width={ "eyebrow_inner_width_min" 226 "eyebrow_inner_width_min" 226 }
  		gene_bs_eye_lower_lid_size={ "eye_lower_lid_size" 1 "eye_lower_lid_size" 1 }
  		gene_bs_eye_shape={ "eye_shape_01" 0 "eye_shape_01" 0 }
- 		beards={ "steppe_beards_curly" 136 "no_beard" 0 }
- 		hairstyles={ "mpo_mongol_hairstyles" 226 "all_hairstyles" 0 }
- 		legwear={ "mena_nobility_legwear" 75 "all_legwear" 0 }
+ 		beards={ "all_beards" 179 "no_beard" 0 }
+ 		hairstyles={ "all_hairstyles" 215 "all_hairstyles" 0 }
+ 		legwear={ "mena_war_legwear" 13 "all_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
+ 		gene_ear_stretch={ "ear_stretch" 255 "ear_stretch" 0 }
  		gene_bs_additive_headgears={ "additive_headgears" 255 "" 0 }
  		gene_bs_cloak_offset={ "cloak_offset" 255 "" 0 }
  		gene_bs_long_beard={ "long_beard" 255 "" 0 }
- 		special_accessories_earrings={ "steppe_high_nobility" 186 "no_earrings" 0 }
- 		special_accessories_hands={ "" 53 "no_hand_accessories" 0 }
+ 		gene_enclosed_helmet={ "enclosed_helmet" 255 "enclosed_helmet" 0 }
+ 		special_accessories_earrings={ "mena_high_nobility" 7 "no_earrings" 0 }
+ 		special_accessories_hands={ "cfp_no_hands" 196 "no_hand_accessories" 0 }
  		special_accessories_necklace={ "cfp_no_necklace" 251 "cfp_no_necklace" 0 }
- 		cosmetics_eyeliner={ "eyeliner_none" 255 "eyeliner_none" 0 }
- 		cosmetics_eyeshadow={ "eyeshadow_none" 255 "eyeshadow_none" 0 }
+ 		cosmetics_eyeliner={ "iranian_1" 13 "eyeliner_none" 0 }
+ 		cosmetics_eyeshadow={ "iranian_1" 251 "eyeshadow_none" 0 }
  		cosmetics_foundation={ "foundation_none" 255 "foundation_none" 0 }
  		cosmetics_blush={ "blush_none" 255 "blush_none" 0 }
- 		cosmetics_lipcolor={ "lipcolor_none" 255 "lipcolor_none" 0 }
- 		clothes={ "fp3_iranian_high_nobility_clothes" 68 "most_clothes" 0 }
- 		headgear={ "ep1_steppe_royalty" 182 "no_headgear" 0 }
- 		headgear_2={ "no_headgear" 13 "no_headgear" 0 }
- 		gene_balding_hair_effect={ "shaved_baldness" 255 "no_baldness" 0 }
- 		props_right={ "ep1_artisan_sword_steppe" 255 "no_props" 0 }
- 		gene_additive_animations_fat={ "fat_additive" 15 "fat_additive" 0 }
+ 		cosmetics_lipcolor={ "iranian_1" 7 "lipcolor_none" 0 }
+ 		clothes={ "epe_scripted_character_clothes" 62 "most_clothes" 0 }
+ 		headgear={ "epe_scripted_character_headgears" 51 "no_headgear" 0 }
+ 		headgear_2={ "no_headgear" 24 "no_headgear" 0 }
+ 		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
+ 		props_right={ "ep1_artisan_sword_mena" 255 "no_props" 0 }
+ 		gene_additive_animations_fat={ "fat_additive" 17 "fat_additive" 0 }
  		gene_additive_animations_dwarf={ "dwarf_additive" 0 "dwarf_additive" 0 }
  		gene_retargeting_fix={ "female_prop" 0 "female_prop" 0 }
  }
@@ -165,15 +167,27 @@ bookmark_swords_of_faith_saladin={
 			invert=no
 		}
  {
+			hash=681013727
+			invert=no
+		}
+ {
+			hash=75156179
+			invert=no
+		}
+ {
+			hash=2495432340
+			invert=no
+		}
+ {
+			hash=1921638387
+			invert=no
+		}
+ {
 			hash=2670398845
 			invert=no
 		}
  {
-			hash=1500963499
-			invert=no
-		}
- {
-			hash=681013727
+			hash=1219709797
 			invert=no
 		}
  {
@@ -181,7 +195,11 @@ bookmark_swords_of_faith_saladin={
 			invert=no
 		}
  {
-			hash=3672171019
+			hash=2842715111
+			invert=no
+		}
+ {
+			hash=1945936758
 			invert=no
 		}
  }
