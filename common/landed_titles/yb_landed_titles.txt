@@ -1,0 +1,10 @@
+﻿e_cuman_kipchak = {
+	color = { 97 111 135 }
+	definite_form = yes
+
+	capital = c_itil
+	can_be_named_after_dynasty = no
+	can_use_nomadic_naming = no
+
+	can_create = { rule_title_creation_imperial_power_projection_title_creation_trigger = yes }
+}
