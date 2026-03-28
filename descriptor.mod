@@ -8,6 +8,4 @@ tags={
 }
 name="Yusseter's Better Vanilla+"
 supported_version="*.*.*.*"
-archive="C:/Users/bsgho/Documents/Paradox Interactive/Crusader Kings III/mod/ybv+"
-path="C:/Users/bsgho/Documents/Paradox Interactive/Crusader Kings III/mod/ybv+"
 remote_file_id="3605423650"
