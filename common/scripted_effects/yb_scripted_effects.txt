@@ -974,7 +974,7 @@ yb_game_rule_effects = {
 	}
 }
 
-found_cadet_house_decision_effect = { # Yusseter: From CK3 2026.01.01
+found_cadet_house_decision_effect = { # Yusseter: From CK3, 2026.01.01
 	$CHARACTER$ = {
 		save_scope_as = new_head
 		save_scope_as = new_house_head # don't ask
@@ -1239,7 +1239,7 @@ found_cadet_house_decision_effect = { # Yusseter: From CK3 2026.01.01
 	}
 }
 
-nomad_to_steppe_admin_new_capital_effect = { # Yusseter: From CK3 2025.12.12
+nomad_to_steppe_admin_new_capital_effect = { # Yusseter: From CK3, 2025.12.12
 	every_sub_realm_county = {
 		limit = {
 			title_province = {

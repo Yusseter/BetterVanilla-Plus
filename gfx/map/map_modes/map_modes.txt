@@ -5595,4 +5595,4 @@ terrain = {
 	}
 }
 
-# Yusseter: From CK3 2025.12.13 For Overrider
+# Yusseter: From CK3, 2025.12.13 For Overrider

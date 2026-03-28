@@ -1132,4 +1132,4 @@ mpo_interactions_events.0030 = {
 	}
 }
 
-# Yusseter: From CK3 2026.01.01
+# Yusseter: From CK3, 2026.01.01

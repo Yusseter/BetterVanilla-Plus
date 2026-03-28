@@ -4696,4 +4696,4 @@
 	}
 }
 
-# Yusseter: From CK3 2025.12.12
+# Yusseter: From CK3, 2025.12.12

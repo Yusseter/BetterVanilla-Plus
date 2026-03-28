@@ -11,7 +11,7 @@ portrait_epe_roman_clothing_spouse_trigger = {
 	}
 }
 
-portrait_ugro_permian_clothing_trigger = { # Yusseter: From CK3 2025.11.20
+portrait_ugro_permian_clothing_trigger = { # Yusseter: From CK3, 2025.11.20
 	has_cp4_dlc_trigger = yes
 	portrait_siniticized_clothing_trigger = no
 	OR = {
@@ -36,7 +36,7 @@ portrait_ugro_permian_clothing_trigger = { # Yusseter: From CK3 2025.11.20
 		}
 	}
 }
-portrait_ugro_permian_clothing_spouse_trigger = { # Yusseter: From CK3 2025.11.20
+portrait_ugro_permian_clothing_spouse_trigger = { # Yusseter: From CK3, 2025.11.20
 	has_cp4_dlc_trigger = yes
 	portrait_siniticized_clothing_trigger = no
 	OR = {
@@ -75,11 +75,11 @@ portrait_mongol_clothing_spouse_trigger = {
 	}
 }
 
-portrait_steppe_clothing_trigger = { # Yusseter: From CK3 2025.11.20
+portrait_steppe_clothing_trigger = { # Yusseter: From EPE, 2026.03.19
 	portrait_religious_muslim_trigger = no
 	portrait_mongol_clothing_trigger = yes
 }
-portrait_steppe_clothing_spouse_trigger = { # Yusseter: From CK3 2025.11.20
+portrait_steppe_clothing_spouse_trigger = { # Yusseter: From EPE, 2026.03.19
 	portrait_religious_muslim_trigger = no
 	portrait_mongol_clothing_trigger = yes
 }
@@ -97,16 +97,15 @@ portrait_yb_siberian_steppe_clothing_spouse_trigger = {
 	}
 }
 
-portrait_epe_eastern_turk_clothing_trigger = { # Yusseter: From EPE 2025.11.20
+portrait_epe_eastern_turk_clothing_trigger = { # Yusseter: From EPE, 2026.02.04
 	portrait_turkic_clothing_trigger = yes
 	portrait_epe_seljuk_clothing_trigger = no
 }
-portrait_epe_eastern_turk_clothing_spouse_trigger = { # Yusseter: From EPE 2025.11.20
+portrait_epe_eastern_turk_clothing_spouse_trigger = { # Yusseter: From EPE, 2026.02.04
 	portrait_turkic_clothing_spouse_trigger = yes
 	portrait_epe_seljuk_clothing_spouse_trigger = no
 }
 
-portrait_epe_western_turk_clothing_trigger = { # Yusseter: From EPE 2025.12.05
 	NOR = {
 		regional_portrait_trigger = { REGION = world_steppe_central }
 		regional_portrait_trigger = { REGION = dlc_mpo_steppe_central_siberia_addon }
@@ -114,19 +113,20 @@ portrait_epe_western_turk_clothing_trigger = { # Yusseter: From EPE 2025.12.05
 		regional_portrait_trigger = { REGION = dlc_mpo_steppe_east_buryatia_addon }
 		regional_portrait_trigger = { REGION = dlc_mpo_steppe_east_andong_addon }
 	}
+portrait_epe_western_turk_clothing_trigger = { # Yusseter: From EPE, 2025.12.05
 	portrait_shared_clothing_contents_trigger = {
 		CULTURE_SCOPE = scope:culture
 		CULTURE_FLAG = epe_western_turk
 	}
 }
-portrait_epe_western_turk_clothing_spouse_trigger = { # Yusseter: From EPE 2025.12.05
+portrait_epe_western_turk_clothing_spouse_trigger = { # Yusseter: From EPE, 2025.12.05
 	portrait_shared_clothing_contents_trigger = {
 		CULTURE_SCOPE = culture
 		CULTURE_FLAG = epe_western_turk
 	}
 }
 
-portrait_epe_seljuk_clothing_trigger = { # Yusseter: From EPE 2025.11.20
+portrait_epe_seljuk_clothing_trigger = { # Yusseter: From EPE, 2025.11.20
 	portrait_shared_clothing_contents_trigger = {
 		CULTURE_SCOPE = scope:culture
 		CULTURE_FLAG = epe_seljuk
@@ -139,7 +139,7 @@ portrait_epe_seljuk_clothing_trigger = { # Yusseter: From EPE 2025.11.20
 		}
 	}
 }
-portrait_epe_seljuk_clothing_spouse_trigger = { # Yusseter: From EPE 2025.11.20
+portrait_epe_seljuk_clothing_spouse_trigger = { # Yusseter: From EPE, 2025.11.20
 	portrait_shared_clothing_contents_trigger = {
 		CULTURE_SCOPE = culture
 		CULTURE_FLAG = epe_seljuk
@@ -150,7 +150,7 @@ portrait_epe_seljuk_clothing_spouse_trigger = { # Yusseter: From EPE 2025.11.20
 	}
 }
 
-portrait_epe_eastern_turk_muslim_clothing_trigger = { # Yusseter: From EPE 2025.11.20
+portrait_epe_eastern_turk_muslim_clothing_trigger = { # Yusseter: From EPE, 2025.11.20
 	portrait_religious_muslim_trigger = yes
 	portrait_epe_seljuk_clothing_trigger = no
 	portrait_siniticized_clothing_trigger = no
@@ -167,7 +167,7 @@ portrait_epe_eastern_turk_muslim_clothing_trigger = { # Yusseter: From EPE 2025.
 		}
 	}
 }
-portrait_epe_eastern_turk_muslim_clothing_spouse_trigger = { # Yusseter: From EPE 2025.11.20
+portrait_epe_eastern_turk_muslim_clothing_spouse_trigger = { # Yusseter: From EPE, 2025.11.20
 	portrait_religious_muslim_trigger = yes
 	portrait_epe_seljuk_clothing_spouse_trigger = no
 	portrait_siniticized_clothing_trigger = no
@@ -182,19 +182,19 @@ portrait_epe_eastern_turk_muslim_clothing_spouse_trigger = { # Yusseter: From EP
 	}
 }
 
-portrait_epe_gokalpbags_clothing_trigger = { # Yusseter: From EPE 2025.12.15
+portrait_epe_gokalpbags_clothing_trigger = { # Yusseter: From EPE, 2025.12.15
 	culture = { portrait_epe_gokalpbags_clothing_contents_trigger = yes }
 	dynasty = dynasty:epe_gokalpbags	
 }
-portrait_epe_gokalpbags_clothing_spouse_trigger = { # Yusseter: From EPE 2025.12.15
+portrait_epe_gokalpbags_clothing_spouse_trigger = { # Yusseter: From EPE, 2025.12.15
 	culture = { portrait_epe_gokalpbags_clothing_contents_trigger = yes }
 	dynasty = dynasty:epe_gokalpbags		
 }
-portrait_epe_gokalpbags_clothing_contents_trigger = { # Yusseter: From EPE 2025.12.15
+portrait_epe_gokalpbags_clothing_contents_trigger = { # Yusseter: From EPE, 2025.12.15
 	has_clothing_gfx = epe_uyghur_clothing_gfx
 }
 
-portrait_chinese_clothing_trigger = { # Yusseter: From EPE 2025.12.15
+portrait_chinese_clothing_trigger = { # Yusseter: From EPE, 2025.12.15
 	OR = {
 		portrait_shared_clothing_contents_trigger = {
 			CULTURE_SCOPE = scope:culture
@@ -220,7 +220,7 @@ portrait_chinese_clothing_trigger = { # Yusseter: From EPE 2025.12.15
 		}
 	}
 }
-portrait_chinese_clothing_spouse_trigger = { # Yusseter: From EPE 2025.12.15
+portrait_chinese_clothing_spouse_trigger = { # Yusseter: From EPE, 2025.12.15
 	OR = {
 		portrait_shared_clothing_contents_trigger = {
 			CULTURE_SCOPE = culture
@@ -247,7 +247,7 @@ portrait_chinese_clothing_spouse_trigger = { # Yusseter: From EPE 2025.12.15
 	}
 }
 
-portrait_epe_uyghur_clothing_trigger = { # Yusseter: From EPE 2025.11.20
+portrait_epe_uyghur_clothing_trigger = { # Yusseter: From EPE, 2025.11.20
 	portrait_siniticized_clothing_trigger = yes
 	portrait_epe_western_turk_clothing_spouse_trigger = no
 	portrait_epe_seljuk_clothing_spouse_trigger = no
@@ -261,8 +261,8 @@ portrait_epe_uyghur_clothing_trigger = { # Yusseter: From EPE 2025.11.20
 		}
 	}
 }
-portrait_epe_uyghur_clothing_spouse_trigger = { # Yusseter: From EPE 2025.11.20
 	portrait_siniticized_clothing_trigger = yes
+portrait_epe_uyghur_clothing_spouse_trigger = { # Yusseter: From EPE, 2025.11.20
 	portrait_epe_western_turk_clothing_spouse_trigger = no
 	portrait_epe_seljuk_clothing_spouse_trigger = no
 	portrait_tibetan_clothing_spouse_trigger = no
@@ -328,12 +328,12 @@ portrait_epe_khitan_clothing_spouse_trigger = {
 	}
 }
 
-portrait_epe_sino_iranian_chinese_clothing_trigger = { # Yusseter: From EPE 2025.12.15
+portrait_epe_sino_iranian_chinese_clothing_trigger = { # Yusseter: From EPE, 2025.12.15
 	portrait_siniticized_clothing_trigger = yes
 	portrait_epe_sino_iranian_clothing_trigger = yes
 }
-portrait_epe_sino_iranian_chinese_clothing_spouse_trigger = { # Yusseter: From EPE 2025.12.15
 	portrait_siniticized_clothing_trigger = yes
+portrait_epe_sino_iranian_chinese_clothing_spouse_trigger = { # Yusseter: From EPE, 2025.12.15
 	portrait_epe_sino_iranian_clothing_spouse_trigger = yes
 }
 
@@ -350,14 +350,14 @@ portrait_tibetan_clothing_spouse_trigger = {
 	}
 }
 
-portrait_epe_georgian_clothing_trigger = { # Yusseter: From EPE 2025.11.20
+portrait_epe_georgian_clothing_trigger = { # Yusseter: From EPE, 2025.11.20
 	portrait_religious_muslim_trigger = no
 	portrait_shared_clothing_contents_trigger = {
 		CULTURE_SCOPE = scope:culture
 		CULTURE_FLAG = epe_georgian
 	}
 }
-portrait_epe_georgian_clothing_spouse_trigger = { # Yusseter: From EPE 2025.11.20
+portrait_epe_georgian_clothing_spouse_trigger = { # Yusseter: From EPE, 2025.11.20
 	portrait_religious_muslim_trigger = no
 	portrait_shared_clothing_contents_trigger = {
 		CULTURE_SCOPE = culture
@@ -365,14 +365,14 @@ portrait_epe_georgian_clothing_spouse_trigger = { # Yusseter: From EPE 2025.11.2
 	}
 }
 
-portrait_epe_armenian_clothing_trigger = { # Yusseter: From EPE 2025.11.20
+portrait_epe_armenian_clothing_trigger = { # Yusseter: From EPE, 2025.11.20
 	portrait_religious_muslim_trigger = no
 	portrait_shared_clothing_contents_trigger = {
 		CULTURE_SCOPE = scope:culture
 		CULTURE_FLAG = epe_armenian
 	}
 }
-portrait_epe_armenian_clothing_spouse_trigger = { # Yusseter: From EPE 2025.11.20
+portrait_epe_armenian_clothing_spouse_trigger = { # Yusseter: From EPE, 2025.11.20
 	portrait_religious_muslim_trigger = no
 	portrait_shared_clothing_contents_trigger = {
 		CULTURE_SCOPE = culture
@@ -380,14 +380,14 @@ portrait_epe_armenian_clothing_spouse_trigger = { # Yusseter: From EPE 2025.11.2
 	}
 }
 
-portrait_byzantine_clothing_trigger = { # Yusseter: From CK3 2025.11.20
+portrait_byzantine_clothing_trigger = { # Yusseter: From CK3, 2025.11.20
 	portrait_religious_muslim_trigger = no	
 	portrait_shared_clothing_contents_trigger = {
 		CULTURE_SCOPE = scope:culture
 		CULTURE_FLAG = byzantine
 	}
 }
-portrait_byzantine_clothing_spouse_trigger = { # Yusseter: From CK3 2025.11.20
+portrait_byzantine_clothing_spouse_trigger = { # Yusseter: From CK3, 2025.11.20
 	portrait_religious_muslim_trigger = no
 	portrait_shared_clothing_contents_trigger = {
 		CULTURE_SCOPE = culture
@@ -395,7 +395,7 @@ portrait_byzantine_clothing_spouse_trigger = { # Yusseter: From CK3 2025.11.20
 	}
 }
 
-portrait_cfp_hungarian_clothing_trigger = { # Yusseter: From CFP 2025.12.11
+portrait_cfp_hungarian_clothing_trigger = { # Yusseter: From CFP, 2025.12.11
 	OR = {
 		portrait_epe_western_turk_clothing_trigger = yes
 		AND = {
@@ -409,7 +409,7 @@ portrait_cfp_hungarian_clothing_trigger = { # Yusseter: From CFP 2025.12.11
 	}
 	portrait_religious_christian_trigger = yes
 }
-portrait_cfp_hungarian_clothing_spouse_trigger = { # Yusseter: From CFP 2025.12.11
+portrait_cfp_hungarian_clothing_spouse_trigger = { # Yusseter: From CFP, 2025.12.11
 	OR = {
 		portrait_epe_western_turk_clothing_spouse_trigger = yes
 		AND = {
@@ -437,7 +437,7 @@ portrait_iranian_clothing_spouse_trigger = {
 	}
 }
 
-portrait_epe_islamic_iranian_clothing_trigger = { # Yusseter: From EPE 2025.11.20
+portrait_epe_islamic_iranian_clothing_trigger = { # Yusseter: From EPE, 2025.11.20
 	portrait_religious_muslim_trigger = yes
 	portrait_epe_eastern_turk_muslim_clothing_trigger = no
 	OR = {
@@ -452,7 +452,7 @@ portrait_epe_islamic_iranian_clothing_trigger = { # Yusseter: From EPE 2025.11.2
 		}
 	}
 }
-portrait_epe_islamic_iranian_clothing_spouse_trigger = { # Yusseter: From EPE 2025.11.20
+portrait_epe_islamic_iranian_clothing_spouse_trigger = { # Yusseter: From EPE, 2025.11.20
 	portrait_religious_muslim_trigger = yes
 	portrait_epe_eastern_turk_muslim_clothing_trigger = no
 	OR = {
@@ -468,7 +468,7 @@ portrait_epe_islamic_iranian_clothing_spouse_trigger = { # Yusseter: From EPE 20
 	}
 }
 
-portrait_mena_clothing_trigger = { # Yusseter: From CK3 2025.12.11
+portrait_mena_clothing_trigger = { # Yusseter: From CK3, 2025.12.11
 	OR = {
 		portrait_shared_clothing_contents_trigger = {
 			CULTURE_SCOPE = scope:culture
@@ -480,7 +480,7 @@ portrait_mena_clothing_trigger = { # Yusseter: From CK3 2025.12.11
 		}
 	}
 }
-portrait_mena_clothing_spouse_trigger = { # Yusseter: From CK3 2025.12.11
+portrait_mena_clothing_spouse_trigger = { # Yusseter: From CK3, 2025.12.11
 	OR = {
 		portrait_shared_clothing_contents_trigger = {
 			CULTURE_SCOPE = culture
@@ -493,7 +493,7 @@ portrait_mena_clothing_spouse_trigger = { # Yusseter: From CK3 2025.12.11
 	}
 }
 
-portrait_dde_abbasid_clothing_trigger = { # Yusseter: From CK3 2025.12.11
+portrait_dde_abbasid_clothing_trigger = { # Yusseter: From CK3, 2025.12.11
 	OR = {
 		portrait_shared_clothing_contents_trigger = {
 			CULTURE_SCOPE = scope:culture
@@ -506,7 +506,7 @@ portrait_dde_abbasid_clothing_trigger = { # Yusseter: From CK3 2025.12.11
 	}
 	has_dlc = "Fashion of the Abbasid Court"
 }
-portrait_dde_abbasid_clothing_spouse_trigger = { # Yusseter: From CK3 2025.12.11
+portrait_dde_abbasid_clothing_spouse_trigger = { # Yusseter: From CK3, 2025.12.11
 	OR = {
 		portrait_shared_clothing_contents_trigger = {
 			CULTURE_SCOPE = culture
@@ -524,7 +524,7 @@ portrait_religious_pagan_trigger = {
 	religion = { is_in_family = rf_pagan }
 }
 
-portrait_religious_muslim_trigger = { # Yusseter: From CK3 2025.12.11
+portrait_religious_muslim_trigger = { # Yusseter: From CK3, 2025.12.11
 	OR = {
 		religion = religion:islam_religion
 		religion = religion:alb_religion
@@ -840,7 +840,7 @@ rooted_faith_portrait_trigger = {
 	}
 }
 
-portrait_ep2_western_travel_cloak_trigger = { # Yusseter: From CK3 2025.11.20
+portrait_ep2_western_travel_cloak_trigger = { # Yusseter: From CK3, 2025.11.20
 	trigger_if = {
 		limit = {
 			NOR = {
@@ -883,7 +883,7 @@ portrait_ep2_western_travel_cloak_trigger = { # Yusseter: From CK3 2025.11.20
 	}
 }
 
-portrait_ep2_mena_travel_cloak_trigger = { # Yusseter: From CK3 2025.11.20
+portrait_ep2_mena_travel_cloak_trigger = { # Yusseter: From CK3, 2025.11.20
 	trigger_if = {
 		limit = {
 			NOR = {
@@ -996,7 +996,6 @@ portrait_era_chalcedonian_roman_trigger = {
 	}
 }
 
-# Yusseter: From CK3 2025.11.20 For Overrider
 portrait_era1_trigger = { # Intended to primarily cover the years 850 to 1000
 	scope:year_of_birth < 1000
 	NAND = { # People from 16 to 25 will be the first to adopt new fashion
@@ -1006,8 +1005,8 @@ portrait_era1_trigger = { # Intended to primarily cover the years 850 to 1000
 		scope:age >= 16
 	}
 }
+# Yusseter: From CK3, 2025.11.20 For Overrider
 
-# Yusseter: From CK3 2025.11.20 For Overrider
 portrait_era2_trigger = { # Intended to primarily cover the years 1000 to 1150
 	current_year >= 1000
 	OR = {
@@ -1031,8 +1030,8 @@ portrait_era2_trigger = { # Intended to primarily cover the years 1000 to 1150
 		}
 	}
 }
+# Yusseter: From CK3, 2025.11.20 For Overrider
 
-# Yusseter: From CK3 2025.11.20 For Overrider
 portrait_era3_trigger = { # Intended to primarily cover the years 1150 to 1300
 	current_year >= 1150
 	OR = {
@@ -1056,8 +1055,8 @@ portrait_era3_trigger = { # Intended to primarily cover the years 1150 to 1300
 		}
 	}
 }
+# Yusseter: From CK3, 2025.11.20 For Overrider
 
-# Yusseter: From CK3 2025.11.20 For Overrider
 portrait_era4_trigger = { # Intended to primarily cover the years 1300 to 1450
 	current_year >= 1300
 	OR = {
@@ -1072,3 +1071,4 @@ portrait_era4_trigger = { # Intended to primarily cover the years 1300 to 1450
 		}
 	}
 }
+# Yusseter: From CK3, 2025.11.20 For Overrider

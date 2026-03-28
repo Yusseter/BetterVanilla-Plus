@@ -337,4 +337,4 @@ color_lists = {
 	}
 }
 
-# Yusseter: From CK3 2025.11.14
+# Yusseter: From CK3, 2025.11.14

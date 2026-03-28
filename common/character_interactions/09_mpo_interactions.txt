@@ -11294,4 +11294,4 @@ join_confederation_interaction = {
 	#}
 }
 
-# Yusseter: From CK3 2026.01.01
+# Yusseter: From CK3, 2026.01.01

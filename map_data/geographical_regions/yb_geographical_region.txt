@@ -1,4 +1,4 @@
-﻿world_asia_china = { # Yusseter: From CK3 2025.11.27
+﻿#world_asia_china = { # Yusseter: From CK3, 2025.11.27
 
 	kingdoms = { # Yusseter: k_daibei
 		k_henan k_qingxu k_hebei k_hedong k_youji k_daibei k_guannei k_hexi k_xia k_jiangdong k_liangzhe k_fujian k_huainan k_jiangxi k_shannan k_hunan k_xichuan k_xingyuan k_dongchuan k_kuizhou k_qianzhong k_lingnan k_lingxi k_dali

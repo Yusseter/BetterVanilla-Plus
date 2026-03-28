@@ -1461,4 +1461,4 @@ special_genes = {
 	}
 }
 
-# Yusseter: From EPE + CFP 2025.12.15
+# Yusseter: From EPE + CFP, 2026.02.05

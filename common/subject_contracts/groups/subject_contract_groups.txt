@@ -317,4 +317,4 @@ meritocratic_vassal = {
 	modify_contract_layout = eastern_admin
 }
 
-# Yusseter: From MBP 2025.12.02
+# Yusseter: From CK3, 2026.01.03
