@@ -1,4 +1,10 @@
 # Finished
+ * every .txt file is paradox script
+ * for color, if keyword is not color-ial keyword dont generate color box
+ - if .ck3
+ - 0-100 decimal hsv color support
+ - add localization :number support
+ - {} support for paradox yml
 
 # Started
  * coa templates
@@ -156,15 +162,26 @@
  - if culture head isnt dynasty head make it dynasty head
  * ce culture effects
  - decision about if oghuz + muslim = turkmen
- - add localization :number support
  * aceh muslims
  * cat branch coa s
  - more confederation names `khamag, oq, oghuz`
+ - decision about become andalusion or mozarab for berberics and arabics
+ - new heritage for avestani
+ - negative date support
+ - Rashid-al-Din Hamadani recorded Niru'un and Dürlükin as two divisions of the Mongols
+ - government based nordic building assets
+ - there is region based norse mesh-es
+ - death event for bauldwin
+ - In the Early Middle Ages, three member tribes of the Göktürk Khaganate formed the Uch-Karluk (Three Karluks) union; initially, the union's leader bore the title Elteber, later elevated to Yabgu.[17] After the split of the khaganate around 600 into the Western and Eastern khaganates, the Uch-Karluks (三姓葛邏祿), along with Chuyue (處月; later as Shatuo 沙陀), Chumi (處蜜), Gusu (姑蘇), and Beishi (卑失) became subordinate to the Western Turkic Khaganate. After the Göktürks' downfall, the Karluk confederation would later incorporate other Turkic tribes like the Chigils, Tuhsi,[18] Azkishi, Türgesh, Khalajes, Čaruk, Barsqan, as well as Iranian Sogdians and West Asian and Central Asian migrants.[17]
+ - more tocharian cultures from culture advanced (c_dafang last turfanian)
+ - more berberic cultures
+ * shatuo and yughur
+ - game rule for tuoba language
+ * maturidi date
+ - language dialect continuas should be the high of language for maximum
+ - ryukyua wanua
 
 # Later
  * titles
  - nicene chiristianity
  - tfe, tba like clothings
-
-# CK3 File Formats
-txt, gui, map, asset, mod, info, shortcuts, settings; head_determination, house_coa_frame, kingdoms `regions`, 
