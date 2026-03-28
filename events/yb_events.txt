@@ -4,88 +4,20 @@ confederation_naming.0001 = {
 	hidden = yes
 
 	immediate = {
-		every_living_character = {
-			limit = { NOT = { has_variable = random_prefix_number } }
-			random_list = {
-				1 = {
-					set_variable = {
-						name = random_prefix_number
-						value = 2
-					}
-				}
-				1 = {
-					set_variable = {
-						name = random_prefix_number
-						value = 3
-					}
-				}
-				1 = {
-					set_variable = {
-						name = random_prefix_number
-						value = 4
-					}
-				}
-				1 = {
-					set_variable = {
-						name = random_prefix_number
-						value = 5
-					}
-				}
-				1 = {
-					set_variable = {
-						name = random_prefix_number
-						value = 6
-					}
-				}
-				1 = {
-					set_variable = {
-						name = random_prefix_number
-						value = 7
-					}
-				}
-				1 = {
-					set_variable = {
-						name = random_prefix_number
-						value = 8
-					}
-				}
-				1 = {
-					set_variable = {
-						name = random_prefix_number
-						value = 9
-					}
-				}
-				1 = {
-					set_variable = {
-						name = random_prefix_number
-						value = 10
-					}
-				}
-				1 = {
-					set_variable = {
-						name = random_prefix_number
-						value = 30
-					}
-				}
-				1 = {
-					set_variable = {
-						name = random_prefix_number
-						value = 40
-					}
-				}
-				1 = {
-					set_variable = {
-						name = random_prefix_number
-						value = 50
-					}
-				}
-				1 = {
-					set_variable = {
-						name = random_prefix_number
-						value = 100
-					}
-				}
-			}
+		random_list = {
+			1 = { set_variable = { name = random_prefix_number value = 	 2 } }
+			1 = { set_variable = { name = random_prefix_number value = 	 3 } }
+			1 = { set_variable = { name = random_prefix_number value = 	 4 } }
+			1 = { set_variable = { name = random_prefix_number value = 	 5 } }
+			1 = { set_variable = { name = random_prefix_number value = 	 6 } }
+			1 = { set_variable = { name = random_prefix_number value = 	 7 } }
+			1 = { set_variable = { name = random_prefix_number value = 	 8 } }
+			1 = { set_variable = { name = random_prefix_number value = 	 9 } }
+			1 = { set_variable = { name = random_prefix_number value = 	10 } }
+			1 = { set_variable = { name = random_prefix_number value = 	30 } }
+			1 = { set_variable = { name = random_prefix_number value = 	40 } }
+			1 = { set_variable = { name = random_prefix_number value = 	50 } }
+			1 = { set_variable = { name = random_prefix_number value = 100 } }
 		}
 	}
 }

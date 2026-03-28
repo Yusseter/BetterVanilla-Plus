@@ -6445,7 +6445,6 @@ confederation_kingdom_decision = {
 						add_to_list = confederation_vassals
 					}
 				}
-				save_scope_as = old_confederation # Yusseter
 			}
 			primary_title = {
 				save_scope_as = old_title
@@ -6453,7 +6452,7 @@ confederation_kingdom_decision = {
 			save_scope_as = confederation_offerer
 			create_dynamic_title = {
 				tier = kingdom
-				name = CONFEDERATION_CULTURE_NOUN # Yusseter: CONFEDERATION_CULTURE_NAME
+				name = CONFEDERATION_CULTURE_NAME
 				adj = CONFEDERATION_CULTURE_NAME_ADJ
 				article = article_CONFEDERATION_CULTURE_NAME
 			}
@@ -6463,7 +6462,7 @@ confederation_kingdom_decision = {
 					value = scope:confederation_offerer.culture
 				}
 				if = { # Yusseter
-					limit = { scope:confederation_offerer = { government_has_flag = government_is_nomadic } }
+					limit = { scope:confederation_offerer = { is_nomad = yes } }
 					set_variable = {
 						name = random_prefix_number
 						value = scope:confederation_offerer.confederation.var:random_prefix_number
