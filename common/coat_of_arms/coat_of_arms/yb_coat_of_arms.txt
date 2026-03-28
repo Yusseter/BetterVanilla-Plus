@@ -330,26 +330,26 @@ dynasty_yujiulu = { # Yujiulu Dynasty
 #		color1 = "black"
 #		color2 = "red"
 #		color3 = "white"
-#		instance = { position = { 0.48 0.48 } scale = { 0.85 0.85 } }		
+#		instance = { position = { 0.48 0.48 } scale = { 0.85 0.85 } }
 #	}
 #	colored_emblem = {
 #		texture = "ce_bow_single.dds"
 #		color1 = "black"
-#		instance = { position = { 0.35 0.64 } rotation = 60 scale = { 0.55 -0.55 } }		
+#		instance = { position = { 0.35 0.64 } rotation = 60 scale = { 0.55 -0.55 } }
 #	}
 #	colored_emblem = {
 #		texture = "ce_crescent_mask_02.dds"
 #		color1 = "black"
 #		instance = { position = { 0.725 0.21 } scale = { 0.35 0.35 } }
-#		instance = { position = { 0.715 0.21 } scale = { 0.35 0.35 } }	
-#		instance = { position = { 0.72 0.215 } scale = { 0.35 0.35 } }	
-#		instance = { position = { 0.72 0.205 } scale = { 0.35 0.35 } }	
-#	}	
+#		instance = { position = { 0.715 0.21 } scale = { 0.35 0.35 } }
+#		instance = { position = { 0.72 0.215 } scale = { 0.35 0.35 } }
+#		instance = { position = { 0.72 0.205 } scale = { 0.35 0.35 } }
+#	}
 #	colored_emblem = {
 #		texture = "ce_crescent_mask_02.dds"
 #		color1 = "white"
-#		instance = { position = { 0.72 0.21 } scale = { 0.35 0.35 } }		
-#	}	
+#		instance = { position = { 0.72 0.21 } scale = { 0.35 0.35 } }
+#	}
 #}
 
 house_siniticized_ashina = { # Shi Dynasty
@@ -375,7 +375,7 @@ house_siniticized_ashina = { # Shi Dynasty
 #		texture = "baijia_out_circle.dds"
 #	}
 #	colored_emblem = {
-#		texture = "baijia_circle.dds" 
+#		texture = "baijia_circle.dds"
 #		color1 = "yellow"
 #	}
 #	colored_emblem = {
@@ -384,30 +384,41 @@ house_siniticized_ashina = { # Shi Dynasty
 #	}
 #}
 
-house_bulanid = { # Bulanid House
-	pattern = "pattern_solid.dds"
-	color1 = "yellow"
-	color2 = "red"
+house_bulanid = 12270
+12270 = { # Bulanid Dynasty
+	pattern = "pattern_triangle_01.dds"
+	color1 = "white"
+	color2 = "blue_light"
 	colored_emblem = {
-		texture = "ce_tamgha_sarkel_01.dds"
-		color1 = "red"
+		texture = "ce_tamgha_sarkel_02.dds"
+		color1 = "blue_light"
 		instance = { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
-	}	
+	}
 }
-#house_bulanid = {
+#12270 = { # Bulanid Dynasty
+#	pattern = "pattern_solid.dds"
+#	color1 = "yellow"
+#	color2 = "red"
+#	colored_emblem = {
+#		texture = "ce_tamgha_sarkel_01.dds"
+#		color1 = "red"
+#		instance = { position = { 0.5 0.35 } scale = { 0.75 0.75 } }
+#	}
+#}
+#12270 = { # Bulanid Dynasty
 #	pattern = "pattern_solid.dds"
 #	color1 = "yellow"
 #	color2 = "red"
 #	colored_emblem = {
 #		texture = "ce_attire.dds"
 #		color1 = "red"
-#		instance = { position = { 0.5 0.33 } scale = { 0.55 0.55 } }		
+#		instance = { position = { 0.5 0.33 } scale = { 0.55 0.55 } }
 #	}
 #	colored_emblem = {
 #		texture = "ce_star_hexagram.dds"
 #		color1 = "red"
-#		instance = { position = { 0.5 0.14 } scale = { 0.2 0.2 } }		
-#	}	
+#		instance = { position = { 0.5 0.14 } scale = { 0.2 0.2 } }
+#	}
 #}
 
 1042190 = { # Yaghlakar Dynasty
