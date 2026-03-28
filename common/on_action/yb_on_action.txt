@@ -6,15 +6,14 @@ yb_setup = {
 		yb_character_setup_effects = yes
 		yb_title_setup_effects = yes
 		yb_county_setup_effects = yes
-		yb_culture_setup_effects = yes
 	}
 }
 
 yb_after_lobby = {
 	effect = {
+		yb_culture_setup_effects = yes
 		yb_cultural_head_setup_effects = yes
 		yb_give_random_prefix_number_effects = yes
 		yb_game_rule_effects = yes
-		trigger_event = confederation_naming.0001
 	}
 }

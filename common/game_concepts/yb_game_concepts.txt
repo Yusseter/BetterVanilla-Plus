@@ -1,4 +1,25 @@
-﻿#people = {
+﻿language_subfamily = {
+	parent = language
+	alias = { language_subfamilies }
+	texture = "gfx/interface/icons/culture_pillars/language.dds"
+}
+language_subbranch = {
+	parent = language
+	alias = { language_subbranches }
+	texture = "gfx/interface/icons/culture_pillars/language.dds"
+}
+language_subgroup = {
+	parent = language
+	alias = { language_subgroups }
+	texture = "gfx/interface/icons/culture_pillars/language.dds"
+}
+#language_cluster = { # Yusseter: language_dialect_continuum used for this
+#	parent = language
+#	alias = { language_clusters }
+#	texture = "gfx/interface/icons/culture_pillars/language.dds"
+#}
+
+#people = {
 #	alias = { peoples human humans population populations }
 #	texture = "gfx/interface/icons/icon_culture.dds"
 #	parent = culture
@@ -508,3 +529,5 @@ rusnorse = {
 	shown_in_encyclopedia = no
 	alias = { rusA rn_norses rn_norse rn_east_slavs rn_eastslavic }
 }
+
+bp_monolithic_culture_tradition = { shown_in_encyclopedia = no }

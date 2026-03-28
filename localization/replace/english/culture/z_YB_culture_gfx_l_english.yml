@@ -11,17 +11,33 @@
 # Steppe
  steppe_gfx: "Steppe Nomadic"
  steppe_building_gfx: "$steppe_gfx$"
+ mongol_clothing_gfx: "$steppe_gfx$"
 
  # Mongolic
  mongol_gfx: "Mongolic"
+ mongolian_building_gfx: "$mongol_gfx$"
+ mongol_group_clothing_gfx: "$mongol_gfx$"
  mongol_unit_gfx: "$mongol_gfx$"
- mongol_clothing_gfx: "$mongol_gfx$"
+
+ # Khitan
+ khitan_gfx: "$rouran$"
+ khitan_clothing_gfx: "$khitan_gfx$"
+
+ # Jurchen
+ jurchen_gfx: "$jurchen$"
+ jurchen_clothing_gfx: "$jurchen_gfx$"
 
  # Turkic
  turkic_gfx: "$turk$ic"
+ turkic_building_gfx: "$turkic_gfx$"
  turkic_clothing_gfx: "$turkic_gfx$"
  epe_western_turk_clothing_gfx: "Western $turkic_gfx$"
  epe_eastern_turk_clothing_gfx: "$turkic_clothing_gfx$"
+
+ # Uyghur
+ uyghur_gfx: "$uyghur$"
+ uyghur_clothing_gfx: "$uyghur_gfx$"
+ epe_uyghur_clothing_gfx: "$uyghur_clothing_gfx$"
 
 # Siberian
  siberian_gfx: "Tundra"
@@ -39,15 +55,22 @@
  oghuz_coa_gfx: "$seljuk_gfx$"
  turkish_building_gfx: "$seljuk_gfx$"
  epe_seljuk_clothing_gfx: "$seljuk_gfx$"
+ yb_ottoman_clothing_gfx: "$anatolian_turkish$"
  seljuk_unit_gfx: "$seljuk_gfx$"
 
 # South East Asian
- southeast_asian_gfx: "South East Asian"
- burman_group_coa_gfx: "$southeast_asian_gfx$"
+ sea_gfx: "South East Asian"
+ burman_group_coa_gfx: "$sea_gfx$"
+ sea_building_gfx: "$sea_gfx$"
+
+# Burman
+ burman_gfx: "$burmese$"
+ burman_building_gfx: "$burman_gfx$"
 
 # Sinitic
  sinitic_gfx: "Sinitic"
  chinese_group_coa_gfx: "$sinitic_gfx$"
+ chinese_building_gfx: "$sinitic_gfx$"
 
 # Tibetan
  tibetan_gfx: "Tibetan"
@@ -64,16 +87,28 @@
  egyptian_group_coa_gfx: "$egyptian_gfx$"
 
 # Latin
- latin_gfx: "Latin"
- latin_group_coa_gfx: "$latin_gfx$"
+# latin_gfx: "Latin"
+# latin_group_coa_gfx: "$latin_gfx$"
+
+# Western Roman
+ western_roman_gfx: "Western Roman"
+ latin_group_coa_gfx: "$western_roman_gfx$"
+
+# Eastern Roman
+ eastern_roman_gfx: "Eastern Roman"
+ byzantine_building_gfx: "$eastern_roman_gfx$"
 
 # Balkanic
  balkanic_gfx: "Balkanic"
  vlach_building_gfx: "$balkanic_gfx$"
 
 # European
- east_european_gfx: "Eastern European"
- magyar_building_gfx: "$east_european_gfx$"
+ central_european_gfx: "Central European"
+ western_european_gfx: "Western European"
+ eastern_european_gfx: "Eastern European"
+ german_building_gfx: "$central_european_gfx$"
+ western_building_gfx: "$western_european_gfx$"
+ magyar_building_gfx: "$eastern_european_gfx$"
 
 # Slavic
  east_slavic_gfx: "East Slavic"
@@ -118,7 +153,7 @@
 # Roman
  roman_gfx: "$roman$"
  eastern_roman_gfx: "Eastern $roman$"
- epe_roman_clothing_gfx: "$roman_gfx$"
+ yb_roman_clothing_gfx: "$roman_gfx$"
  byzantine_clothing_gfx: "$eastern_roman_gfx$"
  italian_unit_gfx: "$heritage_latin_name$"
 
@@ -145,4 +180,65 @@
 
 # Celtic
  celtic_gfx: "Celtic"
- welsh_unit_gfx: "Gaul"
+ insular_celtic_gfx: "Insular Celtic"
+ welsh_unit_gfx: "$insular_celtic_gfx$"
+ goidelic_building_gfx: "$insular_celtic_gfx$"
+
+# Korean
+ korean_gfx: "Korean"
+ korean_building_gfx: "$korean_gfx$"
+
+# Japanese
+ japanese_gfx: "Japanese"
+ japanese_coa_gfx: "$japanese_gfxn$"
+ japanese_building_gfx: "$japanese_gfx$"
+ yamato_building_gfx: "$japanese_building_gfx$"
+ japanese_clothing_gfx: "$japanese_gfxn$"
+ japanese_unit_gfx: "$japanese_gfxn$"
+
+# Germanic
+ germanic_gfx: "Germanic"
+ western_germanic_gfx: "Western Germanic"
+ saxon_building_gfx: "$western_germanic_gfx$"
+ germanic_building_gfx: "$germanic_gfx$"
+
+# Dali
+ dali_gfx: "Dali"
+ dali_clothing_gfx: "$dali_gfx$"
+
+# Amuric
+ amuric_gfx: "Amuric"
+ amuric_building_gfx: "$amuric_gfx$"
+ nivkh_clothing_gfx: "$amuric_gfx$"
+
+# Ainu
+ ainu_gfx: "$heritage_ainuic_name$"
+ emishi_building_gfx: "$ainu_gfx$"
+ emishi_clothing_gfx: "$ainu_gfx$"
+ emishi_unit_gfx: "$ainu_gfx$"
+
+# Ethiopian
+ ethiopian_gfx: "Ethiopian"
+ ethiopian_building_gfx: "$ethiopian_gfx$"
+
+# Horn African
+ horn_african_gfx: "Horn African"
+ somali_building_gfx: "$horn_african_gfx$"
+
+# Sahelian
+ sahelian_gfx: "$heritage_sahelian_name$"
+ sahelian_building_gfx: "$sahelian_gfx$"
+
+# Guinean
+ guinean_gfx: "Guinean"
+ guinean_building_gfx: "$guinean_gfx$"
+
+# Austronesian
+ austronesian_gfx: "$heritage_austronesian_name$"
+ austro_building_gfx: "$austronesian_gfx$"
+
+# Dravidian
+ dravidian_gfx: "$heritage_dravidian_name$"
+ dravidian_group_coa_gfx: "$dravidian_gfx$"
+ dravidian_building_gfx: "$dravidian_gfx$"
+ dravidian_unit_gfx: "$dravidian_gfx$"

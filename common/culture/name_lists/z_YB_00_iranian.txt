@@ -190,3 +190,99 @@ name_list_udi = {
 		
 		
 }
+
+name_list_shaka = {
+
+	cadet_dynasty_names = {
+		{ "dynn_Bhadramukha" }
+		{ "dynn_Kardamaka" }
+		{ "dynn_Kshahar_a_bar_ta" }
+	}
+
+	dynasty_names = {
+		{ "dynn_Bhadramukha" }
+		{ "dynn_Kardamaka" }
+		{ "dynn_Kshahar_a_bar_ta" }
+	}
+
+	#names of Indo-Scythian kings and Western Satraps
+	male_names = {
+		Abhiraka Aspavarma Aya Ayama Ayilisa
+		Bhadayasa Bhartrd_a_bar_man Bh_u_bar_maka
+		Chashtana
+		D_a_bar_maj_a_bar_dasri D_a_bar_masena Dinika
+		Hag_a_bar_masha Hag_a_bar_na
+		Indravarman Indravasu I_bar_shvaradatta
+		Jayad_a_bar_man J_i_bar_vad_a_bar_man Jihonika
+		Kharapall_a_bar_na Kharayosta
+		Moga Mujatria
+		Nahap_a_bar_na
+		Prithivisena
+		Rajuvula Rudrad_a_bar_man Rudrasena Rudrasimha
+		Samghad_a_bar_man Sasa Satyad_a_bar_man Satyanaga Sh_u_bar_d_a_bar_sa Simhasena Spalagadama Spalahora Spalirisa Sridharavarman
+		Ushavad_a_bar_ta
+		Vanaspara Vijayamitra Virad_a_bar_man Vispavarma Visvasena Visvasimha
+		Yasod_a_bar_man Ysamotika
+	}
+	female_names = {
+		Dakshamitr_a_bar_
+		Prabhudama
+		Rudradhara Rukhuna
+		Shishirena
+		Uttara
+		Vasavadatta Vasumitr_a_bar_
+	}
+
+}
+
+name_list_wusun = {
+
+	cadet_dynasty_names = {
+		"dynn_Kunmi"
+		"dynn_Kunmo"
+		"dynn_Cenzou"
+		"dynn_Chigu"
+		"dynn_Wushuihe"
+		"dynn_Zaisan"
+		"dynn_Yibohai"
+		"dynn_Bugu"
+		"dynn_Gongnaisi"
+		"dynn_Tusi"
+		"dynn_Wensu"
+		"dynn_Feng"
+	}
+
+	dynasty_names = {
+		"dynn_Kunmi"
+		"dynn_Kunmo"
+		"dynn_Cenzou"
+		"dynn_Chigu"
+		"dynn_Wushuihe"
+		"dynn_Zaisan"
+		"dynn_Yibohai"
+		"dynn_Bugu"
+		"dynn_Gongnaisi"
+		"dynn_Tusi"
+		"dynn_Wensu"
+		"dynn_Feng"
+	}
+
+
+	male_names = {
+
+		Anlimi Anri Cenzou Chimi Fuli Junxumi Liejiaomi Mozhenjiang Nandoumi Nimi Wengguimi Wujiutu Xingmi Yizhimi Yuanguimi Zilimi Wannian Dale
+
+	}
+	female_names = {
+
+		Xijun Jieyou Liao Jiaomi Jiangdu Shaohu Xiangfu Shi Suguang Mizuo Yungute
+
+	}
+
+	# Using Sogdian as temporary stand in
+	dynasty_of_location_prefix = "dynnp_m"
+	patronym_prefix_male = "dynnpat_pre_zk"
+	patronym_prefix_female = "dynnpat_pre_zk"
+	
+	founder_named_dynasties = yes	
+}

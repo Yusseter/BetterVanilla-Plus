@@ -1,0 +1,32 @@
+﻿#is_scope_parameter_exists_trigger = { exists = $SCOPE$:$PARAMETER$ }
+
+is_from_this_culture = {
+	OR = {
+		this = culture:$CULTURE$
+		any_parent_culture_or_above = {
+			this = culture:$CULTURE$
+		}
+	}
+}
+
+# CCU
+has_same_language_subfamily_as_trigger = {
+	ccu_has_same_variable_trigger = {
+		TARGET = $TARGET$
+		VARIABLE = language_subfamily
+	}
+}
+
+has_same_language_subbranch_as_trigger = {
+	ccu_has_same_variable_trigger = {
+		TARGET = $TARGET$
+		VARIABLE = language_subbranch
+	}
+}
+
+has_same_language_subgroup_as_trigger = {
+	ccu_has_same_variable_trigger = {
+		TARGET = $TARGET$
+		VARIABLE = language_subgroup
+	}
+}

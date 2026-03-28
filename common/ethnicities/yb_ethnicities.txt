@@ -35,8 +35,8 @@
 @blend3max = 0.8
 
 east_asian_ryukyu_01 = {
-	template = "japanese"
-	using = "east_asian_japanese_10"
+	template = "east_asian_japanese_10"
+	using = "japanese"
 
 	skin_color = {
 		10 = { 0.5 0.3 1.0 0.5 }
@@ -82,9 +82,2037 @@ east_asian_ainu_01 = {
 	}
 }
 
+east_asian_ainu_02 = {
+	template = "siberian_siberian_01"
+	using = "ainu"
+
+	skin_color = {
+		10 = { 0.3 0.5 0.7 0.65 }
+	}
+
+	gene_eye_angle = {
+		100 = { name = eye_angle_neg range = { 0.46 0.55 } }
+	}
+	gene_eye_depth = {
+		100 = { name = eye_depth_pos range = { 0.67 0.7 } }
+	}
+	gene_eye_height = {
+		100 = { name = eye_height_pos range = { 0.56 0.6 } }
+	}
+	gene_eye_distance = {
+		65 = { name = eye_distance_pos range = { 0.47 0.55 } }
+		35 = { name = eye_distance_pos range = { 0.52 0.58 } }
+	}
+	gene_eye_shut = {
+		100 = { name = eye_shut_pos range = { 0.42 0.6 } }
+	}
+	gene_bs_eye_corner_depth = {
+		100 = { name = eye_corner_depth_pos range = { 0.5 0.75 } }
+	}
+	gene_bs_eye_fold_shape = {
+		100 = { name = eye_fold_shape_neg range = { 0.0 0.05 } }
+	}
+	gene_bs_eye_size = {
+		20 = { name = eye_size_pos range = { 0.0 0.05 } }
+		80 = { name = eye_size_neg range = { 0.0 0.35 } }
+	}
+	gene_bs_eye_upper_lid_size = {
+		50 = { name = eye_upper_lid_size_pos range = { 0.0 0.6 } }
+		50 = { name = eye_upper_lid_size_neg range = { 0.0 0.6 } }
+	}
+	face_detail_eye_socket = {
+		10 = { name = eye_socket_01 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_01 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_01 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_02 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_02 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_02 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_03 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_03 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_03 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_01 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_01 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_01 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_02 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_02 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_02 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_03 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_03 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_03 range = { 0.8 1.0 } }
+	}
+	face_detail_eye_lower_lid_def = {
+		7 = { name = eye_lower_lid_def range = { 0.0 0.4 } }
+		10 = { name = eye_lower_lid_def range = { 0.4 0.8 } }
+		5 = { name = eye_lower_lid_def range = { 0.8 1.0 } }
+	}
+	expression_eye_wrinkles = {
+		30 = { name = eye_wrinkles_01 range = { 0.0 0.4 } }
+		10 = { name = eye_wrinkles_01 range = { 0.5 1.0 } }
+		10 = { name = eye_wrinkles_02 range = { 0.5 1.0 } }
+		10 = { name = eye_wrinkles_03 range = { 0.5 1.0 } }
+	}
+
+	eye_color = {
+		50 = { 0.05 0.95 0.35 1.0 } # Black
+	}
+
+	hair_color = {
+		98 = { 0.01 0.9 0.5 0.99 } # Black
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_03 = {
+	template = "siberian_siberian_03"
+	using = "ainu"
+
+	skin_color = {
+		10 = { 0.3 0.5 0.7 0.65 }
+	}
+
+	gene_eye_angle = {
+		100 = { name = eye_angle_neg range = { 0.46 0.55 } }
+	}
+	gene_eye_depth = {
+		100 = { name = eye_depth_pos range = { 0.67 0.7 } }
+	}
+	gene_eye_height = {
+		100 = { name = eye_height_pos range = { 0.56 0.6 } }
+	}
+	gene_eye_distance = {
+		65 = { name = eye_distance_pos range = { 0.47 0.55 } }
+		35 = { name = eye_distance_pos range = { 0.52 0.58 } }
+	}
+	gene_eye_shut = {
+		100 = { name = eye_shut_pos range = { 0.42 0.6 } }
+	}
+	gene_bs_eye_corner_depth = {
+		100 = { name = eye_corner_depth_pos range = { 0.5 0.75 } }
+	}
+	gene_bs_eye_fold_shape = {
+		100 = { name = eye_fold_shape_neg range = { 0.0 0.05 } }
+	}
+	gene_bs_eye_size = {
+		20 = { name = eye_size_pos range = { 0.0 0.05 } }
+		80 = { name = eye_size_neg range = { 0.0 0.35 } }
+	}
+	gene_bs_eye_upper_lid_size = {
+		50 = { name = eye_upper_lid_size_pos range = { 0.0 0.6 } }
+		50 = { name = eye_upper_lid_size_neg range = { 0.0 0.6 } }
+	}
+	face_detail_eye_socket = {
+		10 = { name = eye_socket_01 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_01 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_01 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_02 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_02 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_02 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_03 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_03 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_03 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_01 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_01 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_01 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_02 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_02 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_02 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_03 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_03 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_03 range = { 0.8 1.0 } }
+	}
+	face_detail_eye_lower_lid_def = {
+		7 = { name = eye_lower_lid_def range = { 0.0 0.4 } }
+		10 = { name = eye_lower_lid_def range = { 0.4 0.8 } }
+		5 = { name = eye_lower_lid_def range = { 0.8 1.0 } }
+	}
+	expression_eye_wrinkles = {
+		30 = { name = eye_wrinkles_01 range = { 0.0 0.4 } }
+		10 = { name = eye_wrinkles_01 range = { 0.5 1.0 } }
+		10 = { name = eye_wrinkles_02 range = { 0.5 1.0 } }
+		10 = { name = eye_wrinkles_03 range = { 0.5 1.0 } }
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_04 = {
+	template = "siberian_siberian_05"
+	using = "ainu"
+
+	skin_color = {
+		10 = { 0.3 0.5 0.7 0.65 }
+	}
+
+	gene_eye_angle = {
+		100 = { name = eye_angle_neg range = { 0.46 0.55 } }
+	}
+	gene_eye_depth = {
+		100 = { name = eye_depth_pos range = { 0.67 0.7 } }
+	}
+	gene_eye_height = {
+		100 = { name = eye_height_pos range = { 0.56 0.6 } }
+	}
+	gene_eye_distance = {
+		65 = { name = eye_distance_pos range = { 0.47 0.55 } }
+		35 = { name = eye_distance_pos range = { 0.52 0.58 } }
+	}
+	gene_eye_shut = {
+		100 = { name = eye_shut_pos range = { 0.42 0.6 } }
+	}
+	gene_bs_eye_corner_depth = {
+		100 = { name = eye_corner_depth_pos range = { 0.5 0.75 } }
+	}
+	gene_bs_eye_fold_shape = {
+		100 = { name = eye_fold_shape_neg range = { 0.0 0.05 } }
+	}
+	gene_bs_eye_size = {
+		20 = { name = eye_size_pos range = { 0.0 0.05 } }
+		80 = { name = eye_size_neg range = { 0.0 0.35 } }
+	}
+	gene_bs_eye_upper_lid_size = {
+		50 = { name = eye_upper_lid_size_pos range = { 0.0 0.6 } }
+		50 = { name = eye_upper_lid_size_neg range = { 0.0 0.6 } }
+	}
+	face_detail_eye_socket = {
+		10 = { name = eye_socket_01 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_01 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_01 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_02 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_02 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_02 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_03 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_03 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_03 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_01 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_01 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_01 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_02 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_02 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_02 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_03 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_03 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_03 range = { 0.8 1.0 } }
+	}
+	face_detail_eye_lower_lid_def = {
+		7 = { name = eye_lower_lid_def range = { 0.0 0.4 } }
+		10 = { name = eye_lower_lid_def range = { 0.4 0.8 } }
+		5 = { name = eye_lower_lid_def range = { 0.8 1.0 } }
+	}
+	expression_eye_wrinkles = {
+		30 = { name = eye_wrinkles_01 range = { 0.0 0.4 } }
+		10 = { name = eye_wrinkles_01 range = { 0.5 1.0 } }
+		10 = { name = eye_wrinkles_02 range = { 0.5 1.0 } }
+		10 = { name = eye_wrinkles_03 range = { 0.5 1.0 } }
+	}
+
+	eye_color = {
+		50 = { 0.05 0.95 0.35 1.0 } # Black
+	}
+
+	hair_color = {
+		98 = { 0.01 0.9 0.5 0.99 } # Black
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_05 = {
+	template = "siberian_siberian_07"
+	using = "ainu"
+
+	skin_color = {
+		10 = { 0.3 0.5 0.7 0.65 }
+	}
+
+	gene_eye_angle = {
+		100 = { name = eye_angle_neg range = { 0.46 0.55 } }
+	}
+	gene_eye_depth = {
+		100 = { name = eye_depth_pos range = { 0.67 0.7 } }
+	}
+	gene_eye_height = {
+		100 = { name = eye_height_pos range = { 0.56 0.6 } }
+	}
+	gene_eye_distance = {
+		65 = { name = eye_distance_pos range = { 0.47 0.55 } }
+		35 = { name = eye_distance_pos range = { 0.52 0.58 } }
+	}
+	gene_eye_shut = {
+		100 = { name = eye_shut_pos range = { 0.42 0.6 } }
+	}
+	gene_bs_eye_corner_depth = {
+		100 = { name = eye_corner_depth_pos range = { 0.5 0.75 } }
+	}
+	gene_bs_eye_fold_shape = {
+		100 = { name = eye_fold_shape_neg range = { 0.0 0.05 } }
+	}
+	gene_bs_eye_size = {
+		20 = { name = eye_size_pos range = { 0.0 0.05 } }
+		80 = { name = eye_size_neg range = { 0.0 0.35 } }
+	}
+	gene_bs_eye_upper_lid_size = {
+		50 = { name = eye_upper_lid_size_pos range = { 0.0 0.6 } }
+		50 = { name = eye_upper_lid_size_neg range = { 0.0 0.6 } }
+	}
+	face_detail_eye_socket = {
+		10 = { name = eye_socket_01 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_01 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_01 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_02 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_02 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_02 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_03 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_03 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_03 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_01 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_01 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_01 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_02 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_02 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_02 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_03 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_03 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_03 range = { 0.8 1.0 } }
+	}
+	face_detail_eye_lower_lid_def = {
+		7 = { name = eye_lower_lid_def range = { 0.0 0.4 } }
+		10 = { name = eye_lower_lid_def range = { 0.4 0.8 } }
+		5 = { name = eye_lower_lid_def range = { 0.8 1.0 } }
+	}
+	expression_eye_wrinkles = {
+		30 = { name = eye_wrinkles_01 range = { 0.0 0.4 } }
+		10 = { name = eye_wrinkles_01 range = { 0.5 1.0 } }
+		10 = { name = eye_wrinkles_02 range = { 0.5 1.0 } }
+		10 = { name = eye_wrinkles_03 range = { 0.5 1.0 } }
+	}
+	
+	eye_color = {
+		3 = { 0.05 0.95 0.35 1.0 } # Black
+        # EPE Darkest Red Brown Static
+        11 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darkest Wood Brown Static
+        11 = { 0.15 0.8 0.15 0.9 }
+	}
+
+	hair_color = {
+		98 = { 0.01 0.9 0.5 0.99 } # Black
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_06 = {
+	template = "siberian_siberian_09"
+	using = "ainu"
+
+	skin_color = {
+		10 = { 0.3 0.5 0.7 0.65 }
+	}
+
+	gene_eye_angle = {
+		100 = { name = eye_angle_neg range = { 0.46 0.55 } }
+	}
+	gene_eye_depth = {
+		100 = { name = eye_depth_pos range = { 0.67 0.7 } }
+	}
+	gene_eye_height = {
+		100 = { name = eye_height_pos range = { 0.56 0.6 } }
+	}
+	gene_eye_distance = {
+		65 = { name = eye_distance_pos range = { 0.47 0.55 } }
+		35 = { name = eye_distance_pos range = { 0.52 0.58 } }
+	}
+	gene_eye_shut = {
+		100 = { name = eye_shut_pos range = { 0.42 0.6 } }
+	}
+	gene_bs_eye_corner_depth = {
+		100 = { name = eye_corner_depth_pos range = { 0.5 0.75 } }
+	}
+	gene_bs_eye_fold_shape = {
+		100 = { name = eye_fold_shape_neg range = { 0.0 0.05 } }
+	}
+	gene_bs_eye_size = {
+		20 = { name = eye_size_pos range = { 0.0 0.05 } }
+		80 = { name = eye_size_neg range = { 0.0 0.35 } }
+	}
+	gene_bs_eye_upper_lid_size = {
+		50 = { name = eye_upper_lid_size_pos range = { 0.0 0.6 } }
+		50 = { name = eye_upper_lid_size_neg range = { 0.0 0.6 } }
+	}
+	face_detail_eye_socket = {
+		10 = { name = eye_socket_01 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_01 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_01 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_02 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_02 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_02 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_03 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_03 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_03 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_01 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_01 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_01 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_02 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_02 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_02 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_03 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_03 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_03 range = { 0.8 1.0 } }
+	}
+	face_detail_eye_lower_lid_def = {
+		7 = { name = eye_lower_lid_def range = { 0.0 0.4 } }
+		10 = { name = eye_lower_lid_def range = { 0.4 0.8 } }
+		5 = { name = eye_lower_lid_def range = { 0.8 1.0 } }
+	}
+	expression_eye_wrinkles = {
+		30 = { name = eye_wrinkles_01 range = { 0.0 0.4 } }
+		10 = { name = eye_wrinkles_01 range = { 0.5 1.0 } }
+		10 = { name = eye_wrinkles_02 range = { 0.5 1.0 } }
+		10 = { name = eye_wrinkles_03 range = { 0.5 1.0 } }
+	}
+
+	eye_color = {
+		50 = { 0.05 0.95 0.35 1.0 } # Black
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_07 = {
+	template = "siberian_siberian_11"
+	using = "ainu"
+
+	skin_color = {
+		10 = { 0.3 0.5 0.7 0.65 }
+	}
+
+	gene_eye_angle = {
+		100 = { name = eye_angle_neg range = { 0.46 0.55 } }
+	}
+	gene_eye_depth = {
+		100 = { name = eye_depth_pos range = { 0.67 0.7 } }
+	}
+	gene_eye_height = {
+		100 = { name = eye_height_pos range = { 0.56 0.6 } }
+	}
+	gene_eye_distance = {
+		65 = { name = eye_distance_pos range = { 0.47 0.55 } }
+		35 = { name = eye_distance_pos range = { 0.52 0.58 } }
+	}
+	gene_eye_shut = {
+		100 = { name = eye_shut_pos range = { 0.42 0.6 } }
+	}
+	gene_bs_eye_corner_depth = {
+		100 = { name = eye_corner_depth_pos range = { 0.5 0.75 } }
+	}
+	gene_bs_eye_fold_shape = {
+		100 = { name = eye_fold_shape_neg range = { 0.0 0.05 } }
+	}
+	gene_bs_eye_size = {
+		20 = { name = eye_size_pos range = { 0.0 0.05 } }
+		80 = { name = eye_size_neg range = { 0.0 0.35 } }
+	}
+	gene_bs_eye_upper_lid_size = {
+		50 = { name = eye_upper_lid_size_pos range = { 0.0 0.6 } }
+		50 = { name = eye_upper_lid_size_neg range = { 0.0 0.6 } }
+	}
+	face_detail_eye_socket = {
+		10 = { name = eye_socket_01 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_01 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_01 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_02 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_02 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_02 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_03 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_03 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_03 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_01 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_01 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_01 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_02 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_02 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_02 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_03 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_03 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_03 range = { 0.8 1.0 } }
+	}
+	face_detail_eye_lower_lid_def = {
+		7 = { name = eye_lower_lid_def range = { 0.0 0.4 } }
+		10 = { name = eye_lower_lid_def range = { 0.4 0.8 } }
+		5 = { name = eye_lower_lid_def range = { 0.8 1.0 } }
+	}
+	expression_eye_wrinkles = {
+		30 = { name = eye_wrinkles_01 range = { 0.0 0.4 } }
+		10 = { name = eye_wrinkles_01 range = { 0.5 1.0 } }
+		10 = { name = eye_wrinkles_02 range = { 0.5 1.0 } }
+		10 = { name = eye_wrinkles_03 range = { 0.5 1.0 } }
+	}
+	
+	eye_color = {
+		3 = { 0.05 0.95 0.35 1.0 } # Black
+        # EPE Darkest Red Brown Static
+        11 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darkest Wood Brown Static
+        11 = { 0.15 0.8 0.15 0.9 }
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_08 = {
+	template = "siberian_siberian_13"
+	using = "ainu"
+
+	skin_color = {
+		10 = { 0.3 0.5 0.7 0.65 }
+	}
+
+	gene_eye_angle = {
+		100 = { name = eye_angle_neg range = { 0.46 0.55 } }
+	}
+	gene_eye_depth = {
+		100 = { name = eye_depth_pos range = { 0.67 0.7 } }
+	}
+	gene_eye_height = {
+		100 = { name = eye_height_pos range = { 0.56 0.6 } }
+	}
+	gene_eye_distance = {
+		65 = { name = eye_distance_pos range = { 0.47 0.55 } }
+		35 = { name = eye_distance_pos range = { 0.52 0.58 } }
+	}
+	gene_eye_shut = {
+		100 = { name = eye_shut_pos range = { 0.42 0.6 } }
+	}
+	gene_bs_eye_corner_depth = {
+		100 = { name = eye_corner_depth_pos range = { 0.5 0.75 } }
+	}
+	gene_bs_eye_fold_shape = {
+		100 = { name = eye_fold_shape_neg range = { 0.0 0.05 } }
+	}
+	gene_bs_eye_size = {
+		20 = { name = eye_size_pos range = { 0.0 0.05 } }
+		80 = { name = eye_size_neg range = { 0.0 0.35 } }
+	}
+	gene_bs_eye_upper_lid_size = {
+		50 = { name = eye_upper_lid_size_pos range = { 0.0 0.6 } }
+		50 = { name = eye_upper_lid_size_neg range = { 0.0 0.6 } }
+	}
+	face_detail_eye_socket = {
+		10 = { name = eye_socket_01 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_01 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_01 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_02 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_02 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_02 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_03 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_03 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_03 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_01 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_01 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_01 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_02 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_02 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_02 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_03 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_03 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_03 range = { 0.8 1.0 } }
+	}
+	face_detail_eye_lower_lid_def = {
+		7 = { name = eye_lower_lid_def range = { 0.0 0.4 } }
+		10 = { name = eye_lower_lid_def range = { 0.4 0.8 } }
+		5 = { name = eye_lower_lid_def range = { 0.8 1.0 } }
+	}
+	expression_eye_wrinkles = {
+		30 = { name = eye_wrinkles_01 range = { 0.0 0.4 } }
+		10 = { name = eye_wrinkles_01 range = { 0.5 1.0 } }
+		10 = { name = eye_wrinkles_02 range = { 0.5 1.0 } }
+		10 = { name = eye_wrinkles_03 range = { 0.5 1.0 } }
+	}
+
+	eye_color = {
+		50 = { 0.05 0.95 0.35 1.0 } # Black
+	}
+
+	hair_color = {
+		98 = { 0.01 0.9 0.5 0.99 } # Black
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_09 = {
+	template = "siberian_siberian_15"
+	using = "ainu"
+
+	skin_color = {
+		10 = { 0.3 0.5 0.7 0.65 }
+	}
+
+	gene_eye_angle = {
+		100 = { name = eye_angle_neg range = { 0.46 0.55 } }
+	}
+	gene_eye_depth = {
+		100 = { name = eye_depth_pos range = { 0.67 0.7 } }
+	}
+	gene_eye_height = {
+		100 = { name = eye_height_pos range = { 0.56 0.6 } }
+	}
+	gene_eye_distance = {
+		65 = { name = eye_distance_pos range = { 0.47 0.55 } }
+		35 = { name = eye_distance_pos range = { 0.52 0.58 } }
+	}
+	gene_eye_shut = {
+		100 = { name = eye_shut_pos range = { 0.42 0.6 } }
+	}
+	gene_bs_eye_corner_depth = {
+		100 = { name = eye_corner_depth_pos range = { 0.5 0.75 } }
+	}
+	gene_bs_eye_fold_shape = {
+		100 = { name = eye_fold_shape_neg range = { 0.0 0.05 } }
+	}
+	gene_bs_eye_size = {
+		20 = { name = eye_size_pos range = { 0.0 0.05 } }
+		80 = { name = eye_size_neg range = { 0.0 0.35 } }
+	}
+	gene_bs_eye_upper_lid_size = {
+		50 = { name = eye_upper_lid_size_pos range = { 0.0 0.6 } }
+		50 = { name = eye_upper_lid_size_neg range = { 0.0 0.6 } }
+	}
+	face_detail_eye_socket = {
+		10 = { name = eye_socket_01 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_01 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_01 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_02 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_02 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_02 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_03 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_03 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_03 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_01 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_01 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_01 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_02 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_02 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_02 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_03 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_03 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_03 range = { 0.8 1.0 } }
+	}
+	face_detail_eye_lower_lid_def = {
+		7 = { name = eye_lower_lid_def range = { 0.0 0.4 } }
+		10 = { name = eye_lower_lid_def range = { 0.4 0.8 } }
+		5 = { name = eye_lower_lid_def range = { 0.8 1.0 } }
+	}
+	expression_eye_wrinkles = {
+		30 = { name = eye_wrinkles_01 range = { 0.0 0.4 } }
+		10 = { name = eye_wrinkles_01 range = { 0.5 1.0 } }
+		10 = { name = eye_wrinkles_02 range = { 0.5 1.0 } }
+		10 = { name = eye_wrinkles_03 range = { 0.5 1.0 } }
+	}
+	
+	eye_color = {
+		3 = { 0.05 0.95 0.35 1.0 } # Black
+        # EPE Darkest Red Brown Static
+        11 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darkest Wood Brown Static
+        11 = { 0.15 0.8 0.15 0.9 }
+	}
+
+	hair_color = {
+		98 = { 0.01 0.9 0.5 0.99 } # Black
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_10 = {
+	template = "siberian_siberian_17"
+	using = "ainu"
+
+	skin_color = {
+		10 = { 0.3 0.5 0.7 0.65 }
+	}
+
+	gene_eye_angle = {
+		100 = { name = eye_angle_neg range = { 0.46 0.55 } }
+	}
+	gene_eye_depth = {
+		100 = { name = eye_depth_pos range = { 0.67 0.7 } }
+	}
+	gene_eye_height = {
+		100 = { name = eye_height_pos range = { 0.56 0.6 } }
+	}
+	gene_eye_distance = {
+		65 = { name = eye_distance_pos range = { 0.47 0.55 } }
+		35 = { name = eye_distance_pos range = { 0.52 0.58 } }
+	}
+	gene_eye_shut = {
+		100 = { name = eye_shut_pos range = { 0.42 0.6 } }
+	}
+	gene_bs_eye_corner_depth = {
+		100 = { name = eye_corner_depth_pos range = { 0.5 0.75 } }
+	}
+	gene_bs_eye_fold_shape = {
+		100 = { name = eye_fold_shape_neg range = { 0.0 0.05 } }
+	}
+	gene_bs_eye_size = {
+		20 = { name = eye_size_pos range = { 0.0 0.05 } }
+		80 = { name = eye_size_neg range = { 0.0 0.35 } }
+	}
+	gene_bs_eye_upper_lid_size = {
+		50 = { name = eye_upper_lid_size_pos range = { 0.0 0.6 } }
+		50 = { name = eye_upper_lid_size_neg range = { 0.0 0.6 } }
+	}
+	face_detail_eye_socket = {
+		10 = { name = eye_socket_01 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_01 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_01 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_02 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_02 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_02 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_03 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_03 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_03 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_01 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_01 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_01 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_02 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_02 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_02 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_03 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_03 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_03 range = { 0.8 1.0 } }
+	}
+	face_detail_eye_lower_lid_def = {
+		7 = { name = eye_lower_lid_def range = { 0.0 0.4 } }
+		10 = { name = eye_lower_lid_def range = { 0.4 0.8 } }
+		5 = { name = eye_lower_lid_def range = { 0.8 1.0 } }
+	}
+	expression_eye_wrinkles = {
+		30 = { name = eye_wrinkles_01 range = { 0.0 0.4 } }
+		10 = { name = eye_wrinkles_01 range = { 0.5 1.0 } }
+		10 = { name = eye_wrinkles_02 range = { 0.5 1.0 } }
+		10 = { name = eye_wrinkles_03 range = { 0.5 1.0 } }
+	}
+
+	eye_color = {
+		50 = { 0.05 0.95 0.35 1.0 } # Black
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_11 = {
+	template = "siberian_siberian_19"
+	using = "ainu"
+
+	skin_color = {
+		10 = { 0.3 0.5 0.7 0.65 }
+	}
+
+	gene_eye_angle = {
+		100 = { name = eye_angle_neg range = { 0.46 0.55 } }
+	}
+	gene_eye_depth = {
+		100 = { name = eye_depth_pos range = { 0.67 0.7 } }
+	}
+	gene_eye_height = {
+		100 = { name = eye_height_pos range = { 0.56 0.6 } }
+	}
+	gene_eye_distance = {
+		65 = { name = eye_distance_pos range = { 0.47 0.55 } }
+		35 = { name = eye_distance_pos range = { 0.52 0.58 } }
+	}
+	gene_eye_shut = {
+		100 = { name = eye_shut_pos range = { 0.42 0.6 } }
+	}
+	gene_bs_eye_corner_depth = {
+		100 = { name = eye_corner_depth_pos range = { 0.5 0.75 } }
+	}
+	gene_bs_eye_fold_shape = {
+		100 = { name = eye_fold_shape_neg range = { 0.0 0.05 } }
+	}
+	gene_bs_eye_size = {
+		20 = { name = eye_size_pos range = { 0.0 0.05 } }
+		80 = { name = eye_size_neg range = { 0.0 0.35 } }
+	}
+	gene_bs_eye_upper_lid_size = {
+		50 = { name = eye_upper_lid_size_pos range = { 0.0 0.6 } }
+		50 = { name = eye_upper_lid_size_neg range = { 0.0 0.6 } }
+	}
+	face_detail_eye_socket = {
+		10 = { name = eye_socket_01 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_01 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_01 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_02 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_02 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_02 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_03 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_03 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_03 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_01 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_01 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_01 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_02 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_02 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_02 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_03 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_03 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_03 range = { 0.8 1.0 } }
+	}
+	face_detail_eye_lower_lid_def = {
+		7 = { name = eye_lower_lid_def range = { 0.0 0.4 } }
+		10 = { name = eye_lower_lid_def range = { 0.4 0.8 } }
+		5 = { name = eye_lower_lid_def range = { 0.8 1.0 } }
+	}
+	expression_eye_wrinkles = {
+		30 = { name = eye_wrinkles_01 range = { 0.0 0.4 } }
+		10 = { name = eye_wrinkles_01 range = { 0.5 1.0 } }
+		10 = { name = eye_wrinkles_02 range = { 0.5 1.0 } }
+		10 = { name = eye_wrinkles_03 range = { 0.5 1.0 } }
+	}
+	
+	eye_color = {
+		3 = { 0.05 0.95 0.35 1.0 } # Black
+        # EPE Darkest Red Brown Static
+        11 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darkest Wood Brown Static
+        11 = { 0.15 0.8 0.15 0.9 }
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_12 = {
+	template = "siberian_siberian_21"
+	using = "ainu"
+
+	skin_color = {
+		10 = { 0.3 0.5 0.7 0.65 }
+	}
+
+	gene_eye_angle = {
+		100 = { name = eye_angle_neg range = { 0.46 0.55 } }
+	}
+	gene_eye_depth = {
+		100 = { name = eye_depth_pos range = { 0.67 0.7 } }
+	}
+	gene_eye_height = {
+		100 = { name = eye_height_pos range = { 0.56 0.6 } }
+	}
+	gene_eye_distance = {
+		65 = { name = eye_distance_pos range = { 0.47 0.55 } }
+		35 = { name = eye_distance_pos range = { 0.52 0.58 } }
+	}
+	gene_eye_shut = {
+		100 = { name = eye_shut_pos range = { 0.42 0.6 } }
+	}
+	gene_bs_eye_corner_depth = {
+		100 = { name = eye_corner_depth_pos range = { 0.5 0.75 } }
+	}
+	gene_bs_eye_fold_shape = {
+		100 = { name = eye_fold_shape_neg range = { 0.0 0.05 } }
+	}
+	gene_bs_eye_size = {
+		20 = { name = eye_size_pos range = { 0.0 0.05 } }
+		80 = { name = eye_size_neg range = { 0.0 0.35 } }
+	}
+	gene_bs_eye_upper_lid_size = {
+		50 = { name = eye_upper_lid_size_pos range = { 0.0 0.6 } }
+		50 = { name = eye_upper_lid_size_neg range = { 0.0 0.6 } }
+	}
+	face_detail_eye_socket = {
+		10 = { name = eye_socket_01 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_01 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_01 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_02 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_02 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_02 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_03 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_03 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_03 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_01 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_01 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_01 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_02 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_02 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_02 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_03 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_03 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_03 range = { 0.8 1.0 } }
+	}
+	face_detail_eye_lower_lid_def = {
+		7 = { name = eye_lower_lid_def range = { 0.0 0.4 } }
+		10 = { name = eye_lower_lid_def range = { 0.4 0.8 } }
+		5 = { name = eye_lower_lid_def range = { 0.8 1.0 } }
+	}
+	expression_eye_wrinkles = {
+		30 = { name = eye_wrinkles_01 range = { 0.0 0.4 } }
+		10 = { name = eye_wrinkles_01 range = { 0.5 1.0 } }
+		10 = { name = eye_wrinkles_02 range = { 0.5 1.0 } }
+		10 = { name = eye_wrinkles_03 range = { 0.5 1.0 } }
+	}
+
+	eye_color = {
+		50 = { 0.05 0.95 0.35 1.0 } # Black
+	}
+
+	hair_color = {
+		98 = { 0.01 0.9 0.5 0.99 } # Black
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_13 = {
+	template = "siberian_siberian_23"
+	using = "ainu"
+
+	skin_color = {
+		10 = { 0.3 0.5 0.7 0.65 }
+	}
+
+	gene_eye_angle = {
+		100 = { name = eye_angle_neg range = { 0.46 0.55 } }
+	}
+	gene_eye_depth = {
+		100 = { name = eye_depth_pos range = { 0.67 0.7 } }
+	}
+	gene_eye_height = {
+		100 = { name = eye_height_pos range = { 0.56 0.6 } }
+	}
+	gene_eye_distance = {
+		65 = { name = eye_distance_pos range = { 0.47 0.55 } }
+		35 = { name = eye_distance_pos range = { 0.52 0.58 } }
+	}
+	gene_eye_shut = {
+		100 = { name = eye_shut_pos range = { 0.42 0.6 } }
+	}
+	gene_bs_eye_corner_depth = {
+		100 = { name = eye_corner_depth_pos range = { 0.5 0.75 } }
+	}
+	gene_bs_eye_fold_shape = {
+		100 = { name = eye_fold_shape_neg range = { 0.0 0.05 } }
+	}
+	gene_bs_eye_size = {
+		20 = { name = eye_size_pos range = { 0.0 0.05 } }
+		80 = { name = eye_size_neg range = { 0.0 0.35 } }
+	}
+	gene_bs_eye_upper_lid_size = {
+		50 = { name = eye_upper_lid_size_pos range = { 0.0 0.6 } }
+		50 = { name = eye_upper_lid_size_neg range = { 0.0 0.6 } }
+	}
+	face_detail_eye_socket = {
+		10 = { name = eye_socket_01 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_01 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_01 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_02 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_02 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_02 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_03 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_03 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_03 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_01 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_01 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_01 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_02 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_02 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_02 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_03 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_03 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_03 range = { 0.8 1.0 } }
+	}
+	face_detail_eye_lower_lid_def = {
+		7 = { name = eye_lower_lid_def range = { 0.0 0.4 } }
+		10 = { name = eye_lower_lid_def range = { 0.4 0.8 } }
+		5 = { name = eye_lower_lid_def range = { 0.8 1.0 } }
+	}
+	expression_eye_wrinkles = {
+		30 = { name = eye_wrinkles_01 range = { 0.0 0.4 } }
+		10 = { name = eye_wrinkles_01 range = { 0.5 1.0 } }
+		10 = { name = eye_wrinkles_02 range = { 0.5 1.0 } }
+		10 = { name = eye_wrinkles_03 range = { 0.5 1.0 } }
+	}
+	
+	eye_color = {
+		3 = { 0.05 0.95 0.35 1.0 } # Black
+        # EPE Darkest Red Brown Static
+        11 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darkest Wood Brown Static
+        11 = { 0.15 0.8 0.15 0.9 }
+	}
+
+	hair_color = {
+		98 = { 0.01 0.9 0.5 0.99 } # Black
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_14 = {
+	template = "siberian_siberian_25"
+	using = "ainu"
+
+	skin_color = {
+		10 = { 0.3 0.5 0.7 0.65 }
+	}
+
+	gene_eye_angle = {
+		100 = { name = eye_angle_neg range = { 0.46 0.55 } }
+	}
+	gene_eye_depth = {
+		100 = { name = eye_depth_pos range = { 0.67 0.7 } }
+	}
+	gene_eye_height = {
+		100 = { name = eye_height_pos range = { 0.56 0.6 } }
+	}
+	gene_eye_distance = {
+		65 = { name = eye_distance_pos range = { 0.47 0.55 } }
+		35 = { name = eye_distance_pos range = { 0.52 0.58 } }
+	}
+	gene_eye_shut = {
+		100 = { name = eye_shut_pos range = { 0.42 0.6 } }
+	}
+	gene_bs_eye_corner_depth = {
+		100 = { name = eye_corner_depth_pos range = { 0.5 0.75 } }
+	}
+	gene_bs_eye_fold_shape = {
+		100 = { name = eye_fold_shape_neg range = { 0.0 0.05 } }
+	}
+	gene_bs_eye_size = {
+		20 = { name = eye_size_pos range = { 0.0 0.05 } }
+		80 = { name = eye_size_neg range = { 0.0 0.35 } }
+	}
+	gene_bs_eye_upper_lid_size = {
+		50 = { name = eye_upper_lid_size_pos range = { 0.0 0.6 } }
+		50 = { name = eye_upper_lid_size_neg range = { 0.0 0.6 } }
+	}
+	face_detail_eye_socket = {
+		10 = { name = eye_socket_01 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_01 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_01 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_02 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_02 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_02 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_03 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_03 range = { 0.1 0.8 } }
+		5 = { name = eye_socket_03 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_01 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_01 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_01 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_02 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_02 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_02 range = { 0.8 1.0 } }
+		10 = { name = eye_socket_color_03 range = { 0.0 0.1 } }
+		10 = { name = eye_socket_color_03 range = { 0.1 0.8 } }
+		10 = { name = eye_socket_color_03 range = { 0.8 1.0 } }
+	}
+	face_detail_eye_lower_lid_def = {
+		7 = { name = eye_lower_lid_def range = { 0.0 0.4 } }
+		10 = { name = eye_lower_lid_def range = { 0.4 0.8 } }
+		5 = { name = eye_lower_lid_def range = { 0.8 1.0 } }
+	}
+	expression_eye_wrinkles = {
+		30 = { name = eye_wrinkles_01 range = { 0.0 0.4 } }
+		10 = { name = eye_wrinkles_01 range = { 0.5 1.0 } }
+		10 = { name = eye_wrinkles_02 range = { 0.5 1.0 } }
+		10 = { name = eye_wrinkles_03 range = { 0.5 1.0 } }
+	}
+
+	hair_color = {
+		98 = { 0.01 0.9 0.5 0.99 } # Black
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_15 = {
+	template = "indian_assamese_1"
+	using = "ainu"
+
+	skin_color = {
+		10 = { 0.05 0.2 0.7 0.4 }
+	}
+	#skin_color = {
+	#	10 = { 0.6 0.3 0.8 0.55 }
+	#}
+
+	eye_color = {
+		50 = { 0.05 0.95 0.35 1.0 } # Black
+	}
+
+	hair_color = {
+		98 = { 0.01 0.9 0.5 0.99 } # Black
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_16 = {
+	template = "indian_assamese_2"
+	using = "ainu"
+
+	skin_color = {
+		10 = { 0.05 0.2 0.7 0.4 }
+	}
+	#skin_color = {
+	#	10 = { 0.75 0.45 0.99 0.70 }
+	#}
+
+	eye_color = {
+		50 = { 0.05 0.95 0.35 1.0 } # Black
+	}
+
+	hair_color = {
+		98 = { 0.01 0.9 0.5 0.99 } # Black
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_17 = {
+	template = "indian_assamese_3"
+	using = "ainu"
+
+	skin_color = {
+		10 = { 0.05 0.2 0.7 0.4 }
+	}
+	#skin_color = {
+	#	10 = { 0.75 0.45 0.99 0.70 }
+	#}
+
+	eye_color = {
+		50 = { 0.05 0.95 0.35 1.0 } # Black
+	}
+
+	hair_color = {
+		98 = { 0.01 0.9 0.5 0.99 } # Black
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_18 = {
+	template = "indian_assamese_4"
+	using = "ainu"
+
+	skin_color = {
+		10 = { 0.05 0.2 0.7 0.4 }
+	}
+	#skin_color = {
+	#	10 = { 0.75 0.45 0.99 0.70 }
+	#}
+
+	eye_color = {
+		50 = { 0.05 0.95 0.35 1.0 } # Black
+	}
+
+	hair_color = {
+		98 = { 0.01 0.9 0.5 0.99 } # Black
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_19 = {
+	template = "indian_assamese_5"
+	using = "ainu"
+
+	skin_color = {
+		10 = { 0.05 0.2 0.7 0.4 }
+	}
+	#skin_color = {
+	#	10 = { 0.75 0.45 0.99 0.70 }
+	#}
+
+	eye_color = {
+		50 = { 0.05 0.95 0.35 1.0 } # Black
+	}
+
+	hair_color = {
+		98 = { 0.01 0.9 0.5 0.99 } # Black
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_20 = {
+	template = "indian_assamese_6"
+	using = "ainu"
+
+	skin_color = {
+		10 = { 0.25 0.25 0.8 0.45 }
+	}
+	#skin_color = {
+	#	10 = { 0.75 0.45 0.99 0.70 }
+	#}
+
+	eye_color = {
+		50 = { 0.05 0.95 0.35 1.0 } # Black
+	}
+
+	hair_color = {
+		98 = { 0.01 0.9 0.5 0.99 } # Black
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_21 = {
+	template = "indian_assamese_7"
+	using = "ainu"
+
+	skin_color = {
+		10 = { 0.25 0.25 0.8 0.45 }
+	}
+	#skin_color = {
+	#	10 = { 0.75 0.45 0.99 0.70 }
+	#}
+
+	eye_color = {
+		50 = { 0.05 0.95 0.35 1.0 } # Black
+	}
+
+	hair_color = {
+		98 = { 0.01 0.9 0.5 0.99 } # Black
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_22 = {
+	template = "indian_assamese_8"
+	using = "ainu"
+
+	skin_color = {
+		10 = { 0.25 0.25 0.8 0.45 }
+	}
+	#skin_color = {
+	#	10 = { 0.6 0.3 0.8 0.55 }
+	#}
+
+	eye_color = {
+		50 = { 0.05 0.95 0.35 1.0 } # Black
+	}
+
+	hair_color = {
+		98 = { 0.01 0.9 0.5 0.99 } # Black
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_23 = {
+	template = "indian_assamese_9"
+	using = "ainu"
+
+	skin_color = {
+		10 = { 0.25 0.25 0.8 0.45 }
+	}
+	#skin_color = {
+	#	10 = { 0.6 0.3 0.8 0.55 }
+	#}
+
+	eye_color = {
+		50 = { 0.05 0.95 0.35 1.0 } # Black
+	}
+
+	hair_color = {
+		98 = { 0.01 0.9 0.5 0.99 } # Black
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_24 = {
+	template = "indian_assamese_10"
+	using = "ainu"
+
+	skin_color = {
+		10 = { 0.15 0.3 0.7 0.45 }
+	}
+	#skin_color = {
+	#	10 = { 0.3 0.5 0.7 0.65 }
+	#}
+
+	eye_color = {
+		50 = { 0.05 0.95 0.35 1.0 } # Black
+	}
+
+	hair_color = {
+		98 = { 0.01 0.9 0.5 0.99 } # Black
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_25 = {
+	template = "indian_rajput_1"
+	using = "ainu"
+
+	skin_color = {
+		88 = { 0.15 0.54 0.26 0.61 }
+	}
+	
+	eye_color = {
+		3 = { 0.05 0.95 0.35 1.0 } # Black
+        # EPE Darkest Red Brown Static
+        11 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darkest Wood Brown Static
+        11 = { 0.15 0.8 0.15 0.9 }
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_26 = {
+	template = "indian_rajput_2"
+	using = "ainu"
+
+	skin_color = {
+		88 = { 0.15 0.54 0.26 0.61 }
+	}
+	
+	eye_color = {
+		3 = { 0.05 0.95 0.35 1.0 } # Black
+        # EPE Darkest Red Brown Static
+        11 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darkest Wood Brown Static
+        11 = { 0.15 0.8 0.15 0.9 }
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_27 = {
+	template = "indian_rajput_3"
+	using = "ainu"
+
+	skin_color = {
+		88 = { 0.15 0.54 0.26 0.61 }
+	}
+	
+	eye_color = {
+		3 = { 0.05 0.95 0.35 1.0 } # Black
+        # EPE Darkest Red Brown Static
+        11 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darkest Wood Brown Static
+        11 = { 0.15 0.8 0.15 0.9 }
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_28 = {
+	template = "indian_rajput_4"
+	using = "ainu"
+
+	skin_color = {
+		88 = { 0.15 0.54 0.26 0.61 }
+	}
+	
+	eye_color = {
+		3 = { 0.05 0.95 0.35 1.0 } # Black
+        # EPE Darkest Red Brown Static
+        11 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darkest Wood Brown Static
+        11 = { 0.15 0.8 0.15 0.9 }
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_29 = {
+	template = "indian_rajput_5"
+	using = "ainu"
+
+	skin_color = {
+		88 = { 0.15 0.54 0.26 0.61 }
+	}
+	
+	eye_color = {
+		3 = { 0.05 0.95 0.35 1.0 } # Black
+        # EPE Darkest Red Brown Static
+        11 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darkest Wood Brown Static
+        11 = { 0.15 0.8 0.15 0.9 }
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_30 = {
+	template = "indian_rajput_6"
+	using = "ainu"
+
+	skin_color = {
+		88 = { 0.15 0.54 0.26 0.61 }
+	}
+	
+	eye_color = {
+		3 = { 0.05 0.95 0.35 1.0 } # Black
+        # EPE Darkest Red Brown Static
+        11 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darkest Wood Brown Static
+        11 = { 0.15 0.8 0.15 0.9 }
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_31 = {
+	template = "indian_rajput_7"
+	using = "ainu"
+
+	skin_color = {
+		88 = { 0.15 0.54 0.26 0.61 }
+	}
+	
+	eye_color = {
+		3 = { 0.05 0.95 0.35 1.0 } # Black
+        # EPE Darkest Red Brown Static
+        11 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darkest Wood Brown Static
+        11 = { 0.15 0.8 0.15 0.9 }
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_32 = {
+	template = "indian_rajput_8"
+	using = "ainu"
+
+	skin_color = {
+		88 = { 0.15 0.54 0.26 0.61 }
+	}
+	
+	eye_color = {
+		3 = { 0.05 0.95 0.35 1.0 } # Black
+        # EPE Darkest Red Brown Static
+        11 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darkest Wood Brown Static
+        11 = { 0.15 0.8 0.15 0.9 }
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_33 = {
+	template = "indian_rajput_9"
+	using = "ainu"
+
+	skin_color = {
+		88 = { 0.15 0.54 0.26 0.61 }
+	}
+	
+	eye_color = {
+		3 = { 0.05 0.95 0.35 1.0 } # Black
+        # EPE Darkest Red Brown Static
+        11 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darkest Wood Brown Static
+        11 = { 0.15 0.8 0.15 0.9 }
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_34 = {
+	template = "indian_rajput_10"
+	using = "ainu"
+
+	skin_color = {
+		88 = { 0.15 0.54 0.26 0.61 }
+	}
+	
+	eye_color = {
+		3 = { 0.05 0.95 0.35 1.0 } # Black
+        # EPE Darkest Red Brown Static
+        11 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darkest Wood Brown Static
+        11 = { 0.15 0.8 0.15 0.9 }
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_35 = {
+	template = "indian_rajput_11"
+	using = "ainu"
+
+	skin_color = {
+		88 = { 0.15 0.54 0.26 0.61 }
+	}
+	
+	eye_color = {
+		3 = { 0.05 0.95 0.35 1.0 } # Black
+        # EPE Darkest Red Brown Static
+        11 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darkest Wood Brown Static
+        11 = { 0.15 0.8 0.15 0.9 }
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_36 = {
+	template = "indian_rajput_12"
+	using = "ainu"
+
+	skin_color = {
+		88 = { 0.15 0.54 0.26 0.61 }
+	}
+	
+	eye_color = {
+		3 = { 0.05 0.95 0.35 1.0 } # Black
+        # EPE Darkest Red Brown Static
+        11 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darkest Wood Brown Static
+        11 = { 0.15 0.8 0.15 0.9 }
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_37 = {
+	template = "indian_rajput_13"
+	using = "ainu"
+
+	skin_color = {
+		88 = { 0.15 0.54 0.26 0.61 }
+	}
+	
+	eye_color = {
+		3 = { 0.05 0.95 0.35 1.0 } # Black
+        # EPE Darkest Red Brown Static
+        11 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darkest Wood Brown Static
+        11 = { 0.15 0.8 0.15 0.9 }
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_38 = {
+	template = "indian_rajput_14"
+	using = "ainu"
+
+	skin_color = {
+		88 = { 0.15 0.54 0.26 0.61 }
+	}
+	
+	eye_color = {
+		3 = { 0.05 0.95 0.35 1.0 } # Black
+        # EPE Darkest Red Brown Static
+        11 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darkest Wood Brown Static
+        11 = { 0.15 0.8 0.15 0.9 }
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_39 = {
+	template = "indian_rajput_15"
+	using = "ainu"
+
+	skin_color = {
+		88 = { 0.15 0.54 0.26 0.61 }
+	}
+	
+	eye_color = {
+		3 = { 0.05 0.95 0.35 1.0 } # Black
+        # EPE Darkest Red Brown Static
+        11 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darkest Wood Brown Static
+        11 = { 0.15 0.8 0.15 0.9 }
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_40 = {
+	template = "indian_rajput_16"
+	using = "ainu"
+
+	skin_color = {
+		88 = { 0.15 0.54 0.26 0.61 }
+	}
+	
+	eye_color = {
+		3 = { 0.05 0.95 0.35 1.0 } # Black
+        # EPE Darkest Red Brown Static
+        11 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darkest Wood Brown Static
+        11 = { 0.15 0.8 0.15 0.9 }
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_41 = {
+	template = "indian_rajput_17"
+	using = "ainu"
+
+	skin_color = {
+		88 = { 0.15 0.54 0.26 0.61 }
+	}
+	
+	eye_color = {
+		3 = { 0.05 0.95 0.35 1.0 } # Black
+        # EPE Darkest Red Brown Static
+        11 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darkest Wood Brown Static
+        11 = { 0.15 0.8 0.15 0.9 }
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_42 = {
+	template = "indian_rajput_18"
+	using = "ainu"
+
+	skin_color = {
+		88 = { 0.15 0.54 0.26 0.61 }
+	}
+	
+	eye_color = {
+		3 = { 0.05 0.95 0.35 1.0 } # Black
+        # EPE Darkest Red Brown Static
+        11 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darkest Wood Brown Static
+        11 = { 0.15 0.8 0.15 0.9 }
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_43 = {
+	template = "indian_rajput_19"
+	using = "ainu"
+
+	skin_color = {
+		10 = { 0.15 0.3 0.7 0.45 }
+	}
+	#skin_color = {
+	#	10 = { 0.4 0.15 0.8 0.5 }
+	#}
+	
+	eye_color = {
+		3 = { 0.05 0.95 0.35 1.0 } # Black
+        # EPE Darkest Red Brown Static
+        11 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darkest Wood Brown Static
+        11 = { 0.15 0.8 0.15 0.9 }
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_44 = {
+	template = "indian_rajput_20"
+	using = "ainu"
+
+	skin_color = {
+		10 = { 0.15 0.3 0.7 0.45 }
+	}
+	#skin_color = {
+	#	10 = { 0.4 0.15 0.8 0.5 }
+	#}
+	
+	eye_color = {
+		3 = { 0.05 0.95 0.35 1.0 } # Black
+        # EPE Darkest Red Brown Static
+        11 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darkest Wood Brown Static
+        11 = { 0.15 0.8 0.15 0.9 }
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_45 = {
+	template = "indian_rajput_21"
+	using = "ainu"
+
+	skin_color = {
+		10 = { 0.15 0.35 0.7 0.45 }
+	}
+	#skin_color = {
+	#	10 = { 0.4 0.15 0.8 0.5 }
+	#}
+	
+	eye_color = {
+		3 = { 0.05 0.95 0.35 1.0 } # Black
+        # EPE Darkest Red Brown Static
+        11 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darkest Wood Brown Static
+        11 = { 0.15 0.8 0.15 0.9 }
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_46 = {
+	template = "indian_rajput_22"
+	using = "ainu"
+
+	skin_color = {
+		10 = { 0.15 0.35 0.7 0.45 }
+	}
+	#skin_color = {
+	#	10 = { 0.4 0.15 0.8 0.5 }
+	#}
+	
+	eye_color = {
+		3 = { 0.05 0.95 0.35 1.0 } # Black
+        # EPE Darkest Red Brown Static
+        11 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darkest Wood Brown Static
+        11 = { 0.15 0.8 0.15 0.9 }
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_47 = {
+	template = "indian_rajput_23"
+	using = "ainu"
+
+	skin_color = {
+		10 = { 0.15 0.35 0.7 0.45 }
+	}
+	#skin_color = {
+	#	10 = { 0.4 0.15 0.8 0.5 }
+	#}
+	
+	eye_color = {
+		3 = { 0.05 0.95 0.35 1.0 } # Black
+        # EPE Darkest Red Brown Static
+        11 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darkest Wood Brown Static
+        11 = { 0.15 0.8 0.15 0.9 }
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_48 = {
+	template = "indian_rajput_24"
+	using = "ainu"
+
+	skin_color = {
+		10 = { 0.15 0.25 0.7 0.35 }
+	}
+	#skin_color = {
+	#	10 = { 0.4 0.15 0.8 0.5 }
+	#}
+	
+	eye_color = {
+		3 = { 0.05 0.95 0.35 1.0 } # Black
+        # EPE Darkest Red Brown Static
+        11 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darkest Wood Brown Static
+        11 = { 0.15 0.8 0.15 0.9 }
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_49 = {
+	template = "indian_rajput_25"
+	using = "ainu"
+
+	skin_color = {
+		10 = { 0.15 0.25 0.7 0.35 }
+	}
+	#skin_color = {
+	#	10 = { 0.4 0.15 0.8 0.5 }
+	#}
+	
+	eye_color = {
+		3 = { 0.05 0.95 0.35 1.0 } # Black
+        # EPE Darkest Red Brown Static
+        11 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darkest Wood Brown Static
+        11 = { 0.15 0.8 0.15 0.9 }
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
+east_asian_ainu_50 = {
+	template = "indian_rajput_26"
+	using = "ainu"
+
+	skin_color = {
+		10 = { 0.15 0.25 0.7 0.35 }
+	}
+	#skin_color = {
+	#	10 = { 0.4 0.15 0.8 0.5 }
+	#}
+	
+	eye_color = {
+		3 = { 0.05 0.95 0.35 1.0 } # Black
+        # EPE Darkest Red Brown Static
+        11 = { 0.1 0.8 0.1 0.9 }
+        # EPE Darkest Wood Brown Static
+        11 = { 0.15 0.8 0.15 0.9 }
+	}
+
+	gene_body_hair = {
+		10 = {
+			name = body_hair_dense
+			range = { 0.75 1.0 }
+		}
+	}
+}
+
 asian_turkic_enisey_kirghiz_01 = {
 	template = "steppe_volga_finn_mordvin_04"
-	using = "kirghiz"
+	using = "yenisei_kirghiz"
 
 	eye_color = {
 		### Brown Hues ###
@@ -121,13 +2149,13 @@ asian_turkic_enisey_kirghiz_01 = {
 
 		## Hazel Hues ##
 
-		# EPE Darkest Hazel Static 
+		# EPE Darkest Hazel Static
 		3 = { 0.32 0.7 0.32 0.9 }
-		# EPE Darker Hazel Static 
+		# EPE Darker Hazel Static
 		2 = { 0.32 0.6 0.32 0.7 }
-		# EPE Hazel Static 
+		# EPE Hazel Static
 		1 = { 0.32 0.4 0.32 0.6 }
-		# EPE Lighter Hazel Static 
+		# EPE Lighter Hazel Static
 		1 = { 0.32 0.25 0.32 0.4 }
 
 		## Green Hues
@@ -203,7 +2231,7 @@ asian_turkic_enisey_kirghiz_01 = {
 
 asian_turkic_enisey_kirghiz_02 = {
 	template = "steppe_volga_finn_mordvin_08"
-	using = "kirghiz"
+	using = "yenisei_kirghiz"
 
 	eye_color = {
 		### Brown Hues ###
@@ -240,13 +2268,13 @@ asian_turkic_enisey_kirghiz_02 = {
 
 		## Hazel Hues ##
 
-		# EPE Darkest Hazel Static 
+		# EPE Darkest Hazel Static
 		3 = { 0.32 0.7 0.32 0.9 }
-		# EPE Darker Hazel Static 
+		# EPE Darker Hazel Static
 		4 = { 0.32 0.6 0.32 0.7 }
-		# EPE Hazel Static 
+		# EPE Hazel Static
 		3 = { 0.32 0.4 0.32 0.6 }
-		# EPE Lighter Hazel Static 
+		# EPE Lighter Hazel Static
 		2 = { 0.32 0.25 0.32 0.4 }
 
 		## Green Hues
@@ -318,7 +2346,7 @@ asian_turkic_enisey_kirghiz_02 = {
 
 asian_turkic_enisey_kirghiz_03 = {
 	template = "steppe_volga_finn_mordvin_12"
-	using = "kirghiz"
+	using = "yenisei_kirghiz"
 
 	eye_color = {
 		### Brown Hues ###
@@ -355,13 +2383,13 @@ asian_turkic_enisey_kirghiz_03 = {
 
 		## Hazel Hues ##
 
-		# EPE Darkest Hazel Static 
+		# EPE Darkest Hazel Static
 		3 = { 0.32 0.7 0.32 0.9 }
-		# EPE Darker Hazel Static 
+		# EPE Darker Hazel Static
 		2 = { 0.32 0.6 0.32 0.7 }
-		# EPE Hazel Static 
+		# EPE Hazel Static
 		1 = { 0.32 0.4 0.32 0.6 }
-		# EPE Lighter Hazel Static 
+		# EPE Lighter Hazel Static
 		1 = { 0.32 0.25 0.32 0.4 }
 
 		## Green Hues
@@ -437,7 +2465,7 @@ asian_turkic_enisey_kirghiz_03 = {
 
 asian_turkic_enisey_kirghiz_04 = {
 	template = "steppe_volga_finn_mordvin_16"
-	using = "kirghiz"
+	using = "yenisei_kirghiz"
 
 	eye_color = {
 		### Brown Hues ###
@@ -474,13 +2502,13 @@ asian_turkic_enisey_kirghiz_04 = {
 
 		## Hazel Hues ##
 
-		# EPE Darkest Hazel Static 
+		# EPE Darkest Hazel Static
 		3 = { 0.32 0.7 0.32 0.9 }
-		# EPE Darker Hazel Static 
+		# EPE Darker Hazel Static
 		4 = { 0.32 0.6 0.32 0.7 }
-		# EPE Hazel Static 
+		# EPE Hazel Static
 		3 = { 0.32 0.4 0.32 0.6 }
-		# EPE Lighter Hazel Static 
+		# EPE Lighter Hazel Static
 		2 = { 0.32 0.25 0.32 0.4 }
 
 		## Green Hues
@@ -552,7 +2580,7 @@ asian_turkic_enisey_kirghiz_04 = {
 
 asian_turkic_enisey_kirghiz_05 = {
 	template = "steppe_volga_finn_mordvin_20"
-	using = "kirghiz"
+	using = "yenisei_kirghiz"
 
 	eye_color = {
 		### Brown Hues ###
@@ -589,13 +2617,13 @@ asian_turkic_enisey_kirghiz_05 = {
 
 		## Hazel Hues ##
 
-		# EPE Darkest Hazel Static 
+		# EPE Darkest Hazel Static
 		3 = { 0.32 0.7 0.32 0.9 }
-		# EPE Darker Hazel Static 
+		# EPE Darker Hazel Static
 		2 = { 0.32 0.6 0.32 0.7 }
-		# EPE Hazel Static 
+		# EPE Hazel Static
 		1 = { 0.32 0.4 0.32 0.6 }
-		# EPE Lighter Hazel Static 
+		# EPE Lighter Hazel Static
 		1 = { 0.32 0.25 0.32 0.4 }
 
 		## Green Hues
@@ -671,7 +2699,7 @@ asian_turkic_enisey_kirghiz_05 = {
 
 asian_turkic_enisey_kirghiz_06 = {
 	template = "steppe_volga_finn_mordvin_24"
-	using = "kirghiz"
+	using = "yenisei_kirghiz"
 
 	eye_color = {
 		### Brown Hues ###
@@ -708,13 +2736,13 @@ asian_turkic_enisey_kirghiz_06 = {
 
 		## Hazel Hues ##
 
-		# EPE Darkest Hazel Static 
+		# EPE Darkest Hazel Static
 		3 = { 0.32 0.7 0.32 0.9 }
-		# EPE Darker Hazel Static 
+		# EPE Darker Hazel Static
 		4 = { 0.32 0.6 0.32 0.7 }
-		# EPE Hazel Static 
+		# EPE Hazel Static
 		3 = { 0.32 0.4 0.32 0.6 }
-		# EPE Lighter Hazel Static 
+		# EPE Lighter Hazel Static
 		2 = { 0.32 0.25 0.32 0.4 }
 
 		## Green Hues
@@ -786,7 +2814,7 @@ asian_turkic_enisey_kirghiz_06 = {
 
 asian_turkic_enisey_kirghiz_07 = {
 	template = "steppe_volga_finn_mordvin_28"
-	using = "kirghiz"
+	using = "yenisei_kirghiz"
 
 	eye_color = {
 		### Brown Hues ###
@@ -823,13 +2851,13 @@ asian_turkic_enisey_kirghiz_07 = {
 
 		## Hazel Hues ##
 
-		# EPE Darkest Hazel Static 
+		# EPE Darkest Hazel Static
 		3 = { 0.32 0.7 0.32 0.9 }
-		# EPE Darker Hazel Static 
+		# EPE Darker Hazel Static
 		2 = { 0.32 0.6 0.32 0.7 }
-		# EPE Hazel Static 
+		# EPE Hazel Static
 		1 = { 0.32 0.4 0.32 0.6 }
-		# EPE Lighter Hazel Static 
+		# EPE Lighter Hazel Static
 		1 = { 0.32 0.25 0.32 0.4 }
 
 		## Green Hues
@@ -905,7 +2933,7 @@ asian_turkic_enisey_kirghiz_07 = {
 
 asian_turkic_enisey_kirghiz_08 = {
 	template = "steppe_volga_finn_mordvin_32"
-	using = "kirghiz"
+	using = "yenisei_kirghiz"
 
 	eye_color = {
 		### Brown Hues ###
@@ -942,13 +2970,13 @@ asian_turkic_enisey_kirghiz_08 = {
 
 		## Hazel Hues ##
 
-		# EPE Darkest Hazel Static 
+		# EPE Darkest Hazel Static
 		3 = { 0.32 0.7 0.32 0.9 }
-		# EPE Darker Hazel Static 
+		# EPE Darker Hazel Static
 		4 = { 0.32 0.6 0.32 0.7 }
-		# EPE Hazel Static 
+		# EPE Hazel Static
 		3 = { 0.32 0.4 0.32 0.6 }
-		# EPE Lighter Hazel Static 
+		# EPE Lighter Hazel Static
 		2 = { 0.32 0.25 0.32 0.4 }
 
 		## Green Hues
@@ -1024,7 +3052,7 @@ asian_turkic_enisey_kirghiz_08 = {
 
 asian_turkic_enisey_kirghiz_09 = {
 	template = "steppe_volga_finn_mordvin_36"
-	using = "kirghiz"
+	using = "yenisei_kirghiz"
 
 	eye_color = {
 		### Brown Hues ###
@@ -1061,13 +3089,13 @@ asian_turkic_enisey_kirghiz_09 = {
 
 		## Hazel Hues ##
 
-		# EPE Darkest Hazel Static 
+		# EPE Darkest Hazel Static
 		3 = { 0.32 0.7 0.32 0.9 }
-		# EPE Darker Hazel Static 
+		# EPE Darker Hazel Static
 		2 = { 0.32 0.6 0.32 0.7 }
-		# EPE Hazel Static 
+		# EPE Hazel Static
 		1 = { 0.32 0.4 0.32 0.6 }
-		# EPE Lighter Hazel Static 
+		# EPE Lighter Hazel Static
 		1 = { 0.32 0.25 0.32 0.4 }
 
 		## Green Hues
@@ -1143,7 +3171,7 @@ asian_turkic_enisey_kirghiz_09 = {
 
 asian_turkic_enisey_kirghiz_10 = {
 	template = "steppe_volga_finn_mordvin_39"
-	using = "kirghiz"
+	using = "yenisei_kirghiz"
 
 	eye_color = {
 		### Brown Hues ###
@@ -1180,13 +3208,13 @@ asian_turkic_enisey_kirghiz_10 = {
 
 		## Hazel Hues ##
 
-		# EPE Darkest Hazel Static 
+		# EPE Darkest Hazel Static
 		3 = { 0.32 0.7 0.32 0.9 }
-		# EPE Darker Hazel Static 
+		# EPE Darker Hazel Static
 		4 = { 0.32 0.6 0.32 0.7 }
-		# EPE Hazel Static 
+		# EPE Hazel Static
 		3 = { 0.32 0.4 0.32 0.6 }
-		# EPE Lighter Hazel Static 
+		# EPE Lighter Hazel Static
 		2 = { 0.32 0.25 0.32 0.4 }
 
 		## Green Hues
@@ -1262,7 +3290,7 @@ asian_turkic_enisey_kirghiz_10 = {
 
 asian_turkic_enisey_kirghiz_11 = {
 	template = "asian_turkic_1_western"
-	using = "kirghiz"
+	using = "yenisei_kirghiz"
 
 	eye_color = {
 		### Brown Hues ###
@@ -1299,13 +3327,13 @@ asian_turkic_enisey_kirghiz_11 = {
 
 		## Hazel Hues ##
 
-		# EPE Darkest Hazel Static 
+		# EPE Darkest Hazel Static
 		3 = { 0.32 0.7 0.32 0.9 }
-		# EPE Darker Hazel Static 
+		# EPE Darker Hazel Static
 		4 = { 0.32 0.6 0.32 0.7 }
-		# EPE Hazel Static 
+		# EPE Hazel Static
 		3 = { 0.32 0.4 0.32 0.6 }
-		# EPE Lighter Hazel Static 
+		# EPE Lighter Hazel Static
 		2 = { 0.32 0.25 0.32 0.4 }
 
 		## Green Hues
@@ -1377,7 +3405,7 @@ asian_turkic_enisey_kirghiz_11 = {
 
 asian_turkic_enisey_kirghiz_12 = {
 	template = "asian_turkic_2_western"
-	using = "kirghiz"
+	using = "yenisei_kirghiz"
 
 	eye_color = {
 		### Brown Hues ###
@@ -1414,13 +3442,13 @@ asian_turkic_enisey_kirghiz_12 = {
 
 		## Hazel Hues ##
 
-		# EPE Darkest Hazel Static 
+		# EPE Darkest Hazel Static
 		3 = { 0.32 0.7 0.32 0.9 }
-		# EPE Darker Hazel Static 
+		# EPE Darker Hazel Static
 		2 = { 0.32 0.6 0.32 0.7 }
-		# EPE Hazel Static 
+		# EPE Hazel Static
 		1 = { 0.32 0.4 0.32 0.6 }
-		# EPE Lighter Hazel Static 
+		# EPE Lighter Hazel Static
 		1 = { 0.32 0.25 0.32 0.4 }
 
 		## Green Hues
@@ -1496,7 +3524,7 @@ asian_turkic_enisey_kirghiz_12 = {
 
 asian_turkic_enisey_kirghiz_13 = {
 	template = "asian_turkic_3_western"
-	using = "kirghiz"
+	using = "yenisei_kirghiz"
 
 	eye_color = {
 		### Brown Hues ###
@@ -1533,13 +3561,13 @@ asian_turkic_enisey_kirghiz_13 = {
 
 		## Hazel Hues ##
 
-		# EPE Darkest Hazel Static 
+		# EPE Darkest Hazel Static
 		3 = { 0.32 0.7 0.32 0.9 }
-		# EPE Darker Hazel Static 
+		# EPE Darker Hazel Static
 		4 = { 0.32 0.6 0.32 0.7 }
-		# EPE Hazel Static 
+		# EPE Hazel Static
 		3 = { 0.32 0.4 0.32 0.6 }
-		# EPE Lighter Hazel Static 
+		# EPE Lighter Hazel Static
 		2 = { 0.32 0.25 0.32 0.4 }
 
 		## Green Hues
@@ -1611,7 +3639,7 @@ asian_turkic_enisey_kirghiz_13 = {
 
 asian_turkic_enisey_kirghiz_14 = {
 	template = "asian_turkic_4_western"
-	using = "kirghiz"
+	using = "yenisei_kirghiz"
 
 	eye_color = {
 		### Brown Hues ###
@@ -1648,13 +3676,13 @@ asian_turkic_enisey_kirghiz_14 = {
 
 		## Hazel Hues ##
 
-		# EPE Darkest Hazel Static 
+		# EPE Darkest Hazel Static
 		3 = { 0.32 0.7 0.32 0.9 }
-		# EPE Darker Hazel Static 
+		# EPE Darker Hazel Static
 		2 = { 0.32 0.6 0.32 0.7 }
-		# EPE Hazel Static 
+		# EPE Hazel Static
 		1 = { 0.32 0.4 0.32 0.6 }
-		# EPE Lighter Hazel Static 
+		# EPE Lighter Hazel Static
 		1 = { 0.32 0.25 0.32 0.4 }
 
 		## Green Hues
@@ -1730,7 +3758,7 @@ asian_turkic_enisey_kirghiz_14 = {
 
 asian_turkic_enisey_kirghiz_15 = {
 	template = "asian_turkic_5_western"
-	using = "kirghiz"
+	using = "yenisei_kirghiz"
 
 	eye_color = {
 		### Brown Hues ###
@@ -1767,13 +3795,13 @@ asian_turkic_enisey_kirghiz_15 = {
 
 		## Hazel Hues ##
 
-		# EPE Darkest Hazel Static 
+		# EPE Darkest Hazel Static
 		3 = { 0.32 0.7 0.32 0.9 }
-		# EPE Darker Hazel Static 
+		# EPE Darker Hazel Static
 		4 = { 0.32 0.6 0.32 0.7 }
-		# EPE Hazel Static 
+		# EPE Hazel Static
 		3 = { 0.32 0.4 0.32 0.6 }
-		# EPE Lighter Hazel Static 
+		# EPE Lighter Hazel Static
 		2 = { 0.32 0.25 0.32 0.4 }
 
 		## Green Hues
@@ -1845,7 +3873,7 @@ asian_turkic_enisey_kirghiz_15 = {
 
 asian_turkic_enisey_kirghiz_16 = {
 	template = "asian_turkic_6_western"
-	using = "kirghiz"
+	using = "yenisei_kirghiz"
 
 	eye_color = {
 		### Brown Hues ###
@@ -1882,13 +3910,13 @@ asian_turkic_enisey_kirghiz_16 = {
 
 		## Hazel Hues ##
 
-		# EPE Darkest Hazel Static 
+		# EPE Darkest Hazel Static
 		3 = { 0.32 0.7 0.32 0.9 }
-		# EPE Darker Hazel Static 
+		# EPE Darker Hazel Static
 		2 = { 0.32 0.6 0.32 0.7 }
-		# EPE Hazel Static 
+		# EPE Hazel Static
 		1 = { 0.32 0.4 0.32 0.6 }
-		# EPE Lighter Hazel Static 
+		# EPE Lighter Hazel Static
 		1 = { 0.32 0.25 0.32 0.4 }
 
 		## Green Hues
@@ -1964,7 +3992,7 @@ asian_turkic_enisey_kirghiz_16 = {
 
 asian_turkic_enisey_kirghiz_17 = {
 	template = "asian_turkic_7_western"
-	using = "kirghiz"
+	using = "yenisei_kirghiz"
 
 	eye_color = {
 		### Brown Hues ###
@@ -2001,13 +4029,13 @@ asian_turkic_enisey_kirghiz_17 = {
 
 		## Hazel Hues ##
 
-		# EPE Darkest Hazel Static 
+		# EPE Darkest Hazel Static
 		3 = { 0.32 0.7 0.32 0.9 }
-		# EPE Darker Hazel Static 
+		# EPE Darker Hazel Static
 		4 = { 0.32 0.6 0.32 0.7 }
-		# EPE Hazel Static 
+		# EPE Hazel Static
 		3 = { 0.32 0.4 0.32 0.6 }
-		# EPE Lighter Hazel Static 
+		# EPE Lighter Hazel Static
 		2 = { 0.32 0.25 0.32 0.4 }
 
 		## Green Hues
@@ -2079,7 +4107,7 @@ asian_turkic_enisey_kirghiz_17 = {
 
 asian_turkic_enisey_kirghiz_18 = {
 	template = "asian_turkic_8_western"
-	using = "kirghiz"
+	using = "yenisei_kirghiz"
 
 	eye_color = {
 		### Brown Hues ###
@@ -2116,13 +4144,13 @@ asian_turkic_enisey_kirghiz_18 = {
 
 		## Hazel Hues ##
 
-		# EPE Darkest Hazel Static 
+		# EPE Darkest Hazel Static
 		3 = { 0.32 0.7 0.32 0.9 }
-		# EPE Darker Hazel Static 
+		# EPE Darker Hazel Static
 		2 = { 0.32 0.6 0.32 0.7 }
-		# EPE Hazel Static 
+		# EPE Hazel Static
 		1 = { 0.32 0.4 0.32 0.6 }
-		# EPE Lighter Hazel Static 
+		# EPE Lighter Hazel Static
 		1 = { 0.32 0.25 0.32 0.4 }
 
 		## Green Hues
@@ -2198,7 +4226,7 @@ asian_turkic_enisey_kirghiz_18 = {
 
 asian_turkic_enisey_kirghiz_19 = {
 	template = "asian_turkic_9_western"
-	using = "kirghiz"
+	using = "yenisei_kirghiz"
 
 	eye_color = {
 		### Brown Hues ###
@@ -2235,13 +4263,13 @@ asian_turkic_enisey_kirghiz_19 = {
 
 		## Hazel Hues ##
 
-		# EPE Darkest Hazel Static 
+		# EPE Darkest Hazel Static
 		3 = { 0.32 0.7 0.32 0.9 }
-		# EPE Darker Hazel Static 
+		# EPE Darker Hazel Static
 		4 = { 0.32 0.6 0.32 0.7 }
-		# EPE Hazel Static 
+		# EPE Hazel Static
 		3 = { 0.32 0.4 0.32 0.6 }
-		# EPE Lighter Hazel Static 
+		# EPE Lighter Hazel Static
 		2 = { 0.32 0.25 0.32 0.4 }
 
 		## Green Hues
@@ -2313,7 +4341,7 @@ asian_turkic_enisey_kirghiz_19 = {
 
 asian_turkic_enisey_kirghiz_20 = {
 	template = "asian_turkic_20_western"
-	using = "kirghiz"
+	using = "yenisei_kirghiz"
 
 	eye_color = {
 		### Brown Hues ###
@@ -2350,13 +4378,13 @@ asian_turkic_enisey_kirghiz_20 = {
 
 		## Hazel Hues ##
 
-		# EPE Darkest Hazel Static 
+		# EPE Darkest Hazel Static
 		3 = { 0.32 0.7 0.32 0.9 }
-		# EPE Darker Hazel Static 
+		# EPE Darker Hazel Static
 		2 = { 0.32 0.6 0.32 0.7 }
-		# EPE Hazel Static 
+		# EPE Hazel Static
 		1 = { 0.32 0.4 0.32 0.6 }
-		# EPE Lighter Hazel Static 
+		# EPE Lighter Hazel Static
 		1 = { 0.32 0.25 0.32 0.4 }
 
 		## Green Hues
