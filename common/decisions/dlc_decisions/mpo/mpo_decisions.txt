@@ -6384,6 +6384,64 @@ confederation_kingdom_decision = {
 	is_valid = {
 		prestige_level >= 3
 		is_independent_ruler = yes
+		custom_description = {
+			text = confederation_kingdom_decision_vassal_req
+			confederation = {
+				any_confederation_member = {
+					highest_held_title_tier >= tier_county
+					count >= 5
+				}
+			}
+		}
+		OR = { # Yusseter
+			custom_tooltip = {
+				text = dominate_title_trigger_dominance_3
+				OR = {
+					has_realm_law = nomadic_authority_5
+					has_realm_law = nomadic_authority_4
+					has_realm_law = nomadic_authority_3
+				}
+			}
+			custom_tooltip = {
+				text = confederation_kingdom_decision_vassal_opinion_req
+				NOT = {
+					confederation = {
+						any_confederation_member = {
+							this != root
+							opinion = {
+								target = root
+								value < 25
+							}
+						}
+					}
+				}
+			}
+		}
+		#custom_tooltip = {
+		#	text = confederation_kingdom_decision_vassal_opinion_req
+		#	NOT = {
+		#		confederation = {
+		#			any_confederation_member = {
+		#				this != root
+		#				opinion = {
+		#					target = root
+		#					value < 25
+		#				}
+		#			}
+		#		}
+		#	}
+		#}
+		custom_tooltip = {
+			text = confederation_kingdom_decision_vassal_prestige_level_req
+			NOT = {
+				confederation = {
+					any_confederation_member = {
+						this != root
+						prestige_level >= root.prestige_level
+					}
+				}
+			}
+		}
 	}
 
 	is_valid_showing_failures_only = {
