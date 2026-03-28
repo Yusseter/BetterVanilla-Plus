@@ -1,0 +1,1909 @@
+﻿@holding_illustration_african = "gfx/interface/illustrations/holding_types/tribe_african.dds"
+@holding_illustration_arid = "gfx/interface/illustrations/holding_types/tribe_arid.dds"
+@holding_illustration_caucasian = "gfx/interface/illustrations/holding_types/tribe_caucasian.dds"
+@holding_illustration_chinese = "gfx/interface/illustrations/holding_types/tribe_chinese.dds"
+@holding_illustration_grass = "gfx/interface/illustrations/holding_types/tribe_grass.dds"
+@holding_illustration_indian = "gfx/interface/illustrations/holding_types/tribe_indian.dds"
+@holding_illustration_mena = "gfx/interface/illustrations/holding_types/tribe_mena.dds"
+@holding_illustration_norse = "gfx/interface/illustrations/holding_types/tribe_norse.dds"
+@holding_illustration_sahelian = "gfx/interface/illustrations/holding_types/tribe_arid.dds"
+@holding_illustration_slavic = "gfx/interface/illustrations/holding_types/tribe_slavic.dds"
+@holding_illustration_somali = "gfx/interface/illustrations/holding_types/tribe_somali.dds"
+@holding_illustration_steppe = "gfx/interface/illustrations/holding_types/tribe_steppe.dds"
+@holding_illustration_tibetan = "gfx/interface/illustrations/holding_types/tribe_steppe.dds" # Yusseter
+#@holding_illustration_tibetan = "gfx/interface/illustrations/holding_types/tribe_tibetan.dds"
+@holding_illustration_tundra = "gfx/interface/illustrations/holding_types/tribe_tundra.dds"
+
+#MHG
+@holding_illustration_celtic = "gfx/interface/illustrations/holding_types/tribe_grass.dds" # Yusseter
+#@holding_illustration_celtic = "gfx/interface/illustrations/holding_types/tribe_celtic.dds"
+@holding_illustration_russian = "gfx/interface/illustrations/holding_types/tribe_russian.dds" # Yusseter
+#@holding_illustration_russian = "gfx/interface/illustrations/holding_types/tribe_russian.dds"
+@holding_illustration_austro = "gfx/interface/illustrations/holding_types/tgp_temple_pagan_se_asia.dds" # Yusseter
+#@holding_illustration_austro = "gfx/interface/illustrations/holding_types/tribe_austronesian.dds"
+@holding_illustration_nomadic = "gfx/interface/illustrations/holding_types/tribe_nomadic.dds"
+@holding_illustration_seasia = "gfx/interface/illustrations/holding_types/tgp_temple_pagan_se_asia.dds"
+# Yusseter 0
+@holding_illustration_iranian = "gfx/interface/illustrations/holding_types/nomad_holding.dds"
+@holding_illustration_berber = "gfx/interface/illustrations/holding_types/tribe_berber.dds"
+@holding_illustration_western_steppe_nomad = "gfx/interface/illustrations/holding_types/mpo_nomad_holding.dds"
+@holding_illustration_central_steppe_nomad = "gfx/interface/illustrations/holding_types/nomad_holding.dds"
+#@holding_illustration_central_steppe_nomad = "gfx/interface/illustrations/holding_types/tribe_nomadic.dds"
+@holding_illustration_eastern_steppe_nomad = "gfx/interface/illustrations/holding_types/nomad_holding.dds"
+
+# Soundeffects
+@soundeffect_steppe_nomad = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mongolian_city"
+@soundeffect_tribal = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city"
+# Yusseter 1
+
+tribe_01 = { # Yusseter
+	construction_time = slow_construction_time
+
+   # Grass
+	asset = {
+		type = pdxmesh
+		names = { building_western_tribal_01_a_mesh }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+   # Arid
+	asset = {
+		type = pdxmesh
+		names = { guinean_tribal_mesh }
+		illustration = @holding_illustration_arid
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_regions = { graphical_mena graphical_iran graphical_qixi graphical_tibet }
+	}
+
+   # Magyar
+	asset = {
+		type = pdxmesh
+		names = { building_western_tribal_01_a_mesh }
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { magyar_building_gfx vlach_building_gfx southslavic_building_gfx croatian_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+   # Caucasian
+	asset = {
+		type = pdxmesh
+		names = { building_western_tribal_01_a_mesh }
+		illustration = @holding_illustration_caucasian
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { caucasian_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+   # Mena
+	asset = {
+		type = pdxmesh
+		names = { "building_mena_tribal_01_a_mesh" }
+		illustration = @holding_illustration_mena
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { mena_building_gfx arabic_group_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+   # Berber
+	asset = {
+		type = pdxmesh
+		names = { "building_mena_tribal_01_a_mesh" }
+		illustration = @holding_illustration_berber
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { berber_group_building_gfx berber_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+   # Iranian
+	asset = {
+		type = pdxmesh
+		names = { "iranian_tribal_01_mesh" }
+		illustration = @holding_illustration_iranian
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { iranian_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+   # Somali
+	asset = {
+		type = pdxmesh
+		names = { "ethiopian_tribe_mesh" }
+		illustration = @holding_illustration_somali
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { somali_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+   # Steppe
+	asset = {
+		type = pdxmesh
+		names = { "building_steppe_tribal_01_a_mesh" }
+		illustration = @holding_illustration_eastern_steppe_nomad
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { steppe_building_gfx turkish_building_gfx }
+		graphical_regions = { graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi }
+	}
+
+   # Western Steppe
+	asset = {
+		type = pdxmesh
+		names = { "building_steppe_tribal_01_a_mesh" }
+		illustration = @holding_illustration_western_steppe_nomad
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { steppe_building_gfx turkish_building_gfx }
+		graphical_regions = { graphical_western_steppe graphical_western graphical_mediterranean graphical_caucasus }
+	}
+
+   # Indian
+	asset = {
+		type = pdxmesh
+		names = { "building_india_tribal_01_a_mesh" }
+		illustration = @holding_illustration_indian
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { indian_building_gfx burman_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+   # Tibetan
+	asset = {
+		type = pdxmesh
+		names = { "tibetan_tribal_mesh" }
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+   # African
+	asset = {
+		type = pdxmesh
+		names = { "building_african_tribal_01_a_mesh" }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { african_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+   # Guinean
+	asset = {
+		type = pdxmesh
+		names = { "guinean_tribal_mesh" }
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { guinean_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+   # Ethiopian
+	asset = {
+		type = pdxmesh
+		names = { "ethiopian_tribe_mesh" }
+		illustration = @holding_illustration_arid
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { ethiopian_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+   # Sahelian
+	asset = {
+		type = pdxmesh
+		names = { "sahelian_tribal_mesh" }
+		illustration = @holding_illustration_sahelian
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { sahelian_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+   # Norse
+	asset = {
+		type = pdxmesh
+		names = { "fp1_building_norse_tribal_mesh" }
+		requires_dlc_flag = the_northern_lords
+		illustration = @holding_illustration_norse
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { saxon_building_gfx norse_building_gfx scandinavian_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+   # East Slavic
+	asset = {
+		type = pdxmesh
+		names = { "fp1_building_norse_tribal_mesh" }
+		requires_dlc_flag = the_northern_lords
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { east_slavic_building_gfx slavic_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+   # Siberian
+	asset = {
+		type = pdxmesh
+		names = { "prairie_tribal_mesh" }
+		illustration = @holding_illustration_tundra
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { tundra_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+   # East Asian
+	asset = {
+		type = pdxmesh
+		names = { "building_emishi_tribal_01_mesh" }
+		requires_dlc_flag = north_pacific_attire
+		illustration = @holding_illustration_chinese
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { amuric_building_gfx emishi_building_gfx japanese_building_gfx korean_building_gfx chinese_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+   # Southeast Asian
+	asset = {
+		type = pdxmesh
+		names = { "tgp_building_se_asia_tribal_01_mesh" }
+		illustration = @holding_illustration_seasia
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { southeast_asian_building_gfx austro_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+	#asset = {
+	#	type = pdxmesh
+	#	names = { "building_sea_tribal_mesh" }
+	#	illustration = @holding_illustration_austro
+	#	soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+	#	graphical_cultures = { southeast_asian_building_gfx austro_building_gfx }
+	#	graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	#}
+
+   # Celtic
+	asset = {
+		type = pdxmesh
+		name = "building_celtic_tribal_mesh"
+		illustration = @holding_illustration_celtic
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { celtic_building_gfx goidelic_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+ # Gameplay
+	is_enabled = {
+		building_requirement_tribal = yes
+	}
+	can_construct_potential = {
+		always = no	#Tribes are set at game start.
+	}
+	
+	cost_prestige = expensive_building_tier_3_cost
+	cost_gold = expensive_building_tier_1_cost
+	next_building = tribe_02
+	
+	levy = normal_building_levy_tier_3
+	max_garrison = good_building_max_garrison_tier_1
+	garrison_reinforcement_factor = building_garrison_reinforcement_factor_tier_1
+	province_modifier = {
+		fort_level = 1
+		stationed_maa_damage_mult = normal_maa_damage_tier_2
+		stationed_maa_toughness_mult = normal_maa_toughness_tier_2
+	}
+	
+	province_government_modifier = {
+		parameter = government_is_tribal_excluding_wanua
+		monthly_income = poor_building_tax_tier_1
+	}
+	
+	province_government_modifier = {
+		parameter = government_is_wanua
+		monthly_income = poor_building_tax_halved_tier_1
+		monthly_barter_goods = 1
+		building_slot_add = 2
+	}
+
+	province_terrain_modifier = {
+		parameter = tribal_holding_fort_level_in_jungle_bonus
+		terrain = jungle
+		additional_fort_level = 2
+	}
+
+	province_terrain_modifier = {
+		parameter = coastal_holdings_give_defensive_bonus
+		is_coastal = yes
+		defender_holding_advantage = 2
+	}
+
+	province_culture_modifier = {
+		parameter = tribal_holding_stationed_bonus
+		stationed_maa_damage_mult = normal_maa_damage_tier_1
+		stationed_maa_toughness_mult = normal_maa_toughness_tier_1
+	}
+
+	province_terrain_modifier = {
+		parameter = coastal_tribe_bonuses
+		is_coastal = yes
+		stationed_maa_damage_mult = normal_maa_damage_tier_1
+	}
+	
+	character_modifier = {
+		county_fertility_growth_mult = 0.35
+	}
+	
+	#next_building = tribe_02 # Yusseter
+
+	type_icon = "icon_building_longhouses.dds"
+
+	ai_value = {
+		base = 1
+		ai_tier_1_building_modifier = yes
+	}
+}
+
+tribe_02 = { # Yusseter
+	construction_time = slow_construction_time
+
+   # Grass
+	asset = {
+		type = pdxmesh
+		names = { building_western_tribal_01_a_mesh }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+   # Arid
+	asset = {
+		type = pdxmesh
+		names = { guinean_tribal_mesh }
+		illustration = @holding_illustration_arid
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_regions = { graphical_mena graphical_iran graphical_qixi graphical_tibet }
+	}
+
+   # Magyar
+	asset = {
+		type = pdxmesh
+		names = { building_western_tribal_01_a_mesh }
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { magyar_building_gfx vlach_building_gfx southslavic_building_gfx croatian_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+   # Caucasian
+	asset = {
+		type = pdxmesh
+		names = { building_western_tribal_01_a_mesh }
+		illustration = @holding_illustration_caucasian
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { caucasian_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+   # Mena
+	asset = {
+		type = pdxmesh
+		names = { "building_mena_tribal_01_a_mesh" }
+		illustration = @holding_illustration_mena
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { mena_building_gfx arabic_group_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+   # Berber
+	asset = {
+		type = pdxmesh
+		names = { "building_mena_tribal_01_a_mesh" }
+		illustration = @holding_illustration_berber
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { berber_group_building_gfx berber_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+   # Iranian
+	asset = {
+		type = pdxmesh
+		names = { "iranian_tribal_01_mesh" }
+		illustration = @holding_illustration_iranian
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { iranian_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+   # Somali
+	asset = {
+		type = pdxmesh
+		names = { "ethiopian_tribe_mesh" }
+		illustration = @holding_illustration_somali
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { somali_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+   # Steppe
+	asset = {
+		type = pdxmesh
+		names = { "mpo_mongol_02_mesh" }
+		illustration = @holding_illustration_eastern_steppe_nomad
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { steppe_building_gfx turkish_building_gfx }
+		graphical_regions = { graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi }
+	}
+
+   # Western Steppe
+	asset = {
+		type = pdxmesh
+		names = { "mpo_mongol_02_mesh" }
+		illustration = @holding_illustration_western_steppe_nomad
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { steppe_building_gfx turkish_building_gfx }
+		graphical_regions = { graphical_western_steppe graphical_western graphical_mediterranean graphical_caucasus }
+	}
+
+   # Indian
+	asset = {
+		type = pdxmesh
+		names = { "building_india_tribal_01_a_mesh" }
+		illustration = @holding_illustration_indian
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { indian_building_gfx burman_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+   # Tibetan
+	asset = {
+		type = pdxmesh
+		names = { "tibetan_tribal_mesh" }
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+   # African
+	asset = {
+		type = pdxmesh
+		names = { "building_african_tribal_01_a_mesh" }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { african_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+   # Guinean
+	asset = {
+		type = pdxmesh
+		names = { "guinean_tribal_mesh" }
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { guinean_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+   # Ethiopian
+	asset = {
+		type = pdxmesh
+		names = { "ethiopian_tribe_mesh" }
+		illustration = @holding_illustration_arid
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { ethiopian_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+   # Sahelian
+	asset = {
+		type = pdxmesh
+		names = { "sahelian_tribal_mesh" }
+		illustration = @holding_illustration_sahelian
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { sahelian_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+   # Norse
+	asset = {
+		type = pdxmesh
+		names = { "fp1_building_norse_tribal_mesh" }
+		requires_dlc_flag = the_northern_lords
+		illustration = @holding_illustration_norse
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { saxon_building_gfx norse_building_gfx scandinavian_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+   # East Slavic
+	asset = {
+		type = pdxmesh
+		names = { "fp1_building_norse_tribal_mesh" }
+		requires_dlc_flag = the_northern_lords
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { east_slavic_building_gfx slavic_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+   # Siberian
+	asset = {
+		type = pdxmesh
+		names = { "prairie_tribal_mesh" }
+		illustration = @holding_illustration_tundra
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { tundra_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+   # East Asian
+	asset = {
+		type = pdxmesh
+		names = { "building_emishi_tribal_02_mesh" }
+		requires_dlc_flag = north_pacific_attire
+		illustration = @holding_illustration_chinese
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { amuric_building_gfx emishi_building_gfx japanese_building_gfx korean_building_gfx chinese_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+   # Southeast Asian
+	asset = {
+		type = pdxmesh
+		names = { "tgp_building_se_asia_tribal_01_mesh" }
+		illustration = @holding_illustration_seasia
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { southeast_asian_building_gfx austro_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+	#asset = {
+	#	type = pdxmesh
+	#	names = { "building_sea_tribal_mesh" }
+	#	illustration = @holding_illustration_austro
+	#	soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+	#	graphical_cultures = { southeast_asian_building_gfx austro_building_gfx }
+	#	graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	#}
+
+   # Celtic
+	asset = {
+		type = pdxmesh
+		name = "building_celtic_tribal_mesh"
+		illustration = @holding_illustration_celtic
+		soundeffect = { soundeffect = @soundeffect_tribal soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { celtic_building_gfx goidelic_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_burma graphical_tibet graphical_sea graphical_mena graphical_steppe graphical_east_asia graphical_siberia graphical_northwest_asia graphical_japan graphical_iran graphical_qixi graphical_caucasus }
+	}
+
+ # Gameplay
+	is_enabled = {
+		building_requirement_tribal = yes
+	}
+	can_construct_potential = {
+	}
+	can_construct_showing_failures_only = {
+		OR = {
+			scope:holder = {
+				culture = { has_innovation = innovation_plenary_assemblies }
+			}
+			mpo_permafrost_building_trigger = yes
+		}
+	}
+	
+	cost_prestige = expensive_building_tier_3_cost
+	cost_gold = expensive_building_tier_1_cost
+	
+	levy = normal_building_levy_tier_5
+	max_garrison = good_building_max_garrison_tier_2
+	garrison_reinforcement_factor = building_garrison_reinforcement_factor_tier_2
+	province_modifier = {
+		fort_level = 2
+		stationed_maa_damage_mult = normal_maa_damage_tier_4
+		stationed_maa_toughness_mult = normal_maa_toughness_tier_4
+	}
+	
+	province_government_modifier = {
+		parameter = government_is_tribal_excluding_wanua
+		monthly_income = poor_building_tax_tier_3
+	}
+	
+	province_government_modifier = {
+		parameter = government_is_wanua
+		monthly_income = poor_building_tax_halved_tier_3
+		monthly_barter_goods = 2
+		building_slot_add = 2
+	}
+
+	province_terrain_modifier = {
+		parameter = tribal_holding_fort_level_in_jungle_bonus
+		terrain = jungle
+		additional_fort_level = 4
+	}
+
+	province_terrain_modifier = {
+		parameter = coastal_holdings_give_defensive_bonus
+		is_coastal = yes
+		defender_holding_advantage = 3
+	}
+
+	province_culture_modifier = {
+		parameter = tribal_holding_stationed_bonus
+		stationed_maa_damage_mult = normal_maa_damage_tier_2
+		stationed_maa_toughness_mult = normal_maa_toughness_tier_2
+	}
+
+	province_terrain_modifier = {
+		parameter = coastal_tribe_bonuses
+		is_coastal = yes
+		stationed_maa_damage_mult = normal_maa_damage_tier_2
+	}
+	
+	character_modifier = {
+		county_fertility_growth_mult = 0.35
+	}
+	
+	ai_value = {
+		base = 1
+	}
+}
+
+#Retained
+cow_tribal_tradeport = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_common_tradeport_requirement_terrain = yes
+		NOT = {
+			has_building_or_higher = common_tradeport_01
+		}
+	}
+	
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = yes
+		has_building_or_higher = tribe_02 #was _03
+	}
+
+	cost_gold = normal_building_tier_1_cost
+	
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_3
+	}
+	county_modifier = {
+		monthly_county_control_growth_add = 0.5
+		levy_size = 0.05
+	}
+	
+	
+	
+
+	type_icon = "cow_icon_building_tradeport.dds"
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes
+	}
+}
+
+longhouses_01 = {
+	construction_time = slow_construction_time
+	effect_desc = longhouses_effect_desc
+
+	is_enabled = {
+		building_requirement_tribal = yes
+	}
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+		scope:holder = { NOT = { government_has_flag = government_is_wanua } }
+	}	
+	
+	cost_prestige = expensive_building_tier_1_cost
+	cost_gold = tribal_building_tier_1_cost
+	
+	levy = normal_building_levy_tier_1
+	
+	character_modifier = {
+		monthly_prestige = 0.25
+	}
+	county_modifier = {
+		monthly_county_control_growth_add = 0.2
+	}
+	
+	next_building = longhouses_02
+
+	type_icon = "icon_building_longhouses.dds"
+
+	ai_value = {
+		base = 1
+		ai_tier_1_building_modifier = yes
+		directive_to_build_military_modifier = yes
+	}
+}
+
+longhouses_02 = {
+	construction_time = slow_construction_time
+	effect_desc = longhouses_effect_desc
+
+	is_enabled = {
+		building_requirement_tribal = yes
+	}
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+		scope:holder = { NOT = { government_has_flag = government_is_wanua } }
+	}
+	can_construct_showing_failures_only = {
+		OR = {
+			mpo_permafrost_building_trigger = yes
+			scope:holder = {
+				culture = { has_innovation = innovation_barracks }
+			}
+		}		
+	}
+	
+	cost_prestige = expensive_building_tier_2_cost
+	cost_gold = tribal_building_tier_2_cost
+	
+	levy = normal_building_levy_tier_2
+	
+	character_modifier = {
+		monthly_prestige = 0.5
+	}
+	county_modifier = {
+		monthly_county_control_growth_add = 0.4
+	}
+	
+	ai_value = {
+		base = 1
+		directive_to_build_military_modifier = yes
+	}
+}
+
+# War Camps
+
+war_camps_01 = {
+	construction_time = slow_construction_time
+	effect_desc = tournament_cost_effect_desc
+
+	is_enabled = {
+		building_requirement_tribal = yes
+	}
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+		scope:holder = { NOT = { government_has_flag = government_is_wanua } }
+	}
+	
+	cost_prestige = expensive_building_tier_1_cost
+	cost_gold = tribal_building_tier_1_cost
+	
+	levy = excellent_building_levy_tier_1
+	
+	character_modifier = {
+		knight_limit = 1
+		knight_effectiveness_mult = 0.1
+	}
+	
+	province_modifier = {
+		stationed_skirmishers_damage_mult = high_maa_damage_tier_1
+		stationed_skirmishers_toughness_mult = normal_maa_toughness_tier_1
+		stationed_heavy_infantry_damage_mult = high_maa_damage_tier_1
+		stationed_heavy_infantry_toughness_mult = normal_maa_toughness_tier_1
+		stationed_archer_cavalry_damage_mult = high_maa_damage_tier_1
+		stationed_archer_cavalry_toughness_mult = normal_maa_toughness_tier_1
+	}
+
+	province_terrain_modifier = {
+		parameter = coastal_tribe_bonuses
+		is_coastal = yes
+		stationed_maa_toughness_mult = normal_maa_toughness_tier_1
+	}
+	
+	next_building = war_camps_02
+
+	type_icon = "icon_building_warcamps.dds"
+	
+	ai_value = {
+		base = 1
+		ai_tier_1_building_modifier = yes
+		directive_to_build_military_modifier = yes
+	}
+}
+
+war_camps_02 = {
+	construction_time = slow_construction_time
+	effect_desc = tournament_cost_effect_desc
+
+	is_enabled = {
+		building_requirement_tribal = yes
+	}
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+		scope:holder = { NOT = { government_has_flag = government_is_wanua } }
+	}
+	can_construct_showing_failures_only = {
+		OR = {
+			mpo_permafrost_building_trigger = yes
+			scope:holder = {
+				culture = { has_innovation = innovation_barracks }
+			}
+		}
+	}	
+	
+	cost_prestige = expensive_building_tier_2_cost
+	cost_gold = tribal_building_tier_2_cost
+	
+	levy = excellent_building_levy_tier_2
+	
+	character_modifier = {
+		knight_limit = 2
+		knight_effectiveness_mult = 0.2
+	}
+	
+	province_modifier = {
+		stationed_skirmishers_damage_mult = high_maa_damage_tier_2
+		stationed_skirmishers_toughness_mult = normal_maa_toughness_tier_2
+		stationed_heavy_infantry_damage_mult = high_maa_damage_tier_2
+		stationed_heavy_infantry_toughness_mult = normal_maa_toughness_tier_2
+		stationed_archer_cavalry_damage_mult = high_maa_damage_tier_2
+		stationed_archer_cavalry_toughness_mult = normal_maa_toughness_tier_2
+	}
+
+	province_terrain_modifier = {
+		parameter = coastal_tribe_bonuses
+		is_coastal = yes
+		stationed_maa_toughness_mult = normal_maa_toughness_tier_2
+	}
+
+	character_culture_modifier = {
+		parameter = strength_in_numbers_maa_limit_bonus 
+		men_at_arms_limit = 1
+	}
+	
+	ai_value = {
+		base = 1
+		directive_to_build_military_modifier = yes
+	}
+}
+
+# Palisades
+
+palisades_01 = {
+	construction_time = standard_construction_time
+
+	is_enabled = {
+		building_requirement_tribal = yes
+	}
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+		scope:holder = { NOT = { government_has_flag = government_is_wanua } }
+	}
+	
+	cost_prestige = expensive_building_tier_1_cost
+	cost_gold = tribal_building_tier_1_cost
+	
+	levy = normal_building_levy_tier_1
+	max_garrison = normal_building_max_garrison_tier_1
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_1
+		fort_level = normal_building_fort_level_tier_1
+	}
+	
+	province_modifier = {
+		stationed_archers_damage_mult = high_maa_damage_tier_1
+		stationed_archers_toughness_mult = normal_maa_toughness_tier_1
+		stationed_pikemen_damage_mult = high_maa_damage_tier_1
+		stationed_pikemen_toughness_mult = normal_maa_toughness_tier_1
+	}
+
+	
+	next_building = palisades_02
+
+	type_icon = "icon_building_palisades.dds"
+	
+	ai_value = {
+		base = 1
+		ai_tier_1_building_modifier = yes
+		directive_to_build_military_modifier = yes
+	}
+}
+
+palisades_02 = {
+	construction_time = standard_construction_time
+
+	is_enabled = {
+		building_requirement_tribal = yes
+	}
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+		scope:holder = { NOT = { government_has_flag = government_is_wanua } }
+	}
+	can_construct_showing_failures_only = {
+		OR = {
+			mpo_permafrost_building_trigger = yes
+			scope:holder = {
+				culture = { has_innovation = innovation_barracks }
+			}
+		}
+	}	
+	
+	cost_prestige = expensive_building_tier_2_cost
+	cost_gold = tribal_building_tier_2_cost
+	
+	levy = normal_building_levy_tier_2
+	max_garrison = normal_building_max_garrison_tier_2
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_2
+		fort_level = normal_building_fort_level_tier_2
+	}
+	
+	province_modifier = {
+		stationed_archers_damage_mult = high_maa_damage_tier_2
+		stationed_archers_toughness_mult = normal_maa_toughness_tier_2
+		stationed_pikemen_damage_mult = high_maa_damage_tier_2
+		stationed_pikemen_toughness_mult = normal_maa_toughness_tier_2
+	}
+	
+	ai_value = {
+		base = 1
+		directive_to_build_military_modifier = yes
+	}
+}
+
+# Market Villages
+
+market_villages_01 = {
+	construction_time = quick_construction_time
+
+	is_enabled = {
+		building_requirement_tribal = yes
+	}
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+		scope:holder = { NOT = { government_has_flag = government_is_wanua } }
+	}	
+	
+	cost_prestige = expensive_building_tier_1_cost
+	cost_gold = tribal_building_tier_1_cost
+	
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_2
+		supply_limit = 500
+	}
+
+	province_terrain_modifier = {
+		parameter = coastal_tribe_bonuses
+		is_coastal = yes
+		levy_size = 0.02
+	}
+	
+	next_building = market_villages_02
+
+	type_icon = "icon_building_market_villages.dds"
+	
+	ai_value = {
+		base = 1
+		ai_tier_1_building_modifier = yes
+		directive_to_build_economy_modifier = yes
+	}
+}
+
+market_villages_02 = {
+	construction_time = quick_construction_time
+
+	is_enabled = {
+		building_requirement_tribal = yes
+	}
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+		scope:holder = { NOT = { government_has_flag = government_is_wanua } }
+	}
+	can_construct_showing_failures_only = {
+		OR = {
+			mpo_permafrost_building_trigger = yes
+			scope:holder = {
+				culture = { has_innovation = innovation_barracks }
+			}
+		}
+	}	
+	province_terrain_modifier = {
+		parameter = coastal_tribe_bonuses
+		is_coastal = yes
+		levy_size = 0.03
+	}
+	
+	cost_prestige = expensive_building_tier_2_cost
+	cost_gold = tribal_building_tier_2_cost
+	
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_4
+		supply_limit = 1000
+	}
+	
+	ai_value = {
+		base = 1
+		directive_to_build_economy_modifier = yes
+	}
+}
+
+# Wanua buildings
+
+# Idjang Forts
+
+idjang_forts_01 = {
+	construction_time = standard_construction_time
+
+	is_enabled = {
+		building_requirement_wanua = yes
+	}
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+		scope:holder ?= {
+			government_has_flag = government_is_wanua
+		}
+	}
+	
+	cost_gold = tribal_building_tier_1_cost
+	
+	levy = normal_building_levy_tier_1
+	max_garrison = normal_building_max_garrison_tier_1
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_1
+		fort_level = normal_building_fort_level_tier_1
+	}
+	
+	province_modifier = {
+		monthly_barter_goods = 0.15
+		monthly_barter_goods_mult = 0.1
+		hostile_raid_time = 0.25
+		stationed_archers_toughness_mult = normal_maa_toughness_tier_1
+		stationed_pikemen_toughness_mult = normal_maa_toughness_tier_1
+	}
+	
+	next_building = idjang_forts_02
+
+	type_icon = "icon_structure_idjang_forts.dds"
+	
+	ai_value = {
+		base = 1
+		ai_tier_1_building_modifier = yes
+		directive_to_fortify_modifier = yes
+	}
+}
+
+idjang_forts_02 = {
+	construction_time = standard_construction_time
+
+	is_enabled = {
+		building_requirement_wanua = yes
+	}
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+		scope:holder ?= {
+			government_has_flag = government_is_wanua
+		}
+	}	
+	
+	cost_gold = tribal_building_tier_2_cost
+	
+	levy = normal_building_levy_tier_2
+	max_garrison = normal_building_max_garrison_tier_2
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_2
+		fort_level = normal_building_fort_level_tier_2
+	}
+	
+	province_modifier = {
+		monthly_barter_goods = 0.3
+		monthly_barter_goods_mult = 0.2
+		hostile_raid_time = 0.5
+		stationed_archers_toughness_mult = normal_maa_toughness_tier_2
+		stationed_pikemen_toughness_mult = normal_maa_toughness_tier_2
+	}
+	
+	next_building = idjang_forts_03
+	
+	ai_value = {
+		base = 1
+		directive_to_fortify_modifier = yes
+	}
+}
+
+idjang_forts_03 = {
+	construction_time = standard_construction_time
+
+	is_enabled = {
+		building_requirement_wanua = yes
+	}
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+		scope:holder ?= {
+			government_has_flag = government_is_wanua
+		}
+	}	
+	
+	cost_gold = tribal_building_tier_3_cost
+	
+	levy = normal_building_levy_tier_3
+	max_garrison = normal_building_max_garrison_tier_3
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_3
+		fort_level = normal_building_fort_level_tier_3
+	}
+	
+	province_modifier = {
+		monthly_barter_goods = 0.4
+		monthly_barter_goods_mult = 0.3
+		hostile_raid_time = 0.75
+		stationed_archers_toughness_mult = normal_maa_toughness_tier_3
+		stationed_pikemen_toughness_mult = normal_maa_toughness_tier_3
+	}
+	character_government_modifier = {
+		parameter = government_is_wanua
+		domain_limit_max = 1
+	}
+	
+	next_building = idjang_forts_04
+	
+	ai_value = {
+		base = 1
+		directive_to_fortify_modifier = yes
+	}
+}
+
+idjang_forts_04 = {
+	construction_time = standard_construction_time
+
+	is_enabled = {
+		building_requirement_wanua = yes
+	}
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+		scope:holder ?= {
+			government_has_flag = government_is_wanua
+		}
+	}	
+	
+	cost_gold = tribal_building_tier_4_cost
+	
+	levy = normal_building_levy_tier_4
+	max_garrison = normal_building_max_garrison_tier_4
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_4
+		fort_level = normal_building_fort_level_tier_4
+	}
+	
+	province_modifier = {
+		monthly_barter_goods = 0.5
+		monthly_barter_goods_mult = 0.4
+		hostile_raid_time = 1
+		stationed_archers_toughness_mult = normal_maa_toughness_tier_4
+		stationed_pikemen_toughness_mult = normal_maa_toughness_tier_4
+	}
+	character_government_modifier = {
+		parameter = government_is_wanua
+		domain_limit_max = 1
+	}
+	
+	ai_value = {
+		base = 1
+		directive_to_fortify_modifier = yes
+	}
+}
+
+# Wantilan
+
+wantilan_01 = {
+	construction_time = slow_construction_time
+
+	is_enabled = {
+		building_requirement_wanua = yes
+	}
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+		scope:holder ?= {
+			government_has_flag = government_is_wanua
+		}
+	}
+	
+	cost_gold = tribal_building_tier_1_cost
+	
+	levy = small_building_levy_tier_1
+	
+	character_modifier = {
+		monthly_prestige = 0.1
+		knight_effectiveness_mult = 0.05
+		monthly_barter_goods_mult = 0.02
+	}
+	county_modifier = {
+		monthly_county_control_growth_add = 0.1
+		county_opinion_add = 3
+	}
+	province_modifier = {
+		monthly_barter_goods = 0.15
+		stationed_archers_damage_mult = normal_maa_damage_tier_1
+		stationed_archers_toughness_mult = normal_maa_toughness_tier_1
+	}
+	
+	next_building = wantilan_02
+
+	type_icon = "icon_structure_wantilan.dds"
+
+	ai_value = {
+		base = 1
+		ai_tier_1_building_modifier = yes
+		directive_to_build_military_modifier = yes
+	}
+}
+
+wantilan_02 = {
+	construction_time = slow_construction_time
+	effect_desc = longhouses_effect_desc
+
+	is_enabled = {
+		building_requirement_wanua = yes
+	}
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+		scope:holder ?= {
+			government_has_flag = government_is_wanua
+		}
+	}
+	
+	cost_gold = tribal_building_tier_2_cost
+	
+	levy = small_building_levy_tier_2
+	
+	character_modifier = {
+		monthly_prestige = 0.2
+		knight_effectiveness_mult = 0.1
+		monthly_barter_goods_mult = 0.04
+	}
+	county_modifier = {
+		monthly_county_control_growth_add = 0.2
+		county_opinion_add = 6
+	}
+	province_modifier = {
+		monthly_barter_goods = 0.3
+		stationed_archers_damage_mult = normal_maa_damage_tier_2
+		stationed_archers_toughness_mult = normal_maa_toughness_tier_2
+	}
+	
+	next_building = wantilan_03
+	
+	ai_value = {
+		base = 1
+		directive_to_build_military_modifier = yes
+	}
+}
+
+wantilan_03 = {
+	construction_time = slow_construction_time
+	effect_desc = longhouses_effect_desc
+
+	is_enabled = {
+		building_requirement_wanua = yes
+	}
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+		scope:holder ?= {
+			government_has_flag = government_is_wanua
+		}
+	}
+	
+	cost_gold = tribal_building_tier_3_cost
+	
+	levy = small_building_levy_tier_3
+	
+	character_modifier = {
+		monthly_prestige = 0.3
+		knight_effectiveness_mult = 0.15
+		monthly_barter_goods_mult = 0.06
+	}
+	character_government_modifier = {
+		parameter = government_is_wanua
+		domain_limit_max = 1
+	}
+	county_modifier = {
+		monthly_county_control_growth_add = 0.3
+		county_opinion_add = 9
+	}
+	province_modifier = {
+		monthly_barter_goods = 0.4
+		stationed_archers_damage_mult = normal_maa_damage_tier_3
+		stationed_archers_toughness_mult = normal_maa_toughness_tier_3
+	}
+	
+	next_building = wantilan_04
+	
+	ai_value = {
+		base = 1
+		directive_to_build_military_modifier = yes
+	}
+}
+
+wantilan_04 = {
+	construction_time = slow_construction_time
+	effect_desc = longhouses_effect_desc
+
+	is_enabled = {
+		building_requirement_wanua = yes
+	}
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+		scope:holder ?= {
+			government_has_flag = government_is_wanua
+		}
+	}
+	
+	cost_gold = tribal_building_tier_4_cost
+	
+	levy = small_building_levy_tier_4
+	
+	character_modifier = {
+		monthly_prestige = 0.4
+		knight_effectiveness_mult = 0.2
+		monthly_barter_goods_mult = 0.08
+	}
+	character_government_modifier = {
+		parameter = government_is_wanua
+		domain_limit_max = 1
+	}
+	county_modifier = {
+		monthly_county_control_growth_add = 0.4
+		county_opinion_add = 12
+	}
+	province_modifier = {
+		monthly_barter_goods = 0.5
+		stationed_archers_damage_mult = normal_maa_damage_tier_4
+		stationed_archers_toughness_mult = normal_maa_toughness_tier_4
+	}
+	
+	ai_value = {
+		base = 1
+		directive_to_build_military_modifier = yes
+	}
+}
+
+# Kora-Kora Yards	
+
+kora_kora_yards_01 = {
+	construction_time = slow_construction_time
+
+	is_enabled = {
+		building_requirement_wanua = yes
+	}
+	can_construct_potential = {
+		OR = {
+			is_coastal = yes
+			is_riverside_province = yes
+		}
+		has_building_or_higher = tribe_01
+		scope:holder ?= {
+			government_has_flag = government_is_wanua
+		}
+	}
+	
+	cost_gold = tribal_building_tier_1_cost
+	
+	levy = good_building_levy_tier_1
+	
+	character_modifier = {
+		naval_movement_speed_mult = 0.1
+		monthly_barter_goods_mult = 0.01
+		raid_speed = 0.1
+	}
+
+	character_government_modifier = {
+		parameter = government_is_wanua
+		vassal_limit_max = 1
+	}
+
+	province_modifier = {
+		monthly_barter_goods = 0.25
+		defender_holding_advantage = poor_building_advantage_tier_1
+		stationed_skirmishers_damage_mult = high_maa_damage_tier_1
+		stationed_skirmishers_toughness_mult = high_maa_toughness_tier_1
+		stationed_archers_damage_mult = low_maa_damage_tier_1
+		stationed_archers_toughness_mult = low_maa_toughness_tier_1
+	}
+	
+	next_building = kora_kora_yards_02
+
+	type_icon = "icon_structure_kora_kora_yard.dds"
+
+	ai_value = {
+		base = 1
+		ai_tier_1_building_modifier = yes
+		directive_to_build_military_modifier = yes
+	}
+}
+
+kora_kora_yards_02 = {
+	construction_time = slow_construction_time
+
+	is_enabled = {
+		building_requirement_wanua = yes
+	}
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+		scope:holder ?= {
+			government_has_flag = government_is_wanua
+		}
+	}
+	
+	cost_gold = tribal_building_tier_2_cost
+	
+	levy = good_building_levy_tier_2
+	
+	character_modifier = {
+		naval_movement_speed_mult = 0.2
+		monthly_barter_goods_mult = 0.02
+		raid_speed = 0.2
+	}
+
+	character_government_modifier = {
+		parameter = government_is_wanua
+		vassal_limit_max = 1
+	}
+
+	province_modifier = {
+		monthly_barter_goods = 0.5
+		defender_holding_advantage = poor_building_advantage_tier_2
+		stationed_skirmishers_damage_mult = high_maa_damage_tier_2
+		stationed_skirmishers_toughness_mult = high_maa_toughness_tier_2
+		stationed_archers_damage_mult = low_maa_damage_tier_2
+		stationed_archers_toughness_mult = low_maa_toughness_tier_2
+	}
+	
+	next_building = kora_kora_yards_03
+	
+	ai_value = {
+		base = 1
+		directive_to_build_military_modifier = yes
+	}
+}
+
+kora_kora_yards_03 = {
+	construction_time = slow_construction_time
+
+	is_enabled = {
+		building_requirement_wanua = yes
+	}
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+		scope:holder ?= {
+			government_has_flag = government_is_wanua
+		}
+	}
+	
+	cost_gold = tribal_building_tier_3_cost
+	
+	levy = good_building_levy_tier_3
+	
+	character_modifier = {
+		naval_movement_speed_mult = 0.3
+		monthly_barter_goods_mult = 0.03
+		raid_speed = 0.3
+	}
+	character_government_modifier = {
+		parameter = government_is_wanua
+		vassal_limit_max = 2
+	}
+	province_modifier = {
+		monthly_barter_goods = 0.7
+		defender_holding_advantage = poor_building_advantage_tier_3
+		stationed_skirmishers_damage_mult = high_maa_damage_tier_3
+		stationed_skirmishers_toughness_mult = high_maa_toughness_tier_3
+		stationed_archers_damage_mult = low_maa_damage_tier_3
+		stationed_archers_toughness_mult = low_maa_toughness_tier_3
+	}
+	
+	next_building = kora_kora_yards_04
+	
+	ai_value = {
+		base = 1
+		directive_to_build_military_modifier = yes
+	}
+}
+
+kora_kora_yards_04 = {
+	construction_time = slow_construction_time
+
+	is_enabled = {
+		building_requirement_wanua = yes
+	}
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+		scope:holder ?= {
+			government_has_flag = government_is_wanua
+		}
+	}
+	
+	cost_gold = tribal_building_tier_4_cost
+	
+	levy = good_building_levy_tier_4
+	
+	character_modifier = {
+		naval_movement_speed_mult = 0.4
+		monthly_barter_goods_mult = 0.04
+		raid_speed = 0.4
+	}
+	character_government_modifier = {
+		parameter = government_is_wanua
+		vassal_limit_max = 2
+	}
+	province_modifier = {
+		monthly_barter_goods = 0.9
+		defender_holding_advantage = poor_building_advantage_tier_4
+		stationed_skirmishers_damage_mult = high_maa_damage_tier_4
+		stationed_skirmishers_toughness_mult = high_maa_toughness_tier_4
+		stationed_archers_damage_mult = low_maa_damage_tier_4
+		stationed_archers_toughness_mult = low_maa_toughness_tier_4
+	}
+	
+	ai_value = {
+		base = 1
+		directive_to_build_military_modifier = yes
+	}
+}
+
+# Water Temples
+
+water_temples_01 = {
+	construction_time = slow_construction_time
+
+	is_enabled = {
+		building_requirement_wanua = yes
+	}
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+		scope:holder ?= {
+			government_has_flag = government_is_wanua
+		}
+	}	
+	
+	cost_gold = tribal_building_tier_1_cost
+	
+	levy = poor_building_levy_tier_1
+	
+	character_modifier = {
+		monthly_piety = 0.15
+	}
+
+	character_government_modifier = {
+		parameter = government_is_wanua
+		vassal_limit_max = 1
+	}
+
+	county_modifier = {
+		supply_limit_mult = 0.2
+	}
+	province_modifier = {
+		monthly_barter_goods = 0.2
+		monthly_income = 0.1
+		stationed_pikemen_damage_mult = normal_maa_damage_tier_1
+		stationed_pikemen_toughness_mult = normal_maa_toughness_tier_1
+		stationed_skirmishers_damage_mult = normal_maa_damage_tier_1
+		stationed_skirmishers_toughness_mult = normal_maa_toughness_tier_1
+	}
+	
+	next_building = water_temples_02
+
+	type_icon = "icon_structure_water_temples.dds"
+
+	ai_value = {
+		base = 1
+		ai_tier_1_building_modifier = yes
+		directive_to_build_economy_modifier = yes
+	}
+}
+
+water_temples_02 = {
+	construction_time = slow_construction_time
+
+	is_enabled = {
+		building_requirement_wanua = yes
+	}
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+		scope:holder ?= {
+			government_has_flag = government_is_wanua
+		}
+	}	
+	
+	cost_gold = tribal_building_tier_2_cost
+	
+	levy = poor_building_levy_tier_2
+	
+	character_modifier = {
+		monthly_piety = 0.3
+	}
+
+	character_government_modifier = {
+		parameter = government_is_wanua
+		vassal_limit_max = 1
+	}
+
+	county_modifier = {
+		supply_limit_mult = 0.4
+	}
+	province_modifier = {
+		monthly_barter_goods = 0.4
+		monthly_income = 0.2
+		stationed_pikemen_damage_mult = normal_maa_damage_tier_2
+		stationed_pikemen_toughness_mult = normal_maa_toughness_tier_2
+		stationed_skirmishers_damage_mult = normal_maa_damage_tier_2
+		stationed_skirmishers_toughness_mult = normal_maa_toughness_tier_2
+	}
+	
+	next_building = water_temples_03
+
+	ai_value = {
+		base = 1
+		directive_to_build_economy_modifier = yes
+	}
+}
+
+water_temples_03 = {
+	construction_time = slow_construction_time
+
+	is_enabled = {
+		building_requirement_wanua = yes
+	}
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+		scope:holder ?= {
+			government_has_flag = government_is_wanua
+		}
+	}	
+	
+	cost_gold = tribal_building_tier_3_cost
+	
+	levy = poor_building_levy_tier_3
+	
+	character_modifier = {
+		monthly_piety = 0.45
+	}
+	character_government_modifier = {
+		parameter = government_is_wanua
+		vassal_limit_max = 2
+	}
+	county_modifier = {
+		supply_limit_mult = 0.6
+	}
+	province_modifier = {
+		monthly_barter_goods = 0.55
+		monthly_income = 0.3
+		stationed_pikemen_damage_mult = normal_maa_damage_tier_3
+		stationed_pikemen_toughness_mult = normal_maa_toughness_tier_3
+		stationed_skirmishers_damage_mult = normal_maa_damage_tier_3
+		stationed_skirmishers_toughness_mult = normal_maa_toughness_tier_3
+	}
+	
+	next_building = water_temples_04
+
+	ai_value = {
+		base = 1
+		directive_to_build_economy_modifier = yes
+	}
+}
+
+water_temples_04 = {
+	construction_time = slow_construction_time
+
+	is_enabled = {
+		building_requirement_wanua = yes
+	}
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+		scope:holder ?= {
+			government_has_flag = government_is_wanua
+		}
+	}	
+	
+	cost_gold = tribal_building_tier_4_cost
+	
+	levy = poor_building_levy_tier_4
+	
+	character_modifier = {
+		monthly_piety = 0.6
+	}
+	character_government_modifier = {
+		parameter = government_is_wanua
+		vassal_limit_max = 2
+	}
+	county_modifier = {
+		supply_limit_mult = 0.8
+	}
+	province_modifier = {
+		monthly_barter_goods = 0.7
+		monthly_income = 0.4
+		stationed_pikemen_damage_mult = normal_maa_damage_tier_4
+		stationed_pikemen_toughness_mult = normal_maa_toughness_tier_4
+		stationed_skirmishers_damage_mult = normal_maa_damage_tier_4
+		stationed_skirmishers_toughness_mult = normal_maa_toughness_tier_4
+	}
+
+	ai_value = {
+		base = 1
+		directive_to_build_economy_modifier = yes
+	}
+}
+
+# Stilted Granaries
+
+stilted_granaries_01 = {
+	construction_time = quick_construction_time
+
+	is_enabled = {
+		building_requirement_wanua = yes
+	}
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+		scope:holder ?= {
+			government_has_flag = government_is_wanua
+		}
+	}	
+	
+	cost_gold = tribal_building_tier_1_cost
+	
+	character_modifier = {
+		supply_capacity_mult = 0.1
+	}
+
+	character_government_modifier = {
+		parameter = government_is_wanua
+		vassal_limit_max = 1
+	}
+	
+	county_modifier = {
+		epidemic_resistance = 5
+	}
+	
+	province_modifier = {
+		monthly_barter_goods = 0.25
+		monthly_income = 0.1
+		supply_limit = 250
+		levy_size = 0.1
+		stationed_skirmishers_damage_mult = low_maa_damage_tier_1
+		stationed_skirmishers_toughness_mult = low_maa_toughness_tier_1
+	}
+	
+	next_building = stilted_granaries_02
+
+	type_icon = "icon_structure_stilted_granaries.dds"
+	
+	ai_value = {
+		base = 1
+		ai_tier_1_building_modifier = yes
+		directive_to_build_economy_modifier = yes
+	}
+}
+
+stilted_granaries_02 = {
+	construction_time = quick_construction_time
+
+	is_enabled = {
+		building_requirement_wanua = yes
+	}
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+		scope:holder ?= {
+			government_has_flag = government_is_wanua
+		}
+	}	
+	
+	cost_gold = tribal_building_tier_2_cost
+	
+	character_modifier = {
+		supply_capacity_mult = 0.2
+	}
+
+	character_government_modifier = {
+		parameter = government_is_wanua
+		vassal_limit_max = 1
+	}
+	
+	county_modifier = {
+		epidemic_resistance = 10
+	}
+	
+	province_modifier = {
+		monthly_barter_goods = 0.5
+		monthly_income = 0.2
+		supply_limit = 500
+		levy_size = 0.2
+		stationed_skirmishers_damage_mult = low_maa_damage_tier_2
+		stationed_skirmishers_toughness_mult = low_maa_toughness_tier_2
+	}
+	
+	next_building = stilted_granaries_03
+	
+	ai_value = {
+		base = 1
+		directive_to_build_economy_modifier = yes
+	}
+}
+
+stilted_granaries_03 = {
+	construction_time = quick_construction_time
+
+	is_enabled = {
+		building_requirement_wanua = yes
+	}
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+		scope:holder ?= {
+			government_has_flag = government_is_wanua
+		}
+	}
+	
+	cost_gold = tribal_building_tier_2_cost
+	
+	character_modifier = {
+		supply_capacity_mult = 0.3
+	}
+	character_government_modifier = {
+		parameter = government_is_wanua
+		vassal_limit_max = 2
+	}
+	
+	county_modifier = {
+		epidemic_resistance = 15
+	}
+	
+	province_modifier = {
+		monthly_barter_goods = 0.7
+		monthly_income = 0.3
+		supply_limit = 750
+		levy_size = 0.3
+		stationed_skirmishers_damage_mult = low_maa_damage_tier_3
+		stationed_skirmishers_toughness_mult = low_maa_toughness_tier_3
+	}
+	
+	next_building = stilted_granaries_04
+	
+	ai_value = {
+		base = 1
+		directive_to_build_economy_modifier = yes
+	}
+}
+
+stilted_granaries_04 = {
+	construction_time = quick_construction_time
+
+	is_enabled = {
+		building_requirement_wanua = yes
+	}
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+		scope:holder ?= {
+			government_has_flag = government_is_wanua
+		}
+	}	
+	
+	cost_gold = tribal_building_tier_4_cost
+	
+	character_modifier = {
+		supply_capacity_mult = 0.4
+	}
+	character_government_modifier = {
+		parameter = government_is_wanua
+		vassal_limit_max = 2
+	}
+	
+	county_modifier = {
+		epidemic_resistance = 20
+	}
+	
+	province_modifier = {
+		monthly_barter_goods = 0.9
+		monthly_income = 0.4
+		supply_limit = 1000
+		levy_size = 0.4
+		stationed_skirmishers_damage_mult = low_maa_damage_tier_4
+		stationed_skirmishers_toughness_mult = low_maa_toughness_tier_4
+	}
+	
+	ai_value = {
+		base = 1
+		directive_to_build_economy_modifier = yes
+	}
+}
+
+# Yusseter: From SW, 2026.03.15

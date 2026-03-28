@@ -1,0 +1,910 @@
+﻿graphical_western = {
+	if = {
+		limit = { has_building_gfx = british_building_gfx }
+		use_mesh_of_building_gfx = british_building_gfx
+	}
+	else_if = { # yada if
+		limit = { has_building_gfx = german_building_gfx }
+		use_mesh_of_building_gfx = german_building_gfx
+	}
+	else_if = { # yada if
+		limit = { has_building_gfx = scandinavian_building_gfx }
+		use_mesh_of_building_gfx = scandinavian_building_gfx
+	}
+	else_if = { # yada if
+		limit = { has_building_gfx = norse_building_gfx }
+		use_mesh_of_building_gfx = norse_building_gfx
+	}
+	else_if = { # yada if
+		limit = { has_building_gfx = saxon_building_gfx }
+		use_mesh_of_building_gfx = saxon_building_gfx
+	}
+	else_if = { # yada if
+		limit = {
+			OR = {
+				has_building_gfx = southslavic_building_gfx
+				has_building_gfx = croatian_building_gfx
+				has_building_gfx = mediterranean_building_gfx
+				has_building_gfx = byzantine_building_gfx
+				has_building_gfx = turkish_building_gfx
+				has_building_gfx = caucasian_building_gfx
+			}
+		}
+		use_mesh_of_building_gfx = southslavic_building_gfx
+	}
+	else_if = { # yada if
+		limit = {
+			OR = {
+				has_building_gfx = magyar_building_gfx
+				has_building_gfx = vlach_building_gfx
+			}
+		}
+		use_mesh_of_building_gfx = magyar_building_gfx
+	}
+	else_if = { # yada if
+		limit = {
+			OR = {
+				has_building_gfx = goidelic_building_gfx
+				has_building_gfx = celtic_building_gfx
+			}
+		}
+		use_mesh_of_building_gfx = goidelic_building_gfx
+	}
+	else_if = { # yada if
+		limit = { # Bu limit yorum satiri, eger else_if veya if olarak kullansaydik boyle olurdu
+			OR = {
+				has_building_gfx = slavic_building_gfx
+				has_building_gfx = east_slavic_building_gfx
+				has_building_gfx = tundra_building_gfx
+				has_building_gfx = steppe_building_gfx
+			}
+		}
+		use_mesh_of_building_gfx = slavic_building_gfx
+	}
+	else = {
+		#limit = { # Bu limit yorum satiri, eger else_if veya if olarak kullansaydik boyle olurdu
+		#	OR = {
+		#		has_building_gfx = western_building_gfx
+		#		has_building_gfx = indian_building_gfx
+		#		has_building_gfx = burman_building_gfx
+		#		has_building_gfx = tibetan_building_gfx
+		#		has_building_gfx = japanese_building_gfx
+		#		has_building_gfx = southeast_asian_building_gfx
+		#		has_building_gfx = austro_building_gfx
+		#		has_building_gfx = chinese_building_gfx
+		#		has_building_gfx = korean_building_gfx
+		#		has_building_gfx = iberian_building_gfx
+		#		has_building_gfx = sicilian_building_gfx
+		#		has_building_gfx = iranian_building_gfx
+		#		has_building_gfx = mena_building_gfx
+		#		has_building_gfx = arabic_group_building_gfx
+		#		has_building_gfx = somali_building_gfx
+		#		has_building_gfx = african_building_gfx
+		#		has_building_gfx = guinean_building_gfx
+		#		has_building_gfx = berber_group_building_gfx
+		#		has_building_gfx = berber_building_gfx
+		#		has_building_gfx = ethiopian_building_gfx
+		#		has_building_gfx = sahelian_building_gfx
+		#	}
+		#}
+		use_mesh_of_building_gfx = western_building_gfx
+	}
+}
+
+graphical_mediterranean = {
+	if = {
+		limit = {
+			OR = {
+				has_building_gfx = byzantine_building_gfx
+				has_building_gfx = caucasian_building_gfx
+				has_building_gfx = turkish_building_gfx
+				has_building_gfx = steppe_building_gfx
+				has_building_gfx = tundra_building_gfx
+				has_building_gfx = east_slavic_building_gfx
+				has_building_gfx = slavic_building_gfx
+			}
+		}
+		use_mesh_of_building_gfx = byzantine_building_gfx
+	}
+	else_if = { # yada if
+		limit = {
+			OR = {
+				has_building_gfx = southslavic_building_gfx
+				has_building_gfx = croatian_building_gfx
+				has_building_gfx = vlach_building_gfx
+				has_building_gfx = magyar_building_gfx
+			}
+		}
+		use_mesh_of_building_gfx = southslavic_building_gfx
+	}
+	else_if = { # yada if
+		limit = {
+			OR = {
+				has_building_gfx = mediterranean_building_gfx
+				has_building_gfx = british_building_gfx
+				has_building_gfx = norse_building_gfx
+				has_building_gfx = scandinavian_building_gfx
+				has_building_gfx = german_building_gfx
+				has_building_gfx = western_building_gfx
+				has_building_gfx = goidelic_building_gfx
+				has_building_gfx = celtic_building_gfx
+				has_building_gfx = saxon_building_gfx
+			}
+		}
+		use_mesh_of_building_gfx = mediterranean_building_gfx
+	}
+	else = {
+		#limit = { # Bu limit yorum satiri, eger else_if veya if olarak kullansaydik boyle olurdu
+		#	OR = {
+		#		has_building_gfx = iberian_building_gfx
+		#		has_building_gfx = sicilian_building_gfx
+		#		has_building_gfx = iranian_building_gfx
+		#		has_building_gfx = mena_building_gfx
+		#		has_building_gfx = arabic_group_building_gfx
+		#		has_building_gfx = somali_building_gfx
+		#		has_building_gfx = african_building_gfx
+		#		has_building_gfx = guinean_building_gfx
+		#		has_building_gfx = berber_group_building_gfx
+		#		has_building_gfx = berber_building_gfx
+		#		has_building_gfx = ethiopian_building_gfx
+		#		has_building_gfx = sahelian_building_gfx
+		#		has_building_gfx = indian_building_gfx
+		#		has_building_gfx = burman_building_gfx
+		#		has_building_gfx = tibetan_building_gfx
+		#		has_building_gfx = japanese_building_gfx
+		#		has_building_gfx = southeast_asian_building_gfx
+		#		has_building_gfx = austro_building_gfx
+		#		has_building_gfx = chinese_building_gfx
+		#		has_building_gfx = korean_building_gfx
+		#	}
+		#}
+		use_mesh_of_building_gfx = iberian_building_gfx
+	}
+}
+
+graphical_india = {
+	if = {
+		limit = {
+			OR = {
+				has_building_gfx = burman_building_gfx
+				has_building_gfx = southeast_asian_building_gfx
+				has_building_gfx = austro_building_gfx
+				has_building_gfx = japanese_building_gfx
+				has_building_gfx = chinese_building_gfx
+				has_building_gfx = korean_building_gfx
+			}
+		}
+		use_mesh_of_building_gfx = burman_building_gfx
+	}
+	else = {
+		#limit = { # Bu limit yorum satiri, eger else_if veya if olarak kullansaydik boyle olurdu
+		#	OR = {
+		#		has_building_gfx = indian_building_gfx
+		#		has_building_gfx = tibetan_building_gfx
+		#		has_building_gfx = western_building_gfx
+		#		has_building_gfx = british_building_gfx
+		#		has_building_gfx = german_building_gfx
+		#		has_building_gfx = goidelic_building_gfx
+		#		has_building_gfx = celtic_building_gfx
+		#		has_building_gfx = vlach_building_gfx
+		#		has_building_gfx = magyar_building_gfx
+		#		has_building_gfx = scandinavian_building_gfx
+		#		has_building_gfx = saxon_building_gfx
+		#		has_building_gfx = mena_building_gfx
+		#		has_building_gfx = arabic_group_building_gfx
+		#		has_building_gfx = somali_building_gfx
+		#		has_building_gfx = african_building_gfx
+		#		has_building_gfx = guinean_building_gfx
+		#		has_building_gfx = berber_group_building_gfx
+		#		has_building_gfx = berber_building_gfx
+		#		has_building_gfx = ethiopian_building_gfx
+		#		has_building_gfx = sahelian_building_gfx
+		#		has_building_gfx = steppe_building_gfx
+		#		has_building_gfx = turkish_building_gfx
+		#		has_building_gfx = mediterranean_building_gfx
+		#		has_building_gfx = caucasian_building_gfx
+		#		has_building_gfx = southslavic_building_gfx
+		#		has_building_gfx = croatian_building_gfx
+		#		has_building_gfx = sicilian_building_gfx
+		#		has_building_gfx = norse_building_gfx
+		#		has_building_gfx = slavic_building_gfx
+		#		has_building_gfx = east_slavic_building_gfx
+		#		has_building_gfx = tundra_building_gfx
+		#		has_building_gfx = iberian_building_gfx
+		#		has_building_gfx = iranian_building_gfx
+		#		has_building_gfx = byzantine_building_gfx
+		#	}
+		#}
+		use_mesh_of_building_gfx = indian_building_gfx
+	}
+}
+
+graphical_burma = {
+	if = {
+		limit = { has_building_gfx = indian_building_gfx }
+		use_mesh_of_building_gfx = indian_building_gfx
+	}
+	else_if = { # yada if
+		limit = {
+			OR = {
+				has_building_gfx = southeast_asian_building_gfx
+				has_building_gfx = austro_building_gfx
+				has_building_gfx = japanese_building_gfx
+				has_building_gfx = chinese_building_gfx
+				has_building_gfx = korean_building_gfx
+			}
+		}
+		use_mesh_of_building_gfx = southeast_asian_building_gfx
+	}
+	else = {
+		#limit = { # Bu limit yorum satiri, eger else_if veya if olarak kullansaydik boyle olurdu
+		#	OR = {
+		#		has_building_gfx = burman_building_gfx
+		#		has_building_gfx = western_building_gfx
+		#		has_building_gfx = british_building_gfx
+		#		has_building_gfx = german_building_gfx
+		#		has_building_gfx = goidelic_building_gfx
+		#		has_building_gfx = celtic_building_gfx
+		#		has_building_gfx = vlach_building_gfx
+		#		has_building_gfx = magyar_building_gfx
+		#		has_building_gfx = scandinavian_building_gfx
+		#		has_building_gfx = saxon_building_gfx
+		#		has_building_gfx = tibetan_building_gfx
+		#		has_building_gfx = mena_building_gfx
+		#		has_building_gfx = arabic_group_building_gfx
+		#		has_building_gfx = somali_building_gfx
+		#		has_building_gfx = african_building_gfx
+		#		has_building_gfx = guinean_building_gfx
+		#		has_building_gfx = berber_group_building_gfx
+		#		has_building_gfx = berber_building_gfx
+		#		has_building_gfx = ethiopian_building_gfx
+		#		has_building_gfx = sahelian_building_gfx
+		#		has_building_gfx = steppe_building_gfx
+		#		has_building_gfx = turkish_building_gfx
+		#		has_building_gfx = mediterranean_building_gfx
+		#		has_building_gfx = caucasian_building_gfx
+		#		has_building_gfx = southslavic_building_gfx
+		#		has_building_gfx = croatian_building_gfx
+		#		has_building_gfx = sicilian_building_gfx
+		#		has_building_gfx = norse_building_gfx
+		#		has_building_gfx = slavic_building_gfx
+		#		has_building_gfx = east_slavic_building_gfx
+		#		has_building_gfx = tundra_building_gfx
+		#		has_building_gfx = iberian_building_gfx
+		#		has_building_gfx = iranian_building_gfx
+		#		has_building_gfx = byzantine_building_gfx
+		#	}
+		#}
+		use_mesh_of_building_gfx = burman_building_gfx
+	}
+}
+
+graphical_tibet = {
+	#if = { # Bu if yorum satiri, eger kullansaydik boyle olurdu
+	#	limit = {
+	#		OR = {
+	#			has_building_gfx = tibetan_building_gfx
+	#			has_building_gfx = indian_building_gfx
+	#			has_building_gfx = burman_building_gfx
+	#			has_building_gfx = southeast_asian_building_gfx
+	#			has_building_gfx = austro_building_gfx
+	#			has_building_gfx = japanese_building_gfx
+	#			has_building_gfx = chinese_building_gfx
+	#			has_building_gfx = korean_building_gfx
+	#			has_building_gfx = western_building_gfx
+	#			has_building_gfx = british_building_gfx
+	#			has_building_gfx = german_building_gfx
+	#			has_building_gfx = goidelic_building_gfx
+	#			has_building_gfx = celtic_building_gfx
+	#			has_building_gfx = vlach_building_gfx
+	#			has_building_gfx = magyar_building_gfx
+	#			has_building_gfx = scandinavian_building_gfx
+	#			has_building_gfx = saxon_building_gfx
+	#			has_building_gfx = mena_building_gfx
+	#			has_building_gfx = arabic_group_building_gfx
+	#			has_building_gfx = somali_building_gfx
+	#			has_building_gfx = african_building_gfx
+	#			has_building_gfx = guinean_building_gfx
+	#			has_building_gfx = berber_group_building_gfx
+	#			has_building_gfx = berber_building_gfx
+	#			has_building_gfx = ethiopian_building_gfx
+	#			has_building_gfx = sahelian_building_gfx
+	#			has_building_gfx = mediterranean_building_gfx
+	#			has_building_gfx = caucasian_building_gfx
+	#			has_building_gfx = southslavic_building_gfx
+	#			has_building_gfx = croatian_building_gfx
+	#			has_building_gfx = sicilian_building_gfx
+	#			has_building_gfx = norse_building_gfx
+	#			has_building_gfx = slavic_building_gfx
+	#			has_building_gfx = east_slavic_building_gfx
+	#			has_building_gfx = iberian_building_gfx
+	#			has_building_gfx = iranian_building_gfx
+	#			has_building_gfx = byzantine_building_gfx
+	#			has_building_gfx = steppe_building_gfx
+	#			has_building_gfx = turkish_building_gfx
+	#			has_building_gfx = tundra_building_gfx
+	#		}
+	#	}
+	#	use_mesh_of_building_gfx = tibetan_building_gfx
+	#}
+	use_mesh_of_building_gfx = tibetan_building_gfx
+}
+
+graphical_sea = {
+	if = {
+		limit = {
+			OR = {
+				has_building_gfx = burman_building_gfx
+				has_building_gfx = indian_building_gfx
+				has_building_gfx = tibetan_building_gfx
+			}
+		}
+		use_mesh_of_building_gfx = burman_building_gfx
+	}
+	else_if = { # yada if
+		limit = {
+			OR = {
+				has_building_gfx = chinese_building_gfx
+				has_building_gfx = korean_building_gfx
+				has_building_gfx = japanese_building_gfx
+				has_building_gfx = steppe_building_gfx
+				has_building_gfx = tundra_building_gfx
+			}
+		}
+		use_mesh_of_building_gfx = chinese_building_gfx
+	}
+	else = {
+		#limit = { # Bu limit yorum satiri, eger else_if veya if olarak kullansaydik boyle olurdu
+		#	OR = {
+		#		has_building_gfx = southeast_asian_building_gfx
+		#		has_building_gfx = austro_building_gfx
+		#		has_building_gfx = western_building_gfx
+		#		has_building_gfx = british_building_gfx
+		#		has_building_gfx = german_building_gfx
+		#		has_building_gfx = goidelic_building_gfx
+		#		has_building_gfx = celtic_building_gfx
+		#		has_building_gfx = vlach_building_gfx
+		#		has_building_gfx = magyar_building_gfx
+		#		has_building_gfx = scandinavian_building_gfx
+		#		has_building_gfx = saxon_building_gfx
+		#		has_building_gfx = mena_building_gfx
+		#		has_building_gfx = arabic_group_building_gfx
+		#		has_building_gfx = somali_building_gfx
+		#		has_building_gfx = african_building_gfx
+		#		has_building_gfx = guinean_building_gfx
+		#		has_building_gfx = berber_group_building_gfx
+		#		has_building_gfx = berber_building_gfx
+		#		has_building_gfx = ethiopian_building_gfx
+		#		has_building_gfx = sahelian_building_gfx
+		#		has_building_gfx = turkish_building_gfx
+		#		has_building_gfx = mediterranean_building_gfx
+		#		has_building_gfx = caucasian_building_gfx
+		#		has_building_gfx = southslavic_building_gfx
+		#		has_building_gfx = croatian_building_gfx
+		#		has_building_gfx = sicilian_building_gfx
+		#		has_building_gfx = norse_building_gfx
+		#		has_building_gfx = slavic_building_gfx
+		#		has_building_gfx = east_slavic_building_gfx
+		#		has_building_gfx = iberian_building_gfx
+		#		has_building_gfx = iranian_building_gfx
+		#		has_building_gfx = byzantine_building_gfx
+		#	}
+		#}
+		use_mesh_of_building_gfx = southeast_asian_building_gfx
+	}
+}
+
+graphical_mena = {
+	if = {
+		limit = { has_building_gfx = somali_building_gfx }
+		use_mesh_of_building_gfx = somali_building_gfx
+	}
+	else_if = { # yada if
+		limit = { has_building_gfx = ethiopian_building_gfx }
+		use_mesh_of_building_gfx = ethiopian_building_gfx
+	}
+	else_if = { # yada if
+		limit = { has_building_gfx = sahelian_building_gfx }
+		use_mesh_of_building_gfx = sahelian_building_gfx
+	}
+	else_if = { # yada if
+		limit = {
+			OR = {
+				has_building_gfx = african_building_gfx
+				has_building_gfx = guinean_building_gfx
+			}
+		}
+		use_mesh_of_building_gfx = african_building_gfx
+	}
+	else_if = { # yada if
+		limit = {
+			OR = {
+				has_building_gfx = berber_group_building_gfx
+				has_building_gfx = berber_building_gfx
+				has_building_gfx = sicilian_building_gfx
+				has_building_gfx = iberian_building_gfx
+			}
+		}
+		use_mesh_of_building_gfx = berber_building_gfx
+	}
+	else_if = { # yada if
+		limit = {
+			OR = {
+				has_building_gfx = iranian_building_gfx
+				has_building_gfx = caucasian_building_gfx
+				has_building_gfx = turkish_building_gfx
+				has_building_gfx = byzantine_building_gfx
+				has_building_gfx = mediterranean_building_gfx
+				has_building_gfx = burman_building_gfx
+				has_building_gfx = indian_building_gfx
+				has_building_gfx = tibetan_building_gfx
+				has_building_gfx = steppe_building_gfx
+				has_building_gfx = tundra_building_gfx
+				has_building_gfx = chinese_building_gfx
+				has_building_gfx = korean_building_gfx
+				has_building_gfx = japanese_building_gfx
+				has_building_gfx = southeast_asian_building_gfx
+				has_building_gfx = austro_building_gfx
+			}
+		}
+		use_mesh_of_building_gfx = iranian_building_gfx
+	}
+	else = {
+		#limit = { # Bu limit yorum satiri, eger else_if veya if olarak kullansaydik boyle olurdu
+		#	OR = {
+		#		has_building_gfx = mena_building_gfx
+		#		has_building_gfx = arabic_group_building_gfx
+		#		has_building_gfx = western_building_gfx
+		#		has_building_gfx = british_building_gfx
+		#		has_building_gfx = german_building_gfx
+		#		has_building_gfx = goidelic_building_gfx
+		#		has_building_gfx = celtic_building_gfx
+		#		has_building_gfx = vlach_building_gfx
+		#		has_building_gfx = magyar_building_gfx
+		#		has_building_gfx = scandinavian_building_gfx
+		#		has_building_gfx = saxon_building_gfx
+		#		has_building_gfx = southslavic_building_gfx
+		#		has_building_gfx = croatian_building_gfx
+		#		has_building_gfx = norse_building_gfx
+		#		has_building_gfx = slavic_building_gfx
+		#		has_building_gfx = east_slavic_building_gfx
+		#	}
+		#}
+		use_mesh_of_building_gfx = mena_building_gfx
+	}
+}
+
+graphical_steppe = {
+	if = {
+		limit = {
+			OR = {
+				has_building_gfx = iranian_building_gfx
+				has_building_gfx = indian_building_gfx
+				has_building_gfx = mena_building_gfx
+				has_building_gfx = arabic_group_building_gfx
+				has_building_gfx = somali_building_gfx
+				has_building_gfx = african_building_gfx
+				has_building_gfx = guinean_building_gfx
+				has_building_gfx = berber_group_building_gfx
+				has_building_gfx = berber_building_gfx
+				has_building_gfx = ethiopian_building_gfx
+				has_building_gfx = sahelian_building_gfx
+				has_building_gfx = mediterranean_building_gfx
+				has_building_gfx = caucasian_building_gfx
+				has_building_gfx = sicilian_building_gfx
+				has_building_gfx = byzantine_building_gfx
+				has_building_gfx = iberian_building_gfx
+				has_building_gfx = turkish_building_gfx
+			}
+		}
+		use_mesh_of_building_gfx = iranian_building_gfx
+	}
+	else_if = { # yada if
+		limit = {
+			OR = {
+				has_building_gfx = chinese_building_gfx
+				has_building_gfx = korean_building_gfx
+				has_building_gfx = japanese_building_gfx
+				has_building_gfx = southeast_asian_building_gfx
+				has_building_gfx = austro_building_gfx
+				has_building_gfx = burman_building_gfx
+			}
+		}
+		use_mesh_of_building_gfx = chinese_building_gfx
+	}
+	else_if = { # yada if
+		limit = {
+			OR = {
+				has_building_gfx = magyar_building_gfx
+				has_building_gfx = vlach_building_gfx
+				has_building_gfx = southslavic_building_gfx
+				has_building_gfx = croatian_building_gfx
+			}
+		}
+		use_mesh_of_building_gfx = magyar_building_gfx
+	}
+	else_if = { # yada if
+		limit = {
+			OR = {
+				has_building_gfx = slavic_building_gfx
+				has_building_gfx = east_slavic_building_gfx
+				has_building_gfx = western_building_gfx
+				has_building_gfx = british_building_gfx
+				has_building_gfx = german_building_gfx
+				has_building_gfx = goidelic_building_gfx
+				has_building_gfx = celtic_building_gfx
+				has_building_gfx = scandinavian_building_gfx
+				has_building_gfx = saxon_building_gfx
+				has_building_gfx = norse_building_gfx
+			}
+		}
+		use_mesh_of_building_gfx = slavic_building_gfx
+	}
+	else = {
+		#limit = { # Bu limit yorum satiri, eger else_if veya if olarak kullansaydik boyle olurdu
+		#	OR = {
+		#		has_building_gfx = steppe_building_gfx
+		#		has_building_gfx = tundra_building_gfx
+		#		has_building_gfx = tibetan_building_gfx
+		#	}
+		#}
+		use_mesh_of_building_gfx = steppe_building_gfx
+	}
+}
+
+graphical_east_asia = {
+	if = {
+		limit = { has_building_gfx = japanese_building_gfx }
+		use_mesh_of_building_gfx = japanese_building_gfx
+	}
+	else_if = { # yada if
+		limit = {
+			OR = {
+				has_building_gfx = southeast_asian_building_gfx
+				has_building_gfx = austro_building_gfx
+				has_building_gfx = indian_building_gfx
+				has_building_gfx = burman_building_gfx
+				has_building_gfx = tibetan_building_gfx
+			}
+		}
+		use_mesh_of_building_gfx = southeast_asian_building_gfx
+	}
+	else_if = { # yada if
+		limit = { has_building_gfx = korean_building_gfx }
+		use_mesh_of_building_gfx = korean_building_gfx
+	}
+	else = {
+		#limit = { # Bu limit yorum satiri, eger else_if veya if olarak kullansaydik boyle olurdu
+		#	OR = {
+		#		has_building_gfx = chinese_building_gfx
+		#		has_building_gfx = steppe_building_gfx
+		#		has_building_gfx = turkish_building_gfx
+		#		has_building_gfx = mediterranean_building_gfx
+		#		has_building_gfx = caucasian_building_gfx
+		#		has_building_gfx = southslavic_building_gfx
+		#		has_building_gfx = croatian_building_gfx
+		#		has_building_gfx = sicilian_building_gfx
+		#		has_building_gfx = norse_building_gfx
+		#		has_building_gfx = slavic_building_gfx
+		#		has_building_gfx = east_slavic_building_gfx
+		#		has_building_gfx = tundra_building_gfx
+		#		has_building_gfx = iberian_building_gfx
+		#		has_building_gfx = iranian_building_gfx
+		#		has_building_gfx = byzantine_building_gfx
+		#		has_building_gfx = mena_building_gfx
+		#		has_building_gfx = arabic_group_building_gfx
+		#		has_building_gfx = somali_building_gfx
+		#		has_building_gfx = african_building_gfx
+		#		has_building_gfx = guinean_building_gfx
+		#		has_building_gfx = berber_group_building_gfx
+		#		has_building_gfx = berber_building_gfx
+		#		has_building_gfx = ethiopian_building_gfx
+		#		has_building_gfx = sahelian_building_gfx
+		#		has_building_gfx = western_building_gfx
+		#		has_building_gfx = british_building_gfx
+		#		has_building_gfx = german_building_gfx
+		#		has_building_gfx = goidelic_building_gfx
+		#		has_building_gfx = celtic_building_gfx
+		#		has_building_gfx = vlach_building_gfx
+		#		has_building_gfx = magyar_building_gfx
+		#		has_building_gfx = scandinavian_building_gfx
+		#		has_building_gfx = saxon_building_gfx
+		#	}
+		#}
+		use_mesh_of_building_gfx = chinese_building_gfx
+	}
+}
+
+graphical_siberia = {
+	if = {
+		limit = { has_building_gfx = norse_building_gfx }
+		use_mesh_of_building_gfx = norse_building_gfx
+	}
+	else_if = { # yada if
+		limit = {
+			OR = {
+				has_building_gfx = scandinavian_building_gfx
+				has_building_gfx = western_building_gfx
+				has_building_gfx = british_building_gfx
+				has_building_gfx = german_building_gfx
+				has_building_gfx = goidelic_building_gfx
+				has_building_gfx = celtic_building_gfx
+				has_building_gfx = saxon_building_gfx
+			}
+		}
+		use_mesh_of_building_gfx = scandinavian_building_gfx
+	}
+	else_if = { # yada if
+		limit = {
+			OR = {
+				has_building_gfx = slavic_building_gfx
+				has_building_gfx = east_slavic_building_gfx
+				has_building_gfx = vlach_building_gfx
+				has_building_gfx = magyar_building_gfx
+			}
+		}
+		use_mesh_of_building_gfx = slavic_building_gfx
+	}
+	else = {
+		#limit = { # Bu limit yorum satiri, eger else_if veya if olarak kullansaydik boyle olurdu
+		#	OR = {
+		#		has_building_gfx = tundra_building_gfx
+		#		has_building_gfx = steppe_building_gfx
+		#		has_building_gfx = japanese_building_gfx
+		#		has_building_gfx = southeast_asian_building_gfx
+		#		has_building_gfx = austro_building_gfx
+		#		has_building_gfx = indian_building_gfx
+		#		has_building_gfx = burman_building_gfx
+		#		has_building_gfx = tibetan_building_gfx
+		#		has_building_gfx = mena_building_gfx
+		#		has_building_gfx = arabic_group_building_gfx
+		#		has_building_gfx = somali_building_gfx
+		#		has_building_gfx = african_building_gfx
+		#		has_building_gfx = guinean_building_gfx
+		#		has_building_gfx = berber_group_building_gfx
+		#		has_building_gfx = berber_building_gfx
+		#		has_building_gfx = ethiopian_building_gfx
+		#		has_building_gfx = sahelian_building_gfx
+		#		has_building_gfx = turkish_building_gfx
+		#		has_building_gfx = mediterranean_building_gfx
+		#		has_building_gfx = caucasian_building_gfx
+		#		has_building_gfx = southslavic_building_gfx
+		#		has_building_gfx = croatian_building_gfx
+		#		has_building_gfx = sicilian_building_gfx
+		#		has_building_gfx = iberian_building_gfx
+		#		has_building_gfx = iranian_building_gfx
+		#		has_building_gfx = byzantine_building_gfx
+		#		has_building_gfx = chinese_building_gfx
+		#		has_building_gfx = korean_building_gfx
+		#	}
+		#}
+		use_mesh_of_building_gfx = tundra_building_gfx
+	}
+}
+
+graphical_japan = {
+	if = {
+		limit = {
+			OR = {
+				has_building_gfx = chinese_building_gfx
+				has_building_gfx = steppe_building_gfx
+				has_building_gfx = southeast_asian_building_gfx
+				has_building_gfx = austro_building_gfx
+				has_building_gfx = indian_building_gfx
+				has_building_gfx = burman_building_gfx
+				has_building_gfx = tibetan_building_gfx
+			}
+		}
+		use_mesh_of_building_gfx = chinese_building_gfx
+	}
+	else_if = { # yada if
+		limit = { has_building_gfx = korean_building_gfx }
+		use_mesh_of_building_gfx = korean_building_gfx
+	}
+	else = {
+		#limit = { # Bu limit yorum satiri, eger else_if veya if olarak kullansaydik boyle olurdu
+		#	OR = {
+		#		has_building_gfx = japanese_building_gfx
+		#		has_building_gfx = tundra_building_gfx
+		#		has_building_gfx = turkish_building_gfx
+		#		has_building_gfx = mediterranean_building_gfx
+		#		has_building_gfx = caucasian_building_gfx
+		#		has_building_gfx = southslavic_building_gfx
+		#		has_building_gfx = croatian_building_gfx
+		#		has_building_gfx = sicilian_building_gfx
+		#		has_building_gfx = norse_building_gfx
+		#		has_building_gfx = slavic_building_gfx
+		#		has_building_gfx = east_slavic_building_gfx
+		#		has_building_gfx = iberian_building_gfx
+		#		has_building_gfx = iranian_building_gfx
+		#		has_building_gfx = byzantine_building_gfx
+		#		has_building_gfx = mena_building_gfx
+		#		has_building_gfx = arabic_group_building_gfx
+		#		has_building_gfx = somali_building_gfx
+		#		has_building_gfx = african_building_gfx
+		#		has_building_gfx = guinean_building_gfx
+		#		has_building_gfx = berber_group_building_gfx
+		#		has_building_gfx = berber_building_gfx
+		#		has_building_gfx = ethiopian_building_gfx
+		#		has_building_gfx = sahelian_building_gfx
+		#		has_building_gfx = western_building_gfx
+		#		has_building_gfx = british_building_gfx
+		#		has_building_gfx = german_building_gfx
+		#		has_building_gfx = goidelic_building_gfx
+		#		has_building_gfx = celtic_building_gfx
+		#		has_building_gfx = vlach_building_gfx
+		#		has_building_gfx = magyar_building_gfx
+		#		has_building_gfx = scandinavian_building_gfx
+		#		has_building_gfx = saxon_building_gfx
+		#	}
+		#}
+		use_mesh_of_building_gfx = japanese_building_gfx
+	}
+}
+
+graphical_iran = {
+	#if = { # Bu if yorum satiri, eger kullansaydik boyle olurdu
+	#	limit = {
+	#		OR = {
+	#			has_building_gfx = iranian_building_gfx
+	#			has_building_gfx = mena_building_gfx
+	#			has_building_gfx = arabic_group_building_gfx
+	#			has_building_gfx = turkish_building_gfx
+	#			has_building_gfx = byzantine_building_gfx
+	#			has_building_gfx = mediterranean_building_gfx
+	#			has_building_gfx = somali_building_gfx
+	#			has_building_gfx = ethiopian_building_gfx
+	#			has_building_gfx = sahelian_building_gfx
+	#			has_building_gfx = caucasian_building_gfx
+	#			has_building_gfx = african_building_gfx
+	#			has_building_gfx = guinean_building_gfx
+	#			has_building_gfx = berber_group_building_gfx
+	#			has_building_gfx = berber_building_gfx
+	#			has_building_gfx = sicilian_building_gfx
+	#			has_building_gfx = iberian_building_gfx
+	#			has_building_gfx = burman_building_gfx
+	#			has_building_gfx = indian_building_gfx
+	#			has_building_gfx = tibetan_building_gfx
+	#			has_building_gfx = steppe_building_gfx
+	#			has_building_gfx = tundra_building_gfx
+	#			has_building_gfx = chinese_building_gfx
+	#			has_building_gfx = korean_building_gfx
+	#			has_building_gfx = japanese_building_gfx
+	#			has_building_gfx = southeast_asian_building_gfx
+	#			has_building_gfx = austro_building_gfx
+	#			has_building_gfx = western_building_gfx
+	#			has_building_gfx = british_building_gfx
+	#			has_building_gfx = german_building_gfx
+	#			has_building_gfx = goidelic_building_gfx
+	#			has_building_gfx = celtic_building_gfx
+	#			has_building_gfx = vlach_building_gfx
+	#			has_building_gfx = magyar_building_gfx
+	#			has_building_gfx = scandinavian_building_gfx
+	#			has_building_gfx = saxon_building_gfx
+	#			has_building_gfx = southslavic_building_gfx
+	#			has_building_gfx = croatian_building_gfx
+	#			has_building_gfx = norse_building_gfx
+	#			has_building_gfx = slavic_building_gfx
+	#			has_building_gfx = east_slavic_building_gfx
+	#		}
+	#	}
+	#	use_mesh_of_building_gfx = iranian_building_gfx
+	#}
+	use_mesh_of_building_gfx = iranian_building_gfx
+}
+
+graphical_qixi = {
+	if = {
+		limit = {
+			OR = {
+				has_building_gfx = iranian_building_gfx
+				has_building_gfx = steppe_building_gfx
+				has_building_gfx = tundra_building_gfx
+				has_building_gfx = indian_building_gfx
+				has_building_gfx = tibetan_building_gfx
+				has_building_gfx = mena_building_gfx
+				has_building_gfx = arabic_group_building_gfx
+				has_building_gfx = turkish_building_gfx
+				has_building_gfx = mediterranean_building_gfx
+				has_building_gfx = caucasian_building_gfx
+				has_building_gfx = sicilian_building_gfx
+				has_building_gfx = iberian_building_gfx
+				has_building_gfx = byzantine_building_gfx
+				has_building_gfx = western_building_gfx
+				has_building_gfx = british_building_gfx
+				has_building_gfx = german_building_gfx
+				has_building_gfx = goidelic_building_gfx
+				has_building_gfx = celtic_building_gfx
+				has_building_gfx = vlach_building_gfx
+				has_building_gfx = magyar_building_gfx
+				has_building_gfx = scandinavian_building_gfx
+				has_building_gfx = saxon_building_gfx
+				has_building_gfx = somali_building_gfx
+				has_building_gfx = african_building_gfx
+				has_building_gfx = guinean_building_gfx
+				has_building_gfx = berber_group_building_gfx
+				has_building_gfx = berber_building_gfx
+				has_building_gfx = ethiopian_building_gfx
+				has_building_gfx = sahelian_building_gfx
+				has_building_gfx = southslavic_building_gfx
+				has_building_gfx = croatian_building_gfx
+				has_building_gfx = norse_building_gfx
+				has_building_gfx = slavic_building_gfx
+				has_building_gfx = east_slavic_building_gfx
+			}
+		}
+		use_mesh_of_building_gfx = iranian_building_gfx
+	}
+	else = {
+		#limit = { # Bu limit yorum satiri, eger else_if veya if olarak kullansaydik boyle olurdu
+		#	OR = {
+		#		has_building_gfx = chinese_building_gfx
+		#		has_building_gfx = korean_building_gfx
+		#		has_building_gfx = japanese_building_gfx
+		#		has_building_gfx = southeast_asian_building_gfx
+		#		has_building_gfx = austro_building_gfx
+		#		has_building_gfx = burman_building_gfx
+		#	}
+		#}
+		use_mesh_of_building_gfx = chinese_building_gfx
+	}
+}
+
+graphical_caucasus = {
+	#if = { # Bu if yorum satiri, eger kullansaydik boyle olurdu
+	#	limit = {
+	#		OR = {
+	#			has_building_gfx = caucasian_building_gfx
+	#			has_building_gfx = byzantine_building_gfx
+	#			has_building_gfx = turkish_building_gfx
+	#			has_building_gfx = steppe_building_gfx
+	#			has_building_gfx = tundra_building_gfx
+	#			has_building_gfx = east_slavic_building_gfx
+	#			has_building_gfx = slavic_building_gfx
+	#			has_building_gfx = southslavic_building_gfx
+	#			has_building_gfx = croatian_building_gfx
+	#			has_building_gfx = iberian_building_gfx
+	#			has_building_gfx = sicilian_building_gfx
+	#			has_building_gfx = iranian_building_gfx
+	#			has_building_gfx = mena_building_gfx
+	#			has_building_gfx = arabic_group_building_gfx
+	#			has_building_gfx = somali_building_gfx
+	#			has_building_gfx = african_building_gfx
+	#			has_building_gfx = guinean_building_gfx
+	#			has_building_gfx = berber_group_building_gfx
+	#			has_building_gfx = berber_building_gfx
+	#			has_building_gfx = ethiopian_building_gfx
+	#			has_building_gfx = sahelian_building_gfx
+	#			has_building_gfx = indian_building_gfx
+	#			has_building_gfx = burman_building_gfx
+	#			has_building_gfx = tibetan_building_gfx
+	#			has_building_gfx = japanese_building_gfx
+	#			has_building_gfx = southeast_asian_building_gfx
+	#			has_building_gfx = austro_building_gfx
+	#			has_building_gfx = chinese_building_gfx
+	#			has_building_gfx = korean_building_gfx
+	#			has_building_gfx = mediterranean_building_gfx
+	#			has_building_gfx = british_building_gfx
+	#			has_building_gfx = norse_building_gfx
+	#			has_building_gfx = scandinavian_building_gfx
+	#			has_building_gfx = german_building_gfx
+	#			has_building_gfx = western_building_gfx
+	#			has_building_gfx = vlach_building_gfx
+	#			has_building_gfx = goidelic_building_gfx
+	#			has_building_gfx = celtic_building_gfx
+	#			has_building_gfx = magyar_building_gfx
+	#			has_building_gfx = saxon_building_gfx
+	#		}
+	#	}
+	#	use_mesh_of_building_gfx = caucasian_building_gfx
+	#}
+	use_mesh_of_building_gfx = caucasian_building_gfx
+}
+
+if = {
+	limit = {
+		NOT = { file = zz_00_tribal_buildings.txt }
+		guinean_building_gfx = african_building_gfx
+		austro_building_gfx = southeast_asian_building_gfx
+	}
+}

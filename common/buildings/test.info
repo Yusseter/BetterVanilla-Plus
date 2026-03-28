@@ -1,0 +1,1455 @@
+﻿@illustration_african_christian = "gfx/interface/illustrations/holding_types/temple_african_christian.dds"
+@illustration_berber_christian = "gfx/interface/illustrations/holding_types/temple_berber_christian.dds"
+@illustration_british_christian = "gfx/interface/illustrations/holding_types/temple_british_christian.dds"
+@illustration_burman_christian = "gfx/interface/illustrations/holding_types/temple_burman_christian.dds"
+@illustration_byzantine_christian = "gfx/interface/illustrations/holding_types/temple_byzantine_christian.dds"
+@illustration_caucasian_christian = "gfx/interface/illustrations/holding_types/temple_mediterranean_christian.dds"
+@illustration_chinese_christian = "gfx/interface/illustrations/holding_types/temple_chinese_christian.dds"
+@illustration_ethiopian_christian = "gfx/interface/illustrations/holding_types/temple_ethiopian_christian.dds"
+@illustration_german_christian = "gfx/interface/illustrations/holding_types/temple_german_christian.dds"
+@illustration_goidelic_christian = "gfx/interface/illustrations/holding_types/temple_goidelic_christian.dds"
+@illustration_iberian_christian = "gfx/interface/illustrations/holding_types/temple_iberian_christian.dds"
+@illustration_indian_christian = "gfx/interface/illustrations/holding_types/temple_indian_christian.dds"
+@illustration_iranian_christian = "gfx/interface/illustrations/holding_types/temple_iranian_christian.dds"
+@illustration_magyar_christian = "gfx/interface/illustrations/holding_types/temple_magyar_christian.dds"
+@illustration_mediterranean_christian = "gfx/interface/illustrations/holding_types/temple_mediterranean_christian.dds"
+@illustration_mena_christian = "gfx/interface/illustrations/holding_types/temple_mena_christian.dds"
+@illustration_norse_christian = "gfx/interface/illustrations/holding_types/temple_norse_christian.dds"
+@illustration_sahelian_christian = "gfx/interface/illustrations/holding_types/temple_sahelian_christian.dds"
+@illustration_saxon_christian = "gfx/interface/illustrations/holding_types/temple_british_christian.dds"
+@illustration_scandinavian_christian = "gfx/interface/illustrations/holding_types/temple_scandinavian_christian.dds"
+@illustration_slavic_christian = "gfx/interface/illustrations/holding_types/temple_slavic_christian.dds"
+@illustration_somali_christian = "gfx/interface/illustrations/holding_types/temple_somali_christian.dds"
+@illustration_southslavic_christian = "gfx/interface/illustrations/holding_types/temple_mediterranean_christian.dds"
+@illustration_steppe_christian = "gfx/interface/illustrations/holding_types/temple_steppe_christian.dds"
+@illustration_tibetan_christian = "gfx/interface/illustrations/holding_types/temple_tibetan_christian.dds"
+@illustration_tundra_christian = "gfx/interface/illustrations/holding_types/temple_norse_christian.dds"
+@illustration_western_christian = "gfx/interface/illustrations/holding_types/temple_western_christian.dds"
+
+@illustration_african_dharmic = "gfx/interface/illustrations/holding_types/temple_african_dharmic.dds"
+@illustration_berber_dharmic = "gfx/interface/illustrations/holding_types/temple_berber_dharmic.dds"
+@illustration_british_dharmic = "gfx/interface/illustrations/holding_types/temple_western_dharmic.dds"
+@illustration_burman_dharmic = "gfx/interface/illustrations/holding_types/temple_burman_dharmic.dds"
+@illustration_byzantine_dharmic = "gfx/interface/illustrations/holding_types/temple_mediterranean_dharmic.dds"
+@illustration_caucasian_dharmic = "gfx/interface/illustrations/holding_types/temple_mediterranean_dharmic.dds"
+@illustration_chinese_dharmic = "gfx/interface/illustrations/holding_types/temple_chinese_dharmic.dds"
+@illustration_ethiopian_dharmic = "gfx/interface/illustrations/holding_types/temple_ethiopian_dharmic.dds"
+@illustration_german_dharmic = "gfx/interface/illustrations/holding_types/temple_western_dharmic.dds"
+@illustration_goidelic_dharmic = "gfx/interface/illustrations/holding_types/temple_western_dharmic.dds"
+@illustration_iberian_dharmic = "gfx/interface/illustrations/holding_types/temple_iberian_dharmic.dds"
+@illustration_indian_dharmic = "gfx/interface/illustrations/holding_types/temple_indian_dharmic.dds"
+@illustration_iranian_dharmic = "gfx/interface/illustrations/holding_types/temple_iranian_dharmic.dds"
+@illustration_magyar_dharmic = "gfx/interface/illustrations/holding_types/temple_western_dharmic.dds"
+@illustration_mediterranean_dharmic = "gfx/interface/illustrations/holding_types/temple_mediterranean_dharmic.dds"
+@illustration_mena_dharmic = "gfx/interface/illustrations/holding_types/temple_mena_dharmic.dds"
+@illustration_norse_dharmic = "gfx/interface/illustrations/holding_types/temple_norse_dharmic.dds"
+@illustration_sahelian_dharmic = "gfx/interface/illustrations/holding_types/temple_sahelian_dharmic.dds"
+@illustration_saxon_dharmic = "gfx/interface/illustrations/holding_types/temple_western_dharmic.dds"
+@illustration_scandinavian_dharmic = "gfx/interface/illustrations/holding_types/temple_western_dharmic.dds"
+@illustration_slavic_dharmic = "gfx/interface/illustrations/holding_types/temple_norse_dharmic.dds"
+@illustration_somali_dharmic = "gfx/interface/illustrations/holding_types/temple_somali_generic.dds"
+@illustration_southslavic_dharmic = "gfx/interface/illustrations/holding_types/temple_mediterranean_dharmic.dds"
+@illustration_steppe_dharmic = "gfx/interface/illustrations/holding_types/temple_steppe_dharmic.dds"
+@illustration_tibetan_dharmic = "gfx/interface/illustrations/holding_types/temple_tibetan_dharmic.dds"
+@illustration_tundra_dharmic = "gfx/interface/illustrations/holding_types/temple_norse_dharmic.dds"
+@illustration_western_dharmic = "gfx/interface/illustrations/holding_types/temple_western_dharmic.dds"
+
+@illustration_african_generic = "gfx/interface/illustrations/holding_types/temple_african_generic.dds"
+@illustration_berber_generic = "gfx/interface/illustrations/holding_types/temple_berber_generic.dds"
+@illustration_british_generic = "gfx/interface/illustrations/holding_types/temple_british_generic.dds"
+@illustration_burman_generic = "gfx/interface/illustrations/holding_types/temple_burman_generic.dds"
+@illustration_byzantine_generic = "gfx/interface/illustrations/holding_types/temple_byzantine_generic.dds"
+@illustration_caucasian_generic = "gfx/interface/illustrations/holding_types/temple_mediterranean_generic.dds"
+@illustration_chinese_generic = "gfx/interface/illustrations/holding_types/temple_chinese_generic.dds"
+@illustration_ethiopian_generic = "gfx/interface/illustrations/holding_types/temple_ethiopian_generic.dds"
+@illustration_german_generic = "gfx/interface/illustrations/holding_types/temple_western_generic.dds"
+@illustration_goidelic_generic = "gfx/interface/illustrations/holding_types/temple_western_generic.dds"
+@illustration_iberian_generic = "gfx/interface/illustrations/holding_types/temple_iberian_generic.dds"
+@illustration_indian_generic = "gfx/interface/illustrations/holding_types/temple_indian_generic.dds"
+@illustration_iranian_generic = "gfx/interface/illustrations/holding_types/temple_iranian_generic.dds"
+@illustration_magyar_generic = "gfx/interface/illustrations/holding_types/temple_western_generic.dds"
+@illustration_mediterranean_generic = "gfx/interface/illustrations/holding_types/temple_mediterranean_generic.dds"
+@illustration_mena_generic = "gfx/interface/illustrations/holding_types/temple_mena_generic.dds"
+@illustration_norse_generic = "gfx/interface/illustrations/holding_types/temple_norse_generic.dds"
+@illustration_sahelian_generic = "gfx/interface/illustrations/holding_types/temple_sahelian_generic.dds"
+@illustration_saxon_generic = "gfx/interface/illustrations/holding_types/temple_british_generic.dds"
+@illustration_scandinavian_generic = "gfx/interface/illustrations/holding_types/temple_western_generic.dds"
+@illustration_slavic_generic = "gfx/interface/illustrations/holding_types/temple_slavic_generic.dds"
+@illustration_somali_generic = "gfx/interface/illustrations/holding_types/temple_somali_generic.dds"
+@illustration_southslavic_generic = "gfx/interface/illustrations/holding_types/temple_mediterranean_generic.dds"
+@illustration_steppe_generic = "gfx/interface/illustrations/holding_types/temple_steppe_generic.dds"
+@illustration_tibetan_generic = "gfx/interface/illustrations/holding_types/temple_tibetan_generic.dds"
+@illustration_tundra_generic = "gfx/interface/illustrations/holding_types/temple_norse_generic.dds"
+@illustration_western_generic = "gfx/interface/illustrations/holding_types/temple_western_generic.dds"
+
+@illustration_african_islamic = "gfx/interface/illustrations/holding_types/temple_african_islamic.dds"
+@illustration_berber_islamic = "gfx/interface/illustrations/holding_types/temple_berber_islamic.dds"
+@illustration_british_islamic = "gfx/interface/illustrations/holding_types/temple_british_islamic.dds"
+@illustration_burman_islamic = "gfx/interface/illustrations/holding_types/temple_burman_islamic.dds"
+@illustration_byzantine_islamic = "gfx/interface/illustrations/holding_types/temple_byzantine_islamic.dds"
+@illustration_caucasian_islamic = "gfx/interface/illustrations/holding_types/temple_caucasian_islamic.dds"
+@illustration_chinese_islamic = "gfx/interface/illustrations/holding_types/temple_chinese_islamic.dds"
+@illustration_ethiopian_islamic = "gfx/interface/illustrations/holding_types/temple_ethiopian_islamic.dds"
+@illustration_german_islamic = "gfx/interface/illustrations/holding_types/temple_western_islamic.dds"
+@illustration_goidelic_islamic = "gfx/interface/illustrations/holding_types/temple_british_islamic.dds"
+@illustration_iberian_islamic = "gfx/interface/illustrations/holding_types/temple_iberian_islamic.dds"
+@illustration_indian_islamic = "gfx/interface/illustrations/holding_types/temple_indian_islamic.dds"
+@illustration_iranian_islamic = "gfx/interface/illustrations/holding_types/temple_iranian_islamic.dds"
+@illustration_magyar_islamic = "gfx/interface/illustrations/holding_types/temple_western_islamic.dds"
+@illustration_mediterranean_islamic = "gfx/interface/illustrations/holding_types/temple_mediterranean_islamic.dds"
+@illustration_mena_islamic = "gfx/interface/illustrations/holding_types/temple_mena_islamic.dds"
+@illustration_norse_islamic = "gfx/interface/illustrations/holding_types/temple_norse_islamic.dds"
+@illustration_sahelian_islamic = "gfx/interface/illustrations/holding_types/temple_sahelian_islamic.dds"
+@illustration_saxon_islamic = "gfx/interface/illustrations/holding_types/temple_british_islamic.dds"
+@illustration_scandinavian_islamic = "gfx/interface/illustrations/holding_types/temple_western_islamic.dds"
+@illustration_slavic_islamic = "gfx/interface/illustrations/holding_types/temple_slavic_islamic.dds"
+@illustration_somali_islamic = "gfx/interface/illustrations/holding_types/temple_somali_islamic.dds"
+@illustration_southslavic_islamic = "gfx/interface/illustrations/holding_types/temple_mediterranean_islamic.dds"
+@illustration_steppe_islamic = "gfx/interface/illustrations/holding_types/temple_steppe_islamic.dds"
+@illustration_tibetan_islamic = "gfx/interface/illustrations/holding_types/temple_tibetan_islamic.dds"
+@illustration_tundra_islamic = "gfx/interface/illustrations/holding_types/temple_norse_islamic.dds"
+@illustration_western_islamic = "gfx/interface/illustrations/holding_types/temple_western_islamic.dds"
+
+@illustration_african_jewish = "gfx/interface/illustrations/holding_types/temple_african_generic.dds"
+@illustration_berber_jewish = "gfx/interface/illustrations/holding_types/temple_berber_generic.dds"
+@illustration_british_jewish = "gfx/interface/illustrations/holding_types/temple_british_generic.dds"
+@illustration_burman_jewish = "gfx/interface/illustrations/holding_types/temple_burman_generic.dds"
+@illustration_byzantine_jewish = "gfx/interface/illustrations/holding_types/temple_byzantine_generic.dds"
+@illustration_caucasian_jewish = "gfx/interface/illustrations/holding_types/temple_mediterranean_generic.dds"
+@illustration_chinese_jewish = "gfx/interface/illustrations/holding_types/temple_chinese_generic.dds"
+@illustration_ethiopian_jewish = "gfx/interface/illustrations/holding_types/temple_ethiopian_generic.dds"
+@illustration_german_jewish = "gfx/interface/illustrations/holding_types/temple_western_jewish.dds"
+@illustration_goidelic_jewish = "gfx/interface/illustrations/holding_types/temple_western_generic.dds"
+@illustration_iberian_jewish = "gfx/interface/illustrations/holding_types/temple_iberian_generic.dds"
+@illustration_indian_jewish = "gfx/interface/illustrations/holding_types/temple_indian_generic.dds"
+@illustration_iranian_jewish = "gfx/interface/illustrations/holding_types/temple_iranian_generic.dds"
+@illustration_magyar_jewish = "gfx/interface/illustrations/holding_types/temple_western_jewish.dds"
+@illustration_mediterranean_jewish = "gfx/interface/illustrations/holding_types/temple_mediterranean_generic.dds"
+@illustration_mena_jewish = "gfx/interface/illustrations/holding_types/temple_mena_generic.dds"
+@illustration_norse_jewish = "gfx/interface/illustrations/holding_types/temple_norse_generic.dds"
+@illustration_sahelian_jewish = "gfx/interface/illustrations/holding_types/temple_sahelian_generic.dds"
+@illustration_saxon_jewish = "gfx/interface/illustrations/holding_types/temple_british_generic.dds"
+@illustration_scandinavian_jewish = "gfx/interface/illustrations/holding_types/temple_western_jewish.dds"
+@illustration_slavic_jewish = "gfx/interface/illustrations/holding_types/temple_slavic_generic.dds"
+@illustration_somali_jewish = "gfx/interface/illustrations/holding_types/temple_somali_generic.dds"
+@illustration_southslavic_jewish = "gfx/interface/illustrations/holding_types/temple_mediterranean_generic.dds"
+@illustration_steppe_jewish = "gfx/interface/illustrations/holding_types/temple_steppe_generic.dds"
+@illustration_tibetan_jewish = "gfx/interface/illustrations/holding_types/temple_tibetan_generic.dds"
+@illustration_tundra_jewish = "gfx/interface/illustrations/holding_types/temple_norse_generic.dds"
+@illustration_western_jewish = "gfx/interface/illustrations/holding_types/temple_western_jewish.dds"
+
+@illustration_african_orthodox = "gfx/interface/illustrations/holding_types/temple_african_christian.dds"
+@illustration_berber_orthodox = "gfx/interface/illustrations/holding_types/temple_berber_christian.dds"
+@illustration_british_orthodox = "gfx/interface/illustrations/holding_types/temple_british_orthodox.dds"
+@illustration_burman_orthodox = "gfx/interface/illustrations/holding_types/temple_burman_christian.dds"
+@illustration_byzantine_orthodox = "gfx/interface/illustrations/holding_types/temple_byzantine_orthodox.dds"
+@illustration_caucasian_orthodox = "gfx/interface/illustrations/holding_types/temple_caucasian_orthodox.dds"
+@illustration_chinese_orthodox = "gfx/interface/illustrations/holding_types/temple_chinese_christian.dds"
+@illustration_ethiopian_orthodox = "gfx/interface/illustrations/holding_types/temple_ethiopian_orthodox.dds"
+@illustration_german_orthodox = "gfx/interface/illustrations/holding_types/temple_western_orthodox.dds"
+@illustration_goidelic_orthodox = "gfx/interface/illustrations/holding_types/temple_british_orthodox.dds"
+@illustration_iberian_orthodox = "gfx/interface/illustrations/holding_types/temple_iberian_orthodox.dds"
+@illustration_indian_orthodox = "gfx/interface/illustrations/holding_types/temple_indian_christian.dds"
+@illustration_iranian_orthodox = "gfx/interface/illustrations/holding_types/temple_iranian_christian.dds"
+@illustration_magyar_orthodox = "gfx/interface/illustrations/holding_types/temple_western_orthodox.dds"
+@illustration_mediterranean_orthodox = "gfx/interface/illustrations/holding_types/temple_mediterranean_orthodox.dds"
+@illustration_mena_orthodox = "gfx/interface/illustrations/holding_types/temple_mena_orthodox.dds"
+@illustration_norse_orthodox = "gfx/interface/illustrations/holding_types/temple_norse_orthodox.dds"
+@illustration_sahelian_orthodox = "gfx/interface/illustrations/holding_types/temple_sahelian_christian.dds"
+@illustration_saxon_orthodox = "gfx/interface/illustrations/holding_types/temple_british_orthodox.dds"
+@illustration_scandinavian_orthodox = "gfx/interface/illustrations/holding_types/temple_western_orthodox.dds"
+@illustration_slavic_orthodox = "gfx/interface/illustrations/holding_types/temple_slavic_orthodox.dds"
+@illustration_somali_orthodox = "gfx/interface/illustrations/holding_types/temple_somali_christian.dds"
+@illustration_southslavic_orthodox = "gfx/interface/illustrations/holding_types/temple_mediterranean_orthodox.dds"
+@illustration_steppe_orthodox = "gfx/interface/illustrations/holding_types/temple_steppe_christian.dds"
+@illustration_tibetan_orthodox = "gfx/interface/illustrations/holding_types/temple_tibetan_christian.dds"
+@illustration_tundra_orthodox = "gfx/interface/illustrations/holding_types/temple_norse_orthodox.dds"
+@illustration_vlach_orthodox = "gfx/interface/illustrations/holding_types/temple_vlach_orthodox.dds"
+@illustration_western_orthodox = "gfx/interface/illustrations/holding_types/temple_western_orthodox.dds"
+
+@illustration_african_pagan = "gfx/interface/illustrations/holding_types/temple_african_pagan.dds"
+@illustration_berber_pagan = "gfx/interface/illustrations/holding_types/temple_berber_pagan.dds"
+@illustration_british_pagan = "gfx/interface/illustrations/holding_types/temple_western_pagan.dds"
+@illustration_burman_pagan = "gfx/interface/illustrations/holding_types/temple_burman_pagan.dds"
+@illustration_byzantine_pagan = "gfx/interface/illustrations/holding_types/temple_byzantine_pagan.dds"
+@illustration_caucasian_pagan = "gfx/interface/illustrations/holding_types/temple_byzantine_pagan.dds"
+@illustration_chinese_pagan = "gfx/interface/illustrations/holding_types/temple_chinese_pagan.dds"
+@illustration_ethiopian_pagan = "gfx/interface/illustrations/holding_types/temple_ethiopian_pagan.dds"
+@illustration_german_pagan = "gfx/interface/illustrations/holding_types/temple_western_pagan.dds"
+@illustration_goidelic_pagan = "gfx/interface/illustrations/holding_types/temple_western_pagan.dds"
+@illustration_iberian_pagan = "gfx/interface/illustrations/holding_types/temple_iberian_pagan.dds"
+@illustration_indian_pagan = "gfx/interface/illustrations/holding_types/temple_indian_pagan.dds"
+@illustration_iranian_pagan = "gfx/interface/illustrations/holding_types/temple_iranian_pagan.dds"
+@illustration_magyar_pagan = "gfx/interface/illustrations/holding_types/temple_western_pagan.dds"
+@illustration_mediterranean_pagan = "gfx/interface/illustrations/holding_types/temple_byzantine_pagan.dds"
+@illustration_mena_pagan = "gfx/interface/illustrations/holding_types/temple_mena_pagan.dds"
+@illustration_norse_pagan = "gfx/interface/illustrations/holding_types/temple_norse_pagan.dds"
+@illustration_sahelian_pagan = "gfx/interface/illustrations/holding_types/temple_sahelian_pagan.dds"
+@illustration_saxon_pagan = "gfx/interface/illustrations/holding_types/temple_western_pagan.dds"
+@illustration_scandinavian_pagan = "gfx/interface/illustrations/holding_types/temple_western_pagan.dds"
+@illustration_slavic_pagan = "gfx/interface/illustrations/holding_types/temple_slavic_pagan.dds"
+@illustration_somali_pagan = "gfx/interface/illustrations/holding_types/temple_somali_generic.dds"
+@illustration_southslavic_pagan = "gfx/interface/illustrations/holding_types/temple_mediterranean_pagan.dds"
+@illustration_steppe_pagan = "gfx/interface/illustrations/holding_types/temple_steppe_pagan.dds"
+@illustration_tibetan_pagan = "gfx/interface/illustrations/holding_types/temple_tibetan_pagan.dds"
+@illustration_tundra_pagan = "gfx/interface/illustrations/holding_types/temple_norse_pagan.dds"
+@illustration_western_pagan = "gfx/interface/illustrations/holding_types/temple_western_pagan.dds"
+
+@illustration_african_zoroastrian = "gfx/interface/illustrations/holding_types/temple_african_generic.dds"
+@illustration_berber_zoroastrian = "gfx/interface/illustrations/holding_types/temple_berber_generic.dds"
+@illustration_british_zoroastrian = "gfx/interface/illustrations/holding_types/temple_british_generic.dds"
+@illustration_burman_zoroastrian = "gfx/interface/illustrations/holding_types/temple_burman_generic.dds"
+@illustration_byzantine_zoroastrian = "gfx/interface/illustrations/holding_types/temple_byzantine_generic.dds"
+@illustration_caucasian_zoroastrian = "gfx/interface/illustrations/holding_types/temple_mediterranean_generic.dds"
+@illustration_chinese_zoroastrian = "gfx/interface/illustrations/holding_types/temple_chinese_generic.dds"
+@illustration_ethiopian_zoroastrian = "gfx/interface/illustrations/holding_types/temple_ethiopian_generic.dds"
+@illustration_german_zoroastrian = "gfx/interface/illustrations/holding_types/temple_western_generic.dds"
+@illustration_goidelic_zoroastrian = "gfx/interface/illustrations/holding_types/temple_western_generic.dds"
+@illustration_iberian_zoroastrian = "gfx/interface/illustrations/holding_types/temple_iberian_generic.dds"
+@illustration_indian_zoroastrian = "gfx/interface/illustrations/holding_types/temple_indian_generic.dds"
+@illustration_magyar_zoroastrian = "gfx/interface/illustrations/holding_types/temple_western_generic.dds"
+@illustration_mediterranean_zoroastrian = "gfx/interface/illustrations/holding_types/temple_mediterranean_generic.dds"
+@illustration_mena_zoroastrian = "gfx/interface/illustrations/holding_types/temple_mena_generic.dds"
+@illustration_norse_zoroastrian = "gfx/interface/illustrations/holding_types/temple_norse_generic.dds"
+@illustration_sahelian_zoroastrian = "gfx/interface/illustrations/holding_types/temple_sahelian_generic.dds"
+@illustration_saxon_zoroastrian = "gfx/interface/illustrations/holding_types/temple_british_generic.dds"
+@illustration_scandinavian_zoroastrian = "gfx/interface/illustrations/holding_types/temple_western_generic.dds"
+@illustration_slavic_zoroastrian = "gfx/interface/illustrations/holding_types/temple_slavic_generic.dds"
+@illustration_somali_zoroastrian = "gfx/interface/illustrations/holding_types/temple_somali_generic.dds"
+@illustration_southslavic_zoroastrian = "gfx/interface/illustrations/holding_types/temple_mediterranean_generic.dds"
+@illustration_steppe_zoroastrian = "gfx/interface/illustrations/holding_types/temple_steppe_generic.dds"
+@illustration_tibetan_zoroastrian = "gfx/interface/illustrations/holding_types/temple_tibetan_generic.dds"
+@illustration_tundra_zoroastrian = "gfx/interface/illustrations/holding_types/temple_norse_generic.dds"
+@illustration_western_zoroastrian = "gfx/interface/illustrations/holding_types/temple_western_generic.dds" 
+
+@illustration_christian = "gfx/interface/illustrations/holding_types/temple_christian.dds"
+@illustration_generic_grass = "gfx/interface/illustrations/holding_types/temple_generic_grass.dds"
+@illustration_generic_arid = "gfx/interface/illustrations/holding_types/temple_generic_arid.dds"
+@illustration_india = "gfx/interface/illustrations/holding_types/temple_india.dds"
+@illustration_islamic = "gfx/interface/illustrations/holding_types/temple_islamic.dds"
+@illustration_orthodox = "gfx/interface/illustrations/holding_types/temple_orthodox.dds"
+@illustration_northern_pagan = "gfx/interface/illustrations/holding_types/temple_northern_pagan.dds"
+@illustration_iranian_zoroastrian = "gfx/interface/illustrations/holding_types/fp3_temple_iranian_zoroastrian.dds"
+@illustration_tengri = "gfx/interface/illustrations/holding_types/mpo_temple_steppe.dds"
+@illustration_chinese = "gfx/interface/illustrations/holding_types/tgp_chinese_pagoda.dds"
+@illustration_shinto = "gfx/interface/illustrations/holding_types/tgp_shinto_temple.dds"
+@illustration_southeast_asian_pagan = "gfx/interface/illustrations/holding_types/tgp_temple_pagan_se_asia.dds"
+
+temple_01 = {
+	construction_time = slow_construction_time
+
+ # Western Graphical Region
+  # Western Building Graphics
+   # Generic Western
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_generic_01_mesh"
+		illustration = @illustration_western_generic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { chinese_building_gfx korean_building_gfx japanese_building_gfx southeast_asian_building_gfx austro_building_gfx western_building_gfx indian_building_gfx burman_building_gfx tibetan_building_gfx iberian_building_gfx sicilian_building_gfx iranian_building_gfx mena_building_gfx arabic_group_building_gfx somali_building_gfx african_building_gfx guinean_building_gfx berber_group_building_gfx berber_building_gfx ethiopian_building_gfx sahelian_building_gfx }
+		graphical_regions = { graphical_western }
+	}
+
+   # Catholic Western
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_christian_01_mesh"
+		illustration = @illustration_western_christian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { chinese_building_gfx korean_building_gfx japanese_building_gfx southeast_asian_building_gfx austro_building_gfx western_building_gfx indian_building_gfx burman_building_gfx tibetan_building_gfx iberian_building_gfx sicilian_building_gfx iranian_building_gfx mena_building_gfx arabic_group_building_gfx somali_building_gfx african_building_gfx guinean_building_gfx berber_group_building_gfx berber_building_gfx ethiopian_building_gfx sahelian_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "catholic_gfx" }
+	}
+
+   # Orthodox Western
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_orthodox_01_mesh"
+		illustration = @illustration_western_orthodox
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { chinese_building_gfx korean_building_gfx japanese_building_gfx southeast_asian_building_gfx austro_building_gfx western_building_gfx indian_building_gfx burman_building_gfx tibetan_building_gfx iberian_building_gfx sicilian_building_gfx iranian_building_gfx mena_building_gfx arabic_group_building_gfx somali_building_gfx african_building_gfx guinean_building_gfx berber_group_building_gfx berber_building_gfx ethiopian_building_gfx sahelian_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "orthodox_gfx" }
+	}
+
+   # Islamic Western
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_islamic_01_mesh"
+		illustration = @illustration_western_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { chinese_building_gfx korean_building_gfx japanese_building_gfx southeast_asian_building_gfx austro_building_gfx western_building_gfx indian_building_gfx burman_building_gfx tibetan_building_gfx iberian_building_gfx sicilian_building_gfx iranian_building_gfx mena_building_gfx arabic_group_building_gfx somali_building_gfx african_building_gfx guinean_building_gfx berber_group_building_gfx berber_building_gfx ethiopian_building_gfx sahelian_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "islamic_gfx" }
+	}
+
+   # Judaism Western
+	asset = {
+		type = pdxmesh
+		name = "pagoda_03_mesh"
+		illustration = @illustration_western_jewish
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { chinese_building_gfx korean_building_gfx japanese_building_gfx southeast_asian_building_gfx austro_building_gfx western_building_gfx indian_building_gfx burman_building_gfx tibetan_building_gfx iberian_building_gfx sicilian_building_gfx iranian_building_gfx mena_building_gfx arabic_group_building_gfx somali_building_gfx african_building_gfx guinean_building_gfx berber_group_building_gfx berber_building_gfx ethiopian_building_gfx sahelian_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "judaism_gfx" }
+	}
+
+   # Zoroastrian Western
+	asset = {
+		type = pdxmesh
+		name = "pagoda_03_mesh"
+		illustration = @illustration_western_zoroastrian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { chinese_building_gfx korean_building_gfx japanese_building_gfx southeast_asian_building_gfx austro_building_gfx western_building_gfx indian_building_gfx burman_building_gfx tibetan_building_gfx iberian_building_gfx sicilian_building_gfx iranian_building_gfx mena_building_gfx arabic_group_building_gfx somali_building_gfx african_building_gfx guinean_building_gfx berber_group_building_gfx berber_building_gfx ethiopian_building_gfx sahelian_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "zoroastrian_gfx" }
+	}
+
+   # Dharmic Western
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_dharmic_01_mesh"
+		illustration = @illustration_western_dharmic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { chinese_building_gfx korean_building_gfx japanese_building_gfx southeast_asian_building_gfx austro_building_gfx western_building_gfx indian_building_gfx burman_building_gfx tibetan_building_gfx iberian_building_gfx sicilian_building_gfx iranian_building_gfx mena_building_gfx arabic_group_building_gfx somali_building_gfx african_building_gfx guinean_building_gfx berber_group_building_gfx berber_building_gfx ethiopian_building_gfx sahelian_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "dharmic_gfx" }
+	}
+
+   # Sinitic Western
+	asset = {
+		type = pdxmesh
+		name = "tgp_building_chinese_temple_01_mesh"
+		illustration = @illustration_chinese
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/chinese_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { chinese_building_gfx korean_building_gfx japanese_building_gfx southeast_asian_building_gfx austro_building_gfx western_building_gfx indian_building_gfx burman_building_gfx tibetan_building_gfx iberian_building_gfx sicilian_building_gfx iranian_building_gfx mena_building_gfx arabic_group_building_gfx somali_building_gfx african_building_gfx guinean_building_gfx berber_group_building_gfx berber_building_gfx ethiopian_building_gfx sahelian_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "sinitic_gfx" }
+	}
+
+   # Shinto Western
+	asset = {
+		type = pdxmesh
+		name = "tgp_building_japanese_temple_01_mesh"
+		illustration = @illustration_shinto
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/japanese_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { chinese_building_gfx korean_building_gfx japanese_building_gfx southeast_asian_building_gfx austro_building_gfx western_building_gfx indian_building_gfx burman_building_gfx tibetan_building_gfx iberian_building_gfx sicilian_building_gfx iranian_building_gfx mena_building_gfx arabic_group_building_gfx somali_building_gfx african_building_gfx guinean_building_gfx berber_group_building_gfx berber_building_gfx ethiopian_building_gfx sahelian_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "shinto_gfx" }
+	}
+
+   # Tengrism Western
+	asset = {
+		type = entity
+		name = "mpo_mongol_temple_01_entity"
+		illustration = @illustration_tengri
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { chinese_building_gfx korean_building_gfx japanese_building_gfx southeast_asian_building_gfx austro_building_gfx western_building_gfx indian_building_gfx burman_building_gfx tibetan_building_gfx iberian_building_gfx sicilian_building_gfx iranian_building_gfx mena_building_gfx arabic_group_building_gfx somali_building_gfx african_building_gfx guinean_building_gfx berber_group_building_gfx berber_building_gfx ethiopian_building_gfx sahelian_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "tengrism_gfx" }
+	}
+
+   # Pagan Western
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_pagan_01_mesh"
+		illustration = @illustration_western_pagan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { chinese_building_gfx korean_building_gfx japanese_building_gfx southeast_asian_building_gfx austro_building_gfx western_building_gfx indian_building_gfx burman_building_gfx tibetan_building_gfx iberian_building_gfx sicilian_building_gfx iranian_building_gfx mena_building_gfx arabic_group_building_gfx somali_building_gfx african_building_gfx guinean_building_gfx berber_group_building_gfx berber_building_gfx ethiopian_building_gfx sahelian_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "pagan_gfx" }
+	}
+
+
+  # British Building Graphics
+   # Generic British
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_generic_01_mesh"
+		illustration = @illustration_british_generic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { british_building_gfx }
+		graphical_regions = { graphical_western }
+	}
+
+   # Catholic British
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_christian_01_mesh"
+		illustration = @illustration_british_christian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { british_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "catholic_gfx" }
+	}
+
+   # Orthodox British
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_orthodox_01_mesh"
+		illustration = @illustration_british_orthodox
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { british_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "orthodox_gfx" }
+	}
+
+   # Islamic British
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_islamic_01_mesh"
+		illustration = @illustration_british_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { british_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "islamic_gfx" }
+	}
+
+   # Judaism British
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_generic_01_mesh"
+		illustration = @illustration_british_jewish
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { british_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "judaism_gfx" }
+	}
+
+   # Zoroastrian British
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_generic_01_mesh"
+		illustration = @illustration_british_zoroastrian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { british_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "zoroastrian_gfx" }
+	}
+
+   # Dharmic British
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_dharmic_01_mesh"
+		illustration = @illustration_british_dharmic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { british_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "dharmic_gfx" }
+	}
+
+   # Sinitic British
+	asset = {
+		type = pdxmesh
+		name = "tgp_building_chinese_temple_01_mesh"
+		illustration = @illustration_chinese
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/chinese_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { british_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "sinitic_gfx" }
+	}
+
+   # Shinto British
+	asset = {
+		type = pdxmesh
+		name = "tgp_building_japanese_temple_01_mesh"
+		illustration = @illustration_shinto
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/japanese_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { british_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "shinto_gfx" }
+	}
+
+   # Tengrism British
+	asset = {
+		type = entity
+		name = "mpo_mongol_temple_01_entity"
+		illustration = @illustration_tengri
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { british_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "tengrism_gfx" }
+	}
+
+   # Pagan British
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_pagan_01_mesh"
+		illustration = @illustration_british_pagan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { british_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "pagan_gfx" }
+	}
+
+
+  # German Building Graphics
+   # Generic German
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_generic_01_mesh"
+		illustration = @illustration_german_generic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { german_building_gfx }
+		graphical_regions = { graphical_western }
+	}
+
+   # Catholic German
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_christian_01_mesh"
+		illustration = @illustration_german_christian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { german_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "catholic_gfx" }
+	}
+
+   # Orthodox German
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_orthodox_01_mesh"
+		illustration = @illustration_german_orthodox
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { german_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "orthodox_gfx" }
+	}
+
+   # Islamic German
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_islamic_01_mesh"
+		illustration = @illustration_german_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { german_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "islamic_gfx" }
+	}
+
+   # Judaism German
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_generic_01_mesh"
+		illustration = @illustration_german_jewish
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { german_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "judaism_gfx" }
+	}
+
+   # Zoroastrian German
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_generic_01_mesh"
+		illustration = @illustration_german_zoroastrian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { german_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "zoroastrian_gfx" }
+	}
+
+   # Dharmic German
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_dharmic_01_mesh"
+		illustration = @illustration_german_dharmic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { german_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "dharmic_gfx" }
+	}
+
+   # Sinitic German
+	asset = {
+		type = pdxmesh
+		name = "tgp_building_chinese_temple_01_mesh"
+		illustration = @illustration_chinese
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/chinese_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { german_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "sinitic_gfx" }
+	}
+
+   # Shinto German
+	asset = {
+		type = pdxmesh
+		name = "tgp_building_japanese_temple_01_mesh"
+		illustration = @illustration_shinto
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/japanese_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { german_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "shinto_gfx" }
+	}
+
+   # Tengrism German
+	asset = {
+		type = entity
+		name = "mpo_mongol_temple_01_entity"
+		illustration = @illustration_tengri
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { german_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "tengrism_gfx" }
+	}
+
+   # Pagan German
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_pagan_01_mesh"
+		illustration = @illustration_german_pagan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { german_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "pagan_gfx" }
+	}
+
+
+  # Goidelic Building Graphics
+   # Generic Goidelic
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_generic_01_mesh"
+		illustration = @illustration_goidelic_generic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { goidelic_building_gfx celtic_building_gfx }
+		graphical_regions = { graphical_western }
+	}
+
+   # Catholic Goidelic
+	asset = {
+		type = pdxmesh
+		name = "celtic_temple_christian_01_a_mesh"
+		illustration = @illustration_goidelic_christian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { goidelic_building_gfx celtic_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "catholic_gfx" }
+	}
+
+   # Orthodox Goidelic
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_orthodox_01_mesh"
+		illustration = @illustration_goidelic_orthodox
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { goidelic_building_gfx celtic_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "orthodox_gfx" }
+	}
+
+   # Islamic Goidelic
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_islamic_01_mesh"
+		illustration = @illustration_goidelic_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { goidelic_building_gfx celtic_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "islamic_gfx" }
+	}
+
+   # Judaism Goidelic
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_generic_01_mesh"
+		illustration = @illustration_goidelic_jewish
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { goidelic_building_gfx celtic_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "judaism_gfx" }
+	}
+
+   # Zoroastrian Goidelic
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_generic_01_mesh"
+		illustration = @illustration_goidelic_zoroastrian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { goidelic_building_gfx celtic_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "zoroastrian_gfx" }
+	}
+
+   # Dharmic Goidelic
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_dharmic_01_mesh"
+		illustration = @illustration_goidelic_dharmic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { goidelic_building_gfx celtic_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "dharmic_gfx" }
+	}
+
+   # Sinitic Goidelic
+	asset = {
+		type = pdxmesh
+		name = "tgp_building_chinese_temple_01_mesh"
+		illustration = @illustration_chinese
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/chinese_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { goidelic_building_gfx celtic_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "sinitic_gfx" }
+	}
+
+   # Shinto Goidelic
+	asset = {
+		type = pdxmesh
+		name = "tgp_building_japanese_temple_01_mesh"
+		illustration = @illustration_shinto
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/japanese_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { goidelic_building_gfx celtic_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "shinto_gfx" }
+	}
+
+   # Tengrism Goidelic
+	asset = {
+		type = entity
+		name = "mpo_mongol_temple_01_entity"
+		illustration = @illustration_tengri
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { goidelic_building_gfx celtic_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "tengrism_gfx" }
+	}
+
+   # Pagan Goidelic
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_pagan_01_mesh"
+		illustration = @illustration_goidelic_pagan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { goidelic_building_gfx celtic_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "pagan_gfx" }
+	}
+
+  # Scandinavian Building Graphics
+   # Generic Scandinavian
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_generic_01_mesh"
+		illustration = @illustration_scandinavian_generic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { scandinavian_building_gfx }
+		graphical_regions = { graphical_western }
+	}
+
+   # Catholic Scandinavian
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_christian_01_mesh"
+		illustration = @illustration_scandinavian_christian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { scandinavian_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "catholic_gfx" }
+	}
+
+   # Orthodox Scandinavian
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_orthodox_01_mesh"
+		illustration = @illustration_scandinavian_orthodox
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { scandinavian_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "orthodox_gfx" }
+	}
+
+   # Islamic Scandinavian
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_islamic_01_mesh"
+		illustration = @illustration_scandinavian_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { scandinavian_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "islamic_gfx" }
+	}
+
+   # Judaism Scandinavian
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_generic_01_mesh"
+		illustration = @illustration_scandinavian_jewish
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { scandinavian_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "judaism_gfx" }
+	}
+
+   # Zoroastrian Scandinavian
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_generic_01_mesh"
+		illustration = @illustration_scandinavian_zoroastrian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { scandinavian_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "zoroastrian_gfx" }
+	}
+
+   # Dharmic Scandinavian
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_dharmic_01_mesh"
+		illustration = @illustration_scandinavian_dharmic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { scandinavian_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "dharmic_gfx" }
+	}
+
+   # Sinitic Scandinavian
+	asset = {
+		type = pdxmesh
+		name = "tgp_building_chinese_temple_01_mesh"
+		illustration = @illustration_chinese
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/chinese_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { scandinavian_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "sinitic_gfx" }
+	}
+
+   # Shinto Scandinavian
+	asset = {
+		type = pdxmesh
+		name = "tgp_building_japanese_temple_01_mesh"
+		illustration = @illustration_shinto
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/japanese_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { scandinavian_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "shinto_gfx" }
+	}
+
+   # Tengrism Scandinavian
+	asset = {
+		type = entity
+		name = "mpo_mongol_temple_01_entity"
+		illustration = @illustration_tengri
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { scandinavian_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "tengrism_gfx" }
+	}
+
+   # Pagan Scandinavian
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_pagan_01_mesh"
+		illustration = @illustration_scandinavian_pagan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { scandinavian_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "pagan_gfx" }
+	}
+
+  # Saxon Building Graphics
+   # Generic Saxon
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_generic_01_mesh"
+		illustration = @illustration_saxon_generic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { saxon_building_gfx }
+		graphical_regions = { graphical_western }
+	}
+
+   # Catholic Saxon
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_christian_01_mesh"
+		illustration = @illustration_saxon_christian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { saxon_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "catholic_gfx" }
+	}
+
+   # Orthodox Saxon
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_orthodox_01_mesh"
+		illustration = @illustration_saxon_orthodox
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { saxon_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "orthodox_gfx" }
+	}
+
+   # Islamic Saxon
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_islamic_01_mesh"
+		illustration = @illustration_saxon_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { saxon_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "islamic_gfx" }
+	}
+
+   # Judaism Saxon
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_generic_01_mesh"
+		illustration = @illustration_saxon_jewish
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { saxon_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "judaism_gfx" }
+	}
+
+   # Zoroastrian Saxon
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_generic_01_mesh"
+		illustration = @illustration_saxon_zoroastrian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { saxon_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "zoroastrian_gfx" }
+	}
+
+   # Dharmic Saxon
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_dharmic_01_mesh"
+		illustration = @illustration_saxon_dharmic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { saxon_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "dharmic_gfx" }
+	}
+
+   # Sinitic Saxon
+	asset = {
+		type = pdxmesh
+		name = "tgp_building_chinese_temple_01_mesh"
+		illustration = @illustration_chinese
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/chinese_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { saxon_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "sinitic_gfx" }
+	}
+
+   # Shinto Saxon
+	asset = {
+		type = pdxmesh
+		name = "tgp_building_japanese_temple_01_mesh"
+		illustration = @illustration_shinto
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/japanese_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { saxon_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "shinto_gfx" }
+	}
+
+   # Tengrism Saxon
+	asset = {
+		type = entity
+		name = "mpo_mongol_temple_01_entity"
+		illustration = @illustration_tengri
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { saxon_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "tengrism_gfx" }
+	}
+
+   # Pagan Saxon
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_pagan_01_mesh"
+		illustration = @illustration_saxon_pagan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { saxon_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "pagan_gfx" }
+	}
+
+  # Norse Building Graphics
+   # Generic Norse
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_pagan_01_mesh"
+		illustration = @illustration_norse_generic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { norse_building_gfx }
+		graphical_regions = { graphical_western }
+	}
+
+   # Catholic Norse
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_christian_01_mesh"
+		illustration = @illustration_norse_christian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { norse_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "catholic_gfx" }
+	}
+
+   # Orthodox Norse
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_pagan_01_mesh"
+		illustration = @illustration_norse_orthodox
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { norse_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "orthodox_gfx" }
+	}
+
+   # Islamic Norse
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_pagan_01_mesh"
+		illustration = @illustration_norse_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { norse_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "islamic_gfx" }
+	}
+
+   # Judaism Norse
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_pagan_01_mesh"
+		illustration = @illustration_norse_jewish
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { norse_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "judaism_gfx" }
+	}
+
+   # Zoroastrian Norse
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_pagan_01_mesh"
+		illustration = @illustration_norse_zoroastrian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { norse_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "zoroastrian_gfx" }
+	}
+
+   # Dharmic Norse
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_pagan_01_mesh"
+		illustration = @illustration_norse_dharmic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { norse_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "dharmic_gfx" }
+	}
+
+   # Sinitic Norse
+	asset = {
+		type = pdxmesh
+		name = "tgp_building_chinese_temple_01_mesh"
+		illustration = @illustration_chinese
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/chinese_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { norse_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "sinitic_gfx" }
+	}
+
+   # Shinto Norse
+	asset = {
+		type = pdxmesh
+		name = "tgp_building_japanese_temple_01_mesh"
+		illustration = @illustration_shinto
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/japanese_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { norse_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "shinto_gfx" }
+	}
+
+   # Tengrism Norse
+	asset = {
+		type = entity
+		name = "mpo_mongol_temple_01_entity"
+		illustration = @illustration_tengri
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { norse_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "tengrism_gfx" }
+	}
+
+   # Pagan Norse
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_pagan_01_mesh"
+		illustration = @illustration_norse_pagan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { norse_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "pagan_gfx" }
+	}
+
+
+  # South Slavic Building Graphics
+   # Generic Southslavic
+	asset = {
+		type = pdxmesh
+		name = "cp6_building_caucasian_temple_orthodox_01_mesh"
+		illustration = @illustration_southslavic_generic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { southslavic_building_gfx croatian_building_gfx mediterranean_building_gfx byzantine_building_gfx turkish_building_gfx caucasian_building_gfx }
+		graphical_regions = { graphical_western }
+	}
+
+   # Catholic Southslavic
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_christian_01_mesh"
+		illustration = @illustration_southslavic_christian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { southslavic_building_gfx croatian_building_gfx mediterranean_building_gfx byzantine_building_gfx turkish_building_gfx caucasian_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "catholic_gfx" }
+	}
+
+   # Orthodox Southslavic
+	asset = {
+		type = pdxmesh
+		name = "cp6_building_caucasian_temple_orthodox_01_mesh"
+		illustration = @illustration_southslavic_orthodox
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { southslavic_building_gfx croatian_building_gfx mediterranean_building_gfx byzantine_building_gfx turkish_building_gfx caucasian_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "orthodox_gfx" }
+	}
+
+   # Islamic Southslavic
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_islamic_01_mesh"
+		illustration = @illustration_southslavic_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { southslavic_building_gfx croatian_building_gfx mediterranean_building_gfx byzantine_building_gfx turkish_building_gfx caucasian_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "islamic_gfx" }
+	}
+
+   # Judaism Southslavic
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_generic_01_mesh"
+		illustration = @illustration_southslavic_jewish
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { southslavic_building_gfx croatian_building_gfx mediterranean_building_gfx byzantine_building_gfx turkish_building_gfx caucasian_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "judaism_gfx" }
+	}
+
+   # Zoroastrian Southslavic
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_generic_01_mesh"
+		illustration = @illustration_southslavic_zoroastrian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { southslavic_building_gfx croatian_building_gfx mediterranean_building_gfx byzantine_building_gfx turkish_building_gfx caucasian_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "zoroastrian_gfx" }
+	}
+
+   # Dharmic Southslavic
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_dharmic_01_mesh"
+		illustration = @illustration_southslavic_dharmic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { southslavic_building_gfx croatian_building_gfx mediterranean_building_gfx byzantine_building_gfx turkish_building_gfx caucasian_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "dharmic_gfx" }
+	}
+
+   # Sinitic Southslavic
+	asset = {
+		type = pdxmesh
+		name = "tgp_building_chinese_temple_01_mesh"
+		illustration = @illustration_chinese
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/chinese_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { southslavic_building_gfx croatian_building_gfx mediterranean_building_gfx byzantine_building_gfx turkish_building_gfx caucasian_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "sinitic_gfx" }
+	}
+
+   # Shinto Southslavic
+	asset = {
+		type = pdxmesh
+		name = "tgp_building_japanese_temple_01_mesh"
+		illustration = @illustration_shinto
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/japanese_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { southslavic_building_gfx croatian_building_gfx mediterranean_building_gfx byzantine_building_gfx turkish_building_gfx caucasian_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "shinto_gfx" }
+	}
+
+   # Tengrism Southslavic
+	asset = {
+		type = entity
+		name = "mpo_mongol_temple_01_entity"
+		illustration = @illustration_tengri
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { southslavic_building_gfx croatian_building_gfx mediterranean_building_gfx byzantine_building_gfx turkish_building_gfx caucasian_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "tengrism_gfx" }
+	}
+
+   # Pagan Southslavic
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_pagan_01_a_mesh"
+		illustration = @illustration_southslavic_pagan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { southslavic_building_gfx croatian_building_gfx mediterranean_building_gfx byzantine_building_gfx turkish_building_gfx caucasian_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "pagan_gfx" }
+	}
+
+  # Magyar Building Graphics
+   # Generic Magyar
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_generic_01_mesh"
+		illustration = @illustration_magyar_generic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { magyar_building_gfx vlach_building_gfx }
+		graphical_regions = { graphical_western }
+	}
+
+   # Catholic Magyar
+	asset = {
+		type = pdxmesh
+		name = "magyar_temple_christian_01_mesh"
+		illustration = @illustration_magyar_christian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { magyar_building_gfx vlach_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "catholic_gfx" }
+	}
+
+   # Orthodox Magyar
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_orthodox_01_mesh"
+		illustration = @illustration_magyar_orthodox
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { magyar_building_gfx vlach_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "orthodox_gfx" }
+	}
+
+   # Islamic Magyar
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_islamic_01_mesh"
+		illustration = @illustration_magyar_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { magyar_building_gfx vlach_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "islamic_gfx" }
+	}
+
+   # Judaism Magyar
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_generic_01_mesh"
+		illustration = @illustration_magyar_jewish
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { magyar_building_gfx vlach_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "judaism_gfx" }
+	}
+
+   # Zoroastrian Magyar
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_generic_01_mesh"
+		illustration = @illustration_magyar_zoroastrian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { magyar_building_gfx vlach_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "zoroastrian_gfx" }
+	}
+
+   # Dharmic Magyar
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_dharmic_01_mesh"
+		illustration = @illustration_magyar_dharmic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { magyar_building_gfx vlach_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "dharmic_gfx" }
+	}
+
+   # Sinitic Magyar
+	asset = {
+		type = pdxmesh
+		name = "tgp_building_chinese_temple_01_mesh"
+		illustration = @illustration_chinese
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/chinese_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { magyar_building_gfx vlach_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "sinitic_gfx" }
+	}
+
+   # Shinto Magyar
+	asset = {
+		type = pdxmesh
+		name = "tgp_building_japanese_temple_01_mesh"
+		illustration = @illustration_shinto
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/japanese_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { magyar_building_gfx vlach_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "shinto_gfx" }
+	}
+
+   # Tengrism Magyar
+	asset = {
+		type = entity
+		name = "mpo_mongol_temple_01_entity"
+		illustration = @illustration_tengri
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { magyar_building_gfx vlach_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "tengrism_gfx" }
+	}
+
+   # Pagan Magyar
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_pagan_01_mesh"
+		illustration = @illustration_magyar_pagan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { magyar_building_gfx vlach_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "pagan_gfx" }
+	}
+
+  # East Slavic Building Graphics
+   # Generic Slavic
+	asset = {
+		type = pdxmesh
+		name = "slavic_temple_01_orthodox_mesh"
+		illustration = @illustration_slavic_generic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { slavic_building_gfx east_slavic_building_gfx tundra_building_gfx steppe_building_gfx }
+		graphical_regions = { graphical_western }
+	}
+
+   # Catholic Slavic
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_christian_01_mesh"
+		illustration = @illustration_slavic_christian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { slavic_building_gfx east_slavic_building_gfx tundra_building_gfx steppe_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "catholic_gfx" }
+	}
+
+   # Orthodox Slavic
+	asset = {
+		type = pdxmesh
+		name = "slavic_temple_01_orthodox_mesh"
+		illustration = @illustration_slavic_orthodox
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { slavic_building_gfx east_slavic_building_gfx tundra_building_gfx steppe_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "orthodox_gfx" }
+	}
+
+   # Islamic Slavic
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_islamic_01_mesh"
+		illustration = @illustration_slavic_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { slavic_building_gfx east_slavic_building_gfx tundra_building_gfx steppe_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "islamic_gfx" }
+	}
+
+   # Judaism Slavic
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_pagan_01_mesh"
+		illustration = @illustration_slavic_jewish
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { slavic_building_gfx east_slavic_building_gfx tundra_building_gfx steppe_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "judaism_gfx" }
+	}
+
+   # Zoroastrian Slavic
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_pagan_01_mesh"
+		illustration = @illustration_slavic_zoroastrian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { slavic_building_gfx east_slavic_building_gfx tundra_building_gfx steppe_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "zoroastrian_gfx" }
+	}
+
+   # Dharmic Slavic
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_pagan_01_mesh"
+		illustration = @illustration_slavic_dharmic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { slavic_building_gfx east_slavic_building_gfx tundra_building_gfx steppe_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "dharmic_gfx" }
+	}
+
+   # Sinitic Slavic
+	asset = {
+		type = pdxmesh
+		name = "tgp_building_chinese_temple_01_mesh"
+		illustration = @illustration_chinese
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/chinese_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { slavic_building_gfx east_slavic_building_gfx tundra_building_gfx steppe_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "sinitic_gfx" }
+	}
+
+   # Shinto Slavic
+	asset = {
+		type = pdxmesh
+		name = "tgp_building_japanese_temple_01_mesh"
+		illustration = @illustration_shinto
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/japanese_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { slavic_building_gfx east_slavic_building_gfx tundra_building_gfx steppe_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "shinto_gfx" }
+	}
+
+   # Tengrism Slavic
+	asset = {
+		type = entity
+		name = "mpo_mongol_temple_01_entity"
+		illustration = @illustration_tengri
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { slavic_building_gfx east_slavic_building_gfx tundra_building_gfx steppe_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "tengrism_gfx" }
+	}
+
+   # Pagan Slavic
+	asset = {
+		type = pdxmesh
+		name = "building_western_temple_pagan_01_mesh"
+		illustration = @illustration_slavic_pagan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { slavic_building_gfx east_slavic_building_gfx tundra_building_gfx steppe_building_gfx }
+		graphical_regions = { graphical_western }
+		graphical_faiths = { "pagan_gfx" }
+	}
+}
