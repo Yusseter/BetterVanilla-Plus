@@ -197,7 +197,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear_2
 				template = cfp_latin_nobility
-				range = { 0 1 }
+				range = { 0 0.32 }
 			}
 			accessory = {
 			    mode = add
@@ -223,8 +223,8 @@ cfp_headgear_base = {
 			accessory = {
 				mode = add
 				gene = headgear_2
-				template = cfp_latin_high_nobility
-				range = { 0 1 }
+				template = cfp_latin_nobility
+				range = { 0.34 1 }
 			}
 			accessory = {
 			    mode = add
@@ -236,7 +236,7 @@ cfp_headgear_base = {
                 mode = add
                 gene = additive_headgear
                 template = no_additive
-                range = { 0 1 }
+                value = 0
             }
 		}
 		weight = {
@@ -952,7 +952,7 @@ cfp_headgear_base = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 60
+				add = 15
 				OR = {
 					portrait_imperial_trigger = {
 						CULTURE_INPUT = epe_western_turk # Yusseter: cfp_turkic
@@ -1085,7 +1085,7 @@ cfp_headgear_base = {
 				is_female = yes				
 			}
 			modifier = {
-				add = 25 #Slightly Higher
+				add = 15 #Slightly Higher
                 portrait_imperial_trigger = {
                     CULTURE_INPUT = epe_eastern_turk
                 }
@@ -1100,6 +1100,11 @@ cfp_headgear_base = {
                     }
 				}				
 				# Yusseter 0
+				NOT = {
+					portrait_imperial_trigger = {
+					CULTURE_INPUT = epe_uyghur_headgear
+					}
+				}
 				NOT = {
 					OR = {
 						portrait_era2_trigger = yes
@@ -1140,6 +1145,14 @@ cfp_headgear_base = {
 				}
 				portrait_era1_trigger = yes
 			}
+			modifier = { # Yusseter
+				add = 15
+				portrait_royalty_trigger = { CULTURE_INPUT = epe_western_turk }
+			}
+			modifier = { # Yusseter
+				add = 15
+				portrait_imperial_trigger = { CULTURE_INPUT = epe_western_turk }
+			}
 		}
 	}
 
@@ -1148,12 +1161,9 @@ cfp_headgear_base = {
 			accessory = {
 				mode = add
 				gene = headgear
-				# Yusseter 0
-				template = uyghur_royalty
-				range = { 0 1 }
-				#template = tgp_uyghur_headgear
+				template = tgp_uyghur_headgear
+				range = { 0.60 0.80 } # Yusseter
 				#range = { 0.15 0.16 } # For the randomness to work correctly
-				# Yusseter 1
 			}
 			accessory = {
 				mode = add
@@ -1193,8 +1203,8 @@ cfp_headgear_base = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = uyghurized_royalty
-				range = { 0 1 }
+				template = uyghurized_headgear
+				range = { 0.66 1.00 }
 			}
 		}
 		weight = {
@@ -1202,16 +1212,12 @@ cfp_headgear_base = {
 			modifier = {
 				add = 51
 				portrait_epe_uyghur_headgear_clothing_trigger = no
-				portrait_royalty_trigger = {
-					CULTURE_INPUT = epe_uyghur
-				}
+				portrait_royalty_trigger = { CULTURE_INPUT = epe_uyghur }
 			}
 			modifier = {
 				add = 100
 				portrait_epe_uyghur_headgear_clothing_trigger = no
-				portrait_imperial_trigger = {
-					CULTURE_INPUT = epe_uyghur
-				}
+				portrait_imperial_trigger = { CULTURE_INPUT = epe_uyghur }
 			}
 		}
 	}
@@ -1221,12 +1227,9 @@ cfp_headgear_base = {
 			accessory = {
 				mode = add
 				gene = headgear
-				# Yusseter 0
-				template = eastern_turk_royalty
-				range = { 0 1 }
-				#template = fp3_turkic_royalty
-				#range = { 0 0.21 } # For the randomness to work correctly
-				# Yusseter 1
+				template = eastern_turkic_headgear
+				range = { 0.60 0.80 } # Yusseter
+				#range = { 0.62 0.78 } # For the randomness to work correctly
 			}
 			accessory = {
 				mode = add
@@ -1298,12 +1301,9 @@ cfp_headgear_base = {
 			accessory = {
 				mode = add
 				gene = headgear
-				# Yusseter 0
-				template = eastern_turk_imperial
-				range = { 0 1 }
-				#template = fp3_turkic_imperial
-				#range = { 0 0.20 } # For the randomness to work correctly
-				# Yusseter 1
+				template = eastern_turkic_headgear
+				range = { 0.80 1.00 } # Yusseter
+				#range = { 0.81 0.90 } # For the randomness to work correctly
 			}
 			accessory = {
 				mode = add
@@ -1380,10 +1380,10 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				# Yusseter 0
-				template = western_turk_early_common
-				range = { 0 1 }
-				#template = fp3_turkic_common
-				#range = { 0.51 0.67 } # For the randomness to work correctly
+				template = eastern_turkic_headgear
+				range = { 0.00 0.20 }
+				#template = western_turkic_headgear
+				#range = { 0 0.06 } # For the randomness to work correctly
 				# Yusseter 1
 			}
 			accessory = {
@@ -1400,67 +1400,17 @@ cfp_headgear_base = {
                 portrait_commoner_headgear_fallback_trigger = {
                     CULTURE_INPUT = epe_western_turk
                 }				
-				OR = { # Yusseter
-					portrait_era1_trigger = yes
-					portrait_era2_trigger = yes
-                }
+				portrait_era1_trigger = yes # Yusseter
 			}
 			modifier = {
 				add = 20
                 portrait_commoner_clothing_trigger = {
                     CULTURE_INPUT = epe_western_turk
                 }			
-				OR = { # Yusseter
-					portrait_era1_trigger = yes
-					portrait_era2_trigger = yes
-                }
+				portrait_era1_trigger = yes # Yusseter
 			}
 		}
 	}
-	
-	western_turk_commoners_late = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				# Yusseter 0
-				template = western_turk_late_common
-				range = { 0 1 }
-				#template = fp3_turkic_common
-				#range = { 0.71 1 } # For the randomness to work correctly
-				# Yusseter 1
-			}
-			accessory = {
-				mode = add
-				gene = headgear_2
-				template = no_headgear
-				range = { 0 1 }
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 80
-                portrait_commoner_headgear_fallback_trigger = {
-                    CULTURE_INPUT = epe_western_turk
-                }
-                OR = {				
-					portrait_era3_trigger = yes  
-					portrait_era4_trigger = yes  
-                }				
-			}
-			modifier = {
-				add = 20
-                portrait_commoner_clothing_trigger = {
-                    CULTURE_INPUT = epe_western_turk
-                }
-                OR = {				
-					portrait_era3_trigger = yes  
-					portrait_era4_trigger = yes  
-                }				
-			}
-		}
-	}	
 
 	western_turk_low_nobles_early = {
 		dna_modifiers = {
@@ -1468,10 +1418,10 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				# Yusseter 0
-				template = western_turk_early_low_nobility
-				range = { 0 1 }
-				#template = fp3_turkic_low_nobility
-				#range = { 0.49 0.65 } # For the randomness to work correctly
+				template = eastern_turkic_headgear
+				range = { 0.20 0.40 }
+				#template = western_turkic_headgear
+				#range = { 0.07 0.16 } # For the randomness to work correctly
 				# Yusseter 1
 			}
 			accessory = {
@@ -1489,10 +1439,7 @@ cfp_headgear_base = {
                 portrait_low_nobles_clothing_trigger = {  
                     CULTURE_INPUT = epe_western_turk 
                 }			
-				OR = { # Yusseter
-					portrait_era1_trigger = yes
-					portrait_era2_trigger = yes
-                }
+				portrait_era1_trigger = yes # Yusseter
 			}
 			modifier = {
 				add = 50
@@ -1500,70 +1447,19 @@ cfp_headgear_base = {
                     CULTURE_INPUT = epe_western_turk 
                 }
 				is_female = yes				
-				OR = { # Yusseter
-					portrait_era1_trigger = yes
-					portrait_era2_trigger = yes
-                }
+				portrait_era1_trigger = yes # Yusseter
 			}
 		}
 	}
-	western_turk_low_nobles_late = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				# Yusseter 0
-				template = western_turk_late_low_nobility
-				range = { 0 1 }
-				#template = fp3_turkic_low_nobility
-				#range = { 0.67 1 } # For the randomness to work correctly
-				# Yusseter 1
-			}
-			accessory = {
-				mode = add
-				gene = headgear_2
-				template = no_headgear
-				range = { 0 1 }
-			}
-		}
-		weight = {
-			base = 0
-			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = epe_western_turk } 
-			modifier = {
-				add = 50
-                portrait_low_nobles_clothing_trigger = {  
-                    CULTURE_INPUT = epe_western_turk 
-                }
-                OR = {				
-					portrait_era3_trigger = yes  
-					portrait_era4_trigger = yes  
-                }				
-			}
-			modifier = {
-				add = 50
-                portrait_low_nobles_clothing_trigger = {  
-                    CULTURE_INPUT = epe_western_turk 
-                }
-                OR = {				
-					portrait_era3_trigger = yes  
-					portrait_era4_trigger = yes  
-                }				
-				is_female = yes				
-			}
-		}
-	}	
 
 	western_turk_high_nobles_early = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = headgear
-				# Yusseter 0
-				template = western_turk_early_high_nobility
-				range = { 0 1 }
-				#template = fp3_turkic_high_nobility
-				#range = { 0.49 0.60 } # For the randomness to work correctly
-				# Yusseter 1
+				template = eastern_turkic_headgear
+				range = { 0.50 0.60 } # Yusseter
+				#range = { 0.48 0.59 } # For the randomness to work correctly
 			}
 			accessory = {
 				mode = add
@@ -1579,10 +1475,7 @@ cfp_headgear_base = {
                 portrait_high_nobles_headgear_trigger = {
                     CULTURE_INPUT = epe_western_turk
                 }	
-				OR = { # Yusseter
-					portrait_era1_trigger = yes
-					portrait_era2_trigger = yes
-                }
+				portrait_era1_trigger = yes # Yusseter
 			}
 			modifier = {
 				add = 51 #Slightly Higher
@@ -1590,70 +1483,19 @@ cfp_headgear_base = {
                     CULTURE_INPUT = epe_western_turk
                 }
 				is_female = yes				
-				OR = { # Yusseter
-					portrait_era1_trigger = yes
-					portrait_era2_trigger = yes
-                }
+				portrait_era1_trigger = yes # Yusseter
 			}
 		}
 	}
-	
-	western_turk_high_nobles_late = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				# Yusseter 0
-				template = western_turk_late_high_nobility
-				range = { 0 1 }
-				#template = fp3_turkic_high_nobility
-				#range = { 0.63 1 } # For the randomness to work correctly
-				# Yusseter 1
-			}
-			accessory = {
-				mode = add
-				gene = headgear_2
-				template = no_headgear
-				range = { 0 1 }
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 51 #Slightly Higher
-                portrait_high_nobles_headgear_trigger = {
-                    CULTURE_INPUT = epe_western_turk
-                }
-                OR = {				
-					portrait_era3_trigger = yes  
-					portrait_era4_trigger = yes  
-                }				
-			}
-			modifier = {
-				add = 51 #Slightly Higher
-                portrait_high_nobles_headgear_trigger = {
-                    CULTURE_INPUT = epe_western_turk
-                }
-				is_female = yes	
-                OR = {				
-					portrait_era3_trigger = yes  
-					portrait_era4_trigger = yes  
-                }				
-			}
-		}
-	}	
 
 	western_turk_royalty = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = headgear
-				# Yusseter 0
-				template = western_turk_royalty
-				range = { 0 1 }
-				#template = fp3_turkic_royalty
-				#range = { 0.51 0.73 } # For the randomness to work correctly
-				# Yusseter 1
+				template = western_turkic_headgear
+				range = { 0.60 0.80 } # Yusseter
+				#range = { 0.23 0.28 } # For the randomness to work correctly
 			}
 			accessory = {
 				mode = add
@@ -1665,13 +1507,13 @@ cfp_headgear_base = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 51 #Slightly Higher
+				add = 26 #Slightly Higher
                 portrait_royalty_trigger = {
                     CULTURE_INPUT = epe_western_turk
                 }			
 			}
 			modifier = {
-				add = 51 #Slightly Higher
+				add = 26 #Slightly Higher
                 portrait_royalty_trigger = {
                     CULTURE_INPUT = epe_western_turk
                 }	
@@ -1685,12 +1527,9 @@ cfp_headgear_base = {
 			accessory = {
 				mode = add
 				gene = headgear
-				# Yusseter 0
-				template = western_turk_imperial
-				range = { 0 1 }
-				#template = fp3_turkic_imperial
-				#range = { 0.51 0.69 } # For the randomness to work correctly
-				# Yusseter 1
+				template = western_turkic_headgear
+				range = { 0.80 1.00 } # Yusseter
+				#range = { 0.30 0.33 } # For the randomness to work correctly
 			}
 			accessory = {
 				mode = add
@@ -1702,13 +1541,13 @@ cfp_headgear_base = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 100 # Should be picked over other ranked headgear
+				add = 51 # Should be picked over other ranked headgear
 				portrait_imperial_trigger = {
                     CULTURE_INPUT = epe_western_turk 
                 }				
 			}
 			modifier = {
-				add = 100 # Should be picked over other ranked headgear
+				add = 51 # Should be picked over other ranked headgear
 				portrait_imperial_trigger = {
                     CULTURE_INPUT = epe_western_turk 
                 } 	
@@ -1716,6 +1555,138 @@ cfp_headgear_base = {
 			}
 		}
 	}
+	
+	western_turk_commoners_late = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = western_turkic_headgear
+				range = { 0.00 0.20 } # Yusseter
+				#range = { 0.36 0.48 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 80
+                portrait_commoner_headgear_fallback_trigger = {
+                    CULTURE_INPUT = epe_western_turk
+                }
+                OR = {				
+					portrait_era2_trigger = yes # Yusseter
+					portrait_era3_trigger = yes  
+					portrait_era4_trigger = yes  
+                }				
+			}
+			modifier = {
+				add = 20
+                portrait_commoner_clothing_trigger = {
+                    CULTURE_INPUT = epe_western_turk
+                }
+                OR = {				
+					portrait_era2_trigger = yes # Yusseter
+					portrait_era3_trigger = yes  
+					portrait_era4_trigger = yes  
+                }				
+			}
+		}
+	}	
+	
+	western_turk_low_nobles_late = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = western_turkic_headgear
+				range = { 0.20 0.40 } # Yusseter
+				#range = { 0.50 0.71 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = epe_western_turk } 
+			modifier = {
+				add = 50
+                portrait_low_nobles_clothing_trigger = {  
+                    CULTURE_INPUT = epe_western_turk 
+                }
+                OR = {				
+					portrait_era2_trigger = yes # Yusseter
+					portrait_era3_trigger = yes  
+					portrait_era4_trigger = yes  
+                }				
+			}
+			modifier = {
+				add = 50
+                portrait_low_nobles_clothing_trigger = {  
+                    CULTURE_INPUT = epe_western_turk 
+                }
+                OR = {				
+					portrait_era2_trigger = yes # Yusseter
+					portrait_era3_trigger = yes  
+					portrait_era4_trigger = yes  
+                }				
+				is_female = yes				
+			}
+		}
+	}	
+	
+	western_turk_high_nobles_late = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = western_turkic_headgear
+				range = { 0.40 0.60 } # Yusseter
+				#range = { 0.71 0.83 } # For the randomness to work correctly
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 51 #Slightly Higher
+                portrait_high_nobles_headgear_trigger = {
+                    CULTURE_INPUT = epe_western_turk
+                }
+                OR = {				
+					portrait_era2_trigger = yes # Yusseter
+					portrait_era3_trigger = yes  
+					portrait_era4_trigger = yes  
+                }				
+			}
+			modifier = {
+				add = 51 #Slightly Higher
+                portrait_high_nobles_headgear_trigger = {
+                    CULTURE_INPUT = epe_western_turk
+                }
+				is_female = yes	
+                OR = {				
+					portrait_era2_trigger = yes # Yusseter
+					portrait_era3_trigger = yes  
+					portrait_era4_trigger = yes  
+                }				
+			}
+		}
+	}	
 
 	yb_roman_imperial = {
 		dna_modifiers = {
@@ -1736,7 +1707,7 @@ cfp_headgear_base = {
 			base = 0
 			modifier = {
 				add = 1
-				portrait_epe_roman_clothing_trigger = yes
+				portrait_yb_roman_clothing_trigger = yes
 				highest_held_title_tier >= tier_empire
 				portrait_religious_pagan_trigger = yes
 			}
@@ -1848,8 +1819,8 @@ cfp_headgear_base = {
 			accessory = {
 				mode = add
 				gene = headgear_2
-				template = cfp_west_african_low_nobility
-				range = { 0 1 }
+				template = cfp_african_nobility
+				range = { 0 0.32 }
 			}
 			accessory = {
 			    mode = add
@@ -1875,8 +1846,8 @@ cfp_headgear_base = {
 			accessory = {
 				mode = add
 				gene = headgear_2
-				template = cfp_west_african_high_nobility
-				range = { 0 1 }
+				template = cfp_african_nobility
+				range = { 0.33 0.49 }
 			}
 			accessory = {
 			    mode = add
@@ -1901,8 +1872,8 @@ cfp_headgear_base = {
 			accessory = {
 				mode = add
 				gene = headgear_2
-				template = cfp_east_african_common
-				range = { 0 1 }
+				template = cfp_east_african_nobility
+				range = { 0 0.24 }
 			}
 			accessory = {
 			    mode = add
@@ -1939,8 +1910,8 @@ cfp_headgear_base = {
 			accessory = {
 				mode = add
 				gene = headgear_2
-				template = cfp_east_african_low_nobility
-				range = { 0 1 }
+				template = cfp_east_african_nobility
+				range = { 0.25 0.49 }
 			}
 			accessory = {
 			    mode = add
@@ -1966,8 +1937,8 @@ cfp_headgear_base = {
 			accessory = {
 				mode = add
 				gene = headgear_2
-				template = cfp_east_african_high_nobility
-				range = { 0 1 }
+				template = cfp_east_african_nobility
+				range = { 0.51 1 }
 			}
 			accessory = {
 			    mode = add
@@ -2044,8 +2015,8 @@ cfp_headgear_base = {
 			accessory = {
 				mode = add
 				gene = headgear_2
-				template = cfp_central_african_low_nobility
-				range = { 0 1 }
+				template = cfp_african_nobility
+				range = { 0.5 0.83 }
 			}
 			accessory = {
 			    mode = add
@@ -2071,8 +2042,8 @@ cfp_headgear_base = {
 			accessory = {
 				mode = add
 				gene = headgear_2
-				template = cfp_central_african_high_nobility
-				range = { 0 1 }
+				template = cfp_african_nobility
+				range = { 0.84 1 }
 			}
 			accessory = {
 			    mode = add

@@ -2509,7 +2509,7 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-                portrait_epe_uyghur_clothing_trigger = no # Yusseter
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
 				
 				
             }
@@ -2569,7 +2569,7 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-                portrait_epe_uyghur_clothing_trigger = no # Yusseter
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
 
 				
 				
@@ -2627,7 +2627,7 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-                portrait_epe_uyghur_clothing_trigger = no # Yusseter
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
 
 				
 				
@@ -2646,8 +2646,8 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
             accessory = {
                 mode = add
                 gene = clothes
-                template = mpo_mongol_commoner_clothes
-                range = { 0 1 } # For the randomness to work correctly
+                template = mpo_mongol_clothes
+                accessory = m_clothes_sec_mpo_mongol_com_01
             }
         }   
         weight = {
@@ -2679,7 +2679,7 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-                portrait_epe_uyghur_clothing_trigger = no # Yusseter
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
 
 				
 				
@@ -2692,8 +2692,8 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
             accessory = {
                 mode = add
                 gene = clothes
-                template = mpo_mongol_low_nobility_clothes
-                range = { 0 1 } # For the randomness to work correctly
+                template = mpo_mongol_clothes
+                accessory = m_clothes_sec_mpo_mongol_nob_01_lo
             }
         }   
         weight = {
@@ -2725,8 +2725,8 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
 					portrait_low_nobles_clothing_trigger = { 
                     CULTURE_INPUT = epe_seljuk
                     }
-				}			
-                portrait_epe_uyghur_clothing_trigger = no # Yusseter
+				}
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
 
 				
 				
@@ -2739,8 +2739,8 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
             accessory = {
                 mode = add
                 gene = clothes
-                template = mpo_mongol_high_nobility_clothes
-                range = { 0 1 } # For the randomness to work correctly
+                template = mpo_mongol_clothes
+                accessory = m_clothes_sec_mpo_mongol_nob_01_hi
             }
         }       
         weight = {
@@ -2773,11 +2773,7 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-				NOT = { # Yusseter
-					portrait_high_nobles_clothing_trigger = {
-					CULTURE_INPUT = epe_uyghur
-					}
-				}
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
 
 			
 				
@@ -2791,8 +2787,8 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
             accessory = {
                 mode = add
                 gene = clothes
-                template = mpo_mongol_royalty_clothes
-                range = { 0 1 } # For the randomness to work correctly
+                template = mpo_mongol_clothes
+                accessory = m_clothes_sec_mpo_mongol_roy_01
             }
         }       
         weight = {
@@ -2825,7 +2821,7 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
                     }
 				}
 				portrait_epe_uyghur_clothing_trigger = no # Yusseter
-				portrait_epe_khitan_clothing_trigger = no # Yusseter
+				portrait_yb_khitan_clothing_trigger = no # Yusseter
 				
 				
             }
@@ -2837,8 +2833,8 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
             accessory = {
                 mode = add
                 gene = clothes
-                template = mpo_mongol_imperial_clothes
-                range = { 0 1 } # For the randomness to work correctly
+                template = mpo_mongol_clothes
+                accessory = m_clothes_sec_mpo_mongol_imp_01
             }
 			accessory = { # Yusseter
 				mode = add
@@ -2877,17 +2873,17 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
                     }
 				}
 				portrait_epe_uyghur_clothing_trigger = no # Yusseter
-                OR = { # Yusseter
-                    portrait_era3_trigger = yes
-                    portrait_era4_trigger = yes
-                }
+				OR = { # Yusseter
+					portrait_era3_trigger = yes
+					portrait_era4_trigger = yes
+				}
 				
 				
             }
 			modifier = { # Yusseter
 				add = 100
 				portrait_imperial_trigger = {
-					CULTURE_INPUT = epe_khitan
+					CULTURE_INPUT = yb_khitan
 				}
 			}
         }
@@ -3730,8 +3726,8 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
 			accessory = {
 				mode = add
 				gene = clothes
-				template = pol_commoner_clothes
-				range = { 0 1 } # For the randomness to work correctly
+				template = pol_west_slav_clothes
+				range = { 0 0.23 } # For the randomness to work correctly
 			}
 		}
         weight = {
@@ -3754,8 +3750,8 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
 			accessory = {
 				mode = add
 				gene = clothes
-				template = pol_low_nobility_clothes
-				range = { 0 1 } # For the randomness to work correctly
+				template = pol_west_slav_clothes
+				range = { 0.25 0.48 } # For the randomness to work correctly
 			}
 		}
         weight = {
@@ -3784,8 +3780,8 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
 			accessory = {
 				mode = add
 				gene = clothes
-				template = pol_high_nobility_clothes
-				range = { 0 1 } # For the randomness to work correctly
+				template = pol_west_slav_clothes
+				range = { 0.51 0.73 } # For the randomness to work correctly
 			}
 		}
 		weight = {
@@ -3809,8 +3805,8 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
 			accessory = {
 				mode = add
 				gene = clothes
-				template = pol_imperial_clothes
-				range = { 0 1 } # For the randomness to work correctly
+				template = pol_west_slav_clothes
+                accessory = m_clothes_sec_pol_imperial_01	
 			}
 		}
 		weight = {
@@ -3841,8 +3837,8 @@ ccp4_sami_commoners = {
         accessory = {
             mode = add
             gene = clothes
-            template = ccp4_sami_commoner_clothes
-            range = { 0 1 } # For the randomness to work correctly
+            template = ccp4_sami_clothes
+            range = { 0 0.20 } # For the randomness to work correctly
         }
     }
     weight = {
@@ -3861,8 +3857,8 @@ ccp4_sami_low_nobles = {
         accessory = {
             mode = add
             gene = clothes
-            template = ccp4_sami_low_nobility_clothes
-            range = { 0 1 } # For the randomness to work correctly
+            template = ccp4_sami_clothes
+            range = { 0.24 0.42 } # For the randomness to work correctly
         }
     }
     weight = {
@@ -3887,8 +3883,8 @@ ccp4_sami_high_nobles = {
         accessory = {
             mode = add
             gene = clothes
-            template = ccp4_sami_high_nobility_clothes
-            range = { 0 1 } # For the randomness to work correctly
+            template = ccp4_sami_clothes
+            range = { 0.45 0.64 } # For the randomness to work correctly
         }
     }
     weight = {
@@ -3910,8 +3906,8 @@ ccp4_ugro_permian_commoners = {
         accessory = {
             mode = add
             gene = clothes
-            template = ccp4_khanty_commoner_clothes
-            range = { 0 1 } # For the randomness to work correctly
+            template = ccp4_khanty_clothes
+            range = { 0 0.22 } # For the randomness to work correctly
         }
     }
     weight = {
@@ -3930,8 +3926,8 @@ ccp4_ugro_permian_low_nobles = {
         accessory = {
             mode = add
             gene = clothes
-            template = ccp4_khanty_low_nobility_clothes
-            range = { 0 1 } # For the randomness to work correctly
+            template = ccp4_khanty_clothes
+            range = { 0.24 0.45 } # For the randomness to work correctly
         }
     }
     weight = {
@@ -3956,8 +3952,8 @@ ccp4_ugro_permian_high_nobles = {
         accessory = {
             mode = add
             gene = clothes
-            template = ccp4_khanty_high_nobility_clothes
-            range = { 0 1 } # For the randomness to work correctly
+            template = ccp4_khanty_clothes
+            range = { 0.48 0.69 } # For the randomness to work correctly
         }
     }
     weight = {
@@ -9098,8 +9094,8 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = epe_turkic_commoner_clothes
-                range = { 0 0.20 } # For the randomness to work correctly
+                template = eastern_turkic_clothes
+                range = { 0 0.27 } # For the randomness to work correctly
             }
         }   
         weight = {
@@ -9119,7 +9115,7 @@ ccp4_ugro_permian_high_nobles = {
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-                portrait_epe_uyghur_clothing_trigger = no # Yusseter
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
 			
                 portrait_era1_trigger = yes  				
             }
@@ -9131,13 +9127,35 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = epe_turkic_low_nobility_clothes
-                range = { 0 0.20 } # For the randomness to work correctly
+                template = eastern_turkic_clothes
+                range = { 0.30 0.55 } # For the randomness to work correctly
             }
         }   
         weight = {
             base = 0
-            court_fashion_level_4_modifier = { INPUT_PARAMETER = epe_eastern_turk } 
+		   #####################################################
+		   ####Court fashions
+			modifier = {
+				add = 50
+				court_fashion_level_4_trigger = {
+					CULTURE_INPUT = epe_eastern_turk
+				}
+				NOT = {
+					court_fashion_level_4_trigger = { 
+                    CULTURE_INPUT = epe_western_turk
+                    }
+				}				
+				NOT = {
+					court_fashion_level_4_trigger = { 
+                    CULTURE_INPUT = epe_seljuk
+                    }
+				}				
+                OR = {
+                    portrait_era1_trigger = yes  									 
+                }				
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
+			}
+		   #####################################################
             modifier = {
                 add = 50
                 portrait_low_nobles_clothing_trigger = { 
@@ -9153,8 +9171,8 @@ ccp4_ugro_permian_high_nobles = {
                     CULTURE_INPUT = epe_seljuk
                     }
 				}				
-                portrait_epe_uyghur_clothing_trigger = no # Yusseter
                 portrait_era1_trigger = yes  				
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
             }
             modifier = {
                 add = 50
@@ -9171,8 +9189,8 @@ ccp4_ugro_permian_high_nobles = {
                     CULTURE_INPUT = epe_seljuk
                     }
 				}				
-                portrait_epe_uyghur_clothing_trigger = no # Yusseter
                 portrait_era1_trigger = yes 
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
                 is_female = yes 				
             }
         }
@@ -9183,13 +9201,35 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = epe_turkic_high_nobility_clothes
-                range = { 0 0.20 } # For the randomness to work correctly
+                template = eastern_turkic_clothes
+                range = { 0.58 0.83 } # For the randomness to work correctly
             }
         }       
         weight = {
             base = 0
-            court_fashion_level_5_modifier = { INPUT_PARAMETER = epe_eastern_turk } 
+		   #####################################################
+		   ####Court fashions
+			modifier = {
+				add = 50
+				court_fashion_level_5_trigger = {
+					CULTURE_INPUT = epe_eastern_turk
+				}
+				NOT = {
+					court_fashion_level_5_trigger = { 
+                    CULTURE_INPUT = epe_western_turk
+                    }
+				}				
+				NOT = {
+					court_fashion_level_5_trigger = { 
+                    CULTURE_INPUT = epe_seljuk
+                    }
+				}				
+                OR = {
+                    portrait_era1_trigger = yes  									 
+                }				
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
+			}
+		   #####################################################	
             modifier = {
                 add = 50
                 portrait_high_nobles_clothing_trigger = { 
@@ -9205,9 +9245,9 @@ ccp4_ugro_permian_high_nobles = {
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-                portrait_epe_uyghur_clothing_trigger = no # Yusseter
 				
                 portrait_era1_trigger = yes  				
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
             }
             modifier = {
                 add = 50
@@ -9224,9 +9264,9 @@ ccp4_ugro_permian_high_nobles = {
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-                portrait_epe_uyghur_clothing_trigger = no # Yusseter
 				
                 portrait_era1_trigger = yes  
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
                 is_female = yes				
             }
         }
@@ -9238,8 +9278,8 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = epe_turkic_commoner_clothes
-                range = { 0 0.20 } # For the randomness to work correctly
+                template = eastern_turkic_clothes
+                range = { 0 0.27 } # For the randomness to work correctly
             }
         }   
         weight = {
@@ -9264,7 +9304,7 @@ ccp4_ugro_permian_high_nobles = {
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-                portrait_epe_uyghur_clothing_trigger = no # Yusseter
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
 				
                 OR = {
                     portrait_era2_trigger = yes  				
@@ -9280,13 +9320,42 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = epe_turkic_low_nobility_clothes
-                range = { 0 0.20 } # For the randomness to work correctly
+                template = eastern_turkic_clothes
+                range = { 0.30 0.55 } # For the randomness to work correctly
             }
         }   
         weight = {
             base = 0
-            court_fashion_level_4_modifier = { INPUT_PARAMETER = epe_eastern_turk } 
+		   #####################################################
+		   ####Court fashions
+			modifier = {
+				add = 50
+				court_fashion_level_4_trigger = {
+					CULTURE_INPUT = epe_eastern_turk
+				}
+				NOT = {
+					court_fashion_level_4_trigger = { 
+                    CULTURE_INPUT = epe_eastern_turk_muslim
+                    }
+				}				
+				NOT = {
+					court_fashion_level_4_trigger = { 
+                    CULTURE_INPUT = epe_western_turk
+                    }
+				}				
+				NOT = {
+					court_fashion_level_4_trigger = { 
+                    CULTURE_INPUT = epe_seljuk
+                    }
+				}				
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
+                OR = {
+                    portrait_era2_trigger = yes  				
+                    portrait_era3_trigger = yes  
+                    portrait_era4_trigger = yes  									 
+                }				
+			}
+		   #####################################################
             modifier = {
                 add = 50
                 portrait_low_nobles_clothing_trigger = { 
@@ -9307,7 +9376,7 @@ ccp4_ugro_permian_high_nobles = {
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-                portrait_epe_uyghur_clothing_trigger = no # Yusseter
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
 			
                 OR = {
                     portrait_era2_trigger = yes  				
@@ -9335,7 +9404,7 @@ ccp4_ugro_permian_high_nobles = {
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-                portrait_epe_uyghur_clothing_trigger = no # Yusseter
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
 				
                 OR = {
                     portrait_era2_trigger = yes  				
@@ -9352,13 +9421,42 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = epe_turkic_high_nobility_clothes
-                range = { 0 0.20 } # For the randomness to work correctly
+                template = eastern_turkic_clothes
+                range = { 0.58 0.83 } # For the randomness to work correctly	
             }
         }       
         weight = {
             base = 0
-            court_fashion_level_5_modifier = { INPUT_PARAMETER = epe_eastern_turk } 
+		   #####################################################
+		   ####Court fashions
+			modifier = {
+				add = 50
+				court_fashion_level_5_trigger = {
+					CULTURE_INPUT = epe_eastern_turk
+				}
+				NOT = {
+					court_fashion_level_5_trigger = { 
+                    CULTURE_INPUT = epe_eastern_turk_muslim
+                    }
+				}					
+				NOT = {
+					court_fashion_level_5_trigger = { 
+                    CULTURE_INPUT = epe_western_turk
+                    }
+				}				
+				NOT = {
+					court_fashion_level_5_trigger = { 
+                    CULTURE_INPUT = epe_seljuk
+                    }
+				}				
+                OR = {
+                    portrait_era2_trigger = yes  				
+                    portrait_era3_trigger = yes  
+                    portrait_era4_trigger = yes  									 
+                }				
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
+			}
+		   #####################################################	
             modifier = {
                 add = 50
                 portrait_high_nobles_clothing_trigger = { 
@@ -9379,13 +9477,13 @@ ccp4_ugro_permian_high_nobles = {
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-                portrait_epe_uyghur_clothing_trigger = no # Yusseter
 				
                 OR = {
                     portrait_era2_trigger = yes  				
                     portrait_era3_trigger = yes  
                     portrait_era4_trigger = yes  
                 } 				
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
             }
             modifier = {
                 add = 50
@@ -9407,7 +9505,7 @@ ccp4_ugro_permian_high_nobles = {
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-                portrait_epe_uyghur_clothing_trigger = no # Yusseter
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
 				
                 OR = {
                     portrait_era2_trigger = yes  				
@@ -9426,8 +9524,8 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = epe_turkic_commoner_clothes
-                range = { 0.23 0.43 } # For the randomness to work correctly
+                template = seljuk_turkic_clothes
+                range = { 0 0.07 } # For the randomness to work correctly
             }
         }   
         weight = {
@@ -9450,7 +9548,7 @@ ccp4_ugro_permian_high_nobles = {
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-                portrait_epe_uyghur_clothing_trigger = no # Yusseter
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
 
                 NOT = {
                     has_fp3_dlc_trigger = yes
@@ -9469,13 +9567,43 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = epe_turkic_low_nobility_clothes
-                range = { 0.23 0.43 } # For the randomness to work correctly
+                template = seljuk_turkic_clothes
+                range = { 0.15 0.20 } # For the randomness to work correctly
             }
         }   
         weight = {
             base = 0
-            court_fashion_level_4_modifier = { INPUT_PARAMETER = epe_eastern_turk_muslim } 
+		   #####################################################
+		   ####Court fashions
+			modifier = {
+				add = 50
+                court_fashion_level_4_trigger = {
+                    CULTURE_INPUT = epe_eastern_turk_muslim
+                }
+                court_fashion_level_4_trigger = { 
+                    CULTURE_INPUT = epe_eastern_turk
+                }
+				NOT = {
+					court_fashion_level_4_trigger = { 
+                    CULTURE_INPUT = epe_western_turk
+                    }
+				}				
+				NOT = {
+					court_fashion_level_4_trigger = { 
+                    CULTURE_INPUT = epe_seljuk
+                    }
+				}
+                NOT = {
+                    has_fp3_dlc_trigger = yes
+                }				
+                OR = {
+                    portrait_era2_trigger = yes  				
+                    portrait_era3_trigger = yes  
+                    portrait_era4_trigger = yes  									 
+                }				
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
+			}
+		   #####################################################
             modifier = {
                 add = 50
                 portrait_low_nobles_clothing_trigger = { 
@@ -9494,7 +9622,6 @@ ccp4_ugro_permian_high_nobles = {
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-                portrait_epe_uyghur_clothing_trigger = no # Yusseter
 
                 NOT = {
                     has_fp3_dlc_trigger = yes
@@ -9504,6 +9631,7 @@ ccp4_ugro_permian_high_nobles = {
                     portrait_era3_trigger = yes  
                     portrait_era4_trigger = yes  
                 } 				
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
             }
             modifier = {
                 add = 50
@@ -9523,7 +9651,6 @@ ccp4_ugro_permian_high_nobles = {
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-                portrait_epe_uyghur_clothing_trigger = no # Yusseter
 
                 NOT = {
                     has_fp3_dlc_trigger = yes
@@ -9533,6 +9660,7 @@ ccp4_ugro_permian_high_nobles = {
                     portrait_era3_trigger = yes  
                     portrait_era4_trigger = yes  
                 }
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
                 is_female = yes 				
             }
         }
@@ -9543,13 +9671,43 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = epe_turkic_high_nobility_clothes
-                range = { 0.23 0.43 } # For the randomness to work correctly
+                template = seljuk_turkic_clothes
+                range = { 0.28 0.34 } # For the randomness to work correctly
             }
         }       
         weight = {
             base = 0
-            court_fashion_level_5_modifier = { INPUT_PARAMETER = epe_eastern_turk_muslim } 
+		   #####################################################
+		   ####Court fashions
+			modifier = {
+				add = 50
+                court_fashion_level_5_trigger = {
+                    CULTURE_INPUT = epe_eastern_turk_muslim
+                }
+                court_fashion_level_5_trigger = { 
+                    CULTURE_INPUT = epe_eastern_turk
+                }
+				NOT = {
+					court_fashion_level_5_trigger = { 
+                    CULTURE_INPUT = epe_western_turk
+                    }
+				}				
+				NOT = {
+					court_fashion_level_5_trigger = { 
+                    CULTURE_INPUT = epe_seljuk
+                    }
+				}
+                NOT = {
+                    has_fp3_dlc_trigger = yes
+                }				
+                OR = {
+                    portrait_era2_trigger = yes  				
+                    portrait_era3_trigger = yes  
+                    portrait_era4_trigger = yes  									 
+                }				
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
+			}
+		   #####################################################	
             modifier = {
                 add = 50
                 portrait_high_nobles_clothing_trigger = { 
@@ -9568,7 +9726,6 @@ ccp4_ugro_permian_high_nobles = {
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-                portrait_epe_uyghur_clothing_trigger = no # Yusseter
 
                 NOT = {
                     has_fp3_dlc_trigger = yes
@@ -9578,6 +9735,7 @@ ccp4_ugro_permian_high_nobles = {
                     portrait_era3_trigger = yes  
                     portrait_era4_trigger = yes  
                 } 				
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
             }
             modifier = {
                 add = 50
@@ -9597,7 +9755,6 @@ ccp4_ugro_permian_high_nobles = {
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-                portrait_epe_uyghur_clothing_trigger = no # Yusseter
 
                 NOT = {
                     has_fp3_dlc_trigger = yes
@@ -9607,6 +9764,7 @@ ccp4_ugro_permian_high_nobles = {
                     portrait_era3_trigger = yes  
                     portrait_era4_trigger = yes  
                 }
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
                 is_female = yes 				
             }
         }
@@ -9619,8 +9777,8 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = epe_turkic_commoner_clothes
-                range = { 0.23 0.58 } # For the randomness to work correctly
+               template = seljuk_turkic_clothes
+                range = { 0 0.12 } # For the randomness to work correctly
             }
         }   
         weight = {
@@ -9643,7 +9801,6 @@ ccp4_ugro_permian_high_nobles = {
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-                portrait_epe_uyghur_clothing_trigger = no # Yusseter
 
 	            has_fp3_dlc_trigger = yes				
                 OR = {
@@ -9651,6 +9808,7 @@ ccp4_ugro_permian_high_nobles = {
                     portrait_era3_trigger = yes  
                     portrait_era4_trigger = yes  
                 } 				
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
             }
         }
     }
@@ -9660,13 +9818,41 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = epe_turkic_low_nobility_clothes
-                range = { 0.23 0.58 } # For the randomness to work correctly
+                template = seljuk_turkic_clothes
+                range = { 0.15 0.25 } # For the randomness to work correctly
             }
         }   
         weight = {
             base = 0
-            court_fashion_level_4_modifier = { INPUT_PARAMETER = epe_eastern_turk_muslim } 
+		   #####################################################
+		   ####Court fashions
+			modifier = {
+				add = 50
+                court_fashion_level_4_trigger = {
+                    CULTURE_INPUT = epe_eastern_turk_muslim
+                }
+                court_fashion_level_4_trigger = { 
+                    CULTURE_INPUT = epe_eastern_turk
+                }
+				NOT = {
+					court_fashion_level_4_trigger = { 
+                    CULTURE_INPUT = epe_western_turk
+                    }
+				}				
+				NOT = {
+					court_fashion_level_4_trigger = { 
+                    CULTURE_INPUT = epe_seljuk
+                    }
+				}
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
+	            has_fp3_dlc_trigger = yes					
+                OR = {
+                    portrait_era2_trigger = yes  				
+                    portrait_era3_trigger = yes  
+                    portrait_era4_trigger = yes  									 
+                }				
+			}
+		   #####################################################
             modifier = {
                 add = 50
                 portrait_low_nobles_clothing_trigger = { 
@@ -9685,7 +9871,7 @@ ccp4_ugro_permian_high_nobles = {
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-                portrait_epe_uyghur_clothing_trigger = no # Yusseter
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
 
 	            has_fp3_dlc_trigger = yes				
                 OR = {
@@ -9712,7 +9898,7 @@ ccp4_ugro_permian_high_nobles = {
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-                portrait_epe_uyghur_clothing_trigger = no # Yusseter
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
 
 	            has_fp3_dlc_trigger = yes				
                 OR = {
@@ -9730,13 +9916,41 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = epe_turkic_high_nobility_clothes
-                range = { 0.23 0.58 } # For the randomness to work correctly
+                template = seljuk_turkic_clothes
+                range = { 0.28 0.40 } # For the randomness to work correctly
             }
         }       
         weight = {
             base = 0
-            court_fashion_level_5_modifier = { INPUT_PARAMETER = epe_eastern_turk_muslim } 
+		   #####################################################
+		   ####Court fashions
+			modifier = {
+				add = 50
+                court_fashion_level_5_trigger = {
+                    CULTURE_INPUT = epe_eastern_turk_muslim
+                }
+                court_fashion_level_5_trigger = { 
+                    CULTURE_INPUT = epe_eastern_turk
+                }
+				NOT = {
+					court_fashion_level_5_trigger = { 
+                    CULTURE_INPUT = epe_western_turk
+                    }
+				}				
+				NOT = {
+					court_fashion_level_5_trigger = { 
+                    CULTURE_INPUT = epe_seljuk
+                    }
+				}
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
+	            has_fp3_dlc_trigger = yes					
+                OR = {
+                    portrait_era2_trigger = yes  				
+                    portrait_era3_trigger = yes  
+                    portrait_era4_trigger = yes  									 
+                }				
+			}
+		   #####################################################
             modifier = {
                 add = 50
                 portrait_high_nobles_clothing_trigger = { 
@@ -9755,7 +9969,7 @@ ccp4_ugro_permian_high_nobles = {
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-                portrait_epe_uyghur_clothing_trigger = no # Yusseter
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
 
 	            has_fp3_dlc_trigger = yes				
                 OR = {
@@ -9782,7 +9996,7 @@ ccp4_ugro_permian_high_nobles = {
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-                portrait_epe_uyghur_clothing_trigger = no # Yusseter
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
 
 	            has_fp3_dlc_trigger = yes				
                 OR = {
@@ -9807,8 +10021,8 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = epe_turkic_commoner_clothes
-                range = { 0.61 0.81 } # For the randomness to work correctly
+                template = western_turkic_clothes
+                range = { 0 0.14 } # For the randomness to work correctly
             }
         }   
         weight = {
@@ -9830,13 +10044,24 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = epe_turkic_low_nobility_clothes
-                range = { 0.61 0.81 } # For the randomness to work correctly
+                template = western_turkic_clothes
+                range = { 0.26 0.37 } # For the randomness to work correctly
             }
         }   
         weight = {
             base = 0
-            court_fashion_level_4_modifier = { INPUT_PARAMETER = epe_western_turk } 
+		   #####################################################
+		   ####Court fashions
+			modifier = {
+				add = 50
+                court_fashion_level_4_trigger = {
+                    CULTURE_INPUT = epe_western_turk
+                }
+                NOT = {
+                    has_fp3_dlc_trigger = yes
+                }				
+			}
+		   #####################################################
             modifier = {
                 add = 50
                 portrait_low_nobles_clothing_trigger = { 
@@ -9864,13 +10089,24 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = epe_turkic_high_nobility_clothes
-                range = { 0.61 0.81 } # For the randomness to work correctly
+                template = western_turkic_clothes
+                range = { 0.50 0.61 } # For the randomness to work correctly
             }
         }       
         weight = {
             base = 0
-            court_fashion_level_5_modifier = { INPUT_PARAMETER = epe_western_turk } 
+		   #####################################################
+		   ####Court fashions
+			modifier = {
+				add = 50
+                court_fashion_level_5_trigger = {
+                    CULTURE_INPUT = epe_western_turk
+                }
+                NOT = {
+                    has_fp3_dlc_trigger = yes
+                }					
+			}
+		   #####################################################	
             modifier = {
                 add = 50
                 portrait_high_nobles_clothing_trigger = { 
@@ -9901,8 +10137,8 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = epe_turkic_commoner_clothes
-                range = { 0.61 1 } # For the randomness to work correctly
+                template = western_turkic_clothes
+                range = { 0 0.23 } # For the randomness to work correctly
             }
         }   
         weight = {
@@ -9922,13 +10158,22 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = epe_turkic_low_nobility_clothes
-                range = { 0.61 1 } # For the randomness to work correctly
+                template = western_turkic_clothes
+                range = { 0.26 0.47 } # For the randomness to work correctly
             }
         }   
         weight = {
             base = 0
-            court_fashion_level_4_modifier = { INPUT_PARAMETER = epe_western_turk } 
+		   #####################################################
+		   ####Court fashions
+			modifier = {
+				add = 50
+                court_fashion_level_4_trigger = {
+                    CULTURE_INPUT = epe_western_turk
+                }
+	            has_fp3_dlc_trigger = yes				
+			}
+		   #####################################################
             modifier = {
                 add = 50
                 portrait_low_nobles_clothing_trigger = { 
@@ -9952,13 +10197,22 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = epe_turkic_high_nobility_clothes
-                range = { 0.61 1 } # For the randomness to work correctly
+                template = western_turkic_clothes
+                range = { 0.50 0.73 } # For the randomness to work correctly
             }
         }       
         weight = {
             base = 0
-            court_fashion_level_5_modifier = { INPUT_PARAMETER = epe_western_turk } 
+		   #####################################################
+		   ####Court fashions
+			modifier = {
+				add = 50
+                court_fashion_level_5_trigger = {
+                    CULTURE_INPUT = epe_western_turk
+                }
+	            has_fp3_dlc_trigger = yes					
+			}
+		   #####################################################
             modifier = {
                 add = 50
                 portrait_high_nobles_clothing_trigger = { 
@@ -9984,7 +10238,7 @@ ccp4_ugro_permian_high_nobles = {
 
     ####################################################################################################
     ##################
-    ###Seljuk Turk
+    ### Early Oghuz Turks era 1
     ##################
     ####################################################################################################
 
@@ -9993,8 +10247,8 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = epe_turkic_commoner_clothes
-                range = { 0 0.20 } # For the randomness to work correctly
+                template = eastern_turkic_clothes
+                range = { 0 0.27 } # For the randomness to work correctly
             }
         }   
         weight = {
@@ -10014,13 +10268,22 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = epe_turkic_low_nobility_clothes
-                range = { 0 0.20 } # For the randomness to work correctly
+                template = eastern_turkic_clothes
+                range = { 0.30 0.55 } # For the randomness to work correctly
             }
         }   
         weight = {
             base = 0
-            court_fashion_level_4_modifier = { INPUT_PARAMETER = epe_seljuk } 
+		   #####################################################
+		   ####Court fashions
+			modifier = {
+				add = 50
+                court_fashion_level_4_trigger = {
+                    CULTURE_INPUT = epe_seljuk
+                }
+                portrait_era1_trigger = yes  			
+			}
+		   #####################################################
             modifier = {
                 add = 50
                 portrait_low_nobles_clothing_trigger = { 
@@ -10044,13 +10307,22 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = epe_turkic_high_nobility_clothes
-                range = { 0 0.20 } # For the randomness to work correctly
+                template = eastern_turkic_clothes
+                range = { 0.58 0.83 } # For the randomness to work correctly	
             }
         }       
         weight = {
             base = 0
-            court_fashion_level_5_modifier = { INPUT_PARAMETER = epe_seljuk } 
+		   #####################################################
+		   ####Court fashions
+			modifier = {
+				add = 50
+                court_fashion_level_5_trigger = {
+                    CULTURE_INPUT = epe_seljuk
+                }
+                portrait_era1_trigger = yes  				
+			}
+		   #####################################################	
             modifier = {
                 add = 50
                 portrait_high_nobles_clothing_trigger = { 
@@ -10068,16 +10340,20 @@ ccp4_ugro_permian_high_nobles = {
             }
         }
     }
-	
-	###High medieval seljuk
+    ####################################################################################################
+    ##################
+    ###Seljuk Turks era 2-3
+    ##################
+    ####################################################################################################	
+	###High medieval seljuk era2-3
 	
     seljuk_turk_commoners_persianized = {
         dna_modifiers = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = epe_turkic_commoner_clothes
-                range = { 0.23 0.43 } # For the randomness to work correctly
+                template = seljuk_turkic_clothes
+                range = { 0 0.07 } # For the randomness to work correctly
             }
         }   
         weight = {
@@ -10093,7 +10369,6 @@ ccp4_ugro_permian_high_nobles = {
                 OR = {
                     portrait_era2_trigger = yes  				
                     portrait_era3_trigger = yes  
-                    portrait_era4_trigger = yes  
                 } 				
             }
         }
@@ -10104,13 +10379,28 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = epe_turkic_low_nobility_clothes
-                range = { 0.23 0.43 } # For the randomness to work correctly
+                template = seljuk_turkic_clothes
+                range = { 0.15 0.20 } # For the randomness to work correctly
             }
         }   
         weight = {
             base = 0
-            court_fashion_level_4_modifier = { INPUT_PARAMETER = epe_seljuk } 
+		   #####################################################
+		   ####Court fashions
+			modifier = {
+				add = 50
+                court_fashion_level_4_trigger = {
+                    CULTURE_INPUT = epe_seljuk
+                }
+                NOT = {
+                    has_fp3_dlc_trigger = yes
+                }				
+                OR = {
+                    portrait_era2_trigger = yes  				
+                    portrait_era3_trigger = yes  
+                }			
+			}
+		   #####################################################
             modifier = {
                 add = 50
                 portrait_low_nobles_clothing_trigger = { 
@@ -10122,7 +10412,6 @@ ccp4_ugro_permian_high_nobles = {
                 OR = {
                     portrait_era2_trigger = yes  				
                     portrait_era3_trigger = yes  
-                    portrait_era4_trigger = yes  
                 } 				
             }
             modifier = {
@@ -10136,7 +10425,6 @@ ccp4_ugro_permian_high_nobles = {
                 OR = {
                     portrait_era2_trigger = yes  				
                     portrait_era3_trigger = yes  
-                    portrait_era4_trigger = yes  
                 }
                 is_female = yes 				
             }
@@ -10148,13 +10436,28 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = epe_turkic_high_nobility_clothes
-                range = { 0.23 0.43 } # For the randomness to work correctly
+                template = seljuk_turkic_clothes
+                range = { 0.28 0.34 } # For the randomness to work correctly
             }
         }       
         weight = {
             base = 0
-            court_fashion_level_5_modifier = { INPUT_PARAMETER = epe_seljuk } 
+		   #####################################################
+		   ####Court fashions
+			modifier = {
+				add = 50
+                court_fashion_level_5_trigger = {
+                    CULTURE_INPUT = epe_seljuk
+                }
+                NOT = {
+                    has_fp3_dlc_trigger = yes
+                }				
+                OR = {
+                    portrait_era2_trigger = yes  				
+                    portrait_era3_trigger = yes  
+                }				
+			}
+		   #####################################################	
             modifier = {
                 add = 50
                 portrait_high_nobles_clothing_trigger = { 
@@ -10166,7 +10469,6 @@ ccp4_ugro_permian_high_nobles = {
                 OR = {
                     portrait_era2_trigger = yes  				
                     portrait_era3_trigger = yes  
-                    portrait_era4_trigger = yes  
                 } 				
             }
             modifier = {
@@ -10180,7 +10482,6 @@ ccp4_ugro_permian_high_nobles = {
                 OR = {
                     portrait_era2_trigger = yes  				
                     portrait_era3_trigger = yes  
-                    portrait_era4_trigger = yes  
                 }
                 is_female = yes 				
             }
@@ -10193,8 +10494,8 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = epe_turkic_commoner_clothes
-                range = { 0.23 0.58 } # For the randomness to work correctly
+               template = seljuk_turkic_clothes
+                range = { 0 0.12 } # For the randomness to work correctly
             }
         }   
         weight = {
@@ -10208,7 +10509,6 @@ ccp4_ugro_permian_high_nobles = {
                 OR = {
                     portrait_era2_trigger = yes  				
                     portrait_era3_trigger = yes  
-                    portrait_era4_trigger = yes  
                 } 				
             }
         }
@@ -10219,13 +10519,26 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = epe_turkic_low_nobility_clothes
-                range = { 0.23 0.58 } # For the randomness to work correctly
+                template = seljuk_turkic_clothes
+                range = { 0.15 0.25 } # For the randomness to work correctly
             }
         }   
         weight = {
             base = 0
-            court_fashion_level_4_modifier = { INPUT_PARAMETER = epe_seljuk } 
+		   #####################################################
+		   ####Court fashions
+			modifier = {
+				add = 50
+                court_fashion_level_4_trigger = {
+                    CULTURE_INPUT = epe_seljuk
+                }
+	            has_fp3_dlc_trigger = yes 					
+                OR = {
+                    portrait_era2_trigger = yes  				
+                    portrait_era3_trigger = yes  
+                }			
+			}
+		   #####################################################
             modifier = {
                 add = 50
                 portrait_low_nobles_clothing_trigger = { 
@@ -10235,7 +10548,6 @@ ccp4_ugro_permian_high_nobles = {
                 OR = {
                     portrait_era2_trigger = yes  				
                     portrait_era3_trigger = yes  
-                    portrait_era4_trigger = yes  
                 } 				
             }
             modifier = {
@@ -10246,7 +10558,6 @@ ccp4_ugro_permian_high_nobles = {
                 OR = {
                     portrait_era2_trigger = yes  				
                     portrait_era3_trigger = yes  
-                    portrait_era4_trigger = yes  
                 }
                 is_female = yes 				
             }
@@ -10258,13 +10569,26 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = epe_turkic_high_nobility_clothes
-                range = { 0.23 0.58 } # For the randomness to work correctly
+                template = seljuk_turkic_clothes
+                range = { 0.28 0.40 } # For the randomness to work correctly
             }
         }       
         weight = {
             base = 0
-            court_fashion_level_5_modifier = { INPUT_PARAMETER = epe_seljuk } 
+		   #####################################################
+		   ####Court fashions
+			modifier = {
+				add = 50
+                court_fashion_level_5_trigger = {
+                    CULTURE_INPUT = epe_seljuk
+                }
+	            has_fp3_dlc_trigger = yes 				
+                OR = {
+                    portrait_era2_trigger = yes  				
+                    portrait_era3_trigger = yes  
+                }				
+			}
+		   #####################################################	
             modifier = {
                 add = 50
                 portrait_high_nobles_clothing_trigger = { 
@@ -10274,8 +10598,7 @@ ccp4_ugro_permian_high_nobles = {
                 OR = {
                     portrait_era2_trigger = yes  				
                     portrait_era3_trigger = yes  
-                    portrait_era4_trigger = yes  
-                } 				
+                }			
             }
             modifier = {
                 add = 50
@@ -10286,14 +10609,319 @@ ccp4_ugro_permian_high_nobles = {
                 OR = {
                     portrait_era2_trigger = yes  				
                     portrait_era3_trigger = yes  
-                    portrait_era4_trigger = yes  
                 }
                 is_female = yes 				
             }
         }
     }	
 
+    ####################################################################################################
+    ##################
+    ###Ottoman Turks era 4
+    ##################
+    ####################################################################################################	
+	
+    ottoman_turk_commoners_era_4 = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = seljuk_turkic_clothes
+                range = { 0.43 0.47 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 20
+                portrait_commoner_clothing_trigger = {
+                    CULTURE_INPUT = yb_ottoman # Yusseter: epe_seljuk
+                }				
+                OR = {
+                    portrait_era4_trigger = yes  
+                } 				
+            }
+        }
+    }
 
+    ottoman_turk_low_nobles_era_4 = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = seljuk_turkic_clothes
+                range = { 0.50 0.58 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+		   #####################################################
+		   ####Court fashions
+			modifier = {
+				add = 50
+                court_fashion_level_4_trigger = {
+                    CULTURE_INPUT = yb_ottoman # Yusseter: epe_seljuk
+                }
+                NOT = {
+                    has_fp3_dlc_trigger = yes
+                }				
+                OR = {
+                    portrait_era4_trigger = yes  
+                }			
+			}
+		   #####################################################
+            modifier = {
+                add = 50
+                portrait_low_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = yb_ottoman # Yusseter: epe_seljuk
+                }
+                NOT = {
+                    has_fp3_dlc_trigger = yes
+                }				
+                OR = {
+                    portrait_era4_trigger = yes  
+                } 				
+            }
+            modifier = {
+                add = 50
+                portrait_low_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = yb_ottoman # Yusseter: epe_seljuk
+                }
+                NOT = {
+                    has_fp3_dlc_trigger = yes
+                }				
+                OR = {
+                    portrait_era4_trigger = yes  
+                }
+                is_female = yes 				
+            }
+        }
+    }
+
+    ottoman_turk_high_nobles_era_4 = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = seljuk_turkic_clothes
+                range = { 0.64 0.71 } # For the randomness to work correctly
+            }
+        }       
+        weight = {
+            base = 0
+		   #####################################################
+		   ####Court fashions
+			modifier = {
+				add = 50
+                court_fashion_level_5_trigger = {
+                    CULTURE_INPUT = yb_ottoman # Yusseter: epe_seljuk
+                }
+                NOT = {
+                    has_fp3_dlc_trigger = yes
+                }				
+                OR = { 
+                    portrait_era4_trigger = yes  
+                }				
+			}
+		   #####################################################	
+            modifier = {
+                add = 50
+                portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = yb_ottoman # Yusseter: epe_seljuk
+                }
+                NOT = {
+                    has_fp3_dlc_trigger = yes
+                }				
+                OR = {
+                    portrait_era4_trigger = yes  
+                } 				
+            }
+            modifier = {
+                add = 50
+                portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = yb_ottoman # Yusseter: epe_seljuk
+                }
+                NOT = {
+                    has_fp3_dlc_trigger = yes
+                }				
+                OR = {
+                    portrait_era4_trigger = yes  
+                }
+                is_female = yes 				
+            }
+        }
+    }
+	
+##############FP3 version
+	
+    ottoman_turk_low_nobles_era_4_fp3 = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = seljuk_turkic_clothes
+                range = { 0.50 0.62 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+		   #####################################################
+		   ####Court fashions
+			modifier = {
+				add = 50
+                court_fashion_level_4_trigger = {
+                    CULTURE_INPUT = yb_ottoman # Yusseter: epe_seljuk
+                }
+	            has_fp3_dlc_trigger = yes 					
+                OR = {
+                    portrait_era4_trigger = yes  
+                }			
+			}
+		   #####################################################
+            modifier = {
+                add = 50
+                portrait_low_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = yb_ottoman # Yusseter: epe_seljuk
+                }
+	            has_fp3_dlc_trigger = yes 					
+                OR = { 
+                    portrait_era4_trigger = yes  
+                } 				
+            }
+            modifier = {
+                add = 50
+                portrait_low_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = yb_ottoman # Yusseter: epe_seljuk
+                }
+                OR = {
+                    portrait_era4_trigger = yes  
+                }
+                is_female = yes 				
+            }
+        }
+    }
+
+    ottoman_turk_high_nobles_era_4_fp3 = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = seljuk_turkic_clothes
+                range = { 0.64 0.75 } # For the randomness to work correctly
+            }
+        }       
+        weight = {
+            base = 0
+		   #####################################################
+		   ####Court fashions
+			modifier = {
+				add = 50
+                court_fashion_level_5_trigger = {
+                    CULTURE_INPUT = yb_ottoman # Yusseter: epe_seljuk
+                }
+	            has_fp3_dlc_trigger = yes 				
+                OR = {
+                    portrait_era4_trigger = yes  
+                }				
+			}
+		   #####################################################	
+            modifier = {
+                add = 50
+                portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = yb_ottoman # Yusseter: epe_seljuk
+                }
+				NOT = {
+					portrait_royalty_clothing_trigger = { 
+                    CULTURE_INPUT = yb_ottoman # Yusseter: epe_seljuk
+					}
+				}	
+				NOT = {
+					portrait_imperial_clothing_trigger = { 
+                    CULTURE_INPUT = yb_ottoman # Yusseter: epe_seljuk
+					}
+				}				
+	            has_fp3_dlc_trigger = yes 				
+                OR = {
+                    portrait_era4_trigger = yes  
+                } 				
+            }
+            modifier = {
+                add = 50
+                portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = yb_ottoman # Yusseter: epe_seljuk
+                }
+				NOT = {
+					portrait_royalty_clothing_trigger = { 
+                    CULTURE_INPUT = yb_ottoman # Yusseter: epe_seljuk
+					}
+				}	
+				NOT = {
+					portrait_imperial_clothing_trigger = { 
+                    CULTURE_INPUT = yb_ottoman # Yusseter: epe_seljuk
+					}
+				}				
+	            has_fp3_dlc_trigger = yes 				
+                OR = {
+                    portrait_era4_trigger = yes  
+                }
+                is_female = yes 				
+            }
+        }
+    }	
+	
+    ottoman_turk_royalty_clothes_era_4 = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = seljuk_turkic_clothes
+                range = { 0.77 0.82 } # For the randomness to work correctly
+            }
+        }       
+		weight = {
+			base = 0
+			modifier = {
+				add = 120
+				OR = {
+					portrait_royalty_clothing_trigger = {
+						CULTURE_INPUT = yb_ottoman # Yusseter: epe_seljuk
+					}
+				}
+	            has_fp3_dlc_trigger = yes 				
+                OR = {
+                    portrait_era4_trigger = yes  
+                }				
+			
+			}
+		}
+    }	
+	
+    ottoman_turk_imperial_clothes_era_4 = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = seljuk_turkic_clothes
+                range = { 0.84 0.89 } # For the randomness to work correctly
+            }
+        }       
+		weight = {
+			base = 0
+			modifier = {
+				add = 120
+				OR = {
+					portrait_imperial_clothing_trigger = {
+						CULTURE_INPUT = yb_ottoman # Yusseter: epe_seljuk
+					}
+				}
+	            has_fp3_dlc_trigger = yes 				
+                OR = {
+                    portrait_era4_trigger = yes  
+                }				
+			
+			}
+		}
+    }
 	
 
     ####################################################################################################
@@ -10770,16 +11398,16 @@ ccp4_ugro_permian_high_nobles = {
 			modifier = {
 				add = 50
 				portrait_high_nobles_clothing_trigger = {
-					CULTURE_INPUT = epe_uyghur
+					CULTURE_INPUT = epe_eastern_turk_muslim # Yusseter: epe_uyghur
 				}
 				NOT = {
 					portrait_royalty_clothing_trigger = { 
-                    CULTURE_INPUT = epe_uyghur
+                    CULTURE_INPUT = epe_eastern_turk_muslim # Yusseter: epe_uyghur
                     }
 				}
 				NOT = {
 					portrait_imperial_clothing_trigger = { 
-                    CULTURE_INPUT = epe_uyghur
+                    CULTURE_INPUT = epe_eastern_turk_muslim # Yusseter: epe_uyghur
                     }
 				}					
                 OR = {
@@ -10887,10 +11515,10 @@ ccp4_ugro_permian_high_nobles = {
 					}
 				}				
 				has_tgp_dlc_trigger = yes
-                OR = {
-                    portrait_era1_trigger = yes  					
-                    portrait_era2_trigger = yes  				 
-                }				
+                #OR = { # Yusseter
+                #    portrait_era1_trigger = yes  					
+                #    portrait_era2_trigger = yes  				 
+                #}				
 			}
 			modifier = {
 				add = 120
@@ -11131,7 +11759,8 @@ ccp4_ugro_permian_high_nobles = {
 				mode = add
 				gene = clothes
 				template = tgp_sino_iranian_clothes
-				range = { 0 0.08.2 } # For the randomness to work correctly
+                range = { 0 0.08 } # Yusseter
+				#range = { 0 0.08.2 } # For the randomness to work correctly
 			}
 		}
         outfit_tags = { tgp_sino_iranian_clothes }		
@@ -11756,7 +12385,172 @@ ccp4_ugro_permian_high_nobles = {
     }		
 			
 
+    ####################################################################################################
+    ##################
+    ###Sino-Iranian ccp9 Khotanese dlc
+    ##################
+    ####################################################################################################
+	ccp9_sino_iranian_low_nobility_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = ccp9_celestial_court_clothes
+                accessory = f_clothes_ccp9_epe_sino_iranian_lo_nob_01
+                type = female
+			}
+		}
+		weight = {
+			base = 0
+		   #####################################################
+		   ####Court fashions
+			modifier = {
+				add = 50
+				court_fashion_level_4_trigger = {
+					CULTURE_INPUT = epe_sino_iranian
+				}
+                OR = {
+                    portrait_era1_trigger = yes  					
+                    portrait_era2_trigger = yes  				 
+                }				
+				has_fp3_dlc_trigger = no
+				has_cp9_dlc_trigger = yes
+				is_female = yes # Currently we only have female Uyghur clothes, remove this line if we add male ones				
+			}
+		#########################				
+			modifier = {
+				add = 100
+				portrait_low_nobles_clothing_trigger = {
+					CULTURE_INPUT = epe_sino_iranian
+				}
+				NOT = {
+					portrait_mayor_trigger = { 
+                    CULTURE_INPUT = epe_sino_iranian
+                    }
+				}	
+                OR = {
+                    portrait_era1_trigger = yes  					
+                    portrait_era2_trigger = yes  				 
+                }				
+				has_fp3_dlc_trigger = no
+				has_cp9_dlc_trigger = yes
+				is_female = yes # Currently we only have female Uyghur clothes, remove this line if we add male ones				
+			}
+		   #####################################################
+		   ####Court fashions
+			modifier = {
+				add = 50
+				court_fashion_level_4_trigger = {
+					CULTURE_INPUT = epe_sino_iranian_chinese
+				}
+                OR = {
+                    portrait_era1_trigger = yes  					
+                    portrait_era2_trigger = yes  				 
+                }				
+				has_fp3_dlc_trigger = yes
+				has_cp9_dlc_trigger = yes	
+				is_female = yes # Currently we only have female Uyghur clothes, remove this line if we add male ones				
+			}			
+		#########################	
+			modifier = {
+				add = 100
+
+				portrait_low_nobles_clothing_trigger = {
+					CULTURE_INPUT = epe_sino_iranian_chinese
+				}
+                OR = {
+                    portrait_era1_trigger = yes  					
+                    portrait_era2_trigger = yes  				 
+                }				
+				has_fp3_dlc_trigger = yes
+				has_cp9_dlc_trigger = yes
+				is_female = yes # Currently we only have female Uyghur clothes, remove this line if we add male ones				
+			}			
+		}
+	}
 	
+	ccp9_sino_iranian_high_nobility_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = ccp9_celestial_court_clothes
+                range = { 0.34 0.47 } # For the randomness to work correctly
+			}
+		}
+        weight = {
+            base = 0
+		   #####################################################
+		   ####Court fashions
+			modifier = {
+				add = 50
+				court_fashion_level_5_trigger = {
+					CULTURE_INPUT = epe_sino_iranian
+				}
+                OR = {
+                    portrait_era1_trigger = yes  					
+                    portrait_era2_trigger = yes  				 
+                }				
+				has_fp3_dlc_trigger = no
+				has_cp9_dlc_trigger = yes	
+				is_female = yes # Currently we only have female Uyghur clothes, remove this line if we add male ones				
+			}
+		   #####################################################
+			modifier = {
+				add = 100
+				portrait_high_nobles_clothing_trigger = {
+					CULTURE_INPUT = epe_sino_iranian
+				}
+                OR = {
+                    portrait_era1_trigger = yes  					
+                    portrait_era2_trigger = yes  				 
+                }					
+				has_fp3_dlc_trigger = no
+				has_cp9_dlc_trigger = yes
+				is_female = yes # Currently we only have female Uyghur clothes, remove this line if we add male ones				
+			}
+
+		   #####################################################
+		   ####Court fashions
+			modifier = {
+				add = 50
+				court_fashion_level_5_trigger = {
+					CULTURE_INPUT = epe_sino_iranian_chinese
+				}
+                OR = {
+                    portrait_era1_trigger = yes  					
+                    portrait_era2_trigger = yes  				 
+                }				
+				is_female = yes # Currently we only have female Uyghur clothes, remove this line if we add male ones
+				has_cp9_dlc_trigger = yes	
+				has_fp3_dlc_trigger = yes		
+			}
+		   #####################################################			
+            modifier = {
+                add = 100
+                portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = epe_sino_iranian_chinese
+                }
+				NOT = {
+					portrait_royalty_clothing_trigger = { 
+                    CULTURE_INPUT = epe_sino_iranian_chinese
+                    }
+				}
+				NOT = {
+					portrait_imperial_clothing_trigger = { 
+                    CULTURE_INPUT = epe_sino_iranian_chinese
+                    }
+				}
+                OR = {
+                    portrait_era1_trigger = yes  					
+                    portrait_era2_trigger = yes  				 
+                }				
+				is_female = yes # Currently we only have female Uyghur clothes, remove this line if we add male ones
+				has_cp9_dlc_trigger = yes	
+				has_fp3_dlc_trigger = yes				
+            }		
+        }
+	}		
 	
 	
 	
@@ -12094,8 +12888,8 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = east_slav_commoner_clothes
-                range = { 0 0.23 } # For the randomness to work correctly
+                template = east_slav_clothes
+                range = { 0 0.18 } # For the randomness to work correctly
             }
         }   
         weight = {
@@ -12115,8 +12909,8 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = east_slav_low_nobility_clothes
-                range = { 0 0.21 } # For the randomness to work correctly
+                template = east_slav_clothes
+                range = { 0.21 0.38 } # For the randomness to work correctly
             }
         }   
         weight = {
@@ -12145,8 +12939,8 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = east_slav_high_nobility_clothes
-                range = { 0 0.23 } # For the randomness to work correctly
+                template = east_slav_clothes
+                range = { 0.40 0.57 } # For the randomness to work correctly
             }
         }       
         weight = {
@@ -12175,8 +12969,8 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = east_slav_royalty_clothes
-                range = { 0 1 } # For the randomness to work correctly
+                template = east_slav_clothes
+                range = { 0.61 0.78 } # For the randomness to work correctly
             }
         }       
         weight = {
@@ -12203,8 +12997,8 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = east_slav_royalty_clothes
-                range = { 0 1 } # For the randomness to work correctly
+                template = east_slav_clothes
+                range = { 0.61 0.78 } # For the randomness to work correctly
             }
         }       
         weight = {
@@ -12331,8 +13125,8 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = east_slav_commoner_clothes
-                range = { 0.63 1 } # For the randomness to work correctly
+                template = western_slav_balto_finnic_clothes
+                range = { 0.53 0.63 } # For the randomness to work correctly
             }
         }   
         weight = {
@@ -12352,8 +13146,8 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = east_slav_low_nobility_clothes
-                range = { 0.67 1 } # For the randomness to work correctly
+                template = western_slav_balto_finnic_clothes
+                range = { 0.66 0.76 } # For the randomness to work correctly
             }
         }   
         weight = {
@@ -12382,8 +13176,8 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = east_slav_high_nobility_clothes
-                range = { 0.64 1 } # For the randomness to work correctly
+                template = western_slav_balto_finnic_clothes
+                range = { 0.79 0.89 } # For the randomness to work correctly
             }
         }       
         weight = {
@@ -12511,8 +13305,8 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = east_slav_commoner_clothes
-                range = { 0.26 0.61 } # For the randomness to work correctly
+                template = western_slav_balto_finnic_clothes
+                range = { 0 0.11 } # For the randomness to work correctly
             }
         }   
         weight = {
@@ -12534,8 +13328,8 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = east_slav_low_nobility_clothes
-                range = { 0.23 0.64 } # For the randomness to work correctly
+                template = western_slav_balto_finnic_clothes
+                range = { 0.14 0.29 } # For the randomness to work correctly
             }
         }   
         weight = {
@@ -12565,8 +13359,8 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = east_slav_high_nobility_clothes
-                range = { 0.26 0.61 } # For the randomness to work correctly
+                template = western_slav_balto_finnic_clothes
+                range = { 0.32 0.41 } # For the randomness to work correctly
             }
         }   
         weight = {
@@ -13033,8 +13827,8 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = pol_commoner_clothes
-                range = { 0 1 } # For the randomness to work correctly
+				template = pol_west_slav_clothes
+				range = { 0 0.23 } # For the randomness to work correctly
             }
         }   
         weight = {
@@ -13061,8 +13855,8 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = pol_low_nobility_clothes
-                range = { 0 1 } # For the randomness to work correctly
+				template = pol_west_slav_clothes
+				range = { 0.25 0.48 } # For the randomness to work correctly
             }
         }   
         weight = {
@@ -13125,8 +13919,8 @@ ccp4_ugro_permian_high_nobles = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = pol_high_nobility_clothes
-                range = { 0 1 } # For the randomness to work correctly
+				template = pol_west_slav_clothes
+				range = { 0.51 0.73 } # For the randomness to work correctly
             }
         }   
         weight = {
@@ -13179,8 +13973,8 @@ ccp4_ugro_permian_high_nobles = {
 			accessory = {
 				mode = add
 				gene = clothes
-				template = pol_imperial_clothes
-				range = { 0 1 } # For the randomness to work correctly
+				template = pol_west_slav_clothes
+                accessory = m_clothes_sec_pol_imperial_01	
 			}
 		}
 		weight = {
@@ -14461,6 +15255,50 @@ ccp4_ugro_permian_high_nobles = {
 				portrait_high_nobles_trigger = {
 					CULTURE_INPUT = chinese
 				}
+				is_independent_ruler = no				
+				has_tgp_dlc_trigger = yes
+			}
+			modifier = {
+				add = 100
+				is_merit_based_official = no
+				portrait_high_nobles_trigger = {
+					CULTURE_INPUT = chinese
+				}
+				government_has_flag = government_is_celestial
+				has_tgp_dlc_trigger = yes
+			}			
+		}
+	}
+	
+	chinese_high_nobility_clothes_indepedent = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = tgp_chinese_clothes
+                accessory = m_clothes_sec_tgp_chinese_nob_01
+			}
+		}
+		weight = {
+			base = 0
+			court_fashion_level_5_modifier = { INPUT_PARAMETER = chinese }
+			modifier = {
+				add = 100
+				is_merit_based_official = no
+				portrait_high_nobles_trigger = {
+					CULTURE_INPUT = chinese
+				}
+				NOT = {
+					portrait_royalty_trigger = { 
+                    CULTURE_INPUT = chinese
+                    }
+				}
+				NOT = {
+					portrait_imperial_clothing_trigger = { 
+                    CULTURE_INPUT = chinese
+                    }
+				}	
+				is_independent_ruler = yes					
 				has_tgp_dlc_trigger = yes
 			}
 		}
@@ -14914,24 +15752,61 @@ ccp4_ugro_permian_high_nobles = {
 		}
 	}
 
-	chinese_imperial_clothes = {
+	chinese_imperial_royal_clothes = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
 				gene = clothes
 				template = tgp_chinese_clothes
-				range = { 0.23 0.29 } # For the randomness to work correctly
+				range = { 0.23 0.26 } # For the randomness to work correctly
 			}
 		}
 		weight = {
 			base = 0
 			modifier = {
-				add = 95
-				portrait_imperial_nobles_headgear_trigger = {
-					CULTURE_INPUT = chinese
+				add = 125
+				is_merit_based_official = no
+				NOT = {
+					government_has_flag = government_is_celestial
+				}			
+				OR = {
+					portrait_royalty_trigger = {
+						CULTURE_INPUT = chinese
+					}
+					portrait_imperial_clothing_trigger = {
+						CULTURE_INPUT = chinese
+					}
 				}
+				NOT = {
+					portrait_royalty_trigger = { 
+                    CULTURE_INPUT = korean
+                    }
+				}
+				NOT = {
+					portrait_imperial_trigger = { 
+                    CULTURE_INPUT = korean
+                    }
+				}				
+				NOT = {
+					primary_title ?= title:h_china
+				}				
 				has_tgp_dlc_trigger = yes
 			}
+			modifier = {
+				add = 201
+				portrait_epe_hegemony_trigger = {
+					CULTURE_INPUT = chinese
+				}
+				NOT = {
+					portrait_epe_hegemony_trigger = { 
+                    CULTURE_INPUT = korean
+                    }
+				}				
+				NOT = {
+					primary_title ?= title:h_china
+				}				
+				has_tgp_dlc_trigger = yes
+			}			
 		}
 	}
 	
@@ -14947,11 +15822,12 @@ ccp4_ugro_permian_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 120
+				add = 221
 				primary_title ?= title:h_china
 				#NOT = { exists = global_var:chinese_fashion_change }
                 ##Tang
                 portrait_era1_tang_trigger = yes 
+				has_tgp_dlc_trigger = yes				
 			}
 			modifier = {
 				add = 120
@@ -14973,18 +15849,40 @@ ccp4_ugro_permian_high_nobles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 120
+				add = 221
 				primary_title ?= title:h_china
 				has_tgp_dlc_trigger = yes
 				#exists = global_var:chinese_fashion_change
                 OR = { ##Song			
 					portrait_era2_song_trigger = yes
-					portrait_era3_trigger = yes				
-					portrait_era4_trigger = yes					
+					portrait_era3_trigger = yes								
                 }
 			}
 		}
 	}
+	
+	chinese_imperial_clothes_ming = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = tgp_chinese_clothes
+				accessory = m_clothes_sec_tgp_chinese_nob_02_ming_imp
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 221
+				primary_title ?= title:h_china
+				has_tgp_dlc_trigger = yes
+				#exists = global_var:chinese_fashion_change
+                OR = { ##Ming					
+					portrait_era4_trigger = yes					
+                }
+			}
+		}
+	}	
 ####################################################################################################
 ##################
 ###Han Chinese tarim basin/Guiyi circuit
@@ -15135,6 +16033,32 @@ ccp4_ugro_permian_high_nobles = {
 			}
 		}
 	}
+	
+	japanese_high_nobility_clothes_other_goverments = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = tgp_japanese_clothes
+				range = { 0.13 0.20 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100			
+				portrait_high_nobles_trigger_japanese = {
+					CULTURE_INPUT = japanese
+				}
+                OR = { 			
+					government_has_flag = government_is_feudal
+					government_has_flag = government_is_clan			
+					government_has_flag = government_is_tribal				
+                }				
+				has_tgp_dlc_trigger = yes
+			}
+		}
+	}	
 
 	japanese_royalty_clothes = {
 		dna_modifiers = {
@@ -15382,6 +16306,12 @@ ccp4_ugro_permian_high_nobles = {
 					CULTURE_INPUT = ainu
 				}
 				has_tgp_dlc_trigger = yes
+				has_cp7_dlc_trigger = no
+			}
+			modifier = {
+				factor = 0
+				portrait_emishi_clothing_trigger = yes
+				has_cp7_dlc_trigger = yes
 			}
 		}
 	}
@@ -15408,11 +16338,603 @@ ccp4_ugro_permian_high_nobles = {
 					}				
 				}
 				has_tgp_dlc_trigger = yes
+				has_cp7_dlc_trigger = no
+			}
+			modifier = {
+				factor = 0
+				portrait_emishi_clothing_trigger = yes
+				has_cp7_dlc_trigger = yes
 			}
 		}
 	}	
 
+	## CCP7 EMISHI AINU ##
+
+	ccp7_emishi_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = ccp7_emishi_nivkh_clothes
+				range = { 0 0.20 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_commoner_no_mayors_trigger = {
+					CULTURE_INPUT = emishi
+				}
+				has_cp7_dlc_trigger = yes
+			}
+		}
+	}
+
+	ccp7_emishi_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = ccp7_emishi_nivkh_clothes
+				range = { 0.23 0.38 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				OR = {
+					portrait_low_nobles_clothing_trigger = {
+						CULTURE_INPUT = emishi
+					}
+					portrait_mayor_trigger = {
+						CULTURE_INPUT = emishi
+					}
+				}
+				has_cp7_dlc_trigger = yes
+			}
+		}
+	}
+
+	ccp7_emishi_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = ccp7_emishi_nivkh_clothes
+				range = { 0.40 0.54 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			court_fashion_level_4_modifier = { INPUT_PARAMETER = emishi }
+			modifier = {
+				add = 100
+				portrait_high_nobles_clothing_trigger = {
+					CULTURE_INPUT = emishi
+				}
+				NOT = {
+					portrait_royalty_clothing_trigger = { 
+                    CULTURE_INPUT = emishi
+                    }
+				}
+				NOT = {
+					portrait_imperial_clothing_trigger = { 
+                    CULTURE_INPUT = emishi
+                    }
+				}				
+				has_cp7_dlc_trigger = yes
+			}
+		}
+	}
+
+	ccp7_emishi_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = ccp7_emishi_nivkh_clothes
+				range = { 0.57 0.63 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			court_fashion_level_5_modifier = { INPUT_PARAMETER = emishi }
+			modifier = {
+				add = 100
+				OR={
+					portrait_royalty_trigger = {
+						CULTURE_INPUT = emishi
+					}
+					portrait_imperial_clothing_trigger = {
+						CULTURE_INPUT = emishi
+					}
+				}
+				has_cp7_dlc_trigger = yes
+			}
+		}
+	}
+
+	## CCP7 NIVKH NANAI ##
+
+	ccp7_nivkh_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = ccp7_emishi_nivkh_clothes
+				range = { 0.71 0.89 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				portrait_commoner_clothing_trigger = {
+					CULTURE_INPUT = nivkh
+				}
+				has_cp7_dlc_trigger = yes
+			}
+		}
+	}
+
+	ccp7_nivkh_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = ccp7_emishi_nivkh_clothes
+				range = { 0.91 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				OR = {
+					portrait_low_nobles_clothing_trigger = {
+						CULTURE_INPUT = nivkh
+					}	
+					#portrait_high_nobles_clothing_trigger = {
+					#	CULTURE_INPUT = nivkh
+					#}				
+				}
+	#			has_cp7_dlc_trigger = yes
+			}
+		}
+	}
 	
+## CCP9 ##
+
+	ccp9_liao_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = ccp9_celestial_court_clothes
+				accessory = m_clothes_ccp9_lia_nob_01	
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 120
+				OR = {
+					portrait_high_nobles_clothing_trigger = {
+						CULTURE_INPUT = khitan
+					}
+					portrait_royalty_clothing_trigger = {
+						CULTURE_INPUT = khitan
+					}
+					portrait_high_nobles_clothing_trigger = {
+						CULTURE_INPUT = jurchen
+					}
+					portrait_royalty_clothing_trigger = {
+						CULTURE_INPUT = jurchen
+					}
+				}
+				has_cp9_dlc_trigger = yes
+			}
+		}
+	}	
+	
+	ccp9_dali_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = ccp9_celestial_court_clothes
+				range = { 0.10 0.23 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 500
+				portrait_high_nobles_clothing_trigger = {
+					CULTURE_INPUT = dali
+				}
+				highest_held_title_tier >= tier_kingdom
+				has_cp9_dlc_trigger = yes
+			}
+		}
+	}	
+
+	ccp9_uyghur_low_nobility_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = ccp9_celestial_court_clothes
+                accessory = f_clothes_ccp9_epe_uyghur_lo_nob_01
+                type = female
+			}
+		}
+		weight = {
+			base = 0
+		   #####################################################
+		   ####Court fashions non tgp dlc
+			modifier = {
+				add = 50
+				court_fashion_level_4_trigger = {
+					CULTURE_INPUT = epe_uyghur
+				}
+				NOT = {
+					court_fashion_level_4_trigger = { 
+                    CULTURE_INPUT = epe_gokalpbags
+					}
+				}								
+				is_female = yes # Currently we only have female Uyghur clothes, remove this line if we add male ones
+				has_cp9_dlc_trigger = yes
+				has_tgp_dlc_trigger = no					
+			}
+		   #####################################################
+			modifier = {
+				add = 50
+				portrait_low_nobles_clothing_trigger = {
+					CULTURE_INPUT = epe_uyghur
+				}
+				NOT = {
+					portrait_low_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = epe_gokalpbags
+					}
+				}							
+				is_female = yes # Currently we only have female Uyghur clothes, remove this line if we add male ones
+				has_cp9_dlc_trigger = yes
+				has_tgp_dlc_trigger = no					
+			}			
+			
+		   #####################################################
+		   ####Court fashions tgp dlc 
+			modifier = {
+				add = 50
+				court_fashion_level_4_trigger = {
+					CULTURE_INPUT = epe_uyghur
+				}
+				NOT = {
+					court_fashion_level_4_trigger = { 
+                    CULTURE_INPUT = epe_gokalpbags
+					}
+				}				
+                OR = {
+                    portrait_era1_trigger = yes  					
+                    portrait_era2_trigger = yes  				 
+                }				
+				is_female = yes # Currently we only have female Uyghur clothes, remove this line if we add male ones
+				has_cp9_dlc_trigger = yes
+				has_tgp_dlc_trigger = yes				
+			}
+		   #####################################################
+			modifier = {
+				add = 50
+				portrait_low_nobles_clothing_trigger = {
+					CULTURE_INPUT = epe_uyghur
+				}
+				NOT = {
+					portrait_low_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = epe_gokalpbags
+					}
+				}				
+                OR = {
+                    portrait_era1_trigger = yes  					
+                    portrait_era2_trigger = yes  				 
+                }				
+				is_female = yes # Currently we only have female Uyghur clothes, remove this line if we add male ones
+				has_cp9_dlc_trigger = yes
+				has_tgp_dlc_trigger = yes				
+			}
+		}
+	}
+	
+	ccp9_uyghur_high_nobility_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = ccp9_celestial_court_clothes
+                accessory = f_clothes_ccp9_epe_uyghur_hi_nob_01
+                type = female
+			}
+		}
+		weight = {
+			base = 0
+		   #####################################################
+		   ####Court fashions non tgp dlc 
+			modifier = {
+				add = 50
+				court_fashion_level_5_trigger = {
+					CULTURE_INPUT = epe_uyghur
+				}
+				NOT = {
+					court_fashion_level_5_trigger = { 
+                    CULTURE_INPUT = epe_gokalpbags
+					}
+				}					
+				is_female = yes # Currently we only have female Uyghur clothes, remove this line if we add male ones
+				has_cp9_dlc_trigger = yes				
+				has_tgp_dlc_trigger = no
+			}
+		   #####################################################
+			modifier = {
+				add = 50
+				portrait_high_nobles_clothing_trigger = {
+					CULTURE_INPUT = epe_uyghur
+				}
+				NOT = {
+					portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = epe_gokalpbags
+					}
+				}
+				NOT = {
+					portrait_royalty_clothing_trigger = { 
+                    CULTURE_INPUT = epe_gokalpbags
+					}
+				}	
+				NOT = {
+					portrait_imperial_clothing_trigger = { 
+                    CULTURE_INPUT = epe_gokalpbags
+					}
+				}					
+				NOT = {
+					portrait_royalty_clothing_trigger = { 
+                    CULTURE_INPUT = epe_uyghur
+                    }
+				}
+				NOT = {
+					portrait_imperial_clothing_trigger = { 
+                    CULTURE_INPUT = epe_uyghur
+                    }
+				}					
+				is_female = yes # Currently we only have female Uyghur clothes, remove this line if we add male ones
+				has_cp9_dlc_trigger = yes				
+				has_tgp_dlc_trigger = no
+			}			
+			
+		   #####################################################
+		   ####Court fashions tgp dlc 
+			modifier = {
+				add = 50
+				court_fashion_level_5_trigger = {
+					CULTURE_INPUT = epe_uyghur
+				}
+				NOT = {
+					court_fashion_level_5_trigger = { 
+                    CULTURE_INPUT = epe_gokalpbags
+					}
+				}					
+                OR = {
+                    portrait_era1_trigger = yes  					
+                    portrait_era2_trigger = yes  				 
+                }
+				is_female = yes # Currently we only have female Uyghur clothes, remove this line if we add male ones
+				has_cp9_dlc_trigger = yes				
+				has_tgp_dlc_trigger = yes
+			}
+		   #####################################################
+			modifier = {
+				add = 50
+				portrait_high_nobles_clothing_trigger = {
+					CULTURE_INPUT = epe_uyghur
+				}
+				NOT = {
+					portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = epe_gokalpbags
+					}
+				}
+				NOT = {
+					portrait_royalty_clothing_trigger = { 
+                    CULTURE_INPUT = epe_gokalpbags
+					}
+				}	
+				NOT = {
+					portrait_imperial_clothing_trigger = { 
+                    CULTURE_INPUT = epe_gokalpbags
+					}
+				}					
+				NOT = {
+					portrait_royalty_clothing_trigger = { 
+                    CULTURE_INPUT = epe_uyghur
+                    }
+				}
+				NOT = {
+					portrait_imperial_clothing_trigger = { 
+                    CULTURE_INPUT = epe_uyghur
+                    }
+				}					
+                OR = {
+                    portrait_era1_trigger = yes  					
+                    portrait_era2_trigger = yes  				 
+                }
+				is_female = yes # Currently we only have female Uyghur clothes, remove this line if we add male ones
+				has_cp9_dlc_trigger = yes				
+				has_tgp_dlc_trigger = yes
+			}
+		}
+	}
+
+	ccp9_uyghur_royalty_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = ccp9_celestial_court_clothes
+                accessory = f_clothes_ccp9_epe_uyghur_roy_nob_01
+                type = female
+			}
+		}
+		weight = {
+			base = 0
+			
+		   #####################################################
+		   ####non tgp dlc 			
+			modifier = {
+				add = 120
+				portrait_royalty_clothing_trigger = {
+					CULTURE_INPUT = epe_uyghur
+				}
+				NOT = {
+					portrait_royalty_clothing_trigger = { 
+                    CULTURE_INPUT = epe_gokalpbags
+					}
+				}	
+				is_female = yes # Currently we only have female Uyghur clothes, remove this line if we add male ones
+				has_cp9_dlc_trigger = yes				
+				has_tgp_dlc_trigger = no				
+			
+			}			
+		   #####################################################
+		   ####tgp dlc 			
+			modifier = {
+				add = 120
+				portrait_royalty_clothing_trigger = {
+					CULTURE_INPUT = epe_uyghur
+				}
+				NOT = {
+					portrait_royalty_clothing_trigger = { 
+                    CULTURE_INPUT = epe_gokalpbags
+					}
+				}	
+				is_female = yes # Currently we only have female Uyghur clothes, remove this line if we add male ones
+				has_cp9_dlc_trigger = yes				
+				has_tgp_dlc_trigger = yes
+				prestige_level <= 4
+                OR = {
+                    portrait_era1_trigger = yes  					
+                    portrait_era2_trigger = yes  				 
+                }				
+			
+			}
+		}
+	}
+
+	ccp9_tangut_nobility_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = ccp9_celestial_court_clothes
+                accessory = f_clothes_ccp9_tan_nob_01
+                type = female
+			}
+		}
+		weight = {
+			base = 0
+		   #####################################################
+		   ####Court fashions tgp dlc 
+			modifier = {
+				add = 80
+				court_fashion_level_5_trigger = {
+					CULTURE_INPUT = tangut
+				}				
+				has_cp9_dlc_trigger = yes				
+			}			
+			modifier = {
+				add = 80
+				portrait_high_nobles_clothing_trigger = {
+					CULTURE_INPUT = tangut
+				}
+				NOT = {
+					portrait_royalty_clothing_trigger = { 
+                    CULTURE_INPUT = tangut
+                    }
+				}
+				NOT = {
+					portrait_imperial_clothing_trigger = { 
+                    CULTURE_INPUT = tangut
+                    }
+				}					
+				has_cp9_dlc_trigger = yes
+			}
+		}
+	}
+	
+	ccp9_tangut_royalty_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = ccp9_celestial_court_clothes
+                accessory = f_clothes_ccp9_tan_roy_01
+                type = female
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 130
+				OR={
+					portrait_high_nobles_clothing_trigger = {
+						CULTURE_INPUT = tangut
+					}
+					portrait_imperial_clothing_trigger = {
+						CULTURE_INPUT = tangut
+					}
+				}
+				has_cp9_dlc_trigger = yes
+				is_female = yes
+			}
+			modifier = {
+				add = 130
+				portrait_high_nobles_clothing_trigger = {
+					CULTURE_INPUT = tangut
+				}
+				has_cp9_dlc_trigger = yes
+				highest_held_title_tier < tier_empire
+			}
+		}
+	}
+
+	ccp9_ming_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = ccp9_celestial_court_clothes
+                accessory = m_clothes_ccp9_min_nob_01
+			}
+		}
+		weight = {
+			base = 0
+			modifier = { #For the ming dynasty emperor
+				add = 201
+				OR = {
+					portrait_high_nobles_clothing_trigger = {
+						CULTURE_INPUT = chinese
+					}
+					portrait_royalty_clothing_trigger = {
+						CULTURE_INPUT = chinese
+					}
+				}
+				has_cp9_dlc_trigger = yes
+				portrait_era4_trigger = yes
+				OR = {
+					highest_held_title_tier >= tier_kingdom
+					is_female = yes
+				}
+			}
+		}
+	}	
 	
 	####Western Spymaster
 	western_spymaster_clothes = {

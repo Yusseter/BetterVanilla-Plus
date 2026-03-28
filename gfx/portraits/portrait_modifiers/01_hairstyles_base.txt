@@ -725,8 +725,14 @@ hairstyles = {
 						template = hair_wavy_no_beard
 					}					
 				}
-				portrait_steppe_clothing_trigger = yes
 				# Yusseter 0
+				OR = {
+					portrait_steppe_clothing_trigger = yes
+				 	portrait_epe_eastern_turk_clothing_trigger = yes
+				 	portrait_epe_western_turk_clothing_trigger = yes
+				 	portrait_epe_seljuk_clothing_trigger = yes
+				}
+				#portrait_steppe_clothing_trigger = yes
 				#NOT = {
 				# 	portrait_epe_eastern_turk_clothing_trigger = yes
 				#}
@@ -836,7 +842,7 @@ hairstyles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 0
+				add = 50
 				OR = {
 					NOT = { exists = this }
 					has_gene = {
@@ -870,7 +876,7 @@ hairstyles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 0
+				add = 50
 				exists = this
 				OR = {
 					has_gene = {
@@ -2290,7 +2296,7 @@ hairstyles = {
 				}
 				portrait_byzantine_clothing_trigger = yes
 				has_ep3_dlc_trigger = yes
-			}
+			}		
 			modifier = { # Women
 				add = 105
 				is_female = yes
@@ -2340,7 +2346,7 @@ hairstyles = {
 				}
 				portrait_byzantine_clothing_trigger = yes
 				has_ep3_dlc_trigger = yes
-			}
+			}			
 			modifier = { # Women
 				add = 105
 				is_female = yes
@@ -2394,7 +2400,7 @@ hairstyles = {
 				}
 				portrait_byzantine_clothing_trigger = yes
 				has_ep3_dlc_trigger = yes
-			}
+			}			
 			modifier = { # Women
 				add = 105
 				is_female = yes
@@ -2444,7 +2450,7 @@ hairstyles = {
 				}
 				portrait_byzantine_clothing_trigger = yes
 				has_ep3_dlc_trigger = yes
-			}
+			}			
 			modifier = { # Women
 				add = 105
 				is_female = yes
@@ -2494,7 +2500,7 @@ hairstyles = {
 				}
 				portrait_byzantine_clothing_trigger = yes
 				has_ep3_dlc_trigger = yes
-			}
+			}			
 			modifier = { # Women
 				add = 105
 				is_female = yes
@@ -2548,7 +2554,7 @@ hairstyles = {
 				}
 				portrait_byzantine_clothing_trigger = yes
 				has_ep3_dlc_trigger = yes
-			}
+			}				
 			modifier = { # Women
 				add = 105
 				is_female = yes
@@ -3306,17 +3312,15 @@ hairstyles = {
 				mode = add
 				gene = hairstyles
 				template = yb_muslim_turkic_hairstyles
-				range = { 0 0.83 } # For the randomness to work correctly
+				range = { 0 0.78039 } # For the randomness to work correctly
 			}
 		}
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 55
 				OR = {
-					NOT = {
-						exists = this
-					}
+					NOT = { exists = this }
 					has_gene = {
 						category = gene_hair_type
 						template = hair_straight
@@ -3329,6 +3333,14 @@ hairstyles = {
 						category = gene_hair_type
 						template = hair_straight_thin_beard
 					}
+				}
+				portrait_epe_eastern_turk_muslim_clothing_trigger = yes
+				portrait_epe_seljuk_clothing_trigger = no
+			}
+			modifier = {
+				add = 45
+				exists = this
+				OR = {
 					has_gene = {
 						category = gene_hair_type
 						template = hair_wavy
@@ -3336,12 +3348,10 @@ hairstyles = {
 					has_gene = {
 						category = gene_hair_type
 						template = hair_wavy_no_beard
-					}		
+					}
 				}
 				portrait_epe_eastern_turk_muslim_clothing_trigger = yes
-				NOT = {
-					portrait_epe_seljuk_clothing_trigger = yes
-				}
+				portrait_epe_seljuk_clothing_trigger = no
 			}
 		}
 	}
@@ -3358,11 +3368,9 @@ hairstyles = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 50
+				add = 55
 				OR = {
-					NOT = {
-						exists = this
-					}
+					NOT = { exists = this }
 					has_gene = {
 						category = gene_hair_type
 						template = hair_straight
@@ -3375,6 +3383,13 @@ hairstyles = {
 						category = gene_hair_type
 						template = hair_straight_thin_beard
 					}
+				}
+				portrait_epe_seljuk_clothing_trigger = yes
+			}
+			modifier = {
+				add = 45
+				exists = this
+				OR = {
 					has_gene = {
 						category = gene_hair_type
 						template = hair_wavy
@@ -3382,14 +3397,14 @@ hairstyles = {
 					has_gene = {
 						category = gene_hair_type
 						template = hair_wavy_no_beard
-					}		
+					}
 				}
 				portrait_epe_seljuk_clothing_trigger = yes
 			}
 		}
 	}
 
-	yb_western_turk_braid = { # Yusseter
+	yb_western_turkic_straight = { # Yusseter
 		dna_modifiers = {
 			accessory = {
 				mode = add
@@ -3403,9 +3418,7 @@ hairstyles = {
 			modifier = {
 				add = 55
 				OR = {
-					NOT = {
-						exists = this
-					}
+					NOT = { exists = this }
 					has_gene = {
 						category = gene_hair_type
 						template = hair_straight
@@ -3430,7 +3443,7 @@ hairstyles = {
                 mode = add
                 gene = hairstyles
                 template = turkic_hairstyles_straight
-                range = { 0 0.8 } # Yusseter
+				range = { 0 0.78823 } # Yusseter
                 #range = { 0 1 } # For the randomness to work correctly
             }
         }   
@@ -3469,11 +3482,9 @@ hairstyles = {
                             portrait_era2_trigger = yes  	
                         }
 					}		
-                    portrait_epe_uyghur_clothing_trigger = yes					
+                    #portrait_epe_uyghur_clothing_trigger = yes					
 				}				
-				NOT = { # Yusseter
-					portrait_epe_western_turk_clothing_trigger = yes
-				}
+				portrait_epe_western_turk_clothing_trigger = no # Yusseter
             }
         }
     }
@@ -3517,7 +3528,7 @@ hairstyles = {
                             portrait_era3_trigger = yes  							
                         }
 					}		
-                    portrait_epe_uyghur_clothing_trigger = yes					
+                    #portrait_epe_uyghur_clothing_trigger = yes					
 				}
             }
         }
@@ -3741,7 +3752,6 @@ hairstyles = {
 					  portrait_epe_seljuk_clothing_trigger = yes
                          OR = {		
                             portrait_era3_trigger = yes  
-                            portrait_era4_trigger = yes  
                         }
 					}						
 				}				
@@ -3778,8 +3788,7 @@ hairstyles = {
 					AND = {
 					  portrait_epe_seljuk_clothing_trigger = yes
                          OR = {		
-                            portrait_era3_trigger = yes  
-                            portrait_era4_trigger = yes  
+                            portrait_era3_trigger = yes   
                         }
 					}						
 				}
@@ -3817,7 +3826,6 @@ hairstyles = {
 					  portrait_epe_seljuk_clothing_trigger = yes
                          OR = {		
                             portrait_era3_trigger = yes  
-                            portrait_era4_trigger = yes  
                         }
 					}
 					portrait_chinese_clothing_trigger = yes
@@ -4406,7 +4414,7 @@ hairstyles = {
 					}
 				}
 				is_female = yes
-                portrait_epe_khitan_clothing_trigger = yes # Yusseter
+                portrait_yb_khitan_clothing_trigger = yes # Yusseter
 				#portrait_steppe_clothing_trigger = yes
 				#OR = {
 				#	culture = culture:khitan
@@ -4725,6 +4733,106 @@ hairstyles = {
 			}
 		}
 	}
+	
+	cp7_hairstyles_emishi_straight = {  # very similar to tgp ainu stuff above but checks for hair type genes - i made this before the gene tgp gene was added so i consolidated them together for cp7 --aj
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = cp7_emishi_ainu_hairstyles_straight_wavy
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}   
+		weight = {
+			base = 0
+			modifier = {
+				add = 165
+				OR = {
+					has_gene = {
+						category = gene_hair_type
+						template = hair_straight_thin_beard
+					}
+					has_gene = {
+						category = gene_hair_type
+						template = hair_straight
+					}
+					has_gene = {
+						category = gene_hair_type
+						template = hair_wavy
+					}
+				}
+				portrait_emishi_clothing_trigger = yes
+			}
+		}
+	}
+	cp7_hairstyles_emishi_curly = { 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = cp7_emishi_ainu_hairstyles_curly_afro
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}   
+		weight = {
+			base = 0
+			modifier = {
+				add = 165
+				OR = {
+					has_gene = {
+						category = gene_hair_type
+						template = hair_curly
+					}
+					has_gene = {
+						category = gene_hair_type
+						template = hair_afro
+					}
+				}
+				portrait_emishi_clothing_trigger = yes
+			}
+		}
+	}
+	
+	ccp9_uighur_hairstyles = { 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = ccp9_uighur_hairstyles
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}   
+		weight = {
+			base = 0
+			modifier = {
+				add = 55
+				OR = {
+					has_gene = {
+						category = gene_hair_type
+						template = hair_straight
+					}
+					has_gene = {
+						category = gene_hair_type
+						template = hair_straight_no_beard
+					}
+					has_gene = {
+						category = gene_hair_type
+						template = hair_straight_thin_beard
+					}
+					has_gene = {
+						category = gene_hair_type
+						template = hair_wavy
+					}
+					has_gene = {
+						category = gene_hair_type
+						template = hair_wavy_no_beard
+					}					
+				}
+				portrait_epe_uyghur_clothing_trigger = yes
+			}
+		}
+	}
+
 	
 ####################################################################################################
 ##################
@@ -5122,7 +5230,6 @@ hairstyles = {
 					  portrait_epe_seljuk_clothing_trigger = yes
                          OR = {		
                             portrait_era3_trigger = yes  
-                            portrait_era4_trigger = yes  
                         }
 					}						
 				}
@@ -5629,6 +5736,220 @@ hairstyles = {
 		}
 	}	
 	
+##########################################################################
+####Ottoman Turk era4
+##########################################################################	
+
+
+				
+    ottoman_straight_era4 = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = ottomans_hairstyles_era4
+                range = { 0 0.35 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 55
+				OR = {
+					NOT = {
+						exists = this
+					}
+					has_gene = {
+						category = gene_hair_type
+						template = hair_straight
+					}
+					has_gene = {
+						category = gene_hair_type
+						template = hair_straight_no_beard
+					}
+					has_gene = {
+						category = gene_hair_type
+						template = hair_straight_thin_beard
+					}
+				}
+				OR = {							
+					AND = {
+						portrait_yb_ottoman_clothing_trigger = yes # Yusseter
+					  	#portrait_epe_seljuk_clothing_trigger = yes
+                        OR = {		
+                            portrait_era4_trigger = yes  	
+                        }
+					}					
+				}				
+            }
+        }
+    }
+
+    ottoman_wavy_era4 = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = ottomans_hairstyles_era4
+                range = { 0.36 0.78 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 55
+                exists = this
+				OR = {
+					has_gene = {
+						category = gene_hair_type
+						template = hair_wavy
+					}
+					has_gene = {
+						category = gene_hair_type
+						template = hair_wavy_no_beard
+					}
+				}
+				OR = {							
+					AND = {
+						portrait_yb_ottoman_clothing_trigger = yes # Yusseter
+					  	#portrait_epe_seljuk_clothing_trigger = yes
+                        OR = {		
+                            portrait_era4_trigger = yes  	
+                        }
+					}					
+				}
+            }
+        }
+    }
+
+    ottoman_curly_era4 = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = ottomans_hairstyles_era4
+                range = { 0.79 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 55
+                exists = this
+				OR = {
+					has_gene = {
+						category = gene_hair_type
+						template = hair_curly
+					}
+					has_gene = {
+						category = gene_hair_type
+						template = hair_curly_no_beard
+					}
+				}
+				OR = {							
+					AND = {
+						portrait_yb_ottoman_clothing_trigger = yes # Yusseter
+					  	#portrait_epe_seljuk_clothing_trigger = yes
+                        OR = {		
+                            portrait_era4_trigger = yes  	
+                        }
+					}					
+				}
+            }
+        }
+    }
+
+
+
+	western_warrior = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = epe_western_hairstyles_warrior
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}   
+		weight = {
+			base = 0
+			modifier = {
+				add = 150
+				exists = this
+				OR = {
+					has_gene = {
+						category = gene_hair_type
+						template = hair_straight
+					}
+					has_gene = {
+						category = gene_hair_type
+						template = hair_straight_no_beard
+					}						
+					has_gene = {
+						category = gene_hair_type
+						template = hair_straight_thin_beard
+					}				
+					has_gene = {
+						category = gene_hair_type
+						template = hair_wavy
+					}
+					has_gene = {
+						category = gene_hair_type
+						template = hair_wavy_no_beard
+					}
+					has_gene = {
+						category = gene_hair_type
+						template = hair_curly
+					}
+					has_gene = {
+						category = gene_hair_type
+						template = hair_curly_no_beard
+					}					
+				}
+				
+				OR = {
+					portrait_has_trait_trigger = { TRAIT = education_martial_4 }
+					portrait_has_trait_trigger = { TRAIT = education_martial_5 }
+					AND = {
+					  	#is_ruler = yes
+                        OR = {	
+					        portrait_has_trait_trigger = { TRAIT = education_martial_1 }						
+					        portrait_has_trait_trigger = { TRAIT = education_martial_2 }
+					        portrait_has_trait_trigger = { TRAIT = education_martial_3 }
+					        portrait_has_trait_trigger = { TRAIT = education_martial_4 }	
+					        portrait_has_trait_trigger = { TRAIT = education_martial_5 }								
+                        }						
+                        OR = {		
+				            has_realm_law = camp_purpose_mercenaries
+				            has_realm_law = camp_purpose_brigands	
+				            government_has_flag = government_is_mercenary								
+                        }
+					}						
+				}
+                OR = {
+                    portrait_era3_trigger = yes  
+                    portrait_era4_trigger = yes   				 
+                }					
+				is_female = yes	
+				age > 16
+                OR = {
+				    portrait_western_clothing_trigger = yes				
+					portrait_epe_norse_clothing_trigger = yes
+				}				
+			}
+            modifier = {
+                add = -100
+                exists = this
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
+            }		
+		}
+	}
+
+
+
+
 	
 	
 	

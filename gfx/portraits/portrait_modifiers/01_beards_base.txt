@@ -1695,37 +1695,32 @@ beards = {
             modifier = {
                 add = 70
 				exists = this
-                # Yusseter 0
+				has_gene = {
+					category = gene_hair_type
+					template = hair_straight_thin_beard
+				}
                 OR = {
-                    AND = {
-                        portrait_epe_eastern_turk_clothing_trigger = yes	
-                        has_gene = {
-                            category = gene_hair_type
-                            template = hair_straight_thin_beard
+                    portrait_epe_eastern_turk_clothing_trigger = yes	
+					AND = {
+					  portrait_epe_seljuk_clothing_trigger = yes
+                         OR = {		
+                            portrait_era1_trigger = yes  							
                         }
-                    }
-                    AND = {
-                        portrait_epe_eastern_turk_clothing_trigger = yes
-                        portrait_epe_western_turk_clothing_trigger = no
-                        has_gene = {
-                            category = gene_hair_type
-                            template = hair_curly
-                        }
-                    }
+					}						
                 }
-				#has_gene = {
-				#	category = gene_hair_type
-				#	template = hair_straight_thin_beard
-				#}
-                #OR = {
-                #    portrait_epe_eastern_turk_clothing_trigger = yes				
-                #}
-                # Yusseter 1
             }
             modifier = { # Muslims should always have a beard
                 add = 200
                 scope:faith.religion = religion:islam_religion
-                portrait_epe_eastern_turk_clothing_trigger = yes
+                OR = {
+                    portrait_epe_eastern_turk_clothing_trigger = yes	
+					AND = {
+					  portrait_epe_seljuk_clothing_trigger = yes
+                         OR = {		
+                            portrait_era1_trigger = yes  							
+                        }
+					}						
+                }
             }
             modifier = {
                 add = -100
@@ -1735,6 +1730,15 @@ beards = {
                     has_character_flag = has_scripted_appearance
                 }
             }
+			modifier = { # Yusseter
+				add = 30
+				exists = this
+				has_gene = {
+					category = gene_hair_type
+					template = hair_straight_thin_beard
+				}
+				portrait_epe_uyghur_clothing_trigger = yes
+			}
         }
     }	
 	
@@ -1764,27 +1768,21 @@ beards = {
                     }            
                 }
 				OR = {							
-                    portrait_epe_eastern_turk_clothing_trigger = yes	
-					AND = {
-					  portrait_epe_seljuk_clothing_trigger = yes
-                         OR = {		
-                            portrait_era1_trigger = yes  							
-                        }
-					}						
+                    portrait_epe_eastern_turk_clothing_trigger = yes							
 				}
+				NOT = {
+				 	portrait_epe_seljuk_clothing_trigger = yes
+				}				
             }
             modifier = { # Muslims should always have a beard
                 add = 200
                 scope:faith.religion = religion:islam_religion
 				OR = {							
-                    portrait_epe_eastern_turk_clothing_trigger = yes	
-					AND = {
-					  portrait_epe_seljuk_clothing_trigger = yes
-                         OR = {		
-                            portrait_era1_trigger = yes  							
-                        }
-					}						
+                    portrait_epe_eastern_turk_clothing_trigger = yes							
 				}
+				NOT = {
+				 	portrait_epe_seljuk_clothing_trigger = yes
+				}				
             }
             modifier = {
                 add = -100
@@ -1823,7 +1821,59 @@ beards = {
                     }            
                 }
 				OR = {							
-                    portrait_epe_western_turk_clothing_trigger = yes # Yusseter: portrait_epe_eastern_turk_clothing_trigger = yes	
+                    portrait_epe_eastern_turk_clothing_trigger = yes						
+				}
+				NOT = {
+				 	portrait_epe_seljuk_clothing_trigger = yes
+				}				
+            }
+            modifier = { # Muslims should always have a beard
+                add = 200
+                scope:faith.religion = religion:islam_religion
+				OR = {							
+                    portrait_epe_eastern_turk_clothing_trigger = yes							
+				}
+				NOT = {
+				 	portrait_epe_seljuk_clothing_trigger = yes
+				}				
+            }
+            modifier = {
+                add = -100
+                exists = this
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
+            }
+        }
+    }	
+	
+    seljuk_turkic_straight_era1 = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = turkic_beards_straight
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        # outfit_tags = { no_clothes }
+        weight = {
+            base = 0
+            modifier = {
+                add = 70
+                OR = {
+                    NOT = { exists = this }
+                    has_gene = {
+                        category = gene_hair_type
+                        template = hair_straight
+                    }       
+                    has_gene = {
+                        category = gene_hair_type
+                        template = hair_wavy
+                    }            
+                }
+				OR = {							
 					AND = {
 					  portrait_epe_seljuk_clothing_trigger = yes
                          OR = {		
@@ -1836,7 +1886,65 @@ beards = {
                 add = 200
                 scope:faith.religion = religion:islam_religion
 				OR = {							
-                     portrait_epe_western_turk_clothing_trigger = yes # Yusseter: portrait_epe_eastern_turk_clothing_trigger = yes	
+					AND = {
+					  portrait_epe_seljuk_clothing_trigger = yes
+                         OR = {		
+                            portrait_era1_trigger = yes  							
+                        }
+					}						
+				}
+            }
+            modifier = {
+                add = -100
+                exists = this
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
+            }
+        }
+    }
+
+    seljuk_turkic_curly_era1 = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = turkic_beards_curly
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        # outfit_tags = { no_clothes }
+        weight = {
+            base = 0
+            modifier = {
+                add = 70
+                OR = {
+                    NOT = { exists = this }
+                    # has_gene = { # Yusseter
+                    #    category = gene_hair_type
+                    #    template = hair_wavy
+                    #}       
+                     has_gene = {
+                        category = gene_hair_type
+                        template = hair_curly
+                    }            
+                }
+				OR = {							
+                    portrait_epe_western_turk_clothing_trigger = yes # Yusseter
+					AND = {
+					  portrait_epe_seljuk_clothing_trigger = yes
+                         OR = {		
+                            portrait_era1_trigger = yes  							
+                        }
+					}						
+				}
+            }
+            modifier = { # Muslims should always have a beard
+                add = 200
+                scope:faith.religion = religion:islam_religion
+				OR = {							
+                     portrait_epe_western_turk_clothing_trigger = yes # Yusseter
 					AND = {
 					  portrait_epe_seljuk_clothing_trigger = yes
                          OR = {		
@@ -2089,7 +2197,7 @@ beards = {
                 portrait_epe_balto_finnic_clothing_trigger = yes
                 portrait_sami_clothing_trigger = yes
                 portrait_ugro_permian_clothing_trigger = yes				
-                #portrait_epe_sino_iranian_clothing_trigger = yes # Yusseter					
+                #portrait_epe_sino_iranian_clothing_trigger = yes # Yusseter
                 }				
             }
             modifier = {
@@ -2332,7 +2440,7 @@ beards = {
 						template = hair_wavy
 					}
 				}
-                portrait_epe_khitan_clothing_trigger = yes # Yusseter
+                portrait_yb_khitan_clothing_trigger = yes # Yusseter
 				#portrait_steppe_clothing_trigger = yes
 				#OR = {
 				#	culture = culture:khitan
@@ -2724,7 +2832,6 @@ beards = {
 					  portrait_epe_seljuk_clothing_trigger = yes
                          OR = {		
                             portrait_era3_trigger = yes  
-                            portrait_era4_trigger = yes  
                         }
 					}						
                 }
@@ -2741,7 +2848,6 @@ beards = {
 					  portrait_epe_seljuk_clothing_trigger = yes
                          OR = {		
                             portrait_era3_trigger = yes  
-                            portrait_era4_trigger = yes  
                         }
 					}					
                 }
@@ -2791,7 +2897,6 @@ beards = {
 					  portrait_epe_seljuk_clothing_trigger = yes
                          OR = {		
                             portrait_era3_trigger = yes  
-                            portrait_era4_trigger = yes  
                         }
 					}						
                 }
@@ -2808,7 +2913,6 @@ beards = {
 					  portrait_epe_seljuk_clothing_trigger = yes
                          OR = {		
                             portrait_era3_trigger = yes  
-                            portrait_era4_trigger = yes  
                         }
 					}					
                 }
@@ -3356,18 +3460,28 @@ beards = {
                 has_sp4_dlc_trigger = yes
             }
             modifier = {
-                add = 20 # Yusseter
-                #add = 30
+                add = 0 # Yusseter: 30
                 OR = {
-                    AND = { # Yusseter
-                        scope:faith.religion = religion:islam_religion
-                        portrait_turkic_clothing_trigger = yes
-                    }
-                    #portrait_turkic_clothing_trigger = yes
-                    portrait_epe_seljuk_clothing_trigger = yes
+					AND = {
+					  portrait_epe_seljuk_clothing_trigger = yes
+                         OR = {		
+                            portrait_era2_trigger = yes  
+                            portrait_era3_trigger = yes 
+                        }
+					}
                 }				
                 has_sp4_dlc_trigger = yes
             }
+            modifier = {
+                add = 0 # Yusseter: 30
+                OR = {
+                    portrait_turkic_clothing_trigger = yes
+                }	
+				NOT = {
+				 	portrait_epe_seljuk_clothing_trigger = yes
+				}					
+                has_sp4_dlc_trigger = yes
+            }			
             modifier = {
                 factor = 0
                 NOR = {
@@ -3429,6 +3543,119 @@ beards = {
             }
         }
     }
+	
+	
+    ### Ottomans era4 Beards ###
+
+    epe_ottomans_beards_straight = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = ottomans_beards_era4
+                range = { 0 0.57 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+			  ####Ottomans
+                add = 70
+                OR = {
+                    NOT = { exists = this }
+                     has_gene = {
+                        category = gene_hair_type
+                        template = hair_straight
+                    }       
+                    has_gene = {
+                        category = gene_hair_type
+                        template = hair_wavy
+                    } 
+                }
+				# Yusseter 0
+                portrait_yb_ottoman_clothing_trigger = yes
+				OR = {
+					portrait_era3_trigger = yes
+					portrait_era4_trigger = yes
+				}
+                #portrait_epe_seljuk_clothing_trigger = yes
+				#portrait_era4_trigger = yes 
+				# Yusseter 1
+            }
+            modifier = { # Muslims should always have a beard
+                add = 200
+                scope:faith.religion = religion:islam_religion
+				# Yusseter 0
+				portrait_yb_ottoman_clothing_trigger = yes # Yusseter
+				OR = {
+					portrait_era3_trigger = yes
+					portrait_era4_trigger = yes
+				}
+                #OR = {
+				#	portrait_epe_seljuk_clothing_trigger = yes
+				#}
+				#portrait_era4_trigger = yes 			
+				# Yusseter 1
+            }			
+            modifier = {
+                add = -100
+                exists = this
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
+            }
+        }
+    }
+
+    epe_ottomans_beards_curly = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = ottomans_beards_era4
+                range = { 0.60 1 } # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+			  ####Ottomans
+                add = 70
+                OR = {
+                    NOT = { exists = this }
+                    # has_gene = { # Yusseter
+                    #    category = gene_hair_type
+                    #    template = hair_wavy
+                    #}       
+                    has_gene = {
+                        category = gene_hair_type
+                        template = hair_curly
+                    } 
+                }
+				portrait_yb_ottoman_clothing_trigger = yes # Yusseter
+                #portrait_epe_seljuk_clothing_trigger = yes
+				portrait_era4_trigger = yes 
+            }
+            modifier = { # Muslims should always have a beard
+                add = 200
+                scope:faith.religion = religion:islam_religion
+				portrait_yb_ottoman_clothing_trigger = yes # Yusseter
+                #OR = {
+				#	portrait_epe_seljuk_clothing_trigger = yes
+				#}
+				portrait_era4_trigger = yes 			
+            }			
+            modifier = {
+                add = -100
+                exists = this
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
+            }
+        }
+    }	
 
 
 }

@@ -2,7 +2,7 @@
 
 	usage = game
 	selection_behavior = max
-	priority = 3
+	priority = 5
 
 	1066_kokotoy = {
 		dna_modifiers = {
@@ -34,6 +34,18 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
+				gene = beards
+				template = mpo_mongol_beards
+				accessory = m_beard_mpo_mongol_04
+			}
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = mpo_mongol_hairstyles
+				accessory = m_hair_mpo_mongol_03
+			}
+			accessory = {
+				mode = add
 				gene = legwear
 				template = mena_nobility_legwear
 				accessory = male_legwear_secular_mena_nobility_01
@@ -41,7 +53,7 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = fp3_turkic_royalty
+				template = eastern_turkic_headgear
 				accessory = Male_Turkic_Eagle_Crown_01
 			}
 			accessory = {
@@ -92,6 +104,18 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
+				gene = beards
+				template = mpo_mongol_beards
+				accessory = m_beard_mpo_mongol_02
+			}
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = mpo_mongol_hairstyles
+				accessory = m_hair_mpo_mongol_02
+			}
+			accessory = {
+				mode = add
 				gene = legwear
 				template = mena_nobility_legwear
 				accessory = male_legwear_secular_mena_nobility_01
@@ -99,20 +123,25 @@
 			accessory = {
 				mode = add
 				gene = clothes
-				template = epe_turkic_high_nobility_clothes
+				template = eastern_turkic_clothes
 				accessory = male_clothes_turkic_nobility_01a_high
 			}
 			accessory = {
 				mode = add
 				gene = headgear
-				template = fp3_turkic_royalty
+				template = eastern_turkic_headgear
 				accessory = male_Turkic_Eagle_Crown_02
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
 			}
 		}
 		weight = {
 			base = 0
 			modifier = {
-				add = 10000
+				add = 10001
 				exists = this
 				exists = character:144107
 				this = character:144107
@@ -156,6 +185,24 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
+				gene = beards
+				template = turkic_thin_beards_straight
+				accessory = m_beard_mpo_mongol_02
+			}
+			#accessory = {
+			#	mode = add
+			#	gene = beards
+			#	template = mena_beards_straight
+			#	accessory = mena_islamic_pointed_beard_03
+			#}
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = fp3_hairstyles_turkic_straight
+				accessory = m_hair_fp3_iranian_01
+			}
+			accessory = {
+				mode = add
 				gene = legwear
 				template = mena_nobility_legwear
 				accessory = male_legwear_secular_mena_nobility_01
@@ -163,7 +210,7 @@
 			accessory = {
 				mode = add
 				gene = clothes
-				template = epe_turkic_high_nobility_clothes
+				template = western_turkic_clothes
 				accessory = m_clothes_fp3_Cuman_nobility_04_high
 			}
 			accessory = {
@@ -181,7 +228,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 10000
+				add = 10001
 				exists = this
 				OR = {
 					exists = character:806
@@ -219,7 +266,7 @@
 			accessory = {
 				mode = add
 				gene = clothes
-				template = mpo_mongol_royalty_clothes
+				template = mpo_mongol_clothes
 				accessory = m_clothes_sec_mpo_mongol_roy_01
 			}
 			accessory = {
@@ -227,6 +274,11 @@
 				gene = headgear
 				template = ep1_steppe_royalty
 				accessory = male_headgear_secular_ep1_mena_royalty_01
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
 			}
 		}
 		weight = {
@@ -264,20 +316,25 @@
 			accessory = {
 				mode = add
 				gene = clothes
-				template = mpo_mongol_royalty_clothes
+				template = mpo_mongol_clothes
 				accessory = m_clothes_sec_mpo_mongol_roy_01
 			}
 			accessory = {
 				mode = add
 				gene = headgear
-				template = mpo_mongol_royalty
+				template = mpo_mongol_headgear
 				accessory = m_headgear_sec_mpo_mongol_roy_01
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
 			}
 		}
 		weight = {
 			base = 0
 			modifier = {
-				add = 10000
+				add = 10001
 				exists = this
 				exists = character:naiman_guchugud_1
 				this = character:naiman_guchugud_1
@@ -309,14 +366,19 @@
 			accessory = {
 				mode = add
 				gene = clothes
-				template = mpo_mongol_low_nobility_clothes
+				template = mpo_mongol_clothes
 				accessory = m_clothes_sec_mpo_mongol_nob_01_lo
 			}
 			accessory = {
 				mode = add
 				gene = headgear
-				template = mpo_mongol_nobility
+				template = mpo_mongol_headgear
 				accessory = m_headgear_sec_mpo_mongol_nob_01
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
 			}
 		}
 		weight = {
@@ -354,7 +416,7 @@
 			accessory = {
 				mode = add
 				gene = clothes
-				template = mpo_mongol_low_nobility_clothes
+				template = mpo_mongol_clothes
 				accessory = m_clothes_sec_mpo_mongol_nob_01_lo
 			}
 			accessory = {
@@ -362,6 +424,11 @@
 				gene = headgear
 				template = steppe_high_nobility
 				accessory = male_headgear_secular_steppe_nobility_01
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
 			}
 		}
 		weight = {
@@ -407,6 +474,18 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
+				gene = beards
+				template = mpo_mongol_beards
+				accessory = m_beard_mpo_mongol_06
+			}
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = mpo_mongol_hairstyles
+				accessory = m_hair_mpo_mongol_01
+			}
+			accessory = {
+				mode = add
 				gene = legwear
 				template = mena_war_legwear
 				accessory = male_legwear_secular_mena_war_nobility_01
@@ -414,14 +493,19 @@
 			accessory = {
 				mode = add
 				gene = clothes
-				template = mpo_mongol_war_nobility_clothes
+				template = mpo_mongol_clothes
 				accessory = m_clothes_sec_mpo_mongol_war_01
 			}
 			accessory = {
 				mode = add
 				gene = headgear
-				template = mpo_mongol_war_nobility
+				template = mpo_mongol_headgear
 				accessory = m_headgear_sec_mpo_mongol_war_nob_01
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
 			}
 		}
 		weight = {
@@ -497,7 +581,7 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = fp3_turkic_imperial
+				template = eastern_turkic_headgear
 				accessory = male_Turkic_Eagle_Crown_02
 			}
 			accessory = {
@@ -520,7 +604,7 @@
 		}
 	}
 
-	3040_alp_arslan_start = {
+	3040_alp_arslan = { #3040_alp_arslan_start
 		dna_modifiers = {
 			accessory = {
 				mode = add
@@ -550,8 +634,20 @@
 			}
 		}
 	}
-	3040_alp_arslan_imperial = {
+	3040_alp_arslan_start = { #3040_alp_arslan_imperial
 		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = beards
+				template = mpo_mongol_beards
+				accessory = m_beard_mpo_mongol_02
+			}
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = mpo_mongol_hairstyles
+				accessory = m_hair_mpo_mongol_01
+			}
 			accessory = {
 				mode = add
 				gene = legwear
@@ -567,7 +663,7 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = fp3_turkic_imperial
+				template = seljuk_turkic_headgear
 				accessory = male_headgear_secular_steppe_royalty_01b
 			}
 			accessory = {
@@ -579,7 +675,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 10000
+				add = 10001
 				exists = this
 				exists = character:3040
 				this = character:3040
@@ -629,8 +725,20 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
+				gene = beards
+				template = mpo_mongol_beards
+				accessory = m_beard_mpo_mongol_03
+			}
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = turkic_hairstyles_straight
+				accessory = male_hair_turkic_03
+			}
+			accessory = {
+				mode = add
 				gene = headgear
-				template = fp3_turkic_war
+				template = turkic_war
 				accessory = male_Seljuk_Helmet_Hat_01_war
 			}
 			accessory = {
@@ -642,7 +750,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 10000
+				add = 10001
 				exists = this
 				exists = character:144051
 				this = character:144051
@@ -666,16 +774,11 @@
 				template = turkic_hairstyles_straight
 				accessory = male_hair_turkic_03
 			}
-			accessory = {
-				mode = add
-				gene = headgear_2
-				template = no_headgear
-			}
 		}
 		weight = {
 			base = 0
 			modifier = {
-				add = 10000
+				add = 9999
 				exists = this
 				exists = character:125501
 				this = character:125501
@@ -691,6 +794,12 @@
 				gene = beards
 				template = mpo_mongol_beards
 				accessory = m_beard_mpo_mongol_02
+			}
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = turkic_hairstyles_straight
+				accessory = male_hair_turkic_03
 			}
 		}
 		weight = {
@@ -709,21 +818,38 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = headgear
-				template = mpo_mongol_commoner
-				accessory = m_headgear_sec_mpo_mongol_com_01
+				gene = beards
+				template = mpo_mongol_beards
+				accessory = m_beard_mpo_mongol_02
+			}
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = turkic_hairstyles_straight
+				accessory = male_hair_turkic_03
 			}
 			accessory = {
 				mode = add
 				gene = clothes
-				template = mpo_mongol_high_nobility_clothes
+				template = mpo_mongol_clothes
 				accessory = m_clothes_sec_mpo_mongol_nob_01_hi
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = mpo_mongol_headgear
+				accessory = m_headgear_sec_mpo_mongol_com_01
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
 			}
 		}
 		weight = {
 			base = 0
 			modifier = {
-				add = 10000
+				add = 10001
 				exists = this
 				exists = character:125501
 				this = character:125501
@@ -738,21 +864,38 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = headgear
-				template = eastern_turk_low_nobility
-				accessory = male_Turkic_Fur_Cap_05
+				gene = beards
+				template = mpo_mongol_beards
+				accessory = m_beard_mpo_mongol_02
+			}
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = turkic_hairstyles_straight
+				accessory = male_hair_turkic_03
 			}
 			accessory = {
 				mode = add
 				gene = clothes
-				template = mpo_mongol_royalty_clothes
+				template = mpo_mongol_clothes
 				accessory = m_clothes_sec_mpo_mongol_roy_01
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = mpo_mongol_headgear
+				accessory = male_Turkic_Fur_Cap_05
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
 			}
 		}
 		weight = {
 			base = 0
 			modifier = {
-				add = 10000
+				add = 10001
 				exists = this
 				exists = character:125501
 				this = character:125501
@@ -767,21 +910,38 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = headgear
-				template = eastern_turk_imperial
-				accessory = male_Turkic_Eagle_Crown_02_02
+				gene = beards
+				template = mpo_mongol_beards
+				accessory = m_beard_mpo_mongol_02
+			}
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = turkic_hairstyles_straight
+				accessory = male_hair_turkic_03
 			}
 			accessory = {
 				mode = add
 				gene = clothes
-				template = mpo_mongol_imperial_clothes
+				template = mpo_mongol_clothes
 				accessory = m_clothes_sec_mpo_mongol_imp_01
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = mpo_mongol_headgear
+				accessory = male_Turkic_Eagle_Crown_02_02
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
 			}
 		}
 		weight = {
 			base = 0
 			modifier = {
-				add = 10000
+				add = 10001
 				exists = this
 				exists = character:125501
 				this = character:125501
@@ -880,6 +1040,18 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
+				gene = beards
+				template = mpo_mongol_beards
+				accessory = m_beard_mpo_mongol_02
+			}
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = steppe_hairstyles_straight
+				accessory = cfp_male_hair_steppe_04
+			}
+			accessory = {
+				mode = add
 				gene = legwear
 				template = mena_common_legwear
 				accessory = male_legwear_secular_mena_common_01
@@ -887,13 +1059,13 @@
 			accessory = {
 				mode = add
 				gene = clothes
-				template = mpo_mongol_commoner_clothes
+				template = mpo_mongol_clothes
 				accessory = m_clothes_sec_mpo_mongol_com_01
 			}
 			accessory = {
 				mode = add
 				gene = headgear
-				template = fp3_turkic_common
+				template = eastern_turkic_headgear
 				accessory = male_Turkic_Fur_Cap_05
 			}
 			accessory = {
@@ -905,7 +1077,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 10000
+				add = 10001
 				exists = this
 				exists = character:yenisei_kirghiz_001
 				this = character:yenisei_kirghiz_001
@@ -948,6 +1120,18 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
+				gene = beards
+				template = seljuk_thin_beards_straight
+				accessory = male_beard_custom_03
+			}
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = yb_muslim_turkic_hairstyles
+				accessory = male_hair_turkic_02
+			}
+			accessory = {
+				mode = add
 				gene = legwear
 				template = mena_nobility_legwear
 				accessory = male_legwear_secular_mena_nobility_01
@@ -955,13 +1139,13 @@
 			accessory = {
 				mode = add
 				gene = clothes
-				template = epe_turkic_high_nobility_clothes
+				template = seljuk_turkic_clothes
 				accessory = male_clothes_secular_seljuk_nobility_01_high
 			}
 			accessory = {
 				mode = add
 				gene = headgear
-				template = fp3_turkic_royalty
+				template = seljuk_turkic_headgear
 				accessory = male_headgear_secular_steppe_royalty_01a
 			}
 			accessory = {
@@ -973,14 +1157,11 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 10000
+				add = 10001
 				exists = this
 				exists = character:225000
 				this = character:225000
 				age >= 18
-				portrait_royalty_clothing_trigger = {
-					CULTURE_INPUT = epe_seljuk
-				}
 			}
 		}
 	}
@@ -1016,6 +1197,18 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
+				gene = beards
+				template = steppe_beards_straight
+				accessory = male_beard_turkic_01
+			}
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = turkic_hairstyles_straight
+				accessory = male_hair_turkic_01
+			}
+			accessory = {
+				mode = add
 				gene = legwear
 				template = mena_nobility_legwear
 				accessory = male_legwear_secular_mena_nobility_01
@@ -1029,7 +1222,7 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = fp3_turkic_royalty
+				template = eastern_turkic_headgear
 				accessory = male_headgear_secular_steppe_royalty_01b
 			}
 			accessory = {
@@ -1041,7 +1234,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 10000
+				add = 10001
 				exists = this
 				exists = character:7299
 				this = character:7299
@@ -1130,7 +1323,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 100
+				add = 10000
 				exists = this
 				exists = character:3046
 				this = character:3046
@@ -1156,13 +1349,13 @@
 			accessory = {
 				mode = add
 				gene = clothes
-				template = epe_turkic_high_nobility_clothes
+				template = eastern_turkic_clothes
 				accessory = m_clothes_fp3_seljuk_nobility_07_high
 			}
 			accessory = {
 				mode = add
 				gene = headgear
-				template = fp3_turkic_high_nobility
+				template = eastern_turkic_headgear
 				accessory = m_headgear_sec_fp3_turkic_nob_02
 			}
 			accessory = {
@@ -1174,7 +1367,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 100
+				add = 10001
 				exists = this
 				exists = character:3046
 				this = character:3046
@@ -1203,7 +1396,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 100
+				add = 10000
 				exists = this
 				exists = character:302972
 				this = character:302972
@@ -1235,14 +1428,19 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = uyghur_royalty
+				template = tgp_uyghur_headgear
 				accessory = male_Uyghur_Royal_Headwear_01
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
 			}
 		}
 		weight = {
 			base = 0
 			modifier = {
-				add = 10000
+				add = 10001
 				exists = this
 				exists = character:302972
 				this = character:302972
@@ -1270,7 +1468,7 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 100
+				add = 10000
 				exists = this
 				exists = character:bodpa0246
 				this = character:bodpa0246
@@ -1309,18 +1507,11 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 10000
+				add = 10001
 				exists = this
 				exists = character:bodpa0246
 				this = character:bodpa0246
-				OR = {
-					portrait_royalty_clothing_trigger = {
-						CULTURE_INPUT = epe_uyghur
-					}
-					portrait_imperial_clothing_trigger = {
-						CULTURE_INPUT = epe_uyghur
-					}
-				}
+				portrait_tibetan_clothing_spouse_trigger = yes
 			}
 		}
 	}

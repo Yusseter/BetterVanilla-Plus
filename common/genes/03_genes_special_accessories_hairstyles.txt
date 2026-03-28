@@ -2183,11 +2183,12 @@ special_genes = {
 					4 = male_hair_turkic_03		
 					4 = male_hair_turkic_04	
 					4 = male_hair_turkic_05				
-					1 = male_hair_turkic_06
+					1 = male_hair_turkic_06 # Yusseter: Ends at 0.78823
 					# Yusseter 0
-					1 = male_hair_turkic_01
+					1 = male_hair_turkic_01 # Yusseter: Starts at 0.78824
 					1 = male_hair_turkic_02
-					4 = cfp_male_hair_hungarian_01
+					2 = cfp_male_hair_hungarian_01
+					1 = cfp_male_hair_hungarian_01
 					#4 = m_hair_fp3_iranian_02 #Seljuk Braids
 					#4 = m_hair_fp3_iranian_01 #Long split strands
 					# Yusseter 1
@@ -2257,11 +2258,12 @@ special_genes = {
 					# Yusseter 0
 					3 = m_hair_fp3_iranian_01
 					3 = m_hair_fp3_iranian_03
+					3 = male_hair_western_03
 					2 = male_hair_iranian_01
 					2 = male_hair_turkic_01
 					2 = male_hair_turkic_02
-					1 = m_hair_mpo_mongol_03
-					1 = cfp_male_hair_steppe_04
+					#1 = m_hair_mpo_mongol_03
+					#1 = cfp_male_hair_steppe_04
 					1 = male_hair_western_07
 					1 = male_hair_mena_01
 					1 = male_hair_mena_02
@@ -2848,6 +2850,190 @@ special_genes = {
 				girl = female
 			}	
 			
+			#CCP7 Emishi / Ainu 
+			cp7_emishi_ainu_hairstyles_straight_wavy = {
+				index = 112
+				male = {
+					1 = male_hair_western_05
+					3 = male_hair_western_08
+					1 = male_hair_byzantine_01
+					1 = male_hair_indian_03
+					2 = male_hair_mena_04
+					3 = male_hair_fp2_iberian_christian_02
+					1 = m_hair_ep2_western_02
+					1 = m_hair_fp3_iranian_03
+					1 = m_hair_ep3_byzantine_01
+				}
+				female = {
+					1 = female_hair_fp2_iberian_christian_01
+					1 = female_hair_fp2_iberian_christian_02
+					1 = female_hair_fp2_iberian_christian_03
+					1 = f_hair_fp3_iranian_03_common
+					1 = f_hair_tgp_japanese_01
+					1 = f_hair_tgp_japanese_04
+				}
+				boy = male
+				girl = female
+			}
+			cp7_emishi_ainu_hairstyles_curly_afro = {
+				index = 113
+				male = {
+					2 = male_hair_mena_03
+					2 = male_hair_sub_saharan_02
+					1 = m_hair_ep3_byzantine_01
+				}
+				female = {
+					1 = female_hair_western_05
+					2 = female_hair_sub_saharan_01
+				}
+				boy = male
+				girl = female
+			}
+
+			### CCP9 ###	
+			ccp9_uighur_hairstyles = {
+				index = 114
+				male = {
+					5 = m_hair_ccp9_uyg_nob_01				
+					3 = male_hair_turkic_01
+					3 = male_hair_turkic_02	
+					3 = male_hair_turkic_03		
+					3 = male_hair_turkic_04	
+					3 = male_hair_turkic_05				
+					3 = m_hair_fp3_iranian_02 #Seljuk Braids
+					3 = m_hair_fp3_iranian_01 #Long split strands				
+					1 = male_hair_western_07
+				}
+
+				female = {
+					2 = female_hair_steppe_01
+					2 = female_hair_steppe_02
+					2 = female_hair_turkic_01
+					2 = female_hair_sogdian_03	
+					2 = female_hair_sogdian_04
+					1 = female_hair_custom_03		
+					1 = female_hair_custom_07
+					1 = female_hair_custom_08
+					2 = female_hair_fp2_iberian_muslim_03_common					
+					2 = f_hair_fp3_iranian_02_common #Long split strands with earring
+					2 = f_hair_fp3_iranian_02_common #Long split strands with earrings	
+				}
+				boy = male
+				girl = female
+			}			
+
+			#######################
+			###### Ottoman Turks era4 #######
+			#######################
+			
+			ottomans_hairstyles_era4 = {
+				index = 115
+				male = {
+				 #######Straight
+					3 = m_hair_ep3_byzantine_01				 
+					2 = male_hair_fp2_iberian_muslim_01
+					2 = male_hair_byzantine_02 
+					2 = male_hair_fp1_07
+					2 = m_hair_ep2_western_01
+					2 = male_hair_indian_01
+					2 = male_hair_western_05
+					2 = male_hair_mena_02 
+					2 = male_hair_western_03 
+					2 = male_hair_western_07 
+					2 = male_hair_western_09 				
+
+				 #######Wavy
+					3 = m_hair_ep3_byzantine_01	
+					2 = male_hair_fp2_iberian_muslim_01					
+					2 = male_hair_western_03
+					2 = male_hair_western_06 
+					2 = male_hair_western_09					
+					2 = male_hair_mena_02	
+					2 = male_hair_byzantine_02
+					2 = male_hair_fp1_01
+					2 = male_hair_fp1_07
+					2 = male_hair_indian_01
+					2 = male_hair_indian_02					
+					2 = m_hair_sp4_mena_01	
+					
+				 #######curly
+					2 = male_hair_mena_01
+					2 = male_hair_mena_03 
+					2 = male_hair_western_03					
+					2 = male_hair_fp2_iberian_muslim_01			 
+					2 = m_hair_ep3_byzantine_01	
+					2 = male_hair_fp2_iberian_christian_01						
+				}
+
+				female = {
+				 #######Straight
+					3 = female_hair_byzantine_02 
+					2 = f_hair_ep2_western_02 
+					2 = female_hair_fp2_iberian_muslim_01_common 
+					2 = female_hair_fp2_iberian_muslim_03_common
+					2 = female_hair_mena_01
+					2 = female_hair_mena_02
+					2 = female_hair_western_05
+					2 = female_hair_custom_03 
+					2 = f_hair_fp3_iranian_03_common 
+					2 = f_hair_ep3_byzantine_02_common 
+					2 = female_hair_fp2_iberian_christian_03 			
+
+				 #######Wavy
+					3 = female_hair_custom_05	
+					2 = f_hair_ep3_byzantine_01_common					
+					2 = f_hair_ep3_byzantine_03_common
+					2 = f_hair_ep3_byzantine_04_common 
+					2 = f_hair_fp3_iranian_01_common					
+					2 = f_hair_fp3_iranian_03_common	
+					2 = female_hair_fp2_iberian_muslim_01_common
+					2 = female_hair_fp2_iberian_muslim_02_common
+					2 = female_hair_fp2_iberian_muslim_03_common
+					2 = female_hair_fp2_iberian_christian_03
+					2 = f_hair_sp4_mena_01					
+					2 = female_hair_custom_06	
+				 #######curly
+					2 = f_hair_ep3_byzantine_03_common
+					2 = f_hair_ep3_byzantine_04_common 
+					2 = f_hair_fp3_iranian_01_common					
+					2 = female_hair_fp2_iberian_muslim_02_common			 
+					2 = female_hair_fp2_iberian_christian_03		
+					2 = f_hair_sp4_mena_01						
+				}
+				boy = male
+				girl = female
+			}
+
+
+			##########################################################################
+			####Western warrior/mercenary
+			##########################################################################
+			epe_western_hairstyles_warrior = {
+				index = 116
+				male = {
+					5 = male_hair_western_04
+					5 = male_hair_western_07
+					5 = male_hair_northern_01
+					5 = male_hair_northern_02
+					5 = male_hair_northern_03
+				}
+				female = {
+					3 = f_hair_byz_short_hair_01
+					3 = f_epe_short_hair_01		
+					3 = f_epe_short_hair_03	
+					3 = fem_dragonrider_hair_01						
+					3 = f_epe_short_hair_04												
+					3 = f_epe_short_hair_02						
+					3 = female_hair_custom_38
+					3 = female_hair_custom_40
+					3 = female_hair_custom_45
+					1 = female_hair_western_08					
+				}
+
+				boy = male
+				girl = female
+			}			
+			
 			########################################
 			## Community Flavor Pack - new groups ##
 			########################################
@@ -2911,15 +3097,15 @@ special_genes = {
 
 			yb_muslim_turkic_hairstyles = { # Yusseter
 				index = 112
+
 				male = {
 					1 = male_hair_turkic_01
 					1 = male_hair_turkic_02	
 					1 = male_hair_turkic_03
 					2 = m_hair_sp4_mena_01
-					2 = m_hair_fp3_iranian_01 #Long split strands	
-					2 = m_hair_fp3_iranian_02 #Seljuk Braids
+					2 = m_hair_fp3_iranian_01 # Yusseter: Ends at 0.78039, Long split strands	
+					2 = m_hair_fp3_iranian_02 # Yusseter: Starts at 0.78040, Seljuk Braids
 				}
-
 				female = {
 					1 = female_hair_turkic_01
 					2 = female_hair_sogdian_01
@@ -2941,16 +3127,16 @@ special_genes = {
 				index = 113
 
 				male = {
-					1 = m_hair_fp3_iranian_01
-					1 = male_hair_fp1_02
-					1 = male_hair_fp1_06
+					3 = m_hair_fp3_iranian_01
+					3 = male_hair_fp1_02
+					2 = male_hair_fp1_06
 					1 = cfp_male_hair_slavic_01
 					1 = cfp_male_hair_slavic_02
-					1 = cfp_male_hair_steppe_04
-					1 = male_hair_turkic_01
-					1 = m_hair_fp3_iranian_01
-					1 = m_hair_fp3_iranian_01
-					1 = m_hair_fp3_iranian_01
+					3 = cfp_male_hair_steppe_04
+					3 = male_hair_turkic_01
+					3 = m_hair_fp3_iranian_01
+					3 = m_hair_fp3_iranian_01
+					3 = m_hair_fp3_iranian_01
 				}
 				female = {
 					1 = f_hair_mpo_mongol_02

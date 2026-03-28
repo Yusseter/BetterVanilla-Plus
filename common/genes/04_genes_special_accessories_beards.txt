@@ -989,6 +989,11 @@ special_genes = {
 					5 = m_beard_mpo_mongol_04
 					5 = m_beard_mpo_mongol_05
 					5 = m_beard_mpo_mongol_06
+					5 = m_beard_tgp_chinese_10
+					2 = male_beard_steppe_02
+					2 = male_beard_custom_01
+					3 = male_beard_custom_02
+					3 = male_beard_custom_03
 					#1 = empty
 					#5 = male_beard_steppe_01
 					#5 = male_beard_steppe_02
@@ -1012,15 +1017,19 @@ special_genes = {
 
 				male = {
 					# Yusseter 0
-					3 = m_beard_sp2_western_01
-					3 = m_beard_ep2_western_03
-					3 = male_beard_fp2_iberian_christian_04
-					3 = cfp_male_moustache_western_01
-					3 = cfp_male_moustache_slavic_02
-					2 = male_beard_western_8b
-					2 = male_beard_western_8c
-					2 = male_beard_western_8f
-					5 = male_beard_turkic_01
+					6 = empty
+					7 = m_beard_sp2_western_01
+					7 = m_beard_ep2_western_03
+					5 = male_beard_western_8b
+					5 = male_beard_western_8c
+					5 = male_beard_western_8f
+					5 = male_beard_fp2_iberian_christian_04
+					5 = cfp_male_moustache_western_01
+					5 = cfp_male_moustache_slavic_02
+					5 = male_mustache_iranian_05
+					6 = m_beard_tgp_chinese_10
+					10 = male_beard_turkic_01
+					10 = epe_male_beard_fp1_02
 					#1 = empty
 					#5 = male_beard_steppe_01
 					#5 = male_beard_western_03 # Short beard
@@ -1030,14 +1039,14 @@ special_genes = {
 					#5 = male_beard_mena_04		 
 					#5 = male_beard_custom_06	
 					#5 = male_beard_steppe_02
+					#5 = male_beard_western_05
+					#5 = male_mustache_iranian_05
+					#5 = epe_male_beard_fp1_02 #	
+					#5 = male_beard_steppe_02
+					#5 = male_beard_custom_01
+					#5 = male_beard_custom_02
+					#5 = male_beard_custom_03				 
 					# Yusseter 1
-					5 = male_beard_western_05
-					5 = male_mustache_iranian_05
-					5 = epe_male_beard_fp1_02 #	
-					5 = male_beard_steppe_02
-					5 = male_beard_custom_01
-					5 = male_beard_custom_02
-					5 = male_beard_custom_03				 
 				}
 				female = {
 					1 = empty
@@ -1050,11 +1059,13 @@ special_genes = {
 					# 5 = empty
 					5 = m_beard_fp3_iranian_02 # Long Pointy Beard
 					# Yusseter 0
-					5 = m_beard_sp4_mena_01
-					2 = m_beard_ep3_byzantine_01
-					2 = m_beard_ep3_byzantine_04
-					2 = male_beard_fp1_03
-					2 = male_beard_fp2_iberian_muslim_01
+					#5 = m_beard_sp4_mena_01
+					#4 = m_beard_sp3_western_01
+					4 = m_beard_ep3_byzantine_04
+					4 = male_beard_fp2_iberian_christian_03
+					4 = male_beard_fp2_iberian_muslim_01
+					4 = male_beard_fp1_02
+					4 = m_beard_sp2_western_01
 					#5 = male_beard_western_01 # Short beard
 					#5 = male_beard_western_02
 					#5 = male_beard_northern_01 # Big wide
@@ -1078,16 +1089,29 @@ special_genes = {
 
 				male = {
 					1 = empty
-					#5 = male_beard_steppe_01 # Yusseter
-					5 = male_beard_steppe_02
-					5 = male_beard_custom_01
-					5 = male_beard_custom_02
-					5 = male_beard_custom_03				 
-					#5 = male_beard_steppe_01 # Yusseter
-					5 = male_beard_steppe_02
-					5 = male_beard_turkic_01
-					5 = epe_male_beard_fp1_02 #	
-					5 = male_beard_custom_06			
+					# Yusseter 0
+					5 = m_beard_mpo_mongol_01
+					5 = m_beard_mpo_mongol_02
+					5 = m_beard_mpo_mongol_03
+					5 = m_beard_mpo_mongol_04
+					5 = m_beard_mpo_mongol_05
+					5 = m_beard_mpo_mongol_06
+					5 = m_beard_tgp_chinese_10
+					2 = male_beard_steppe_02
+					2 = male_beard_custom_01
+					3 = male_beard_custom_02
+					3 = male_beard_custom_03
+					#5 = male_beard_steppe_01
+					#5 = male_beard_steppe_02
+					#5 = male_beard_custom_01
+					#5 = male_beard_custom_02
+					#5 = male_beard_custom_03				 
+					#5 = male_beard_steppe_01
+					#5 = male_beard_steppe_02
+					#5 = male_beard_turkic_01
+					#5 = epe_male_beard_fp1_02 #	
+					#5 = male_beard_custom_06		
+					# Yusseter 1
 				}
 				female = {
 					1 = empty
@@ -1101,6 +1125,9 @@ special_genes = {
 					1 = empty
 					5 = m_beard_fp3_iranian_01 # Medium beard with bun
 					# Yusseter 0
+					5 = m_beard_tgp_chinese_10
+					5 = epe_male_beard_fp1_02
+					5 = male_beard_turkic_01
 					5 = cfp_male_moustache_slavic_02
 					#5 = male_beard_western_03 # Short beard
 					# Yusseter 1
@@ -1122,11 +1149,13 @@ special_genes = {
 				male = {
 					# Yusseter 0
 					5 = m_beard_sp4_mena_01
-					2 = m_beard_ep3_byzantine_01
-					2 = m_beard_ep3_byzantine_04
-					2 = male_beard_fp1_03
-					2 = male_beard_western_08
-					2 = male_beard_fp2_iberian_christian_03
+					4 = m_beard_sp3_western_01
+					4 = m_beard_ep3_byzantine_02
+					4 = m_beard_ep3_byzantine_03
+					4 = m_beard_ep3_byzantine_04
+					5 = male_beard_fp1_03
+					5 = male_beard_western_08
+					5 = male_beard_fp2_iberian_christian_03
 					2 = cfp_male_moustache_slavic_02
 					#5 = male_beard_western_01 # Short beard
 					#5 = male_beard_western_02
@@ -1156,11 +1185,13 @@ special_genes = {
 				male = {
 					5 = m_beard_fp3_iranian_01 # Medium beard with bun
 					5 = m_beard_fp3_iranian_02 # Long pointy beard
+				    5 = m_beard_ep3_byzantine_03
+				    5 = m_beard_ep3_byzantine_04	
 					5 = male_beard_western_08
 					6 = male_beard_western_05
 					5 = male_beard_western_07
 					5 = male_beard_western_09	
-					5 = male_beard_custom_02
+					5 = m_beard_tgp_chinese_10
 					5 = male_beard_mena_01
 					5 = male_beard_mena_04
 					5 = male_beard_western_01
@@ -1186,6 +1217,8 @@ special_genes = {
 				male = {
 				# 0 = empty
 				5 = m_beard_fp3_iranian_02 # Long pointy beard
+				5 = m_beard_ep3_byzantine_03
+				5 = m_beard_ep3_byzantine_04	
 				5 = male_beard_western_03 # Short beard
 				2 = male_beard_mena_01 # Very curly medium length full beard
 				2 = male_beard_mena_02 # Big with small mustache
@@ -1420,8 +1453,134 @@ special_genes = {
 				}
 			}			
 
-			yb_eastern_iranian_beards_straight = { # Yusseter
+			#######################
+			###### Ottoman Turks era4 #######
+			#######################
+
+			ottomans_beards_era4 = {
 				index = 60
+
+				male = { # Yusseter
+				 #ottomans_beards_straight
+					5 = male_beard_mena_04
+					#4 = male_beard_western_01
+					6 = male_beard_western_05
+					4 = male_beard_western_08
+					#6 = male_beard_western_09
+					5 = mena_curled_mustache_chinstrap_01
+					5 = mena_islamic_pointed_beard
+					5 = mena_islamic_pointed_beard_03
+					6 = male_mustache_iranian_05
+					6 = male_beard_western_8b
+					6 = male_beard_western_8c
+					6 = male_beard_western_8d
+					6 = male_beard_western_8e
+					6 = male_beard_western_8f
+					5 = m_beard_ep2_western_01
+					6 = m_beard_ep2_western_03
+					4 = m_beard_fp3_iranian_02
+					6 = m_beard_sp2_western_01
+					3 = m_beard_tgp_chinese_10
+					3 = m_beard_tgp_chinese_10
+					5 = male_beard_fp2_iberian_christian_01
+					5 = male_beard_fp2_iberian_christian_02
+					2 = male_beard_fp2_iberian_christian_03
+					2 = male_beard_fp2_iberian_christian_03
+					3 = male_beard_fp2_iberian_christian_04
+					3 = male_beard_fp2_iberian_christian_04
+					2 = male_beard_fp2_iberian_muslim_01
+					2 = male_beard_fp2_iberian_muslim_01
+					2 = male_beard_fp2_iberian_muslim_02
+					2 = male_beard_fp2_iberian_muslim_02
+				 #ottomans_beards_curly
+					3 = male_beard_sub_saharan_03
+					3 = male_beard_sub_saharan_03
+				 	4 = male_beard_mena_01
+					4 = male_beard_mena_02
+				 	2 = m_beard_sp3_western_01
+				 	2 = m_beard_sp3_western_01
+					4 = m_beard_ep3_byzantine_02
+					4 = m_beard_ep3_byzantine_03
+					4 = m_beard_ep3_byzantine_04
+
+					6 = male_mustache_iranian_05
+					3 = western_5_mustache_bushier
+					3 = western_5_mustache_bushier
+					5 = male_beard_fp2_iberian_christian_01
+					5 = male_beard_fp2_iberian_christian_02
+					2 = male_beard_fp2_iberian_christian_03
+					2 = male_beard_fp2_iberian_christian_03
+					3 = male_beard_fp2_iberian_christian_04
+					3 = male_beard_fp2_iberian_christian_04
+					2 = male_beard_fp2_iberian_muslim_01
+					2 = male_beard_fp2_iberian_muslim_01
+					2 = male_beard_fp2_iberian_muslim_02
+					2 = male_beard_fp2_iberian_muslim_02
+				}
+				#male = {
+			    #   ##########################################################						
+				#	####ottomans_beards_straight							
+				#	5 = m_beard_fp3_iranian_02 # Long pointy beard
+				#	5 = m_beard_ep3_byzantine_02
+				#	5 = m_beard_ep3_byzantine_03
+				#	5 = m_beard_ep3_byzantine_04				
+				#	5 = male_beard_western_08
+				#	6 = male_beard_western_05
+				#
+				#	5 = male_beard_western_09	
+				#	5 = m_beard_tgp_chinese_10
+				#	5 = m_beard_ep2_western_01
+				#	5 = m_beard_ep2_western_03
+				#	5 = m_beard_sp2_western_01 # The Ultimate Moustache 
+				#	5 = m_beard_sp3_western_01
+				#	5 = male_beard_mena_04
+				#	5 = male_beard_western_01
+				#	5 = mena_curled_mustache_chinstrap_01
+				#	5 = mena_islamic_pointed_beard		
+				#	5 = mena_islamic_pointed_beard_03
+				#	7 = male_mustache_iranian_05
+				#	5 = male_beard_western_8b #		
+				#	5 = male_beard_western_8c #		
+				#	5 = male_beard_western_8d #
+				#    5 = male_beard_western_8e #	
+				#    5 = male_beard_western_8f #	
+				#	5 = male_beard_fp2_iberian_christian_01 # Short Well-Kept Beard
+				#	5 = male_beard_fp2_iberian_christian_02 # Iberian goatee
+				#	5 = male_beard_fp2_iberian_christian_03 # Caballero's beard
+				#	5 = male_beard_fp2_iberian_christian_04 # Droopy moustache
+				#	5 = male_beard_fp2_iberian_muslim_01 # Thick Groomed Beard
+				#	5 = male_beard_fp2_iberian_muslim_02 # Scholar's beard	
+			    #   ##########################################################						
+				#	####ottomans_beards_curly				
+				#    2 = empty
+				#    5 = m_beard_fp3_iranian_02 # Long pointy beard
+				#    5 = m_beard_ep3_byzantine_03
+				#    5 = m_beard_ep3_byzantine_04					
+			    #	2 = male_beard_mena_01 # Very curly medium length full beard
+				#    2 = male_beard_mena_02 # Big with small mustache
+				#    2 = western_5_mustache_bushier			
+				#    5 = male_beard_sub_saharan_03	
+				#    5 = mena_islamic_pointed_beard		
+				#    5 = mena_islamic_pointed_beard_03
+				#    5 = male_mustache_iranian_05
+			    # 	5 = male_beard_western_8b #		
+				#    5 = male_beard_western_8c #		
+				#    5 = male_beard_western_8d #	
+				#    5 = male_beard_western_8e #	
+				#    5 = male_beard_western_8f #		
+				#    5 = male_beard_fp2_iberian_muslim_01 # Thick Groomed Beard
+				#    5 = male_beard_fp2_iberian_christian_01 # Short Well-Kept Beard
+				#    5 = male_beard_fp2_iberian_muslim_02 # Scholar's beard
+				#    5 = male_beard_fp2_iberian_christian_03 # Caballero's beard								
+				#}
+				female = {
+					1 = empty
+				}
+			}	
+
+			
+			yb_eastern_iranian_beards_straight = { # Yusseter
+				index = 61
 
 				male = {
 					5 = m_beard_mpo_mongol_02
@@ -1439,7 +1598,7 @@ special_genes = {
 			}
 
 			yb_eastern_iranian_beards_curly = { # Yusseter
-				index = 61
+				index = 62
 
 				male = {
 					5 = m_beard_sp4_mena_01
