@@ -15,7 +15,7 @@ yb_ashide = {
 
 2001156 = {
 	name = dynn_Enisey_Kyrgyz
-	culture = kirghiz #yenisei_kirghiz
+	culture = yenisei_kirghiz
 }
 
 dynasty_yujiulu = {
@@ -30,7 +30,7 @@ dynasty_uar = {
 
 dynasty_topek = {
 	name = dynasty_Topek
-	culture = kirghiz #yenisei_kirghiz
+	culture = yenisei_kirghiz
 }
 
 dynasty_avar_1 = {
