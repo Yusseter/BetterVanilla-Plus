@@ -18,7 +18,7 @@ mpo_interactions_events.0001 = {
 	}
 
 	immediate = {
-		trigger_event = confederation_naming.0001 # Yusseter
+		yb_give_random_prefix_number_effects = yes # Yusseter
 		#Confederation doesn't exist and actor is becoming liege
 		if = {
 			limit = {

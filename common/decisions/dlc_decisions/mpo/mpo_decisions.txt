@@ -198,7 +198,7 @@ call_for_confederation_decision = {
 			custom_tooltip = confederation_leaving_warning_tt
 		}
 		trigger_event = mpo_decisions_events.0001
-		hidden_effect = { trigger_event = confederation_naming.0001 } # Yusseter 
+		hidden_effect = { yb_give_random_prefix_number_effects = yes } # Yusseter
 	}
 
 	ai_potential = {

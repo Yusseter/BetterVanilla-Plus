@@ -463,6 +463,13 @@ yb_cultural_head_setup_effects = {
 	recalculate_cultural_heads_of_type = domain
 }
 
+yb_give_random_prefix_number_effects = {
+	every_living_character = {
+		limit = { NOT = { has_variable = random_prefix_number } }
+		trigger_event = confederation_naming.0001
+	}
+}
+
 yb_game_rule_effects = {
 	if = {
 		limit = {

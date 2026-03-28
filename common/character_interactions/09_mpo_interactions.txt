@@ -1332,7 +1332,7 @@
 	send_options_exclusive = no
 
 	on_accept = {
-		trigger_event = confederation_naming.0001 # Yusseter
+		yb_give_random_prefix_number_effects = yes # Yusseter
 		if = {
 			#checking that the delay hasn't made the character invalid
 			limit = {
