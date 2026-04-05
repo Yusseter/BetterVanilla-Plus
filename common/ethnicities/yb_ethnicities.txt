@@ -38,7 +38,7 @@ east_asian_ryukyu_01 = {
 	template = "east_asian_japanese_10"
 	using = "japanese"
 
-	skin_color = {
+	skin_color = { # Skin color of, asian, EPE
 		10 = { 0.5 0.3 1.0 0.5 }
 	}
 
@@ -62,9 +62,12 @@ east_asian_ainu_01 = {
 	template = "siberian_siberian_10"
 	using = "ainu"
 
-	skin_color = {
-		10 = { 0.3 0.5 0.7 0.65 }
+	skin_color = { # Skin color of, asian_emishi_ainu, CK3
+		10 = { 0.7 0.34 1.0 0.48 }
 	}
+	#skin_color = { # Skin color of, arab, EPE
+	#	10 = { 0.3 0.5 0.7 0.65 }
+	#}
 
 	eye_color = {
 		50 = { 0.05 0.95 0.35 1.0 } # Black
@@ -86,9 +89,12 @@ east_asian_ainu_02 = {
 	template = "siberian_siberian_01"
 	using = "ainu"
 
-	skin_color = {
-		10 = { 0.3 0.5 0.7 0.65 }
+	skin_color = { # Skin color of, asian_emishi_ainu, CK3
+		10 = { 0.7 0.34 1.0 0.48 }
 	}
+	#skin_color = { # Skin color of, arab, EPE
+	#	10 = { 0.3 0.5 0.7 0.65 }
+	#}
 
 	gene_eye_angle = {
 		100 = { name = eye_angle_neg range = { 0.46 0.55 } }
@@ -172,9 +178,12 @@ east_asian_ainu_03 = {
 	template = "siberian_siberian_03"
 	using = "ainu"
 
-	skin_color = {
-		10 = { 0.3 0.5 0.7 0.65 }
+	skin_color = { # Skin color of, asian_emishi_ainu, CK3
+		10 = { 0.7 0.34 1.0 0.48 }
 	}
+	#skin_color = { # Skin color of, arab, EPE
+	#	10 = { 0.3 0.5 0.7 0.65 }
+	#}
 
 	gene_eye_angle = {
 		100 = { name = eye_angle_neg range = { 0.46 0.55 } }
@@ -250,9 +259,12 @@ east_asian_ainu_04 = {
 	template = "siberian_siberian_05"
 	using = "ainu"
 
-	skin_color = {
-		10 = { 0.3 0.5 0.7 0.65 }
+	skin_color = { # Skin color of, asian_emishi_ainu, CK3
+		10 = { 0.7 0.34 1.0 0.48 }
 	}
+	#skin_color = { # Skin color of, arab, EPE
+	#	10 = { 0.3 0.5 0.7 0.65 }
+	#}
 
 	gene_eye_angle = {
 		100 = { name = eye_angle_neg range = { 0.46 0.55 } }
@@ -336,9 +348,12 @@ east_asian_ainu_05 = {
 	template = "siberian_siberian_07"
 	using = "ainu"
 
-	skin_color = {
-		10 = { 0.3 0.5 0.7 0.65 }
+	skin_color = { # Skin color of, asian_emishi_ainu, CK3
+		10 = { 0.7 0.34 1.0 0.48 }
 	}
+	#skin_color = { # Skin color of, arab, EPE
+	#	10 = { 0.3 0.5 0.7 0.65 }
+	#}
 
 	gene_eye_angle = {
 		100 = { name = eye_angle_neg range = { 0.46 0.55 } }
@@ -426,9 +441,12 @@ east_asian_ainu_06 = {
 	template = "siberian_siberian_09"
 	using = "ainu"
 
-	skin_color = {
-		10 = { 0.3 0.5 0.7 0.65 }
+	skin_color = { # Skin color of, asian_emishi_ainu, CK3
+		10 = { 0.7 0.34 1.0 0.48 }
 	}
+	#skin_color = { # Skin color of, arab, EPE
+	#	10 = { 0.3 0.5 0.7 0.65 }
+	#}
 
 	gene_eye_angle = {
 		100 = { name = eye_angle_neg range = { 0.46 0.55 } }
@@ -508,9 +526,12 @@ east_asian_ainu_07 = {
 	template = "siberian_siberian_11"
 	using = "ainu"
 
-	skin_color = {
-		10 = { 0.3 0.5 0.7 0.65 }
+	skin_color = { # Skin color of, asian_emishi_ainu, CK3
+		10 = { 0.7 0.34 1.0 0.48 }
 	}
+	#skin_color = { # Skin color of, arab, EPE
+	#	10 = { 0.3 0.5 0.7 0.65 }
+	#}
 
 	gene_eye_angle = {
 		100 = { name = eye_angle_neg range = { 0.46 0.55 } }
@@ -594,9 +615,12 @@ east_asian_ainu_08 = {
 	template = "siberian_siberian_13"
 	using = "ainu"
 
-	skin_color = {
-		10 = { 0.3 0.5 0.7 0.65 }
+	skin_color = { # Skin color of, asian_emishi_ainu, CK3
+		10 = { 0.7 0.34 1.0 0.48 }
 	}
+	#skin_color = { # Skin color of, arab, EPE
+	#	10 = { 0.3 0.5 0.7 0.65 }
+	#}
 
 	gene_eye_angle = {
 		100 = { name = eye_angle_neg range = { 0.46 0.55 } }
@@ -680,9 +704,12 @@ east_asian_ainu_09 = {
 	template = "siberian_siberian_15"
 	using = "ainu"
 
-	skin_color = {
-		10 = { 0.3 0.5 0.7 0.65 }
+	skin_color = { # Skin color of, asian_emishi_ainu, CK3
+		10 = { 0.7 0.34 1.0 0.48 }
 	}
+	#skin_color = { # Skin color of, arab, EPE
+	#	10 = { 0.3 0.5 0.7 0.65 }
+	#}
 
 	gene_eye_angle = {
 		100 = { name = eye_angle_neg range = { 0.46 0.55 } }
@@ -770,9 +797,12 @@ east_asian_ainu_10 = {
 	template = "siberian_siberian_17"
 	using = "ainu"
 
-	skin_color = {
-		10 = { 0.3 0.5 0.7 0.65 }
+	skin_color = { # Skin color of, asian_emishi_ainu, CK3
+		10 = { 0.7 0.34 1.0 0.48 }
 	}
+	#skin_color = { # Skin color of, arab, EPE
+	#	10 = { 0.3 0.5 0.7 0.65 }
+	#}
 
 	gene_eye_angle = {
 		100 = { name = eye_angle_neg range = { 0.46 0.55 } }
@@ -852,9 +882,12 @@ east_asian_ainu_11 = {
 	template = "siberian_siberian_19"
 	using = "ainu"
 
-	skin_color = {
-		10 = { 0.3 0.5 0.7 0.65 }
+	skin_color = { # Skin color of, asian_emishi_ainu, CK3
+		10 = { 0.7 0.34 1.0 0.48 }
 	}
+	#skin_color = { # Skin color of, arab, EPE
+	#	10 = { 0.3 0.5 0.7 0.65 }
+	#}
 
 	gene_eye_angle = {
 		100 = { name = eye_angle_neg range = { 0.46 0.55 } }
@@ -938,9 +971,12 @@ east_asian_ainu_12 = {
 	template = "siberian_siberian_21"
 	using = "ainu"
 
-	skin_color = {
-		10 = { 0.3 0.5 0.7 0.65 }
+	skin_color = { # Skin color of, asian_emishi_ainu, CK3
+		10 = { 0.7 0.34 1.0 0.48 }
 	}
+	#skin_color = { # Skin color of, arab, EPE
+	#	10 = { 0.3 0.5 0.7 0.65 }
+	#}
 
 	gene_eye_angle = {
 		100 = { name = eye_angle_neg range = { 0.46 0.55 } }
@@ -1024,9 +1060,12 @@ east_asian_ainu_13 = {
 	template = "siberian_siberian_23"
 	using = "ainu"
 
-	skin_color = {
-		10 = { 0.3 0.5 0.7 0.65 }
+	skin_color = { # Skin color of, asian_emishi_ainu, CK3
+		10 = { 0.7 0.34 1.0 0.48 }
 	}
+	#skin_color = { # Skin color of, arab, EPE
+	#	10 = { 0.3 0.5 0.7 0.65 }
+	#}
 
 	gene_eye_angle = {
 		100 = { name = eye_angle_neg range = { 0.46 0.55 } }
@@ -1114,9 +1153,12 @@ east_asian_ainu_14 = {
 	template = "siberian_siberian_25"
 	using = "ainu"
 
-	skin_color = {
-		10 = { 0.3 0.5 0.7 0.65 }
+	skin_color = { # Skin color of, asian_emishi_ainu, CK3
+		10 = { 0.7 0.34 1.0 0.48 }
 	}
+	#skin_color = { # Skin color of, arab, EPE
+	#	10 = { 0.3 0.5 0.7 0.65 }
+	#}
 
 	gene_eye_angle = {
 		100 = { name = eye_angle_neg range = { 0.46 0.55 } }
@@ -1196,9 +1238,12 @@ east_asian_ainu_15 = {
 	template = "indian_assamese_1"
 	using = "ainu"
 
-	skin_color = {
-		10 = { 0.05 0.2 0.7 0.4 }
+	skin_color = { # Skin color of, asian_emishi_ainu, CK3
+		10 = { 0.7 0.34 1.0 0.48 }
 	}
+	#skin_color = { # Skin color of, asian_tibetan_1, EPE
+	#	10 = { 0.05 0.2 0.7 0.4 }
+	#}
 	#skin_color = {
 	#	10 = { 0.6 0.3 0.8 0.55 }
 	#}
@@ -1223,9 +1268,12 @@ east_asian_ainu_16 = {
 	template = "indian_assamese_2"
 	using = "ainu"
 
-	skin_color = {
-		10 = { 0.05 0.2 0.7 0.4 }
+	skin_color = { # Skin color of, asian_emishi_ainu, CK3
+		10 = { 0.7 0.34 1.0 0.48 }
 	}
+	#skin_color = { # Skin color of, asian_tibetan_1, EPE
+	#	10 = { 0.05 0.2 0.7 0.4 }
+	#}
 	#skin_color = {
 	#	10 = { 0.75 0.45 0.99 0.70 }
 	#}
@@ -1250,7 +1298,7 @@ east_asian_ainu_17 = {
 	template = "indian_assamese_3"
 	using = "ainu"
 
-	skin_color = {
+	skin_color = { # Skin color of, asian_tibetan_1, EPE
 		10 = { 0.05 0.2 0.7 0.4 }
 	}
 	#skin_color = {
@@ -1277,7 +1325,7 @@ east_asian_ainu_18 = {
 	template = "indian_assamese_4"
 	using = "ainu"
 
-	skin_color = {
+	skin_color = { # Skin color of, asian_tibetan_1, EPE
 		10 = { 0.05 0.2 0.7 0.4 }
 	}
 	#skin_color = {
@@ -1304,7 +1352,7 @@ east_asian_ainu_19 = {
 	template = "indian_assamese_5"
 	using = "ainu"
 
-	skin_color = {
+	skin_color = { # Skin color of, asian_tibetan_1, EPE
 		10 = { 0.05 0.2 0.7 0.4 }
 	}
 	#skin_color = {
@@ -1331,7 +1379,7 @@ east_asian_ainu_20 = {
 	template = "indian_assamese_6"
 	using = "ainu"
 
-	skin_color = {
+	skin_color = { # Skin color of, asian_tibetan_2, EPE
 		10 = { 0.25 0.25 0.8 0.45 }
 	}
 	#skin_color = {
@@ -1358,7 +1406,7 @@ east_asian_ainu_21 = {
 	template = "indian_assamese_7"
 	using = "ainu"
 
-	skin_color = {
+	skin_color = { # Skin color of, asian_tibetan_2, EPE
 		10 = { 0.25 0.25 0.8 0.45 }
 	}
 	#skin_color = {
@@ -1385,7 +1433,7 @@ east_asian_ainu_22 = {
 	template = "indian_assamese_8"
 	using = "ainu"
 
-	skin_color = {
+	skin_color = { # Skin color of, asian_tibetan_2, EPE
 		10 = { 0.25 0.25 0.8 0.45 }
 	}
 	#skin_color = {
@@ -1412,7 +1460,7 @@ east_asian_ainu_23 = {
 	template = "indian_assamese_9"
 	using = "ainu"
 
-	skin_color = {
+	skin_color = { # Skin color of, asian_tibetan_2, EPE
 		10 = { 0.25 0.25 0.8 0.45 }
 	}
 	#skin_color = {
@@ -1439,10 +1487,10 @@ east_asian_ainu_24 = {
 	template = "indian_assamese_10"
 	using = "ainu"
 
-	skin_color = {
+	skin_color = { # Skin color of, asian_tibetan_3, EPE
 		10 = { 0.15 0.3 0.7 0.45 }
 	}
-	#skin_color = {
+	#skin_color = { # Skin color of, arab, EPE
 	#	10 = { 0.3 0.5 0.7 0.65 }
 	#}
 
@@ -1466,9 +1514,12 @@ east_asian_ainu_25 = {
 	template = "indian_rajput_1"
 	using = "ainu"
 
-	skin_color = {
-		88 = { 0.15 0.54 0.26 0.61 }
+	skin_color = { # Skin color of, asian_emishi_ainu, CK3
+		10 = { 0.7 0.34 1.0 0.48 }
 	}
+	#skin_color = { # Skin color of, amerindian_1, RICE
+	#	88 = { 0.15 0.54 0.26 0.61 }
+	#}
 	
 	eye_color = {
 		3 = { 0.05 0.95 0.35 1.0 } # Black
@@ -1490,9 +1541,12 @@ east_asian_ainu_26 = {
 	template = "indian_rajput_2"
 	using = "ainu"
 
-	skin_color = {
-		88 = { 0.15 0.54 0.26 0.61 }
+	skin_color = { # Skin color of, asian_emishi_ainu, CK3
+		10 = { 0.7 0.34 1.0 0.48 }
 	}
+	#skin_color = { # Skin color of, amerindian_1, RICE
+	#	88 = { 0.15 0.54 0.26 0.61 }
+	#}
 	
 	eye_color = {
 		3 = { 0.05 0.95 0.35 1.0 } # Black
@@ -1514,9 +1568,12 @@ east_asian_ainu_27 = {
 	template = "indian_rajput_3"
 	using = "ainu"
 
-	skin_color = {
-		88 = { 0.15 0.54 0.26 0.61 }
+	skin_color = { # Skin color of, asian_emishi_ainu, CK3
+		10 = { 0.7 0.34 1.0 0.48 }
 	}
+	#skin_color = { # Skin color of, amerindian_1, RICE
+	#	88 = { 0.15 0.54 0.26 0.61 }
+	#}
 	
 	eye_color = {
 		3 = { 0.05 0.95 0.35 1.0 } # Black
@@ -1538,9 +1595,12 @@ east_asian_ainu_28 = {
 	template = "indian_rajput_4"
 	using = "ainu"
 
-	skin_color = {
-		88 = { 0.15 0.54 0.26 0.61 }
+	skin_color = { # Skin color of, asian_emishi_ainu, CK3
+		10 = { 0.7 0.34 1.0 0.48 }
 	}
+	#skin_color = { # Skin color of, amerindian_1, RICE
+	#	88 = { 0.15 0.54 0.26 0.61 }
+	#}
 	
 	eye_color = {
 		3 = { 0.05 0.95 0.35 1.0 } # Black
@@ -1562,9 +1622,12 @@ east_asian_ainu_29 = {
 	template = "indian_rajput_5"
 	using = "ainu"
 
-	skin_color = {
-		88 = { 0.15 0.54 0.26 0.61 }
+	skin_color = { # Skin color of, asian_emishi_ainu, CK3
+		10 = { 0.7 0.34 1.0 0.48 }
 	}
+	#skin_color = { # Skin color of, amerindian_1, RICE
+	#	88 = { 0.15 0.54 0.26 0.61 }
+	#}
 	
 	eye_color = {
 		3 = { 0.05 0.95 0.35 1.0 } # Black
@@ -1586,9 +1649,12 @@ east_asian_ainu_30 = {
 	template = "indian_rajput_6"
 	using = "ainu"
 
-	skin_color = {
-		88 = { 0.15 0.54 0.26 0.61 }
+	skin_color = { # Skin color of, asian_emishi_ainu, CK3
+		10 = { 0.7 0.34 1.0 0.48 }
 	}
+	#skin_color = { # Skin color of, amerindian_1, RICE
+	#	88 = { 0.15 0.54 0.26 0.61 }
+	#}
 	
 	eye_color = {
 		3 = { 0.05 0.95 0.35 1.0 } # Black
@@ -1610,9 +1676,12 @@ east_asian_ainu_31 = {
 	template = "indian_rajput_7"
 	using = "ainu"
 
-	skin_color = {
-		88 = { 0.15 0.54 0.26 0.61 }
+	skin_color = { # Skin color of, asian_emishi_ainu, CK3
+		10 = { 0.7 0.34 1.0 0.48 }
 	}
+	#skin_color = { # Skin color of, amerindian_1, RICE
+	#	88 = { 0.15 0.54 0.26 0.61 }
+	#}
 	
 	eye_color = {
 		3 = { 0.05 0.95 0.35 1.0 } # Black
@@ -1634,9 +1703,12 @@ east_asian_ainu_32 = {
 	template = "indian_rajput_8"
 	using = "ainu"
 
-	skin_color = {
-		88 = { 0.15 0.54 0.26 0.61 }
+	skin_color = { # Skin color of, asian_emishi_ainu, CK3
+		10 = { 0.7 0.34 1.0 0.48 }
 	}
+	#skin_color = { # Skin color of, amerindian_1, RICE
+	#	88 = { 0.15 0.54 0.26 0.61 }
+	#}
 	
 	eye_color = {
 		3 = { 0.05 0.95 0.35 1.0 } # Black
@@ -1658,9 +1730,12 @@ east_asian_ainu_33 = {
 	template = "indian_rajput_9"
 	using = "ainu"
 
-	skin_color = {
-		88 = { 0.15 0.54 0.26 0.61 }
+	skin_color = { # Skin color of, asian_emishi_ainu, CK3
+		10 = { 0.7 0.34 1.0 0.48 }
 	}
+	#skin_color = { # Skin color of, amerindian_1, RICE
+	#	88 = { 0.15 0.54 0.26 0.61 }
+	#}
 	
 	eye_color = {
 		3 = { 0.05 0.95 0.35 1.0 } # Black
@@ -1682,9 +1757,12 @@ east_asian_ainu_34 = {
 	template = "indian_rajput_10"
 	using = "ainu"
 
-	skin_color = {
-		88 = { 0.15 0.54 0.26 0.61 }
+	skin_color = { # Skin color of, asian_emishi_ainu, CK3
+		10 = { 0.7 0.34 1.0 0.48 }
 	}
+	#skin_color = { # Skin color of, amerindian_1, RICE
+	#	88 = { 0.15 0.54 0.26 0.61 }
+	#}
 	
 	eye_color = {
 		3 = { 0.05 0.95 0.35 1.0 } # Black
@@ -1706,9 +1784,12 @@ east_asian_ainu_35 = {
 	template = "indian_rajput_11"
 	using = "ainu"
 
-	skin_color = {
-		88 = { 0.15 0.54 0.26 0.61 }
+	skin_color = { # Skin color of, asian_emishi_ainu, CK3
+		10 = { 0.7 0.34 1.0 0.48 }
 	}
+	#skin_color = { # Skin color of, amerindian_1, RICE
+	#	88 = { 0.15 0.54 0.26 0.61 }
+	#}
 	
 	eye_color = {
 		3 = { 0.05 0.95 0.35 1.0 } # Black
@@ -1730,9 +1811,12 @@ east_asian_ainu_36 = {
 	template = "indian_rajput_12"
 	using = "ainu"
 
-	skin_color = {
-		88 = { 0.15 0.54 0.26 0.61 }
+	skin_color = { # Skin color of, asian_emishi_ainu, CK3
+		10 = { 0.7 0.34 1.0 0.48 }
 	}
+	#skin_color = { # Skin color of, amerindian_1, RICE
+	#	88 = { 0.15 0.54 0.26 0.61 }
+	#}
 	
 	eye_color = {
 		3 = { 0.05 0.95 0.35 1.0 } # Black
@@ -1754,9 +1838,12 @@ east_asian_ainu_37 = {
 	template = "indian_rajput_13"
 	using = "ainu"
 
-	skin_color = {
-		88 = { 0.15 0.54 0.26 0.61 }
+	skin_color = { # Skin color of, asian_emishi_ainu, CK3
+		10 = { 0.7 0.34 1.0 0.48 }
 	}
+	#skin_color = { # Skin color of, amerindian_1, RICE
+	#	88 = { 0.15 0.54 0.26 0.61 }
+	#}
 	
 	eye_color = {
 		3 = { 0.05 0.95 0.35 1.0 } # Black
@@ -1778,9 +1865,12 @@ east_asian_ainu_38 = {
 	template = "indian_rajput_14"
 	using = "ainu"
 
-	skin_color = {
-		88 = { 0.15 0.54 0.26 0.61 }
+	skin_color = { # Skin color of, asian_emishi_ainu, CK3
+		10 = { 0.7 0.34 1.0 0.48 }
 	}
+	#skin_color = { # Skin color of, amerindian_1, RICE
+	#	88 = { 0.15 0.54 0.26 0.61 }
+	#}
 	
 	eye_color = {
 		3 = { 0.05 0.95 0.35 1.0 } # Black
@@ -1802,9 +1892,12 @@ east_asian_ainu_39 = {
 	template = "indian_rajput_15"
 	using = "ainu"
 
-	skin_color = {
-		88 = { 0.15 0.54 0.26 0.61 }
+	skin_color = { # Skin color of, asian_emishi_ainu, CK3
+		10 = { 0.7 0.34 1.0 0.48 }
 	}
+	#skin_color = { # Skin color of, amerindian_1, RICE
+	#	88 = { 0.15 0.54 0.26 0.61 }
+	#}
 	
 	eye_color = {
 		3 = { 0.05 0.95 0.35 1.0 } # Black
@@ -1826,9 +1919,12 @@ east_asian_ainu_40 = {
 	template = "indian_rajput_16"
 	using = "ainu"
 
-	skin_color = {
-		88 = { 0.15 0.54 0.26 0.61 }
+	skin_color = { # Skin color of, asian_emishi_ainu, CK3
+		10 = { 0.7 0.34 1.0 0.48 }
 	}
+	#skin_color = { # Skin color of, amerindian_1, RICE
+	#	88 = { 0.15 0.54 0.26 0.61 }
+	#}
 	
 	eye_color = {
 		3 = { 0.05 0.95 0.35 1.0 } # Black
@@ -1850,9 +1946,12 @@ east_asian_ainu_41 = {
 	template = "indian_rajput_17"
 	using = "ainu"
 
-	skin_color = {
-		88 = { 0.15 0.54 0.26 0.61 }
+	skin_color = { # Skin color of, asian_emishi_ainu, CK3
+		10 = { 0.7 0.34 1.0 0.48 }
 	}
+	#skin_color = { # Skin color of, amerindian_1, RICE
+	#	88 = { 0.15 0.54 0.26 0.61 }
+	#}
 	
 	eye_color = {
 		3 = { 0.05 0.95 0.35 1.0 } # Black
@@ -1874,9 +1973,12 @@ east_asian_ainu_42 = {
 	template = "indian_rajput_18"
 	using = "ainu"
 
-	skin_color = {
-		88 = { 0.15 0.54 0.26 0.61 }
+	skin_color = { # Skin color of, asian_emishi_ainu, CK3
+		10 = { 0.7 0.34 1.0 0.48 }
 	}
+	#skin_color = { # Skin color of, amerindian_1, RICE
+	#	88 = { 0.15 0.54 0.26 0.61 }
+	#}
 	
 	eye_color = {
 		3 = { 0.05 0.95 0.35 1.0 } # Black
@@ -1898,10 +2000,10 @@ east_asian_ainu_43 = {
 	template = "indian_rajput_19"
 	using = "ainu"
 
-	skin_color = {
+	skin_color = { # Skin color of, asian_tibetan_3, EPE
 		10 = { 0.15 0.3 0.7 0.45 }
 	}
-	#skin_color = {
+	#skin_color = { # Skin color of, siberian_siberian_20, EPE
 	#	10 = { 0.4 0.15 0.8 0.5 }
 	#}
 	
@@ -1925,10 +2027,10 @@ east_asian_ainu_44 = {
 	template = "indian_rajput_20"
 	using = "ainu"
 
-	skin_color = {
+	skin_color = { # Skin color of, asian_tibetan_3, EPE
 		10 = { 0.15 0.3 0.7 0.45 }
 	}
-	#skin_color = {
+	#skin_color = { # Skin color of, siberian_siberian_20, EPE
 	#	10 = { 0.4 0.15 0.8 0.5 }
 	#}
 	
@@ -1952,10 +2054,10 @@ east_asian_ainu_45 = {
 	template = "indian_rajput_21"
 	using = "ainu"
 
-	skin_color = {
+	skin_color = { # Skin color of, asian_tibetan_4, EPE
 		10 = { 0.15 0.35 0.7 0.45 }
 	}
-	#skin_color = {
+	#skin_color = { # Skin color of, siberian_siberian_20, EPE
 	#	10 = { 0.4 0.15 0.8 0.5 }
 	#}
 	
@@ -1979,10 +2081,10 @@ east_asian_ainu_46 = {
 	template = "indian_rajput_22"
 	using = "ainu"
 
-	skin_color = {
+	skin_color = { # Skin color of, asian_tibetan_4, EPE
 		10 = { 0.15 0.35 0.7 0.45 }
 	}
-	#skin_color = {
+	#skin_color = { # Skin color of, siberian_siberian_20, EPE
 	#	10 = { 0.4 0.15 0.8 0.5 }
 	#}
 	
@@ -2006,10 +2108,10 @@ east_asian_ainu_47 = {
 	template = "indian_rajput_23"
 	using = "ainu"
 
-	skin_color = {
+	skin_color = { # Skin color of, asian_tibetan_4, EPE
 		10 = { 0.15 0.35 0.7 0.45 }
 	}
-	#skin_color = {
+	#skin_color = { # Skin color of, siberian_siberian_20, EPE
 	#	10 = { 0.4 0.15 0.8 0.5 }
 	#}
 	
@@ -2033,10 +2135,10 @@ east_asian_ainu_48 = {
 	template = "indian_rajput_24"
 	using = "ainu"
 
-	skin_color = {
+	skin_color = { # Skin color of, asian_tibetan_5, EPE
 		10 = { 0.15 0.25 0.7 0.35 }
 	}
-	#skin_color = {
+	#skin_color = { # Skin color of, siberian_siberian_20, EPE
 	#	10 = { 0.4 0.15 0.8 0.5 }
 	#}
 	
@@ -2060,10 +2162,10 @@ east_asian_ainu_49 = {
 	template = "indian_rajput_25"
 	using = "ainu"
 
-	skin_color = {
+	skin_color = { # Skin color of, asian_tibetan_5, EPE
 		10 = { 0.15 0.25 0.7 0.35 }
 	}
-	#skin_color = {
+	#skin_color = { # Skin color of, siberian_siberian_20, EPE
 	#	10 = { 0.4 0.15 0.8 0.5 }
 	#}
 	
@@ -2087,10 +2189,10 @@ east_asian_ainu_50 = {
 	template = "indian_rajput_26"
 	using = "ainu"
 
-	skin_color = {
+	skin_color = { # Skin color of, asian_tibetan_5, EPE
 		10 = { 0.15 0.25 0.7 0.35 }
 	}
-	#skin_color = {
+	#skin_color = { # Skin color of, siberian_siberian_20, EPE
 	#	10 = { 0.4 0.15 0.8 0.5 }
 	#}
 	
