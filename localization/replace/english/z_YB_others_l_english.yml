@@ -126,7 +126,6 @@
  steppe_admin_china_kingdom_requirement: "You [completely_control|E] at least 3 [kingdoms|E] in the [GetGeographicalRegion('world_asia_china').GetName] which have a [castle_holding|E], [city_holding|E], [church_holding|E], or [temple_citadel_holding|E] in their [capital|E] [barony|E]"
 
 # The Great Steppe
-
  the_great_steppe_sub_region_steppe_south: "Southern Steppe"
  the_great_steppe_sub_region_steppe_south_desc: "$SITUATION_SUB_REGION_TOOLTIP_DESC$\n\n#weak The southern steppes are the steppes to the south of the Eurasian Steppe which cover Transoxiana, Tibet, the Tarim Basin, and Xia and have historically been a gateway to several great empires. These steppes have been inhabited by nomadic peoples for millennia and have had various relations with their more settled neighbors to the south in Iran and China where they have been both subjects and conquerers.#!"
  the_great_steppe_sub_region_steppe_central: "Northern Steppe"
