@@ -1162,14 +1162,14 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = tgp_uyghur_headgear
-				range = { 0.60 0.80 } # Yusseter
+				range = { 0.28628 0.45098 } # Yusseter: uyghur_royalty, Was { 0.60 0.79 }
 				#range = { 0.15 0.16 } # For the randomness to work correctly
 			}
 			accessory = {
 				mode = add
 				gene = headgear_2
 				template = no_headgear
-				range = { 0 1 }
+				value = 0
 			}
 		}		
 		weight = {
@@ -1203,8 +1203,8 @@ cfp_headgear_base = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = uyghurized_headgear
-				range = { 0.66 1.00 }
+				template = tgp_uyghur_headgear
+				range = { 0.3804 0.42745 }
 			}
 		}
 		weight = {
@@ -1228,14 +1228,14 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = eastern_turkic_headgear
-				range = { 0.60 0.80 } # Yusseter
+				range = { 0.59216 0.78823 } # Yusseter: eastern_turk_royalty, Should be { 0.61 0.80 } but doesn't work
 				#range = { 0.62 0.78 } # For the randomness to work correctly
 			}
 			accessory = {
 				mode = add
 				gene = headgear_2
 				template = no_headgear
-				range = { 0 1 }
+				value = 0
 			}
 		}
 		weight = {
@@ -1247,33 +1247,27 @@ cfp_headgear_base = {
                 }
 				NOT = {
 					portrait_royalty_trigger = { 
-                    CULTURE_INPUT = epe_western_turk
+                    CULTURE_INPUT = epe_eastern_turk_muslim
                     }
 				}
 				NOT = {
 					portrait_royalty_trigger = { 
-                    CULTURE_INPUT = epe_seljuk
+                    CULTURE_INPUT = epe_western_turk
                     }
 				}				
-				# Yusseter 0
-				portrait_epe_uyghur_clothing_trigger = no
 				NOT = {
-					OR = {
-						portrait_era2_trigger = yes
-						portrait_era3_trigger = yes
-						portrait_era4_trigger = yes
-					}
-					portrait_epe_eastern_turk_muslim_clothing_trigger = yes
+					portrait_royalty_trigger = { 
+                    CULTURE_INPUT = epe_seljuk
+                    }
 				}
+				portrait_epe_uyghur_headgear_clothing_trigger = no # Yusseter
+					
+                OR = {
+                    portrait_era2_trigger = yes  				
+					portrait_era3_trigger = yes  
+					portrait_era4_trigger = yes  
+                }  				
 			}
-			modifier = {
-				add = 51
-				portrait_royalty_trigger = {
-					CULTURE_INPUT = epe_eastern_turk_muslim
-				}
-				portrait_era1_trigger = yes
-			}
-			# Yusseter 1
 			modifier = {
 				add = 51 #Slightly Higher
                 portrait_royalty_trigger = {
@@ -1281,6 +1275,11 @@ cfp_headgear_base = {
                 }
 				NOT = {
 					portrait_royalty_trigger = { 
+                    CULTURE_INPUT = epe_eastern_turk_muslim
+                    }
+				}
+				NOT = {
+					portrait_royalty_trigger = { 
                     CULTURE_INPUT = epe_western_turk
                     }
 				}				
@@ -1289,9 +1288,14 @@ cfp_headgear_base = {
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-				portrait_epe_uyghur_clothing_trigger = no # Yusseter
+				portrait_epe_uyghur_headgear_clothing_trigger = no # Yusseter
 				
-				is_female = yes				
+                OR = {
+                    portrait_era2_trigger = yes  				
+					portrait_era3_trigger = yes  
+					portrait_era4_trigger = yes  
+                } 
+				is_female = yes 				
 			}
 		}
 	}
@@ -1302,14 +1306,14 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = eastern_turkic_headgear
-				range = { 0.80 1.00 } # Yusseter
+				range = { 0.78824 1 } # Yusseter: eastern_turk_imperial, Should be { 0.81 1 } but doesn't work
 				#range = { 0.81 0.90 } # For the randomness to work correctly
 			}
 			accessory = {
 				mode = add
 				gene = headgear_2
 				template = no_headgear
-				range = { 0 1 }
+				value = 0
 			}
 		}
 		weight = {
@@ -1321,6 +1325,11 @@ cfp_headgear_base = {
                 }
 				NOT = {
 					portrait_imperial_trigger = { 
+                    CULTURE_INPUT = epe_eastern_turk_muslim
+                    }
+				}
+				NOT = {
+					portrait_imperial_trigger = { 
                     CULTURE_INPUT = epe_western_turk
                     }
 				}				
@@ -1329,25 +1338,14 @@ cfp_headgear_base = {
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-				# Yusseter 0
-				portrait_epe_uyghur_clothing_trigger = no
-				NOT = {
-					OR = {
-						portrait_era2_trigger = yes
-						portrait_era3_trigger = yes
-						portrait_era4_trigger = yes
-					}
-					portrait_epe_eastern_turk_muslim_clothing_trigger = yes
-				}
+				NOT = { portrait_imperial_trigger = { CULTURE_INPUT = epe_uyghur_headgear } } # Yusseter
+				
+                OR = {
+                    portrait_era2_trigger = yes  				
+					portrait_era3_trigger = yes  
+					portrait_era4_trigger = yes  
+                } 			
 			}
-			modifier = {
-				add = 99
-				portrait_imperial_trigger = {
-					CULTURE_INPUT = epe_eastern_turk_muslim
-				}
-				portrait_era1_trigger = yes
-			}
-			# Yusseter 1
 			modifier = {
 				add = 99 # Should be picked over other ranked headgear
 				portrait_imperial_trigger = {
@@ -1355,6 +1353,11 @@ cfp_headgear_base = {
                 }
 				NOT = {
 					portrait_imperial_trigger = { 
+                    CULTURE_INPUT = epe_eastern_turk_muslim
+                    }
+				}
+				NOT = {
+					portrait_imperial_trigger = { 
                     CULTURE_INPUT = epe_western_turk
                     }
 				}				
@@ -1363,17 +1366,17 @@ cfp_headgear_base = {
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-				NOT = { # Yusseter
-					portrait_imperial_trigger = { 
-					CULTURE_INPUT = epe_uyghur
-					}
-				}
+				NOT = { portrait_imperial_trigger = { CULTURE_INPUT = epe_uyghur_headgear } } # Yusseter
 			
-				is_female = yes
+                OR = {
+                    portrait_era2_trigger = yes  				
+					portrait_era3_trigger = yes  
+					portrait_era4_trigger = yes  
+                } 
+				is_female = yes			
 			}
 		}
 	}
-
 	western_turk_commoners_early = {
 		dna_modifiers = {
 			accessory = {
@@ -1381,7 +1384,7 @@ cfp_headgear_base = {
 				gene = headgear
 				# Yusseter 0
 				template = eastern_turkic_headgear
-				range = { 0.00 0.20 }
+				range = { 0 0.19999 } # Yusseter: eastern_turk_commoner, Should be { 0 0.20 } but doesn't work
 				#template = western_turkic_headgear
 				#range = { 0 0.06 } # For the randomness to work correctly
 				# Yusseter 1
@@ -1390,7 +1393,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear_2
 				template = no_headgear
-				range = { 0 1 }
+				value = 0
 			}
 		}
 		weight = {
@@ -1419,7 +1422,7 @@ cfp_headgear_base = {
 				gene = headgear
 				# Yusseter 0
 				template = eastern_turkic_headgear
-				range = { 0.20 0.40 }
+				range = { 0.2 0.396 } # Yusseter: eastern_turk_low_nobility, Should be { 0.21 0.40 } but doesn't work
 				#template = western_turkic_headgear
 				#range = { 0.07 0.16 } # For the randomness to work correctly
 				# Yusseter 1
@@ -1428,7 +1431,7 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear_2
 				template = no_headgear
-				range = { 0 1 }
+				value = 0
 			}
 		}
 		weight = {
@@ -1457,15 +1460,18 @@ cfp_headgear_base = {
 			accessory = {
 				mode = add
 				gene = headgear
+				# Yusseter 0
 				template = eastern_turkic_headgear
-				range = { 0.50 0.60 } # Yusseter
-				#range = { 0.48 0.59 } # For the randomness to work correctly
+				range = { 0.3961 0.59215 } # Yusseter: eastern_turk_high_nobility, Should be { 0.41 0.60 } but doesn't work
+				#template = western_turkic_headgear
+				#range = { 0.15 0.20 } # For the randomness to work correctly
+				# Yusseter 1
 			}
 			accessory = {
 				mode = add
 				gene = headgear_2
 				template = no_headgear
-				range = { 0 1 }
+				value = 0
 			}
 		}
 		weight = {
@@ -1494,14 +1500,14 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = western_turkic_headgear
-				range = { 0.60 0.80 } # Yusseter
+				range = { 0.59216 0.78823 } # Yusseter: western_turk_royalty, Should be { 0.60 0.79 } but doesn't work
 				#range = { 0.23 0.28 } # For the randomness to work correctly
 			}
 			accessory = {
 				mode = add
 				gene = headgear_2
 				template = no_headgear
-				range = { 0 1 }
+				value = 0
 			}
 		}
 		weight = {
@@ -1528,14 +1534,14 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = western_turkic_headgear
-				range = { 0.80 1.00 } # Yusseter
+				range = { 0.78824 1 } # Yusseter: western_turk_imperial, Should be { 0.80 1 } but doesn't work
 				#range = { 0.30 0.33 } # For the randomness to work correctly
 			}
 			accessory = {
 				mode = add
 				gene = headgear_2
 				template = no_headgear
-				range = { 0 1 }
+				value = 0
 			}
 		}
 		weight = {
@@ -1562,14 +1568,14 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = western_turkic_headgear
-				range = { 0.00 0.20 } # Yusseter
+				range = { 0 0.19999 } # Yusseter: western_turk_commoner, Should be { 0 0.19 } but doesn't work
 				#range = { 0.36 0.48 } # For the randomness to work correctly
 			}
 			accessory = {
 				mode = add
 				gene = headgear_2
 				template = no_headgear
-				range = { 0 1 }
+				value = 0
 			}
 		}
 		weight = {
@@ -1605,14 +1611,14 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = western_turkic_headgear
-				range = { 0.20 0.40 } # Yusseter
+				range = { 0.2 0.396 } # Yusseter: western_turk_low_nobility, Should be { 0.20 0.39 } but doesn't work
 				#range = { 0.50 0.71 } # For the randomness to work correctly
 			}
 			accessory = {
 				mode = add
 				gene = headgear_2
 				template = no_headgear
-				range = { 0 1 }
+				value = 0
 			}
 		}
 		weight = {
@@ -1650,14 +1656,14 @@ cfp_headgear_base = {
 				mode = add
 				gene = headgear
 				template = western_turkic_headgear
-				range = { 0.40 0.60 } # Yusseter
+				range = { 0.3961 0.59215 } # Yusseter: western_turk_high_nobility, Should be { 0.40 0.59 } but doesn't work
 				#range = { 0.71 0.83 } # For the randomness to work correctly
 			}
 			accessory = {
 				mode = add
 				gene = headgear_2
 				template = no_headgear
-				range = { 0 1 }
+				value = 0
 			}
 		}
 		weight = {

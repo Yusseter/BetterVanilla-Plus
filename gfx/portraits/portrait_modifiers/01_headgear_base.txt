@@ -8,6 +8,32 @@ headgear_base = {
 	selection_behavior = weighted_random
 	priority = 1
 
+	yb_test = { # Yusseter
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = tgp_uyghur_headgear
+				value = 0.42745
+				#accessory = male_Uyghur_Noble_Headwear_01
+			}
+			accessory = {
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+				value = 0
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 999
+				debug_only = yes
+				this = character:34178
+			}
+		}
+	}
+
 	##########################################################################
 	####No headgear on the children
 	##########################################################################
@@ -16013,8 +16039,8 @@ ccp4_ugro_permian_high_nobles = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = uyghurized_headgear
-				range = { 0 0.32 }
+				template = tgp_uyghur_headgear
+				range = { 0.11373 0.18039 }
 			}
 		}
 		weight = {
@@ -16043,8 +16069,8 @@ ccp4_ugro_permian_high_nobles = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = uyghurized_headgear
-				range = { 0.33 0.65 }
+				template = tgp_uyghur_headgear
+				range = { 0.22746 0.28627 }
 			}
 		}
 		weight = {
@@ -16065,8 +16091,8 @@ ccp4_ugro_permian_high_nobles = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = uyghur_noble_headgear
-				accessory = male_Uyghur_Noble_Headwear_01
+				template = tgp_uyghur_headgear
+				range = { 0.19608 0.22745 }
 			}
 		}
 		weight = {
@@ -16099,8 +16125,8 @@ ccp4_ugro_permian_high_nobles = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = uyghurized_headgear
-				range = { 0.66 1 }
+				template = tgp_uyghur_headgear
+				range = { 0.3804 0.42745 }
 			}
 		}
 		weight = {
@@ -16244,7 +16270,7 @@ ccp4_ugro_permian_high_nobles = {
 				mode = add
 				gene = headgear
 				template = eastern_turkic_headgear
-				range = { 0.3961 0.59215 } # Yusseter
+				range = { 0.3961 0.59215 } # Yusseter: eastern_turk_high_nobility, Should be { 0.41 0.60 } but doesn't work
 				#range = { 0.48 0.59 } # For the randomness to work correctly
 			}
 			accessory = {
@@ -16304,7 +16330,7 @@ ccp4_ugro_permian_high_nobles = {
 				mode = add
 				gene = headgear
 				template = eastern_turkic_headgear
-				range = { 0.59216 0.78823 } # Yusseter
+				range = { 0.59216 0.78823 } # Yusseter: eastern_turk_royalty, Should be { 0.61 0.80 } but doesn't work
 				#range = { 0.62 0.78 } # For the randomness to work correctly
 			}
 			accessory = {
@@ -16366,7 +16392,7 @@ ccp4_ugro_permian_high_nobles = {
 				mode = add
 				gene = headgear
 				template = eastern_turkic_headgear
-				range = { 0.78824 1 } # Yusseter
+				range = { 0.78824 1 } # Yusseter: eastern_turk_imperial, Should be { 0.81 1 } but doesn't work
 				#range = { 0.81 0.90 } # For the randomness to work correctly
 			}
 			accessory = {
@@ -16584,7 +16610,7 @@ ccp4_ugro_permian_high_nobles = {
 				mode = add
 				gene = headgear
 				template = eastern_turkic_headgear
-				range = { 0.3961 0.59215 } # Yusseter
+				range = { 0.3961 0.59215 } # Yusseter: eastern_turk_high_nobility, Should be { 0.41 0.60 } but doesn't work
 				#range = { 0.48 0.59 } # For the randomness to work correctly
 			}
 			accessory = {
@@ -16662,7 +16688,7 @@ ccp4_ugro_permian_high_nobles = {
 				mode = add
 				gene = headgear
 				template = eastern_turkic_headgear
-				range = { 0.59216 0.78823 } # Yusseter
+				range = { 0.59216 0.78823 } # Yusseter: eastern_turk_royalty, Should be { 0.61 0.80 } but doesn't work
 				#range = { 0.62 0.78 } # For the randomness to work correctly
 			}
 			accessory = {
@@ -16740,7 +16766,7 @@ ccp4_ugro_permian_high_nobles = {
 				mode = add
 				gene = headgear
 				template = eastern_turkic_headgear
-				range = { 0.78824 1 } # Yusseter
+				range = { 0.78824 1 } # Yusseter: eastern_turk_imperial, Should be { 0.81 1 } but doesn't work
 				#range = { 0.81 0.90 } # For the randomness to work correctly
 			}
 			accessory = {
@@ -17197,7 +17223,7 @@ ccp4_ugro_permian_high_nobles = {
 				gene = headgear
 				# Yusseter 0
 				template = eastern_turkic_headgear
-				range = { 0 0.19999 }
+				range = { 0 0.19999 } # Yusseter: eastern_turk_commoner, Should be { 0 0.20 } but doesn't work
 				#template = western_turkic_headgear
 				#range = { 0 0.06 } # For the randomness to work correctly
 				# Yusseter 1
@@ -17275,7 +17301,7 @@ ccp4_ugro_permian_high_nobles = {
 				gene = headgear
 				# Yusseter 0
 				template = eastern_turkic_headgear
-				range = { 0.3961 0.59215 }
+				range = { 0.3961 0.59215 } # Yusseter: eastern_turk_high_nobility, Should be { 0.41 0.60 } but doesn't work
 				#template = western_turkic_headgear
 				#range = { 0.15 0.20 } # For the randomness to work correctly
 				# Yusseter 1
@@ -17313,7 +17339,7 @@ ccp4_ugro_permian_high_nobles = {
 				mode = add
 				gene = headgear
 				template = western_turkic_headgear
-				range = { 0.60 0.79 } # Yusseter
+				range = { 0.59216 0.78823 } # Yusseter: western_turk_royalty, Should be { 0.60 0.79 } but doesn't work
 				#range = { 0.23 0.28 } # For the randomness to work correctly
 			}
 			accessory = {
@@ -17347,7 +17373,7 @@ ccp4_ugro_permian_high_nobles = {
 				mode = add
 				gene = headgear
 				template = western_turkic_headgear
-				range = { 0.80 1 } # Yusseter
+				range = { 0.78824 1 } # Yusseter: western_turk_imperial, Should be { 0.80 1 } but doesn't work
 				#range = { 0.30 0.33 } # For the randomness to work correctly
 			}
 			accessory = {
@@ -17381,7 +17407,7 @@ ccp4_ugro_permian_high_nobles = {
 				mode = add
 				gene = headgear
 				template = western_turkic_headgear
-				range = { 0 0.19 } # Yusseter
+				range = { 0 0.19999 } # Yusseter: western_turk_commoner, Should be { 0 0.19 } but doesn't work
 				#range = { 0.36 0.48 } # For the randomness to work correctly
 			}
 			accessory = {
@@ -17424,7 +17450,7 @@ ccp4_ugro_permian_high_nobles = {
 				mode = add
 				gene = headgear
 				template = western_turkic_headgear
-				range = { 0.20 0.39 } # Yusseter
+				range = { 0.2 0.396 } # Yusseter: western_turk_low_nobility, Should be { 0.20 0.39 } but doesn't work
 				#range = { 0.50 0.71 } # For the randomness to work correctly
 			}
 			accessory = {
@@ -17469,7 +17495,7 @@ ccp4_ugro_permian_high_nobles = {
 				mode = add
 				gene = headgear
 				template = western_turkic_headgear
-				range = { 0.40 0.59 } # Yusseter
+				range = { 0.3961 0.59215 } # Yusseter: western_turk_high_nobility, Should be { 0.40 0.59 } but doesn't work
 				#range = { 0.71 0.83 } # For the randomness to work correctly
 			}
 			accessory = {
@@ -17723,7 +17749,7 @@ ccp4_ugro_permian_high_nobles = {
 				mode = add
 				gene = headgear
 				template = eastern_turkic_headgear
-				range = { 0.3961 0.59215 } # Yusseter
+				range = { 0.3961 0.59215 } # Yusseter: eastern_turk_high_nobility, Should be { 0.41 0.60 } but doesn't work
 				#range = { 0.48 0.59 } # For the randomness to work correctly
 			}
 			accessory = {
@@ -17759,7 +17785,7 @@ ccp4_ugro_permian_high_nobles = {
 				mode = add
 				gene = headgear
 				template = eastern_turkic_headgear
-				range = { 0.59216 0.78823 } # Yusseter
+				range = { 0.59216 0.78823 } # Yusseter: eastern_turk_royalty, Should be { 0.61 0.80 } but doesn't work
 				#range = { 0.62 0.78 } # For the randomness to work correctly
 			}
 			accessory = {
@@ -17795,7 +17821,7 @@ ccp4_ugro_permian_high_nobles = {
 				mode = add
 				gene = headgear
 				template = eastern_turkic_headgear
-				range = { 0.78824 1 } # Yusseter
+				range = { 0.78824 1 } # Yusseter: eastern_turk_imperial, Should be { 0.81 1 } but doesn't work
 				#range = { 0.81 0.90 } # For the randomness to work correctly
 			}
 			accessory = {
@@ -17933,10 +17959,8 @@ ccp4_ugro_permian_high_nobles = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = eastern_turkic_headgear
-				value = 0.78823
-				#template = seljuk_turkic_headgear
-				#range = { 0.16079 0.23921 } # Yusseter: persianized_turk_high_nobility, Should be { 0.21 0.30 } but doesn't work
+				template = seljuk_turkic_headgear
+				range = { 0.16079 0.23921 } # Yusseter: persianized_turk_high_nobility, Should be { 0.21 0.30 } but doesn't work
 				#range = { 0.27 0.35 } # For the randomness to work correctly
 			}
 			accessory = {
@@ -18290,7 +18314,7 @@ ccp4_ugro_permian_high_nobles = {
 				mode = add
 				gene = headgear
 				template = tgp_uyghur_headgear
-				range = { 0 0.19 } # Yusseter
+				range = { 0 0.16078 } # Yusseter: uyghur_commoner, Was { 0 0.19 }
 				#range = { 0 0.04 } # For the randomness to work correctly
 			}
 			accessory = {
@@ -18361,7 +18385,7 @@ ccp4_ugro_permian_high_nobles = {
 				mode = add
 				gene = headgear
 				template = tgp_uyghur_headgear
-				range = { 0.20 0.39 } # Yusseter
+				range = { 0.08236 0.19607 } # Yusseter: uyghur_low_nobility, Was { 0.20 0.39 }
 				#range = { 0.05 0.09 } # For the randomness to work correctly
 			}
 			accessory = {
@@ -18402,7 +18426,7 @@ ccp4_ugro_permian_high_nobles = {
 				mode = add
 				gene = headgear
 				template = tgp_uyghur_headgear
-				range = { 0.20 0.39 } # Yusseter
+				range = { 0.08236 0.19607 } # Yusseter: uyghur_low_nobility, Was { 0.20 0.39 }
 				#range = { 0.05 0.09 } # For the randomness to work correctly
 			}
 			accessory = {
@@ -18473,7 +18497,7 @@ ccp4_ugro_permian_high_nobles = {
 				mode = add
 				gene = headgear
 				template = tgp_uyghur_headgear
-				range = { 0.40 0.59 } # Yusseter
+				range = { 0.19608 0.28627 } # Yusseter: uyghur_high_nobility, Was { 0.40 0.59 }
 				#range = { 0.10 0.14 } # For the randomness to work correctly
 			}
 			accessory = {
@@ -18522,7 +18546,7 @@ ccp4_ugro_permian_high_nobles = {
 				mode = add
 				gene = headgear
 				template = tgp_uyghur_headgear
-				range = { 0.60 0.79 } # Yusseter
+				range = { 0.28628 0.45098 } # Yusseter: uyghur_royalty, Was { 0.60 0.79 }
 				#range = { 0.15 0.16 } # For the randomness to work correctly
 			}
 			accessory = {
@@ -18564,7 +18588,7 @@ ccp4_ugro_permian_high_nobles = {
 				mode = add
 				gene = headgear
 				template = tgp_uyghur_headgear
-				range = { 0.80 1 } # Yusseter
+				range = { 0.45099 0.56862 } # Yusseter: uyghur_imperial, Was { 0.80 1 }
 				#range = { 0.16 0.17 } # For the randomness to work correctly
 			}
 			accessory = {
@@ -18651,12 +18675,9 @@ ccp4_ugro_permian_high_nobles = {
 			accessory = {
 				mode = add
 				gene = headgear
-				# Yusseter 0
-				template = uyghur_turko_mongol_headgear
-				range = { 0 0.19 }
-				#template = tgp_uyghur_headgear
+				template = tgp_uyghur_headgear
+				range = { 0.56863 0.68627 } # Yusseter: uyghur_turko_mongol_commoner, Was { 0 0.19 }
 				#range = { 0.28 0.37 } # For the randomness to work correctly
-				# Yusseter 1
 			}
 			accessory = {
 				mode = add
@@ -18700,12 +18721,9 @@ ccp4_ugro_permian_high_nobles = {
 			accessory = {
 				mode = add
 				gene = headgear
-				# Yusseter 0
-				template = uyghur_turko_mongol_headgear
-				range = { 0.20 0.39 }
-				#template = tgp_uyghur_headgear
+				template = tgp_uyghur_headgear
+				range = { 0.68628 0.80392 } # Yusseter: uyghur_turko_mongol_low_nobility, Was { 0.20 0.39 }
 				#range = { 0.42 0.55 } # For the randomness to work correctly
-				# Yusseter 1
 			}
 			accessory = {
 				mode = add
@@ -18736,12 +18754,9 @@ ccp4_ugro_permian_high_nobles = {
 			accessory = {
 				mode = add
 				gene = headgear
-				# Yusseter 0
-				template = uyghur_turko_mongol_headgear
-				range = { 0.20 0.39 }
-				#template = tgp_uyghur_headgear
+				template = tgp_uyghur_headgear
+				range = { 0.68628 0.80392 } # Yusseter: uyghur_turko_mongol_low_nobility, Was { 0.20 0.39 }
 				#range = { 0.42 0.55 } # For the randomness to work correctly
-				# Yusseter 1
 			}
 			accessory = {
 				mode = add
@@ -18782,12 +18797,9 @@ ccp4_ugro_permian_high_nobles = {
 			accessory = {
 				mode = add
 				gene = headgear
-				# Yusseter 0
-				template = uyghur_turko_mongol_headgear
-				range = { 0.40 0.59 }
-				#template = tgp_uyghur_headgear
+				template = tgp_uyghur_headgear
+				range = { 0.80393 0.92156 } # Yusseter: uyghur_turko_mongol_high_nobility, Was { 0.40 0.59 }
 				#range = { 0.62 0.72 } # For the randomness to work correctly
-				# Yusseter 1
 			}
 			accessory = {
 				mode = add
@@ -18820,12 +18832,9 @@ ccp4_ugro_permian_high_nobles = {
 			accessory = {
 				mode = add
 				gene = headgear
-				# Yusseter 0
-				template = uyghur_turko_mongol_headgear
-				range = { 0 0.19 }
-				#template = tgp_uyghur_headgear
+				template = tgp_uyghur_headgear
+				range = { 0.56863 0.68627 } # Yusseter: uyghur_turko_mongol_commoner, Was { 0 0.19 }
 				#range = { 0.26 0.37 } # For the randomness to work correctly
-				# Yusseter 1
 			}
 			accessory = {
 				mode = add
@@ -18869,12 +18878,9 @@ ccp4_ugro_permian_high_nobles = {
 			accessory = {
 				mode = add
 				gene = headgear
-				# Yusseter 0
-				template = uyghur_turko_mongol_headgear
-				range = { 0.20 0.39 }
-				#template = tgp_uyghur_headgear
+				template = tgp_uyghur_headgear
+				range = { 0.68628 0.80392 } # Yusseter: uyghur_turko_mongol_low_nobility, Was { 0.20 0.39 }
 				#range = { 0.38 0.61 } # For the randomness to work correctly
-				# Yusseter 1
 			}
 			accessory = {
 				mode = add
@@ -18907,12 +18913,9 @@ ccp4_ugro_permian_high_nobles = {
 			accessory = {
 				mode = add
 				gene = headgear
-				# Yusseter 0
-				template = uyghur_turko_mongol_headgear
-				range = { 0.40 0.59 }
-				#template = tgp_uyghur_headgear
+				template = tgp_uyghur_headgear
+				range = { 0.80393 0.92156 } # Yusseter: uyghur_turko_mongol_high_nobility, Was { 0.40 0.59 }
 				#range = { 0.62 0.75 } # For the randomness to work correctly
-				# Yusseter 1
 			}
 			accessory = {
 				mode = add
@@ -18943,12 +18946,9 @@ ccp4_ugro_permian_high_nobles = {
 			accessory = {
 				mode = add
 				gene = headgear
-				# Yusseter 0
-				template = uyghur_turko_mongol_headgear
-				range = { 0.60 0.79 }
-				#template = tgp_uyghur_headgear
+				template = tgp_uyghur_headgear
+				range = { 0.92157 0.98039 } # Yusseter: uyghur_turko_mongol_royalty-imperial_era3, Was { 0.60 0.79 }
 				#range = { 0.76 0.84 } # For the randomness to work correctly
-				# Yusseter 1
 			}
 			accessory = {
 				mode = add
@@ -18977,12 +18977,9 @@ ccp4_ugro_permian_high_nobles = {
 			accessory = {
 				mode = add
 				gene = headgear
-				# Yusseter 0
-				template = uyghur_turko_mongol_headgear
-				range = { 0.80 1 }
-				#template = tgp_uyghur_headgear
+				template = tgp_uyghur_headgear
+				range = { 0.9804 1 } # Yusseter: uyghur_turko_mongol_royalty-imperial_era4, Was { 0.80 1 }
 				#range = { 0.85 0.88 } # For the randomness to work correctly
-				# Yusseter 1
 			}
 			accessory = {
 				mode = add
@@ -19013,12 +19010,9 @@ ccp4_ugro_permian_high_nobles = {
 			accessory = {
 				mode = add
 				gene = headgear
-				# Yusseter 0
-				template = uyghur_turko_mongol_headgear
-				range = { 0.60 0.79 }
-				#template = tgp_uyghur_headgear
+				template = tgp_uyghur_headgear
+				range = { 0.92157 0.98039 } # Yusseter: uyghur_turko_mongol_royalty-imperial_era3, Was { 0.60 0.79 }
 				#range = { 0.89 0.94 } # For the randomness to work correctly
-				# Yusseter 1
 			}
 			accessory = {
 				mode = add
@@ -19048,12 +19042,9 @@ ccp4_ugro_permian_high_nobles = {
 			accessory = {
 				mode = add
 				gene = headgear
-				# Yusseter 0
-				template = uyghur_turko_mongol_headgear
-				range = { 0.80 1 }
-				#template = tgp_uyghur_headgear
+				template = tgp_uyghur_headgear
+				range = { 0.9804 1 } # Yusseter: uyghur_turko_mongol_royalty-imperial_era4, Was { 0.80 1 }
 				#range = { 0.96 1 } # For the randomness to work correctly
-				# Yusseter 1
 			}
 			accessory = {
 				mode = add
@@ -19177,7 +19168,7 @@ ccp4_ugro_permian_high_nobles = {
 				mode = add
 				gene = headgear
 				template = tgp_uyghur_headgear
-				range = { 0.20 0.39 } # Yusseter
+				range = { 0.68628 0.80392 } # Yusseter: uyghur_turko_mongol_low_nobility, Was { 0.20 0.39 }
 				#range = { 0.05 0.09 } # For the randomness to work correctly
 			}
 			accessory = {
@@ -19222,7 +19213,7 @@ ccp4_ugro_permian_high_nobles = {
 				mode = add
 				gene = headgear
 				template = tgp_uyghur_headgear
-				range = { 0.40 0.59 } # Yusseter
+				range = { 0.80393 0.92156 } # Yusseter: uyghur_turko_mongol_high_nobility, Was { 0.40 0.59 }
 				#range = { 0.10 0.14 } # For the randomness to work correctly
 			}
 			accessory = {
@@ -20148,12 +20139,9 @@ ccp4_ugro_permian_high_nobles = {
 			accessory = {
 				mode = add
 				gene = headgear
-				# Yusseter 0
-				template = uyghur_turko_mongol_headgear
-				range = { 0 0.19 }
-				#template = tgp_uyghur_headgear
+				template = tgp_uyghur_headgear
+				range = { 0.56863 0.68627 } # Yusseter: uyghur_turko_mongol_commoner, Was { 0 0.19 }
 				#range = { 0.28 0.37 } # For the randomness to work correctly
-				# Yusseter 1
 			}
 			accessory = {
 				mode = add
@@ -20197,12 +20185,9 @@ ccp4_ugro_permian_high_nobles = {
 			accessory = {
 				mode = add
 				gene = headgear
-				# Yusseter 0
-				template = uyghur_turko_mongol_headgear
-				range = { 0.20 0.39 }
-				#template = tgp_uyghur_headgear
+				template = tgp_uyghur_headgear
+				range = { 0.68628 0.80392 } # Yusseter: uyghur_turko_mongol_low_nobility, Was { 0.20 0.39 }
 				#range = { 0.42 0.55 } # For the randomness to work correctly
-				# Yusseter 1
 			}
 			accessory = {
 				mode = add
@@ -20233,12 +20218,9 @@ ccp4_ugro_permian_high_nobles = {
 			accessory = {
 				mode = add
 				gene = headgear
-				# Yusseter 0
-				template = uyghur_turko_mongol_headgear
-				range = { 0.20 0.39 }
-				#template = tgp_uyghur_headgear
+				template = tgp_uyghur_headgear
+				range = { 0.68628 0.80392 } # Yusseter: uyghur_turko_mongol_low_nobility, Was { 0.20 0.39 }
 				#range = { 0.42 0.55 } # For the randomness to work correctly
-				# Yusseter 1
 			}
 			accessory = {
 				mode = add
@@ -20279,12 +20261,9 @@ ccp4_ugro_permian_high_nobles = {
 			accessory = {
 				mode = add
 				gene = headgear
-				# Yusseter 0
-				template = uyghur_turko_mongol_headgear
-				range = { 0.40 0.59 }
-				#template = tgp_uyghur_headgear
+				template = tgp_uyghur_headgear
+				range = { 0.80393 0.92156 } # Yusseter: uyghur_turko_mongol_high_nobility, Was { 0.40 0.59 }
 				#range = { 0.62 0.72 } # For the randomness to work correctly
-				# Yusseter 1
 			}
 			accessory = {
 				mode = add
@@ -20317,12 +20296,9 @@ ccp4_ugro_permian_high_nobles = {
 			accessory = {
 				mode = add
 				gene = headgear
-				# Yusseter 0
-				template = uyghur_turko_mongol_headgear
-				range = { 0 0.19 }
-				#template = tgp_uyghur_headgear
+				template = tgp_uyghur_headgear
+				range = { 0.56863 0.68627 } # Yusseter: uyghur_turko_mongol_commoner, Was { 0 0.19 }
 				#range = { 0.26 0.37 } # For the randomness to work correctly
-				# Yusseter 1
 			}
 			accessory = {
 				mode = add
@@ -20366,12 +20342,9 @@ ccp4_ugro_permian_high_nobles = {
 			accessory = {
 				mode = add
 				gene = headgear
-				# Yusseter 0
-				template = uyghur_turko_mongol_headgear
-				range = { 0.20 0.39 }
-				#template = tgp_uyghur_headgear
+				template = tgp_uyghur_headgear
+				range = { 0.68628 0.80392 } # Yusseter: uyghur_turko_mongol_low_nobility, Was { 0.20 0.39 }
 				#range = { 0.38 0.61 } # For the randomness to work correctly
-				# Yusseter 1
 			}
 			accessory = {
 				mode = add
@@ -20404,12 +20377,9 @@ ccp4_ugro_permian_high_nobles = {
 			accessory = {
 				mode = add
 				gene = headgear
-				# Yusseter 0
-				template = uyghur_turko_mongol_headgear
-				range = { 0.40 0.59 }
-				#template = tgp_uyghur_headgear
+				template = tgp_uyghur_headgear
+				range = { 0.80393 0.92156 } # Yusseter: uyghur_turko_mongol_high_nobility, Was { 0.40 0.59 }
 				#range = { 0.62 0.75 } # For the randomness to work correctly
-				# Yusseter 1
 			}
 			accessory = {
 				mode = add
@@ -20440,12 +20410,9 @@ ccp4_ugro_permian_high_nobles = {
 			accessory = {
 				mode = add
 				gene = headgear
-				# Yusseter 0
-				template = uyghur_turko_mongol_headgear
-				range = { 0.60 0.79 }
-				#template = tgp_uyghur_headgear
+				template = tgp_uyghur_headgear
+				range = { 0.92157 0.98039 } # Yusseter: uyghur_turko_mongol_royalty-imperial_era3, Was { 0.60 0.79 }
 				#range = { 0.76 0.84 } # For the randomness to work correctly
-				# Yusseter 1
 			}
 			accessory = {
 				mode = add
@@ -20474,12 +20441,9 @@ ccp4_ugro_permian_high_nobles = {
 			accessory = {
 				mode = add
 				gene = headgear
-				# Yusseter 0
-				template = uyghur_turko_mongol_headgear
-				range = { 0.80 1 }
-				#template = tgp_uyghur_headgear
+				template = tgp_uyghur_headgear
+				range = { 0.9804 1 } # Yusseter: uyghur_turko_mongol_royalty-imperial_era4, Was { 0.80 1 }
 				#range = { 0.85 0.88 } # For the randomness to work correctly
-				# Yusseter 1
 			}
 			accessory = {
 				mode = add
@@ -20510,12 +20474,9 @@ ccp4_ugro_permian_high_nobles = {
 			accessory = {
 				mode = add
 				gene = headgear
-				# Yusseter 0
-				template = uyghur_turko_mongol_headgear
-				range = { 0.60 0.79 }
-				#template = tgp_uyghur_headgear
+				template = tgp_uyghur_headgear
+				range = { 0.92157 0.98039 } # Yusseter: uyghur_turko_mongol_royalty-imperial_era3, Was { 0.60 0.79 }
 				#range = { 0.89 0.94 } # For the randomness to work correctly
-				# Yusseter 1
 			}
 			accessory = {
 				mode = add
@@ -20545,12 +20506,9 @@ ccp4_ugro_permian_high_nobles = {
 			accessory = {
 				mode = add
 				gene = headgear
-				# Yusseter 0
-				template = uyghur_turko_mongol_headgear
-				range = { 0.80 1 }
-				#template = tgp_uyghur_headgear
+				template = tgp_uyghur_headgear
+				range = { 0.9804 1 } # Yusseter: uyghur_turko_mongol_royalty-imperial_era4, Was { 0.80 1 }
 				#range = { 0.96 1 } # For the randomness to work correctly
-				# Yusseter 1
 			}
 			accessory = {
 				mode = add
