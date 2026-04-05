@@ -1707,8 +1707,9 @@ cfp_headgear_base = {
 			base = 0
 			modifier = {
 				add = 1
-				portrait_yb_roman_clothing_trigger = yes
-				highest_held_title_tier >= tier_empire
+				portrait_imperial_trigger = {
+                    CULTURE_INPUT = yb_roman 
+                }
 				portrait_religious_pagan_trigger = yes
 			}
 		}
