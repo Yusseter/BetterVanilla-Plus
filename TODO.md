@@ -180,6 +180,7 @@
  * maturidi date
  - language dialect continuas should be the high of language for maximum
  - ryukyua wanua
+ - new yaml language for paradox
 
 # Later
  * titles
