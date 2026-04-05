@@ -1707,9 +1707,7 @@ cfp_headgear_base = {
 			base = 0
 			modifier = {
 				add = 1
-				portrait_imperial_trigger = {
-                    CULTURE_INPUT = yb_roman 
-                }
+				portrait_imperial_trigger = { CULTURE_INPUT = yb_roman }
 				portrait_religious_pagan_trigger = yes
 			}
 		}

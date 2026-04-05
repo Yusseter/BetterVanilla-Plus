@@ -792,9 +792,7 @@ portrait_dde_abbasid_clothing_spouse_trigger = { # Yusseter: From CK3, 2025.12.1
 	has_dlc = "Fashion of the Abbasid Court"
 }
 
-portrait_religious_pagan_trigger = {
-	religion = { is_in_family = rf_pagan }
-}
+portrait_religious_pagan_trigger = { religion = { is_in_family = rf_pagan } }
 
 portrait_religious_muslim_trigger = { # Yusseter: From CK3, 2025.12.11
 	OR = {
