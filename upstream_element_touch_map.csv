@@ -77,7 +77,7 @@ common\scripted_triggers\yb_clothing_triggers.txt(00_clothing_triggers.txt)\port
 common\scripted_triggers\yb_clothing_triggers.txt(00_clothing_triggers.txt)\portrait_era2_trigger, CK3, 2025.11.20
 common\scripted_triggers\yb_clothing_triggers.txt(00_clothing_triggers.txt)\portrait_era3_trigger, CK3, 2025.11.20
 common\scripted_triggers\yb_clothing_triggers.txt(00_clothing_triggers.txt)\portrait_era4_trigger, CK3, 2025.11.20
-common\situation\situations\yb_the_great_steppe.txt(the_great_steppe.txt)\the_great_steppe, CK3, 2026.03.03
+common\situation\situations\the_great_steppe.txt, CK3, 2026.03.03
 common\subject_contracts\groups\subject_contract_groups.txt, CK3, 2026.01.03
 events\dlc\mpo\mpo_interactions_events.txt, CK3, 2026.01.01
 events\religion_events\great_holy_war_events.txt, CK3, 2025.11.24

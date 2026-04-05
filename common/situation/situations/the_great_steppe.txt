@@ -1,4 +1,4 @@
-﻿the_great_steppe = { # Yusseter: From CK3, 2026.03.03
+﻿the_great_steppe = {
 	illustration = "gfx/interface/illustrations/event_story/mpo_steppe_region.dds"
 	situation_group_type = major
 
@@ -1048,3 +1048,5 @@
 		}
 	}
 }
+
+# Yusseter: From CK3, 2026.03.03
