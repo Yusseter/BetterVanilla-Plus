@@ -3718,6 +3718,8 @@
  mid_east_turkmen_50: "Middle East | West Asian | $persian_turkish$ 50"
  turkic_turkmen_02: "Middle East | West Asian | $persian_turkish$ 51"
  turkic_turkmen_03: "Middle East | West Asian | $persian_turkish$ 52"
+ turkic_turkmen_04: "Middle East | West Asian | $persian_turkish$ 53"
+ turkic_turkmen_05: "Middle East | West Asian | $persian_turkish$ 54"
 
  european_circumpolar_blond_1: "North Asia | Siberian | $game_concept_ugrian$ Blond 1"
  european_circumpolar_blond_2: "North Asia | Siberian | $game_concept_ugrian$ Blond 2"
@@ -3747,8 +3749,9 @@
  asian_turkic_13_kipchak: "North Asia | Steppe | $kipchak$ 13"
  asian_turkic_14_kipchak: "North Asia | Steppe | $kipchak$ 14"
  asian_turkic_20_kipchak: "North Asia | Steppe | $kipchak$ 20"
- turkic_kipchak_4: "North Asia | Steppe | $kipchak$ 21"
- turkic_kipchak_1: "North Asia | Steppe | $kipchak$ 22"
+ turkic_kipchak_1: "North Asia | Steppe | $kipchak$ 21"
+ turkic_kipchak_2: "North Asia | Steppe | $kipchak$ 22"
+ turkic_kipchak_4: "North Asia | Steppe | $kipchak$ 23"
 
  asian_turkic_10_uyghur: "North Asia | Steppe | $uyghur$ 10"
  asian_turkic_11_uyghur: "North Asia | Steppe | $uyghur$ 11"
@@ -3892,7 +3895,7 @@
  asian_turkic_28_khazar: "North Asia | Steppe | $khazar$ 28"
  asian_turkic_29_khazar: "North Asia | Steppe | $khazar$ 29"
  asian_turkic_30_khazar: "North Asia | Steppe | $khazar$ 30"
- turkic_khazar_26: "Khazar 31"
+ turkic_khazar_26: "North Asia | Steppe | $khazar$ 31"
 
  asian_turkic_avar_4: "North Asia | Steppe | Avar"
 

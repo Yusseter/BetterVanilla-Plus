@@ -1511,7 +1511,7 @@ east_asian_ainu_24 = {
 }
 
 east_asian_ainu_25 = {
-	template = "indian_rajput_1"
+	template = "indian_kashmiri_1"
 	using = "ainu"
 
 	skin_color = { # Skin color of, asian_emishi_ainu, CK3
@@ -1538,7 +1538,7 @@ east_asian_ainu_25 = {
 }
 
 east_asian_ainu_26 = {
-	template = "indian_rajput_2"
+	template = "indian_kashmiri_2"
 	using = "ainu"
 
 	skin_color = { # Skin color of, asian_emishi_ainu, CK3
@@ -1565,7 +1565,7 @@ east_asian_ainu_26 = {
 }
 
 east_asian_ainu_27 = {
-	template = "indian_rajput_3"
+	template = "indian_kashmiri_3"
 	using = "ainu"
 
 	skin_color = { # Skin color of, asian_emishi_ainu, CK3
@@ -1592,7 +1592,7 @@ east_asian_ainu_27 = {
 }
 
 east_asian_ainu_28 = {
-	template = "indian_rajput_4"
+	template = "indian_kashmiri_4"
 	using = "ainu"
 
 	skin_color = { # Skin color of, asian_emishi_ainu, CK3
@@ -1619,7 +1619,7 @@ east_asian_ainu_28 = {
 }
 
 east_asian_ainu_29 = {
-	template = "indian_rajput_5"
+	template = "indian_kashmiri_5"
 	using = "ainu"
 
 	skin_color = { # Skin color of, asian_emishi_ainu, CK3
@@ -1646,7 +1646,7 @@ east_asian_ainu_29 = {
 }
 
 east_asian_ainu_30 = {
-	template = "indian_rajput_6"
+	template = "indian_kashmiri_6"
 	using = "ainu"
 
 	skin_color = { # Skin color of, asian_emishi_ainu, CK3
@@ -1673,7 +1673,7 @@ east_asian_ainu_30 = {
 }
 
 east_asian_ainu_31 = {
-	template = "indian_rajput_7"
+	template = "indian_kashmiri_7"
 	using = "ainu"
 
 	skin_color = { # Skin color of, asian_emishi_ainu, CK3
@@ -1700,7 +1700,7 @@ east_asian_ainu_31 = {
 }
 
 east_asian_ainu_32 = {
-	template = "indian_rajput_8"
+	template = "indian_kashmiri_8"
 	using = "ainu"
 
 	skin_color = { # Skin color of, asian_emishi_ainu, CK3
@@ -1727,7 +1727,7 @@ east_asian_ainu_32 = {
 }
 
 east_asian_ainu_33 = {
-	template = "indian_rajput_9"
+	template = "indian_kashmiri_9"
 	using = "ainu"
 
 	skin_color = { # Skin color of, asian_emishi_ainu, CK3
@@ -1754,7 +1754,7 @@ east_asian_ainu_33 = {
 }
 
 east_asian_ainu_34 = {
-	template = "indian_rajput_10"
+	template = "indian_kashmiri_10"
 	using = "ainu"
 
 	skin_color = { # Skin color of, asian_emishi_ainu, CK3
@@ -1781,7 +1781,7 @@ east_asian_ainu_34 = {
 }
 
 east_asian_ainu_35 = {
-	template = "indian_rajput_11"
+	template = "indian_kashmiri_11"
 	using = "ainu"
 
 	skin_color = { # Skin color of, asian_emishi_ainu, CK3
@@ -1808,7 +1808,7 @@ east_asian_ainu_35 = {
 }
 
 east_asian_ainu_36 = {
-	template = "indian_rajput_12"
+	template = "indian_kashmiri_12"
 	using = "ainu"
 
 	skin_color = { # Skin color of, asian_emishi_ainu, CK3
@@ -1835,7 +1835,7 @@ east_asian_ainu_36 = {
 }
 
 east_asian_ainu_37 = {
-	template = "indian_rajput_13"
+	template = "indian_kashmiri_13"
 	using = "ainu"
 
 	skin_color = { # Skin color of, asian_emishi_ainu, CK3
@@ -1862,7 +1862,7 @@ east_asian_ainu_37 = {
 }
 
 east_asian_ainu_38 = {
-	template = "indian_rajput_14"
+	template = "indian_kashmiri_14"
 	using = "ainu"
 
 	skin_color = { # Skin color of, asian_emishi_ainu, CK3
@@ -1889,7 +1889,7 @@ east_asian_ainu_38 = {
 }
 
 east_asian_ainu_39 = {
-	template = "indian_rajput_15"
+	template = "indian_kashmiri_15"
 	using = "ainu"
 
 	skin_color = { # Skin color of, asian_emishi_ainu, CK3
@@ -1916,7 +1916,7 @@ east_asian_ainu_39 = {
 }
 
 east_asian_ainu_40 = {
-	template = "indian_rajput_16"
+	template = "indian_kashmiri_16"
 	using = "ainu"
 
 	skin_color = { # Skin color of, asian_emishi_ainu, CK3
@@ -1943,7 +1943,7 @@ east_asian_ainu_40 = {
 }
 
 east_asian_ainu_41 = {
-	template = "indian_rajput_17"
+	template = "indian_kashmiri_17"
 	using = "ainu"
 
 	skin_color = { # Skin color of, asian_emishi_ainu, CK3
@@ -1970,7 +1970,7 @@ east_asian_ainu_41 = {
 }
 
 east_asian_ainu_42 = {
-	template = "indian_rajput_18"
+	template = "indian_kashmiri_18"
 	using = "ainu"
 
 	skin_color = { # Skin color of, asian_emishi_ainu, CK3
@@ -1997,7 +1997,7 @@ east_asian_ainu_42 = {
 }
 
 east_asian_ainu_43 = {
-	template = "indian_rajput_19"
+	template = "indian_kashmiri_19"
 	using = "ainu"
 
 	skin_color = { # Skin color of, asian_tibetan_3, EPE
@@ -2024,7 +2024,7 @@ east_asian_ainu_43 = {
 }
 
 east_asian_ainu_44 = {
-	template = "indian_rajput_20"
+	template = "indian_kashmiri_20"
 	using = "ainu"
 
 	skin_color = { # Skin color of, asian_tibetan_3, EPE
@@ -2051,7 +2051,7 @@ east_asian_ainu_44 = {
 }
 
 east_asian_ainu_45 = {
-	template = "indian_rajput_21"
+	template = "indian_kashmiri_21"
 	using = "ainu"
 
 	skin_color = { # Skin color of, asian_tibetan_4, EPE
@@ -2078,7 +2078,7 @@ east_asian_ainu_45 = {
 }
 
 east_asian_ainu_46 = {
-	template = "indian_rajput_22"
+	template = "indian_kashmiri_22"
 	using = "ainu"
 
 	skin_color = { # Skin color of, asian_tibetan_4, EPE
@@ -2105,7 +2105,7 @@ east_asian_ainu_46 = {
 }
 
 east_asian_ainu_47 = {
-	template = "indian_rajput_23"
+	template = "indian_kashmiri_23"
 	using = "ainu"
 
 	skin_color = { # Skin color of, asian_tibetan_4, EPE
@@ -2132,7 +2132,7 @@ east_asian_ainu_47 = {
 }
 
 east_asian_ainu_48 = {
-	template = "indian_rajput_24"
+	template = "indian_kashmiri_1"
 	using = "ainu"
 
 	skin_color = { # Skin color of, asian_tibetan_5, EPE
@@ -2159,7 +2159,7 @@ east_asian_ainu_48 = {
 }
 
 east_asian_ainu_49 = {
-	template = "indian_rajput_25"
+	template = "indian_kashmiri_2"
 	using = "ainu"
 
 	skin_color = { # Skin color of, asian_tibetan_5, EPE
@@ -2186,7 +2186,7 @@ east_asian_ainu_49 = {
 }
 
 east_asian_ainu_50 = {
-	template = "indian_rajput_26"
+	template = "indian_kashmiri_3"
 	using = "ainu"
 
 	skin_color = { # Skin color of, asian_tibetan_5, EPE
