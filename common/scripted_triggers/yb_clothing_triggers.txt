@@ -220,9 +220,24 @@ portrait_epe_western_turk_clothing_spouse_trigger = { # Yusseter: From EPE, 2025
 }
 
 portrait_epe_seljuk_clothing_trigger = { # Yusseter: From EPE, 2025.11.20
-	portrait_shared_clothing_contents_trigger = {
-		CULTURE_SCOPE = scope:culture
-		CULTURE_FLAG = epe_seljuk
+	OR = {
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = scope:culture
+			CULTURE_FLAG = epe_seljuk
+		}
+		AND = {
+			culture = {
+				OR = {
+					this = culture:turkish
+					any_parent_culture_or_above = { this = culture:turkish }
+				}
+			}
+			portrait_religious_muslim_trigger = yes
+		}
+		AND = {
+			portrait_influenced_muslim_clothing_trigger = yes
+			portrait_era3_trigger = yes
+		}
 	}
 	OR = {
 		portrait_era2_trigger = yes
@@ -237,9 +252,24 @@ portrait_epe_seljuk_clothing_trigger = { # Yusseter: From EPE, 2025.11.20
 	}
 }
 portrait_epe_seljuk_clothing_spouse_trigger = { # Yusseter: From EPE, 2025.11.20
-	portrait_shared_clothing_contents_trigger = {
-		CULTURE_SCOPE = culture
-		CULTURE_FLAG = epe_seljuk
+	OR = {
+		portrait_shared_clothing_contents_trigger = {
+			CULTURE_SCOPE = culture
+			CULTURE_FLAG = epe_seljuk
+		}
+		AND = {
+			culture = {
+				OR = {
+					this = culture:turkish
+					any_parent_culture_or_above = { this = culture:turkish }
+				}
+			}
+			portrait_religious_muslim_trigger = yes
+		}
+		AND = {
+			portrait_influenced_muslim_clothing_spouse_trigger = yes
+			portrait_era3_trigger = yes
+		}
 	}
 	OR = {
 		portrait_era2_trigger = yes
@@ -278,9 +308,15 @@ portrait_yb_ottoman_clothing_trigger = {
 		}
 	}
 	trigger_else = {
-		portrait_shared_clothing_contents_trigger = {
-			CULTURE_SCOPE = scope:culture
-			CULTURE_FLAG = yb_ottoman
+		OR = {
+			portrait_shared_clothing_contents_trigger = {
+				CULTURE_SCOPE = scope:culture
+				CULTURE_FLAG = yb_ottoman
+			}
+			AND = {
+				portrait_influenced_muslim_clothing_trigger = yes
+				portrait_era4_trigger = yes
+			}
 		}
 	}
 
@@ -327,6 +363,10 @@ portrait_yb_ottoman_clothing_spouse_trigger = {
 			CULTURE_SCOPE = culture
 			CULTURE_FLAG = yb_ottoman
 		}
+		AND = {
+			portrait_influenced_muslim_clothing_spouse_trigger = yes
+			portrait_era4_trigger = yes
+		}
 	}
 
 	portrait_era4_trigger = yes
@@ -342,9 +382,14 @@ portrait_epe_eastern_turk_muslim_clothing_trigger = { # Yusseter: From EPE, 2025
 	portrait_yb_ottoman_clothing_trigger = no
 	portrait_siniticized_clothing_trigger = no
 	OR = {
-		portrait_mongol_clothing_trigger = yes
 		portrait_epe_eastern_turk_clothing_trigger = yes
-		portrait_epe_western_turk_clothing_trigger = yes
+		AND = {
+			portrait_era4_trigger = yes
+			OR = {
+				portrait_mongol_clothing_trigger = yes
+				portrait_epe_western_turk_clothing_trigger = yes
+			}
+		}
 	}
 	trigger_if = {
 		limit = { exists = this	}
@@ -361,9 +406,14 @@ portrait_epe_eastern_turk_muslim_clothing_spouse_trigger = { # Yusseter: From EP
 	portrait_yb_ottoman_clothing_spouse_trigger = no
 	portrait_siniticized_clothing_spouse_trigger = no
 	OR = {
-		portrait_mongol_clothing_spouse_trigger = yes
 		portrait_epe_eastern_turk_clothing_spouse_trigger = yes
-		portrait_epe_western_turk_clothing_spouse_trigger = yes
+		AND = {
+			portrait_era4_trigger = yes
+			OR = {
+				portrait_mongol_clothing_spouse_trigger = yes
+				portrait_epe_western_turk_clothing_spouse_trigger = yes
+			}
+		}
 	}
 	NOR = {
 		government_has_flag = government_has_herd
@@ -716,11 +766,7 @@ portrait_epe_islamic_iranian_clothing_trigger = { # Yusseter: From EPE, 2025.11.
 		portrait_iranian_clothing_trigger = yes
 		AND = {
 			portrait_influenced_muslim_clothing_trigger = yes
-			OR = {
-				portrait_era2_trigger = yes
-				portrait_era3_trigger = yes
-				portrait_era4_trigger = yes
-			}
+			portrait_era2_trigger = yes
 		}
 	}
 }
@@ -731,11 +777,7 @@ portrait_epe_islamic_iranian_clothing_spouse_trigger = { # Yusseter: From EPE, 2
 		portrait_iranian_clothing_spouse_trigger = yes
 		AND = {
 			portrait_influenced_muslim_clothing_spouse_trigger = yes
-			OR = {
-				portrait_era2_trigger = yes
-				portrait_era3_trigger = yes
-				portrait_era4_trigger = yes
-			}
+			portrait_era2_trigger = yes
 		}
 	}
 }
@@ -813,10 +855,10 @@ portrait_influenced_muslim_clothing_trigger = {
 			CULTURE_SCOPE = scope:culture
 			CULTURE_FLAG = epe_armenian
 		}
-		portrait_shared_clothing_contents_trigger = {
-			CULTURE_SCOPE = scope:culture
-			CULTURE_FLAG = epe_seljuk
-		}
+		#portrait_shared_clothing_contents_trigger = {
+		#	CULTURE_SCOPE = scope:culture
+		#	CULTURE_FLAG = epe_seljuk
+		#}
 		portrait_shared_clothing_contents_trigger = {
 			CULTURE_SCOPE = scope:culture
 			CULTURE_FLAG = byzantine
@@ -828,13 +870,13 @@ portrait_influenced_muslim_clothing_trigger = {
 				portrait_era4_trigger = yes
 			}
 		}
-		AND = {
-			portrait_shared_clothing_contents_trigger = {
-				CULTURE_SCOPE = scope:culture
-				CULTURE_FLAG = turkic
-			}
-			portrait_era1_trigger = yes
-		}
+		#AND = {
+		#	portrait_shared_clothing_contents_trigger = {
+		#		CULTURE_SCOPE = scope:culture
+		#		CULTURE_FLAG = turkic
+		#	}
+		#	portrait_era1_trigger = yes
+		#}
 	}
 	trigger_if = {
 		limit = { exists = this	}
@@ -855,10 +897,10 @@ portrait_influenced_muslim_clothing_spouse_trigger = {
 			CULTURE_SCOPE = culture
 			CULTURE_FLAG = epe_armenian
 		}
-		portrait_shared_clothing_contents_trigger = {
-			CULTURE_SCOPE = culture
-			CULTURE_FLAG = epe_seljuk
-		}
+		#portrait_shared_clothing_contents_trigger = {
+		#	CULTURE_SCOPE = culture
+		#	CULTURE_FLAG = epe_seljuk
+		#}
 		portrait_shared_clothing_contents_trigger = {
 			CULTURE_SCOPE = culture
 			CULTURE_FLAG = byzantine
@@ -870,13 +912,13 @@ portrait_influenced_muslim_clothing_spouse_trigger = {
 				portrait_era4_trigger = yes
 			}
 		}
-		AND = {
-			portrait_shared_clothing_contents_trigger = {
-				CULTURE_SCOPE = culture
-				CULTURE_FLAG = turkic
-			}
-			portrait_era1_trigger = yes
-		}
+		#AND = {
+		#	portrait_shared_clothing_contents_trigger = {
+		#		CULTURE_SCOPE = culture
+		#		CULTURE_FLAG = turkic
+		#	}
+		#	portrait_era1_trigger = yes
+		#}
 	}
 	NOR = {
 		government_has_flag = government_has_herd
@@ -1329,7 +1371,7 @@ portrait_era_pagan_roman_trigger = {
 	NAND = {
 		current_year >= 300
 		scope:year_of_birth >= 275
-		scope:year_of_birth < 325
+		scope:year_of_birth < 425
 		scope:age >= 16
 	}
 }
@@ -1339,12 +1381,12 @@ portrait_era_nicaean_roman_trigger = {
 	OR = {
 		AND = {
 			scope:year_of_birth >= 275
-			scope:year_of_birth < 325
+			scope:year_of_birth < 425
 			scope:age >= 16
 		}
 		AND = {
 			scope:year_of_birth >= 310
-			scope:year_of_birth < 460
+			scope:year_of_birth < 450
 			OR = {
 				current_year < 450
 				is_alive = no
@@ -1359,25 +1401,39 @@ portrait_era_nicaean_roman_trigger = {
 }
 
 portrait_era_chalcedonian_roman_trigger = {
-	current_year >= 530
+	current_year >= 450
 	OR = {
 		AND = {
-			scope:year_of_birth >= 505
-			scope:year_of_birth < 555
+			scope:year_of_birth >= 425
+			scope:year_of_birth < 575
 			scope:age >= 16
 		}
 		AND = {
-			scope:year_of_birth >= 540
-			scope:year_of_birth < 690
+			scope:year_of_birth >= 460
+			scope:year_of_birth < 600
 			OR = {
-				current_year < 680
+				current_year < 600
 				is_alive = no
 			}
 		}
 		AND = {
-			scope:year_of_birth >= 540
-			scope:year_of_birth < 696
+			scope:year_of_birth >= 460
+			scope:year_of_birth < 616
 			scope:age < 16
+		}
+	}
+}
+
+portrait_era_post_schism_roman_trigger = {
+	current_year >= 620
+	OR = {
+		AND = {
+			scope:year_of_birth >= 600
+			scope:year_of_birth < 725
+			scope:age >= 16
+		}
+		AND = {
+			scope:year_of_birth >= 610
 		}
 	}
 }

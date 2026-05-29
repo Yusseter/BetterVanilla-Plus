@@ -14,8 +14,8 @@ headgear_base = {
 				mode = add
 				gene = headgear
 				template = tgp_uyghur_headgear
-				value = 0.42745
-				#accessory = male_Uyghur_Noble_Headwear_01
+				#value = 0.42745
+				accessory = m_epe_sino_iranian_cap_04_lo
 			}
 			accessory = {
 				mode = add
@@ -29,7 +29,14 @@ headgear_base = {
 			modifier = {
 				add = 999
 				debug_only = yes
-				this = character:34178
+				#this = character:34178
+				house ?= {
+					OR = {
+						has_base_name = "dynn_Zhao_8D99"
+						has_base_name = "dynn_Jo_8D99"
+						has_base_name = "dynn_Trieu_8D99"
+					}
+				}
 			}
 		}
 	}
@@ -16720,7 +16727,8 @@ ccp4_ugro_permian_high_nobles = {
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-				portrait_epe_uyghur_headgear_clothing_trigger = no # Yusseter
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
+				portrait_epe_eastern_turk_muslim_clothing_trigger = no # Yusseter
 					
                 OR = {
                     portrait_era2_trigger = yes  				
@@ -16748,7 +16756,8 @@ ccp4_ugro_permian_high_nobles = {
                     CULTURE_INPUT = epe_seljuk
                     }
 				}
-				portrait_epe_uyghur_headgear_clothing_trigger = no # Yusseter
+				portrait_epe_uyghur_clothing_trigger = no # Yusseter
+				portrait_epe_eastern_turk_muslim_clothing_trigger = no # Yusseter
 				
                 OR = {
                     portrait_era2_trigger = yes  				

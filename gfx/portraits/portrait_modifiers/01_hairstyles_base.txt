@@ -3584,7 +3584,7 @@ hairstyles = {
             accessory = {
                 mode = add
                 gene = hairstyles
-                template = turkic_hairstyles_afro
+                template = turkic_hairstyles_curly # Yusseter: turkic_hairstyles_afro
                 range = { 0 1 } # For the randomness to work correctly
             }
         }   

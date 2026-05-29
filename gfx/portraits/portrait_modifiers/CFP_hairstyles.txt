@@ -121,23 +121,34 @@ cfp_hairstyles = {
                 add = 100
 				exists = this
 				# Yusseter 0
-				culture = {
-					any_parent_culture_or_above = {
-						this = culture:mogyer
-					}
-				}
+                is_culture_or_descended_from_trigger = { CULTURE = culture:mogyer }
+                #culture = { is_from_this_culture = { CULTURE = mogyer } }
 				OR = {
 					portrait_epe_western_turk_clothing_trigger = yes
 					portrait_western_clothing_trigger = yes
 				}
-				#culture = { has_cultural_pillar = heritage_magyar }
-				# Yusseter 1
 				OR = {
-					portrait_has_trait_trigger = { TRAIT = education_martial_1 }
-					portrait_has_trait_trigger = { TRAIT = education_martial_2 }
-					portrait_has_trait_trigger = { TRAIT = education_martial_3 }
 					portrait_has_trait_trigger = { TRAIT = education_martial_4 }
+					portrait_has_trait_trigger = { TRAIT = education_martial_5 }
+                    trigger_if = {
+                        limit = {
+							has_realm_law = camp_purpose_mercenaries
+							has_realm_law = camp_purpose_brigands
+							government_has_flag = government_is_mercenary
+                        }
+						portrait_has_trait_trigger = { TRAIT = education_martial_1 }
+						portrait_has_trait_trigger = { TRAIT = education_martial_2 }
+						portrait_has_trait_trigger = { TRAIT = education_martial_3 }
+                    }
 				}
+				#culture = { has_cultural_pillar = heritage_magyar }
+				#OR = {
+				#	portrait_has_trait_trigger = { TRAIT = education_martial_1 }
+				#	portrait_has_trait_trigger = { TRAIT = education_martial_2 }
+				#	portrait_has_trait_trigger = { TRAIT = education_martial_3 }
+				#	portrait_has_trait_trigger = { TRAIT = education_martial_4 }
+				#}
+				# Yusseter 1
             }
             modifier = {
                 add = -100
