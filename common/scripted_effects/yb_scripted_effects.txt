@@ -488,7 +488,7 @@ yb_culture_setup_effects = {
 			}
 
 			if = {
-				limit = { is_from_this_culture = { CULTURE = tocharian } }
+				limit = { is_from_this_culture2 = { CULTURE = culture:tocharian } }
 				set_culture_pillar = language_tocharian_a
 			}
 			else_if = {

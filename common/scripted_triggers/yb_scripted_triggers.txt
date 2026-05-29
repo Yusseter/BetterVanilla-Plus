@@ -3,9 +3,7 @@
 is_from_this_culture = {
 	OR = {
 		this = culture:$CULTURE$
-		any_parent_culture_or_above = {
-			this = culture:$CULTURE$
-		}
+		any_parent_culture_or_above = { this = culture:$CULTURE$ }
 	}
 }
 
